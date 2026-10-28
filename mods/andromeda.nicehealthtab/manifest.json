@@ -55,7 +55,7 @@
     "pr_url": null,
     "contact_url": null
   },
-  "work_stage": "unreviewed_machine_draft",
+  "work_stage": "reviewed_pending_runtime",
   "inventory": {
     "saved_records": 0,
     "historical_approved_records": 0,
@@ -68,19 +68,37 @@
         "local-translation/20261026/run-share95-20261027/drafts",
         "local-translation/20261026/run/drafts"
       ],
-      "work_stage": "unreviewed_machine_draft",
+      "work_stage": "reviewed_pending_runtime",
       "historical_batch_runtime_verified_keys": 0,
       "runtime_evidence": null,
-      "runtime_scope": "Earlier isolated managed-batch load; not a test of a new standalone public payload"
+      "runtime_scope": "Earlier isolated managed-batch load; not a test of a new standalone public payload",
+      "codex_source_targets": 0,
+      "semantic_review": {
+        "reviewed_tasks": 1,
+        "unreviewed_model_tasks": 0,
+        "decisions": {
+          "approve": 1
+        },
+        "target_bindings": 1,
+        "complete_for_saved_model_tasks": true,
+        "status": "reviewed_pending_runtime",
+        "evidence_sha256": [
+          "3e071c71f3d0b14e617d702d566fc6087391e88efe058ae1683401f4ea7fd7ca"
+        ],
+        "reviewer": "OpenAI Codex",
+        "original_generator": "local_model",
+        "raw_drafts_remain_unapproved": true,
+        "scope": "Saved-model linguistic review only; no current-source, runtime, rights or release approval"
+      }
     },
     "coverage_scope": "saved_static_extraction_lower_bound; not complete runtime coverage",
     "native_russian_rows_in_snapshot": 119,
-    "checked_at": "2026-10-28T10:30:30.068317+00:00",
+    "checked_at": "2026-10-28T13:25:05.099005+00:00",
     "provenance_counts": {},
     "attribution_licenses": {},
     "third_party_candidates": [],
     "original_license_evidence": [],
-    "work_stage": "unreviewed_machine_draft",
+    "work_stage": "reviewed_pending_runtime",
     "local_static_audit": {
       "checked_at": null,
       "issue_kinds": [],

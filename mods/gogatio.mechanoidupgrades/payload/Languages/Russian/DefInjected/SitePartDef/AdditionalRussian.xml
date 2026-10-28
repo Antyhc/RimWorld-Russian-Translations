@@ -1,0 +1,7 @@
+<?xml version='1.0' encoding='utf-8'?>
+<LanguageData>
+  <MU_AncientComplex_Upgrades.approachOrderString>Исследовать объект «{0}»</MU_AncientComplex_Upgrades.approachOrderString>
+  <MU_AncientComplex_Upgrades.approachingReportString>Исследование объекта «{0}».</MU_AncientComplex_Upgrades.approachingReportString>
+  <MU_AncientComplex_Upgrades.description>Древний комплекс, в котором находится труп механитора. Можно попытаться проникнуть в это опасное сооружение и извлечь механлинк для собственного использования.</MU_AncientComplex_Upgrades.description>
+  <MU_AncientComplex_Upgrades.label>Древний комплекс механитора</MU_AncientComplex_Upgrades.label>
+</LanguageData>

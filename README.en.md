@@ -14,6 +14,7 @@ First releases for **RimWorld 1.7**:
 | [Designator Shapes](https://steamcommunity.com/sharedfiles/filedetails/?id=3828790605) | 208 | Public page verified anonymously |
 | [Yet Another Research Tree](https://steamcommunity.com/sharedfiles/filedetails/?id=3828790757) | 30 | Public page verified anonymously |
 | [Smart Medicine — Continued](https://steamcommunity.com/sharedfiles/filedetails/?id=3828790822) | 7 | Submitted; Steam automatic content inspection pending |
+| [Mechanoid Upgrades](https://steamcommunity.com/sharedfiles/filedetails/?id=3828883103) | 108 | Public page verified anonymously |
 
 YART and Smart Medicine fill missing strings while preserving their 79 and 48
 bundled Russian entries. All four subscribed Workshop copies were loaded in an
@@ -22,8 +23,15 @@ settings windows were inspected. Nine Core localization errors were identical
 to the baseline; the packs added no localization errors. Personal configuration
 hashes were unchanged. No colony playthrough or extended gameplay test was done.
 
+Mechanoid Upgrades passed two separate minimal loads with Core, Biotech,
+Harmony and the original: 108/108 English control and Russian values matched;
+the existing 52 localization errors were unchanged. This tests the prepared
+package; all 18 subscribed Workshop files matched the package exactly, while
+that copy's game-load check is recorded separately. Biotech was
+also added and verified as required DLC metadata on Workshop.
+
 The [collection](https://steamcommunity.com/sharedfiles/filedetails/?id=3828791160)
-has been created through Steam API with four members, but website publication
+has been created through Steam API with five members, but website publication
 is blocked by Steam error 15, “Access denied”, when the owner saves its title
 and description. Use the direct item links above.
 
@@ -35,8 +43,25 @@ test. Unreviewed machine drafts are excluded from release payloads.
 
 Open upstream contributions: [Designator Shapes](https://github.com/merthsoft/designator-shapes/pull/15),
 [No Burn Metal](https://github.com/Nonunon/NoBurnMetal/pull/1), and
-[YART](https://github.com/csh1668/YetAnotherResearchTree/pull/6).
+[YART](https://github.com/csh1668/YetAnotherResearchTree/pull/6). A ReGrowth addition was
+submitted to [Vanilla Russian Expanded #46](https://github.com/OneCodeUnit/VanillaRussianExpanded/pull/46),
+a community translation repository; original-native acceptance is not claimed.
 Author responses are pending; none has been accepted yet.
+
+Separately from public releases, 42 managed private packs passed a 3474-value
+load check. Codex individually reviewed all 616 local-model drafts: 291 unchanged,
+315 revised and ten held. A strict private candidate contains 473 values from
+eight mods; the actual combined readback matched **3947/3947** values. The complete
+988-error language baseline was unchanged, with zero added errors. The stage
+preserved 136 existing Russian values, coalesced 20 equivalent targets, held
+87 targets and retained three brand names. This is isolated load/field testing,
+not a colony playthrough, approval to install all 606 linguistic candidates or
+permission to publish protected text. [Counts and evidence hashes](reports/reviewed-batches-2026-10-28.json)
+are public; these private translation texts are not. Four Rimatomics settings
+captions remain English; Runtime98 does not cover the entire UI. After the Dubs
+Mint Menus update, two fresh game boots again matched 3947/3947 values and the
+isolated-profile launcher guard now passes. It applied 96 UI handlers and held
+two handlers from the changed DLL, preserving the assembly hash guard.
 
 ## Installation
 
@@ -58,6 +83,8 @@ The four previews are original typographic designs with a consistent `RUSSIAN`
 caption. They use no original mod artwork; permission requests for original
 previews remain separate. Other translations with unconfirmed distribution
 rights are held from publication.
+A [single permission request](https://github.com/AobaKuma/MechsuitFramework/issues/34)
+covers five AOBA mods; no response or distribution permission is claimed.
 
 Translations are AI-assisted. `ai_reviewed` means an AI semantic review against
 the source; independent human proofreading is not claimed. Static checks,
@@ -70,7 +97,7 @@ uses CC BY-NC-SA 4.0; its packages are not duplicated automatically.
 
 Every `mods/*/manifest.json` is discovered automatically, with no fixed mod
 limit. Monitoring covers 166 original Workshop IDs, 24 official GitHub
-repositories and three PRs. Workshop metadata detects mod updates; string
+repositories and four PRs. Workshop metadata detects mod updates; string
 changes are checked where file sources are configured. Updates generate a
 review queue while preserving existing Russian text. Translation and release
 updates still require review. Collection membership changes were verified

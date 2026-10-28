@@ -1,0 +1,13 @@
+<?xml version='1.0' encoding='utf-8'?>
+<LanguageData>
+  <MU_AllowATier.description>Разрешает улучшения уровня A.</MU_AllowATier.description>
+  <MU_AllowATier.label>Разрешить класс A</MU_AllowATier.label>
+  <MU_AllowBTier.description>Разрешает улучшения уровня B.</MU_AllowBTier.description>
+  <MU_AllowBTier.label>разрешить уровень B</MU_AllowBTier.label>
+  <MU_AllowCTier.description>Разрешает улучшения уровня C.</MU_AllowCTier.description>
+  <MU_AllowCTier.label>Разрешить уровень C</MU_AllowCTier.label>
+  <MU_AllowCorpsesWithUpgrades.description>Разрешить трупы механоидов с установленными улучшениями.</MU_AllowCorpsesWithUpgrades.description>
+  <MU_AllowCorpsesWithUpgrades.label>разрешить трупы с улучшениями</MU_AllowCorpsesWithUpgrades.label>
+  <MU_AllowNonTier.description>Разрешить улучшения без класса.</MU_AllowNonTier.description>
+  <MU_AllowNonTier.label>Разрешить предметы без уровня</MU_AllowNonTier.label>
+</LanguageData>

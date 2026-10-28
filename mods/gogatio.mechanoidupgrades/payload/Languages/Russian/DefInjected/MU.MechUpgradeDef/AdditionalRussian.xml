@@ -1,0 +1,11 @@
+<?xml version='1.0' encoding='utf-8'?>
+<LanguageData>
+  <MU_FrequencyAmplifier.description>Усилитель гразерного генератора механоида. Повышает плотность луча и скорость фокусировки, но требует значительного дополнительного расхода энергии.</MU_FrequencyAmplifier.description>
+  <MU_FrequencyAmplifier.label>Усилитель частоты</MU_FrequencyAmplifier.label>
+  <MU_MechChip_Range_A.description>Небольшой чип, который можно установить в мозг механоида. Значительно увеличивает дальность стрельбы.</MU_MechChip_Range_A.description>
+  <MU_MechChip_Range_A.label>Чип увеличения дальности уровня A</MU_MechChip_Range_A.label>
+  <MU_MechChip_Range_B.description>Небольшой чип, который можно установить в мозг механоида. Умеренно увеличивает дальность стрельбы.</MU_MechChip_Range_B.description>
+  <MU_MechChip_Range_B.label>чип увеличения дальности уровня B</MU_MechChip_Range_B.label>
+  <MU_MechChip_Range_C.description>Небольшой чип, который можно установить в мозг механоида. Немного увеличивает дальность стрельбы.</MU_MechChip_Range_C.description>
+  <MU_MechChip_Range_C.label>Чип увеличения дальности уровня C</MU_MechChip_Range_C.label>
+</LanguageData>

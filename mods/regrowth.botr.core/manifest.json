@@ -35,9 +35,14 @@
     "workshop_status": "not_published"
   },
   "integration": {
-    "status": "not_sent",
-    "pr_url": null,
-    "contact_url": null
+    "status": "pr_submitted",
+    "pr_url": "https://github.com/OneCodeUnit/VanillaRussianExpanded/pull/46",
+    "contact_url": null,
+    "target_kind": "community_translation",
+    "target_repository_url": "https://github.com/OneCodeUnit/VanillaRussianExpanded",
+    "head_sha": "256ce8f6cc06c909bf24be1f73ad8b505a8f1b34",
+    "submitted_at": "2026-10-28T13:16:47Z",
+    "original_native_accepted": false
   },
   "original": {
     "author": "Helixien",
@@ -81,7 +86,7 @@
       }
     ],
     "coverage_scope": "saved_static_extraction_lower_bound; not complete runtime coverage",
-    "checked_at": "2026-10-28T10:30:30.068317+00:00",
+    "checked_at": "2026-10-28T13:25:05.099005+00:00",
     "original_license_evidence": [
       {
         "relative_path": "LICENSE",
@@ -108,7 +113,9 @@
       "work_stage": "reviewed_uninstalled",
       "historical_batch_runtime_verified_keys": 23,
       "runtime_evidence": "reviews/20261028/final-managed-proof.json",
-      "runtime_scope": "Earlier isolated managed-batch load; not a test of a new standalone public payload"
+      "runtime_scope": "Earlier isolated managed-batch load; not a test of a new standalone public payload",
+      "codex_source_targets": 23,
+      "semantic_review": null
     },
     "work_stage": "installed_local",
     "saved_translation_store": true

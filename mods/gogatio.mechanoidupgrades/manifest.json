@@ -24,31 +24,64 @@
   },
   "rights": {
     "translation": {
-      "status": "unknown",
-      "license": null,
-      "evidence": null,
-      "attribution": null
+      "status": "confirmed",
+      "license": "MIT",
+      "evidence": "https://steamcommunity.com/sharedfiles/filedetails/?id=3365118555",
+      "attribution": "Original mod: Mechanoid Upgrades by GoGaTio.\nOriginal Workshop: https://steamcommunity.com/sharedfiles/filedetails/?id=3365118555\nUpstream text permission: MIT, Copyright (c)2025GoGaTio; full notice retained in License.txt.\nRussian additions: Antyhc,2026; AI-assisted drafting (local translation model and OpenAI Codex), semantic review by OpenAI Codex; offered under MIT.\nOnly108 own additions are included (20previous Codex additions +88reviewed local-model additions). Existing or third-party Russian, original code, assemblies, textures, artwork and audio are not redistributed.\nOriginal typographic cover by Antyhc; no original mod art used.\nValidation records are maintained separately in the project registry. Large-profile QA alone does not establish standalone compatibility. No long-gameplay test or independent human proofreading is claimed.\n",
+      "license_evidence_file": "rights-evidence.json",
+      "required_notice_files": {
+        "About/License.txt": "5b61e48e8cf68182afdbec8c9ae5e41fc37bcdfb8756f264d5f1a2192a6793d1",
+        "About/Credits.txt": "732ed8cff1942d0e382c932e20613893585adebd5f49555e4db1c537f2f8ddaa"
+      }
     },
     "icon": {
-      "status": "unknown",
-      "license": null,
-      "evidence": null,
-      "attribution": null
+      "status": "confirmed",
+      "kind": "original_typographic_fallback",
+      "license": "MIT",
+      "evidence": "scripts/make_original_cover.py; user-authorized original typographic design",
+      "attribution": "Original typographic cover by Antyhc; no original mod artwork used",
+      "source_sha256": "647052416e81d53b5160153c81862c13010e76fc216ff5fc4ecd26d6223b0bfb",
+      "preview_sha256": "647052416e81d53b5160153c81862c13010e76fc216ff5fc4ecd26d6223b0bfb",
+      "original_mod_art_used": false
     }
   },
   "qa": {
-    "technical": "pending",
-    "linguistic": "pending",
-    "source_current": false,
-    "in_game": "not_tested",
-    "checked_at": "2026-10-28T10:30:30.068317+00:00"
+    "technical": "passed",
+    "linguistic": "ai_reviewed",
+    "source_current": true,
+    "in_game": "passed",
+    "checked_at": "2026-10-28T14:00:35.157035+00:00",
+    "source_checked_at": "2026-10-28T14:00:35.157035+00:00",
+    "payload_sha256": "f6bca16539c18222d277d9fc224c2edcccc43fe921114f8e83acbedb08c621a8",
+    "source_snapshot_sha256": "3e7e18b6b67fe6b30fa55f2dfa9661bc6b8712210f50aa8e85dfb7f5667d3ecf",
+    "evidence": "qa-evidence.json",
+    "coverage": "108 own entries; all source and selected text hashes verified, but large-profile QA is not standalone compatibility proof.",
+    "standalone_minimal_game_test": "passed_actual_108_field_readback",
+    "game_test_evidence": "game-test-evidence.json",
+    "game_test_evidence_sha256": "5c0120cc8d69c32e4c80fb0465de67c5f8c47df99de4f01a282cd1d3a979e4dc",
+    "game_test_scope": "Two actual-game isolated main-menu loads: Core+Biotech+Harmony+original, then same context plus exact108-entry payload. Actual English/Russian values and source ownership verified. Existing52original/base-game Russian localization errors are unchanged. This is not a long-gameplay test. Candidate Hackable props type is not claimed observed when its normal injected path already resolved; separate control unique-component proof and matching actual normalized paths are retained.",
+    "game_evidence": "game-test-evidence.json",
+    "gameplay_tested": false,
+    "workshop_install_tested": false
   },
   "publication": {
     "github_url": "https://github.com/Antyhc/RimWorld-Russian-Translations/tree/main/mods/gogatio.mechanoidupgrades",
-    "github_status": "metadata_only",
-    "workshop_url": null,
-    "workshop_id": null,
-    "workshop_status": "not_published"
+    "github_status": "prepared_not_published",
+    "workshop_url": "https://steamcommunity.com/sharedfiles/filedetails/?id=3828883103",
+    "workshop_id": "3828883103",
+    "workshop_status": "published",
+    "release_blockers": [],
+    "anonymous_page_verified": true,
+    "dependency_verified": true,
+    "published_at": "2026-10-28T14:11:35.984917+00:00",
+    "collection_id": "3828791160",
+    "collection_member_verified": true,
+    "installation_tested": true,
+    "anonymous_page_checked_at": "2026-10-28T14:13:13.005620+00:00",
+    "anonymous_page_evidence": "Unauthenticated browser page shows title, subscribe action, 108-entry bilingual description, original dependency and Biotech DLC; Steam login link visible.",
+    "dlc_dependency_app_id": "1826140",
+    "dlc_dependency_verified": true,
+    "installation_scope": "Official Steam subscription/download; exact18-file payload hash comparison. Actual Workshop-copy game load is a separate check."
   },
   "integration": {
     "status": "not_sent",
@@ -71,11 +104,31 @@
       "work_stage": "reviewed_uninstalled",
       "historical_batch_runtime_verified_keys": 20,
       "runtime_evidence": "reviews/20261028/final-managed-proof.json",
-      "runtime_scope": "Earlier isolated managed-batch load; not a test of a new standalone public payload"
+      "runtime_scope": "Earlier isolated managed-batch load; not a test of a new standalone public payload",
+      "codex_source_targets": 20,
+      "semantic_review": {
+        "reviewed_tasks": 96,
+        "unreviewed_model_tasks": 0,
+        "decisions": {
+          "revise": 63,
+          "approve": 32,
+          "hold": 1
+        },
+        "target_bindings": 96,
+        "complete_for_saved_model_tasks": true,
+        "status": "reviewed_pending_runtime",
+        "evidence_sha256": [
+          "3e071c71f3d0b14e617d702d566fc6087391e88efe058ae1683401f4ea7fd7ca"
+        ],
+        "reviewer": "OpenAI Codex",
+        "original_generator": "local_model",
+        "raw_drafts_remain_unapproved": true,
+        "scope": "Saved-model linguistic review only; no current-source, runtime, rights or release approval"
+      }
     },
     "coverage_scope": "saved_static_extraction_lower_bound; not complete runtime coverage",
     "native_russian_rows_in_snapshot": 579,
-    "checked_at": "2026-10-28T10:30:30.068317+00:00",
+    "checked_at": "2026-10-28T13:25:05.099005+00:00",
     "provenance_counts": {},
     "attribution_licenses": {},
     "third_party_candidates": [],
@@ -94,6 +147,39 @@
       "issue_count": 0,
       "new_files_outside_saved_source_inventory_checked": false
     },
-    "saved_translation_store": false
+    "saved_translation_store": false,
+    "reviewed_model_private_test": {
+      "status": "partial_verified",
+      "verified_target_values": 88,
+      "game_version": "1.7.4990 rev1069",
+      "scope": "Private isolated main-menu readback of exact staged values; no colony playthrough or public standalone package test",
+      "deployment_approved": false,
+      "publication_rights_granted": false,
+      "evidence_sha256": {
+        "readback_summary": "572b3f1c31172eb12b25932fcf1ae6592aeb827f319485951524b555eb67e515",
+        "candidate_proof": "9432c34e552313960a0467d061ff209c77908f0f92b0b16eca454f7c0b58a530",
+        "strict_stage": "086283c39a784744e88925d961d78bedaffff26a86f90a6051a19353129a6b13",
+        "physical_capture": "7b5a1d30a452f5dda62fc97bedb97593fb0b70f52273eb381d41fa051f204214",
+        "launcher_guard": "c227a4ef795c6ecfd2d558a021326f0b67c2248b74904dfdc8cfb6fc49157991"
+      },
+      "current_full_profile_freshness": "current_inputs_verified_by_fresh_game_readback",
+      "source_change_evidence_sha256": "46bbe5bccbef0e98054d3e032faf9b0978c3245734451d4b01e5f3ab2a7ad9e8",
+      "relaunch_guard_blocks_current_profile": false,
+      "runtime_ui_handlers": {
+        "planned": 98,
+        "applied": 96,
+        "held_changed_dubsmintmenus_assembly": 2,
+        "failed_or_other": 0,
+        "guard_updated": false
+      }
+    }
+  },
+  "duplicate_translation": {
+    "status": "checked_no_current_equivalent",
+    "checked_at": "2026-10-28T13:20:58.209819+00:00",
+    "scope": "All108 exact keys absent from625original Russian entries, and88new entries are disjoint from previous20. Targeted public discovery found no equivalent GoGaTio translation; historical similarly-named MrKociak translation is a different mod. This is scoped discovery, not an exhaustive Workshop guarantee.",
+    "candidates": [
+      "https://steamcommunity.com/sharedfiles/filedetails/?id=2968324078"
+    ]
   }
 }

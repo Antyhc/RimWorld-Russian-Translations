@@ -1,0 +1,10 @@
+<?xml version='1.0' encoding='utf-8'?>
+<LanguageData>
+  <MU_LargeArmor.label>Броня большого размера</MU_LargeArmor.label>
+  <MU_LargeShields.label>Большие щиты</MU_LargeShields.label>
+  <MU_MediumArmor.label>Средняя броня</MU_MediumArmor.label>
+  <MU_MediumShields.label>Средние щиты</MU_MediumShields.label>
+  <MU_SmallArmor.label>Броня малого размера</MU_SmallArmor.label>
+  <MU_SmallShields.label>Малые щиты</MU_SmallShields.label>
+  <MU_UltraLargeArmor.label>сверхкрупная броня</MU_UltraLargeArmor.label>
+</LanguageData>

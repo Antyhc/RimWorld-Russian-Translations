@@ -1,0 +1,7 @@
+Original mod: Mechanoid Upgrades by GoGaTio.
+Original Workshop: https://steamcommunity.com/sharedfiles/filedetails/?id=3365118555
+Upstream text permission: MIT, Copyright (c)2025GoGaTio; full notice retained in License.txt.
+Russian additions: Antyhc,2026; AI-assisted drafting (local translation model and OpenAI Codex), semantic review by OpenAI Codex; offered under MIT.
+Only108 own additions are included (20previous Codex additions +88reviewed local-model additions). Existing or third-party Russian, original code, assemblies, textures, artwork and audio are not redistributed.
+Original typographic cover by Antyhc; no original mod art used.
+Validation records are maintained separately in the project registry. Large-profile QA alone does not establish standalone compatibility. No long-gameplay test or independent human proofreading is claimed.

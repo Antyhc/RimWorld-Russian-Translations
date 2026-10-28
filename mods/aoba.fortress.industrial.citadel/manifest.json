@@ -29,7 +29,10 @@
       "status": "unknown",
       "license": null,
       "evidence": null,
-      "attribution": null
+      "attribution": null,
+      "permission_requested": true,
+      "permission_request_url": "https://github.com/AobaKuma/MechsuitFramework/issues/34",
+      "permission_requested_at": "2026-10-28T13:45:13Z"
     },
     "icon": {
       "status": "unknown",
@@ -74,11 +77,30 @@
       "work_stage": "reviewed_uninstalled",
       "historical_batch_runtime_verified_keys": 0,
       "runtime_evidence": null,
-      "runtime_scope": "Earlier isolated managed-batch load; not a test of a new standalone public payload"
+      "runtime_scope": "Earlier isolated managed-batch load; not a test of a new standalone public payload",
+      "codex_source_targets": 10,
+      "semantic_review": {
+        "reviewed_tasks": 129,
+        "unreviewed_model_tasks": 0,
+        "decisions": {
+          "approve": 74,
+          "revise": 55
+        },
+        "target_bindings": 174,
+        "complete_for_saved_model_tasks": true,
+        "status": "reviewed_pending_runtime",
+        "evidence_sha256": [
+          "3e071c71f3d0b14e617d702d566fc6087391e88efe058ae1683401f4ea7fd7ca"
+        ],
+        "reviewer": "OpenAI Codex",
+        "original_generator": "local_model",
+        "raw_drafts_remain_unapproved": true,
+        "scope": "Saved-model linguistic review only; no current-source, runtime, rights or release approval"
+      }
     },
     "coverage_scope": "saved_static_extraction_lower_bound; not complete runtime coverage",
     "native_russian_rows_in_snapshot": 0,
-    "checked_at": "2026-10-28T10:30:30.068317+00:00",
+    "checked_at": "2026-10-28T13:25:05.099005+00:00",
     "provenance_counts": {},
     "attribution_licenses": {},
     "third_party_candidates": [],
@@ -91,6 +113,31 @@
       "issue_count": 0,
       "new_files_outside_saved_source_inventory_checked": false
     },
-    "saved_translation_store": false
+    "saved_translation_store": false,
+    "reviewed_model_private_test": {
+      "status": "partial_verified",
+      "verified_target_values": 43,
+      "game_version": "1.7.4990 rev1069",
+      "scope": "Private isolated main-menu readback of exact staged values; no colony playthrough or public standalone package test",
+      "deployment_approved": false,
+      "publication_rights_granted": false,
+      "evidence_sha256": {
+        "readback_summary": "572b3f1c31172eb12b25932fcf1ae6592aeb827f319485951524b555eb67e515",
+        "candidate_proof": "9432c34e552313960a0467d061ff209c77908f0f92b0b16eca454f7c0b58a530",
+        "strict_stage": "086283c39a784744e88925d961d78bedaffff26a86f90a6051a19353129a6b13",
+        "physical_capture": "7b5a1d30a452f5dda62fc97bedb97593fb0b70f52273eb381d41fa051f204214",
+        "launcher_guard": "c227a4ef795c6ecfd2d558a021326f0b67c2248b74904dfdc8cfb6fc49157991"
+      },
+      "current_full_profile_freshness": "current_inputs_verified_by_fresh_game_readback",
+      "source_change_evidence_sha256": "46bbe5bccbef0e98054d3e032faf9b0978c3245734451d4b01e5f3ab2a7ad9e8",
+      "relaunch_guard_blocks_current_profile": false,
+      "runtime_ui_handlers": {
+        "planned": 98,
+        "applied": 96,
+        "held_changed_dubsmintmenus_assembly": 2,
+        "failed_or_other": 0,
+        "guard_updated": false
+      }
+    }
   }
 }

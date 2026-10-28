@@ -160,7 +160,7 @@
     "native_russian_rows_in_snapshot": 549,
     "third_party_candidates": [],
     "coverage_scope": "saved_static_extraction_lower_bound; not complete runtime coverage",
-    "checked_at": "2026-10-28T10:30:30.068317+00:00",
+    "checked_at": "2026-10-28T13:25:05.099005+00:00",
     "original_license_evidence": [],
     "local_static_audit": {
       "checked_at": null,
@@ -179,7 +179,9 @@
       "work_stage": "reviewed_uninstalled",
       "historical_batch_runtime_verified_keys": 217,
       "runtime_evidence": "reviews/20261028/final-managed-proof.json",
-      "runtime_scope": "Earlier isolated managed-batch load; not a test of a new standalone public payload"
+      "runtime_scope": "Earlier isolated managed-batch load; not a test of a new standalone public payload",
+      "codex_source_targets": 223,
+      "semantic_review": null
     },
     "work_stage": "saved_translation_uninstalled",
     "saved_translation_store": true

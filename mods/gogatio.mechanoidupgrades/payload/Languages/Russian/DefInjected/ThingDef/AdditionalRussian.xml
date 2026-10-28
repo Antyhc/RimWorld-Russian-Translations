@@ -1,0 +1,27 @@
+<?xml version='1.0' encoding='utf-8'?>
+<LanguageData>
+  <MU_AncientAdvancedUpgradesAssembler.description>Древний сборщик продвинутых улучшений. Ценные детали отсутствуют, а всё остальное пришло в полную негодность.</MU_AncientAdvancedUpgradesAssembler.description>
+  <MU_AncientAdvancedUpgradesAssembler.label>Древний сборщик продвинутых улучшений</MU_AncientAdvancedUpgradesAssembler.label>
+  <MU_AncientAssemblyCentrifuge.label>Древняя сборочная центрифуга</MU_AncientAssemblyCentrifuge.label>
+  <MU_AncientBasicUpgradesAssembler.description>Древний сборщик базовых улучшений. Ценные детали отсутствуют, а всё остальное пришло в полную негодность.</MU_AncientBasicUpgradesAssembler.description>
+  <MU_AncientBasicUpgradesAssembler.label>Древний сборщик базовых улучшений</MU_AncientBasicUpgradesAssembler.label>
+  <MU_AncientEmergencyLight.description>Древний светильник с долговечной батареей.</MU_AncientEmergencyLight.description>
+  <MU_AncientEmergencyLight.label>Древний светильник</MU_AncientEmergencyLight.label>
+  <MU_AncientFacilityEntrance.comps.CompHackable.hackedMessage>{HACKER_labelShort} завершает взлом. Цель: {SUBJECT_labelNoParenthesisDef}.</MU_AncientFacilityEntrance.comps.CompHackable.hackedMessage>
+  <MU_AncientFacilityEntrance.comps.CompHackable.notHackedInspectString>Взломать, чтобы открыть.</MU_AncientFacilityEntrance.comps.CompHackable.notHackedInspectString>
+  <MU_AncientFacilityEntrance.description>Вход в давно заброшенный подземный комплекс. Взломайте его, чтобы открыть люк.</MU_AncientFacilityEntrance.description>
+  <MU_AncientFacilityEntrance.label>Вход в древнее сооружение</MU_AncientFacilityEntrance.label>
+  <MU_AncientFacilityExit.description>Лестница, ведущая к люку на поверхности выше.</MU_AncientFacilityExit.description>
+  <MU_AncientFacilityExit.label>Выход из древнего сооружения</MU_AncientFacilityExit.label>
+  <MU_AncientLargeUpgradesStorage.description>Древнее большое хранилище улучшений. Ценные детали отсутствуют, а всё остальное пришло в полную негодность.</MU_AncientLargeUpgradesStorage.description>
+  <MU_AncientLargeUpgradesStorage.label>древнее хранилище крупных улучшений</MU_AncientLargeUpgradesStorage.label>
+  <MU_AncientMechUpgrader.description>Древняя установка для улучшения механоидов. Ценные детали отсутствуют, а всё остальное пришло в полную негодность.</MU_AncientMechUpgrader.description>
+  <MU_AncientMechUpgrader.label>Древняя установка для улучшения механоидов</MU_AncientMechUpgrader.label>
+  <MU_AncientUpgradesStorage.description>Древнее хранилище улучшений. Ценные детали отсутствуют, а всё остальное пришло в негодность.</MU_AncientUpgradesStorage.description>
+  <MU_AncientUpgradesStorage.label>Древнее хранилище улучшений</MU_AncientUpgradesStorage.label>
+  <MU_FrequencyAmplifier.description>Усилитель гразерного генератора механоида. Повышает плотность луча и скорость фокусировки, но требует значительного дополнительного расхода энергии.</MU_FrequencyAmplifier.description>
+  <MU_UpgradeSlag.description>Шлак, оставшийся после демонтажа нестабильного улучшения.</MU_UpgradeSlag.description>
+  <MU_UpgradeSlag.label>Шлак улучшений</MU_UpgradeSlag.label>
+  <MU_UpgradesFabricator.description>Рабочая станция, на которой можно изготавливать улучшения низкого уровня для механоидов.</MU_UpgradesFabricator.description>
+  <MU_UpgradesFabricator.label>Изготовитель улучшений</MU_UpgradesFabricator.label>
+</LanguageData>

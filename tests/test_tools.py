@@ -81,6 +81,32 @@ class ProjectTests(unittest.TestCase):
         del self.mod["rights"]["translation"]["attribution"]
         self.assertIn("translation_rights_unconfirmed", rw.validate_payload(self.folder, self.mod, True)[0])
 
+    def test_status_counts_minimal_readback_without_claiming_subscribed_ui_test(self):
+        self.mod["qa"].update(in_game="passed", game_evidence="game-test-evidence.json")
+        self.save()
+        rw.write_json(self.folder / "game-test-evidence.json", {
+            "game_version": "1.7.4990", "russian_candidate_matches": 108,
+            "interactive_visual_review_of_every_text": False,
+            "baseline_localization_error_count": 52,
+        })
+        text = rw.status_markdown(rw.registry(self.root), self.root)
+        self.assertIn("108 expected Russian values", text)
+        self.assertNotIn("subscribed Workshop copies were also loaded", text)
+        self.assertNotIn("settings windows were inspected", text)
+        self.assertNotIn("nine Core localization errors", text)
+
+    def test_current_private_profile_status_preserves_changed_assembly_holds(self):
+        rw.write_json(self.root / "reports/reviewed-batches-fresh.json", {
+            "local_model_review": {"private_runtime_test": {
+                "current_full_profile_freshness": "current_inputs_verified_by_fresh_game_readback",
+                "runtime_ui_handlers": {"applied": 96, "held_changed_dubsmintmenus_assembly": 2},
+            }},
+        })
+        text = rw.status_markdown(rw.registry(self.root), self.root)
+        self.assertIn("96 applied / 2 held", text)
+        self.assertIn("assembly guard was preserved", text)
+        self.assertNotIn("pending fresh validation", text)
+
     def test_binary_is_forbidden_even_with_approved_manifest(self):
         (self.payload / "Original.dll").write_bytes(b"MZ")
         self.assertIn("forbidden_payload_file:Original.dll", rw.validate_payload(self.folder, self.mod, True)[0])
@@ -346,6 +372,32 @@ class ProjectTests(unittest.TestCase):
             status = rw.status_markdown(report)
         self.assertIn("1 saved-store records and 1 additional draft/review metadata records", status)
         self.assertIn("1 records have unverified store scope", status)
+
+    def test_private_model_review_counts_do_not_promote_release_or_native_acceptance(self):
+        self.mod["inventory"] = {
+            "draft_work": {"semantic_review": {"reviewed_tasks": 2, "decisions": {"approve": 1, "hold": 1}}},
+            "reviewed_model_private_test": {"verified_target_values": 1},
+        }
+        self.mod["rights"]["translation"]["status"] = "unknown"
+        self.mod["integration"] = {"status": "pr_submitted", "target_kind": "community_translation",
+                                   "pr_url": "https://github.com/community/translations/pull/1"}
+        self.save()
+        rw.write_json(self.root / "reports/reviewed-batches-future.json", {
+            "reviewed_managed_batch": {"packages": 1, "matching_values": 7},
+            "local_model_review": {"reviewed_tasks": 2, "private_runtime_test": {
+                "verified_target_values": 1, "provider_count": 1, "combined_matching_values": 8}},
+        })
+        result = rw.registry(self.root)
+        self.assertEqual(result["counts"]["model_reviewed_tasks"], 2)
+        self.assertEqual(result["counts"]["model_held_tasks"], 1)
+        self.assertEqual(result["counts"]["private_model_test_values"], 1)
+        self.assertEqual(result["counts"]["game_tested"], 0)
+        self.assertEqual(result["counts"]["accepted"], 0)
+        self.assertEqual(result["counts"]["awaiting_rights"], 1)
+        status = rw.status_markdown(result, self.root)
+        self.assertIn("2 local-model tasks processed", status)
+        self.assertIn("1 values verified across 1 providers", status)
+        self.assertIn("original-native acceptance not claimed", status)
 
 
 if __name__ == "__main__":

@@ -94,7 +94,7 @@
     "native_russian_rows_in_snapshot": 47,
     "third_party_candidates": [],
     "coverage_scope": "saved_static_extraction_lower_bound; not complete runtime coverage",
-    "checked_at": "2026-10-28T10:30:30.068317+00:00",
+    "checked_at": "2026-10-28T13:25:05.099005+00:00",
     "original_license_evidence": [
       {
         "relative_path": "LICENSE.txt",
@@ -119,7 +119,9 @@
       "work_stage": "reviewed_uninstalled",
       "historical_batch_runtime_verified_keys": 0,
       "runtime_evidence": null,
-      "runtime_scope": "Earlier isolated managed-batch load; not a test of a new standalone public payload"
+      "runtime_scope": "Earlier isolated managed-batch load; not a test of a new standalone public payload",
+      "codex_source_targets": 1,
+      "semantic_review": null
     },
     "work_stage": "installed_local",
     "saved_translation_store": true

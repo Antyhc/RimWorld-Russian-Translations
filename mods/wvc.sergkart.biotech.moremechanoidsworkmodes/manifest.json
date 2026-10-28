@@ -71,11 +71,13 @@
       "work_stage": "reviewed_uninstalled",
       "historical_batch_runtime_verified_keys": 123,
       "runtime_evidence": "reviews/20261028/final-managed-proof.json",
-      "runtime_scope": "Earlier isolated managed-batch load; not a test of a new standalone public payload"
+      "runtime_scope": "Earlier isolated managed-batch load; not a test of a new standalone public payload",
+      "codex_source_targets": 134,
+      "semantic_review": null
     },
     "coverage_scope": "saved_static_extraction_lower_bound; not complete runtime coverage",
     "native_russian_rows_in_snapshot": 0,
-    "checked_at": "2026-10-28T10:30:30.068317+00:00",
+    "checked_at": "2026-10-28T13:25:05.099005+00:00",
     "provenance_counts": {},
     "attribution_licenses": {},
     "third_party_candidates": [],

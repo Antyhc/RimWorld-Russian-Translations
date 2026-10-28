@@ -1,0 +1,811 @@
+{
+  "schema_version": 1,
+  "generated_at": "2026-10-28T13:34:28.990332+00:00",
+  "scope": "Exact108 own additions against minimal original+mandatory-dependencies static sources; final standalone runtime test pending.",
+  "strings": {
+    "DefInjected|GameConditionDef|MU_MechAdvancement.description": "b483fc46417014704a0b3aee3093b240d709806e431aba414a5e8470834b0d30",
+    "DefInjected|GameConditionDef|MU_MechAdvancement.descriptionFuture": "df9d2126f275e9d96100492ce4cf461c4e191dfabafbe35cb119642539682869",
+    "DefInjected|GameConditionDef|MU_MechAdvancement.label": "61b3205ca9a597abbca79da6ea1ce20470ac798f21da94222b9e7d839eac0305",
+    "DefInjected|GameConditionDef|MU_MechAdvancement.letterText": "763b3b17d189a0f9b3e75a515f513d941be763d4159425d27669f59d87c3d84f",
+    "DefInjected|HediffDef|MU_RangedDamageFactor_Hediff_Test.description": "c3639cadde19c87196222dc505397c1d002e601bbda61cde276d03092c8592a2",
+    "DefInjected|HediffDef|MU_RangedDamageFactor_Hediff_Test.label": "74abd8c158701f5d118b8d5cd76c0387971559361aeccd17223c4f3849310ac0",
+    "DefInjected|MU.ImproveRecipeDef|MU_ImproveChipTierB.description": "a012519afed96a8ba89d367bff43b0ebe5dcfbb265fbc9e4502d153a46a8c9a5",
+    "DefInjected|MU.ImproveRecipeDef|MU_ImproveChipTierB.label": "209791b8f0da872751d0862c361be81b535267832ea09938d4e2c44bcc78ce8d",
+    "DefInjected|MU.ImproveRecipeDef|MU_ImproveChipTierC.description": "0ee7ede3810fcde2e1bf1bc8a75317ac69dfabcf091983f86568b2ab89b49bd1",
+    "DefInjected|MU.ImproveRecipeDef|MU_ImproveChipTierC.label": "f515eda835ba597f78cda052d618fdf5e31e9ff83c4347328925d439b14f72ea",
+    "DefInjected|MU.ImproveRecipeDef|MU_ImproveLargeArmorTierB.description": "a0f0e1c28aff8e87b934a8bae7653a38b115039edd72b5bb3380c47e52e72fba",
+    "DefInjected|MU.ImproveRecipeDef|MU_ImproveLargeArmorTierB.label": "ef995f9b26f062cfaabfcf448f7d9cf2d47ad9d481d4951f3c05d88c654b7b6c",
+    "DefInjected|MU.ImproveRecipeDef|MU_ImproveLargeArmorTierC.description": "032b4f436f3855968129ee4366a16fac4258f555cfe878f8504918f09a966c07",
+    "DefInjected|MU.ImproveRecipeDef|MU_ImproveLargeArmorTierC.label": "4c627965ec5065f47fcd23324892141bf610b971c6e76278f47ae63005aa8458",
+    "DefInjected|MU.ImproveRecipeDef|MU_ImproveLargeShieldTierB.description": "773264c581746e737440b5256bd5c21bbcbfd6ed8ec7d27c2d29cfa6d0b7d4c9",
+    "DefInjected|MU.ImproveRecipeDef|MU_ImproveLargeShieldTierB.label": "14fe2f792b0cdaedf38ee777525c6fd73a0437bb5102c31f2b38667c755ab35e",
+    "DefInjected|MU.ImproveRecipeDef|MU_ImproveLargeShieldTierC.description": "6d4badbf3bce074773072f952a4d026d9fd0495d6f6939819e24c9abca236752",
+    "DefInjected|MU.ImproveRecipeDef|MU_ImproveLargeShieldTierC.label": "161b298b054cec35019b030be5488798411b2cd1701431785e06e2bdefd412b0",
+    "DefInjected|MU.ImproveRecipeDef|MU_ImproveMediumArmorTierB.description": "d0b942ffcda1801e4e1bd131a1ee3ecf956324bc1280c44434bda2f682242a9d",
+    "DefInjected|MU.ImproveRecipeDef|MU_ImproveMediumArmorTierB.label": "ea57f3bf69def9ff04ea843fdecb6b85ee1fa51596c9a663175c7d1a684bc5d4",
+    "DefInjected|MU.ImproveRecipeDef|MU_ImproveMediumArmorTierC.description": "fb8c1a51ec6a9cde90e00661f9ca54cd33226000e0bc558edf9701f75fff5d5b",
+    "DefInjected|MU.ImproveRecipeDef|MU_ImproveMediumArmorTierC.label": "64f582ebde51101fa8db79b85316403c9aab81ac99ba601e55bb8d941712cd0b",
+    "DefInjected|MU.ImproveRecipeDef|MU_ImproveMediumShieldTierB.description": "91ea6af1eba62981ab60104d68e78c8d26d3cdb367c419ab685d2a6c0a9d8338",
+    "DefInjected|MU.ImproveRecipeDef|MU_ImproveMediumShieldTierB.label": "6a14306912b70ae4d14ea9ff9c55757395e89819bdfa2bce965bb8ecb1255949",
+    "DefInjected|MU.ImproveRecipeDef|MU_ImproveMediumShieldTierC.description": "5933699746a6b2b33034ccdc0d05ff312985f0263d2df09354ab389f493edaa0",
+    "DefInjected|MU.ImproveRecipeDef|MU_ImproveMediumShieldTierC.label": "ede78794e580bdaa4226d5d814d57e9a5e12b4684e6e726da2f690b4cfd4bbfe",
+    "DefInjected|MU.ImproveRecipeDef|MU_ImproveModuleTierB.description": "686f7333637071f9122657bfc7f7af9d75cde3994ba2e0f2f8a391a1713f8cd4",
+    "DefInjected|MU.ImproveRecipeDef|MU_ImproveModuleTierB.label": "3d7a07b8d93875c72256f18a8d5b42c010dd3de3f7a99aed9339a97c9cd6d962",
+    "DefInjected|MU.ImproveRecipeDef|MU_ImproveModuleTierC.description": "0007a9ddbd9ece1ed6e5aa57de7244d2154e12f45ba76bdafdc9eeb5f2e900b0",
+    "DefInjected|MU.ImproveRecipeDef|MU_ImproveModuleTierC.label": "94579fa2dcf7513508f0b828325055611b9fc0633966dcc183a5aecdbbe69a00",
+    "DefInjected|MU.ImproveRecipeDef|MU_ImproveSmallArmorTierB.description": "5cd0eaee5095fc557e059fb1bc49dda3f1d67389b5bfee4221470d58cdb1fb65",
+    "DefInjected|MU.ImproveRecipeDef|MU_ImproveSmallArmorTierB.label": "8b0cce818b2b97738aadb5edd95f97452cd74b86ee1e4463d3ca13ec86774dfe",
+    "DefInjected|MU.ImproveRecipeDef|MU_ImproveSmallArmorTierC.description": "e39410711e1582c7e1234cbb78037ff1117ba1ecc3161ad5af4692dcbd6089af",
+    "DefInjected|MU.ImproveRecipeDef|MU_ImproveSmallArmorTierC.label": "c23e8299d41c555eb9ecdb724b51f010d34bf5fb1bde1f07f99c333b89e70ef5",
+    "DefInjected|MU.ImproveRecipeDef|MU_ImproveSmallShieldTierB.description": "7ffe3597bb15cc0db7988c8979b27e659b7d12133da26e1ce5d9652f604bba00",
+    "DefInjected|MU.ImproveRecipeDef|MU_ImproveSmallShieldTierB.label": "1df05796f64968ed4a355858e4dce8027af0edc657dc43be7bbd134e3895a3e5",
+    "DefInjected|MU.ImproveRecipeDef|MU_ImproveSmallShieldTierC.description": "d372404c36ba8f478616a6ecb94e301441b6b0a21f0835a992f61116ce069c71",
+    "DefInjected|MU.ImproveRecipeDef|MU_ImproveSmallShieldTierC.label": "f9831200585ebcace00463a70ebea3974c7d59fe03c2162d8f7a66b9e8479c82",
+    "DefInjected|MU.ImproveRecipeDef|MU_ImproveUltraArmorTierB.description": "19a3099df7ac8cb3144d36d2b4d43ea34ea19663e414fa282c5f92829fccf355",
+    "DefInjected|MU.ImproveRecipeDef|MU_ImproveUltraArmorTierB.label": "ab1485cb836b7c6cf8012759754169e2ccb679b005060345552dd1f2177baf7c",
+    "DefInjected|MU.ImproveRecipeDef|MU_ImproveUltraLargeArmorTierC.description": "0b83d1f98afbdf0179d09b70254b81849085a3cbe1a1528c448ee7abe6d8ae81",
+    "DefInjected|MU.ImproveRecipeDef|MU_ImproveUltraLargeArmorTierC.label": "20327c1b3f8112350fff2b91d5055164621a4a50237708838ffa80283d368828",
+    "DefInjected|MU.MechUpgradeDef|MU_FrequencyAmplifier.description": "cf5aa06e5d29be2ba755ffd8698eba100133f61b9f716ec4cb224fbdf0de8f00",
+    "DefInjected|MU.MechUpgradeDef|MU_FrequencyAmplifier.label": "5176880464be445018c57fa174bf6b80b195810d5bc51dbba95f6271b0e71832",
+    "DefInjected|MU.MechUpgradeDef|MU_MechChip_Range_A.description": "f1eb50ab8b9bccf6cdd0aa8e37803b8a39fba4452aa3181475d4b6119e9e245b",
+    "DefInjected|MU.MechUpgradeDef|MU_MechChip_Range_A.label": "b223e49da0d5109435aa68fc115a0495e89ee84cb218cc011ed1567ee1d05d77",
+    "DefInjected|MU.MechUpgradeDef|MU_MechChip_Range_B.description": "471eb8036bbe19457eaffd354b0286dd8913ea5f56d997b6e8a6fc5721ee1618",
+    "DefInjected|MU.MechUpgradeDef|MU_MechChip_Range_B.label": "5a9d51e05e8e3d9d0b8e9fa68a3e15934fbaf8159471cb55e2d211af06c32760",
+    "DefInjected|MU.MechUpgradeDef|MU_MechChip_Range_C.description": "43ce648e5bdb42c1095cd7b0f4edd295ee8da67347bb7003c279995798e45177",
+    "DefInjected|MU.MechUpgradeDef|MU_MechChip_Range_C.label": "e05f0c8588d226af47495c6c817e4a1e697f9207aafe08330c433f44754e1370",
+    "DefInjected|MapGeneratorDef|MU_AncientFacility.label": "d5953280cddae12061d7faaa3513d99dfbe80bf66556dc8fc05bc7d271af5aa6",
+    "DefInjected|ResearchProjectDef|MU_UpgradeFabricator.description": "ac167ed04d4a6423e2ff375256c293d5b338da97c6ee9a739b04be9d2ff16f57",
+    "DefInjected|ResearchProjectDef|MU_UpgradeFabricator.label": "8951ccfcb5c15ad584b4e4ce4932bd81863c97a4df2f3516b88cca22f214ddf2",
+    "DefInjected|ScenPartDef|MU_UpgradeStartingMech.label": "46055e99bdc2e3910f38c644706073e50216eb2b6f9c4803b8bbdd885b99f2af",
+    "DefInjected|SitePartDef|MU_AncientComplex_Upgrades.approachOrderString": "66b0567091b1923330cb9f44f48abdaa68183205804476571cd43f3a04d66c75",
+    "DefInjected|SitePartDef|MU_AncientComplex_Upgrades.approachingReportString": "dd85b864e7178a7f0891572ffbbdde6778f8df74c702f4ab0320b292ae3fc473",
+    "DefInjected|SitePartDef|MU_AncientComplex_Upgrades.description": "35daa11796f62710d12379001ad15901f05a80cebfa288d44b4f338531e2044b",
+    "DefInjected|SitePartDef|MU_AncientComplex_Upgrades.label": "784413d9e81fd037552dae65986eb4a5b30869d26e314f64d00bb038f771760b",
+    "DefInjected|SpecialThingFilterDef|MU_AllowATier.description": "7789797e047e955b875f69f84a3884e51a4c750735f13474af751b1e8817b4a4",
+    "DefInjected|SpecialThingFilterDef|MU_AllowATier.label": "8efbd8c706a297e4b1d6de05566a8c535fdae968bc5ca91ad5ecf1005cf6ec19",
+    "DefInjected|SpecialThingFilterDef|MU_AllowBTier.description": "ce21f18a515da5b98addb07f3bd02d8efa8ca722d9ed20fad70cd753d287b623",
+    "DefInjected|SpecialThingFilterDef|MU_AllowBTier.label": "3628b22be6c1c10caf4ec649b40e5c6149f43f59f2265090db846631f5779a0b",
+    "DefInjected|SpecialThingFilterDef|MU_AllowCTier.description": "f1b988d6783d979d5d662554084e919595e4d1579fce356f9e3d9d03f2f2335c",
+    "DefInjected|SpecialThingFilterDef|MU_AllowCTier.label": "feadf61b5a890e9566258555668f6bb461913a4c2a3e85bbf1a074a366c20e8c",
+    "DefInjected|SpecialThingFilterDef|MU_AllowCorpsesWithUpgrades.description": "42460157fee9d9b31c8d4e1941d46615cc2e360ab5d95bb0eefe0ab2877a5fd2",
+    "DefInjected|SpecialThingFilterDef|MU_AllowCorpsesWithUpgrades.label": "da6b6c023714fb447da641f952b9ba43387ebf11a05a5c63c3f59d8f02c80f51",
+    "DefInjected|SpecialThingFilterDef|MU_AllowNonTier.description": "76004af771f71b2497859813337e38623ffb06ddb698e1b2b0f56cf5d7e3b919",
+    "DefInjected|SpecialThingFilterDef|MU_AllowNonTier.label": "5e2aa3fd26b1a688e11c24c866a4420be017bdd3e13edc952098d8812b10a34e",
+    "DefInjected|StatDef|MU_UpgradeFabricationSpeed.description": "39ca48a9dc50e7887872ca17cfcdec79894b6c6272f51b60ded7a9d73ed08856",
+    "DefInjected|StatDef|MU_UpgradeFabricationSpeed.label": "3349b228951ae956b4293a3db72ca2e96cf3ba8a0073926f7881fb323a4cfdc4",
+    "DefInjected|StatDef|MU_WeaponRangeFactor.description": "9f0f6984ba93b97fd53f9e75e2758b899f0a39bc117c56c09d6a43dd1d07a764",
+    "DefInjected|StatDef|MU_WeaponRangeFactor.label": "133e50c81b8813ba46932165ecf423bdbfb39b89dec8c17c191876f5886b95e5",
+    "DefInjected|ThingCategoryDef|MU_LargeArmor.label": "ca624fe8bfa414daca6fbd1c943cd2c4090b414ff868a5eacffdbe9946d32abe",
+    "DefInjected|ThingCategoryDef|MU_LargeShields.label": "232bb4483b57853e14eb9f933f39f81d8e17938a2354ad74f91708cb9b06e641",
+    "DefInjected|ThingCategoryDef|MU_MediumArmor.label": "633bee3c7083d44efbcb244e3b3481175282afeb6b5d52de4f3aa3671b6aaa45",
+    "DefInjected|ThingCategoryDef|MU_MediumShields.label": "6d499225067a65d91b7fa0824f2c5a06ce188a2e51e871ff0f3f423544af79c3",
+    "DefInjected|ThingCategoryDef|MU_SmallArmor.label": "a64a4e1abe793aa9c93d0f29c89f0a0ffdbbbc2f4e3d53778224460f525cfa24",
+    "DefInjected|ThingCategoryDef|MU_SmallShields.label": "f994963ed64849ac1ae69d9bc22a17e55776afd724746122ceda0d4bc2c04644",
+    "DefInjected|ThingCategoryDef|MU_UltraLargeArmor.label": "ccee31698a0e3db481c0e49f01d6c9c7dc129b840691964c314bfe8e991a31ab",
+    "DefInjected|ThingDef|MU_AncientAdvancedUpgradesAssembler.description": "7a47642b6d68b4fe9c110673dd3af1391003374ffe743c87d99a14ba62a71655",
+    "DefInjected|ThingDef|MU_AncientAdvancedUpgradesAssembler.label": "54e01c20cd08e15a3c4fe84243b6a1bc1e5af13c34a09ea76538cf0f426a0a26",
+    "DefInjected|ThingDef|MU_AncientAssemblyCentrifuge.label": "632341d067539c305dee6360fd034b674550ea3b4a00ecbffccc9368ded7e2e5",
+    "DefInjected|ThingDef|MU_AncientBasicUpgradesAssembler.description": "fd36d31bbe722d9fa2df5c9fdfb1dba282181acfee2f6f003571f74d05465d90",
+    "DefInjected|ThingDef|MU_AncientBasicUpgradesAssembler.label": "94964e71217339b994694b8767fadcf3012e3a0bf3c0a33e0eae3389898f80b8",
+    "DefInjected|ThingDef|MU_AncientEmergencyLight.description": "f4546588e1cd42d04941dac428b0a427b2a693e9822b9e229ab423ece49e72ec",
+    "DefInjected|ThingDef|MU_AncientEmergencyLight.label": "a312dbb12a9337ea137bfcfd4ac154fce4d56bcea174faad067db01676d3b3dd",
+    "DefInjected|ThingDef|MU_AncientFacilityEntrance.comps.CompHackable.hackedMessage": "c709b5eb36d95e0eee2af5b0221b0f65d11ff898245dfdbe9bc6fa9fbb5a804e",
+    "DefInjected|ThingDef|MU_AncientFacilityEntrance.comps.CompHackable.notHackedInspectString": "4c1748ffdf5ca0ddf81a14ab6eb368d0daea8c428bb325430ae41539f5170a8d",
+    "DefInjected|ThingDef|MU_AncientFacilityEntrance.description": "33513a7fb862acf4904a54662550d87da88d6331f3ba2216db504c7550c75216",
+    "DefInjected|ThingDef|MU_AncientFacilityEntrance.label": "f40c05f3cf3450c81d9bd2c8adba8ae09c91853fb7c83d409cb3ad971acb352e",
+    "DefInjected|ThingDef|MU_AncientFacilityExit.description": "7fc5c4d63214420311b00acda12a2ef47cfc7751f8ef8cd17f3684cfca02495a",
+    "DefInjected|ThingDef|MU_AncientFacilityExit.label": "d1a59de3cf988450298280ce49012f4bcf659af512c4d72faf4d9b6f01d36076",
+    "DefInjected|ThingDef|MU_AncientLargeUpgradesStorage.description": "664a28cee86e71e4ea2de3919b5c5080ccc5b9868db9acae7f386b744aa9b78d",
+    "DefInjected|ThingDef|MU_AncientLargeUpgradesStorage.label": "ca873b22fb32276760d2683f7b0db09a47e8655579b7d4d48c02b84315a6d69c",
+    "DefInjected|ThingDef|MU_AncientMechUpgrader.description": "d4a551e74320864f7c466954eb577c52258f11dc441c0c45e7ab848c6aa3881a",
+    "DefInjected|ThingDef|MU_AncientMechUpgrader.label": "5860082ab489aaadf9e90cbbc4eca105acb04ffdb6e22ade4af72531b53f9245",
+    "DefInjected|ThingDef|MU_AncientUpgradesStorage.description": "648b464d6bf4f823de779821616beda63217502f0e770e65a77eb64216dcfa5e",
+    "DefInjected|ThingDef|MU_AncientUpgradesStorage.label": "067df08731c9d5770617dffdb935d51c526e39ef8544b51ae786571506bca977",
+    "DefInjected|ThingDef|MU_FrequencyAmplifier.description": "cf5aa06e5d29be2ba755ffd8698eba100133f61b9f716ec4cb224fbdf0de8f00",
+    "DefInjected|ThingDef|MU_UpgradeSlag.description": "83dbf2fe734857a3b656ad1f412788e477dd18f6048ddbbb6d5a3282fdd456fc",
+    "DefInjected|ThingDef|MU_UpgradeSlag.label": "b6be3fea65530354b657d6cadc06488c7a45352ee41470b08c9de5e14740ef2f",
+    "DefInjected|ThingDef|MU_UpgradesFabricator.description": "7cf0f6f36314b49eba920281b434dbcb6f2cd41da5b98ac6442c0dd02d0e4146",
+    "DefInjected|ThingDef|MU_UpgradesFabricator.label": "8951ccfcb5c15ad584b4e4ce4932bd81863c97a4df2f3516b88cca22f214ddf2",
+    "DefInjected|WorkGiverDef|MU_DoBillsUpgradeFabricator.gerund": "5aea5b544ab23e04c3488bb28c78e2c2ac40cb6056b9d087c6963a27f79fdb40",
+    "DefInjected|WorkGiverDef|MU_DoBillsUpgradeFabricator.label": "862cdeb9bd9427d13e1ae9e84d7d2a492cf952bb001468da574a4384f7f0fd18",
+    "DefInjected|WorkGiverDef|MU_DoBillsUpgradeFabricator.verb": "8dcd5af48f03f2d0669b312c648bf63d8b47d07bade85364652e60ad6289965b",
+    "Keyed|MU_MechBooster_Desc": "64d34ed94ee06704845ad8c210dd53cd435ca189c60cf062f20ec1fd83f27f1e",
+    "Keyed|MU_MechBooster_Label": "120d68e504c8d83b2fa07f00002ca806bdb82ffe8d9d9f57a67b22b9246fe4c8"
+  },
+  "signatures": {
+    "DefInjected|GameConditionDef|MU_MechAdvancement.description": {
+      "source_hash": "b483fc46417014704a0b3aee3093b240d709806e431aba414a5e8470834b0d30",
+      "tokens": [],
+      "tags": [],
+      "source_empty": false
+    },
+    "DefInjected|GameConditionDef|MU_MechAdvancement.descriptionFuture": {
+      "source_hash": "df9d2126f275e9d96100492ce4cf461c4e191dfabafbe35cb119642539682869",
+      "tokens": [],
+      "tags": [],
+      "source_empty": false
+    },
+    "DefInjected|GameConditionDef|MU_MechAdvancement.label": {
+      "source_hash": "61b3205ca9a597abbca79da6ea1ce20470ac798f21da94222b9e7d839eac0305",
+      "tokens": [],
+      "tags": [],
+      "source_empty": false
+    },
+    "DefInjected|GameConditionDef|MU_MechAdvancement.letterText": {
+      "source_hash": "763b3b17d189a0f9b3e75a515f513d941be763d4159425d27669f59d87c3d84f",
+      "tokens": [],
+      "tags": [],
+      "source_empty": false
+    },
+    "DefInjected|HediffDef|MU_RangedDamageFactor_Hediff_Test.description": {
+      "source_hash": "c3639cadde19c87196222dc505397c1d002e601bbda61cde276d03092c8592a2",
+      "tokens": [],
+      "tags": [],
+      "source_empty": false
+    },
+    "DefInjected|HediffDef|MU_RangedDamageFactor_Hediff_Test.label": {
+      "source_hash": "74abd8c158701f5d118b8d5cd76c0387971559361aeccd17223c4f3849310ac0",
+      "tokens": [],
+      "tags": [],
+      "source_empty": false
+    },
+    "DefInjected|MU.ImproveRecipeDef|MU_ImproveChipTierB.description": {
+      "source_hash": "a012519afed96a8ba89d367bff43b0ebe5dcfbb265fbc9e4502d153a46a8c9a5",
+      "tokens": [
+        "\\n",
+        "\\n"
+      ],
+      "tags": [],
+      "source_empty": false
+    },
+    "DefInjected|MU.ImproveRecipeDef|MU_ImproveChipTierB.label": {
+      "source_hash": "209791b8f0da872751d0862c361be81b535267832ea09938d4e2c44bcc78ce8d",
+      "tokens": [],
+      "tags": [],
+      "source_empty": false
+    },
+    "DefInjected|MU.ImproveRecipeDef|MU_ImproveChipTierC.description": {
+      "source_hash": "0ee7ede3810fcde2e1bf1bc8a75317ac69dfabcf091983f86568b2ab89b49bd1",
+      "tokens": [
+        "\\n",
+        "\\n"
+      ],
+      "tags": [],
+      "source_empty": false
+    },
+    "DefInjected|MU.ImproveRecipeDef|MU_ImproveChipTierC.label": {
+      "source_hash": "f515eda835ba597f78cda052d618fdf5e31e9ff83c4347328925d439b14f72ea",
+      "tokens": [],
+      "tags": [],
+      "source_empty": false
+    },
+    "DefInjected|MU.ImproveRecipeDef|MU_ImproveLargeArmorTierB.description": {
+      "source_hash": "a0f0e1c28aff8e87b934a8bae7653a38b115039edd72b5bb3380c47e52e72fba",
+      "tokens": [
+        "\\n",
+        "\\n"
+      ],
+      "tags": [],
+      "source_empty": false
+    },
+    "DefInjected|MU.ImproveRecipeDef|MU_ImproveLargeArmorTierB.label": {
+      "source_hash": "ef995f9b26f062cfaabfcf448f7d9cf2d47ad9d481d4951f3c05d88c654b7b6c",
+      "tokens": [],
+      "tags": [],
+      "source_empty": false
+    },
+    "DefInjected|MU.ImproveRecipeDef|MU_ImproveLargeArmorTierC.description": {
+      "source_hash": "032b4f436f3855968129ee4366a16fac4258f555cfe878f8504918f09a966c07",
+      "tokens": [
+        "\\n",
+        "\\n"
+      ],
+      "tags": [],
+      "source_empty": false
+    },
+    "DefInjected|MU.ImproveRecipeDef|MU_ImproveLargeArmorTierC.label": {
+      "source_hash": "4c627965ec5065f47fcd23324892141bf610b971c6e76278f47ae63005aa8458",
+      "tokens": [],
+      "tags": [],
+      "source_empty": false
+    },
+    "DefInjected|MU.ImproveRecipeDef|MU_ImproveLargeShieldTierB.description": {
+      "source_hash": "773264c581746e737440b5256bd5c21bbcbfd6ed8ec7d27c2d29cfa6d0b7d4c9",
+      "tokens": [
+        "\\n",
+        "\\n"
+      ],
+      "tags": [],
+      "source_empty": false
+    },
+    "DefInjected|MU.ImproveRecipeDef|MU_ImproveLargeShieldTierB.label": {
+      "source_hash": "14fe2f792b0cdaedf38ee777525c6fd73a0437bb5102c31f2b38667c755ab35e",
+      "tokens": [],
+      "tags": [],
+      "source_empty": false
+    },
+    "DefInjected|MU.ImproveRecipeDef|MU_ImproveLargeShieldTierC.description": {
+      "source_hash": "6d4badbf3bce074773072f952a4d026d9fd0495d6f6939819e24c9abca236752",
+      "tokens": [
+        "\\n",
+        "\\n"
+      ],
+      "tags": [],
+      "source_empty": false
+    },
+    "DefInjected|MU.ImproveRecipeDef|MU_ImproveLargeShieldTierC.label": {
+      "source_hash": "161b298b054cec35019b030be5488798411b2cd1701431785e06e2bdefd412b0",
+      "tokens": [],
+      "tags": [],
+      "source_empty": false
+    },
+    "DefInjected|MU.ImproveRecipeDef|MU_ImproveMediumArmorTierB.description": {
+      "source_hash": "d0b942ffcda1801e4e1bd131a1ee3ecf956324bc1280c44434bda2f682242a9d",
+      "tokens": [
+        "\\n",
+        "\\n"
+      ],
+      "tags": [],
+      "source_empty": false
+    },
+    "DefInjected|MU.ImproveRecipeDef|MU_ImproveMediumArmorTierB.label": {
+      "source_hash": "ea57f3bf69def9ff04ea843fdecb6b85ee1fa51596c9a663175c7d1a684bc5d4",
+      "tokens": [],
+      "tags": [],
+      "source_empty": false
+    },
+    "DefInjected|MU.ImproveRecipeDef|MU_ImproveMediumArmorTierC.description": {
+      "source_hash": "fb8c1a51ec6a9cde90e00661f9ca54cd33226000e0bc558edf9701f75fff5d5b",
+      "tokens": [],
+      "tags": [],
+      "source_empty": false
+    },
+    "DefInjected|MU.ImproveRecipeDef|MU_ImproveMediumArmorTierC.label": {
+      "source_hash": "64f582ebde51101fa8db79b85316403c9aab81ac99ba601e55bb8d941712cd0b",
+      "tokens": [],
+      "tags": [],
+      "source_empty": false
+    },
+    "DefInjected|MU.ImproveRecipeDef|MU_ImproveMediumShieldTierB.description": {
+      "source_hash": "91ea6af1eba62981ab60104d68e78c8d26d3cdb367c419ab685d2a6c0a9d8338",
+      "tokens": [
+        "\\n",
+        "\\n"
+      ],
+      "tags": [],
+      "source_empty": false
+    },
+    "DefInjected|MU.ImproveRecipeDef|MU_ImproveMediumShieldTierB.label": {
+      "source_hash": "6a14306912b70ae4d14ea9ff9c55757395e89819bdfa2bce965bb8ecb1255949",
+      "tokens": [],
+      "tags": [],
+      "source_empty": false
+    },
+    "DefInjected|MU.ImproveRecipeDef|MU_ImproveMediumShieldTierC.description": {
+      "source_hash": "5933699746a6b2b33034ccdc0d05ff312985f0263d2df09354ab389f493edaa0",
+      "tokens": [],
+      "tags": [],
+      "source_empty": false
+    },
+    "DefInjected|MU.ImproveRecipeDef|MU_ImproveMediumShieldTierC.label": {
+      "source_hash": "ede78794e580bdaa4226d5d814d57e9a5e12b4684e6e726da2f690b4cfd4bbfe",
+      "tokens": [],
+      "tags": [],
+      "source_empty": false
+    },
+    "DefInjected|MU.ImproveRecipeDef|MU_ImproveModuleTierB.description": {
+      "source_hash": "686f7333637071f9122657bfc7f7af9d75cde3994ba2e0f2f8a391a1713f8cd4",
+      "tokens": [
+        "\\n",
+        "\\n"
+      ],
+      "tags": [],
+      "source_empty": false
+    },
+    "DefInjected|MU.ImproveRecipeDef|MU_ImproveModuleTierB.label": {
+      "source_hash": "3d7a07b8d93875c72256f18a8d5b42c010dd3de3f7a99aed9339a97c9cd6d962",
+      "tokens": [],
+      "tags": [],
+      "source_empty": false
+    },
+    "DefInjected|MU.ImproveRecipeDef|MU_ImproveModuleTierC.description": {
+      "source_hash": "0007a9ddbd9ece1ed6e5aa57de7244d2154e12f45ba76bdafdc9eeb5f2e900b0",
+      "tokens": [],
+      "tags": [],
+      "source_empty": false
+    },
+    "DefInjected|MU.ImproveRecipeDef|MU_ImproveModuleTierC.label": {
+      "source_hash": "94579fa2dcf7513508f0b828325055611b9fc0633966dcc183a5aecdbbe69a00",
+      "tokens": [],
+      "tags": [],
+      "source_empty": false
+    },
+    "DefInjected|MU.ImproveRecipeDef|MU_ImproveSmallArmorTierB.description": {
+      "source_hash": "5cd0eaee5095fc557e059fb1bc49dda3f1d67389b5bfee4221470d58cdb1fb65",
+      "tokens": [
+        "\\n",
+        "\\n"
+      ],
+      "tags": [],
+      "source_empty": false
+    },
+    "DefInjected|MU.ImproveRecipeDef|MU_ImproveSmallArmorTierB.label": {
+      "source_hash": "8b0cce818b2b97738aadb5edd95f97452cd74b86ee1e4463d3ca13ec86774dfe",
+      "tokens": [],
+      "tags": [],
+      "source_empty": false
+    },
+    "DefInjected|MU.ImproveRecipeDef|MU_ImproveSmallArmorTierC.description": {
+      "source_hash": "e39410711e1582c7e1234cbb78037ff1117ba1ecc3161ad5af4692dcbd6089af",
+      "tokens": [],
+      "tags": [],
+      "source_empty": false
+    },
+    "DefInjected|MU.ImproveRecipeDef|MU_ImproveSmallArmorTierC.label": {
+      "source_hash": "c23e8299d41c555eb9ecdb724b51f010d34bf5fb1bde1f07f99c333b89e70ef5",
+      "tokens": [],
+      "tags": [],
+      "source_empty": false
+    },
+    "DefInjected|MU.ImproveRecipeDef|MU_ImproveSmallShieldTierB.description": {
+      "source_hash": "7ffe3597bb15cc0db7988c8979b27e659b7d12133da26e1ce5d9652f604bba00",
+      "tokens": [
+        "\\n",
+        "\\n"
+      ],
+      "tags": [],
+      "source_empty": false
+    },
+    "DefInjected|MU.ImproveRecipeDef|MU_ImproveSmallShieldTierB.label": {
+      "source_hash": "1df05796f64968ed4a355858e4dce8027af0edc657dc43be7bbd134e3895a3e5",
+      "tokens": [],
+      "tags": [],
+      "source_empty": false
+    },
+    "DefInjected|MU.ImproveRecipeDef|MU_ImproveSmallShieldTierC.description": {
+      "source_hash": "d372404c36ba8f478616a6ecb94e301441b6b0a21f0835a992f61116ce069c71",
+      "tokens": [
+        "\\n",
+        "\\n"
+      ],
+      "tags": [],
+      "source_empty": false
+    },
+    "DefInjected|MU.ImproveRecipeDef|MU_ImproveSmallShieldTierC.label": {
+      "source_hash": "f9831200585ebcace00463a70ebea3974c7d59fe03c2162d8f7a66b9e8479c82",
+      "tokens": [],
+      "tags": [],
+      "source_empty": false
+    },
+    "DefInjected|MU.ImproveRecipeDef|MU_ImproveUltraArmorTierB.description": {
+      "source_hash": "19a3099df7ac8cb3144d36d2b4d43ea34ea19663e414fa282c5f92829fccf355",
+      "tokens": [
+        "\\n",
+        "\\n"
+      ],
+      "tags": [],
+      "source_empty": false
+    },
+    "DefInjected|MU.ImproveRecipeDef|MU_ImproveUltraArmorTierB.label": {
+      "source_hash": "ab1485cb836b7c6cf8012759754169e2ccb679b005060345552dd1f2177baf7c",
+      "tokens": [],
+      "tags": [],
+      "source_empty": false
+    },
+    "DefInjected|MU.ImproveRecipeDef|MU_ImproveUltraLargeArmorTierC.description": {
+      "source_hash": "0b83d1f98afbdf0179d09b70254b81849085a3cbe1a1528c448ee7abe6d8ae81",
+      "tokens": [],
+      "tags": [],
+      "source_empty": false
+    },
+    "DefInjected|MU.ImproveRecipeDef|MU_ImproveUltraLargeArmorTierC.label": {
+      "source_hash": "20327c1b3f8112350fff2b91d5055164621a4a50237708838ffa80283d368828",
+      "tokens": [],
+      "tags": [],
+      "source_empty": false
+    },
+    "DefInjected|MU.MechUpgradeDef|MU_FrequencyAmplifier.description": {
+      "source_hash": "cf5aa06e5d29be2ba755ffd8698eba100133f61b9f716ec4cb224fbdf0de8f00",
+      "tokens": [],
+      "tags": [],
+      "source_empty": false
+    },
+    "DefInjected|MU.MechUpgradeDef|MU_FrequencyAmplifier.label": {
+      "source_hash": "5176880464be445018c57fa174bf6b80b195810d5bc51dbba95f6271b0e71832",
+      "tokens": [],
+      "tags": [],
+      "source_empty": false
+    },
+    "DefInjected|MU.MechUpgradeDef|MU_MechChip_Range_A.description": {
+      "source_hash": "f1eb50ab8b9bccf6cdd0aa8e37803b8a39fba4452aa3181475d4b6119e9e245b",
+      "tokens": [],
+      "tags": [],
+      "source_empty": false
+    },
+    "DefInjected|MU.MechUpgradeDef|MU_MechChip_Range_A.label": {
+      "source_hash": "b223e49da0d5109435aa68fc115a0495e89ee84cb218cc011ed1567ee1d05d77",
+      "tokens": [],
+      "tags": [],
+      "source_empty": false
+    },
+    "DefInjected|MU.MechUpgradeDef|MU_MechChip_Range_B.description": {
+      "source_hash": "471eb8036bbe19457eaffd354b0286dd8913ea5f56d997b6e8a6fc5721ee1618",
+      "tokens": [],
+      "tags": [],
+      "source_empty": false
+    },
+    "DefInjected|MU.MechUpgradeDef|MU_MechChip_Range_B.label": {
+      "source_hash": "5a9d51e05e8e3d9d0b8e9fa68a3e15934fbaf8159471cb55e2d211af06c32760",
+      "tokens": [],
+      "tags": [],
+      "source_empty": false
+    },
+    "DefInjected|MU.MechUpgradeDef|MU_MechChip_Range_C.description": {
+      "source_hash": "43ce648e5bdb42c1095cd7b0f4edd295ee8da67347bb7003c279995798e45177",
+      "tokens": [],
+      "tags": [],
+      "source_empty": false
+    },
+    "DefInjected|MU.MechUpgradeDef|MU_MechChip_Range_C.label": {
+      "source_hash": "e05f0c8588d226af47495c6c817e4a1e697f9207aafe08330c433f44754e1370",
+      "tokens": [],
+      "tags": [],
+      "source_empty": false
+    },
+    "DefInjected|MapGeneratorDef|MU_AncientFacility.label": {
+      "source_hash": "d5953280cddae12061d7faaa3513d99dfbe80bf66556dc8fc05bc7d271af5aa6",
+      "tokens": [],
+      "tags": [],
+      "source_empty": false
+    },
+    "DefInjected|ResearchProjectDef|MU_UpgradeFabricator.description": {
+      "source_hash": "ac167ed04d4a6423e2ff375256c293d5b338da97c6ee9a739b04be9d2ff16f57",
+      "tokens": [],
+      "tags": [],
+      "source_empty": false
+    },
+    "DefInjected|ResearchProjectDef|MU_UpgradeFabricator.label": {
+      "source_hash": "8951ccfcb5c15ad584b4e4ce4932bd81863c97a4df2f3516b88cca22f214ddf2",
+      "tokens": [],
+      "tags": [],
+      "source_empty": false
+    },
+    "DefInjected|ScenPartDef|MU_UpgradeStartingMech.label": {
+      "source_hash": "46055e99bdc2e3910f38c644706073e50216eb2b6f9c4803b8bbdd885b99f2af",
+      "tokens": [],
+      "tags": [],
+      "source_empty": false
+    },
+    "DefInjected|SitePartDef|MU_AncientComplex_Upgrades.approachOrderString": {
+      "source_hash": "66b0567091b1923330cb9f44f48abdaa68183205804476571cd43f3a04d66c75",
+      "tokens": [
+        "{0}"
+      ],
+      "tags": [],
+      "source_empty": false
+    },
+    "DefInjected|SitePartDef|MU_AncientComplex_Upgrades.approachingReportString": {
+      "source_hash": "dd85b864e7178a7f0891572ffbbdde6778f8df74c702f4ab0320b292ae3fc473",
+      "tokens": [
+        "{0}"
+      ],
+      "tags": [],
+      "source_empty": false
+    },
+    "DefInjected|SitePartDef|MU_AncientComplex_Upgrades.description": {
+      "source_hash": "35daa11796f62710d12379001ad15901f05a80cebfa288d44b4f338531e2044b",
+      "tokens": [],
+      "tags": [],
+      "source_empty": false
+    },
+    "DefInjected|SitePartDef|MU_AncientComplex_Upgrades.label": {
+      "source_hash": "784413d9e81fd037552dae65986eb4a5b30869d26e314f64d00bb038f771760b",
+      "tokens": [],
+      "tags": [],
+      "source_empty": false
+    },
+    "DefInjected|SpecialThingFilterDef|MU_AllowATier.description": {
+      "source_hash": "7789797e047e955b875f69f84a3884e51a4c750735f13474af751b1e8817b4a4",
+      "tokens": [],
+      "tags": [],
+      "source_empty": false
+    },
+    "DefInjected|SpecialThingFilterDef|MU_AllowATier.label": {
+      "source_hash": "8efbd8c706a297e4b1d6de05566a8c535fdae968bc5ca91ad5ecf1005cf6ec19",
+      "tokens": [],
+      "tags": [],
+      "source_empty": false
+    },
+    "DefInjected|SpecialThingFilterDef|MU_AllowBTier.description": {
+      "source_hash": "ce21f18a515da5b98addb07f3bd02d8efa8ca722d9ed20fad70cd753d287b623",
+      "tokens": [],
+      "tags": [],
+      "source_empty": false
+    },
+    "DefInjected|SpecialThingFilterDef|MU_AllowBTier.label": {
+      "source_hash": "3628b22be6c1c10caf4ec649b40e5c6149f43f59f2265090db846631f5779a0b",
+      "tokens": [],
+      "tags": [],
+      "source_empty": false
+    },
+    "DefInjected|SpecialThingFilterDef|MU_AllowCTier.description": {
+      "source_hash": "f1b988d6783d979d5d662554084e919595e4d1579fce356f9e3d9d03f2f2335c",
+      "tokens": [],
+      "tags": [],
+      "source_empty": false
+    },
+    "DefInjected|SpecialThingFilterDef|MU_AllowCTier.label": {
+      "source_hash": "feadf61b5a890e9566258555668f6bb461913a4c2a3e85bbf1a074a366c20e8c",
+      "tokens": [],
+      "tags": [],
+      "source_empty": false
+    },
+    "DefInjected|SpecialThingFilterDef|MU_AllowCorpsesWithUpgrades.description": {
+      "source_hash": "42460157fee9d9b31c8d4e1941d46615cc2e360ab5d95bb0eefe0ab2877a5fd2",
+      "tokens": [],
+      "tags": [],
+      "source_empty": false
+    },
+    "DefInjected|SpecialThingFilterDef|MU_AllowCorpsesWithUpgrades.label": {
+      "source_hash": "da6b6c023714fb447da641f952b9ba43387ebf11a05a5c63c3f59d8f02c80f51",
+      "tokens": [],
+      "tags": [],
+      "source_empty": false
+    },
+    "DefInjected|SpecialThingFilterDef|MU_AllowNonTier.description": {
+      "source_hash": "76004af771f71b2497859813337e38623ffb06ddb698e1b2b0f56cf5d7e3b919",
+      "tokens": [],
+      "tags": [],
+      "source_empty": false
+    },
+    "DefInjected|SpecialThingFilterDef|MU_AllowNonTier.label": {
+      "source_hash": "5e2aa3fd26b1a688e11c24c866a4420be017bdd3e13edc952098d8812b10a34e",
+      "tokens": [],
+      "tags": [],
+      "source_empty": false
+    },
+    "DefInjected|StatDef|MU_UpgradeFabricationSpeed.description": {
+      "source_hash": "39ca48a9dc50e7887872ca17cfcdec79894b6c6272f51b60ded7a9d73ed08856",
+      "tokens": [],
+      "tags": [],
+      "source_empty": false
+    },
+    "DefInjected|StatDef|MU_UpgradeFabricationSpeed.label": {
+      "source_hash": "3349b228951ae956b4293a3db72ca2e96cf3ba8a0073926f7881fb323a4cfdc4",
+      "tokens": [],
+      "tags": [],
+      "source_empty": false
+    },
+    "DefInjected|StatDef|MU_WeaponRangeFactor.description": {
+      "source_hash": "9f0f6984ba93b97fd53f9e75e2758b899f0a39bc117c56c09d6a43dd1d07a764",
+      "tokens": [],
+      "tags": [],
+      "source_empty": false
+    },
+    "DefInjected|StatDef|MU_WeaponRangeFactor.label": {
+      "source_hash": "133e50c81b8813ba46932165ecf423bdbfb39b89dec8c17c191876f5886b95e5",
+      "tokens": [],
+      "tags": [],
+      "source_empty": false
+    },
+    "DefInjected|ThingCategoryDef|MU_LargeArmor.label": {
+      "source_hash": "ca624fe8bfa414daca6fbd1c943cd2c4090b414ff868a5eacffdbe9946d32abe",
+      "tokens": [],
+      "tags": [],
+      "source_empty": false
+    },
+    "DefInjected|ThingCategoryDef|MU_LargeShields.label": {
+      "source_hash": "232bb4483b57853e14eb9f933f39f81d8e17938a2354ad74f91708cb9b06e641",
+      "tokens": [],
+      "tags": [],
+      "source_empty": false
+    },
+    "DefInjected|ThingCategoryDef|MU_MediumArmor.label": {
+      "source_hash": "633bee3c7083d44efbcb244e3b3481175282afeb6b5d52de4f3aa3671b6aaa45",
+      "tokens": [],
+      "tags": [],
+      "source_empty": false
+    },
+    "DefInjected|ThingCategoryDef|MU_MediumShields.label": {
+      "source_hash": "6d499225067a65d91b7fa0824f2c5a06ce188a2e51e871ff0f3f423544af79c3",
+      "tokens": [],
+      "tags": [],
+      "source_empty": false
+    },
+    "DefInjected|ThingCategoryDef|MU_SmallArmor.label": {
+      "source_hash": "a64a4e1abe793aa9c93d0f29c89f0a0ffdbbbc2f4e3d53778224460f525cfa24",
+      "tokens": [],
+      "tags": [],
+      "source_empty": false
+    },
+    "DefInjected|ThingCategoryDef|MU_SmallShields.label": {
+      "source_hash": "f994963ed64849ac1ae69d9bc22a17e55776afd724746122ceda0d4bc2c04644",
+      "tokens": [],
+      "tags": [],
+      "source_empty": false
+    },
+    "DefInjected|ThingCategoryDef|MU_UltraLargeArmor.label": {
+      "source_hash": "ccee31698a0e3db481c0e49f01d6c9c7dc129b840691964c314bfe8e991a31ab",
+      "tokens": [],
+      "tags": [],
+      "source_empty": false
+    },
+    "DefInjected|ThingDef|MU_AncientAdvancedUpgradesAssembler.description": {
+      "source_hash": "7a47642b6d68b4fe9c110673dd3af1391003374ffe743c87d99a14ba62a71655",
+      "tokens": [],
+      "tags": [],
+      "source_empty": false
+    },
+    "DefInjected|ThingDef|MU_AncientAdvancedUpgradesAssembler.label": {
+      "source_hash": "54e01c20cd08e15a3c4fe84243b6a1bc1e5af13c34a09ea76538cf0f426a0a26",
+      "tokens": [],
+      "tags": [],
+      "source_empty": false
+    },
+    "DefInjected|ThingDef|MU_AncientAssemblyCentrifuge.label": {
+      "source_hash": "632341d067539c305dee6360fd034b674550ea3b4a00ecbffccc9368ded7e2e5",
+      "tokens": [],
+      "tags": [],
+      "source_empty": false
+    },
+    "DefInjected|ThingDef|MU_AncientBasicUpgradesAssembler.description": {
+      "source_hash": "fd36d31bbe722d9fa2df5c9fdfb1dba282181acfee2f6f003571f74d05465d90",
+      "tokens": [],
+      "tags": [],
+      "source_empty": false
+    },
+    "DefInjected|ThingDef|MU_AncientBasicUpgradesAssembler.label": {
+      "source_hash": "94964e71217339b994694b8767fadcf3012e3a0bf3c0a33e0eae3389898f80b8",
+      "tokens": [],
+      "tags": [],
+      "source_empty": false
+    },
+    "DefInjected|ThingDef|MU_AncientEmergencyLight.description": {
+      "source_hash": "f4546588e1cd42d04941dac428b0a427b2a693e9822b9e229ab423ece49e72ec",
+      "tokens": [],
+      "tags": [],
+      "source_empty": false
+    },
+    "DefInjected|ThingDef|MU_AncientEmergencyLight.label": {
+      "source_hash": "a312dbb12a9337ea137bfcfd4ac154fce4d56bcea174faad067db01676d3b3dd",
+      "tokens": [],
+      "tags": [],
+      "source_empty": false
+    },
+    "DefInjected|ThingDef|MU_AncientFacilityEntrance.comps.CompHackable.hackedMessage": {
+      "source_hash": "c709b5eb36d95e0eee2af5b0221b0f65d11ff898245dfdbe9bc6fa9fbb5a804e",
+      "tokens": [
+        "{HACKER_labelShort}",
+        "{SUBJECT_labelNoParenthesisDef}"
+      ],
+      "tags": [],
+      "source_empty": false
+    },
+    "DefInjected|ThingDef|MU_AncientFacilityEntrance.comps.CompHackable.notHackedInspectString": {
+      "source_hash": "4c1748ffdf5ca0ddf81a14ab6eb368d0daea8c428bb325430ae41539f5170a8d",
+      "tokens": [],
+      "tags": [],
+      "source_empty": false
+    },
+    "DefInjected|ThingDef|MU_AncientFacilityEntrance.description": {
+      "source_hash": "33513a7fb862acf4904a54662550d87da88d6331f3ba2216db504c7550c75216",
+      "tokens": [],
+      "tags": [],
+      "source_empty": false
+    },
+    "DefInjected|ThingDef|MU_AncientFacilityEntrance.label": {
+      "source_hash": "f40c05f3cf3450c81d9bd2c8adba8ae09c91853fb7c83d409cb3ad971acb352e",
+      "tokens": [],
+      "tags": [],
+      "source_empty": false
+    },
+    "DefInjected|ThingDef|MU_AncientFacilityExit.description": {
+      "source_hash": "7fc5c4d63214420311b00acda12a2ef47cfc7751f8ef8cd17f3684cfca02495a",
+      "tokens": [],
+      "tags": [],
+      "source_empty": false
+    },
+    "DefInjected|ThingDef|MU_AncientFacilityExit.label": {
+      "source_hash": "d1a59de3cf988450298280ce49012f4bcf659af512c4d72faf4d9b6f01d36076",
+      "tokens": [],
+      "tags": [],
+      "source_empty": false
+    },
+    "DefInjected|ThingDef|MU_AncientLargeUpgradesStorage.description": {
+      "source_hash": "664a28cee86e71e4ea2de3919b5c5080ccc5b9868db9acae7f386b744aa9b78d",
+      "tokens": [],
+      "tags": [],
+      "source_empty": false
+    },
+    "DefInjected|ThingDef|MU_AncientLargeUpgradesStorage.label": {
+      "source_hash": "ca873b22fb32276760d2683f7b0db09a47e8655579b7d4d48c02b84315a6d69c",
+      "tokens": [],
+      "tags": [],
+      "source_empty": false
+    },
+    "DefInjected|ThingDef|MU_AncientMechUpgrader.description": {
+      "source_hash": "d4a551e74320864f7c466954eb577c52258f11dc441c0c45e7ab848c6aa3881a",
+      "tokens": [],
+      "tags": [],
+      "source_empty": false
+    },
+    "DefInjected|ThingDef|MU_AncientMechUpgrader.label": {
+      "source_hash": "5860082ab489aaadf9e90cbbc4eca105acb04ffdb6e22ade4af72531b53f9245",
+      "tokens": [],
+      "tags": [],
+      "source_empty": false
+    },
+    "DefInjected|ThingDef|MU_AncientUpgradesStorage.description": {
+      "source_hash": "648b464d6bf4f823de779821616beda63217502f0e770e65a77eb64216dcfa5e",
+      "tokens": [],
+      "tags": [],
+      "source_empty": false
+    },
+    "DefInjected|ThingDef|MU_AncientUpgradesStorage.label": {
+      "source_hash": "067df08731c9d5770617dffdb935d51c526e39ef8544b51ae786571506bca977",
+      "tokens": [],
+      "tags": [],
+      "source_empty": false
+    },
+    "DefInjected|ThingDef|MU_FrequencyAmplifier.description": {
+      "source_hash": "cf5aa06e5d29be2ba755ffd8698eba100133f61b9f716ec4cb224fbdf0de8f00",
+      "tokens": [],
+      "tags": [],
+      "source_empty": false
+    },
+    "DefInjected|ThingDef|MU_UpgradeSlag.description": {
+      "source_hash": "83dbf2fe734857a3b656ad1f412788e477dd18f6048ddbbb6d5a3282fdd456fc",
+      "tokens": [],
+      "tags": [],
+      "source_empty": false
+    },
+    "DefInjected|ThingDef|MU_UpgradeSlag.label": {
+      "source_hash": "b6be3fea65530354b657d6cadc06488c7a45352ee41470b08c9de5e14740ef2f",
+      "tokens": [],
+      "tags": [],
+      "source_empty": false
+    },
+    "DefInjected|ThingDef|MU_UpgradesFabricator.description": {
+      "source_hash": "7cf0f6f36314b49eba920281b434dbcb6f2cd41da5b98ac6442c0dd02d0e4146",
+      "tokens": [],
+      "tags": [],
+      "source_empty": false
+    },
+    "DefInjected|ThingDef|MU_UpgradesFabricator.label": {
+      "source_hash": "8951ccfcb5c15ad584b4e4ce4932bd81863c97a4df2f3516b88cca22f214ddf2",
+      "tokens": [],
+      "tags": [],
+      "source_empty": false
+    },
+    "DefInjected|WorkGiverDef|MU_DoBillsUpgradeFabricator.gerund": {
+      "source_hash": "5aea5b544ab23e04c3488bb28c78e2c2ac40cb6056b9d087c6963a27f79fdb40",
+      "tokens": [],
+      "tags": [],
+      "source_empty": false
+    },
+    "DefInjected|WorkGiverDef|MU_DoBillsUpgradeFabricator.label": {
+      "source_hash": "862cdeb9bd9427d13e1ae9e84d7d2a492cf952bb001468da574a4384f7f0fd18",
+      "tokens": [],
+      "tags": [],
+      "source_empty": false
+    },
+    "DefInjected|WorkGiverDef|MU_DoBillsUpgradeFabricator.verb": {
+      "source_hash": "8dcd5af48f03f2d0669b312c648bf63d8b47d07bade85364652e60ad6289965b",
+      "tokens": [],
+      "tags": [],
+      "source_empty": false
+    },
+    "Keyed|MU_MechBooster_Desc": {
+      "source_hash": "64d34ed94ee06704845ad8c210dd53cd435ca189c60cf062f20ec1fd83f27f1e",
+      "tokens": [],
+      "tags": [],
+      "source_empty": false
+    },
+    "Keyed|MU_MechBooster_Label": {
+      "source_hash": "120d68e504c8d83b2fa07f00002ca806bdb82ffe8d9d9f57a67b22b9246fe4c8",
+      "tokens": [],
+      "tags": [],
+      "source_empty": false
+    }
+  }
+}

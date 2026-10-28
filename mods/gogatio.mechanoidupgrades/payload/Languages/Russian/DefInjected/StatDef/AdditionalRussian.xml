@@ -1,0 +1,7 @@
+<?xml version='1.0' encoding='utf-8'?>
+<LanguageData>
+  <MU_UpgradeFabricationSpeed.description>Скорость, с которой этот персонаж создаёт улучшения для механоидов.</MU_UpgradeFabricationSpeed.description>
+  <MU_UpgradeFabricationSpeed.label>скорость изготовления улучшений</MU_UpgradeFabricationSpeed.label>
+  <MU_WeaponRangeFactor.description>Множитель дальности, применяемый к оружию в руках этого существа.</MU_WeaponRangeFactor.description>
+  <MU_WeaponRangeFactor.label>Множитель дальности оружия</MU_WeaponRangeFactor.label>
+</LanguageData>

@@ -7,9 +7,10 @@
     "3828790442",
     "3828790605",
     "3828790757",
-    "3828790822"
+    "3828790822",
+    "3828883103"
   ],
-  "membership_automation": "Private operator publisher invokes official SteamUGC AddDependency and verifies membership after upload; four existing members verified. Website collection publication is a separate pending step.",
+  "membership_automation": "Private operator publisher invokes official SteamUGC AddDependency and verifies membership after upload; five existing members verified, including the new Mechanoid Upgrades item. Website collection publication is a separate pending step.",
   "website_publication_verified": false,
   "cover": {
     "kind": "original_typographic_fallback",
@@ -17,6 +18,6 @@
     "original_art_used": false,
     "sha256": "1e0d06c154f626c71899277e16cd6c50ccdfb8b5eae7c5a901c72b4fb2ba665b"
   },
-  "website_blocker": "Authenticated owner edit form returns Steam error15: Access denied when saving collection title/description, including after selecting the owned Preview.png. Four native members verified; website Publish remains incomplete.",
+  "website_blocker": "Authenticated owner edit form returns Steam error15: Access denied when saving collection title/description, including after selecting the owned Preview.png. Five native members verified; website Publish remains incomplete.",
   "website_checked_at": "2026-10-28T11:24:30.643389+00:00"
 }

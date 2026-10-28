@@ -54,6 +54,49 @@
         "gameplay_tested": false,
         "independent_human_proofreading": false
       }
+    },
+    {
+      "package_id": "regrowth.botr.core",
+      "channel": "github_pull_request",
+      "url": "https://github.com/OneCodeUnit/VanillaRussianExpanded/pull/46",
+      "target_kind": "community_translation",
+      "date": "2026-10-28",
+      "status": "awaiting_response",
+      "ai_disclosed": true,
+      "fresh_game_test_claimed": true,
+      "head_sha": "256ce8f6cc06c909bf24be1f73ad8b505a8f1b34",
+      "original_native_accepted": false,
+      "game_test": {
+        "version": "1.7.4990 rev1069",
+        "scope": "One added description: exact loaded ThingDef value and injection verified in isolated profile; no standalone Workshop package test",
+        "matched_entries": 1,
+        "workshop_install_tested": false,
+        "gameplay_tested": false,
+        "independent_human_proofreading": false
+      }
+    },
+    {
+      "package_id": "aoba.exosuit.framework",
+      "related_package_ids": [
+        "aoba.deadmanswitch.core",
+        "aoba.deadmanswitch.mobiledragoon",
+        "aoba.fortress.industrial",
+        "aoba.fortress.industrial.citadel"
+      ],
+      "channel": "github_issue",
+      "target_kind": "translation_distribution_permission",
+      "url": "https://github.com/AobaKuma/MechsuitFramework/issues/34",
+      "date": "2026-10-28",
+      "status": "awaiting_response",
+      "ai_disclosed": true,
+      "rights_granted": false,
+      "scope": "One consolidated request for independent text-only Russian packs and/or upstream contributions; own fallback covers, no original artwork; coauthor authorization scope requested",
+      "fresh_game_test_claimed": true,
+      "game_test": {
+        "version": "1.7.4990 rev1069",
+        "scope": "Selected text loaded and physically read in isolated captured profile; no colony playthrough; later source changes require retest",
+        "gameplay_tested": false
+      }
     }
   ]
 }

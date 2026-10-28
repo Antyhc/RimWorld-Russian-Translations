@@ -78,7 +78,7 @@
       }
     ],
     "coverage_scope": "saved_static_extraction_lower_bound; not complete runtime coverage",
-    "checked_at": "2026-10-28T10:30:30.068317+00:00",
+    "checked_at": "2026-10-28T13:25:05.099005+00:00",
     "original_license_evidence": [],
     "local_static_audit": {
       "checked_at": "2026-10-28T09:16:18.098388+00:00",

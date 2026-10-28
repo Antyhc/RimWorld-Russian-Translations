@@ -1,0 +1,25 @@
+<?xml version='1.0' encoding='utf-8'?>
+<ModMetaData>
+  <name>Mechanoid Upgrades — Russian completion</name>
+  <author>Antyhc (AI-assisted with OpenAI Codex)</author>
+  <packageId>antyhc.russian.gogatio.mechanoidupgrades</packageId>
+  <url>https://github.com/Antyhc/RimWorld-Russian-Translations</url>
+  <description>Дополнение русского перевода Mechanoid Upgrades: 108 отсутствующих строк, включая названия и описания улучшений, древние сооружения, фильтры, характеристики и сообщения. Содержит только собственные новые переводы; встроенные русские строки оригинала и чужие русификаторы не копируются. Автор оригинального мода: GoGaTio. Требуется Mechanoid Upgrades и его зависимости Biotech и Harmony. Загружать после оригинала. Подготовлено с помощью локальной модели перевода и OpenAI Codex, семантическая вычитка — OpenAI Codex. Независимая вычитка человеком не заявляется.
+
+Russian completion for Mechanoid Upgrades: 108 missing entries including upgrade names/descriptions, ancient structures, filters, stats and messages. Contains only newly authored translations; original bundled Russian and third-party translations are not copied. Original mod author: GoGaTio. Requires Mechanoid Upgrades and its Biotech and Harmony dependencies. Load after the original. AI-assisted drafting with a local translation model and OpenAI Codex; semantic review by OpenAI Codex. No independent human proofreading claimed.
+
+https://steamcommunity.com/sharedfiles/filedetails/?id=3365118555</description>
+  <supportedVersions>
+    <li>1.7</li>
+  </supportedVersions>
+  <modDependencies>
+    <li>
+      <packageId>gogatio.mechanoidupgrades</packageId>
+      <displayName>Mechanoid Upgrades</displayName>
+      <steamWorkshopUrl>https://steamcommunity.com/sharedfiles/filedetails/?id=3365118555</steamWorkshopUrl>
+    </li>
+  </modDependencies>
+  <loadAfter>
+    <li>gogatio.mechanoidupgrades</li>
+  </loadAfter>
+</ModMetaData>

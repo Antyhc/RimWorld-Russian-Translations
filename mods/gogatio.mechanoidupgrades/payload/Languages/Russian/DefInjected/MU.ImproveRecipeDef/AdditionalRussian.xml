@@ -1,0 +1,39 @@
+<?xml version='1.0' encoding='utf-8'?>
+<LanguageData>
+  <MU_ImproveChipTierB.description>Улучшает чип класса B до чипа класса A.\n\nДаёт 50 серебра, 1 обычный и 1 продвинутый компонент.</MU_ImproveChipTierB.description>
+  <MU_ImproveChipTierB.label>Улучшение чипа с уровня B до уровня A</MU_ImproveChipTierB.label>
+  <MU_ImproveChipTierC.description>Улучшает чип класса C до чипа класса B.\n\nДаёт 5 стали.</MU_ImproveChipTierC.description>
+  <MU_ImproveChipTierC.label>улучшение чипа уровня C до уровня B</MU_ImproveChipTierC.label>
+  <MU_ImproveLargeArmorTierB.description>Улучшает большую броню класса B до большой брони класса A.\n\nДаёт 30 стали, 1 обычный и 1 продвинутый компонент.</MU_ImproveLargeArmorTierB.description>
+  <MU_ImproveLargeArmorTierB.label>Улучшение брони большого размера с уровня B до уровня A</MU_ImproveLargeArmorTierB.label>
+  <MU_ImproveLargeArmorTierC.description>Улучшает большую броню класса C до большой брони класса B.\n\nДаёт 1 обычный компонент.</MU_ImproveLargeArmorTierC.description>
+  <MU_ImproveLargeArmorTierC.label>Улучшить крупную броню уровня C до уровня B</MU_ImproveLargeArmorTierC.label>
+  <MU_ImproveLargeShieldTierB.description>Улучшает большой щит класса B до большого щита класса A.\n\nДаёт 3 обычных компонента.</MU_ImproveLargeShieldTierB.description>
+  <MU_ImproveLargeShieldTierB.label>Улучшить большой щит уровня B до уровня A</MU_ImproveLargeShieldTierB.label>
+  <MU_ImproveLargeShieldTierC.description>Улучшает большой щит класса C до большого щита класса B.\n\nДаёт 1 обычный компонент.</MU_ImproveLargeShieldTierC.description>
+  <MU_ImproveLargeShieldTierC.label>улучшение большого щита с уровня C до уровня B</MU_ImproveLargeShieldTierC.label>
+  <MU_ImproveMediumArmorTierB.description>Улучшает среднюю броню класса B до средней брони класса A.\n\nДаёт 30 стали, 3 обычных и 1 продвинутый компонент.</MU_ImproveMediumArmorTierB.description>
+  <MU_ImproveMediumArmorTierB.label>Улучшить среднюю броню уровня B до уровня A</MU_ImproveMediumArmorTierB.label>
+  <MU_ImproveMediumArmorTierC.description>Улучшить среднюю броню класса C до средней брони класса B.</MU_ImproveMediumArmorTierC.description>
+  <MU_ImproveMediumArmorTierC.label>Улучшить среднюю броню уровня C до уровня B</MU_ImproveMediumArmorTierC.label>
+  <MU_ImproveMediumShieldTierB.description>Улучшает средний щит класса B до среднего щита класса A.\n\nДаёт 10 стали и 1 продвинутый компонент.</MU_ImproveMediumShieldTierB.description>
+  <MU_ImproveMediumShieldTierB.label>Улучшить средний щит класса B до класса A</MU_ImproveMediumShieldTierB.label>
+  <MU_ImproveMediumShieldTierC.description>Улучшить средний щит класса C до среднего щита класса B.</MU_ImproveMediumShieldTierC.description>
+  <MU_ImproveMediumShieldTierC.label>Улучшить средний щит класса C до класса B</MU_ImproveMediumShieldTierC.label>
+  <MU_ImproveModuleTierB.description>Улучшает модуль класса B до модуля класса A.\n\nДаёт 20 стали, 1 обычный и 1 продвинутый компонент.</MU_ImproveModuleTierB.description>
+  <MU_ImproveModuleTierB.label>Улучшить модуль уровня B до уровня A</MU_ImproveModuleTierB.label>
+  <MU_ImproveModuleTierC.description>Улучшить модуль уровня C до уровня B.</MU_ImproveModuleTierC.description>
+  <MU_ImproveModuleTierC.label>Улучшить модуль уровня C до уровня B</MU_ImproveModuleTierC.label>
+  <MU_ImproveSmallArmorTierB.description>Улучшает малую броню класса B до малой брони класса A.\n\nДаёт 30 стали, 1 обычный и 1 продвинутый компонент.</MU_ImproveSmallArmorTierB.description>
+  <MU_ImproveSmallArmorTierB.label>Улучшить малую броню уровня B до уровня A</MU_ImproveSmallArmorTierB.label>
+  <MU_ImproveSmallArmorTierC.description>Улучшить малую броню уровня C до уровня B.</MU_ImproveSmallArmorTierC.description>
+  <MU_ImproveSmallArmorTierC.label>Улучшить малую броню класса C до класса B</MU_ImproveSmallArmorTierC.label>
+  <MU_ImproveSmallShieldTierB.description>Улучшает малый щит класса B до малого щита класса A.\n\nДаёт 20 стали, 1 обычный и 1 продвинутый компонент.</MU_ImproveSmallShieldTierB.description>
+  <MU_ImproveSmallShieldTierB.label>Улучшить малый щит класса B до класса A</MU_ImproveSmallShieldTierB.label>
+  <MU_ImproveSmallShieldTierC.description>Улучшает малый щит класса C до малого щита класса B.\n\nДаёт 1 обычный компонент.</MU_ImproveSmallShieldTierC.description>
+  <MU_ImproveSmallShieldTierC.label>Улучшить малый щит уровня C до уровня B</MU_ImproveSmallShieldTierC.label>
+  <MU_ImproveUltraArmorTierB.description>Улучшает сверхбольшую броню класса B до сверхбольшой брони класса A.\n\nДаёт 40 стали, 2 обычных и 1 продвинутый компонент.</MU_ImproveUltraArmorTierB.description>
+  <MU_ImproveUltraArmorTierB.label>Улучшение брони сверхбольшого размера с уровня B до уровня A</MU_ImproveUltraArmorTierB.label>
+  <MU_ImproveUltraLargeArmorTierC.description>Улучшить сверхкрупную броню класса C до сверхкрупной брони класса B.</MU_ImproveUltraLargeArmorTierC.description>
+  <MU_ImproveUltraLargeArmorTierC.label>Улучшение брони сверхбольшого размера с уровня C до уровня B</MU_ImproveUltraLargeArmorTierC.label>
+</LanguageData>

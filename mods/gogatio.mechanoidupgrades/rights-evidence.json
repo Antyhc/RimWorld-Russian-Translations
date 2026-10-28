@@ -1,0 +1,15 @@
+{
+  "schema": 1,
+  "checked_at": "2026-10-28T13:20:58.209819+00:00",
+  "source": "Current original Steam item3365118555 installed distribution",
+  "original_workshop_url": "https://steamcommunity.com/sharedfiles/filedetails/?id=3365118555",
+  "original_package_id": "gogatio.mechanoidupgrades",
+  "original_author": "GoGaTio",
+  "license": "MIT",
+  "copyright_notice": "Copyright (c) 2025 GoGaTio",
+  "license_file": "LICENSE",
+  "license_file_sha256": "5b61e48e8cf68182afdbec8c9ae5e41fc37bcdfb8756f264d5f1a2192a6793d1",
+  "included_notice_sha256": "5b61e48e8cf68182afdbec8c9ae5e41fc37bcdfb8756f264d5f1a2192a6793d1",
+  "scope": "Only108 own translation additions; MIT original text permission; no preserved base, third-party Russian or original mod resources.",
+  "separate_original_art_permission": "not obtained; original art not used"
+}

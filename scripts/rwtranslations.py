@@ -373,6 +373,9 @@ def registry(root=ROOT):
         "translations": len(records),
         "saved_store_records": sum(m.get("inventory", {}).get("saved_translation_store") is True for m in records),
         "draft_only_records": sum(m.get("inventory", {}).get("saved_translation_store") is False for m in records),
+        "model_reviewed_tasks": sum((m.get("inventory", {}).get("draft_work", {}).get("semantic_review") or {}).get("reviewed_tasks", 0) for m in records),
+        "model_held_tasks": sum((m.get("inventory", {}).get("draft_work", {}).get("semantic_review") or {}).get("decisions", {}).get("hold", 0) for m in records),
+        "private_model_test_values": sum(m.get("inventory", {}).get("reviewed_model_private_test", {}).get("verified_target_values", 0) for m in records),
         "store_scope_unverified": sum(not isinstance(m.get("inventory", {}).get("saved_translation_store"), bool) for m in records),
         "technically_checked": sum(m.get("qa", {}).get("technical") == "passed" for m in records),
         "game_tested": sum(m.get("qa", {}).get("in_game") == "passed" for m in records),
@@ -397,7 +400,8 @@ def registry(root=ROOT):
     }}
 
 
-def status_markdown(reg):
+def status_markdown(reg, root=None):
+    root = Path(root or ROOT)
     counts = reg["counts"]
     records = reg["mods"]
     drafts = sum(m.get("inventory", {}).get("saved_translation_store") is False for m in records)
@@ -418,14 +422,27 @@ def status_markdown(reg):
     tested = []
     for mod in records:
         evidence = mod.get("qa", {}).get("game_evidence")
-        path = ROOT / Path(mod["manifest"]).parent / evidence if evidence else None
+        path = root / Path(mod["manifest"]).parent / evidence if evidence else None
         if path and path.is_file() and mod.get("qa", {}).get("in_game") == "passed":
             tested.append(read_json(path))
     if tested:
-        values = sum(x.get("matched_entries", 0) for x in tested)
+        values = sum(x.get("matched_entries", x.get("russian_candidate_matches", 0)) for x in tested)
         versions = ", ".join(sorted({x.get("game_version", "unspecified") for x in tested}))
-        lines += ["", f"Game QA: {values} expected Russian values loaded in isolated RimWorld {versions}; settings windows were inspected. The subscribed Workshop copies were also loaded. The nine Core localization errors were identical with and without the four pilot translations; zero added translation errors. Personal configuration hashes were unchanged. This is load/UI testing, **not a colony playthrough or extended gameplay test**. No independent human proofreading is claimed."]
-    collection_path = ROOT / "community" / "collection.json"
+        lines += ["", f"Game QA: {values} expected Russian values loaded across the recorded isolated RimWorld {versions} checks. Each linked evidence file records its own baseline errors, Workshop-copy verification and UI inspection scope. Personal configuration hashes were unchanged. This is load/readback testing, **not a colony playthrough or extended gameplay test**. No independent human proofreading is claimed."]
+    batch_reports = sorted((root / "reports").glob("reviewed-batches*.json"))
+    if batch_reports:
+        batch_path = batch_reports[-1]
+        batch_report = read_json(batch_path)
+        managed = batch_report.get("reviewed_managed_batch", {})
+        model = batch_report.get("local_model_review", {})
+        private_test = model.get("private_runtime_test", {})
+        lines += ["", f"Private reviewed batches: **{managed.get('packages', 0)} managed packages / {managed.get('matching_values', 0)} values tested**; {model.get('reviewed_tasks', 0)} local-model tasks processed. The private model candidate has **{private_test.get('verified_target_values', 0)} values verified across {private_test.get('provider_count', 0)} providers**; {private_test.get('combined_matching_values', 0)} combined values matched. This is isolated load/readback testing, with no colony playthrough or main-profile installation approval. Translation rights and public release QA are separate. [Counts and evidence hashes]({batch_path.relative_to(root).as_posix()})."]
+        if private_test.get("current_full_profile_freshness") == "upstream_changed_retest_required":
+            lines += ["", f"The captured private-profile result remains bound to its tested hashes. {private_test.get('changed_upstream_files', 0)} upstream files changed afterward; the launcher blocks a full-profile rerun pending fresh validation. The old proof has not been relabeled as current."]
+        elif private_test.get("current_full_profile_freshness") == "current_inputs_verified_by_fresh_game_readback":
+            ui = private_test.get("runtime_ui_handlers", {})
+            lines += ["", f"Two fresh game boots verified the current upstream files and the same private candidate tree; the guarded isolated launcher now passes. Runtime UI handlers: **{ui.get('applied', 0)} applied / {ui.get('held_changed_dubsmintmenus_assembly', 0)} held** after the Dubs Mint Menus update; the assembly guard was preserved. Full UI translation is not claimed."]
+    collection_path = root / "community" / "collection.json"
     if collection_path.is_file():
         collection = read_json(collection_path)
         if collection.get("url"):
@@ -433,11 +450,12 @@ def status_markdown(reg):
             lines += ["", f"[Workshop collection]({collection['url']}): **{state}**. Membership uses native SteamUGC AddDependency with postcondition verification; website publication is a separate step."]
             if collection.get("website_blocker"):
                 lines += ["", collection["website_blocker"]]
-    lines += ["", "Upstream contributions:", ""]
+    lines += ["", "Integration proposals:", ""]
     for mod in records:
         integration = mod.get("integration", {})
         if integration.get("pr_url"):
-            lines.append(f"- [{mod.get('name', mod['package_id'])}]({integration['pr_url']}): {integration.get('status', 'unknown')}.")
+            target = " (community translation repository; original-native acceptance not claimed)" if integration.get("target_kind") == "community_translation" else ""
+            lines.append(f"- [{mod.get('name', mod['package_id'])}]({integration['pr_url']}): {integration.get('status', 'unknown')}{target}.")
     lines += ["", "Current pilot covers are original typographic fallback designs. Original-art permission requests remain separate and do not block these covers. Other records with unconfirmed translation rights are held from distribution.", "",
               "The 13 source-drift packages were refreshed. Targeted repairs added 20 strings, updated seven Russian texts and preserved 15 correct translations with new source hashes across five packages. These repairs have no new in-game test. Large outstanding deltas and stale custom-field proofs remain under review; historical static findings are not a count of broken translations.", "", "| Metric | Count |", "|---|---:|"]
     lines.extend(f"| {key} | {value} |" for key, value in counts.items())
@@ -789,7 +807,7 @@ def main(argv=None):
     if args.command == "registry":
         reg = registry(root)
         write_json(root / "registry.json", reg)
-        (root / "PROJECT_STATUS.md").write_text(status_markdown(reg), encoding="utf-8")
+        (root / "PROJECT_STATUS.md").write_text(status_markdown(reg, root), encoding="utf-8")
         print(json.dumps(reg["counts"]))
     elif args.command == "validate":
         report = audit(root, args.release)

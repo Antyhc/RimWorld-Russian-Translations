@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "generated_at": "2026-10-28T11:27:10+00:00",
+  "generated_at": "2026-10-28T14:15:35+00:00",
   "mods": [
     {
       "schema_version": 1,
@@ -73,7 +73,7 @@
         "native_russian_rows_in_snapshot": 0,
         "third_party_candidates": [],
         "coverage_scope": "saved_static_extraction_lower_bound; not complete runtime coverage",
-        "checked_at": "2026-10-28T10:30:30.068317+00:00",
+        "checked_at": "2026-10-28T13:25:05.099005+00:00",
         "original_license_evidence": [],
         "local_static_audit": {
           "checked_at": "2026-10-28T09:16:15.937613+00:00",
@@ -162,7 +162,7 @@
         "native_russian_rows_in_snapshot": 0,
         "third_party_candidates": [],
         "coverage_scope": "saved_static_extraction_lower_bound; not complete runtime coverage",
-        "checked_at": "2026-10-28T10:30:30.068317+00:00",
+        "checked_at": "2026-10-28T13:25:05.099005+00:00",
         "original_license_evidence": [],
         "local_static_audit": {
           "checked_at": "2026-10-28T09:16:16.120937+00:00",
@@ -310,7 +310,7 @@
         "native_russian_rows_in_snapshot": 0,
         "third_party_candidates": [],
         "coverage_scope": "saved_static_extraction_lower_bound; not complete runtime coverage",
-        "checked_at": "2026-10-28T10:30:30.068317+00:00",
+        "checked_at": "2026-10-28T13:25:05.099005+00:00",
         "original_license_evidence": [
           {
             "relative_path": "LICENSE",
@@ -392,7 +392,7 @@
         "pr_url": null,
         "contact_url": null
       },
-      "work_stage": "unreviewed_machine_draft",
+      "work_stage": "reviewed_pending_runtime",
       "inventory": {
         "saved_records": 0,
         "historical_approved_records": 0,
@@ -405,19 +405,38 @@
             "local-translation/20261026/run-share95-20261027/drafts",
             "local-translation/20261026/run/drafts"
           ],
-          "work_stage": "unreviewed_machine_draft",
+          "work_stage": "reviewed_pending_runtime",
           "historical_batch_runtime_verified_keys": 0,
           "runtime_evidence": null,
-          "runtime_scope": "Earlier isolated managed-batch load; not a test of a new standalone public payload"
+          "runtime_scope": "Earlier isolated managed-batch load; not a test of a new standalone public payload",
+          "codex_source_targets": 0,
+          "semantic_review": {
+            "reviewed_tasks": 72,
+            "unreviewed_model_tasks": 0,
+            "decisions": {
+              "approve": 42,
+              "revise": 30
+            },
+            "target_bindings": 78,
+            "complete_for_saved_model_tasks": true,
+            "status": "reviewed_pending_runtime",
+            "evidence_sha256": [
+              "3e071c71f3d0b14e617d702d566fc6087391e88efe058ae1683401f4ea7fd7ca"
+            ],
+            "reviewer": "OpenAI Codex",
+            "original_generator": "local_model",
+            "raw_drafts_remain_unapproved": true,
+            "scope": "Saved-model linguistic review only; no current-source, runtime, rights or release approval"
+          }
         },
         "coverage_scope": "saved_static_extraction_lower_bound; not complete runtime coverage",
         "native_russian_rows_in_snapshot": 202,
-        "checked_at": "2026-10-28T10:30:30.068317+00:00",
+        "checked_at": "2026-10-28T13:25:05.099005+00:00",
         "provenance_counts": {},
         "attribution_licenses": {},
         "third_party_candidates": [],
         "original_license_evidence": [],
-        "work_stage": "unreviewed_machine_draft",
+        "work_stage": "reviewed_pending_runtime",
         "local_static_audit": {
           "checked_at": null,
           "issue_kinds": [],
@@ -425,7 +444,32 @@
           "issue_count": 0,
           "new_files_outside_saved_source_inventory_checked": false
         },
-        "saved_translation_store": false
+        "saved_translation_store": false,
+        "reviewed_model_private_test": {
+          "status": "partial_verified",
+          "verified_target_values": 44,
+          "game_version": "1.7.4990 rev1069",
+          "scope": "Private isolated main-menu readback of exact staged values; no colony playthrough or public standalone package test",
+          "deployment_approved": false,
+          "publication_rights_granted": false,
+          "evidence_sha256": {
+            "readback_summary": "572b3f1c31172eb12b25932fcf1ae6592aeb827f319485951524b555eb67e515",
+            "candidate_proof": "9432c34e552313960a0467d061ff209c77908f0f92b0b16eca454f7c0b58a530",
+            "strict_stage": "086283c39a784744e88925d961d78bedaffff26a86f90a6051a19353129a6b13",
+            "physical_capture": "7b5a1d30a452f5dda62fc97bedb97593fb0b70f52273eb381d41fa051f204214",
+            "launcher_guard": "c227a4ef795c6ecfd2d558a021326f0b67c2248b74904dfdc8cfb6fc49157991"
+          },
+          "current_full_profile_freshness": "current_inputs_verified_by_fresh_game_readback",
+          "source_change_evidence_sha256": "46bbe5bccbef0e98054d3e032faf9b0978c3245734451d4b01e5f3ab2a7ad9e8",
+          "relaunch_guard_blocks_current_profile": false,
+          "runtime_ui_handlers": {
+            "planned": 98,
+            "applied": 96,
+            "held_changed_dubsmintmenus_assembly": 2,
+            "failed_or_other": 0,
+            "guard_updated": false
+          }
+        }
       },
       "manifest": "mods/als.gravtech/manifest.json"
     },
@@ -486,7 +530,7 @@
         "pr_url": null,
         "contact_url": null
       },
-      "work_stage": "unreviewed_machine_draft",
+      "work_stage": "reviewed_pending_runtime",
       "inventory": {
         "saved_records": 0,
         "historical_approved_records": 0,
@@ -499,19 +543,37 @@
             "local-translation/20261026/run-share95-20261027/drafts",
             "local-translation/20261026/run/drafts"
           ],
-          "work_stage": "unreviewed_machine_draft",
+          "work_stage": "reviewed_pending_runtime",
           "historical_batch_runtime_verified_keys": 0,
           "runtime_evidence": null,
-          "runtime_scope": "Earlier isolated managed-batch load; not a test of a new standalone public payload"
+          "runtime_scope": "Earlier isolated managed-batch load; not a test of a new standalone public payload",
+          "codex_source_targets": 0,
+          "semantic_review": {
+            "reviewed_tasks": 1,
+            "unreviewed_model_tasks": 0,
+            "decisions": {
+              "approve": 1
+            },
+            "target_bindings": 1,
+            "complete_for_saved_model_tasks": true,
+            "status": "reviewed_pending_runtime",
+            "evidence_sha256": [
+              "3e071c71f3d0b14e617d702d566fc6087391e88efe058ae1683401f4ea7fd7ca"
+            ],
+            "reviewer": "OpenAI Codex",
+            "original_generator": "local_model",
+            "raw_drafts_remain_unapproved": true,
+            "scope": "Saved-model linguistic review only; no current-source, runtime, rights or release approval"
+          }
         },
         "coverage_scope": "saved_static_extraction_lower_bound; not complete runtime coverage",
         "native_russian_rows_in_snapshot": 119,
-        "checked_at": "2026-10-28T10:30:30.068317+00:00",
+        "checked_at": "2026-10-28T13:25:05.099005+00:00",
         "provenance_counts": {},
         "attribution_licenses": {},
         "third_party_candidates": [],
         "original_license_evidence": [],
-        "work_stage": "unreviewed_machine_draft",
+        "work_stage": "reviewed_pending_runtime",
         "local_static_audit": {
           "checked_at": null,
           "issue_kinds": [],
@@ -591,7 +653,7 @@
         "native_russian_rows_in_snapshot": 207,
         "third_party_candidates": [],
         "coverage_scope": "saved_static_extraction_lower_bound; not complete runtime coverage",
-        "checked_at": "2026-10-28T10:30:30.068317+00:00",
+        "checked_at": "2026-10-28T13:25:05.099005+00:00",
         "original_license_evidence": [],
         "local_static_audit": {
           "checked_at": "2026-10-28T09:16:16.134330+00:00",
@@ -608,10 +670,28 @@
             "local-translation/20261026/run-share95-20261027/drafts",
             "local-translation/20261026/run/drafts"
           ],
-          "work_stage": "unreviewed_machine_draft",
+          "work_stage": "reviewed_pending_runtime",
           "historical_batch_runtime_verified_keys": 0,
           "runtime_evidence": null,
-          "runtime_scope": "Earlier isolated managed-batch load; not a test of a new standalone public payload"
+          "runtime_scope": "Earlier isolated managed-batch load; not a test of a new standalone public payload",
+          "codex_source_targets": 0,
+          "semantic_review": {
+            "reviewed_tasks": 1,
+            "unreviewed_model_tasks": 0,
+            "decisions": {
+              "approve": 1
+            },
+            "target_bindings": 1,
+            "complete_for_saved_model_tasks": true,
+            "status": "reviewed_pending_runtime",
+            "evidence_sha256": [
+              "3e071c71f3d0b14e617d702d566fc6087391e88efe058ae1683401f4ea7fd7ca"
+            ],
+            "reviewer": "OpenAI Codex",
+            "original_generator": "local_model",
+            "raw_drafts_remain_unapproved": true,
+            "scope": "Saved-model linguistic review only; no current-source, runtime, rights or release approval"
+          }
         },
         "work_stage": "installed_local",
         "saved_translation_store": true
@@ -693,7 +773,7 @@
         "native_russian_rows_in_snapshot": 0,
         "third_party_candidates": [],
         "coverage_scope": "saved_static_extraction_lower_bound; not complete runtime coverage",
-        "checked_at": "2026-10-28T10:30:30.068317+00:00",
+        "checked_at": "2026-10-28T13:25:05.099005+00:00",
         "original_license_evidence": [],
         "local_static_audit": {
           "checked_at": "2026-10-28T09:16:16.141895+00:00",
@@ -721,7 +801,10 @@
           "status": "unknown",
           "license": null,
           "evidence": null,
-          "attribution": null
+          "attribution": null,
+          "permission_requested": true,
+          "permission_request_url": "https://github.com/AobaKuma/MechsuitFramework/issues/34",
+          "permission_requested_at": "2026-10-28T13:45:13Z"
         },
         "icon": {
           "status": "unknown",
@@ -781,7 +864,7 @@
         "native_russian_rows_in_snapshot": 0,
         "third_party_candidates": [],
         "coverage_scope": "saved_static_extraction_lower_bound; not complete runtime coverage",
-        "checked_at": "2026-10-28T10:30:30.068317+00:00",
+        "checked_at": "2026-10-28T13:25:05.099005+00:00",
         "original_license_evidence": [],
         "local_static_audit": {
           "checked_at": "2026-10-28T09:16:16.204221+00:00",
@@ -804,10 +887,55 @@
           "work_stage": "reviewed_uninstalled",
           "historical_batch_runtime_verified_keys": 14,
           "runtime_evidence": "reviews/20261028/final-managed-proof.json",
-          "runtime_scope": "Earlier isolated managed-batch load; not a test of a new standalone public payload"
+          "runtime_scope": "Earlier isolated managed-batch load; not a test of a new standalone public payload",
+          "codex_source_targets": 15,
+          "semantic_review": {
+            "reviewed_tasks": 40,
+            "unreviewed_model_tasks": 0,
+            "decisions": {
+              "revise": 26,
+              "approve": 7,
+              "hold": 7
+            },
+            "target_bindings": 45,
+            "complete_for_saved_model_tasks": true,
+            "status": "reviewed_pending_runtime",
+            "evidence_sha256": [
+              "3e071c71f3d0b14e617d702d566fc6087391e88efe058ae1683401f4ea7fd7ca"
+            ],
+            "reviewer": "OpenAI Codex",
+            "original_generator": "local_model",
+            "raw_drafts_remain_unapproved": true,
+            "scope": "Saved-model linguistic review only; no current-source, runtime, rights or release approval"
+          }
         },
         "work_stage": "installed_local",
-        "saved_translation_store": true
+        "saved_translation_store": true,
+        "reviewed_model_private_test": {
+          "status": "partial_verified",
+          "verified_target_values": 28,
+          "game_version": "1.7.4990 rev1069",
+          "scope": "Private isolated main-menu readback of exact staged values; no colony playthrough or public standalone package test",
+          "deployment_approved": false,
+          "publication_rights_granted": false,
+          "evidence_sha256": {
+            "readback_summary": "572b3f1c31172eb12b25932fcf1ae6592aeb827f319485951524b555eb67e515",
+            "candidate_proof": "9432c34e552313960a0467d061ff209c77908f0f92b0b16eca454f7c0b58a530",
+            "strict_stage": "086283c39a784744e88925d961d78bedaffff26a86f90a6051a19353129a6b13",
+            "physical_capture": "7b5a1d30a452f5dda62fc97bedb97593fb0b70f52273eb381d41fa051f204214",
+            "launcher_guard": "c227a4ef795c6ecfd2d558a021326f0b67c2248b74904dfdc8cfb6fc49157991"
+          },
+          "current_full_profile_freshness": "current_inputs_verified_by_fresh_game_readback",
+          "source_change_evidence_sha256": "46bbe5bccbef0e98054d3e032faf9b0978c3245734451d4b01e5f3ab2a7ad9e8",
+          "relaunch_guard_blocks_current_profile": false,
+          "runtime_ui_handlers": {
+            "planned": 98,
+            "applied": 96,
+            "held_changed_dubsmintmenus_assembly": 2,
+            "failed_or_other": 0,
+            "guard_updated": false
+          }
+        }
       },
       "work_stage": "installed_local",
       "manifest": "mods/aoba.deadmanswitch.core/manifest.json"
@@ -825,7 +953,10 @@
           "status": "unknown",
           "license": null,
           "evidence": null,
-          "attribution": null
+          "attribution": null,
+          "permission_requested": true,
+          "permission_request_url": "https://github.com/AobaKuma/MechsuitFramework/issues/34",
+          "permission_requested_at": "2026-10-28T13:45:13Z"
         },
         "icon": {
           "status": "unknown",
@@ -880,7 +1011,7 @@
         "native_russian_rows_in_snapshot": 0,
         "third_party_candidates": [],
         "coverage_scope": "saved_static_extraction_lower_bound; not complete runtime coverage",
-        "checked_at": "2026-10-28T10:30:30.068317+00:00",
+        "checked_at": "2026-10-28T13:25:05.099005+00:00",
         "original_license_evidence": [],
         "local_static_audit": {
           "checked_at": "2026-10-28T09:16:16.325695+00:00",
@@ -901,10 +1032,55 @@
           "work_stage": "reviewed_uninstalled",
           "historical_batch_runtime_verified_keys": 2,
           "runtime_evidence": "reviews/20261028/final-managed-proof.json",
-          "runtime_scope": "Earlier isolated managed-batch load; not a test of a new standalone public payload"
+          "runtime_scope": "Earlier isolated managed-batch load; not a test of a new standalone public payload",
+          "codex_source_targets": 2,
+          "semantic_review": {
+            "reviewed_tasks": 37,
+            "unreviewed_model_tasks": 0,
+            "decisions": {
+              "revise": 12,
+              "approve": 24,
+              "hold": 1
+            },
+            "target_bindings": 57,
+            "complete_for_saved_model_tasks": true,
+            "status": "reviewed_pending_runtime",
+            "evidence_sha256": [
+              "3e071c71f3d0b14e617d702d566fc6087391e88efe058ae1683401f4ea7fd7ca"
+            ],
+            "reviewer": "OpenAI Codex",
+            "original_generator": "local_model",
+            "raw_drafts_remain_unapproved": true,
+            "scope": "Saved-model linguistic review only; no current-source, runtime, rights or release approval"
+          }
         },
         "work_stage": "installed_local",
-        "saved_translation_store": true
+        "saved_translation_store": true,
+        "reviewed_model_private_test": {
+          "status": "partial_verified",
+          "verified_target_values": 20,
+          "game_version": "1.7.4990 rev1069",
+          "scope": "Private isolated main-menu readback of exact staged values; no colony playthrough or public standalone package test",
+          "deployment_approved": false,
+          "publication_rights_granted": false,
+          "evidence_sha256": {
+            "readback_summary": "572b3f1c31172eb12b25932fcf1ae6592aeb827f319485951524b555eb67e515",
+            "candidate_proof": "9432c34e552313960a0467d061ff209c77908f0f92b0b16eca454f7c0b58a530",
+            "strict_stage": "086283c39a784744e88925d961d78bedaffff26a86f90a6051a19353129a6b13",
+            "physical_capture": "7b5a1d30a452f5dda62fc97bedb97593fb0b70f52273eb381d41fa051f204214",
+            "launcher_guard": "c227a4ef795c6ecfd2d558a021326f0b67c2248b74904dfdc8cfb6fc49157991"
+          },
+          "current_full_profile_freshness": "current_inputs_verified_by_fresh_game_readback",
+          "source_change_evidence_sha256": "46bbe5bccbef0e98054d3e032faf9b0978c3245734451d4b01e5f3ab2a7ad9e8",
+          "relaunch_guard_blocks_current_profile": false,
+          "runtime_ui_handlers": {
+            "planned": 98,
+            "applied": 96,
+            "held_changed_dubsmintmenus_assembly": 2,
+            "failed_or_other": 0,
+            "guard_updated": false
+          }
+        }
       },
       "work_stage": "installed_local",
       "manifest": "mods/aoba.deadmanswitch.mobiledragoon/manifest.json"
@@ -926,19 +1102,22 @@
           "1.6",
           "1.7"
         ],
-        "repository_url": null,
+        "repository_url": "https://github.com/AobaKuma/MechsuitFramework",
         "repository_candidates": [
           "https://github.com/pardeike/HarmonyRimWorld"
         ],
-        "repository_verification": "not_remote_checked",
-        "activity": "not_remote_checked"
+        "repository_verification": "official_workshop_link_checked_2026-10-28",
+        "activity": "repository_updated_2026-10-25"
       },
       "rights": {
         "translation": {
           "status": "unknown",
           "license": null,
           "evidence": null,
-          "attribution": null
+          "attribution": null,
+          "permission_requested": true,
+          "permission_request_url": "https://github.com/AobaKuma/MechsuitFramework/issues/34",
+          "permission_requested_at": "2026-10-28T13:45:13Z"
         },
         "icon": {
           "status": "unknown",
@@ -983,11 +1162,31 @@
           "work_stage": "reviewed_uninstalled",
           "historical_batch_runtime_verified_keys": 3,
           "runtime_evidence": "reviews/20261028/final-managed-proof.json",
-          "runtime_scope": "Earlier isolated managed-batch load; not a test of a new standalone public payload"
+          "runtime_scope": "Earlier isolated managed-batch load; not a test of a new standalone public payload",
+          "codex_source_targets": 3,
+          "semantic_review": {
+            "reviewed_tasks": 225,
+            "unreviewed_model_tasks": 0,
+            "decisions": {
+              "revise": 126,
+              "approve": 98,
+              "hold": 1
+            },
+            "target_bindings": 237,
+            "complete_for_saved_model_tasks": true,
+            "status": "reviewed_pending_runtime",
+            "evidence_sha256": [
+              "3e071c71f3d0b14e617d702d566fc6087391e88efe058ae1683401f4ea7fd7ca"
+            ],
+            "reviewer": "OpenAI Codex",
+            "original_generator": "local_model",
+            "raw_drafts_remain_unapproved": true,
+            "scope": "Saved-model linguistic review only; no current-source, runtime, rights or release approval"
+          }
         },
         "coverage_scope": "saved_static_extraction_lower_bound; not complete runtime coverage",
         "native_russian_rows_in_snapshot": 0,
-        "checked_at": "2026-10-28T10:30:30.068317+00:00",
+        "checked_at": "2026-10-28T13:25:05.099005+00:00",
         "provenance_counts": {},
         "attribution_licenses": {},
         "third_party_candidates": [],
@@ -1000,7 +1199,32 @@
           "issue_count": 0,
           "new_files_outside_saved_source_inventory_checked": false
         },
-        "saved_translation_store": false
+        "saved_translation_store": false,
+        "reviewed_model_private_test": {
+          "status": "partial_verified",
+          "verified_target_values": 208,
+          "game_version": "1.7.4990 rev1069",
+          "scope": "Private isolated main-menu readback of exact staged values; no colony playthrough or public standalone package test",
+          "deployment_approved": false,
+          "publication_rights_granted": false,
+          "evidence_sha256": {
+            "readback_summary": "572b3f1c31172eb12b25932fcf1ae6592aeb827f319485951524b555eb67e515",
+            "candidate_proof": "9432c34e552313960a0467d061ff209c77908f0f92b0b16eca454f7c0b58a530",
+            "strict_stage": "086283c39a784744e88925d961d78bedaffff26a86f90a6051a19353129a6b13",
+            "physical_capture": "7b5a1d30a452f5dda62fc97bedb97593fb0b70f52273eb381d41fa051f204214",
+            "launcher_guard": "c227a4ef795c6ecfd2d558a021326f0b67c2248b74904dfdc8cfb6fc49157991"
+          },
+          "current_full_profile_freshness": "current_inputs_verified_by_fresh_game_readback",
+          "source_change_evidence_sha256": "46bbe5bccbef0e98054d3e032faf9b0978c3245734451d4b01e5f3ab2a7ad9e8",
+          "relaunch_guard_blocks_current_profile": false,
+          "runtime_ui_handlers": {
+            "planned": 98,
+            "applied": 96,
+            "held_changed_dubsmintmenus_assembly": 2,
+            "failed_or_other": 0,
+            "guard_updated": false
+          }
+        }
       },
       "manifest": "mods/aoba.exosuit.framework/manifest.json"
     },
@@ -1017,7 +1241,10 @@
           "status": "unknown",
           "license": null,
           "evidence": null,
-          "attribution": null
+          "attribution": null,
+          "permission_requested": true,
+          "permission_request_url": "https://github.com/AobaKuma/MechsuitFramework/issues/34",
+          "permission_requested_at": "2026-10-28T13:45:13Z"
         },
         "icon": {
           "status": "unknown",
@@ -1077,7 +1304,7 @@
         "native_russian_rows_in_snapshot": 0,
         "third_party_candidates": [],
         "coverage_scope": "saved_static_extraction_lower_bound; not complete runtime coverage",
-        "checked_at": "2026-10-28T10:30:30.068317+00:00",
+        "checked_at": "2026-10-28T13:25:05.099005+00:00",
         "original_license_evidence": [],
         "local_static_audit": {
           "checked_at": "2026-10-28T09:16:16.342897+00:00",
@@ -1100,10 +1327,53 @@
           "work_stage": "reviewed_uninstalled",
           "historical_batch_runtime_verified_keys": 11,
           "runtime_evidence": "reviews/20261028/final-managed-proof.json",
-          "runtime_scope": "Earlier isolated managed-batch load; not a test of a new standalone public payload"
+          "runtime_scope": "Earlier isolated managed-batch load; not a test of a new standalone public payload",
+          "codex_source_targets": 11,
+          "semantic_review": {
+            "reviewed_tasks": 7,
+            "unreviewed_model_tasks": 0,
+            "decisions": {
+              "approve": 7
+            },
+            "target_bindings": 34,
+            "complete_for_saved_model_tasks": true,
+            "status": "reviewed_pending_runtime",
+            "evidence_sha256": [
+              "3e071c71f3d0b14e617d702d566fc6087391e88efe058ae1683401f4ea7fd7ca"
+            ],
+            "reviewer": "OpenAI Codex",
+            "original_generator": "local_model",
+            "raw_drafts_remain_unapproved": true,
+            "scope": "Saved-model linguistic review only; no current-source, runtime, rights or release approval"
+          }
         },
         "work_stage": "installed_local",
-        "saved_translation_store": true
+        "saved_translation_store": true,
+        "reviewed_model_private_test": {
+          "status": "partial_verified",
+          "verified_target_values": 34,
+          "game_version": "1.7.4990 rev1069",
+          "scope": "Private isolated main-menu readback of exact staged values; no colony playthrough or public standalone package test",
+          "deployment_approved": false,
+          "publication_rights_granted": false,
+          "evidence_sha256": {
+            "readback_summary": "572b3f1c31172eb12b25932fcf1ae6592aeb827f319485951524b555eb67e515",
+            "candidate_proof": "9432c34e552313960a0467d061ff209c77908f0f92b0b16eca454f7c0b58a530",
+            "strict_stage": "086283c39a784744e88925d961d78bedaffff26a86f90a6051a19353129a6b13",
+            "physical_capture": "7b5a1d30a452f5dda62fc97bedb97593fb0b70f52273eb381d41fa051f204214",
+            "launcher_guard": "c227a4ef795c6ecfd2d558a021326f0b67c2248b74904dfdc8cfb6fc49157991"
+          },
+          "current_full_profile_freshness": "current_inputs_verified_by_fresh_game_readback",
+          "source_change_evidence_sha256": "46bbe5bccbef0e98054d3e032faf9b0978c3245734451d4b01e5f3ab2a7ad9e8",
+          "relaunch_guard_blocks_current_profile": false,
+          "runtime_ui_handlers": {
+            "planned": 98,
+            "applied": 96,
+            "held_changed_dubsmintmenus_assembly": 2,
+            "failed_or_other": 0,
+            "guard_updated": false
+          }
+        }
       },
       "work_stage": "installed_local",
       "manifest": "mods/aoba.fortress.industrial/manifest.json"
@@ -1139,7 +1409,10 @@
           "status": "unknown",
           "license": null,
           "evidence": null,
-          "attribution": null
+          "attribution": null,
+          "permission_requested": true,
+          "permission_request_url": "https://github.com/AobaKuma/MechsuitFramework/issues/34",
+          "permission_requested_at": "2026-10-28T13:45:13Z"
         },
         "icon": {
           "status": "unknown",
@@ -1184,11 +1457,30 @@
           "work_stage": "reviewed_uninstalled",
           "historical_batch_runtime_verified_keys": 0,
           "runtime_evidence": null,
-          "runtime_scope": "Earlier isolated managed-batch load; not a test of a new standalone public payload"
+          "runtime_scope": "Earlier isolated managed-batch load; not a test of a new standalone public payload",
+          "codex_source_targets": 10,
+          "semantic_review": {
+            "reviewed_tasks": 129,
+            "unreviewed_model_tasks": 0,
+            "decisions": {
+              "approve": 74,
+              "revise": 55
+            },
+            "target_bindings": 174,
+            "complete_for_saved_model_tasks": true,
+            "status": "reviewed_pending_runtime",
+            "evidence_sha256": [
+              "3e071c71f3d0b14e617d702d566fc6087391e88efe058ae1683401f4ea7fd7ca"
+            ],
+            "reviewer": "OpenAI Codex",
+            "original_generator": "local_model",
+            "raw_drafts_remain_unapproved": true,
+            "scope": "Saved-model linguistic review only; no current-source, runtime, rights or release approval"
+          }
         },
         "coverage_scope": "saved_static_extraction_lower_bound; not complete runtime coverage",
         "native_russian_rows_in_snapshot": 0,
-        "checked_at": "2026-10-28T10:30:30.068317+00:00",
+        "checked_at": "2026-10-28T13:25:05.099005+00:00",
         "provenance_counts": {},
         "attribution_licenses": {},
         "third_party_candidates": [],
@@ -1201,7 +1493,32 @@
           "issue_count": 0,
           "new_files_outside_saved_source_inventory_checked": false
         },
-        "saved_translation_store": false
+        "saved_translation_store": false,
+        "reviewed_model_private_test": {
+          "status": "partial_verified",
+          "verified_target_values": 43,
+          "game_version": "1.7.4990 rev1069",
+          "scope": "Private isolated main-menu readback of exact staged values; no colony playthrough or public standalone package test",
+          "deployment_approved": false,
+          "publication_rights_granted": false,
+          "evidence_sha256": {
+            "readback_summary": "572b3f1c31172eb12b25932fcf1ae6592aeb827f319485951524b555eb67e515",
+            "candidate_proof": "9432c34e552313960a0467d061ff209c77908f0f92b0b16eca454f7c0b58a530",
+            "strict_stage": "086283c39a784744e88925d961d78bedaffff26a86f90a6051a19353129a6b13",
+            "physical_capture": "7b5a1d30a452f5dda62fc97bedb97593fb0b70f52273eb381d41fa051f204214",
+            "launcher_guard": "c227a4ef795c6ecfd2d558a021326f0b67c2248b74904dfdc8cfb6fc49157991"
+          },
+          "current_full_profile_freshness": "current_inputs_verified_by_fresh_game_readback",
+          "source_change_evidence_sha256": "46bbe5bccbef0e98054d3e032faf9b0978c3245734451d4b01e5f3ab2a7ad9e8",
+          "relaunch_guard_blocks_current_profile": false,
+          "runtime_ui_handlers": {
+            "planned": 98,
+            "applied": 96,
+            "held_changed_dubsmintmenus_assembly": 2,
+            "failed_or_other": 0,
+            "guard_updated": false
+          }
+        }
       },
       "manifest": "mods/aoba.fortress.industrial.citadel/manifest.json"
     },
@@ -1321,7 +1638,7 @@
         "native_russian_rows_in_snapshot": 0,
         "third_party_candidates": [],
         "coverage_scope": "saved_static_extraction_lower_bound; not complete runtime coverage",
-        "checked_at": "2026-10-28T10:30:30.068317+00:00",
+        "checked_at": "2026-10-28T13:25:05.099005+00:00",
         "original_license_evidence": [],
         "local_static_audit": {
           "checked_at": "2026-10-28T09:16:16.363316+00:00",
@@ -1417,7 +1734,7 @@
         "native_russian_rows_in_snapshot": 20,
         "third_party_candidates": [],
         "coverage_scope": "saved_static_extraction_lower_bound; not complete runtime coverage",
-        "checked_at": "2026-10-28T10:30:30.068317+00:00",
+        "checked_at": "2026-10-28T13:25:05.099005+00:00",
         "original_license_evidence": [],
         "local_static_audit": {
           "checked_at": "2026-10-28T09:16:16.394087+00:00",
@@ -1504,7 +1821,7 @@
         "native_russian_rows_in_snapshot": 3,
         "third_party_candidates": [],
         "coverage_scope": "saved_static_extraction_lower_bound; not complete runtime coverage",
-        "checked_at": "2026-10-28T10:30:30.068317+00:00",
+        "checked_at": "2026-10-28T13:25:05.099005+00:00",
         "original_license_evidence": [],
         "local_static_audit": {
           "checked_at": "2026-10-28T09:16:16.412623+00:00",
@@ -1584,7 +1901,7 @@
         "native_russian_rows_in_snapshot": 0,
         "third_party_candidates": [],
         "coverage_scope": "saved_static_extraction_lower_bound; not complete runtime coverage",
-        "checked_at": "2026-10-28T10:30:30.068317+00:00",
+        "checked_at": "2026-10-28T13:25:05.099005+00:00",
         "original_license_evidence": [],
         "local_static_audit": {
           "checked_at": "2026-10-28T09:16:16.464545+00:00",
@@ -1666,7 +1983,7 @@
         "native_russian_rows_in_snapshot": 0,
         "third_party_candidates": [],
         "coverage_scope": "saved_static_extraction_lower_bound; not complete runtime coverage",
-        "checked_at": "2026-10-28T10:30:30.068317+00:00",
+        "checked_at": "2026-10-28T13:25:05.099005+00:00",
         "original_license_evidence": [],
         "local_static_audit": {
           "checked_at": null,
@@ -1755,7 +2072,7 @@
         "native_russian_rows_in_snapshot": 0,
         "third_party_candidates": [],
         "coverage_scope": "saved_static_extraction_lower_bound; not complete runtime coverage",
-        "checked_at": "2026-10-28T10:30:30.068317+00:00",
+        "checked_at": "2026-10-28T13:25:05.099005+00:00",
         "original_license_evidence": [],
         "local_static_audit": {
           "checked_at": "2026-10-28T09:16:16.478609+00:00",
@@ -1779,10 +2096,54 @@
           "work_stage": "reviewed_uninstalled",
           "historical_batch_runtime_verified_keys": 19,
           "runtime_evidence": "reviews/20261028/final-managed-proof.json",
-          "runtime_scope": "Earlier isolated managed-batch load; not a test of a new standalone public payload"
+          "runtime_scope": "Earlier isolated managed-batch load; not a test of a new standalone public payload",
+          "codex_source_targets": 19,
+          "semantic_review": {
+            "reviewed_tasks": 8,
+            "unreviewed_model_tasks": 0,
+            "decisions": {
+              "approve": 5,
+              "revise": 3
+            },
+            "target_bindings": 8,
+            "complete_for_saved_model_tasks": true,
+            "status": "reviewed_pending_runtime",
+            "evidence_sha256": [
+              "3e071c71f3d0b14e617d702d566fc6087391e88efe058ae1683401f4ea7fd7ca"
+            ],
+            "reviewer": "OpenAI Codex",
+            "original_generator": "local_model",
+            "raw_drafts_remain_unapproved": true,
+            "scope": "Saved-model linguistic review only; no current-source, runtime, rights or release approval"
+          }
         },
         "work_stage": "installed_local",
-        "saved_translation_store": true
+        "saved_translation_store": true,
+        "reviewed_model_private_test": {
+          "status": "partial_verified",
+          "verified_target_values": 8,
+          "game_version": "1.7.4990 rev1069",
+          "scope": "Private isolated main-menu readback of exact staged values; no colony playthrough or public standalone package test",
+          "deployment_approved": false,
+          "publication_rights_granted": false,
+          "evidence_sha256": {
+            "readback_summary": "572b3f1c31172eb12b25932fcf1ae6592aeb827f319485951524b555eb67e515",
+            "candidate_proof": "9432c34e552313960a0467d061ff209c77908f0f92b0b16eca454f7c0b58a530",
+            "strict_stage": "086283c39a784744e88925d961d78bedaffff26a86f90a6051a19353129a6b13",
+            "physical_capture": "7b5a1d30a452f5dda62fc97bedb97593fb0b70f52273eb381d41fa051f204214",
+            "launcher_guard": "c227a4ef795c6ecfd2d558a021326f0b67c2248b74904dfdc8cfb6fc49157991"
+          },
+          "current_full_profile_freshness": "current_inputs_verified_by_fresh_game_readback",
+          "source_change_evidence_sha256": "46bbe5bccbef0e98054d3e032faf9b0978c3245734451d4b01e5f3ab2a7ad9e8",
+          "relaunch_guard_blocks_current_profile": false,
+          "runtime_ui_handlers": {
+            "planned": 98,
+            "applied": 96,
+            "held_changed_dubsmintmenus_assembly": 2,
+            "failed_or_other": 0,
+            "guard_updated": false
+          }
+        }
       },
       "work_stage": "installed_local",
       "manifest": "mods/breadmo.cinders/manifest.json"
@@ -1859,7 +2220,7 @@
         "native_russian_rows_in_snapshot": 0,
         "third_party_candidates": [],
         "coverage_scope": "saved_static_extraction_lower_bound; not complete runtime coverage",
-        "checked_at": "2026-10-28T10:30:30.068317+00:00",
+        "checked_at": "2026-10-28T13:25:05.099005+00:00",
         "original_license_evidence": [],
         "local_static_audit": {
           "checked_at": "2026-10-28T09:16:16.526818+00:00",
@@ -1943,7 +2304,7 @@
         "native_russian_rows_in_snapshot": 0,
         "third_party_candidates": [],
         "coverage_scope": "saved_static_extraction_lower_bound; not complete runtime coverage",
-        "checked_at": "2026-10-28T10:30:30.068317+00:00",
+        "checked_at": "2026-10-28T13:25:05.099005+00:00",
         "original_license_evidence": [],
         "local_static_audit": {
           "checked_at": "2026-10-28T09:16:16.529765+00:00",
@@ -2028,7 +2389,7 @@
         "native_russian_rows_in_snapshot": 0,
         "third_party_candidates": [],
         "coverage_scope": "saved_static_extraction_lower_bound; not complete runtime coverage",
-        "checked_at": "2026-10-28T10:30:30.068317+00:00",
+        "checked_at": "2026-10-28T13:25:05.099005+00:00",
         "original_license_evidence": [],
         "local_static_audit": {
           "checked_at": "2026-10-28T09:16:16.537819+00:00",
@@ -2114,7 +2475,7 @@
         "native_russian_rows_in_snapshot": 0,
         "third_party_candidates": [],
         "coverage_scope": "saved_static_extraction_lower_bound; not complete runtime coverage",
-        "checked_at": "2026-10-28T10:30:30.068317+00:00",
+        "checked_at": "2026-10-28T13:25:05.099005+00:00",
         "original_license_evidence": [],
         "local_static_audit": {
           "checked_at": "2026-10-28T09:16:16.550786+00:00",
@@ -2197,7 +2558,7 @@
         "native_russian_rows_in_snapshot": 384,
         "third_party_candidates": [],
         "coverage_scope": "saved_static_extraction_lower_bound; not complete runtime coverage",
-        "checked_at": "2026-10-28T10:30:30.068317+00:00",
+        "checked_at": "2026-10-28T13:25:05.099005+00:00",
         "original_license_evidence": [],
         "local_static_audit": {
           "checked_at": "2026-10-28T09:16:16.556604+00:00",
@@ -2216,7 +2577,9 @@
           "work_stage": "reviewed_uninstalled",
           "historical_batch_runtime_verified_keys": 0,
           "runtime_evidence": null,
-          "runtime_scope": "Earlier isolated managed-batch load; not a test of a new standalone public payload"
+          "runtime_scope": "Earlier isolated managed-batch load; not a test of a new standalone public payload",
+          "codex_source_targets": 2,
+          "semantic_review": null
         },
         "work_stage": "installed_local",
         "saved_translation_store": true
@@ -2554,7 +2917,7 @@
         "native_russian_rows_in_snapshot": 438,
         "third_party_candidates": [],
         "coverage_scope": "saved_static_extraction_lower_bound; not complete runtime coverage",
-        "checked_at": "2026-10-28T10:30:30.068317+00:00",
+        "checked_at": "2026-10-28T13:25:05.099005+00:00",
         "original_license_evidence": [],
         "local_static_audit": {
           "checked_at": null,
@@ -2573,7 +2936,9 @@
           "work_stage": "reviewed_uninstalled",
           "historical_batch_runtime_verified_keys": 0,
           "runtime_evidence": null,
-          "runtime_scope": "Earlier isolated managed-batch load; not a test of a new standalone public payload"
+          "runtime_scope": "Earlier isolated managed-batch load; not a test of a new standalone public payload",
+          "codex_source_targets": 2,
+          "semantic_review": null
         },
         "work_stage": "saved_translation_uninstalled",
         "saved_translation_store": true
@@ -2658,7 +3023,7 @@
         "native_russian_rows_in_snapshot": 0,
         "third_party_candidates": [],
         "coverage_scope": "saved_static_extraction_lower_bound; not complete runtime coverage",
-        "checked_at": "2026-10-28T10:30:30.068317+00:00",
+        "checked_at": "2026-10-28T13:25:05.099005+00:00",
         "original_license_evidence": [],
         "local_static_audit": {
           "checked_at": "2026-10-28T09:16:16.564882+00:00",
@@ -2792,7 +3157,7 @@
         "native_russian_rows_in_snapshot": 0,
         "third_party_candidates": [],
         "coverage_scope": "saved_static_extraction_lower_bound; not complete runtime coverage",
-        "checked_at": "2026-10-28T10:30:30.068317+00:00",
+        "checked_at": "2026-10-28T13:25:05.099005+00:00",
         "original_license_evidence": [],
         "local_static_audit": {
           "checked_at": "2026-10-28T09:16:16.572244+00:00",
@@ -2933,7 +3298,7 @@
         "native_russian_rows_in_snapshot": 0,
         "third_party_candidates": [],
         "coverage_scope": "saved_static_extraction_lower_bound; not complete runtime coverage",
-        "checked_at": "2026-10-28T10:30:30.068317+00:00",
+        "checked_at": "2026-10-28T13:25:05.099005+00:00",
         "original_license_evidence": [],
         "local_static_audit": {
           "checked_at": "2026-10-28T09:16:16.578499+00:00",
@@ -3024,7 +3389,7 @@
         "native_russian_rows_in_snapshot": 187,
         "third_party_candidates": [],
         "coverage_scope": "saved_static_extraction_lower_bound; not complete runtime coverage",
-        "checked_at": "2026-10-28T10:30:30.068317+00:00",
+        "checked_at": "2026-10-28T13:25:05.099005+00:00",
         "original_license_evidence": [],
         "local_static_audit": {
           "checked_at": "2026-10-28T09:16:16.586356+00:00",
@@ -3203,7 +3568,7 @@
         "native_russian_rows_in_snapshot": 549,
         "third_party_candidates": [],
         "coverage_scope": "saved_static_extraction_lower_bound; not complete runtime coverage",
-        "checked_at": "2026-10-28T10:30:30.068317+00:00",
+        "checked_at": "2026-10-28T13:25:05.099005+00:00",
         "original_license_evidence": [],
         "local_static_audit": {
           "checked_at": null,
@@ -3222,7 +3587,9 @@
           "work_stage": "reviewed_uninstalled",
           "historical_batch_runtime_verified_keys": 217,
           "runtime_evidence": "reviews/20261028/final-managed-proof.json",
-          "runtime_scope": "Earlier isolated managed-batch load; not a test of a new standalone public payload"
+          "runtime_scope": "Earlier isolated managed-batch load; not a test of a new standalone public payload",
+          "codex_source_targets": 223,
+          "semantic_review": null
         },
         "work_stage": "saved_translation_uninstalled",
         "saved_translation_store": true
@@ -3381,7 +3748,7 @@
         "native_russian_rows_in_snapshot": 295,
         "third_party_candidates": [],
         "coverage_scope": "saved_static_extraction_lower_bound; not complete runtime coverage",
-        "checked_at": "2026-10-28T10:30:30.068317+00:00",
+        "checked_at": "2026-10-28T13:25:05.099005+00:00",
         "original_license_evidence": [],
         "local_static_audit": {
           "checked_at": "2026-10-28T09:16:16.595926+00:00",
@@ -3400,7 +3767,9 @@
           "work_stage": "reviewed_uninstalled",
           "historical_batch_runtime_verified_keys": 0,
           "runtime_evidence": null,
-          "runtime_scope": "Earlier isolated managed-batch load; not a test of a new standalone public payload"
+          "runtime_scope": "Earlier isolated managed-batch load; not a test of a new standalone public payload",
+          "codex_source_targets": 5,
+          "semantic_review": null
         },
         "work_stage": "installed_local",
         "saved_translation_store": true
@@ -3493,11 +3862,13 @@
           "work_stage": "reviewed_uninstalled",
           "historical_batch_runtime_verified_keys": 199,
           "runtime_evidence": "reviews/20261028/final-managed-proof.json",
-          "runtime_scope": "Earlier isolated managed-batch load; not a test of a new standalone public payload"
+          "runtime_scope": "Earlier isolated managed-batch load; not a test of a new standalone public payload",
+          "codex_source_targets": 199,
+          "semantic_review": null
         },
         "coverage_scope": "saved_static_extraction_lower_bound; not complete runtime coverage",
         "native_russian_rows_in_snapshot": 0,
-        "checked_at": "2026-10-28T10:30:30.068317+00:00",
+        "checked_at": "2026-10-28T13:25:05.099005+00:00",
         "provenance_counts": {},
         "attribution_licenses": {},
         "third_party_candidates": [],
@@ -3591,7 +3962,7 @@
         "native_russian_rows_in_snapshot": 1,
         "third_party_candidates": [],
         "coverage_scope": "saved_static_extraction_lower_bound; not complete runtime coverage",
-        "checked_at": "2026-10-28T10:30:30.068317+00:00",
+        "checked_at": "2026-10-28T13:25:05.099005+00:00",
         "original_license_evidence": [
           {
             "relative_path": "license",
@@ -3684,7 +4055,7 @@
         "native_russian_rows_in_snapshot": 0,
         "third_party_candidates": [],
         "coverage_scope": "saved_static_extraction_lower_bound; not complete runtime coverage",
-        "checked_at": "2026-10-28T10:30:30.068317+00:00",
+        "checked_at": "2026-10-28T13:25:05.099005+00:00",
         "original_license_evidence": [
           {
             "relative_path": ".github/LICENSE",
@@ -3776,7 +4147,7 @@
         "native_russian_rows_in_snapshot": 0,
         "third_party_candidates": [],
         "coverage_scope": "saved_static_extraction_lower_bound; not complete runtime coverage",
-        "checked_at": "2026-10-28T10:30:30.068317+00:00",
+        "checked_at": "2026-10-28T13:25:05.099005+00:00",
         "original_license_evidence": [],
         "local_static_audit": {
           "checked_at": "2026-10-28T09:16:16.685485+00:00",
@@ -3861,7 +4232,7 @@
         "native_russian_rows_in_snapshot": 0,
         "third_party_candidates": [],
         "coverage_scope": "saved_static_extraction_lower_bound; not complete runtime coverage",
-        "checked_at": "2026-10-28T10:30:30.068317+00:00",
+        "checked_at": "2026-10-28T13:25:05.099005+00:00",
         "original_license_evidence": [],
         "local_static_audit": {
           "checked_at": "2026-10-28T09:16:16.702512+00:00",
@@ -3948,7 +4319,7 @@
         "native_russian_rows_in_snapshot": 0,
         "third_party_candidates": [],
         "coverage_scope": "saved_static_extraction_lower_bound; not complete runtime coverage",
-        "checked_at": "2026-10-28T10:30:30.068317+00:00",
+        "checked_at": "2026-10-28T13:25:05.099005+00:00",
         "original_license_evidence": [],
         "local_static_audit": {
           "checked_at": "2026-10-28T09:16:16.717533+00:00",
@@ -4030,7 +4401,7 @@
         "native_russian_rows_in_snapshot": 0,
         "third_party_candidates": [],
         "coverage_scope": "saved_static_extraction_lower_bound; not complete runtime coverage",
-        "checked_at": "2026-10-28T10:30:30.068317+00:00",
+        "checked_at": "2026-10-28T13:25:05.099005+00:00",
         "original_license_evidence": [],
         "local_static_audit": {
           "checked_at": "2026-10-28T09:16:16.739634+00:00",
@@ -4117,7 +4488,7 @@
         "native_russian_rows_in_snapshot": 0,
         "third_party_candidates": [],
         "coverage_scope": "saved_static_extraction_lower_bound; not complete runtime coverage",
-        "checked_at": "2026-10-28T10:30:30.068317+00:00",
+        "checked_at": "2026-10-28T13:25:05.099005+00:00",
         "original_license_evidence": [],
         "local_static_audit": {
           "checked_at": "2026-10-28T09:16:16.747027+00:00",
@@ -4200,7 +4571,7 @@
         "native_russian_rows_in_snapshot": 0,
         "third_party_candidates": [],
         "coverage_scope": "saved_static_extraction_lower_bound; not complete runtime coverage",
-        "checked_at": "2026-10-28T10:30:30.068317+00:00",
+        "checked_at": "2026-10-28T13:25:05.099005+00:00",
         "original_license_evidence": [],
         "local_static_audit": {
           "checked_at": "2026-10-28T09:16:16.769817+00:00",
@@ -4294,7 +4665,7 @@
         "native_russian_rows_in_snapshot": 0,
         "third_party_candidates": [],
         "coverage_scope": "saved_static_extraction_lower_bound; not complete runtime coverage",
-        "checked_at": "2026-10-28T10:30:30.068317+00:00",
+        "checked_at": "2026-10-28T13:25:05.099005+00:00",
         "original_license_evidence": [
           {
             "relative_path": "LICENSE",
@@ -4387,7 +4758,7 @@
         "native_russian_rows_in_snapshot": 0,
         "third_party_candidates": [],
         "coverage_scope": "saved_static_extraction_lower_bound; not complete runtime coverage",
-        "checked_at": "2026-10-28T10:30:30.068317+00:00",
+        "checked_at": "2026-10-28T13:25:05.099005+00:00",
         "original_license_evidence": [],
         "local_static_audit": {
           "checked_at": "2026-10-28T09:16:16.800567+00:00",
@@ -4472,7 +4843,7 @@
         "native_russian_rows_in_snapshot": 0,
         "third_party_candidates": [],
         "coverage_scope": "saved_static_extraction_lower_bound; not complete runtime coverage",
-        "checked_at": "2026-10-28T10:30:30.068317+00:00",
+        "checked_at": "2026-10-28T13:25:05.099005+00:00",
         "original_license_evidence": [],
         "local_static_audit": {
           "checked_at": "2026-10-28T09:16:16.804975+00:00",
@@ -4513,31 +4884,64 @@
       },
       "rights": {
         "translation": {
-          "status": "unknown",
-          "license": null,
-          "evidence": null,
-          "attribution": null
+          "status": "confirmed",
+          "license": "MIT",
+          "evidence": "https://steamcommunity.com/sharedfiles/filedetails/?id=3365118555",
+          "attribution": "Original mod: Mechanoid Upgrades by GoGaTio.\nOriginal Workshop: https://steamcommunity.com/sharedfiles/filedetails/?id=3365118555\nUpstream text permission: MIT, Copyright (c)2025GoGaTio; full notice retained in License.txt.\nRussian additions: Antyhc,2026; AI-assisted drafting (local translation model and OpenAI Codex), semantic review by OpenAI Codex; offered under MIT.\nOnly108 own additions are included (20previous Codex additions +88reviewed local-model additions). Existing or third-party Russian, original code, assemblies, textures, artwork and audio are not redistributed.\nOriginal typographic cover by Antyhc; no original mod art used.\nValidation records are maintained separately in the project registry. Large-profile QA alone does not establish standalone compatibility. No long-gameplay test or independent human proofreading is claimed.\n",
+          "license_evidence_file": "rights-evidence.json",
+          "required_notice_files": {
+            "About/License.txt": "5b61e48e8cf68182afdbec8c9ae5e41fc37bcdfb8756f264d5f1a2192a6793d1",
+            "About/Credits.txt": "732ed8cff1942d0e382c932e20613893585adebd5f49555e4db1c537f2f8ddaa"
+          }
         },
         "icon": {
-          "status": "unknown",
-          "license": null,
-          "evidence": null,
-          "attribution": null
+          "status": "confirmed",
+          "kind": "original_typographic_fallback",
+          "license": "MIT",
+          "evidence": "scripts/make_original_cover.py; user-authorized original typographic design",
+          "attribution": "Original typographic cover by Antyhc; no original mod artwork used",
+          "source_sha256": "647052416e81d53b5160153c81862c13010e76fc216ff5fc4ecd26d6223b0bfb",
+          "preview_sha256": "647052416e81d53b5160153c81862c13010e76fc216ff5fc4ecd26d6223b0bfb",
+          "original_mod_art_used": false
         }
       },
       "qa": {
-        "technical": "pending",
-        "linguistic": "pending",
-        "source_current": false,
-        "in_game": "not_tested",
-        "checked_at": "2026-10-28T10:30:30.068317+00:00"
+        "technical": "passed",
+        "linguistic": "ai_reviewed",
+        "source_current": true,
+        "in_game": "passed",
+        "checked_at": "2026-10-28T14:00:35.157035+00:00",
+        "source_checked_at": "2026-10-28T14:00:35.157035+00:00",
+        "payload_sha256": "f6bca16539c18222d277d9fc224c2edcccc43fe921114f8e83acbedb08c621a8",
+        "source_snapshot_sha256": "3e7e18b6b67fe6b30fa55f2dfa9661bc6b8712210f50aa8e85dfb7f5667d3ecf",
+        "evidence": "qa-evidence.json",
+        "coverage": "108 own entries; all source and selected text hashes verified, but large-profile QA is not standalone compatibility proof.",
+        "standalone_minimal_game_test": "passed_actual_108_field_readback",
+        "game_test_evidence": "game-test-evidence.json",
+        "game_test_evidence_sha256": "5c0120cc8d69c32e4c80fb0465de67c5f8c47df99de4f01a282cd1d3a979e4dc",
+        "game_test_scope": "Two actual-game isolated main-menu loads: Core+Biotech+Harmony+original, then same context plus exact108-entry payload. Actual English/Russian values and source ownership verified. Existing52original/base-game Russian localization errors are unchanged. This is not a long-gameplay test. Candidate Hackable props type is not claimed observed when its normal injected path already resolved; separate control unique-component proof and matching actual normalized paths are retained.",
+        "game_evidence": "game-test-evidence.json",
+        "gameplay_tested": false,
+        "workshop_install_tested": false
       },
       "publication": {
         "github_url": "https://github.com/Antyhc/RimWorld-Russian-Translations/tree/main/mods/gogatio.mechanoidupgrades",
-        "github_status": "metadata_only",
-        "workshop_url": null,
-        "workshop_id": null,
-        "workshop_status": "not_published"
+        "github_status": "prepared_not_published",
+        "workshop_url": "https://steamcommunity.com/sharedfiles/filedetails/?id=3828883103",
+        "workshop_id": "3828883103",
+        "workshop_status": "published",
+        "release_blockers": [],
+        "anonymous_page_verified": true,
+        "dependency_verified": true,
+        "published_at": "2026-10-28T14:11:35.984917+00:00",
+        "collection_id": "3828791160",
+        "collection_member_verified": true,
+        "installation_tested": true,
+        "anonymous_page_checked_at": "2026-10-28T14:13:13.005620+00:00",
+        "anonymous_page_evidence": "Unauthenticated browser page shows title, subscribe action, 108-entry bilingual description, original dependency and Biotech DLC; Steam login link visible.",
+        "dlc_dependency_app_id": "1826140",
+        "dlc_dependency_verified": true,
+        "installation_scope": "Official Steam subscription/download; exact18-file payload hash comparison. Actual Workshop-copy game load is a separate check."
       },
       "integration": {
         "status": "not_sent",
@@ -4560,11 +4964,31 @@
           "work_stage": "reviewed_uninstalled",
           "historical_batch_runtime_verified_keys": 20,
           "runtime_evidence": "reviews/20261028/final-managed-proof.json",
-          "runtime_scope": "Earlier isolated managed-batch load; not a test of a new standalone public payload"
+          "runtime_scope": "Earlier isolated managed-batch load; not a test of a new standalone public payload",
+          "codex_source_targets": 20,
+          "semantic_review": {
+            "reviewed_tasks": 96,
+            "unreviewed_model_tasks": 0,
+            "decisions": {
+              "revise": 63,
+              "approve": 32,
+              "hold": 1
+            },
+            "target_bindings": 96,
+            "complete_for_saved_model_tasks": true,
+            "status": "reviewed_pending_runtime",
+            "evidence_sha256": [
+              "3e071c71f3d0b14e617d702d566fc6087391e88efe058ae1683401f4ea7fd7ca"
+            ],
+            "reviewer": "OpenAI Codex",
+            "original_generator": "local_model",
+            "raw_drafts_remain_unapproved": true,
+            "scope": "Saved-model linguistic review only; no current-source, runtime, rights or release approval"
+          }
         },
         "coverage_scope": "saved_static_extraction_lower_bound; not complete runtime coverage",
         "native_russian_rows_in_snapshot": 579,
-        "checked_at": "2026-10-28T10:30:30.068317+00:00",
+        "checked_at": "2026-10-28T13:25:05.099005+00:00",
         "provenance_counts": {},
         "attribution_licenses": {},
         "third_party_candidates": [],
@@ -4583,7 +5007,40 @@
           "issue_count": 0,
           "new_files_outside_saved_source_inventory_checked": false
         },
-        "saved_translation_store": false
+        "saved_translation_store": false,
+        "reviewed_model_private_test": {
+          "status": "partial_verified",
+          "verified_target_values": 88,
+          "game_version": "1.7.4990 rev1069",
+          "scope": "Private isolated main-menu readback of exact staged values; no colony playthrough or public standalone package test",
+          "deployment_approved": false,
+          "publication_rights_granted": false,
+          "evidence_sha256": {
+            "readback_summary": "572b3f1c31172eb12b25932fcf1ae6592aeb827f319485951524b555eb67e515",
+            "candidate_proof": "9432c34e552313960a0467d061ff209c77908f0f92b0b16eca454f7c0b58a530",
+            "strict_stage": "086283c39a784744e88925d961d78bedaffff26a86f90a6051a19353129a6b13",
+            "physical_capture": "7b5a1d30a452f5dda62fc97bedb97593fb0b70f52273eb381d41fa051f204214",
+            "launcher_guard": "c227a4ef795c6ecfd2d558a021326f0b67c2248b74904dfdc8cfb6fc49157991"
+          },
+          "current_full_profile_freshness": "current_inputs_verified_by_fresh_game_readback",
+          "source_change_evidence_sha256": "46bbe5bccbef0e98054d3e032faf9b0978c3245734451d4b01e5f3ab2a7ad9e8",
+          "relaunch_guard_blocks_current_profile": false,
+          "runtime_ui_handlers": {
+            "planned": 98,
+            "applied": 96,
+            "held_changed_dubsmintmenus_assembly": 2,
+            "failed_or_other": 0,
+            "guard_updated": false
+          }
+        }
+      },
+      "duplicate_translation": {
+        "status": "checked_no_current_equivalent",
+        "checked_at": "2026-10-28T13:20:58.209819+00:00",
+        "scope": "All108 exact keys absent from625original Russian entries, and88new entries are disjoint from previous20. Targeted public discovery found no equivalent GoGaTio translation; historical similarly-named MrKociak translation is a different mod. This is scoped discovery, not an exhaustive Workshop guarantee.",
+        "candidates": [
+          "https://steamcommunity.com/sharedfiles/filedetails/?id=2968324078"
+        ]
       },
       "manifest": "mods/gogatio.mechanoidupgrades/manifest.json"
     },
@@ -4652,7 +5109,7 @@
         "native_russian_rows_in_snapshot": 0,
         "third_party_candidates": [],
         "coverage_scope": "saved_static_extraction_lower_bound; not complete runtime coverage",
-        "checked_at": "2026-10-28T10:30:30.068317+00:00",
+        "checked_at": "2026-10-28T13:25:05.099005+00:00",
         "original_license_evidence": [],
         "local_static_audit": {
           "checked_at": "2026-10-28T09:16:16.817662+00:00",
@@ -4733,7 +5190,7 @@
         "native_russian_rows_in_snapshot": 0,
         "third_party_candidates": [],
         "coverage_scope": "saved_static_extraction_lower_bound; not complete runtime coverage",
-        "checked_at": "2026-10-28T10:30:30.068317+00:00",
+        "checked_at": "2026-10-28T13:25:05.099005+00:00",
         "original_license_evidence": [],
         "local_static_audit": {
           "checked_at": "2026-10-28T09:16:16.824581+00:00",
@@ -4819,7 +5276,7 @@
         "native_russian_rows_in_snapshot": 25,
         "third_party_candidates": [],
         "coverage_scope": "saved_static_extraction_lower_bound; not complete runtime coverage",
-        "checked_at": "2026-10-28T10:30:30.068317+00:00",
+        "checked_at": "2026-10-28T13:25:05.099005+00:00",
         "original_license_evidence": [
           {
             "relative_path": "About/License.txt",
@@ -4912,7 +5369,7 @@
         "native_russian_rows_in_snapshot": 0,
         "third_party_candidates": [],
         "coverage_scope": "saved_static_extraction_lower_bound; not complete runtime coverage",
-        "checked_at": "2026-10-28T10:30:30.068317+00:00",
+        "checked_at": "2026-10-28T13:25:05.099005+00:00",
         "original_license_evidence": [],
         "local_static_audit": {
           "checked_at": "2026-10-28T09:16:16.855539+00:00",
@@ -4999,11 +5456,13 @@
           "work_stage": "reviewed_uninstalled",
           "historical_batch_runtime_verified_keys": 26,
           "runtime_evidence": "reviews/20261028/final-managed-proof.json",
-          "runtime_scope": "Earlier isolated managed-batch load; not a test of a new standalone public payload"
+          "runtime_scope": "Earlier isolated managed-batch load; not a test of a new standalone public payload",
+          "codex_source_targets": 28,
+          "semantic_review": null
         },
         "coverage_scope": "saved_static_extraction_lower_bound; not complete runtime coverage",
         "native_russian_rows_in_snapshot": 0,
-        "checked_at": "2026-10-28T10:30:30.068317+00:00",
+        "checked_at": "2026-10-28T13:25:05.099005+00:00",
         "provenance_counts": {},
         "attribution_licenses": {},
         "third_party_candidates": [],
@@ -5087,7 +5546,7 @@
         "native_russian_rows_in_snapshot": 0,
         "third_party_candidates": [],
         "coverage_scope": "saved_static_extraction_lower_bound; not complete runtime coverage",
-        "checked_at": "2026-10-28T10:30:30.068317+00:00",
+        "checked_at": "2026-10-28T13:25:05.099005+00:00",
         "original_license_evidence": [],
         "local_static_audit": {
           "checked_at": "2026-10-28T09:16:16.921465+00:00",
@@ -5106,7 +5565,9 @@
           "work_stage": "reviewed_uninstalled",
           "historical_batch_runtime_verified_keys": 6,
           "runtime_evidence": "reviews/20261028/final-managed-proof.json",
-          "runtime_scope": "Earlier isolated managed-batch load; not a test of a new standalone public payload"
+          "runtime_scope": "Earlier isolated managed-batch load; not a test of a new standalone public payload",
+          "codex_source_targets": 6,
+          "semantic_review": null
         },
         "work_stage": "installed_local",
         "saved_translation_store": true
@@ -5183,7 +5644,7 @@
         "native_russian_rows_in_snapshot": 0,
         "third_party_candidates": [],
         "coverage_scope": "saved_static_extraction_lower_bound; not complete runtime coverage",
-        "checked_at": "2026-10-28T10:30:30.068317+00:00",
+        "checked_at": "2026-10-28T13:25:05.099005+00:00",
         "original_license_evidence": [],
         "local_static_audit": {
           "checked_at": "2026-10-28T09:16:16.931413+00:00",
@@ -5340,7 +5801,7 @@
         "native_russian_rows_in_snapshot": 0,
         "third_party_candidates": [],
         "coverage_scope": "saved_static_extraction_lower_bound; not complete runtime coverage",
-        "checked_at": "2026-10-28T10:30:30.068317+00:00",
+        "checked_at": "2026-10-28T13:25:05.099005+00:00",
         "original_license_evidence": [
           {
             "relative_path": "LICENSE",
@@ -5446,7 +5907,7 @@
         "native_russian_rows_in_snapshot": 0,
         "third_party_candidates": [],
         "coverage_scope": "saved_static_extraction_lower_bound; not complete runtime coverage",
-        "checked_at": "2026-10-28T10:30:30.068317+00:00",
+        "checked_at": "2026-10-28T13:25:05.099005+00:00",
         "original_license_evidence": [],
         "local_static_audit": {
           "checked_at": "2026-10-28T09:16:16.949706+00:00",
@@ -5529,7 +5990,7 @@
         "native_russian_rows_in_snapshot": 33,
         "third_party_candidates": [],
         "coverage_scope": "saved_static_extraction_lower_bound; not complete runtime coverage",
-        "checked_at": "2026-10-28T10:30:30.068317+00:00",
+        "checked_at": "2026-10-28T13:25:05.099005+00:00",
         "original_license_evidence": [],
         "local_static_audit": {
           "checked_at": null,
@@ -5609,7 +6070,7 @@
         "native_russian_rows_in_snapshot": 0,
         "third_party_candidates": [],
         "coverage_scope": "saved_static_extraction_lower_bound; not complete runtime coverage",
-        "checked_at": "2026-10-28T10:30:30.068317+00:00",
+        "checked_at": "2026-10-28T13:25:05.099005+00:00",
         "original_license_evidence": [],
         "local_static_audit": {
           "checked_at": "2026-10-28T09:16:16.966467+00:00",
@@ -5696,7 +6157,7 @@
         "native_russian_rows_in_snapshot": 0,
         "third_party_candidates": [],
         "coverage_scope": "saved_static_extraction_lower_bound; not complete runtime coverage",
-        "checked_at": "2026-10-28T10:30:30.068317+00:00",
+        "checked_at": "2026-10-28T13:25:05.099005+00:00",
         "original_license_evidence": [],
         "local_static_audit": {
           "checked_at": "2026-10-28T09:16:17.036123+00:00",
@@ -5777,7 +6238,7 @@
         "native_russian_rows_in_snapshot": 0,
         "third_party_candidates": [],
         "coverage_scope": "saved_static_extraction_lower_bound; not complete runtime coverage",
-        "checked_at": "2026-10-28T10:30:30.068317+00:00",
+        "checked_at": "2026-10-28T13:25:05.099005+00:00",
         "original_license_evidence": [],
         "local_static_audit": {
           "checked_at": "2026-10-28T09:16:17.042419+00:00",
@@ -5863,7 +6324,7 @@
         "native_russian_rows_in_snapshot": 0,
         "third_party_candidates": [],
         "coverage_scope": "saved_static_extraction_lower_bound; not complete runtime coverage",
-        "checked_at": "2026-10-28T10:30:30.068317+00:00",
+        "checked_at": "2026-10-28T13:25:05.099005+00:00",
         "original_license_evidence": [],
         "local_static_audit": {
           "checked_at": "2026-10-28T09:16:17.045618+00:00",
@@ -5943,7 +6404,7 @@
         "native_russian_rows_in_snapshot": 0,
         "third_party_candidates": [],
         "coverage_scope": "saved_static_extraction_lower_bound; not complete runtime coverage",
-        "checked_at": "2026-10-28T10:30:30.068317+00:00",
+        "checked_at": "2026-10-28T13:25:05.099005+00:00",
         "original_license_evidence": [],
         "local_static_audit": {
           "checked_at": "2026-10-28T09:16:17.049453+00:00",
@@ -6024,7 +6485,7 @@
         "native_russian_rows_in_snapshot": 0,
         "third_party_candidates": [],
         "coverage_scope": "saved_static_extraction_lower_bound; not complete runtime coverage",
-        "checked_at": "2026-10-28T10:30:30.068317+00:00",
+        "checked_at": "2026-10-28T13:25:05.099005+00:00",
         "original_license_evidence": [],
         "local_static_audit": {
           "checked_at": null,
@@ -6105,7 +6566,7 @@
         "native_russian_rows_in_snapshot": 0,
         "third_party_candidates": [],
         "coverage_scope": "saved_static_extraction_lower_bound; not complete runtime coverage",
-        "checked_at": "2026-10-28T10:30:30.068317+00:00",
+        "checked_at": "2026-10-28T13:25:05.099005+00:00",
         "original_license_evidence": [],
         "local_static_audit": {
           "checked_at": "2026-10-28T09:16:17.052538+00:00",
@@ -6187,7 +6648,7 @@
         "native_russian_rows_in_snapshot": 0,
         "third_party_candidates": [],
         "coverage_scope": "saved_static_extraction_lower_bound; not complete runtime coverage",
-        "checked_at": "2026-10-28T10:30:30.068317+00:00",
+        "checked_at": "2026-10-28T13:25:05.099005+00:00",
         "original_license_evidence": [],
         "local_static_audit": {
           "checked_at": "2026-10-28T09:16:17.055616+00:00",
@@ -6270,7 +6731,7 @@
         "native_russian_rows_in_snapshot": 0,
         "third_party_candidates": [],
         "coverage_scope": "saved_static_extraction_lower_bound; not complete runtime coverage",
-        "checked_at": "2026-10-28T10:30:30.068317+00:00",
+        "checked_at": "2026-10-28T13:25:05.099005+00:00",
         "original_license_evidence": [],
         "local_static_audit": {
           "checked_at": "2026-10-28T09:16:17.061105+00:00",
@@ -6359,7 +6820,7 @@
         "native_russian_rows_in_snapshot": 0,
         "third_party_candidates": [],
         "coverage_scope": "saved_static_extraction_lower_bound; not complete runtime coverage",
-        "checked_at": "2026-10-28T10:30:30.068317+00:00",
+        "checked_at": "2026-10-28T13:25:05.099005+00:00",
         "original_license_evidence": [],
         "local_static_audit": {
           "checked_at": "2026-10-28T09:16:17.086203+00:00",
@@ -6516,7 +6977,7 @@
         "native_russian_rows_in_snapshot": 139,
         "third_party_candidates": [],
         "coverage_scope": "saved_static_extraction_lower_bound; not complete runtime coverage",
-        "checked_at": "2026-10-28T10:30:30.068317+00:00",
+        "checked_at": "2026-10-28T13:25:05.099005+00:00",
         "original_license_evidence": [
           {
             "relative_path": "Textures/OtherMods/RimFridge/LICENSE.txt",
@@ -6680,7 +7141,7 @@
         "native_russian_rows_in_snapshot": 4,
         "third_party_candidates": [],
         "coverage_scope": "saved_static_extraction_lower_bound; not complete runtime coverage",
-        "checked_at": "2026-10-28T10:30:30.068317+00:00",
+        "checked_at": "2026-10-28T13:25:05.099005+00:00",
         "original_license_evidence": [
           {
             "relative_path": "LICENSE",
@@ -6705,7 +7166,9 @@
           "work_stage": "reviewed_uninstalled",
           "historical_batch_runtime_verified_keys": 0,
           "runtime_evidence": null,
-          "runtime_scope": "Earlier isolated managed-batch load; not a test of a new standalone public payload"
+          "runtime_scope": "Earlier isolated managed-batch load; not a test of a new standalone public payload",
+          "codex_source_targets": 1,
+          "semantic_review": null
         },
         "work_stage": "installed_local",
         "saved_translation_store": true
@@ -6852,7 +7315,7 @@
         "native_russian_rows_in_snapshot": 5,
         "third_party_candidates": [],
         "coverage_scope": "saved_static_extraction_lower_bound; not complete runtime coverage",
-        "checked_at": "2026-10-28T10:30:30.068317+00:00",
+        "checked_at": "2026-10-28T13:25:05.099005+00:00",
         "original_license_evidence": [
           {
             "relative_path": "LICENSE",
@@ -7007,7 +7470,7 @@
         "native_russian_rows_in_snapshot": 54,
         "third_party_candidates": [],
         "coverage_scope": "saved_static_extraction_lower_bound; not complete runtime coverage",
-        "checked_at": "2026-10-28T10:30:30.068317+00:00",
+        "checked_at": "2026-10-28T13:25:05.099005+00:00",
         "original_license_evidence": [],
         "local_static_audit": {
           "checked_at": "2026-10-28T09:16:17.158692+00:00",
@@ -7101,7 +7564,7 @@
         "native_russian_rows_in_snapshot": 15,
         "third_party_candidates": [],
         "coverage_scope": "saved_static_extraction_lower_bound; not complete runtime coverage",
-        "checked_at": "2026-10-28T10:30:30.068317+00:00",
+        "checked_at": "2026-10-28T13:25:05.099005+00:00",
         "original_license_evidence": [
           {
             "relative_path": "LICENSE.txt",
@@ -7126,7 +7589,9 @@
           "work_stage": "reviewed_uninstalled",
           "historical_batch_runtime_verified_keys": 0,
           "runtime_evidence": null,
-          "runtime_scope": "Earlier isolated managed-batch load; not a test of a new standalone public payload"
+          "runtime_scope": "Earlier isolated managed-batch load; not a test of a new standalone public payload",
+          "codex_source_targets": 1,
+          "semantic_review": null
         },
         "work_stage": "installed_local",
         "saved_translation_store": true
@@ -7205,7 +7670,7 @@
         "native_russian_rows_in_snapshot": 28,
         "third_party_candidates": [],
         "coverage_scope": "saved_static_extraction_lower_bound; not complete runtime coverage",
-        "checked_at": "2026-10-28T10:30:30.068317+00:00",
+        "checked_at": "2026-10-28T13:25:05.099005+00:00",
         "original_license_evidence": [],
         "local_static_audit": {
           "checked_at": "2026-10-28T09:16:17.175359+00:00",
@@ -7316,7 +7781,7 @@
         "native_russian_rows_in_snapshot": 47,
         "third_party_candidates": [],
         "coverage_scope": "saved_static_extraction_lower_bound; not complete runtime coverage",
-        "checked_at": "2026-10-28T10:30:30.068317+00:00",
+        "checked_at": "2026-10-28T13:25:05.099005+00:00",
         "original_license_evidence": [
           {
             "relative_path": "LICENSE.txt",
@@ -7341,7 +7806,9 @@
           "work_stage": "reviewed_uninstalled",
           "historical_batch_runtime_verified_keys": 0,
           "runtime_evidence": null,
-          "runtime_scope": "Earlier isolated managed-batch load; not a test of a new standalone public payload"
+          "runtime_scope": "Earlier isolated managed-batch load; not a test of a new standalone public payload",
+          "codex_source_targets": 1,
+          "semantic_review": null
         },
         "work_stage": "installed_local",
         "saved_translation_store": true
@@ -7465,7 +7932,7 @@
         "native_russian_rows_in_snapshot": 0,
         "third_party_candidates": [],
         "coverage_scope": "saved_static_extraction_lower_bound; not complete runtime coverage",
-        "checked_at": "2026-10-28T10:30:30.068317+00:00",
+        "checked_at": "2026-10-28T13:25:05.099005+00:00",
         "original_license_evidence": [
           {
             "relative_path": "LICENSE",
@@ -7585,7 +8052,7 @@
         "native_russian_rows_in_snapshot": 0,
         "third_party_candidates": [],
         "coverage_scope": "saved_static_extraction_lower_bound; not complete runtime coverage",
-        "checked_at": "2026-10-28T10:30:30.068317+00:00",
+        "checked_at": "2026-10-28T13:25:05.099005+00:00",
         "original_license_evidence": [],
         "local_static_audit": {
           "checked_at": "2026-10-28T09:16:17.197256+00:00",
@@ -7737,7 +8204,7 @@
         "native_russian_rows_in_snapshot": 85,
         "third_party_candidates": [],
         "coverage_scope": "saved_static_extraction_lower_bound; not complete runtime coverage",
-        "checked_at": "2026-10-28T10:30:30.068317+00:00",
+        "checked_at": "2026-10-28T13:25:05.099005+00:00",
         "original_license_evidence": [
           {
             "relative_path": "LICENSE.md",
@@ -7832,7 +8299,7 @@
         "native_russian_rows_in_snapshot": 0,
         "third_party_candidates": [],
         "coverage_scope": "saved_static_extraction_lower_bound; not complete runtime coverage",
-        "checked_at": "2026-10-28T10:30:30.068317+00:00",
+        "checked_at": "2026-10-28T13:25:05.099005+00:00",
         "original_license_evidence": [],
         "local_static_audit": {
           "checked_at": "2026-10-28T09:16:17.218921+00:00",
@@ -7927,7 +8394,7 @@
           }
         ],
         "coverage_scope": "saved_static_extraction_lower_bound; not complete runtime coverage",
-        "checked_at": "2026-10-28T10:30:30.068317+00:00",
+        "checked_at": "2026-10-28T13:25:05.099005+00:00",
         "original_license_evidence": [],
         "local_static_audit": {
           "checked_at": "2026-10-28T09:16:17.223104+00:00",
@@ -8007,7 +8474,7 @@
         "native_russian_rows_in_snapshot": 0,
         "third_party_candidates": [],
         "coverage_scope": "saved_static_extraction_lower_bound; not complete runtime coverage",
-        "checked_at": "2026-10-28T10:30:30.068317+00:00",
+        "checked_at": "2026-10-28T13:25:05.099005+00:00",
         "original_license_evidence": [],
         "local_static_audit": {
           "checked_at": "2026-10-28T09:16:17.229833+00:00",
@@ -8145,7 +8612,7 @@
         "native_russian_rows_in_snapshot": 69,
         "third_party_candidates": [],
         "coverage_scope": "saved_static_extraction_lower_bound; not complete runtime coverage",
-        "checked_at": "2026-10-28T10:30:30.068317+00:00",
+        "checked_at": "2026-10-28T13:25:05.099005+00:00",
         "original_license_evidence": [],
         "local_static_audit": {
           "checked_at": null,
@@ -8240,11 +8707,13 @@
           "work_stage": "reviewed_uninstalled",
           "historical_batch_runtime_verified_keys": 0,
           "runtime_evidence": null,
-          "runtime_scope": "Earlier isolated managed-batch load; not a test of a new standalone public payload"
+          "runtime_scope": "Earlier isolated managed-batch load; not a test of a new standalone public payload",
+          "codex_source_targets": 31,
+          "semantic_review": null
         },
         "coverage_scope": "saved_static_extraction_lower_bound; not complete runtime coverage",
         "native_russian_rows_in_snapshot": 294,
-        "checked_at": "2026-10-28T10:30:30.068317+00:00",
+        "checked_at": "2026-10-28T13:25:05.099005+00:00",
         "provenance_counts": {},
         "attribution_licenses": {},
         "third_party_candidates": [],
@@ -8430,7 +8899,7 @@
           }
         ],
         "coverage_scope": "saved_static_extraction_lower_bound; not complete runtime coverage",
-        "checked_at": "2026-10-28T10:30:30.068317+00:00",
+        "checked_at": "2026-10-28T13:25:05.099005+00:00",
         "original_license_evidence": [
           {
             "relative_path": "LICENSE",
@@ -8455,7 +8924,9 @@
           "work_stage": "reviewed_uninstalled",
           "historical_batch_runtime_verified_keys": 47,
           "runtime_evidence": "reviews/20261028/final-managed-proof.json",
-          "runtime_scope": "Earlier isolated managed-batch load; not a test of a new standalone public payload"
+          "runtime_scope": "Earlier isolated managed-batch load; not a test of a new standalone public payload",
+          "codex_source_targets": 48,
+          "semantic_review": null
         },
         "work_stage": "installed_local",
         "saved_translation_store": true
@@ -8556,7 +9027,7 @@
           }
         ],
         "coverage_scope": "saved_static_extraction_lower_bound; not complete runtime coverage",
-        "checked_at": "2026-10-28T10:30:30.068317+00:00",
+        "checked_at": "2026-10-28T13:25:05.099005+00:00",
         "original_license_evidence": [],
         "local_static_audit": {
           "checked_at": "2026-10-28T09:16:17.280751+00:00",
@@ -8649,7 +9120,7 @@
           }
         ],
         "coverage_scope": "saved_static_extraction_lower_bound; not complete runtime coverage",
-        "checked_at": "2026-10-28T10:30:30.068317+00:00",
+        "checked_at": "2026-10-28T13:25:05.099005+00:00",
         "original_license_evidence": [],
         "local_static_audit": {
           "checked_at": "2026-10-28T09:16:17.319071+00:00",
@@ -8668,7 +9139,9 @@
           "work_stage": "reviewed_uninstalled",
           "historical_batch_runtime_verified_keys": 334,
           "runtime_evidence": "reviews/20261028/final-managed-proof.json",
-          "runtime_scope": "Earlier isolated managed-batch load; not a test of a new standalone public payload"
+          "runtime_scope": "Earlier isolated managed-batch load; not a test of a new standalone public payload",
+          "codex_source_targets": 334,
+          "semantic_review": null
         },
         "work_stage": "installed_local",
         "saved_translation_store": true
@@ -8756,7 +9229,7 @@
           }
         ],
         "coverage_scope": "saved_static_extraction_lower_bound; not complete runtime coverage",
-        "checked_at": "2026-10-28T10:30:30.068317+00:00",
+        "checked_at": "2026-10-28T13:25:05.099005+00:00",
         "original_license_evidence": [],
         "local_static_audit": {
           "checked_at": "2026-10-28T09:16:17.329518+00:00",
@@ -8775,7 +9248,9 @@
           "work_stage": "reviewed_uninstalled",
           "historical_batch_runtime_verified_keys": 5,
           "runtime_evidence": "reviews/20261028/final-managed-proof.json",
-          "runtime_scope": "Earlier isolated managed-batch load; not a test of a new standalone public payload"
+          "runtime_scope": "Earlier isolated managed-batch load; not a test of a new standalone public payload",
+          "codex_source_targets": 5,
+          "semantic_review": null
         },
         "work_stage": "installed_local",
         "saved_translation_store": true
@@ -8862,7 +9337,7 @@
           }
         ],
         "coverage_scope": "saved_static_extraction_lower_bound; not complete runtime coverage",
-        "checked_at": "2026-10-28T10:30:30.068317+00:00",
+        "checked_at": "2026-10-28T13:25:05.099005+00:00",
         "original_license_evidence": [],
         "local_static_audit": {
           "checked_at": "2026-10-28T09:16:17.339601+00:00",
@@ -8881,7 +9356,9 @@
           "work_stage": "reviewed_uninstalled",
           "historical_batch_runtime_verified_keys": 96,
           "runtime_evidence": "reviews/20261028/final-managed-proof.json",
-          "runtime_scope": "Earlier isolated managed-batch load; not a test of a new standalone public payload"
+          "runtime_scope": "Earlier isolated managed-batch load; not a test of a new standalone public payload",
+          "codex_source_targets": 96,
+          "semantic_review": null
         },
         "work_stage": "installed_local",
         "saved_translation_store": true
@@ -8971,7 +9448,7 @@
           }
         ],
         "coverage_scope": "saved_static_extraction_lower_bound; not complete runtime coverage",
-        "checked_at": "2026-10-28T10:30:30.068317+00:00",
+        "checked_at": "2026-10-28T13:25:05.099005+00:00",
         "original_license_evidence": [],
         "local_static_audit": {
           "checked_at": "2026-10-28T09:16:17.374360+00:00",
@@ -8990,7 +9467,9 @@
           "work_stage": "reviewed_uninstalled",
           "historical_batch_runtime_verified_keys": 39,
           "runtime_evidence": "reviews/20261028/final-managed-proof.json",
-          "runtime_scope": "Earlier isolated managed-batch load; not a test of a new standalone public payload"
+          "runtime_scope": "Earlier isolated managed-batch load; not a test of a new standalone public payload",
+          "codex_source_targets": 42,
+          "semantic_review": null
         },
         "work_stage": "installed_local",
         "saved_translation_store": true
@@ -9096,7 +9575,7 @@
           }
         ],
         "coverage_scope": "saved_static_extraction_lower_bound; not complete runtime coverage",
-        "checked_at": "2026-10-28T10:30:30.068317+00:00",
+        "checked_at": "2026-10-28T13:25:05.099005+00:00",
         "original_license_evidence": [],
         "local_static_audit": {
           "checked_at": "2026-10-28T09:16:17.417488+00:00",
@@ -9117,7 +9596,9 @@
           "work_stage": "reviewed_uninstalled",
           "historical_batch_runtime_verified_keys": 194,
           "runtime_evidence": "reviews/20261028/final-managed-proof.json",
-          "runtime_scope": "Earlier isolated managed-batch load; not a test of a new standalone public payload"
+          "runtime_scope": "Earlier isolated managed-batch load; not a test of a new standalone public payload",
+          "codex_source_targets": 195,
+          "semantic_review": null
         },
         "work_stage": "installed_local",
         "saved_translation_store": true
@@ -9193,7 +9674,7 @@
         "native_russian_rows_in_snapshot": 0,
         "third_party_candidates": [],
         "coverage_scope": "saved_static_extraction_lower_bound; not complete runtime coverage",
-        "checked_at": "2026-10-28T10:30:30.068317+00:00",
+        "checked_at": "2026-10-28T13:25:05.099005+00:00",
         "original_license_evidence": [],
         "local_static_audit": {
           "checked_at": "2026-10-28T09:16:17.462997+00:00",
@@ -9212,7 +9693,9 @@
           "work_stage": "reviewed_uninstalled",
           "historical_batch_runtime_verified_keys": 277,
           "runtime_evidence": "reviews/20261028/final-managed-proof.json",
-          "runtime_scope": "Earlier isolated managed-batch load; not a test of a new standalone public payload"
+          "runtime_scope": "Earlier isolated managed-batch load; not a test of a new standalone public payload",
+          "codex_source_targets": 280,
+          "semantic_review": null
         },
         "work_stage": "installed_local",
         "saved_translation_store": true
@@ -9289,7 +9772,7 @@
         "native_russian_rows_in_snapshot": 3,
         "third_party_candidates": [],
         "coverage_scope": "saved_static_extraction_lower_bound; not complete runtime coverage",
-        "checked_at": "2026-10-28T10:30:30.068317+00:00",
+        "checked_at": "2026-10-28T13:25:05.099005+00:00",
         "original_license_evidence": [],
         "local_static_audit": {
           "checked_at": "2026-10-28T09:16:17.497900+00:00",
@@ -9308,7 +9791,9 @@
           "work_stage": "reviewed_uninstalled",
           "historical_batch_runtime_verified_keys": 866,
           "runtime_evidence": "reviews/20261028/final-managed-proof.json",
-          "runtime_scope": "Earlier isolated managed-batch load; not a test of a new standalone public payload"
+          "runtime_scope": "Earlier isolated managed-batch load; not a test of a new standalone public payload",
+          "codex_source_targets": 866,
+          "semantic_review": null
         },
         "work_stage": "installed_local",
         "saved_translation_store": true
@@ -9381,7 +9866,7 @@
         "native_russian_rows_in_snapshot": 0,
         "third_party_candidates": [],
         "coverage_scope": "saved_static_extraction_lower_bound; not complete runtime coverage",
-        "checked_at": "2026-10-28T10:30:30.068317+00:00",
+        "checked_at": "2026-10-28T13:25:05.099005+00:00",
         "original_license_evidence": [],
         "local_static_audit": {
           "checked_at": "2026-10-28T09:16:17.557699+00:00",
@@ -9464,7 +9949,7 @@
         "native_russian_rows_in_snapshot": 1,
         "third_party_candidates": [],
         "coverage_scope": "saved_static_extraction_lower_bound; not complete runtime coverage",
-        "checked_at": "2026-10-28T10:30:30.068317+00:00",
+        "checked_at": "2026-10-28T13:25:05.099005+00:00",
         "original_license_evidence": [],
         "local_static_audit": {
           "checked_at": "2026-10-28T09:16:17.561891+00:00",
@@ -9550,7 +10035,7 @@
         "native_russian_rows_in_snapshot": 0,
         "third_party_candidates": [],
         "coverage_scope": "saved_static_extraction_lower_bound; not complete runtime coverage",
-        "checked_at": "2026-10-28T10:30:30.068317+00:00",
+        "checked_at": "2026-10-28T13:25:05.099005+00:00",
         "original_license_evidence": [
           {
             "relative_path": "LICENSE",
@@ -9642,7 +10127,7 @@
         "native_russian_rows_in_snapshot": 0,
         "third_party_candidates": [],
         "coverage_scope": "saved_static_extraction_lower_bound; not complete runtime coverage",
-        "checked_at": "2026-10-28T10:30:30.068317+00:00",
+        "checked_at": "2026-10-28T13:25:05.099005+00:00",
         "original_license_evidence": [],
         "local_static_audit": {
           "checked_at": "2026-10-28T09:16:17.577671+00:00",
@@ -9727,7 +10212,7 @@
         "native_russian_rows_in_snapshot": 0,
         "third_party_candidates": [],
         "coverage_scope": "saved_static_extraction_lower_bound; not complete runtime coverage",
-        "checked_at": "2026-10-28T10:30:30.068317+00:00",
+        "checked_at": "2026-10-28T13:25:05.099005+00:00",
         "original_license_evidence": [],
         "local_static_audit": {
           "checked_at": "2026-10-28T09:16:17.581461+00:00",
@@ -9746,7 +10231,9 @@
           "work_stage": "reviewed_uninstalled",
           "historical_batch_runtime_verified_keys": 46,
           "runtime_evidence": "reviews/20261028/final-managed-proof.json",
-          "runtime_scope": "Earlier isolated managed-batch load; not a test of a new standalone public payload"
+          "runtime_scope": "Earlier isolated managed-batch load; not a test of a new standalone public payload",
+          "codex_source_targets": 46,
+          "semantic_review": null
         },
         "work_stage": "installed_local",
         "saved_translation_store": true
@@ -9824,7 +10311,7 @@
         "native_russian_rows_in_snapshot": 0,
         "third_party_candidates": [],
         "coverage_scope": "saved_static_extraction_lower_bound; not complete runtime coverage",
-        "checked_at": "2026-10-28T10:30:30.068317+00:00",
+        "checked_at": "2026-10-28T13:25:05.099005+00:00",
         "original_license_evidence": [],
         "local_static_audit": {
           "checked_at": "2026-10-28T09:16:17.592436+00:00",
@@ -9876,9 +10363,14 @@
         "workshop_status": "not_published"
       },
       "integration": {
-        "status": "not_sent",
-        "pr_url": null,
-        "contact_url": null
+        "status": "pr_submitted",
+        "pr_url": "https://github.com/OneCodeUnit/VanillaRussianExpanded/pull/46",
+        "contact_url": null,
+        "target_kind": "community_translation",
+        "target_repository_url": "https://github.com/OneCodeUnit/VanillaRussianExpanded",
+        "head_sha": "256ce8f6cc06c909bf24be1f73ad8b505a8f1b34",
+        "submitted_at": "2026-10-28T13:16:47Z",
+        "original_native_accepted": false
       },
       "original": {
         "author": "Helixien",
@@ -9922,7 +10414,7 @@
           }
         ],
         "coverage_scope": "saved_static_extraction_lower_bound; not complete runtime coverage",
-        "checked_at": "2026-10-28T10:30:30.068317+00:00",
+        "checked_at": "2026-10-28T13:25:05.099005+00:00",
         "original_license_evidence": [
           {
             "relative_path": "LICENSE",
@@ -9949,7 +10441,9 @@
           "work_stage": "reviewed_uninstalled",
           "historical_batch_runtime_verified_keys": 23,
           "runtime_evidence": "reviews/20261028/final-managed-proof.json",
-          "runtime_scope": "Earlier isolated managed-batch load; not a test of a new standalone public payload"
+          "runtime_scope": "Earlier isolated managed-batch load; not a test of a new standalone public payload",
+          "codex_source_targets": 23,
+          "semantic_review": null
         },
         "work_stage": "installed_local",
         "saved_translation_store": true
@@ -10024,7 +10518,7 @@
         "native_russian_rows_in_snapshot": 0,
         "third_party_candidates": [],
         "coverage_scope": "saved_static_extraction_lower_bound; not complete runtime coverage",
-        "checked_at": "2026-10-28T10:30:30.068317+00:00",
+        "checked_at": "2026-10-28T13:25:05.099005+00:00",
         "original_license_evidence": [],
         "local_static_audit": {
           "checked_at": "2026-10-28T09:16:17.655827+00:00",
@@ -10120,7 +10614,7 @@
           }
         ],
         "coverage_scope": "saved_static_extraction_lower_bound; not complete runtime coverage",
-        "checked_at": "2026-10-28T10:30:30.068317+00:00",
+        "checked_at": "2026-10-28T13:25:05.099005+00:00",
         "original_license_evidence": [],
         "local_static_audit": {
           "checked_at": "2026-10-28T09:16:17.690664+00:00",
@@ -10210,7 +10704,7 @@
         "native_russian_rows_in_snapshot": 0,
         "third_party_candidates": [],
         "coverage_scope": "saved_static_extraction_lower_bound; not complete runtime coverage",
-        "checked_at": "2026-10-28T10:30:30.068317+00:00",
+        "checked_at": "2026-10-28T13:25:05.099005+00:00",
         "original_license_evidence": [],
         "local_static_audit": {
           "checked_at": "2026-10-28T09:16:17.802898+00:00",
@@ -10292,7 +10786,7 @@
         "native_russian_rows_in_snapshot": 0,
         "third_party_candidates": [],
         "coverage_scope": "saved_static_extraction_lower_bound; not complete runtime coverage",
-        "checked_at": "2026-10-28T10:30:30.068317+00:00",
+        "checked_at": "2026-10-28T13:25:05.099005+00:00",
         "original_license_evidence": [],
         "local_static_audit": {
           "checked_at": "2026-10-28T09:16:17.877430+00:00",
@@ -10375,7 +10869,7 @@
         "native_russian_rows_in_snapshot": 0,
         "third_party_candidates": [],
         "coverage_scope": "saved_static_extraction_lower_bound; not complete runtime coverage",
-        "checked_at": "2026-10-28T10:30:30.068317+00:00",
+        "checked_at": "2026-10-28T13:25:05.099005+00:00",
         "original_license_evidence": [],
         "local_static_audit": {
           "checked_at": "2026-10-28T09:16:17.881246+00:00",
@@ -10458,7 +10952,7 @@
         "native_russian_rows_in_snapshot": 0,
         "third_party_candidates": [],
         "coverage_scope": "saved_static_extraction_lower_bound; not complete runtime coverage",
-        "checked_at": "2026-10-28T10:30:30.068317+00:00",
+        "checked_at": "2026-10-28T13:25:05.099005+00:00",
         "original_license_evidence": [],
         "local_static_audit": {
           "checked_at": "2026-10-28T09:16:17.884241+00:00",
@@ -10541,7 +11035,7 @@
         "native_russian_rows_in_snapshot": 0,
         "third_party_candidates": [],
         "coverage_scope": "saved_static_extraction_lower_bound; not complete runtime coverage",
-        "checked_at": "2026-10-28T10:30:30.068317+00:00",
+        "checked_at": "2026-10-28T13:25:05.099005+00:00",
         "original_license_evidence": [],
         "local_static_audit": {
           "checked_at": "2026-10-28T09:16:17.888435+00:00",
@@ -10624,7 +11118,7 @@
         "native_russian_rows_in_snapshot": 0,
         "third_party_candidates": [],
         "coverage_scope": "saved_static_extraction_lower_bound; not complete runtime coverage",
-        "checked_at": "2026-10-28T10:30:30.068317+00:00",
+        "checked_at": "2026-10-28T13:25:05.099005+00:00",
         "original_license_evidence": [],
         "local_static_audit": {
           "checked_at": "2026-10-28T09:16:17.892301+00:00",
@@ -10707,7 +11201,7 @@
         "native_russian_rows_in_snapshot": 0,
         "third_party_candidates": [],
         "coverage_scope": "saved_static_extraction_lower_bound; not complete runtime coverage",
-        "checked_at": "2026-10-28T10:30:30.068317+00:00",
+        "checked_at": "2026-10-28T13:25:05.099005+00:00",
         "original_license_evidence": [],
         "local_static_audit": {
           "checked_at": "2026-10-28T09:16:17.895651+00:00",
@@ -10873,7 +11367,7 @@
         "native_russian_rows_in_snapshot": 79,
         "third_party_candidates": [],
         "coverage_scope": "saved_static_extraction_lower_bound; not complete runtime coverage",
-        "checked_at": "2026-10-28T10:30:30.068317+00:00",
+        "checked_at": "2026-10-28T13:25:05.099005+00:00",
         "original_license_evidence": [
           {
             "relative_path": "LICENSE",
@@ -10977,7 +11471,7 @@
         "native_russian_rows_in_snapshot": 152,
         "third_party_candidates": [],
         "coverage_scope": "saved_static_extraction_lower_bound; not complete runtime coverage",
-        "checked_at": "2026-10-28T10:30:30.068317+00:00",
+        "checked_at": "2026-10-28T13:25:05.099005+00:00",
         "original_license_evidence": [],
         "local_static_audit": {
           "checked_at": "2026-10-28T09:16:17.906211+00:00",
@@ -11138,7 +11632,7 @@
           }
         ],
         "coverage_scope": "saved_static_extraction_lower_bound; not complete runtime coverage",
-        "checked_at": "2026-10-28T10:30:30.068317+00:00",
+        "checked_at": "2026-10-28T13:25:05.099005+00:00",
         "original_license_evidence": [
           {
             "relative_path": "LICENSE",
@@ -11236,7 +11730,7 @@
         "native_russian_rows_in_snapshot": 0,
         "third_party_candidates": [],
         "coverage_scope": "saved_static_extraction_lower_bound; not complete runtime coverage",
-        "checked_at": "2026-10-28T10:30:30.068317+00:00",
+        "checked_at": "2026-10-28T13:25:05.099005+00:00",
         "original_license_evidence": [],
         "local_static_audit": {
           "checked_at": "2026-10-28T09:16:17.955689+00:00",
@@ -11360,7 +11854,7 @@
         "native_russian_rows_in_snapshot": 0,
         "third_party_candidates": [],
         "coverage_scope": "saved_static_extraction_lower_bound; not complete runtime coverage",
-        "checked_at": "2026-10-28T10:30:30.068317+00:00",
+        "checked_at": "2026-10-28T13:25:05.099005+00:00",
         "original_license_evidence": [],
         "local_static_audit": {
           "checked_at": "2026-10-28T09:16:17.963781+00:00",
@@ -11489,7 +11983,7 @@
         "native_russian_rows_in_snapshot": 0,
         "third_party_candidates": [],
         "coverage_scope": "saved_static_extraction_lower_bound; not complete runtime coverage",
-        "checked_at": "2026-10-28T10:30:30.068317+00:00",
+        "checked_at": "2026-10-28T13:25:05.099005+00:00",
         "original_license_evidence": [],
         "local_static_audit": {
           "checked_at": "2026-10-28T09:16:17.981920+00:00",
@@ -11688,7 +12182,7 @@
           }
         ],
         "coverage_scope": "saved_static_extraction_lower_bound; not complete runtime coverage",
-        "checked_at": "2026-10-28T10:30:30.068317+00:00",
+        "checked_at": "2026-10-28T13:25:05.099005+00:00",
         "original_license_evidence": [],
         "local_static_audit": {
           "checked_at": "2026-10-28T09:16:17.989304+00:00",
@@ -11707,7 +12201,9 @@
           "work_stage": "reviewed_uninstalled",
           "historical_batch_runtime_verified_keys": 8,
           "runtime_evidence": "reviews/20261028/final-managed-proof.json",
-          "runtime_scope": "Earlier isolated managed-batch load; not a test of a new standalone public payload"
+          "runtime_scope": "Earlier isolated managed-batch load; not a test of a new standalone public payload",
+          "codex_source_targets": 9,
+          "semantic_review": null
         },
         "work_stage": "installed_local",
         "saved_translation_store": true
@@ -11856,7 +12352,7 @@
           }
         ],
         "coverage_scope": "saved_static_extraction_lower_bound; not complete runtime coverage",
-        "checked_at": "2026-10-28T10:30:30.068317+00:00",
+        "checked_at": "2026-10-28T13:25:05.099005+00:00",
         "original_license_evidence": [],
         "local_static_audit": {
           "checked_at": "2026-10-28T09:16:18.012512+00:00",
@@ -11875,7 +12371,9 @@
           "work_stage": "reviewed_uninstalled",
           "historical_batch_runtime_verified_keys": 40,
           "runtime_evidence": "reviews/20261028/final-managed-proof.json",
-          "runtime_scope": "Earlier isolated managed-batch load; not a test of a new standalone public payload"
+          "runtime_scope": "Earlier isolated managed-batch load; not a test of a new standalone public payload",
+          "codex_source_targets": 40,
+          "semantic_review": null
         },
         "work_stage": "installed_local",
         "saved_translation_store": true
@@ -11972,7 +12470,7 @@
           }
         ],
         "coverage_scope": "saved_static_extraction_lower_bound; not complete runtime coverage",
-        "checked_at": "2026-10-28T10:30:30.068317+00:00",
+        "checked_at": "2026-10-28T13:25:05.099005+00:00",
         "original_license_evidence": [],
         "local_static_audit": {
           "checked_at": "2026-10-28T09:16:18.058170+00:00",
@@ -11991,7 +12489,9 @@
           "work_stage": "reviewed_uninstalled",
           "historical_batch_runtime_verified_keys": 35,
           "runtime_evidence": "reviews/20261028/final-managed-proof.json",
-          "runtime_scope": "Earlier isolated managed-batch load; not a test of a new standalone public payload"
+          "runtime_scope": "Earlier isolated managed-batch load; not a test of a new standalone public payload",
+          "codex_source_targets": 37,
+          "semantic_review": null
         },
         "work_stage": "installed_local",
         "saved_translation_store": true
@@ -12079,7 +12579,7 @@
           }
         ],
         "coverage_scope": "saved_static_extraction_lower_bound; not complete runtime coverage",
-        "checked_at": "2026-10-28T10:30:30.068317+00:00",
+        "checked_at": "2026-10-28T13:25:05.099005+00:00",
         "original_license_evidence": [],
         "local_static_audit": {
           "checked_at": "2026-10-28T09:16:18.098388+00:00",
@@ -12175,7 +12675,7 @@
           }
         ],
         "coverage_scope": "saved_static_extraction_lower_bound; not complete runtime coverage",
-        "checked_at": "2026-10-28T10:30:30.068317+00:00",
+        "checked_at": "2026-10-28T13:25:05.099005+00:00",
         "original_license_evidence": [],
         "local_static_audit": {
           "checked_at": "2026-10-28T09:16:18.103059+00:00",
@@ -12268,7 +12768,7 @@
           }
         ],
         "coverage_scope": "saved_static_extraction_lower_bound; not complete runtime coverage",
-        "checked_at": "2026-10-28T10:30:30.068317+00:00",
+        "checked_at": "2026-10-28T13:25:05.099005+00:00",
         "original_license_evidence": [],
         "local_static_audit": {
           "checked_at": "2026-10-28T09:16:18.108916+00:00",
@@ -12364,7 +12864,7 @@
           }
         ],
         "coverage_scope": "saved_static_extraction_lower_bound; not complete runtime coverage",
-        "checked_at": "2026-10-28T10:30:30.068317+00:00",
+        "checked_at": "2026-10-28T13:25:05.099005+00:00",
         "original_license_evidence": [],
         "local_static_audit": {
           "checked_at": "2026-10-28T09:16:18.118071+00:00",
@@ -12458,7 +12958,7 @@
           }
         ],
         "coverage_scope": "saved_static_extraction_lower_bound; not complete runtime coverage",
-        "checked_at": "2026-10-28T10:30:30.068317+00:00",
+        "checked_at": "2026-10-28T13:25:05.099005+00:00",
         "original_license_evidence": [],
         "local_static_audit": {
           "checked_at": "2026-10-28T09:16:18.126513+00:00",
@@ -12477,7 +12977,9 @@
           "work_stage": "reviewed_uninstalled",
           "historical_batch_runtime_verified_keys": 0,
           "runtime_evidence": null,
-          "runtime_scope": "Earlier isolated managed-batch load; not a test of a new standalone public payload"
+          "runtime_scope": "Earlier isolated managed-batch load; not a test of a new standalone public payload",
+          "codex_source_targets": 1,
+          "semantic_review": null
         },
         "work_stage": "installed_local",
         "saved_translation_store": true
@@ -12574,7 +13076,7 @@
           }
         ],
         "coverage_scope": "saved_static_extraction_lower_bound; not complete runtime coverage",
-        "checked_at": "2026-10-28T10:30:30.068317+00:00",
+        "checked_at": "2026-10-28T13:25:05.099005+00:00",
         "original_license_evidence": [],
         "local_static_audit": {
           "checked_at": "2026-10-28T09:16:18.132999+00:00",
@@ -12595,7 +13097,9 @@
           "work_stage": "reviewed_uninstalled",
           "historical_batch_runtime_verified_keys": 2,
           "runtime_evidence": "reviews/20261028/final-managed-proof.json",
-          "runtime_scope": "Earlier isolated managed-batch load; not a test of a new standalone public payload"
+          "runtime_scope": "Earlier isolated managed-batch load; not a test of a new standalone public payload",
+          "codex_source_targets": 2,
+          "semantic_review": null
         },
         "work_stage": "installed_local",
         "saved_translation_store": true
@@ -12684,7 +13188,7 @@
           }
         ],
         "coverage_scope": "saved_static_extraction_lower_bound; not complete runtime coverage",
-        "checked_at": "2026-10-28T10:30:30.068317+00:00",
+        "checked_at": "2026-10-28T13:25:05.099005+00:00",
         "original_license_evidence": [
           {
             "relative_path": "1.5/Source/VanillaAnimalsExpanded/packages/Lib.Harmony.2.3.1.1/LICENSE",
@@ -12785,7 +13289,7 @@
           }
         ],
         "coverage_scope": "saved_static_extraction_lower_bound; not complete runtime coverage",
-        "checked_at": "2026-10-28T10:30:30.068317+00:00",
+        "checked_at": "2026-10-28T13:25:05.099005+00:00",
         "original_license_evidence": [],
         "local_static_audit": {
           "checked_at": "2026-10-28T09:16:18.162447+00:00",
@@ -12804,7 +13308,9 @@
           "work_stage": "reviewed_uninstalled",
           "historical_batch_runtime_verified_keys": 171,
           "runtime_evidence": "reviews/20261028/final-managed-proof.json",
-          "runtime_scope": "Earlier isolated managed-batch load; not a test of a new standalone public payload"
+          "runtime_scope": "Earlier isolated managed-batch load; not a test of a new standalone public payload",
+          "codex_source_targets": 171,
+          "semantic_review": null
         },
         "work_stage": "installed_local",
         "saved_translation_store": true
@@ -12891,7 +13397,7 @@
           }
         ],
         "coverage_scope": "saved_static_extraction_lower_bound; not complete runtime coverage",
-        "checked_at": "2026-10-28T10:30:30.068317+00:00",
+        "checked_at": "2026-10-28T13:25:05.099005+00:00",
         "original_license_evidence": [],
         "local_static_audit": {
           "checked_at": "2026-10-28T09:16:18.171292+00:00",
@@ -12983,7 +13489,7 @@
           }
         ],
         "coverage_scope": "saved_static_extraction_lower_bound; not complete runtime coverage",
-        "checked_at": "2026-10-28T10:30:30.068317+00:00",
+        "checked_at": "2026-10-28T13:25:05.099005+00:00",
         "original_license_evidence": [],
         "local_static_audit": {
           "checked_at": "2026-10-28T09:16:18.181131+00:00",
@@ -13002,7 +13508,9 @@
           "work_stage": "reviewed_uninstalled",
           "historical_batch_runtime_verified_keys": 77,
           "runtime_evidence": "reviews/20261028/final-managed-proof.json",
-          "runtime_scope": "Earlier isolated managed-batch load; not a test of a new standalone public payload"
+          "runtime_scope": "Earlier isolated managed-batch load; not a test of a new standalone public payload",
+          "codex_source_targets": 77,
+          "semantic_review": null
         },
         "work_stage": "installed_local",
         "saved_translation_store": true
@@ -13087,7 +13595,7 @@
           }
         ],
         "coverage_scope": "saved_static_extraction_lower_bound; not complete runtime coverage",
-        "checked_at": "2026-10-28T10:30:30.068317+00:00",
+        "checked_at": "2026-10-28T13:25:05.099005+00:00",
         "original_license_evidence": [],
         "local_static_audit": {
           "checked_at": "2026-10-28T09:16:18.194020+00:00",
@@ -13106,7 +13614,9 @@
           "work_stage": "reviewed_uninstalled",
           "historical_batch_runtime_verified_keys": 6,
           "runtime_evidence": "reviews/20261028/final-managed-proof.json",
-          "runtime_scope": "Earlier isolated managed-batch load; not a test of a new standalone public payload"
+          "runtime_scope": "Earlier isolated managed-batch load; not a test of a new standalone public payload",
+          "codex_source_targets": 6,
+          "semantic_review": null
         },
         "work_stage": "installed_local",
         "saved_translation_store": true
@@ -13203,7 +13713,7 @@
           }
         ],
         "coverage_scope": "saved_static_extraction_lower_bound; not complete runtime coverage",
-        "checked_at": "2026-10-28T10:30:30.068317+00:00",
+        "checked_at": "2026-10-28T13:25:05.099005+00:00",
         "original_license_evidence": [],
         "local_static_audit": {
           "checked_at": "2026-10-28T09:16:18.203232+00:00",
@@ -13306,7 +13816,7 @@
           }
         ],
         "coverage_scope": "saved_static_extraction_lower_bound; not complete runtime coverage",
-        "checked_at": "2026-10-28T10:30:30.068317+00:00",
+        "checked_at": "2026-10-28T13:25:05.099005+00:00",
         "original_license_evidence": [],
         "local_static_audit": {
           "checked_at": "2026-10-28T09:16:18.213281+00:00",
@@ -13325,7 +13835,9 @@
           "work_stage": "reviewed_uninstalled",
           "historical_batch_runtime_verified_keys": 25,
           "runtime_evidence": "reviews/20261028/final-managed-proof.json",
-          "runtime_scope": "Earlier isolated managed-batch load; not a test of a new standalone public payload"
+          "runtime_scope": "Earlier isolated managed-batch load; not a test of a new standalone public payload",
+          "codex_source_targets": 26,
+          "semantic_review": null
         },
         "work_stage": "installed_local",
         "saved_translation_store": true
@@ -13429,7 +13941,7 @@
           }
         ],
         "coverage_scope": "saved_static_extraction_lower_bound; not complete runtime coverage",
-        "checked_at": "2026-10-28T10:30:30.068317+00:00",
+        "checked_at": "2026-10-28T13:25:05.099005+00:00",
         "original_license_evidence": [],
         "local_static_audit": {
           "checked_at": "2026-10-28T09:16:18.219176+00:00",
@@ -13448,7 +13960,9 @@
           "work_stage": "reviewed_uninstalled",
           "historical_batch_runtime_verified_keys": 2,
           "runtime_evidence": "reviews/20261028/final-managed-proof.json",
-          "runtime_scope": "Earlier isolated managed-batch load; not a test of a new standalone public payload"
+          "runtime_scope": "Earlier isolated managed-batch load; not a test of a new standalone public payload",
+          "codex_source_targets": 3,
+          "semantic_review": null
         },
         "work_stage": "installed_local",
         "saved_translation_store": true
@@ -13544,7 +14058,7 @@
           }
         ],
         "coverage_scope": "saved_static_extraction_lower_bound; not complete runtime coverage",
-        "checked_at": "2026-10-28T10:30:30.068317+00:00",
+        "checked_at": "2026-10-28T13:25:05.099005+00:00",
         "original_license_evidence": [],
         "local_static_audit": {
           "checked_at": "2026-10-28T09:16:18.231327+00:00",
@@ -13563,7 +14077,9 @@
           "work_stage": "reviewed_uninstalled",
           "historical_batch_runtime_verified_keys": 15,
           "runtime_evidence": "reviews/20261028/final-managed-proof.json",
-          "runtime_scope": "Earlier isolated managed-batch load; not a test of a new standalone public payload"
+          "runtime_scope": "Earlier isolated managed-batch load; not a test of a new standalone public payload",
+          "codex_source_targets": 16,
+          "semantic_review": null
         },
         "work_stage": "installed_local",
         "saved_translation_store": true
@@ -13651,7 +14167,7 @@
           }
         ],
         "coverage_scope": "saved_static_extraction_lower_bound; not complete runtime coverage",
-        "checked_at": "2026-10-28T10:30:30.068317+00:00",
+        "checked_at": "2026-10-28T13:25:05.099005+00:00",
         "original_license_evidence": [],
         "local_static_audit": {
           "checked_at": "2026-10-28T09:16:18.244475+00:00",
@@ -13670,7 +14186,9 @@
           "work_stage": "reviewed_uninstalled",
           "historical_batch_runtime_verified_keys": 49,
           "runtime_evidence": "reviews/20261028/final-managed-proof.json",
-          "runtime_scope": "Earlier isolated managed-batch load; not a test of a new standalone public payload"
+          "runtime_scope": "Earlier isolated managed-batch load; not a test of a new standalone public payload",
+          "codex_source_targets": 49,
+          "semantic_review": null
         },
         "work_stage": "installed_local",
         "saved_translation_store": true
@@ -13791,7 +14309,7 @@
           }
         ],
         "coverage_scope": "saved_static_extraction_lower_bound; not complete runtime coverage",
-        "checked_at": "2026-10-28T10:30:30.068317+00:00",
+        "checked_at": "2026-10-28T13:25:05.099005+00:00",
         "original_license_evidence": [],
         "local_static_audit": {
           "checked_at": "2026-10-28T09:16:18.263441+00:00",
@@ -13886,7 +14404,7 @@
           }
         ],
         "coverage_scope": "saved_static_extraction_lower_bound; not complete runtime coverage",
-        "checked_at": "2026-10-28T10:30:30.068317+00:00",
+        "checked_at": "2026-10-28T13:25:05.099005+00:00",
         "original_license_evidence": [],
         "local_static_audit": {
           "checked_at": "2026-10-28T09:16:18.270820+00:00",
@@ -14043,7 +14561,7 @@
           }
         ],
         "coverage_scope": "saved_static_extraction_lower_bound; not complete runtime coverage",
-        "checked_at": "2026-10-28T10:30:30.068317+00:00",
+        "checked_at": "2026-10-28T13:25:05.099005+00:00",
         "original_license_evidence": [],
         "local_static_audit": {
           "checked_at": "2026-10-28T09:16:18.279833+00:00",
@@ -14062,7 +14580,9 @@
           "work_stage": "reviewed_uninstalled",
           "historical_batch_runtime_verified_keys": 118,
           "runtime_evidence": "reviews/20261028/final-managed-proof.json",
-          "runtime_scope": "Earlier isolated managed-batch load; not a test of a new standalone public payload"
+          "runtime_scope": "Earlier isolated managed-batch load; not a test of a new standalone public payload",
+          "codex_source_targets": 118,
+          "semantic_review": null
         },
         "work_stage": "installed_local",
         "saved_translation_store": true
@@ -14158,7 +14678,7 @@
           }
         ],
         "coverage_scope": "saved_static_extraction_lower_bound; not complete runtime coverage",
-        "checked_at": "2026-10-28T10:30:30.068317+00:00",
+        "checked_at": "2026-10-28T13:25:05.099005+00:00",
         "original_license_evidence": [],
         "local_static_audit": {
           "checked_at": "2026-10-28T09:16:18.300575+00:00",
@@ -14253,7 +14773,7 @@
           }
         ],
         "coverage_scope": "saved_static_extraction_lower_bound; not complete runtime coverage",
-        "checked_at": "2026-10-28T10:30:30.068317+00:00",
+        "checked_at": "2026-10-28T13:25:05.099005+00:00",
         "original_license_evidence": [],
         "local_static_audit": {
           "checked_at": "2026-10-28T09:16:18.308970+00:00",
@@ -14272,7 +14792,9 @@
           "work_stage": "reviewed_uninstalled",
           "historical_batch_runtime_verified_keys": 10,
           "runtime_evidence": "reviews/20261028/final-managed-proof.json",
-          "runtime_scope": "Earlier isolated managed-batch load; not a test of a new standalone public payload"
+          "runtime_scope": "Earlier isolated managed-batch load; not a test of a new standalone public payload",
+          "codex_source_targets": 10,
+          "semantic_review": null
         },
         "work_stage": "installed_local",
         "saved_translation_store": true
@@ -14356,7 +14878,7 @@
           }
         ],
         "coverage_scope": "saved_static_extraction_lower_bound; not complete runtime coverage",
-        "checked_at": "2026-10-28T10:30:30.068317+00:00",
+        "checked_at": "2026-10-28T13:25:05.099005+00:00",
         "original_license_evidence": [],
         "local_static_audit": {
           "checked_at": "2026-10-28T09:16:18.331219+00:00",
@@ -14375,7 +14897,9 @@
           "work_stage": "reviewed_uninstalled",
           "historical_batch_runtime_verified_keys": 5,
           "runtime_evidence": "reviews/20261028/final-managed-proof.json",
-          "runtime_scope": "Earlier isolated managed-batch load; not a test of a new standalone public payload"
+          "runtime_scope": "Earlier isolated managed-batch load; not a test of a new standalone public payload",
+          "codex_source_targets": 6,
+          "semantic_review": null
         },
         "work_stage": "installed_local",
         "saved_translation_store": true
@@ -14461,7 +14985,7 @@
           }
         ],
         "coverage_scope": "saved_static_extraction_lower_bound; not complete runtime coverage",
-        "checked_at": "2026-10-28T10:30:30.068317+00:00",
+        "checked_at": "2026-10-28T13:25:05.099005+00:00",
         "original_license_evidence": [],
         "local_static_audit": {
           "checked_at": "2026-10-28T09:16:18.352607+00:00",
@@ -14558,7 +15082,7 @@
           }
         ],
         "coverage_scope": "saved_static_extraction_lower_bound; not complete runtime coverage",
-        "checked_at": "2026-10-28T10:30:30.068317+00:00",
+        "checked_at": "2026-10-28T13:25:05.099005+00:00",
         "original_license_evidence": [],
         "local_static_audit": {
           "checked_at": "2026-10-28T09:16:18.361353+00:00",
@@ -14577,7 +15101,9 @@
           "work_stage": "reviewed_uninstalled",
           "historical_batch_runtime_verified_keys": 0,
           "runtime_evidence": null,
-          "runtime_scope": "Earlier isolated managed-batch load; not a test of a new standalone public payload"
+          "runtime_scope": "Earlier isolated managed-batch load; not a test of a new standalone public payload",
+          "codex_source_targets": 1,
+          "semantic_review": null
         },
         "work_stage": "installed_local",
         "saved_translation_store": true
@@ -14666,7 +15192,7 @@
           }
         ],
         "coverage_scope": "saved_static_extraction_lower_bound; not complete runtime coverage",
-        "checked_at": "2026-10-28T10:30:30.068317+00:00",
+        "checked_at": "2026-10-28T13:25:05.099005+00:00",
         "original_license_evidence": [],
         "local_static_audit": {
           "checked_at": "2026-10-28T09:16:18.368611+00:00",
@@ -14685,7 +15211,9 @@
           "work_stage": "reviewed_uninstalled",
           "historical_batch_runtime_verified_keys": 1,
           "runtime_evidence": "reviews/20261028/final-managed-proof.json",
-          "runtime_scope": "Earlier isolated managed-batch load; not a test of a new standalone public payload"
+          "runtime_scope": "Earlier isolated managed-batch load; not a test of a new standalone public payload",
+          "codex_source_targets": 3,
+          "semantic_review": null
         },
         "work_stage": "installed_local",
         "saved_translation_store": true
@@ -14782,7 +15310,7 @@
           }
         ],
         "coverage_scope": "saved_static_extraction_lower_bound; not complete runtime coverage",
-        "checked_at": "2026-10-28T10:30:30.068317+00:00",
+        "checked_at": "2026-10-28T13:25:05.099005+00:00",
         "original_license_evidence": [],
         "local_static_audit": {
           "checked_at": "2026-10-28T09:16:18.381974+00:00",
@@ -14801,7 +15329,9 @@
           "work_stage": "reviewed_uninstalled",
           "historical_batch_runtime_verified_keys": 0,
           "runtime_evidence": null,
-          "runtime_scope": "Earlier isolated managed-batch load; not a test of a new standalone public payload"
+          "runtime_scope": "Earlier isolated managed-batch load; not a test of a new standalone public payload",
+          "codex_source_targets": 1,
+          "semantic_review": null
         },
         "work_stage": "installed_local",
         "saved_translation_store": true
@@ -14891,7 +15421,7 @@
           }
         ],
         "coverage_scope": "saved_static_extraction_lower_bound; not complete runtime coverage",
-        "checked_at": "2026-10-28T10:30:30.068317+00:00",
+        "checked_at": "2026-10-28T13:25:05.099005+00:00",
         "original_license_evidence": [],
         "local_static_audit": {
           "checked_at": "2026-10-28T09:16:18.400234+00:00",
@@ -14910,7 +15440,9 @@
           "work_stage": "reviewed_uninstalled",
           "historical_batch_runtime_verified_keys": 0,
           "runtime_evidence": null,
-          "runtime_scope": "Earlier isolated managed-batch load; not a test of a new standalone public payload"
+          "runtime_scope": "Earlier isolated managed-batch load; not a test of a new standalone public payload",
+          "codex_source_targets": 1,
+          "semantic_review": null
         },
         "work_stage": "installed_local",
         "saved_translation_store": true
@@ -14998,7 +15530,7 @@
           }
         ],
         "coverage_scope": "saved_static_extraction_lower_bound; not complete runtime coverage",
-        "checked_at": "2026-10-28T10:30:30.068317+00:00",
+        "checked_at": "2026-10-28T13:25:05.099005+00:00",
         "original_license_evidence": [],
         "local_static_audit": {
           "checked_at": "2026-10-28T09:16:18.405690+00:00",
@@ -15095,7 +15627,7 @@
           }
         ],
         "coverage_scope": "saved_static_extraction_lower_bound; not complete runtime coverage",
-        "checked_at": "2026-10-28T10:30:30.068317+00:00",
+        "checked_at": "2026-10-28T13:25:05.099005+00:00",
         "original_license_evidence": [],
         "local_static_audit": {
           "checked_at": "2026-10-28T09:16:18.410824+00:00",
@@ -15114,7 +15646,9 @@
           "work_stage": "reviewed_uninstalled",
           "historical_batch_runtime_verified_keys": 0,
           "runtime_evidence": null,
-          "runtime_scope": "Earlier isolated managed-batch load; not a test of a new standalone public payload"
+          "runtime_scope": "Earlier isolated managed-batch load; not a test of a new standalone public payload",
+          "codex_source_targets": 1,
+          "semantic_review": null
         },
         "work_stage": "installed_local",
         "saved_translation_store": true
@@ -15201,7 +15735,7 @@
           }
         ],
         "coverage_scope": "saved_static_extraction_lower_bound; not complete runtime coverage",
-        "checked_at": "2026-10-28T10:30:30.068317+00:00",
+        "checked_at": "2026-10-28T13:25:05.099005+00:00",
         "original_license_evidence": [],
         "local_static_audit": {
           "checked_at": "2026-10-28T09:16:18.420277+00:00",
@@ -15220,7 +15754,9 @@
           "work_stage": "reviewed_uninstalled",
           "historical_batch_runtime_verified_keys": 0,
           "runtime_evidence": null,
-          "runtime_scope": "Earlier isolated managed-batch load; not a test of a new standalone public payload"
+          "runtime_scope": "Earlier isolated managed-batch load; not a test of a new standalone public payload",
+          "codex_source_targets": 1,
+          "semantic_review": null
         },
         "work_stage": "installed_local",
         "saved_translation_store": true
@@ -15318,7 +15854,7 @@
           }
         ],
         "coverage_scope": "saved_static_extraction_lower_bound; not complete runtime coverage",
-        "checked_at": "2026-10-28T10:30:30.068317+00:00",
+        "checked_at": "2026-10-28T13:25:05.099005+00:00",
         "original_license_evidence": [],
         "local_static_audit": {
           "checked_at": "2026-10-28T09:16:18.453788+00:00",
@@ -15414,7 +15950,7 @@
           }
         ],
         "coverage_scope": "saved_static_extraction_lower_bound; not complete runtime coverage",
-        "checked_at": "2026-10-28T10:30:30.068317+00:00",
+        "checked_at": "2026-10-28T13:25:05.099005+00:00",
         "original_license_evidence": [
           {
             "relative_path": "LICENSE",
@@ -15439,7 +15975,9 @@
           "work_stage": "reviewed_uninstalled",
           "historical_batch_runtime_verified_keys": 2,
           "runtime_evidence": "reviews/20261028/final-managed-proof.json",
-          "runtime_scope": "Earlier isolated managed-batch load; not a test of a new standalone public payload"
+          "runtime_scope": "Earlier isolated managed-batch load; not a test of a new standalone public payload",
+          "codex_source_targets": 3,
+          "semantic_review": null
         },
         "work_stage": "installed_local",
         "saved_translation_store": true
@@ -15529,7 +16067,7 @@
           }
         ],
         "coverage_scope": "saved_static_extraction_lower_bound; not complete runtime coverage",
-        "checked_at": "2026-10-28T10:30:30.068317+00:00",
+        "checked_at": "2026-10-28T13:25:05.099005+00:00",
         "original_license_evidence": [],
         "local_static_audit": {
           "checked_at": "2026-10-28T09:16:18.538966+00:00",
@@ -15548,7 +16086,9 @@
           "work_stage": "reviewed_uninstalled",
           "historical_batch_runtime_verified_keys": 0,
           "runtime_evidence": null,
-          "runtime_scope": "Earlier isolated managed-batch load; not a test of a new standalone public payload"
+          "runtime_scope": "Earlier isolated managed-batch load; not a test of a new standalone public payload",
+          "codex_source_targets": 1,
+          "semantic_review": null
         },
         "work_stage": "installed_local",
         "saved_translation_store": true
@@ -15647,7 +16187,7 @@
           }
         ],
         "coverage_scope": "saved_static_extraction_lower_bound; not complete runtime coverage",
-        "checked_at": "2026-10-28T10:30:30.068317+00:00",
+        "checked_at": "2026-10-28T13:25:05.099005+00:00",
         "original_license_evidence": [],
         "local_static_audit": {
           "checked_at": "2026-10-28T09:16:18.580034+00:00",
@@ -15740,7 +16280,7 @@
           }
         ],
         "coverage_scope": "saved_static_extraction_lower_bound; not complete runtime coverage",
-        "checked_at": "2026-10-28T10:30:30.068317+00:00",
+        "checked_at": "2026-10-28T13:25:05.099005+00:00",
         "original_license_evidence": [],
         "local_static_audit": {
           "checked_at": "2026-10-28T09:16:18.688059+00:00",
@@ -15842,7 +16382,7 @@
           }
         ],
         "coverage_scope": "saved_static_extraction_lower_bound; not complete runtime coverage",
-        "checked_at": "2026-10-28T10:30:30.068317+00:00",
+        "checked_at": "2026-10-28T13:25:05.099005+00:00",
         "original_license_evidence": [],
         "local_static_audit": {
           "checked_at": "2026-10-28T09:16:18.756313+00:00",
@@ -15937,7 +16477,7 @@
           }
         ],
         "coverage_scope": "saved_static_extraction_lower_bound; not complete runtime coverage",
-        "checked_at": "2026-10-28T10:30:30.068317+00:00",
+        "checked_at": "2026-10-28T13:25:05.099005+00:00",
         "original_license_evidence": [],
         "local_static_audit": {
           "checked_at": "2026-10-28T09:16:18.988374+00:00",
@@ -16041,7 +16581,7 @@
           }
         ],
         "coverage_scope": "saved_static_extraction_lower_bound; not complete runtime coverage",
-        "checked_at": "2026-10-28T10:30:30.068317+00:00",
+        "checked_at": "2026-10-28T13:25:05.099005+00:00",
         "original_license_evidence": [],
         "local_static_audit": {
           "checked_at": "2026-10-28T09:16:18.995979+00:00",
@@ -16145,7 +16685,7 @@
           }
         ],
         "coverage_scope": "saved_static_extraction_lower_bound; not complete runtime coverage",
-        "checked_at": "2026-10-28T10:30:30.068317+00:00",
+        "checked_at": "2026-10-28T13:25:05.099005+00:00",
         "original_license_evidence": [],
         "local_static_audit": {
           "checked_at": "2026-10-28T09:16:19.010756+00:00",
@@ -16243,7 +16783,7 @@
           }
         ],
         "coverage_scope": "saved_static_extraction_lower_bound; not complete runtime coverage",
-        "checked_at": "2026-10-28T10:30:30.068317+00:00",
+        "checked_at": "2026-10-28T13:25:05.099005+00:00",
         "original_license_evidence": [
           {
             "relative_path": "LICENSE",
@@ -16353,7 +16893,7 @@
           }
         ],
         "coverage_scope": "saved_static_extraction_lower_bound; not complete runtime coverage",
-        "checked_at": "2026-10-28T10:30:30.068317+00:00",
+        "checked_at": "2026-10-28T13:25:05.099005+00:00",
         "original_license_evidence": [],
         "local_static_audit": {
           "checked_at": "2026-10-28T09:16:19.051353+00:00",
@@ -16445,7 +16985,7 @@
           }
         ],
         "coverage_scope": "saved_static_extraction_lower_bound; not complete runtime coverage",
-        "checked_at": "2026-10-28T10:30:30.068317+00:00",
+        "checked_at": "2026-10-28T13:25:05.099005+00:00",
         "original_license_evidence": [],
         "local_static_audit": {
           "checked_at": "2026-10-28T09:16:19.073392+00:00",
@@ -16549,7 +17089,7 @@
           }
         ],
         "coverage_scope": "saved_static_extraction_lower_bound; not complete runtime coverage",
-        "checked_at": "2026-10-28T10:30:30.068317+00:00",
+        "checked_at": "2026-10-28T13:25:05.099005+00:00",
         "original_license_evidence": [],
         "local_static_audit": {
           "checked_at": "2026-10-28T09:16:19.078103+00:00",
@@ -16653,7 +17193,7 @@
           }
         ],
         "coverage_scope": "saved_static_extraction_lower_bound; not complete runtime coverage",
-        "checked_at": "2026-10-28T10:30:30.068317+00:00",
+        "checked_at": "2026-10-28T13:25:05.099005+00:00",
         "original_license_evidence": [],
         "local_static_audit": {
           "checked_at": "2026-10-28T09:16:19.085168+00:00",
@@ -16748,7 +17288,7 @@
           }
         ],
         "coverage_scope": "saved_static_extraction_lower_bound; not complete runtime coverage",
-        "checked_at": "2026-10-28T10:30:30.068317+00:00",
+        "checked_at": "2026-10-28T13:25:05.099005+00:00",
         "original_license_evidence": [],
         "local_static_audit": {
           "checked_at": "2026-10-28T09:16:19.096695+00:00",
@@ -16767,7 +17307,9 @@
           "work_stage": "reviewed_uninstalled",
           "historical_batch_runtime_verified_keys": 46,
           "runtime_evidence": "reviews/20261028/final-managed-proof.json",
-          "runtime_scope": "Earlier isolated managed-batch load; not a test of a new standalone public payload"
+          "runtime_scope": "Earlier isolated managed-batch load; not a test of a new standalone public payload",
+          "codex_source_targets": 46,
+          "semantic_review": null
         },
         "work_stage": "installed_local",
         "saved_translation_store": true
@@ -16855,7 +17397,7 @@
           }
         ],
         "coverage_scope": "saved_static_extraction_lower_bound; not complete runtime coverage",
-        "checked_at": "2026-10-28T10:30:30.068317+00:00",
+        "checked_at": "2026-10-28T13:25:05.099005+00:00",
         "original_license_evidence": [],
         "local_static_audit": {
           "checked_at": "2026-10-28T09:16:19.132607+00:00",
@@ -16874,7 +17416,9 @@
           "work_stage": "reviewed_uninstalled",
           "historical_batch_runtime_verified_keys": 48,
           "runtime_evidence": "reviews/20261028/final-managed-proof.json",
-          "runtime_scope": "Earlier isolated managed-batch load; not a test of a new standalone public payload"
+          "runtime_scope": "Earlier isolated managed-batch load; not a test of a new standalone public payload",
+          "codex_source_targets": 48,
+          "semantic_review": null
         },
         "work_stage": "installed_local",
         "saved_translation_store": true
@@ -16965,7 +17509,7 @@
           }
         ],
         "coverage_scope": "saved_static_extraction_lower_bound; not complete runtime coverage",
-        "checked_at": "2026-10-28T10:30:30.068317+00:00",
+        "checked_at": "2026-10-28T13:25:05.099005+00:00",
         "original_license_evidence": [],
         "local_static_audit": {
           "checked_at": "2026-10-28T09:16:19.155979+00:00",
@@ -17060,7 +17604,7 @@
           }
         ],
         "coverage_scope": "saved_static_extraction_lower_bound; not complete runtime coverage",
-        "checked_at": "2026-10-28T10:30:30.068317+00:00",
+        "checked_at": "2026-10-28T13:25:05.099005+00:00",
         "original_license_evidence": [],
         "local_static_audit": {
           "checked_at": "2026-10-28T09:16:19.175434+00:00",
@@ -17079,7 +17623,9 @@
           "work_stage": "reviewed_uninstalled",
           "historical_batch_runtime_verified_keys": 23,
           "runtime_evidence": "reviews/20261028/final-managed-proof.json",
-          "runtime_scope": "Earlier isolated managed-batch load; not a test of a new standalone public payload"
+          "runtime_scope": "Earlier isolated managed-batch load; not a test of a new standalone public payload",
+          "codex_source_targets": 23,
+          "semantic_review": null
         },
         "work_stage": "installed_local",
         "saved_translation_store": true
@@ -17158,7 +17704,7 @@
         "native_russian_rows_in_snapshot": 0,
         "third_party_candidates": [],
         "coverage_scope": "saved_static_extraction_lower_bound; not complete runtime coverage",
-        "checked_at": "2026-10-28T10:30:30.068317+00:00",
+        "checked_at": "2026-10-28T13:25:05.099005+00:00",
         "original_license_evidence": [],
         "local_static_audit": {
           "checked_at": "2026-10-28T09:16:19.201298+00:00",
@@ -17307,7 +17853,7 @@
         "native_russian_rows_in_snapshot": 207,
         "third_party_candidates": [],
         "coverage_scope": "saved_static_extraction_lower_bound; not complete runtime coverage",
-        "checked_at": "2026-10-28T10:30:30.068317+00:00",
+        "checked_at": "2026-10-28T13:25:05.099005+00:00",
         "original_license_evidence": [
           {
             "relative_path": "1.7/Textures/LICENSE",
@@ -17413,11 +17959,13 @@
           "work_stage": "reviewed_uninstalled",
           "historical_batch_runtime_verified_keys": 123,
           "runtime_evidence": "reviews/20261028/final-managed-proof.json",
-          "runtime_scope": "Earlier isolated managed-batch load; not a test of a new standalone public payload"
+          "runtime_scope": "Earlier isolated managed-batch load; not a test of a new standalone public payload",
+          "codex_source_targets": 134,
+          "semantic_review": null
         },
         "coverage_scope": "saved_static_extraction_lower_bound; not complete runtime coverage",
         "native_russian_rows_in_snapshot": 0,
-        "checked_at": "2026-10-28T10:30:30.068317+00:00",
+        "checked_at": "2026-10-28T13:25:05.099005+00:00",
         "provenance_counts": {},
         "attribution_licenses": {},
         "third_party_candidates": [],
@@ -17510,11 +18058,13 @@
           "work_stage": "reviewed_uninstalled",
           "historical_batch_runtime_verified_keys": 224,
           "runtime_evidence": "reviews/20261028/final-managed-proof.json",
-          "runtime_scope": "Earlier isolated managed-batch load; not a test of a new standalone public payload"
+          "runtime_scope": "Earlier isolated managed-batch load; not a test of a new standalone public payload",
+          "codex_source_targets": 225,
+          "semantic_review": null
         },
         "coverage_scope": "saved_static_extraction_lower_bound; not complete runtime coverage",
         "native_russian_rows_in_snapshot": 0,
-        "checked_at": "2026-10-28T10:30:30.068317+00:00",
+        "checked_at": "2026-10-28T13:25:05.099005+00:00",
         "provenance_counts": {},
         "attribution_licenses": {},
         "third_party_candidates": [],
@@ -17598,7 +18148,7 @@
         "native_russian_rows_in_snapshot": 0,
         "third_party_candidates": [],
         "coverage_scope": "saved_static_extraction_lower_bound; not complete runtime coverage",
-        "checked_at": "2026-10-28T10:30:30.068317+00:00",
+        "checked_at": "2026-10-28T13:25:05.099005+00:00",
         "original_license_evidence": [],
         "local_static_audit": {
           "checked_at": "2026-10-28T09:16:19.217693+00:00",
@@ -17680,7 +18230,7 @@
         "native_russian_rows_in_snapshot": 0,
         "third_party_candidates": [],
         "coverage_scope": "saved_static_extraction_lower_bound; not complete runtime coverage",
-        "checked_at": "2026-10-28T10:30:30.068317+00:00",
+        "checked_at": "2026-10-28T13:25:05.099005+00:00",
         "original_license_evidence": [],
         "local_static_audit": {
           "checked_at": "2026-10-28T09:16:19.223485+00:00",
@@ -17700,25 +18250,28 @@
     "translations": 166,
     "saved_store_records": 156,
     "draft_only_records": 10,
+    "model_reviewed_tasks": 616,
+    "model_held_tasks": 10,
+    "private_model_test_values": 473,
     "store_scope_unverified": 0,
-    "technically_checked": 4,
-    "game_tested": 4,
+    "technically_checked": 5,
+    "game_tested": 5,
     "github_metadata_records": 166,
     "github_published": 4,
-    "workshop_submitted": 4,
-    "workshop_published": 3,
-    "pull_requests": 3,
+    "workshop_submitted": 5,
+    "workshop_published": 4,
+    "pull_requests": 4,
     "accepted": 0,
-    "awaiting_rights": 162,
+    "awaiting_rights": 161,
     "needs_update": 13,
-    "freshness_unverified": 162,
+    "freshness_unverified": 161,
     "static_inventory_pass": 129,
     "static_inventory_flagged": 20,
     "static_findings": 49,
     "repository_monitors": 24,
-    "pull_request_monitors": 3,
+    "pull_request_monitors": 4,
     "icon_permission_requests": 2,
-    "workshop_public_pages_verified": 3,
+    "workshop_public_pages_verified": 4,
     "workshop_content_check_pending": 1,
     "workshop_source_monitors": 166
   }

@@ -1,0 +1,17 @@
+Russian completion for Mechanoid Upgrades by GoGaTio.
+
+Adds 108 missing entries: upgrade names/descriptions, ancient structures, filters, stats and messages. Original bundled Russian is preserved. No third-party translations, original mod code or artwork are included.
+
+Compatibility: RimWorld 1.7; tested on 1.7.4990 rev1069.
+Requires the original Mechanoid Upgrades, Biotech DLC and Harmony. Load after the original mod.
+
+All 108 actual Russian values passed an isolated minimal load/readback test with no additional localization errors. The original mod/base-game control had 52 Russian localization errors; their exact multiset was unchanged with this supplement. No save was opened or long-gameplay test performed.
+
+AI-assisted drafting with a local translation model and OpenAI Codex; semantic review by OpenAI Codex. No independent human proofreading claimed. The original typographic cover uses no original mod artwork.
+
+Original author: GoGaTio.
+Original mod: https://steamcommunity.com/sharedfiles/filedetails/?id=3365118555
+Harmony: https://steamcommunity.com/sharedfiles/filedetails/?id=2009463077
+Biotech: https://store.steampowered.com/app/1826140/
+Project and feedback: https://github.com/Antyhc/RimWorld-Russian-Translations
+Text license: MIT; original author notice retained in the package.

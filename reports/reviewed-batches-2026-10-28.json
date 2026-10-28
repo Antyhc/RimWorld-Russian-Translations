@@ -1,0 +1,486 @@
+{
+  "schema": 1,
+  "generated_at": "2026-10-28T14:13:24.595269+00:00",
+  "scope": "Counts and evidence hashes only. AI-assisted private review is separate from rights, release, current-source routing and gameplay approval. No translation text or private paths included.",
+  "game_version": "1.7.4990 rev1069",
+  "reviewed_managed_batch": {
+    "packages": 42,
+    "expected_values": 3474,
+    "matching_values": 3474,
+    "new_localization_errors": 0,
+    "baseline_localization_errors": 988,
+    "error_multisets_identical": true,
+    "scope": "Isolated exact-version load and selected UI inspection; no colony playthrough. Four English Rimatomics settings captions remain; full UI translation is not claimed.",
+    "evidence_sha256": {
+      "audit": "8ce3cda1485133b5970b230cf47198e3031a1e54d9640c9f82986b671bd0c62b",
+      "capture": "847dbe9f9a5666871ddaecd7bf7a5844645b6832ec235dd426f557f4b69c5351",
+      "baseline_errors": "fe1abef34770b6b60dd06a2621f1dcf14206e5ba2c33fdba831906e96769d13e",
+      "error_multiset": "c8269bb69e89c7bdff2654783910cc3899a60ccd57efa9e21b1e6c35aa7cab02"
+    }
+  },
+  "local_model_review": {
+    "reviewed_tasks": 616,
+    "original_drafts_unchanged": true,
+    "original_drafts_remain_unapproved": true,
+    "reviewer": "OpenAI Codex",
+    "decisions": {
+      "revise": 315,
+      "approve": 291,
+      "hold": 10
+    },
+    "linguistic_candidates": 606,
+    "target_bindings": 731,
+    "runtime_status": "partial_verified",
+    "deployment_status": "not_approved",
+    "publication_rights": "unchanged; not granted by review metadata",
+    "evidence_sha256": [
+      "3e071c71f3d0b14e617d702d566fc6087391e88efe058ae1683401f4ea7fd7ca"
+    ],
+    "per_mod": [
+      {
+        "package_id": "als.gravtech",
+        "reviewed_tasks": 72,
+        "unreviewed_model_tasks": 0,
+        "decisions": {
+          "approve": 42,
+          "revise": 30
+        },
+        "target_bindings": 78,
+        "complete_for_saved_model_tasks": true,
+        "status": "reviewed_pending_runtime",
+        "evidence_sha256": [
+          "3e071c71f3d0b14e617d702d566fc6087391e88efe058ae1683401f4ea7fd7ca"
+        ],
+        "reviewer": "OpenAI Codex",
+        "original_generator": "local_model",
+        "raw_drafts_remain_unapproved": true,
+        "scope": "Saved-model linguistic review only; no current-source, runtime, rights or release approval",
+        "fresh_source_observations": {
+          "existing_original_native_value": 27,
+          "exact_english_raw": 45,
+          "null_unresolved_path": 6
+        },
+        "private_runtime_test": {
+          "status": "partial_verified",
+          "verified_target_values": 44,
+          "deployment_approved": false,
+          "evidence_sha256": {
+            "readback_summary": "572b3f1c31172eb12b25932fcf1ae6592aeb827f319485951524b555eb67e515",
+            "candidate_proof": "9432c34e552313960a0467d061ff209c77908f0f92b0b16eca454f7c0b58a530",
+            "strict_stage": "086283c39a784744e88925d961d78bedaffff26a86f90a6051a19353129a6b13",
+            "physical_capture": "7b5a1d30a452f5dda62fc97bedb97593fb0b70f52273eb381d41fa051f204214",
+            "launcher_guard": "c227a4ef795c6ecfd2d558a021326f0b67c2248b74904dfdc8cfb6fc49157991"
+          },
+          "current_full_profile_freshness": "current_inputs_verified_by_fresh_game_readback",
+          "relaunch_guard_blocks_current_profile": false
+        }
+      },
+      {
+        "package_id": "andromeda.nicehealthtab",
+        "reviewed_tasks": 1,
+        "unreviewed_model_tasks": 0,
+        "decisions": {
+          "approve": 1
+        },
+        "target_bindings": 1,
+        "complete_for_saved_model_tasks": true,
+        "status": "reviewed_pending_runtime",
+        "evidence_sha256": [
+          "3e071c71f3d0b14e617d702d566fc6087391e88efe058ae1683401f4ea7fd7ca"
+        ],
+        "reviewer": "OpenAI Codex",
+        "original_generator": "local_model",
+        "raw_drafts_remain_unapproved": true,
+        "scope": "Saved-model linguistic review only; no current-source, runtime, rights or release approval",
+        "fresh_source_observations": {
+          "exact_english_raw": 1
+        },
+        "private_runtime_test": {
+          "status": "no_new_values_tested",
+          "verified_target_values": 0,
+          "deployment_approved": false,
+          "evidence_sha256": {}
+        }
+      },
+      {
+        "package_id": "andromeda.usefulmarks",
+        "reviewed_tasks": 1,
+        "unreviewed_model_tasks": 0,
+        "decisions": {
+          "approve": 1
+        },
+        "target_bindings": 1,
+        "complete_for_saved_model_tasks": true,
+        "status": "reviewed_pending_runtime",
+        "evidence_sha256": [
+          "3e071c71f3d0b14e617d702d566fc6087391e88efe058ae1683401f4ea7fd7ca"
+        ],
+        "reviewer": "OpenAI Codex",
+        "original_generator": "local_model",
+        "raw_drafts_remain_unapproved": true,
+        "scope": "Saved-model linguistic review only; no current-source, runtime, rights or release approval",
+        "fresh_source_observations": {
+          "exact_english_raw": 1
+        },
+        "private_runtime_test": {
+          "status": "no_new_values_tested",
+          "verified_target_values": 0,
+          "deployment_approved": false,
+          "evidence_sha256": {}
+        }
+      },
+      {
+        "package_id": "aoba.deadmanswitch.core",
+        "reviewed_tasks": 40,
+        "unreviewed_model_tasks": 0,
+        "decisions": {
+          "approve": 7,
+          "hold": 7,
+          "revise": 26
+        },
+        "target_bindings": 45,
+        "complete_for_saved_model_tasks": true,
+        "status": "reviewed_pending_runtime",
+        "evidence_sha256": [
+          "3e071c71f3d0b14e617d702d566fc6087391e88efe058ae1683401f4ea7fd7ca"
+        ],
+        "reviewer": "OpenAI Codex",
+        "original_generator": "local_model",
+        "raw_drafts_remain_unapproved": true,
+        "scope": "Saved-model linguistic review only; no current-source, runtime, rights or release approval",
+        "fresh_source_observations": {
+          "exact_english_raw": 21,
+          "null_unresolved_path": 11,
+          "english_newline_equivalent": 6,
+          "different_english_value": 1,
+          "existing_other_active_provider_value": 6
+        },
+        "private_runtime_test": {
+          "status": "partial_verified",
+          "verified_target_values": 28,
+          "deployment_approved": false,
+          "evidence_sha256": {
+            "readback_summary": "572b3f1c31172eb12b25932fcf1ae6592aeb827f319485951524b555eb67e515",
+            "candidate_proof": "9432c34e552313960a0467d061ff209c77908f0f92b0b16eca454f7c0b58a530",
+            "strict_stage": "086283c39a784744e88925d961d78bedaffff26a86f90a6051a19353129a6b13",
+            "physical_capture": "7b5a1d30a452f5dda62fc97bedb97593fb0b70f52273eb381d41fa051f204214",
+            "launcher_guard": "c227a4ef795c6ecfd2d558a021326f0b67c2248b74904dfdc8cfb6fc49157991"
+          },
+          "current_full_profile_freshness": "current_inputs_verified_by_fresh_game_readback",
+          "relaunch_guard_blocks_current_profile": false
+        }
+      },
+      {
+        "package_id": "aoba.deadmanswitch.mobiledragoon",
+        "reviewed_tasks": 37,
+        "unreviewed_model_tasks": 0,
+        "decisions": {
+          "approve": 24,
+          "revise": 12,
+          "hold": 1
+        },
+        "target_bindings": 57,
+        "complete_for_saved_model_tasks": true,
+        "status": "reviewed_pending_runtime",
+        "evidence_sha256": [
+          "3e071c71f3d0b14e617d702d566fc6087391e88efe058ae1683401f4ea7fd7ca"
+        ],
+        "reviewer": "OpenAI Codex",
+        "original_generator": "local_model",
+        "raw_drafts_remain_unapproved": true,
+        "scope": "Saved-model linguistic review only; no current-source, runtime, rights or release approval",
+        "fresh_source_observations": {
+          "exact_english_raw": 3,
+          "null_unresolved_path": 30,
+          "english_newline_equivalent": 1,
+          "different_english_value": 13,
+          "existing_other_active_provider_value": 10
+        },
+        "private_runtime_test": {
+          "status": "partial_verified",
+          "verified_target_values": 20,
+          "deployment_approved": false,
+          "evidence_sha256": {
+            "readback_summary": "572b3f1c31172eb12b25932fcf1ae6592aeb827f319485951524b555eb67e515",
+            "candidate_proof": "9432c34e552313960a0467d061ff209c77908f0f92b0b16eca454f7c0b58a530",
+            "strict_stage": "086283c39a784744e88925d961d78bedaffff26a86f90a6051a19353129a6b13",
+            "physical_capture": "7b5a1d30a452f5dda62fc97bedb97593fb0b70f52273eb381d41fa051f204214",
+            "launcher_guard": "c227a4ef795c6ecfd2d558a021326f0b67c2248b74904dfdc8cfb6fc49157991"
+          },
+          "current_full_profile_freshness": "current_inputs_verified_by_fresh_game_readback",
+          "relaunch_guard_blocks_current_profile": false
+        }
+      },
+      {
+        "package_id": "aoba.exosuit.framework",
+        "reviewed_tasks": 225,
+        "unreviewed_model_tasks": 0,
+        "decisions": {
+          "revise": 126,
+          "approve": 98,
+          "hold": 1
+        },
+        "target_bindings": 237,
+        "complete_for_saved_model_tasks": true,
+        "status": "reviewed_pending_runtime",
+        "evidence_sha256": [
+          "3e071c71f3d0b14e617d702d566fc6087391e88efe058ae1683401f4ea7fd7ca"
+        ],
+        "reviewer": "OpenAI Codex",
+        "original_generator": "local_model",
+        "raw_drafts_remain_unapproved": true,
+        "scope": "Saved-model linguistic review only; no current-source, runtime, rights or release approval",
+        "fresh_source_observations": {
+          "exact_english_raw": 102,
+          "null_unresolved_path": 116,
+          "missing_def_type_error": 14,
+          "different_english_value": 4,
+          "existing_other_active_provider_value": 1
+        },
+        "private_runtime_test": {
+          "status": "partial_verified",
+          "verified_target_values": 208,
+          "deployment_approved": false,
+          "evidence_sha256": {
+            "readback_summary": "572b3f1c31172eb12b25932fcf1ae6592aeb827f319485951524b555eb67e515",
+            "candidate_proof": "9432c34e552313960a0467d061ff209c77908f0f92b0b16eca454f7c0b58a530",
+            "strict_stage": "086283c39a784744e88925d961d78bedaffff26a86f90a6051a19353129a6b13",
+            "physical_capture": "7b5a1d30a452f5dda62fc97bedb97593fb0b70f52273eb381d41fa051f204214",
+            "launcher_guard": "c227a4ef795c6ecfd2d558a021326f0b67c2248b74904dfdc8cfb6fc49157991"
+          },
+          "current_full_profile_freshness": "current_inputs_verified_by_fresh_game_readback",
+          "relaunch_guard_blocks_current_profile": false
+        }
+      },
+      {
+        "package_id": "aoba.fortress.industrial",
+        "reviewed_tasks": 7,
+        "unreviewed_model_tasks": 0,
+        "decisions": {
+          "approve": 7
+        },
+        "target_bindings": 34,
+        "complete_for_saved_model_tasks": true,
+        "status": "reviewed_pending_runtime",
+        "evidence_sha256": [
+          "3e071c71f3d0b14e617d702d566fc6087391e88efe058ae1683401f4ea7fd7ca"
+        ],
+        "reviewer": "OpenAI Codex",
+        "original_generator": "local_model",
+        "raw_drafts_remain_unapproved": true,
+        "scope": "Saved-model linguistic review only; no current-source, runtime, rights or release approval",
+        "fresh_source_observations": {
+          "exact_english_raw": 3,
+          "null_unresolved_path": 31
+        },
+        "private_runtime_test": {
+          "status": "partial_verified",
+          "verified_target_values": 34,
+          "deployment_approved": false,
+          "evidence_sha256": {
+            "readback_summary": "572b3f1c31172eb12b25932fcf1ae6592aeb827f319485951524b555eb67e515",
+            "candidate_proof": "9432c34e552313960a0467d061ff209c77908f0f92b0b16eca454f7c0b58a530",
+            "strict_stage": "086283c39a784744e88925d961d78bedaffff26a86f90a6051a19353129a6b13",
+            "physical_capture": "7b5a1d30a452f5dda62fc97bedb97593fb0b70f52273eb381d41fa051f204214",
+            "launcher_guard": "c227a4ef795c6ecfd2d558a021326f0b67c2248b74904dfdc8cfb6fc49157991"
+          },
+          "current_full_profile_freshness": "current_inputs_verified_by_fresh_game_readback",
+          "relaunch_guard_blocks_current_profile": false
+        }
+      },
+      {
+        "package_id": "aoba.fortress.industrial.citadel",
+        "reviewed_tasks": 129,
+        "unreviewed_model_tasks": 0,
+        "decisions": {
+          "approve": 74,
+          "revise": 55
+        },
+        "target_bindings": 174,
+        "complete_for_saved_model_tasks": true,
+        "status": "reviewed_pending_runtime",
+        "evidence_sha256": [
+          "3e071c71f3d0b14e617d702d566fc6087391e88efe058ae1683401f4ea7fd7ca"
+        ],
+        "reviewer": "OpenAI Codex",
+        "original_generator": "local_model",
+        "raw_drafts_remain_unapproved": true,
+        "scope": "Saved-model linguistic review only; no current-source, runtime, rights or release approval",
+        "fresh_source_observations": {
+          "exact_english_raw": 4,
+          "null_unresolved_path": 39,
+          "different_english_value": 1,
+          "existing_other_active_provider_value": 128,
+          "generated_keybinding_mixed_language": 2
+        },
+        "private_runtime_test": {
+          "status": "partial_verified",
+          "verified_target_values": 43,
+          "deployment_approved": false,
+          "evidence_sha256": {
+            "readback_summary": "572b3f1c31172eb12b25932fcf1ae6592aeb827f319485951524b555eb67e515",
+            "candidate_proof": "9432c34e552313960a0467d061ff209c77908f0f92b0b16eca454f7c0b58a530",
+            "strict_stage": "086283c39a784744e88925d961d78bedaffff26a86f90a6051a19353129a6b13",
+            "physical_capture": "7b5a1d30a452f5dda62fc97bedb97593fb0b70f52273eb381d41fa051f204214",
+            "launcher_guard": "c227a4ef795c6ecfd2d558a021326f0b67c2248b74904dfdc8cfb6fc49157991"
+          },
+          "current_full_profile_freshness": "current_inputs_verified_by_fresh_game_readback",
+          "relaunch_guard_blocks_current_profile": false
+        }
+      },
+      {
+        "package_id": "breadmo.cinders",
+        "reviewed_tasks": 8,
+        "unreviewed_model_tasks": 0,
+        "decisions": {
+          "revise": 3,
+          "approve": 5
+        },
+        "target_bindings": 8,
+        "complete_for_saved_model_tasks": true,
+        "status": "reviewed_pending_runtime",
+        "evidence_sha256": [
+          "3e071c71f3d0b14e617d702d566fc6087391e88efe058ae1683401f4ea7fd7ca"
+        ],
+        "reviewer": "OpenAI Codex",
+        "original_generator": "local_model",
+        "raw_drafts_remain_unapproved": true,
+        "scope": "Saved-model linguistic review only; no current-source, runtime, rights or release approval",
+        "fresh_source_observations": {
+          "exact_english_raw": 5,
+          "english_newline_equivalent": 3
+        },
+        "private_runtime_test": {
+          "status": "partial_verified",
+          "verified_target_values": 8,
+          "deployment_approved": false,
+          "evidence_sha256": {
+            "readback_summary": "572b3f1c31172eb12b25932fcf1ae6592aeb827f319485951524b555eb67e515",
+            "candidate_proof": "9432c34e552313960a0467d061ff209c77908f0f92b0b16eca454f7c0b58a530",
+            "strict_stage": "086283c39a784744e88925d961d78bedaffff26a86f90a6051a19353129a6b13",
+            "physical_capture": "7b5a1d30a452f5dda62fc97bedb97593fb0b70f52273eb381d41fa051f204214",
+            "launcher_guard": "c227a4ef795c6ecfd2d558a021326f0b67c2248b74904dfdc8cfb6fc49157991"
+          },
+          "current_full_profile_freshness": "current_inputs_verified_by_fresh_game_readback",
+          "relaunch_guard_blocks_current_profile": false
+        }
+      },
+      {
+        "package_id": "gogatio.mechanoidupgrades",
+        "reviewed_tasks": 96,
+        "unreviewed_model_tasks": 0,
+        "decisions": {
+          "revise": 63,
+          "approve": 32,
+          "hold": 1
+        },
+        "target_bindings": 96,
+        "complete_for_saved_model_tasks": true,
+        "status": "reviewed_pending_runtime",
+        "evidence_sha256": [
+          "3e071c71f3d0b14e617d702d566fc6087391e88efe058ae1683401f4ea7fd7ca"
+        ],
+        "reviewer": "OpenAI Codex",
+        "original_generator": "local_model",
+        "raw_drafts_remain_unapproved": true,
+        "scope": "Saved-model linguistic review only; no current-source, runtime, rights or release approval",
+        "fresh_source_observations": {
+          "exact_english_raw": 93,
+          "null_unresolved_path": 3
+        },
+        "private_runtime_test": {
+          "status": "partial_verified",
+          "verified_target_values": 88,
+          "deployment_approved": false,
+          "evidence_sha256": {
+            "readback_summary": "572b3f1c31172eb12b25932fcf1ae6592aeb827f319485951524b555eb67e515",
+            "candidate_proof": "9432c34e552313960a0467d061ff209c77908f0f92b0b16eca454f7c0b58a530",
+            "strict_stage": "086283c39a784744e88925d961d78bedaffff26a86f90a6051a19353129a6b13",
+            "physical_capture": "7b5a1d30a452f5dda62fc97bedb97593fb0b70f52273eb381d41fa051f204214",
+            "launcher_guard": "c227a4ef795c6ecfd2d558a021326f0b67c2248b74904dfdc8cfb6fc49157991"
+          },
+          "current_full_profile_freshness": "current_inputs_verified_by_fresh_game_readback",
+          "relaunch_guard_blocks_current_profile": false
+        }
+      }
+    ],
+    "private_runtime_test": {
+      "status": "partial_verified",
+      "verified_target_values": 473,
+      "provider_count": 8,
+      "per_provider": {
+        "als.gravtech": 44,
+        "aoba.deadmanswitch.core": 28,
+        "aoba.deadmanswitch.mobiledragoon": 20,
+        "aoba.exosuit.framework": 208,
+        "aoba.fortress.industrial": 34,
+        "aoba.fortress.industrial.citadel": 43,
+        "breadmo.cinders": 8,
+        "gogatio.mechanoidupgrades": 88
+      },
+      "previous_verified_values": 3474,
+      "combined_expected_values": 3947,
+      "combined_matching_values": 3947,
+      "baseline_localization_errors": 988,
+      "added_localization_errors": 0,
+      "own_loader_errors": 0,
+      "scope": "Exact staged values in an isolated actual-game main-menu readback. No colony playthrough, main-profile installation or publication rights approval.",
+      "deployment_approved": false,
+      "evidence_sha256": {
+        "readback_summary": "572b3f1c31172eb12b25932fcf1ae6592aeb827f319485951524b555eb67e515",
+        "candidate_proof": "9432c34e552313960a0467d061ff209c77908f0f92b0b16eca454f7c0b58a530",
+        "strict_stage": "086283c39a784744e88925d961d78bedaffff26a86f90a6051a19353129a6b13",
+        "physical_capture": "7b5a1d30a452f5dda62fc97bedb97593fb0b70f52273eb381d41fa051f204214",
+        "launcher_guard": "c227a4ef795c6ecfd2d558a021326f0b67c2248b74904dfdc8cfb6fc49157991"
+      },
+      "baseline_error_multisets_identical": true,
+      "current_full_profile_freshness": "current_inputs_verified_by_fresh_game_readback",
+      "changed_upstream_files": 0,
+      "relaunch_guard_blocks_current_profile": false,
+      "source_change_evidence_sha256": "46bbe5bccbef0e98054d3e032faf9b0978c3245734451d4b01e5f3ab2a7ad9e8",
+      "freshness_scope": "Two fresh actual-game boots revalidated current upstream files and the identical 473-value candidate tree. The guarded launcher now permits this isolated profile; main-profile deployment remains unapproved.",
+      "previous_captured_evidence_sha256": {
+        "readback_summary": "756e53addd98e88fe4dc2b2e6739e7ffdd22557e61599de6d7b96c9f665fbfc7",
+        "candidate_proof": "9975f1f20cee742a2d336f077139017313d7140d347d247312857527e0babdb0",
+        "strict_stage": "68a62e71497514e8d138727dcf39771af0e2734990819523316cfb1528e2e8b2",
+        "physical_capture": "ca6e3ddd6b84ad71d170299904a0e8b48dfb29b5fd04a3c01833bf33411458e1"
+      },
+      "revalidated_changed_upstream_files": 2,
+      "runtime_ui_handlers": {
+        "planned": 98,
+        "applied": 96,
+        "held_changed_dubsmintmenus_assembly": 2,
+        "failed_or_other": 0,
+        "guard_updated": false
+      }
+    },
+    "strict_stage": {
+      "candidate_validated": 473,
+      "preserved_existing_russian": 136,
+      "coalesced_same_package_same_text": 20,
+      "target_holds": 87,
+      "brand_values_retained": 3,
+      "held_tasks": 10,
+      "keep_original_tasks": 1,
+      "scope": "Strict target counters describe processed accepted-task targets. Held tasks and the keep-original task are counted separately; these counters are not another count of all 731 source observations."
+    }
+  },
+  "fresh_source_observations": {
+    "count": 731,
+    "groups": {
+      "existing_original_native_value": 27,
+      "exact_english_raw": 278,
+      "null_unresolved_path": 236,
+      "english_newline_equivalent": 10,
+      "missing_def_type_error": 14,
+      "different_english_value": 19,
+      "existing_other_active_provider_value": 145,
+      "generated_keybinding_mixed_language": 2
+    },
+    "stage_outcome": "partial_private_candidate_verified",
+    "evidence_sha256": "847dbe9f9a5666871ddaecd7bf7a5844645b6832ec235dd426f557f4b69c5351",
+    "existing_value_candidates_observed": 172,
+    "strict_stage_preserved_existing_russian": 136,
+    "scope": "Initial 731 source observations precede strict routing/alias resolution; observed existing-value candidates and later preserved unique targets are separate counts."
+  }
+}
