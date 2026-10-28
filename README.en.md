@@ -27,7 +27,8 @@ Mechanoid Upgrades passed two separate minimal loads with Core, Biotech,
 Harmony and the original: 108/108 English control and Russian values matched;
 the existing 52 localization errors were unchanged. This tests the prepared
 package; all 18 subscribed Workshop files matched the package exactly, while
-that copy's game-load check is recorded separately. Biotech was
+an actual load from that Workshop copy also verified all 108 Russian values
+with no additional localization errors. Biotech was
 also added and verified as required DLC metadata on Workshop.
 
 The [collection](https://steamcommunity.com/sharedfiles/filedetails/?id=3828791160)

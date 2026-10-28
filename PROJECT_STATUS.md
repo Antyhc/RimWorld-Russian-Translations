@@ -2,7 +2,7 @@
 
 Generated from `mods/*/manifest.json` by `python scripts/rwtranslations.py registry`.
 
-Last inventory generation (UTC): 2026-10-28T14:15:35+00:00
+Last inventory generation (UTC): 2026-10-28T14:22:06+00:00
 
 The registry tracks **166 mods**: 156 saved-store records and 10 additional draft/review metadata records; 0 records have unverified store scope. Saved stores can also contain unfinished drafts. Original and translation package IDs are separate namespaces. Discovery has no fixed mod limit.
 
@@ -49,7 +49,7 @@ The 13 source-drift packages were refreshed. Targeted repairs added 20 strings, 
 | technically_checked | 5 |
 | game_tested | 5 |
 | github_metadata_records | 166 |
-| github_published | 4 |
+| github_published | 5 |
 | workshop_submitted | 5 |
 | workshop_published | 4 |
 | pull_requests | 4 |

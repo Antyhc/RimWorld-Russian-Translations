@@ -1326,5 +1326,12 @@
     "sha256": "5c0120cc8d69c32e4c80fb0465de67c5f8c47df99de4f01a282cd1d3a979e4dc"
   },
   "additional_localization_errors": 0,
-  "baseline_original_localization_errors": 52
+  "baseline_original_localization_errors": 52,
+  "workshop_installation_test": true,
+  "workshop_installation_game_test": true,
+  "workshop_game_evidence": {
+    "path": "workshop-game-test-evidence.json",
+    "sha256": "19d22c6cfb2c049bbbde9cf9894811b99790a35fb45327d375832d114287dafa"
+  },
+  "workshop_item_id": "3828883103"
 }

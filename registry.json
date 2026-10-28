@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "generated_at": "2026-10-28T14:15:35+00:00",
+  "generated_at": "2026-10-28T14:22:06+00:00",
   "mods": [
     {
       "schema_version": 1,
@@ -4922,11 +4922,15 @@
         "game_test_scope": "Two actual-game isolated main-menu loads: Core+Biotech+Harmony+original, then same context plus exact108-entry payload. Actual English/Russian values and source ownership verified. Existing52original/base-game Russian localization errors are unchanged. This is not a long-gameplay test. Candidate Hackable props type is not claimed observed when its normal injected path already resolved; separate control unique-component proof and matching actual normalized paths are retained.",
         "game_evidence": "game-test-evidence.json",
         "gameplay_tested": false,
-        "workshop_install_tested": false
+        "workshop_install_tested": true,
+        "workshop_installation_game_test": "passed",
+        "workshop_game_evidence": "workshop-game-test-evidence.json",
+        "workshop_game_evidence_sha256": "19d22c6cfb2c049bbbde9cf9894811b99790a35fb45327d375832d114287dafa",
+        "workshop_game_test_scope": "Actual loading from the subscribed installed Steam Workshop item in an isolated Core+Biotech+Harmony+original+translation+read-only-probe context; no save or long-gameplay test. No public metadata or files changed by this verifier."
       },
       "publication": {
         "github_url": "https://github.com/Antyhc/RimWorld-Russian-Translations/tree/main/mods/gogatio.mechanoidupgrades",
-        "github_status": "prepared_not_published",
+        "github_status": "published",
         "workshop_url": "https://steamcommunity.com/sharedfiles/filedetails/?id=3828883103",
         "workshop_id": "3828883103",
         "workshop_status": "published",
@@ -4941,7 +4945,12 @@
         "anonymous_page_evidence": "Unauthenticated browser page shows title, subscribe action, 108-entry bilingual description, original dependency and Biotech DLC; Steam login link visible.",
         "dlc_dependency_app_id": "1826140",
         "dlc_dependency_verified": true,
-        "installation_scope": "Official Steam subscription/download; exact18-file payload hash comparison. Actual Workshop-copy game load is a separate check."
+        "installation_scope": "Official Steam subscription/download with exact 18-file payload hash comparison, followed by an actual minimal-game load from Workshop item 3828883103: 108/108 Russian values, zero added localization errors, and the same 52 baseline errors. No save or long-gameplay test.",
+        "github_first_public_commit": "47c9069bda1455841c51175af099e98d3f005250",
+        "installation_game_tested": true,
+        "installation_game_evidence": "workshop-game-test-evidence.json",
+        "installation_game_evidence_sha256": "19d22c6cfb2c049bbbde9cf9894811b99790a35fb45327d375832d114287dafa",
+        "installation_game_checked_at": "2026-10-28T14:21:16.469092+00:00"
       },
       "integration": {
         "status": "not_sent",
@@ -18257,7 +18266,7 @@
     "technically_checked": 5,
     "game_tested": 5,
     "github_metadata_records": 166,
-    "github_published": 4,
+    "github_published": 5,
     "workshop_submitted": 5,
     "workshop_published": 4,
     "pull_requests": 4,
