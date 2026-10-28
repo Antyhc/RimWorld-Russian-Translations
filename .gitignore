@@ -8,6 +8,8 @@ reports/*
 !reports/repository-evidence-2026-10-28.json
 !reports/repository-monitors-2026-10-28.json
 !reports/PUBLICATION_REPORT-2026-10-28.md
+!reports/workshop-installation.json
+!reports/source-remediation.json
 *.log
 *.vdf
 *.token
