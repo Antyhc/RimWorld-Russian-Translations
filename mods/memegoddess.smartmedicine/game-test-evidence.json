@@ -1,0 +1,38 @@
+{
+  "checked_at": "2026-10-28T10:40:54+00:00",
+  "game_version": "1.7.4990 rev1069",
+  "scope": "Actual isolated game load, all264expectedlanguagevalues/physicalDeffields and foursettingswindows; no colony or long gameplay session",
+  "expected": 264,
+  "matching": 264,
+  "missing": 0,
+  "base_game_localization_errors": 9,
+  "errors_identical_with_and_without_four_translations": true,
+  "translation_errors_added": 0,
+  "personal_config_unchanged": true,
+  "gameplay_tested": false,
+  "capture_sha256": "0c9fa2c18f95d6535663a902e4072160e04b2631e9efb841b70c0f28abad171d",
+  "baseline_capture_sha256": "6194e2dd170d09f56aea1036942574af7e204aa098b859434e9bfef80ae46816",
+  "request_sha256": "c69f2f3542390efb328d80e7de0dd54d3554ef7436d53e8fa9146470afb5d8ce",
+  "per_package": {
+    "unon.noburnmetal": 19,
+    "merthsoft.designatorshapes": 208,
+    "seohyeon.yart": 30,
+    "memegoddess.smartmedicine": 7
+  },
+  "package_id": "memegoddess.smartmedicine",
+  "matched_entries": 7,
+  "payload_file_sha256": {
+    "About/About.xml": "76b100892f969e02a4e0369e53805f3745942298cc869c0eb76a7e69824b61a5",
+    "About/Credits.txt": "3a5c43728891c4751d31ff8d7a65f54392522cd24983dbe71babc3d309e6079a",
+    "About/License.txt": "e69e87a7827a03c1148319d8b345281a9062de2fcd908885b3aee23aa04d1342",
+    "About/Preview.png": "c7d6a5fe32a052f6dec3d4e34b3fc033810c46ac156018e23655ec7ace53b60c",
+    "Languages/Russian/DefInjected/WorkGiverDef/AdditionalRussian.xml": "3024a80213be9a340563eb7acb922f5fabddc291213513e2321a8dd9b7dcee9a",
+    "Languages/Russian/Keyed/AdditionalRussian.xml": "4d86b4aecaa37c191b98147a690e6654d66bf9305d9a56097bad1461c44d0e12"
+  },
+  "payload_sha256": "3363565a52d8e6c139300eada2ac40fdc1961bcdbcbd83a282c7214b1f408dd0",
+  "workshop_install_verified": true,
+  "workshop_item_id": "3828790822",
+  "workshop_loaded_values": 7,
+  "workshop_capture_sha256": "bf163654a86544afce6fbacf47b640e1d6524c6a2382a657131c2282714dfd90",
+  "actual_source": "Steam subscribed Workshop cache; local duplicate archived before loading"
+}

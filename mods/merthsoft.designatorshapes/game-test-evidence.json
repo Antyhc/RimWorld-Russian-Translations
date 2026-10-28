@@ -1,0 +1,41 @@
+{
+  "checked_at": "2026-10-28T10:40:54+00:00",
+  "game_version": "1.7.4990 rev1069",
+  "scope": "Actual isolated game load, all264expectedlanguagevalues/physicalDeffields and foursettingswindows; no colony or long gameplay session",
+  "expected": 264,
+  "matching": 264,
+  "missing": 0,
+  "base_game_localization_errors": 9,
+  "errors_identical_with_and_without_four_translations": true,
+  "translation_errors_added": 0,
+  "personal_config_unchanged": true,
+  "gameplay_tested": false,
+  "capture_sha256": "0c9fa2c18f95d6535663a902e4072160e04b2631e9efb841b70c0f28abad171d",
+  "baseline_capture_sha256": "6194e2dd170d09f56aea1036942574af7e204aa098b859434e9bfef80ae46816",
+  "request_sha256": "c69f2f3542390efb328d80e7de0dd54d3554ef7436d53e8fa9146470afb5d8ce",
+  "per_package": {
+    "unon.noburnmetal": 19,
+    "merthsoft.designatorshapes": 208,
+    "seohyeon.yart": 30,
+    "memegoddess.smartmedicine": 7
+  },
+  "package_id": "merthsoft.designatorshapes",
+  "matched_entries": 208,
+  "payload_file_sha256": {
+    "About/About.xml": "32ffda38ce283b3861212701dd8e052f3d509c7ed1ab7a75084b281f31cce18c",
+    "About/Credits.txt": "bdff83f0f5b1b356c1f2c5d1ce8b73e3648dd9e6d2a3e96cc6cf7c2339b3319a",
+    "About/License.txt": "6b0382b16279f26ff69014300541967a356a666eb0b91b422f6862f6b7dad17e",
+    "About/Preview.png": "ccc66de90008689f46d6f79d7601f44d9083b24195cf60bd60f16f3a27c2dacf",
+    "Languages/Russian/DefInjected/DrawStyleDef/DrawStyles.xml": "00a393ea5c3ab02e70180ef1b468f2c2d52fac21604b32c84411cb131dc1ee18",
+    "Languages/Russian/DefInjected/Merthsoft.DesignatorShapes.Defs.DesignatorShapeDef/DesignatorShapes.xml": "40b3585c836512f779e3e082a92f5439d77cdc94e74b1de8dfba68fab7329936",
+    "Languages/Russian/DefInjected/Merthsoft.DesignatorShapes.Defs.OverlayGroupDef/OverlayGroups.xml": "c5137b112bcce3a345002c5a50871ab4a3f8546729c9ab6b65db59ec47ff3279",
+    "Languages/Russian/Keyed/DesignatorShapes_Keys.xml": "4efca4820621c2592b8360e8bf60f89856a9f5eab0ae25fd58c90f13c5fd76cd",
+    "Languages/Russian/Keyed/PaletteSettings.xml": "4cc0afc0e62123a69a32f9bef29c9d165195e34b9f9f143ebf20cda89053068c"
+  },
+  "payload_sha256": "ac2cea689ea113ceb1a73ec5162b0d5e925b2bbe7dd97e2a3a087b5c721d9ef8",
+  "workshop_install_verified": true,
+  "workshop_item_id": "3828790605",
+  "workshop_loaded_values": 208,
+  "workshop_capture_sha256": "bf163654a86544afce6fbacf47b640e1d6524c6a2382a657131c2282714dfd90",
+  "actual_source": "Steam subscribed Workshop cache; local duplicate archived before loading"
+}

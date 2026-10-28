@@ -1,0 +1,25 @@
+<?xml version='1.0' encoding='utf-8'?>
+<ModMetaData>
+  <name>YART — Russian completion / Дополнение русского перевода</name>
+  <author>Antyhc (AI-assisted with OpenAI Codex)</author>
+  <packageId>antyhc.russian.seohyeon.yart</packageId>
+  <url>https://github.com/Antyhc/RimWorld-Russian-Translations</url>
+  <description>Дополняет встроенный русский перевод Yet Another Research Tree (YART): 30 отсутствующих строк. Существующий русский текст оригинала сохраняется. Автор оригинала: SeoHyeon. Подготовлено и вычитано с помощью ИИ; независимая вычитка человеком не заявлена. Требуется оригинальный мод; загружать после него.
+
+Completes the bundled Russian translation of Yet Another Research Tree (YART) with 30 missing entries. Existing upstream Russian text is preserved. Original author: SeoHyeon. AI-assisted translation and semantic review; no independent human proofreading claimed. Requires the original mod; load afterwards.
+
+https://steamcommunity.com/sharedfiles/filedetails/?id=3745434121</description>
+  <supportedVersions>
+    <li>1.7</li>
+  </supportedVersions>
+  <modDependencies>
+    <li>
+      <packageId>seohyeon.yart</packageId>
+      <displayName>Yet Another Research Tree (YART)</displayName>
+      <steamWorkshopUrl>https://steamcommunity.com/sharedfiles/filedetails/?id=3745434121</steamWorkshopUrl>
+    </li>
+  </modDependencies>
+  <loadAfter>
+    <li>seohyeon.yart</li>
+  </loadAfter>
+</ModMetaData>

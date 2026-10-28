@@ -371,11 +371,15 @@ def registry(root=ROOT):
     static = [m.get("inventory", {}).get("local_static_audit", {}) for m in records]
     return {"schema_version": 1, "generated_at": utcnow(), "mods": records, "counts": {
         "translations": len(records),
+        "saved_store_records": sum(m.get("inventory", {}).get("saved_translation_store") is True for m in records),
+        "draft_only_records": sum(m.get("inventory", {}).get("saved_translation_store") is False for m in records),
+        "store_scope_unverified": sum(not isinstance(m.get("inventory", {}).get("saved_translation_store"), bool) for m in records),
         "technically_checked": sum(m.get("qa", {}).get("technical") == "passed" for m in records),
         "game_tested": sum(m.get("qa", {}).get("in_game") == "passed" for m in records),
         "github_metadata_records": sum(bool(m.get("publication", {}).get("github_url")) for m in records),
         "github_published": sum(bool(m.get("publication", {}).get("github_url")) and m.get("publication", {}).get("github_status") in ("translation_published", "published") and (root / "mods" / m["package_id"] / "payload").is_dir() for m in records),
-        "workshop_published": sum(bool(m.get("publication", {}).get("workshop_url")) for m in records),
+        "workshop_submitted": sum(bool(m.get("publication", {}).get("workshop_id")) for m in records),
+        "workshop_published": sum(m.get("publication", {}).get("anonymous_page_verified") is True for m in records),
         "pull_requests": sum(bool(m.get("integration", {}).get("pr_url")) for m in records),
         "accepted": sum(m.get("integration", {}).get("status") == "accepted" for m in records),
         "awaiting_rights": sum(not confirmed_rights(m, "translation") for m in records),
@@ -386,19 +390,58 @@ def registry(root=ROOT):
         "static_findings": sum(x.get("issue_count", sum(i.get("count", 1) for i in x.get("issues", []))) for x in static),
         "repository_monitors": sum(bool(m.get("monitor", {}).get("github_tree")) for m in records),
         "pull_request_monitors": sum(bool(m.get("integration", {}).get("pr_url")) for m in records),
-        "icon_permission_requests": sum(m.get("rights", {}).get("icon", {}).get("permission_requested") is True for m in records),
+        "icon_permission_requests": sum((m.get("rights", {}).get("icon", {}).get("permission_requested") is True) or (m.get("original_art_permission_request") or {}).get("permission_requested") is True for m in records),
+        "workshop_public_pages_verified": sum(m.get("publication", {}).get("anonymous_page_verified") is True for m in records),
+        "workshop_content_check_pending": sum(m.get("publication", {}).get("workshop_status") == "submitted_public_automatic_content_check" for m in records),
+        "workshop_source_monitors": len({str(m.get("original", {}).get("workshop_id")) for m in records if m.get("original", {}).get("workshop_id")}),
     }}
 
 
 def status_markdown(reg):
     counts = reg["counts"]
-    lines = ["# PROJECT_STATUS", "", "Generated from `mods/*/manifest.json` by `python scripts/rwtranslations.py registry`.", "", f"Last inventory generation (UTC): {reg['generated_at']}", "", "| Metric | Count |", "|---|---:|"]
+    records = reg["mods"]
+    drafts = sum(m.get("inventory", {}).get("saved_translation_store") is False for m in records)
+    stores = sum(m.get("inventory", {}).get("saved_translation_store") is True for m in records)
+    unknown = len(records) - stores - drafts
+    lines = ["# PROJECT_STATUS", "", "Generated from `mods/*/manifest.json` by `python scripts/rwtranslations.py registry`.", "", f"Last inventory generation (UTC): {reg['generated_at']}", "",
+             f"The registry tracks **{len(records)} mods**: {stores} saved-store records and {drafts} additional draft/review metadata records; {unknown} records have unverified store scope. Saved stores can also contain unfinished drafts. Original and translation package IDs are separate namespaces. Discovery has no fixed mod limit.", "",
+             f"Steam has confirmed {counts['workshop_submitted']} item submissions: **{counts.get('workshop_public_pages_verified', 0)} pages verified anonymously**, {counts.get('workshop_content_check_pending', 0)} awaiting automatic content inspection. A submitted item ID or public API visibility flag alone does not prove public page access.", "",
+             "| Workshop translation | Website state | Game QA evidence |", "|---|---|---|"]
+    for mod in records:
+        publication, qa = mod.get("publication", {}), mod.get("qa", {})
+        if not publication.get("workshop_url"):
+            continue
+        name = mod.get("name", mod["package_id"]).replace("|", "\\|")
+        state = "public; anonymous page verified" if publication.get("anonymous_page_verified") else publication.get("workshop_status", "access not verified")
+        evidence = str(Path(mod["manifest"]).parent / qa["game_evidence"]).replace("\\", "/") if qa.get("game_evidence") else mod["manifest"]
+        lines.append(f"| [{name}]({publication['workshop_url']}) | {state} | [{qa.get('in_game', 'not_tested')}]({evidence}) |")
+    tested = []
+    for mod in records:
+        evidence = mod.get("qa", {}).get("game_evidence")
+        path = ROOT / Path(mod["manifest"]).parent / evidence if evidence else None
+        if path and path.is_file() and mod.get("qa", {}).get("in_game") == "passed":
+            tested.append(read_json(path))
+    if tested:
+        values = sum(x.get("matched_entries", 0) for x in tested)
+        versions = ", ".join(sorted({x.get("game_version", "unspecified") for x in tested}))
+        lines += ["", f"Game QA: {values} expected Russian values loaded in isolated RimWorld {versions}; settings windows were inspected. The subscribed Workshop copies were also loaded. The nine Core localization errors were identical with and without the four pilot translations; zero added translation errors. Personal configuration hashes were unchanged. This is load/UI testing, **not a colony playthrough or extended gameplay test**. No independent human proofreading is claimed."]
+    collection_path = ROOT / "community" / "collection.json"
+    if collection_path.is_file():
+        collection = read_json(collection_path)
+        if collection.get("url"):
+            state = "public website publication verified" if collection.get("website_publication_verified") else "native item and membership created; website publication pending"
+            lines += ["", f"[Workshop collection]({collection['url']}): **{state}**. Membership uses native SteamUGC AddDependency with postcondition verification; website publication is a separate step."]
+            if collection.get("website_blocker"):
+                lines += ["", collection["website_blocker"]]
+    lines += ["", "Upstream contributions:", ""]
+    for mod in records:
+        integration = mod.get("integration", {})
+        if integration.get("pr_url"):
+            lines.append(f"- [{mod.get('name', mod['package_id'])}]({integration['pr_url']}): {integration.get('status', 'unknown')}.")
+    lines += ["", "Current pilot covers are original typographic fallback designs. Original-art permission requests remain separate and do not block these covers. Other records with unconfirmed translation rights are held from distribution.", "",
+              "The 13 source-drift packages were refreshed. Targeted repairs added 20 strings, updated seven Russian texts and preserved 15 correct translations with new source hashes across five packages. These repairs have no new in-game test. Large outstanding deltas and stale custom-field proofs remain under review; historical static findings are not a count of broken translations.", "", "| Metric | Count |", "|---|---:|"]
     lines.extend(f"| {key} | {value} |" for key, value in counts.items())
-    lines += ["", "Static QA and in-game testing are separate states. Static inventory findings include changed inputs and stale field evidence; they are not a count of broken translations. Freshness unverified does not mean a confirmed upstream change. A manifest is an inventory record; pending rights or QA prevents staging a release.", "", "| Translation | Technical QA | Game test | Integration | Workshop |", "|---|---|---|---|---|"]
-    for mod in reg["mods"]:
-        qa = mod.get("qa", {})
-        name = mod.get("name", mod["package_id"]).replace("|", "\\|").replace("\n", " ")
-        lines.append(f"| [{name}]({mod['manifest']}) | {qa.get('technical', 'pending')} | {qa.get('in_game', 'not_tested')} | {mod.get('integration', {}).get('status', 'not_sent')} | {mod.get('publication', {}).get('workshop_url') or 'unpublished'} |")
+    lines += ["", "Full per-mod states are in [registry.json](registry.json). Static QA and in-game testing are separate. Freshness unverified does not mean a confirmed upstream change. A manifest records work; pending rights or QA prevents staging a release. Monitoring checks configured source metadata/files and PRs; it does not autonomously translate or publish updates."]
     return "\n".join(lines) + "\n"
 
 
@@ -568,6 +611,98 @@ def check_integration(mod):
         return {"package_id": mod["package_id"], "pr_url": url, "status": "error", "action_required": True, "error": str(ex)}
 
 
+STEAM_DETAILS_URL = "https://api.steampowered.com/ISteamRemoteStorage/GetPublishedFileDetails/v1/"
+
+
+class NoSteamRedirect(urllib.request.HTTPRedirectHandler):
+    def redirect_request(self, req, fp, code, msg, headers, newurl):
+        raise ValueError("Public Steam metadata endpoint redirected; manual endpoint review required")
+
+
+def fetch_steam_details(ids):
+    """Official public API; no login/key/cookies or creator SteamID are used."""
+    ids = list(dict.fromkeys(str(value) for value in ids))
+    if not ids or len(ids) > 50 or any(not value.isdigit() or not 0 < int(value) < 2**64 for value in ids):
+        raise ValueError("Steam metadata request needs 1–50 public uint64 Workshop item IDs")
+    form = {"itemcount": str(len(ids)), **{f"publishedfileids[{i}]": value for i, value in enumerate(ids)}}
+    request = urllib.request.Request(STEAM_DETAILS_URL, data=urllib.parse.urlencode(form).encode("ascii"),
+                                    headers={"User-Agent": "RimWorld-Russian-Translations-public-source-monitor"})
+    with urllib.request.build_opener(NoSteamRedirect()).open(request, timeout=25) as response:
+        raw = response.read(MAX_BYTES + 1)
+    if len(raw) > MAX_BYTES:
+        raise ValueError("Public Steam metadata response too large")
+    records = json.loads(raw).get("response", {}).get("publishedfiledetails")
+    if not isinstance(records, list):
+        raise ValueError("Unexpected public Steam metadata response")
+    result = {}
+    for item in records:
+        item_id = str(item.get("publishedfileid", ""))
+        if item_id not in ids or item_id in result:
+            raise ValueError("Unexpected/duplicate public Workshop item in response")
+        # Deliberately discard creator IDs, descriptions, download/preview URLs,
+        # account-linked data and every field outside this update-only allowlist.
+        safe = {"publishedfileid": item_id, "result": int(item.get("result", 0))}
+        if safe["result"] == 1:
+            safe.update(consumer_app_id=int(item.get("consumer_app_id", 0)),
+                        time_updated=int(item.get("time_updated", 0)),
+                        file_size=int(item.get("file_size", 0)),
+                        hcontent_file=str(item.get("hcontent_file", "")))
+            if safe["consumer_app_id"] != 294100 or min(safe["time_updated"], safe["file_size"]) < 0:
+                raise ValueError("Source item is not a valid RimWorld Workshop mod")
+        result[item_id] = safe
+    if set(result) != set(ids):
+        raise ValueError("Public Steam metadata response omitted requested items")
+    return result
+
+
+def workshop_items(root):
+    return [(path, mod, str(mod.get("original", {}).get("workshop_id"))) for path, mod in manifests(root)
+            if str(mod.get("original", {}).get("workshop_id", "")).isdigit()]
+
+
+def workshop_snapshot(root):
+    ids = sorted({item_id for _, _, item_id in workshop_items(root)}, key=int)
+    details = {}
+    for offset in range(0, len(ids), 50):
+        details.update(fetch_steam_details(ids[offset:offset + 50]))
+    return {"schema_version": 1, "generated_at": utcnow(), "endpoint": STEAM_DETAILS_URL,
+            "scope": "Public update timestamps, sizes and UGC content handles only; no translation-key or quality approval.", "items": details}
+
+
+def check_workshop(root):
+    baseline_path = Path(root) / "source.workshop.json"
+    if not baseline_path.is_file():
+        return []
+    before = read_json(baseline_path)
+    if before.get("schema_version") != 1 or before.get("endpoint") != STEAM_DETAILS_URL or not isinstance(before.get("items"), dict):
+        return [{"package_id": "workshop_sources", "status": "error", "error": "Invalid public Workshop metadata baseline"}]
+    items = workshop_items(root)
+    ids = sorted({item_id for _, _, item_id in items}, key=int)
+    after, failures = {}, {}
+    for offset in range(0, len(ids), 50):
+        batch = ids[offset:offset + 50]
+        try:
+            after.update(fetch_steam_details(batch))
+        except Exception as ex:
+            failures.update({item_id: str(ex) for item_id in batch})
+    reports = []
+    for _, mod, item_id in items:
+        base = {"package_id": mod["package_id"], "workshop_id": item_id,
+                "scope": "Steam publication update only; inspect source/key changes locally before translation approval."}
+        current, old = after.get(item_id), before["items"].get(item_id)
+        if item_id in failures:
+            reports.append({**base, "status": "error", "error": failures[item_id]})
+        elif not current or current.get("result") != 1:
+            reports.append({**base, "status": "unavailable", "result": (current or {}).get("result")})
+        elif not old:
+            reports.append({**base, "status": "baseline_missing"})
+        else:
+            changed = [field for field in ("time_updated", "file_size", "hcontent_file") if old.get(field) != current.get(field)]
+            reports.append({**base, "status": "updated" if changed else "unchanged", "changed_fields": changed,
+                            "time_updated": current["time_updated"]})
+    return reports
+
+
 def monitor(root=ROOT):
     reports, integrations, file_monitors, tree_cache = [], [], [], {}
     for path, mod in manifests(root):
@@ -595,10 +730,11 @@ def monitor(root=ROOT):
             reports.append({"package_id": mod["package_id"], "status": "changed" if any(changes.values()) else "unchanged", "delta": changes, "source_urls": [url] if url else [x["url"] for x in files]})
         except Exception as ex:
             reports.append({"package_id": mod["package_id"], "status": "error", "error": str(ex)})
-    meaningful = [r for r in reports if r["status"] in ("changed", "error")] + [r for r in integrations if r["action_required"]] + [r for r in file_monitors if r["status"] in ("changed_files", "error")]
+    workshop_monitors = check_workshop(root)
+    meaningful = [r for r in reports if r["status"] in ("changed", "error")] + [r for r in integrations if r["action_required"]] + [r for r in file_monitors if r["status"] in ("changed_files", "error")] + [r for r in workshop_monitors if r["status"] != "unchanged"]
     # No generated timestamp in fingerprint: unchanged reports never churn issues.
     fingerprint = hashlib.sha256(json.dumps(meaningful, sort_keys=True).encode()).hexdigest()
-    return {"generated_at": utcnow(), "fingerprint": fingerprint, "action_required": bool(meaningful), "scope": "Configured source endpoints, GitHub repository file trees and recorded public upstream PRs; no Workshop login/download, C# literal extraction or auto-translation. File-level changes do not prove translation-key changes. Observations do not alter manifests.", "mods": reports, "integrations": integrations, "file_monitors": file_monitors}
+    return {"generated_at": utcnow(), "fingerprint": fingerprint, "action_required": bool(meaningful), "scope": "Configured source endpoints, GitHub trees, recorded upstream PRs and public Workshop update metadata; no Steam login/download, C# extraction or auto-translation. File/publication changes do not prove translation-key changes. Observations do not alter manifests.", "mods": reports, "integrations": integrations, "file_monitors": file_monitors, "workshop_monitors": workshop_monitors}
 
 
 def stage(root, package, output):
@@ -633,6 +769,8 @@ def main(argv=None):
     tree_snapshot.add_argument("repository")
     tree_snapshot.add_argument("ref")
     tree_snapshot.add_argument("output", type=Path)
+    steam_snapshot = sub.add_parser("workshop-snapshot")
+    steam_snapshot.add_argument("output", type=Path, help="Public metadata baseline; keep existing baseline until changes are reviewed")
     diff = sub.add_parser("diff")
     diff.add_argument("before", type=Path)
     diff.add_argument("after", type=Path)
@@ -667,6 +805,10 @@ def main(argv=None):
         result = fetch_github_tree(args.repository, args.ref)
         write_json(args.output, result)
         print(f"{len(result['files'])} upstream file hashes; no original file content copied")
+    elif args.command == "workshop-snapshot":
+        result = workshop_snapshot(root)
+        write_json(args.output, result)
+        print(f"{len(result['items'])} public Workshop update records; no account or original content copied")
     elif args.command == "diff":
         change = delta(read_json(args.before)["strings"], read_json(args.after)["strings"])
         write_json(args.output, {"generated_at": utcnow(), "delta": change, "review_required": any(change.values()), "translations_modified": False})
@@ -674,7 +816,7 @@ def main(argv=None):
     elif args.command == "monitor":
         result = monitor(root)
         write_json(args.output if args.output.is_absolute() else root / args.output, result)
-        print(f"String sources: {sum(x['status'] != 'not_configured' for x in result['mods'])}; file trees: {len(result['file_monitors'])}; PRs: {len(result['integrations'])}; action required: {result['action_required']}")
+        print(f"String sources: {sum(x['status'] != 'not_configured' for x in result['mods'])}; file trees: {len(result['file_monitors'])}; PRs: {len(result['integrations'])}; Workshop items: {len(result['workshop_monitors'])}; action required: {result['action_required']}")
     elif args.command == "prepare-update":
         if not PACKAGE_ID.fullmatch(args.package_id):
             raise ValueError("Invalid package_id")

@@ -1,0 +1,219 @@
+{
+  "schema_version": 1,
+  "generated_at": "2026-10-28T10:24:26.670466+00:00",
+  "scope": "Exact supplemental translation entries against currently installed source; original native Russian remains separate",
+  "strings": {
+    "Keyed|YART_OpenSettings": "fe393f63ee0f38559d34d76fa014a4b992f893366295ff81bb1cf71df88de76b",
+    "Keyed|YART_Settings_ColorEraHeader": "af868b6d1176d84f4b7a6374e982b3585a8c4ffdedb7fb9370866fcd7d85ad64",
+    "Keyed|YART_Settings_ColorPrereqHeader": "c4076228bb914b2f9f26dcb4b763b08af2ad90624109db44bb968c72dd610f79",
+    "Keyed|YART_Settings_ColorPrereqMet": "f414ae66800dd2bcd722b285482804c2fd7173bea87db36b3938dee7698acc90",
+    "Keyed|YART_Settings_ColorPrereqUnmet": "1657e3706bfc5106c57e607b23acf70a399ff42d7872c284d2c457d23cfed6d0",
+    "Keyed|YART_Settings_ColorPreset_default": "21b111cbfe6e8fca2d181c43f53ad548b22e38aca955b9824706a504b0a07a2d",
+    "Keyed|YART_Settings_ColorPreset_highContrast": "415a8336713e6a3bb61660818c7ae7691e2246b94bcbc61a3f92dd33408d5488",
+    "Keyed|YART_Settings_ColorPreset_lumOrdered": "c903f3bf286091aa5c2d60dd892332c184d89abfb809ad3f7dc21152e77a17d1",
+    "Keyed|YART_Settings_GroupClusterByTab": "c15021fe88a557675e1a9ff0e230a2a0a58359b210c9aefbb7a23f2b7aebcb91",
+    "Keyed|YART_Settings_GroupClusterByTabDesc": "312639afe00406138231a89b258da221eea6d2fecd62c6cffdfd6f695d14466b",
+    "Keyed|YART_Settings_HiddenPrereqs": "cb052af5ea256435639468a913925228128d13b5c50f37ddb86e2493833629b4",
+    "Keyed|YART_Settings_HiddenPrereqsDesc": "f6f43a21611b9e87ffb15e8ce0c32414880f3831bfeb54e9dfa6b9846d9e5417",
+    "Keyed|YART_Settings_PauseOnOpen": "22c4637b8731f58f09e1445392e10498cf9fb23af9324833be6dc3bfda1bd480",
+    "Keyed|YART_Settings_PauseOnOpenDesc": "79aa518dbb99c978d11f7b10fd810a12b525bf907ab2cef29012c13ee5f92e1c",
+    "Keyed|YART_Settings_RebuildNeeded": "a5f0d6bccc907d391190ff09ba3c224b63b02a196cda3df0a486b3c294304e45",
+    "Keyed|YART_Settings_Section_Behavior": "edf8d3f1781f32f09359cd09dfcf6ef8a0b8cffed76cb50ac52d2a4b8948b150",
+    "Keyed|YART_Settings_Section_Colors": "88c45d9e526c08dd7f8b9d1d3ab96a72d68205232090be5da57e05251bfea650",
+    "Keyed|YART_Settings_Section_Compat": "b37ddf1f6e0fac69414c5ed7f6e65f8f0a7ea1922afd602483392d695ee92065",
+    "Keyed|YART_Settings_Section_Display": "34e108c0896d0158ca4f2797d4f12a143943803be2151aa5d2136ea1bcd9a468",
+    "Keyed|YART_Settings_Section_Maintenance": "17ccfa5b681e3e7b293165981520187dfe2c3d5d610669735da1c9ea0421d55d",
+    "Keyed|YART_Settings_SemiRandomCompat": "87094b37755bb1695247a6f6daaedabe1fd12616db995c541def6ed85f4aa490",
+    "Keyed|YART_Settings_SemiRandomCompatDesc": "ee3a955d8616fd87994c61a7655b7e2c164eb3b2a95befd30a1d9bb2f79a1949",
+    "Keyed|YART_Settings_SemiRandomDetected": "c39e3e5c1c887a9886ec633847e70cd95d2a4e343f202d8138f35f91f2e051d2",
+    "Keyed|YART_Settings_SemiRandomNotDetected": "575a5777a30e8107bb48b45ef63e1ca6c733593d1fdaff09bda9b91c6bac095b",
+    "Keyed|YART_Settings_ShowSourceIcon": "660b7f7da7cc9c61f67e55f163a1b0b69a3299fa179c9bba007bfb2cd344a576",
+    "Keyed|YART_Settings_ShowSourceIconDesc": "c878bc48642a31307bcd8f84100c908ee480da5990f6520d7767a76eb6254f5d",
+    "Keyed|YART_Settings_StoredResearchCompat": "01d6468327e73cd2f3695fbcd6facf0e2f4b6bb465109514b69fdbc67a66176e",
+    "Keyed|YART_Settings_StoredResearchCompatDesc": "10931d1fbac87df006b0fab37dd63f72e80cedeadbe894480e9921199b3f5175",
+    "Keyed|YART_Settings_StoredResearchDetected": "51cb1281ff2f7300044b0547c95a37fffe7907989f8b0a52505a3d66d5112f9a",
+    "Keyed|YART_Settings_StoredResearchNotDetected": "425637132859c3e1239800b0730d4df1cf3d78771d9d599add86c493db582e98"
+  },
+  "signatures": {
+    "Keyed|YART_OpenSettings": {
+      "source_hash": "fe393f63ee0f38559d34d76fa014a4b992f893366295ff81bb1cf71df88de76b",
+      "tokens": [],
+      "tags": [],
+      "source_empty": false
+    },
+    "Keyed|YART_Settings_ColorEraHeader": {
+      "source_hash": "af868b6d1176d84f4b7a6374e982b3585a8c4ffdedb7fb9370866fcd7d85ad64",
+      "tokens": [],
+      "tags": [],
+      "source_empty": false
+    },
+    "Keyed|YART_Settings_ColorPrereqHeader": {
+      "source_hash": "c4076228bb914b2f9f26dcb4b763b08af2ad90624109db44bb968c72dd610f79",
+      "tokens": [],
+      "tags": [],
+      "source_empty": false
+    },
+    "Keyed|YART_Settings_ColorPrereqMet": {
+      "source_hash": "f414ae66800dd2bcd722b285482804c2fd7173bea87db36b3938dee7698acc90",
+      "tokens": [],
+      "tags": [],
+      "source_empty": false
+    },
+    "Keyed|YART_Settings_ColorPrereqUnmet": {
+      "source_hash": "1657e3706bfc5106c57e607b23acf70a399ff42d7872c284d2c457d23cfed6d0",
+      "tokens": [],
+      "tags": [],
+      "source_empty": false
+    },
+    "Keyed|YART_Settings_ColorPreset_default": {
+      "source_hash": "21b111cbfe6e8fca2d181c43f53ad548b22e38aca955b9824706a504b0a07a2d",
+      "tokens": [],
+      "tags": [],
+      "source_empty": false
+    },
+    "Keyed|YART_Settings_ColorPreset_highContrast": {
+      "source_hash": "415a8336713e6a3bb61660818c7ae7691e2246b94bcbc61a3f92dd33408d5488",
+      "tokens": [],
+      "tags": [],
+      "source_empty": false
+    },
+    "Keyed|YART_Settings_ColorPreset_lumOrdered": {
+      "source_hash": "c903f3bf286091aa5c2d60dd892332c184d89abfb809ad3f7dc21152e77a17d1",
+      "tokens": [],
+      "tags": [],
+      "source_empty": false
+    },
+    "Keyed|YART_Settings_GroupClusterByTab": {
+      "source_hash": "c15021fe88a557675e1a9ff0e230a2a0a58359b210c9aefbb7a23f2b7aebcb91",
+      "tokens": [],
+      "tags": [],
+      "source_empty": false
+    },
+    "Keyed|YART_Settings_GroupClusterByTabDesc": {
+      "source_hash": "312639afe00406138231a89b258da221eea6d2fecd62c6cffdfd6f695d14466b",
+      "tokens": [],
+      "tags": [],
+      "source_empty": false
+    },
+    "Keyed|YART_Settings_HiddenPrereqs": {
+      "source_hash": "cb052af5ea256435639468a913925228128d13b5c50f37ddb86e2493833629b4",
+      "tokens": [],
+      "tags": [],
+      "source_empty": false
+    },
+    "Keyed|YART_Settings_HiddenPrereqsDesc": {
+      "source_hash": "f6f43a21611b9e87ffb15e8ce0c32414880f3831bfeb54e9dfa6b9846d9e5417",
+      "tokens": [],
+      "tags": [],
+      "source_empty": false
+    },
+    "Keyed|YART_Settings_PauseOnOpen": {
+      "source_hash": "22c4637b8731f58f09e1445392e10498cf9fb23af9324833be6dc3bfda1bd480",
+      "tokens": [],
+      "tags": [],
+      "source_empty": false
+    },
+    "Keyed|YART_Settings_PauseOnOpenDesc": {
+      "source_hash": "79aa518dbb99c978d11f7b10fd810a12b525bf907ab2cef29012c13ee5f92e1c",
+      "tokens": [],
+      "tags": [],
+      "source_empty": false
+    },
+    "Keyed|YART_Settings_RebuildNeeded": {
+      "source_hash": "a5f0d6bccc907d391190ff09ba3c224b63b02a196cda3df0a486b3c294304e45",
+      "tokens": [],
+      "tags": [],
+      "source_empty": false
+    },
+    "Keyed|YART_Settings_Section_Behavior": {
+      "source_hash": "edf8d3f1781f32f09359cd09dfcf6ef8a0b8cffed76cb50ac52d2a4b8948b150",
+      "tokens": [],
+      "tags": [],
+      "source_empty": false
+    },
+    "Keyed|YART_Settings_Section_Colors": {
+      "source_hash": "88c45d9e526c08dd7f8b9d1d3ab96a72d68205232090be5da57e05251bfea650",
+      "tokens": [],
+      "tags": [],
+      "source_empty": false
+    },
+    "Keyed|YART_Settings_Section_Compat": {
+      "source_hash": "b37ddf1f6e0fac69414c5ed7f6e65f8f0a7ea1922afd602483392d695ee92065",
+      "tokens": [],
+      "tags": [],
+      "source_empty": false
+    },
+    "Keyed|YART_Settings_Section_Display": {
+      "source_hash": "34e108c0896d0158ca4f2797d4f12a143943803be2151aa5d2136ea1bcd9a468",
+      "tokens": [],
+      "tags": [],
+      "source_empty": false
+    },
+    "Keyed|YART_Settings_Section_Maintenance": {
+      "source_hash": "17ccfa5b681e3e7b293165981520187dfe2c3d5d610669735da1c9ea0421d55d",
+      "tokens": [],
+      "tags": [],
+      "source_empty": false
+    },
+    "Keyed|YART_Settings_SemiRandomCompat": {
+      "source_hash": "87094b37755bb1695247a6f6daaedabe1fd12616db995c541def6ed85f4aa490",
+      "tokens": [],
+      "tags": [],
+      "source_empty": false
+    },
+    "Keyed|YART_Settings_SemiRandomCompatDesc": {
+      "source_hash": "ee3a955d8616fd87994c61a7655b7e2c164eb3b2a95befd30a1d9bb2f79a1949",
+      "tokens": [],
+      "tags": [],
+      "source_empty": false
+    },
+    "Keyed|YART_Settings_SemiRandomDetected": {
+      "source_hash": "c39e3e5c1c887a9886ec633847e70cd95d2a4e343f202d8138f35f91f2e051d2",
+      "tokens": [],
+      "tags": [],
+      "source_empty": false
+    },
+    "Keyed|YART_Settings_SemiRandomNotDetected": {
+      "source_hash": "575a5777a30e8107bb48b45ef63e1ca6c733593d1fdaff09bda9b91c6bac095b",
+      "tokens": [],
+      "tags": [],
+      "source_empty": false
+    },
+    "Keyed|YART_Settings_ShowSourceIcon": {
+      "source_hash": "660b7f7da7cc9c61f67e55f163a1b0b69a3299fa179c9bba007bfb2cd344a576",
+      "tokens": [],
+      "tags": [],
+      "source_empty": false
+    },
+    "Keyed|YART_Settings_ShowSourceIconDesc": {
+      "source_hash": "c878bc48642a31307bcd8f84100c908ee480da5990f6520d7767a76eb6254f5d",
+      "tokens": [],
+      "tags": [],
+      "source_empty": false
+    },
+    "Keyed|YART_Settings_StoredResearchCompat": {
+      "source_hash": "01d6468327e73cd2f3695fbcd6facf0e2f4b6bb465109514b69fdbc67a66176e",
+      "tokens": [],
+      "tags": [],
+      "source_empty": false
+    },
+    "Keyed|YART_Settings_StoredResearchCompatDesc": {
+      "source_hash": "10931d1fbac87df006b0fab37dd63f72e80cedeadbe894480e9921199b3f5175",
+      "tokens": [],
+      "tags": [],
+      "source_empty": false
+    },
+    "Keyed|YART_Settings_StoredResearchDetected": {
+      "source_hash": "51cb1281ff2f7300044b0547c95a37fffe7907989f8b0a52505a3d66d5112f9a",
+      "tokens": [],
+      "tags": [],
+      "source_empty": false
+    },
+    "Keyed|YART_Settings_StoredResearchNotDetected": {
+      "source_hash": "425637132859c3e1239800b0730d4df1cf3d78771d9d599add86c493db582e98",
+      "tokens": [],
+      "tags": [],
+      "source_empty": false
+    }
+  }
+}

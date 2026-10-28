@@ -1,0 +1,216 @@
+{
+  "schema_version": 1,
+  "package_id": "seohyeon.yart",
+  "checked_at": "2026-10-28T10:53:32+00:00",
+  "target_version": "1.7",
+  "original_declared_versions": [
+    "1.6",
+    "1.7"
+  ],
+  "translation_rows": 30,
+  "static_source_rows": 109,
+  "current_native_rows": 79,
+  "input_file_set_and_sha256": "unchanged; includes new/removed file comparison",
+  "checked_source_input_count": 6,
+  "source_input_hashes": {
+    "1.7/Assemblies/0MultiplayerAPI.dll": "863766df5fd24a31eda1e59947f026abd5b8dc99cb0d7bca6a8a3d356b65ad8d",
+    "1.7/Assemblies/YART.dll": "e63ef12c412fea22afd40539db16f6c2fda0af352fd8b7686efc6115798e05a8",
+    "About/About.xml": "46e828b1f1aac6e927ad44b43b6695b42de4b2ea899ca52aff475f2751508be0",
+    "Defs/LetterDefs/YART_Letters.xml": "edea04350eee91f905a600c99e2af36a39c164dc86aa4b1b8c21be4fe4ef6b90",
+    "Languages/English/Keyed/YART.xml": "32fe0f5927634acc8fc86358fceeb0dc3362eae728ad6c078d2dcc646dfb9e90",
+    "Languages/Russian (Русский)/Keyed/YART.xml": "5f6351497b6f2883176cf38dc1998af0f21a5061c44f2b6cf46d25e18dac9d88"
+  },
+  "excluded_native_keys": [
+    {
+      "id": "Keyed|YART_SemiRandomActive",
+      "reason": "Original already supplies this key; preserve the original, including unchanged published mod brands"
+    }
+  ],
+  "linguistic_review": "Every selected EN/RU pair read by OpenAI Codex for meaning, grammar and terminology; unchanged existing translation retained",
+  "ai_assisted": true,
+  "human_review_claimed": false,
+  "fresh_game_test": false,
+  "no_original_resources_copied": true,
+  "payload_file_hashes": {
+    "About/About.xml": "8f1e1320b99b0acc5f1e1399cdce9120014f084664a0bb2d726c648342b5e0c7",
+    "About/Credits.txt": "8809bdd417dbfd85ba75ae705abef71c1eb933c38e6f7af474dbd62d23af826f",
+    "About/License.txt": "fa1ae257ec83d4f91fddcd06f02eb3f5806cc41d960b2bf287db70c7a529a8ec",
+    "Languages/Russian/Keyed/AdditionalRussian.xml": "d0eb00749edd1465f4291613b381d526dfb4663eb8b01ef41c86d6788d77c645"
+  },
+  "native_overlap_keys": [],
+  "translation_source_file_sha256": "93a9725621fcfe4531aa7fb05d8c54f806b6e09dd184246e1cadcc82d0dc0b4c",
+  "snapshot_source_file_sha256": "5188a33f8e37eb006d8c770bdc70541de4b8e6131fcb35abd9a076111e21b554",
+  "duplicate_scope": "Targeted web/Workshop discovery found no separate current YART Russian supplement; current original contains 79 of 109 Keyed entries, and this package supplies exactly the 30 absent entries.",
+  "source_strings_checked": [
+    {
+      "id": "Keyed|YART_OpenSettings",
+      "source_sha256": "fe393f63ee0f38559d34d76fa014a4b992f893366295ff81bb1cf71df88de76b",
+      "translation_sha256": "4ef3277bf0540ef0977a6435ccbc3f02a7eece4c71b6f8725b567197296710c6"
+    },
+    {
+      "id": "Keyed|YART_Settings_ColorEraHeader",
+      "source_sha256": "af868b6d1176d84f4b7a6374e982b3585a8c4ffdedb7fb9370866fcd7d85ad64",
+      "translation_sha256": "4438c86699c83d0a7472137b4e81127a8eb69742a1de4746a9b9d178a8cefd15"
+    },
+    {
+      "id": "Keyed|YART_Settings_ColorPrereqHeader",
+      "source_sha256": "c4076228bb914b2f9f26dcb4b763b08af2ad90624109db44bb968c72dd610f79",
+      "translation_sha256": "213f7810ea24fe1724a7845756c90558ca88c963f9b935ac6001da6f95fd490c"
+    },
+    {
+      "id": "Keyed|YART_Settings_ColorPrereqMet",
+      "source_sha256": "f414ae66800dd2bcd722b285482804c2fd7173bea87db36b3938dee7698acc90",
+      "translation_sha256": "ad13c7ec0dffbb6dabea867a8c082e5b1a36c04c4cf4e00b438d4a9a0c8240c4"
+    },
+    {
+      "id": "Keyed|YART_Settings_ColorPrereqUnmet",
+      "source_sha256": "1657e3706bfc5106c57e607b23acf70a399ff42d7872c284d2c457d23cfed6d0",
+      "translation_sha256": "20449d9834ed4cfbb1b60a520dde8f43ecd0227a889475d159e8297c8ad238cc"
+    },
+    {
+      "id": "Keyed|YART_Settings_ColorPreset_default",
+      "source_sha256": "21b111cbfe6e8fca2d181c43f53ad548b22e38aca955b9824706a504b0a07a2d",
+      "translation_sha256": "fd0560ebbf83d2d5ba8eb50fb92f53b241e9049093b4eaa9a553c391f2567d10"
+    },
+    {
+      "id": "Keyed|YART_Settings_ColorPreset_highContrast",
+      "source_sha256": "415a8336713e6a3bb61660818c7ae7691e2246b94bcbc61a3f92dd33408d5488",
+      "translation_sha256": "625af24b9a32dc4637f6efaeaf8b36c0159a8d15cdcbf94d73c5798a0e5a286d"
+    },
+    {
+      "id": "Keyed|YART_Settings_ColorPreset_lumOrdered",
+      "source_sha256": "c903f3bf286091aa5c2d60dd892332c184d89abfb809ad3f7dc21152e77a17d1",
+      "translation_sha256": "f41cc89c014269f79a0780decef3ed007c0d265f21751e6e3c3e877d402128a1"
+    },
+    {
+      "id": "Keyed|YART_Settings_GroupClusterByTab",
+      "source_sha256": "c15021fe88a557675e1a9ff0e230a2a0a58359b210c9aefbb7a23f2b7aebcb91",
+      "translation_sha256": "fe90f0c7af3495654c1773a107f94212fa3d9b14d0f0c228bd3ab8ad07600a2a"
+    },
+    {
+      "id": "Keyed|YART_Settings_GroupClusterByTabDesc",
+      "source_sha256": "312639afe00406138231a89b258da221eea6d2fecd62c6cffdfd6f695d14466b",
+      "translation_sha256": "e816596aebd8495aad482700a2673aa064585e1678437051f453593a9ff001b8"
+    },
+    {
+      "id": "Keyed|YART_Settings_HiddenPrereqs",
+      "source_sha256": "cb052af5ea256435639468a913925228128d13b5c50f37ddb86e2493833629b4",
+      "translation_sha256": "b3e467a5ce5d8dcdcdf4a009b02fbe69090949ad7bf24c489b9f2d26e6806457"
+    },
+    {
+      "id": "Keyed|YART_Settings_HiddenPrereqsDesc",
+      "source_sha256": "f6f43a21611b9e87ffb15e8ce0c32414880f3831bfeb54e9dfa6b9846d9e5417",
+      "translation_sha256": "010523560997f95c031cdfb9b7116d254ac02c66be7ec58234a6f271915ce394"
+    },
+    {
+      "id": "Keyed|YART_Settings_PauseOnOpen",
+      "source_sha256": "22c4637b8731f58f09e1445392e10498cf9fb23af9324833be6dc3bfda1bd480",
+      "translation_sha256": "176ad5bb92918f98d435d225eb440c7fc8da38afd86ed57da15b87940120d5c3"
+    },
+    {
+      "id": "Keyed|YART_Settings_PauseOnOpenDesc",
+      "source_sha256": "79aa518dbb99c978d11f7b10fd810a12b525bf907ab2cef29012c13ee5f92e1c",
+      "translation_sha256": "ccc2d6b6352b661d3e5dc15041346aa7509eee9b7548d9081040eaee67d1805b"
+    },
+    {
+      "id": "Keyed|YART_Settings_RebuildNeeded",
+      "source_sha256": "a5f0d6bccc907d391190ff09ba3c224b63b02a196cda3df0a486b3c294304e45",
+      "translation_sha256": "d9928b611e37a554d9d63ddc1f2ea7df3d843f01144ade38a1496dbc8480d8dc"
+    },
+    {
+      "id": "Keyed|YART_Settings_Section_Behavior",
+      "source_sha256": "edf8d3f1781f32f09359cd09dfcf6ef8a0b8cffed76cb50ac52d2a4b8948b150",
+      "translation_sha256": "132b8f4355bf28ad2132a3c8a7fd05a07eba4af1db8a2c0e73f194d467c45e62"
+    },
+    {
+      "id": "Keyed|YART_Settings_Section_Colors",
+      "source_sha256": "88c45d9e526c08dd7f8b9d1d3ab96a72d68205232090be5da57e05251bfea650",
+      "translation_sha256": "88e76bdb0cb836f7cf0adb7fb01321b74826f2652fc950c15c120593ee11e853"
+    },
+    {
+      "id": "Keyed|YART_Settings_Section_Compat",
+      "source_sha256": "b37ddf1f6e0fac69414c5ed7f6e65f8f0a7ea1922afd602483392d695ee92065",
+      "translation_sha256": "79b5bfb4673a1ee69f351d0d0ec457d8c50a3a85a31776b91e4b3f2e7dbb0586"
+    },
+    {
+      "id": "Keyed|YART_Settings_Section_Display",
+      "source_sha256": "34e108c0896d0158ca4f2797d4f12a143943803be2151aa5d2136ea1bcd9a468",
+      "translation_sha256": "205c4b9ed4135e3fd3b73bd771325f16f1c3e583f3c14c29ad4ec5386abd5692"
+    },
+    {
+      "id": "Keyed|YART_Settings_Section_Maintenance",
+      "source_sha256": "17ccfa5b681e3e7b293165981520187dfe2c3d5d610669735da1c9ea0421d55d",
+      "translation_sha256": "2c781b543593ad8f803f2b50988750c21675d6ce566973c44bfeb14a647b9293"
+    },
+    {
+      "id": "Keyed|YART_Settings_SemiRandomCompat",
+      "source_sha256": "87094b37755bb1695247a6f6daaedabe1fd12616db995c541def6ed85f4aa490",
+      "translation_sha256": "b703a39447c7ae3f687688634c90ecc0cfe7a2921ccd1d6855f80670d25c0b57"
+    },
+    {
+      "id": "Keyed|YART_Settings_SemiRandomCompatDesc",
+      "source_sha256": "ee3a955d8616fd87994c61a7655b7e2c164eb3b2a95befd30a1d9bb2f79a1949",
+      "translation_sha256": "6bd022444bd7b44f3874318fe5e8f0fdfd44ba413225a0034ba61952bde8cff1"
+    },
+    {
+      "id": "Keyed|YART_Settings_SemiRandomDetected",
+      "source_sha256": "c39e3e5c1c887a9886ec633847e70cd95d2a4e343f202d8138f35f91f2e051d2",
+      "translation_sha256": "b25a7fdd4ba40e26ea59ea7ba5651a9f732c97fbfb6a469ca3635dbffe4e6b02"
+    },
+    {
+      "id": "Keyed|YART_Settings_SemiRandomNotDetected",
+      "source_sha256": "575a5777a30e8107bb48b45ef63e1ca6c733593d1fdaff09bda9b91c6bac095b",
+      "translation_sha256": "da70bfe981a70ab0ac6228a27713e0182a687e97a5e5251d21e3d40fe7ae62dc"
+    },
+    {
+      "id": "Keyed|YART_Settings_ShowSourceIcon",
+      "source_sha256": "660b7f7da7cc9c61f67e55f163a1b0b69a3299fa179c9bba007bfb2cd344a576",
+      "translation_sha256": "16678561d84470559d42534b9aa487e5e54d53e22fc27873abab79f71d50f489"
+    },
+    {
+      "id": "Keyed|YART_Settings_ShowSourceIconDesc",
+      "source_sha256": "c878bc48642a31307bcd8f84100c908ee480da5990f6520d7767a76eb6254f5d",
+      "translation_sha256": "dd0eabd7e91cbbc7d94ae13fde8194b49e62497d8ab84a3ea179b4172079b64b"
+    },
+    {
+      "id": "Keyed|YART_Settings_StoredResearchCompat",
+      "source_sha256": "01d6468327e73cd2f3695fbcd6facf0e2f4b6bb465109514b69fdbc67a66176e",
+      "translation_sha256": "1edb3cf4b626309870c26f39eeda18a5fb3e976a8a162ccfde64045b84070837"
+    },
+    {
+      "id": "Keyed|YART_Settings_StoredResearchCompatDesc",
+      "source_sha256": "10931d1fbac87df006b0fab37dd63f72e80cedeadbe894480e9921199b3f5175",
+      "translation_sha256": "614d254fe12fbd4515dbf468faab9bacc0e360a692b37cb63489c45def1ef338"
+    },
+    {
+      "id": "Keyed|YART_Settings_StoredResearchDetected",
+      "source_sha256": "51cb1281ff2f7300044b0547c95a37fffe7907989f8b0a52505a3d66d5112f9a",
+      "translation_sha256": "aae1193b94b61b60ee5dfafc2f45c60439763312012560f693167046d376d0b6"
+    },
+    {
+      "id": "Keyed|YART_Settings_StoredResearchNotDetected",
+      "source_sha256": "425637132859c3e1239800b0730d4df1cf3d78771d9d599add86c493db582e98",
+      "translation_sha256": "bc0af07c02515f5e59c80ddfd70696b297a9ee3c517c098b7cc1ac392cded3ea"
+    }
+  ],
+  "review_refinements": [
+    {
+      "id": "Keyed|YART_Settings_RebuildNeeded",
+      "reason": "Match exact existing upstream Russian caption YART_Settings_Rebuild («Перестроить граф исследований»), so the hint names the actual button.",
+      "previous_text": "Изменения пока не применены. Нажмите ниже «Перестроить дерево исследований».",
+      "reviewed_text": "Изменения пока не применены. Нажмите ниже «Перестроить граф исследований».",
+      "authoritative_local_record_unchanged": true
+    }
+  ],
+  "file_hashes": {
+    "About/About.xml": "8f1e1320b99b0acc5f1e1399cdce9120014f084664a0bb2d726c648342b5e0c7",
+    "About/Credits.txt": "e84acef87838f3e90e55e109df5c55e1d689e560c3c90fc4b3416e0568852aa0",
+    "About/License.txt": "fa1ae257ec83d4f91fddcd06f02eb3f5806cc41d960b2bf287db70c7a529a8ec",
+    "About/Preview.png": "a152237abed89d4ad7ed4b19e7147e2e3bf2b7b69120f41f56e3c6b80c631edd",
+    "Languages/Russian/Keyed/AdditionalRussian.xml": "d0eb00749edd1465f4291613b381d526dfb4663eb8b01ef41c86d6788d77c645"
+  },
+  "payload_sha256": "0243c86c98538bca31d8f4c9fd43ccf20ddcb45641cf2d0e02c94df0b037932d",
+  "actual_game_test": "game-test-evidence.json",
+  "fresh_in_game_test": true,
+  "gameplay_tested": false
+}

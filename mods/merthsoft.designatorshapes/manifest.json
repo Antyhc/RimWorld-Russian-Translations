@@ -14,39 +14,48 @@
       "attribution": "Original mod: Designator Shapes by merthsoft\nSource: https://github.com/merthsoft/designator-shapes\nRussian text: Antyhc; AI-assisted authoring and review by OpenAI Codex, 2026.\nTranslation contributed under Unlicense.\nNo independent human proofreading or fresh game test claimed.\nNo original code, assemblies, textures or artwork included.\n",
       "required_notice_files": {
         "About/License.txt": "6b0382b16279f26ff69014300541967a356a666eb0b91b422f6862f6b7dad17e",
-        "About/Credits.txt": "9ea1acfb1d9dc5a5e67b92da0d04b39438a741da2035ca2b2e5a9017f8fc3fa0"
+        "About/Credits.txt": "bdff83f0f5b1b356c1f2c5d1ce8b73e3648dd9e6d2a3e96cc6cf7c2339b3319a"
       }
     },
     "icon": {
-      "status": "unknown",
-      "license": null,
-      "evidence": null,
-      "attribution": null,
-      "reason": "No original artwork redistributed; separate consent is required for third-party Workshop cover art",
-      "permission_requested": true,
-      "request_url": "https://github.com/merthsoft/designator-shapes/pull/15",
-      "requested_at": "2026-10-28",
-      "permission_received": false
+      "kind": "original_typographic_fallback",
+      "status": "confirmed",
+      "license": "MIT",
+      "evidence": "scripts/make_original_cover.py; user-authorized original design2026-10-28",
+      "attribution": "Original typographic cover by Antyhc; rendered locally without original mod artwork",
+      "source_sha256": "ccc66de90008689f46d6f79d7601f44d9083b24195cf60bd60f16f3a27c2dacf",
+      "preview_sha256": "ccc66de90008689f46d6f79d7601f44d9083b24195cf60bd60f16f3a27c2dacf",
+      "original_mod_art_used": false
     }
   },
   "qa": {
     "technical": "passed",
     "linguistic": "ai_reviewed",
     "source_current": true,
-    "in_game": "not_tested",
-    "checked_at": "2026-10-28T09:22:32+00:00",
-    "source_checked_at": "2026-10-28T09:22:32+00:00",
-    "payload_sha256": "401e8d56f15126be43fb2ac5095909cc346648f9f0d6da5da5dd89918482695f",
+    "in_game": "passed",
+    "checked_at": "2026-10-28T10:40:54+00:00",
+    "source_checked_at": "2026-10-28T10:40:54+00:00",
+    "payload_sha256": "ac2cea689ea113ceb1a73ec5162b0d5e925b2bbe7dd97e2a3a087b5c721d9ef8",
     "source_snapshot_sha256": "2260b8c64f84d375f957eb82ab309a7c85d3c9301771ef9ddefd0df493056f11",
     "evidence": "qa-evidence.json",
-    "coverage": "208 current upstream localization/DrawStyle keys"
+    "coverage": "208 current upstream localization/DrawStyle keys",
+    "game_evidence": "game-test-evidence.json",
+    "game_test_scope": "Actual isolated game load, all264expectedlanguagevalues/physicalDeffields and foursettingswindows; no colony or long gameplay session",
+    "gameplay_tested": false,
+    "workshop_install_tested": true
   },
   "publication": {
     "github_url": "https://github.com/Antyhc/RimWorld-Russian-Translations/tree/main/mods/merthsoft.designatorshapes",
     "github_status": "published",
-    "workshop_url": null,
-    "workshop_id": null,
-    "workshop_status": "held_rights_and_duplicate_review"
+    "workshop_url": "https://steamcommunity.com/sharedfiles/filedetails/?id=3828790605",
+    "workshop_id": "3828790605",
+    "workshop_status": "published",
+    "dependency_verified": true,
+    "anonymous_page_verified": true,
+    "published_at": "2026-10-28T10:41:57.571700+00:00",
+    "collection_id": "3828791160",
+    "collection_member_verified": true,
+    "installation_tested": true
   },
   "integration": {
     "status": "pr_submitted",
@@ -93,7 +102,7 @@
     "native_russian_rows_in_snapshot": 0,
     "third_party_candidates": [],
     "coverage_scope": "saved_static_extraction_lower_bound; not complete runtime coverage",
-    "checked_at": "2026-10-28T09:15:27.268425+00:00",
+    "checked_at": "2026-10-28T10:30:30.068317+00:00",
     "original_license_evidence": [
       {
         "relative_path": "LICENSE",
@@ -109,14 +118,19 @@
       "status": "issues_found",
       "issue_count": 2,
       "new_files_outside_saved_source_inventory_checked": false
-    }
+    },
+    "work_stage": "installed_local",
+    "saved_translation_store": true
   },
   "duplicate_translation": {
-    "status": "standalone_not_cleared",
-    "scope": "No Russian files or Russian PRs found in current official upstream; third-party Workshop coverage requires further evaluation",
+    "status": "checked_no_current_equivalent",
+    "scope": "Direct downloaded comparison of3128857702:88of208keys overlap;120currentkeys missing. Independent original-authored translation, no third-party text copied.",
     "candidates": [
       "https://steamcommunity.com/sharedfiles/filedetails/?id=3128857702"
-    ]
+    ],
+    "checked_at": "2026-10-28T10:33:04.486040+00:00",
+    "existing_pack_current_key_coverage": 88,
+    "current_keys_missing": 120
   },
   "monitor": {
     "github_tree": {
@@ -124,5 +138,17 @@
       "ref": "main",
       "baseline_file": "source.tree.json"
     }
-  }
+  },
+  "original_art_permission_request": {
+    "status": "unknown",
+    "license": null,
+    "evidence": null,
+    "attribution": null,
+    "reason": "No original artwork redistributed; separate consent is required for third-party Workshop cover art",
+    "permission_requested": true,
+    "request_url": "https://github.com/merthsoft/designator-shapes/pull/15",
+    "requested_at": "2026-10-28",
+    "permission_received": false
+  },
+  "work_stage": "installed_local"
 }

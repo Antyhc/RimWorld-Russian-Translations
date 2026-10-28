@@ -1,0 +1,111 @@
+{
+  "schema_version": 1,
+  "package_id": "memegoddess.smartmedicine",
+  "checked_at": "2026-10-28T10:53:32+00:00",
+  "target_version": "1.7",
+  "original_declared_versions": [
+    "1.1",
+    "1.2",
+    "1.3",
+    "1.4",
+    "1.5",
+    "1.6",
+    "1.7"
+  ],
+  "translation_rows": 7,
+  "static_source_rows": 55,
+  "current_native_rows": 48,
+  "input_file_set_and_sha256": "unchanged; includes new/removed file comparison",
+  "checked_source_input_count": 22,
+  "source_input_hashes": {
+    "1.1/Defs/TempFieldTendingSpot.xml": "e64ba34bc5918ffa1f17771c19ad81ec90e0adc87cd085150c9dd22aeb7d6284",
+    "1.2/Languages/Russian/DefInjected/JobDef/SmartMedicineDefs.xml": "ec4a80282cfaeabe88c0205291a4ef44ec7cf6964979a95ebecf4116ca22489c",
+    "1.2/Languages/Russian/DefInjected/PawnColumnDef/SmartMedicineDefs.xml": "569b6e88eb62107cd0db22f4a1d0c3f75d349089f99c7b96e98ffce0c260c76e",
+    "1.2/Languages/Russian/DefInjected/ThingDef/SmartMedicineDefs.xml": "3af51c96806577ef69d0acda250631274200de87559de8274d2010b284f97a42",
+    "1.2/Languages/Russian/Keyed/AutoEnglish.xml": "5de901a30dc873f94f5f980578ff9d3a80ee544ebc5f2b4d6d61a70058b99bae",
+    "1.2/Languages/Russian/LanguageInfo.xml": "f90df0eb0e483e407cda51c85de87293a6cd7bd8e30bec7bff356b812ffa764c",
+    "1.3/Languages/Russian/Keyed/AutoEnglish.xml": "889df9f979b505410d95101bdbae91f83dcc463b82051c28197b4b37fcc3bd30",
+    "1.4/Languages/Russian/Keyed/AutoEnglish.xml": "889df9f979b505410d95101bdbae91f83dcc463b82051c28197b4b37fcc3bd30",
+    "1.5/Patches/SmartMedicinePatches.xml": "63bf76803a7a135cb87f3fad1880a067e811eb6319abb584234fe52f91954a36",
+    "1.7/Assemblies/SmartMedicine.dll": "db747f66b7b7ddb92366b0b7a8575d5d645bbe222b01c1f7aa85defc52ad05e3",
+    "1.7/Defs/CombatExtendedJobDefs.xml": "61be909df781f17b292ff69b19f9b562790b3db3051df72ac3f79c9e4388191e",
+    "About/About.xml": "26499a76bc1666dde46a2d910d85a46e301f400b8fef5100a999dc083e856bde",
+    "Defs/SmartMedicineDefs.xml": "e2ec3d4af7f1a36defecc31af25ba97b6165cb080598ab5f2f7fba5b120d4df2",
+    "Defs/UnlimitedSurgeryColumnDefs.xml": "f54ed83a542a3dbc344101c569945e50aa804f938486ad54e2d669fb91fd3106",
+    "Languages/English/Keyed/AutoEnglish.xml": "691dc40f9c8c164932252463e3b13a13a7c8170a0f948b8b59739975cf1b1258",
+    "Languages/Russian/DefInjected/JobDef/SmartMedicineDefs.xml": "ec4a80282cfaeabe88c0205291a4ef44ec7cf6964979a95ebecf4116ca22489c",
+    "Languages/Russian/DefInjected/PawnColumnDef/SmartMedicineDefs.xml": "569b6e88eb62107cd0db22f4a1d0c3f75d349089f99c7b96e98ffce0c260c76e",
+    "Languages/Russian/DefInjected/ThingDef/SmartMedicineDefs.xml": "3af51c96806577ef69d0acda250631274200de87559de8274d2010b284f97a42",
+    "Languages/Russian/Keyed/AutoEnglish.xml": "bdc95149a646484f99f4f930d6d83510880694c5470460b383ab3b45d0753c12",
+    "Languages/Russian/LanguageInfo.xml": "f90df0eb0e483e407cda51c85de87293a6cd7bd8e30bec7bff356b812ffa764c",
+    "LoadFolders.xml": "7f3b571380d72ef425d0963aed57522bbba349875061612aafedf38b6bd7b7c4",
+    "Patches/UnlimitedSurgeryAssignTab.xml": "68a3df149223ede7b591b405e3b6b7b4a6c831a6d920b68840f333c6ddf9577c"
+  },
+  "excluded_native_keys": [],
+  "linguistic_review": "Every selected EN/RU pair read by OpenAI Codex for meaning, grammar and terminology; unchanged existing translation retained",
+  "ai_assisted": true,
+  "human_review_claimed": false,
+  "fresh_game_test": false,
+  "no_original_resources_copied": true,
+  "payload_file_hashes": {
+    "About/About.xml": "76b100892f969e02a4e0369e53805f3745942298cc869c0eb76a7e69824b61a5",
+    "About/Credits.txt": "6f03f6b432c61780bc13ea0f1825246b0ba2acb8d232fcaeb88aa1191d39de87",
+    "About/License.txt": "e69e87a7827a03c1148319d8b345281a9062de2fcd908885b3aee23aa04d1342",
+    "Languages/Russian/DefInjected/WorkGiverDef/AdditionalRussian.xml": "3024a80213be9a340563eb7acb922f5fabddc291213513e2321a8dd9b7dcee9a",
+    "Languages/Russian/Keyed/AdditionalRussian.xml": "4d86b4aecaa37c191b98147a690e6654d66bf9305d9a56097bad1461c44d0e12"
+  },
+  "native_overlap_keys": [],
+  "translation_source_file_sha256": "2a554974c39863a1b1e8b2b00ffb46e7dcba1425f20cf0685e210dbfe9c3b190",
+  "snapshot_source_file_sha256": "b11936b183042f979998a8e22daf9c7e9b395c01daaec0c5bd37a2bbee27e632",
+  "duplicate_scope": "Current original Russian and directly downloaded historical Workshop Russian pack2192438652 each contain48 native entries; all seven proposed supplementary keys are absent from both. No third-party text imported; standalone supplement supplies only the seven uncovered entries.",
+  "source_strings_checked": [
+    {
+      "id": "DefInjected|WorkGiverDef|SmartMedicineStabilize.gerund",
+      "source_sha256": "befcaaca40ca6fd39855f2fc5008fccd016705962f24bf8b259d12aa1e6b26e4",
+      "translation_sha256": "b05078d88b6cbe25e9a6be3c85a20ab2364a29d9ddb9bf8397d93da5c2a4ccdc"
+    },
+    {
+      "id": "DefInjected|WorkGiverDef|SmartMedicineStabilize.verb",
+      "source_sha256": "befcaaca40ca6fd39855f2fc5008fccd016705962f24bf8b259d12aa1e6b26e4",
+      "translation_sha256": "68db379bf04bb568552cb168dd2a157e52ee7a689c48d68eef0fd8a392739b27"
+    },
+    {
+      "id": "Keyed|TD.Encumbered",
+      "source_sha256": "b202ed35c97590189d713b375a4de252e9d13c729cd23645d07d55060a65989e",
+      "translation_sha256": "1fea5a8175407d6e0aab2208aae75cbacd92f55aa0f6275bce59a7bbbcd8f76b"
+    },
+    {
+      "id": "Keyed|TD.NiceHealthTab.Optimize",
+      "source_sha256": "299bbc4d8d8b5c0a02db9a954547020c893d7b9a9cd0a64ed8d85525ff149630",
+      "translation_sha256": "0324b93ab62d01da9c4c9064202dc6f50984cb5ab84fd556f88fdfe784c92b83"
+    },
+    {
+      "id": "Keyed|TD.NiceHealthTab.OptimizeDesc",
+      "source_sha256": "9bf7a613755ef93f288cb3585aa3c6a5f252bc5d6130a24cd8a8bf0d3533ae4f",
+      "translation_sha256": "e67ab613885dd3b0994aeac8a28615d0d3dde7000065341c8dcb34629c5b23bc"
+    },
+    {
+      "id": "Keyed|TD.SettingFieldTendingIfDying",
+      "source_sha256": "566f96f9917d956cab2d7c1488128442034c1a62924507d123512092a938036e",
+      "translation_sha256": "285bd7da9e5360a41c97f9f11cd27890c132329a68f8f9be224f837aeb516dd5"
+    },
+    {
+      "id": "Keyed|TD.StockAnythingWithoutDev",
+      "source_sha256": "f99f4972e317bfd10732658a1dcfbca1853af9ed6785acb400bf4c99ffbd5f00",
+      "translation_sha256": "579773f5f4ffdc0815591f4c3c680078c087ba04e46a1da506c4c954fd74e3e3"
+    }
+  ],
+  "direct_third_party_gap_check": "all seven absent from current downloaded2192438652",
+  "file_hashes": {
+    "About/About.xml": "76b100892f969e02a4e0369e53805f3745942298cc869c0eb76a7e69824b61a5",
+    "About/Credits.txt": "3a5c43728891c4751d31ff8d7a65f54392522cd24983dbe71babc3d309e6079a",
+    "About/License.txt": "e69e87a7827a03c1148319d8b345281a9062de2fcd908885b3aee23aa04d1342",
+    "About/Preview.png": "c7d6a5fe32a052f6dec3d4e34b3fc033810c46ac156018e23655ec7ace53b60c",
+    "Languages/Russian/DefInjected/WorkGiverDef/AdditionalRussian.xml": "3024a80213be9a340563eb7acb922f5fabddc291213513e2321a8dd9b7dcee9a",
+    "Languages/Russian/Keyed/AdditionalRussian.xml": "4d86b4aecaa37c191b98147a690e6654d66bf9305d9a56097bad1461c44d0e12"
+  },
+  "payload_sha256": "3363565a52d8e6c139300eada2ac40fdc1961bcdbcbd83a282c7214b1f408dd0",
+  "actual_game_test": "game-test-evidence.json",
+  "fresh_in_game_test": true,
+  "gameplay_tested": false
+}

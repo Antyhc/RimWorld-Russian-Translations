@@ -4,9 +4,9 @@
   <author>Antyhc (AI-assisted with OpenAI Codex)</author>
   <packageId>antyhc.russian.unon.noburnmetal</packageId>
   <url>https://github.com/Antyhc/RimWorld-Russian-Translations</url>
-  <description>Русский перевод No Burn Metal. Оригинал: Unon. Оригинальный мод обязателен; загрузите перевод после него. Перевод подготовлен и вычитан с помощью ИИ. XML и соответствие текущим исходникам проверены; свежий тест в игре не проведён.
+  <description>Русский перевод No Burn Metal. Оригинал: Unon. Оригинальный мод обязателен; загрузите перевод после него. Перевод подготовлен и вычитан с помощью ИИ. XML и соответствие текущим исходникам проверены; статус игровых проверок указан в реестре.
 
-Russian localization of No Burn Metal; original author: Unon. Requires the original mod, loaded before this translation. AI-assisted translation and semantic review. XML and current upstream source checks passed; no fresh in-game test.
+Russian localization of No Burn Metal; original author: Unon. Requires the original mod, loaded before this translation. AI-assisted translation and semantic review. XML and current upstream source checks passed; game-test scope is recorded in the registry.
 https://github.com/Antyhc/RimWorld-Russian-Translations</description>
   <supportedVersions>
     <li>1.7</li>

@@ -1,0 +1,104 @@
+{
+  "schema_version": 1,
+  "package_id": "erdelf.humanoidalienraces",
+  "name": "Humanoid Alien Races",
+  "translation_package_id": "antyhc.russian.erdelf.humanoidalienraces",
+  "supported_versions": [
+    "1.7"
+  ],
+  "original": {
+    "author": "erdelf",
+    "workshop_id": "839005762",
+    "workshop_url": "https://steamcommunity.com/sharedfiles/filedetails/?id=839005762",
+    "supported_versions": [
+      "0.19",
+      "1.0",
+      "1.1",
+      "1.2",
+      "1.3",
+      "1.4",
+      "1.5",
+      "1.6",
+      "1.7"
+    ],
+    "repository_url": null,
+    "repository_candidates": [
+      "https://github.com/erdelf/AlienRaces"
+    ],
+    "repository_verification": "not_remote_checked",
+    "activity": "not_remote_checked"
+  },
+  "rights": {
+    "translation": {
+      "status": "unknown",
+      "license": null,
+      "evidence": null,
+      "attribution": null
+    },
+    "icon": {
+      "status": "unknown",
+      "license": null,
+      "evidence": null,
+      "attribution": null
+    }
+  },
+  "qa": {
+    "technical": "pending",
+    "linguistic": "pending",
+    "source_current": false,
+    "in_game": "not_tested",
+    "checked_at": "2026-10-28T10:30:30.068317+00:00"
+  },
+  "publication": {
+    "github_url": "https://github.com/Antyhc/RimWorld-Russian-Translations/tree/main/mods/erdelf.humanoidalienraces",
+    "github_status": "metadata_only",
+    "workshop_url": null,
+    "workshop_id": null,
+    "workshop_status": "not_published"
+  },
+  "integration": {
+    "status": "not_sent",
+    "pr_url": null,
+    "contact_url": null
+  },
+  "work_stage": "reviewed_uninstalled",
+  "inventory": {
+    "saved_records": 0,
+    "historical_approved_records": 0,
+    "installed_locally": false,
+    "draft_work": {
+      "codex_tasks": 151,
+      "reviewed_codex_tasks": 151,
+      "local_model_tasks": 0,
+      "sources": [
+        "local-translation/20261027-codex/drafts.jsonl"
+      ],
+      "work_stage": "reviewed_uninstalled",
+      "historical_batch_runtime_verified_keys": 199,
+      "runtime_evidence": "reviews/20261028/final-managed-proof.json",
+      "runtime_scope": "Earlier isolated managed-batch load; not a test of a new standalone public payload"
+    },
+    "coverage_scope": "saved_static_extraction_lower_bound; not complete runtime coverage",
+    "native_russian_rows_in_snapshot": 0,
+    "checked_at": "2026-10-28T10:30:30.068317+00:00",
+    "provenance_counts": {},
+    "attribution_licenses": {},
+    "third_party_candidates": [],
+    "original_license_evidence": [
+      {
+        "relative_path": "license.md",
+        "sha256": "40e03e688ee74ce848d9dc22667cbf91a8b3fc9c5c0321704eed64b58d831731",
+        "identified_license": "MIT"
+      }
+    ],
+    "work_stage": "reviewed_uninstalled",
+    "local_static_audit": {
+      "checked_at": null,
+      "issue_kinds": [],
+      "status": "not_audited",
+      "issue_count": 0,
+      "new_files_outside_saved_source_inventory_checked": false
+    },
+    "saved_translation_store": false
+  }
+}

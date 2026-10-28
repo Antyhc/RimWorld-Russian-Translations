@@ -58,11 +58,11 @@
     "saved_records": 3378,
     "historical_approved_records": 3378,
     "provenance_counts": {
-      "community_translation_exact_english_match_static_qa": 2718,
+      "community_translation_exact_english_match_static_qa": 2716,
       "Canonical current English compared with prior Russian. Corrected literal phrasing and shaped-charge/rifled-slug terminology; original attribution retained.": 11,
+      "new_contextual_translation": 55,
       "contextual_bodypart_label_review": 371,
-      "contextual_manual_translation_ui_labels_and_commands": 225,
-      "new_contextual_translation": 53
+      "contextual_manual_translation_ui_labels_and_commands": 225
     },
     "attribution_licenses": {
       "unspecified": 2729
@@ -71,7 +71,7 @@
     "native_russian_rows_in_snapshot": 0,
     "third_party_candidates": [],
     "coverage_scope": "saved_static_extraction_lower_bound; not complete runtime coverage",
-    "checked_at": "2026-10-28T09:15:27.268425+00:00",
+    "checked_at": "2026-10-28T10:30:30.068317+00:00",
     "original_license_evidence": [],
     "local_static_audit": {
       "checked_at": "2026-10-28T09:16:16.204221+00:00",
@@ -81,6 +81,23 @@
       "status": "issues_found",
       "issue_count": 1,
       "new_files_outside_saved_source_inventory_checked": false
-    }
-  }
+    },
+    "draft_work": {
+      "codex_tasks": 11,
+      "reviewed_codex_tasks": 11,
+      "local_model_tasks": 40,
+      "sources": [
+        "local-translation/20261026/run-share95-20261027/drafts",
+        "local-translation/20261026/run/drafts",
+        "local-translation/20261027-codex/drafts.jsonl"
+      ],
+      "work_stage": "reviewed_uninstalled",
+      "historical_batch_runtime_verified_keys": 14,
+      "runtime_evidence": "reviews/20261028/final-managed-proof.json",
+      "runtime_scope": "Earlier isolated managed-batch load; not a test of a new standalone public payload"
+    },
+    "work_stage": "installed_local",
+    "saved_translation_store": true
+  },
+  "work_stage": "installed_local"
 }

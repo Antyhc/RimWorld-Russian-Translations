@@ -1,0 +1,37 @@
+{
+  "checked_at": "2026-10-28T10:40:54+00:00",
+  "game_version": "1.7.4990 rev1069",
+  "scope": "Actual isolated game load, all264expectedlanguagevalues/physicalDeffields and foursettingswindows; no colony or long gameplay session",
+  "expected": 264,
+  "matching": 264,
+  "missing": 0,
+  "base_game_localization_errors": 9,
+  "errors_identical_with_and_without_four_translations": true,
+  "translation_errors_added": 0,
+  "personal_config_unchanged": true,
+  "gameplay_tested": false,
+  "capture_sha256": "0c9fa2c18f95d6535663a902e4072160e04b2631e9efb841b70c0f28abad171d",
+  "baseline_capture_sha256": "6194e2dd170d09f56aea1036942574af7e204aa098b859434e9bfef80ae46816",
+  "request_sha256": "c69f2f3542390efb328d80e7de0dd54d3554ef7436d53e8fa9146470afb5d8ce",
+  "per_package": {
+    "unon.noburnmetal": 19,
+    "merthsoft.designatorshapes": 208,
+    "seohyeon.yart": 30,
+    "memegoddess.smartmedicine": 7
+  },
+  "package_id": "unon.noburnmetal",
+  "matched_entries": 19,
+  "payload_file_sha256": {
+    "About/About.xml": "14038c650fb8919cf8712beac03bc7c173dab81d1c791a3c82e76440d078de6f",
+    "About/Credits.txt": "f67761ce3074ee75516d4c7b81406be1589efcfe82806258d9cdd461ab4873a3",
+    "About/License.txt": "3972dc9744f6499f0f9b2dbf76696f2ae7ad8af9b23dde66d6af86c9dfb36986",
+    "About/Preview.png": "217f0aed80de72797d4f4095fbbbc3887e42b11ebd102b78606529776f9140a9",
+    "Languages/Russian/Keyed/NBM_Keys.xml": "f31c8c60c3bfdb7c2aea19e96734585bb957730f3502e2b604c35e3078a23d7e"
+  },
+  "payload_sha256": "3ac297d921fdc63ce53420f5ae40fd651275a2ca20ddcd21432cb4eed5cd44a6",
+  "workshop_install_verified": true,
+  "workshop_item_id": "3828790442",
+  "workshop_loaded_values": 19,
+  "workshop_capture_sha256": "bf163654a86544afce6fbacf47b640e1d6524c6a2382a657131c2282714dfd90",
+  "actual_source": "Steam subscribed Workshop cache; local duplicate archived before loading"
+}

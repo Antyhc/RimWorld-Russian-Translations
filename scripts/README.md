@@ -77,6 +77,19 @@ python scripts/rwtranslations.py tree-snapshot OWNER/REPO main mods/example.mod/
 
 The tree baseline contains `repository`, `ref`, `files` (repository-relative path → Git object SHA), plus optional provenance metadata. It must match the configured repository/ref and remain inside that mod directory. Whole-tree reports appear under `file_monitors`; a changed file requires impact review and is not reported as a changed translation string. Truncated API trees fail explicitly. Repositories shared by several translations are fetched once per monitor run. This can be combined with exact language-file/key monitoring; the key snapshot and repository tree baseline have different scopes.
 
+## Public Steam update metadata
+
+`python scripts/rwtranslations.py workshop-snapshot source.workshop.json` captures
+public update times, sizes and UGC content handles for every original Workshop ID
+discovered from the manifests, in batches of at most 50. This uses Valve's documented
+[GetPublishedFileDetails](https://partner.steamgames.com/doc/webapi/ISteamRemoteStorage#GetPublishedFileDetails)
+POST endpoint without API keys, cookies or account access. Creator SteamIDs,
+descriptions and resource URLs are discarded. The normal scheduled monitor compares
+these fields without downloading mods or replacing Russian text. An updated Workshop
+publication requires local source/key comparison and review; it grants no freshness
+or publication approval. Newly registered IDs without a baseline are reported explicitly.
+Keep the old baseline until changes are reviewed; capture a new one to a separate file.
+
 ## Covers
 
 `cover.py` uses the original pixels, dimensions and proportions. It adds one translucent bottom band and the word `RUSSIAN`. The original is never overwritten. It refuses unknown icon reuse/modification rights and requires a local bold TTF font path, allowing the same font to be used consistently. No cover should be generated from or published with an unlicensed original. Set `rights.icon.source_sha256` to the exact authorized original image hash. After generation, copy the reported `preview_sha256` into `rights.icon.preview_sha256`; release validation binds the cover bytes to this record.

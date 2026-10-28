@@ -64,6 +64,19 @@ class ProjectTests(unittest.TestCase):
         with self.assertRaisesRegex(ValueError, "translation_rights_unconfirmed"):
             rw.stage(self.root, "author.mod", self.root / "dist")
 
+    def test_steam_submission_does_not_claim_public_page_access(self):
+        self.mod["publication"] = {"workshop_id": "12345", "workshop_url": "https://steamcommunity.com/sharedfiles/filedetails/?id=12345", "workshop_status": "submitted_public_automatic_content_check", "anonymous_page_verified": False}
+        self.save()
+        counts = rw.registry(self.root)["counts"]
+        self.assertEqual(counts["workshop_submitted"], 1)
+        self.assertEqual(counts["workshop_published"], 0)
+        self.assertEqual(counts["workshop_content_check_pending"], 1)
+        self.mod["publication"].update(workshop_status="published", anonymous_page_verified=True)
+        self.save()
+        counts = rw.registry(self.root)["counts"]
+        self.assertEqual(counts["workshop_published"], 1)
+        self.assertEqual(counts["workshop_content_check_pending"], 0)
+
     def test_missing_attribution_blocks_release(self):
         del self.mod["rights"]["translation"]["attribution"]
         self.assertIn("translation_rights_unconfirmed", rw.validate_payload(self.folder, self.mod, True)[0])
@@ -318,6 +331,21 @@ class ProjectTests(unittest.TestCase):
         self.assertEqual(first["status"], "unchanged")
         self.assertEqual(second["status"], "unchanged")
         self.assertEqual(mocked.call_count, 1)
+
+    def test_saved_store_with_drafts_does_not_inflate_draft_only_count(self):
+        self.mod["inventory"] = {"saved_translation_store": True, "draft_work": {"codex_tasks": 3}}
+        self.save()
+        for package, scope in (("author.draft", {"saved_translation_store": False, "draft_work": {"local_model_tasks": 2}}),
+                               ("author.unknown", {"draft_work": {"codex_tasks": 1}})):
+            rw.write_json(self.root / "mods" / package / "manifest.json", {**self.mod, "package_id": package, "inventory": scope})
+        report = rw.registry(self.root)
+        self.assertEqual(report["counts"]["saved_store_records"], 1)
+        self.assertEqual(report["counts"]["draft_only_records"], 1)
+        self.assertEqual(report["counts"]["store_scope_unverified"], 1)
+        with patch.object(rw, "ROOT", self.root):
+            status = rw.status_markdown(report)
+        self.assertIn("1 saved-store records and 1 additional draft/review metadata records", status)
+        self.assertIn("1 records have unverified store scope", status)
 
 
 if __name__ == "__main__":

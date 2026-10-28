@@ -8,31 +8,55 @@
   ],
   "rights": {
     "translation": {
-      "status": "unknown",
-      "license": null,
-      "evidence": null,
-      "attribution": null
+      "status": "confirmed",
+      "license": "MIT",
+      "evidence": "https://steamcommunity.com/sharedfiles/filedetails/?id=3526251680",
+      "attribution": "Original mod: Smart Medicine - Continued by Uuugggg.\nOriginal Workshop: https://steamcommunity.com/sharedfiles/filedetails/?id=3526251680\nRussian supplement: Antyhc; AI-assisted authoring and semantic review by OpenAI Codex,2026.\nTranslation license: MIT. Original license notice is retained in License.txt.\nOriginal bundled Russian is not copied or overwritten. No original images, assemblies, code or textures redistributed.\n",
+      "required_notice_files": {
+        "About/License.txt": "e69e87a7827a03c1148319d8b345281a9062de2fcd908885b3aee23aa04d1342",
+        "About/Credits.txt": "3a5c43728891c4751d31ff8d7a65f54392522cd24983dbe71babc3d309e6079a"
+      }
     },
     "icon": {
-      "status": "unknown",
-      "license": null,
-      "evidence": null,
-      "attribution": null
+      "kind": "original_typographic_fallback",
+      "status": "confirmed",
+      "license": "MIT",
+      "evidence": "scripts/make_original_cover.py; user-authorized original design2026-10-28",
+      "attribution": "Original typographic cover by Antyhc; rendered locally without original mod artwork",
+      "source_sha256": "c7d6a5fe32a052f6dec3d4e34b3fc033810c46ac156018e23655ec7ace53b60c",
+      "preview_sha256": "c7d6a5fe32a052f6dec3d4e34b3fc033810c46ac156018e23655ec7ace53b60c",
+      "original_mod_art_used": false
     }
   },
   "qa": {
-    "technical": "pending",
-    "linguistic": "pending",
-    "source_current": false,
-    "in_game": "not_tested",
-    "checked_at": "2026-10-28T09:15:27.268425+00:00"
+    "technical": "passed",
+    "linguistic": "ai_reviewed",
+    "source_current": true,
+    "in_game": "passed",
+    "checked_at": "2026-10-28T10:40:54+00:00",
+    "source_checked_at": "2026-10-28T10:40:54+00:00",
+    "payload_sha256": "3363565a52d8e6c139300eada2ac40fdc1961bcdbcbd83a282c7214b1f408dd0",
+    "source_snapshot_sha256": "09a08c7b06edd6695b47debcb7c290bd0f3185083312b2eb93a1fbf2ca9d7223",
+    "evidence": "qa-evidence.json",
+    "coverage": "Missing static localization entries; original Russian preserved; runtime/C# discovery not claimed complete",
+    "game_evidence": "game-test-evidence.json",
+    "game_test_scope": "Actual isolated game load, all264expectedlanguagevalues/physicalDeffields and foursettingswindows; no colony or long gameplay session",
+    "gameplay_tested": false,
+    "workshop_install_tested": true
   },
   "publication": {
     "github_url": "https://github.com/Antyhc/RimWorld-Russian-Translations/tree/main/mods/memegoddess.smartmedicine",
-    "github_status": "metadata_only",
-    "workshop_url": null,
-    "workshop_id": null,
-    "workshop_status": "not_published"
+    "github_status": "published",
+    "workshop_url": "https://steamcommunity.com/sharedfiles/filedetails/?id=3828790822",
+    "workshop_id": "3828790822",
+    "workshop_status": "submitted_public_automatic_content_check",
+    "dependency_verified": true,
+    "anonymous_page_verified": false,
+    "published_at": "2026-10-28T10:42:32.878108+00:00",
+    "collection_id": "3828791160",
+    "collection_member_verified": true,
+    "installation_tested": true,
+    "availability_reason": "Owner Steam page explicitly reports temporary hiding during automated content inspection"
   },
   "integration": {
     "status": "not_sent",
@@ -70,7 +94,7 @@
     "native_russian_rows_in_snapshot": 47,
     "third_party_candidates": [],
     "coverage_scope": "saved_static_extraction_lower_bound; not complete runtime coverage",
-    "checked_at": "2026-10-28T09:15:27.268425+00:00",
+    "checked_at": "2026-10-28T10:30:30.068317+00:00",
     "original_license_evidence": [
       {
         "relative_path": "LICENSE.txt",
@@ -84,6 +108,33 @@
       "status": "no_detected_issues",
       "issue_count": 0,
       "new_files_outside_saved_source_inventory_checked": false
-    }
-  }
+    },
+    "draft_work": {
+      "codex_tasks": 1,
+      "reviewed_codex_tasks": 1,
+      "local_model_tasks": 0,
+      "sources": [
+        "local-translation/20261027-codex95/drafts.jsonl"
+      ],
+      "work_stage": "reviewed_uninstalled",
+      "historical_batch_runtime_verified_keys": 0,
+      "runtime_evidence": null,
+      "runtime_scope": "Earlier isolated managed-batch load; not a test of a new standalone public payload"
+    },
+    "work_stage": "installed_local",
+    "saved_translation_store": true
+  },
+  "duplicate_translation": {
+    "status": "checked_no_current_equivalent",
+    "scope": "Current original Russian and directly downloaded historical Workshop Russian pack2192438652 each contain48 native entries; all seven proposed supplementary keys are absent from both. No third-party text imported; standalone supplement supplies only the seven uncovered entries.",
+    "candidates": [
+      "https://steamcommunity.com/sharedfiles/filedetails/?id=2192438652"
+    ],
+    "checked_at": "2026-10-28T10:24:26.688862+00:00",
+    "existing_equivalent_key_count": 0,
+    "direct_download_evidence": "publication/session2-remote/smartmedicine-comparison.private.json"
+  },
+  "monitor": {},
+  "original_art_permission_request": null,
+  "work_stage": "installed_local"
 }

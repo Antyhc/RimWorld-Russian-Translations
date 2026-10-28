@@ -69,7 +69,7 @@
     "native_russian_rows_in_snapshot": 0,
     "third_party_candidates": [],
     "coverage_scope": "saved_static_extraction_lower_bound; not complete runtime coverage",
-    "checked_at": "2026-10-28T09:15:27.268425+00:00",
+    "checked_at": "2026-10-28T10:30:30.068317+00:00",
     "original_license_evidence": [],
     "local_static_audit": {
       "checked_at": "2026-10-28T09:16:15.937613+00:00",
@@ -79,6 +79,9 @@
       "status": "issues_found",
       "issue_count": 1,
       "new_files_outside_saved_source_inventory_checked": false
-    }
-  }
+    },
+    "work_stage": "installed_local",
+    "saved_translation_store": true
+  },
+  "work_stage": "installed_local"
 }

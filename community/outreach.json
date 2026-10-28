@@ -8,7 +8,16 @@
       "date": "2026-10-28",
       "status": "awaiting_response",
       "ai_disclosed": true,
-      "fresh_game_test_claimed": false
+      "fresh_game_test_claimed": true,
+      "head_sha": "cf5d3cc0f4f958c1558101d0be8ee0e3edd0c1b1",
+      "game_test": {
+        "version": "1.7.4990 rev1069",
+        "scope": "isolated load, expected Russian values and settings-window inspection; subscribed Workshop copy checked",
+        "matched_entries": 208,
+        "workshop_install_tested": true,
+        "gameplay_tested": false,
+        "independent_human_proofreading": false
+      }
     },
     {
       "package_id": "unon.noburnmetal",
@@ -17,7 +26,34 @@
       "date": "2026-10-28",
       "status": "awaiting_response",
       "ai_disclosed": true,
-      "fresh_game_test_claimed": false
+      "fresh_game_test_claimed": true,
+      "head_sha": "032a0aa1dd34477f1bd49ce7c964aaf2cc2dccb3",
+      "game_test": {
+        "version": "1.7.4990 rev1069",
+        "scope": "isolated load, expected Russian values and settings-window inspection; subscribed Workshop copy checked",
+        "matched_entries": 19,
+        "workshop_install_tested": true,
+        "gameplay_tested": false,
+        "independent_human_proofreading": false
+      }
+    },
+    {
+      "package_id": "seohyeon.yart",
+      "channel": "github_pull_request",
+      "url": "https://github.com/csh1668/YetAnotherResearchTree/pull/6",
+      "date": "2026-10-28",
+      "status": "awaiting_response",
+      "ai_disclosed": true,
+      "fresh_game_test_claimed": true,
+      "head_sha": "79d41e0f5f1356d122141050bed1d90035ab90e7",
+      "game_test": {
+        "version": "1.7.4990 rev1069",
+        "scope": "isolated load, expected Russian values and settings-window inspection; subscribed Workshop copy checked",
+        "matched_entries": 30,
+        "workshop_install_tested": true,
+        "gameplay_tested": false,
+        "independent_human_proofreading": false
+      }
     }
   ]
 }

@@ -53,11 +53,11 @@
     "activity": "not_remote_checked"
   },
   "inventory": {
-    "saved_records": 790,
-    "historical_approved_records": 790,
+    "saved_records": 807,
+    "historical_approved_records": 807,
     "provenance_counts": {
-      "community_translation_exact_english_match_static_qa": 755,
-      "new_contextual_translation": 35
+      "community_translation_exact_english_match_static_qa": 752,
+      "new_contextual_translation": 55
     },
     "attribution_licenses": {
       "unspecified": 755
@@ -66,7 +66,7 @@
     "native_russian_rows_in_snapshot": 0,
     "third_party_candidates": [],
     "coverage_scope": "saved_static_extraction_lower_bound; not complete runtime coverage",
-    "checked_at": "2026-10-28T09:15:27.268425+00:00",
+    "checked_at": "2026-10-28T10:30:30.068317+00:00",
     "original_license_evidence": [],
     "local_static_audit": {
       "checked_at": "2026-10-28T09:16:16.769817+00:00",
@@ -76,6 +76,9 @@
       "status": "issues_found",
       "issue_count": 1,
       "new_files_outside_saved_source_inventory_checked": false
-    }
-  }
+    },
+    "work_stage": "installed_local",
+    "saved_translation_store": true
+  },
+  "work_stage": "installed_local"
 }

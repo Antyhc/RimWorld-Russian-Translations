@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-28T09:32:07+00:00",
+  "generated_at": "2026-10-28T11:27:11+00:00",
   "scope": "Static files only; no RimWorld game test is performed.",
   "release_gates": false,
   "mods": [
@@ -23,6 +23,24 @@
     },
     {
       "package_id": "adaptive.storage.framework",
+      "errors": [],
+      "warnings": [
+        "payload_missing"
+      ],
+      "language_entries": 0,
+      "release_eligible": false
+    },
+    {
+      "package_id": "als.gravtech",
+      "errors": [],
+      "warnings": [
+        "payload_missing"
+      ],
+      "language_entries": 0,
+      "release_eligible": false
+    },
+    {
+      "package_id": "andromeda.nicehealthtab",
       "errors": [],
       "warnings": [
         "payload_missing"
@@ -67,7 +85,25 @@
       "release_eligible": false
     },
     {
+      "package_id": "aoba.exosuit.framework",
+      "errors": [],
+      "warnings": [
+        "payload_missing"
+      ],
+      "language_entries": 0,
+      "release_eligible": false
+    },
+    {
       "package_id": "aoba.fortress.industrial",
+      "errors": [],
+      "warnings": [
+        "payload_missing"
+      ],
+      "language_entries": 0,
+      "release_eligible": false
+    },
+    {
+      "package_id": "aoba.fortress.industrial.citadel",
       "errors": [],
       "warnings": [
         "payload_missing"
@@ -238,6 +274,15 @@
       "release_eligible": false
     },
     {
+      "package_id": "erdelf.humanoidalienraces",
+      "errors": [],
+      "warnings": [
+        "payload_missing"
+      ],
+      "language_entries": 0,
+      "release_eligible": false
+    },
+    {
       "package_id": "erdelf.minifyeverything",
       "errors": [],
       "warnings": [
@@ -337,6 +382,15 @@
       "release_eligible": false
     },
     {
+      "package_id": "gogatio.mechanoidupgrades",
+      "errors": [],
+      "warnings": [
+        "payload_missing"
+      ],
+      "language_entries": 0,
+      "release_eligible": false
+    },
+    {
       "package_id": "hailuan.cathiss",
       "errors": [],
       "warnings": [
@@ -365,6 +419,15 @@
     },
     {
       "package_id": "har.mugirlrace",
+      "errors": [],
+      "warnings": [
+        "payload_missing"
+      ],
+      "language_entries": 0,
+      "release_eligible": false
+    },
+    {
+      "package_id": "ht.lunartika",
       "errors": [],
       "warnings": [
         "payload_missing"
@@ -564,10 +627,8 @@
     {
       "package_id": "memegoddess.smartmedicine",
       "errors": [],
-      "warnings": [
-        "payload_missing"
-      ],
-      "language_entries": 0,
+      "warnings": [],
+      "language_entries": 7,
       "release_eligible": false
     },
     {
@@ -624,6 +685,15 @@
     },
     {
       "package_id": "ogre.ogrestack",
+      "errors": [],
+      "warnings": [
+        "payload_missing"
+      ],
+      "language_entries": 0,
+      "release_eligible": false
+    },
+    {
+      "package_id": "orion.hospitality",
       "errors": [],
       "warnings": [
         "payload_missing"
@@ -859,10 +929,8 @@
     {
       "package_id": "seohyeon.yart",
       "errors": [],
-      "warnings": [
-        "payload_missing"
-      ],
-      "language_entries": 0,
+      "warnings": [],
+      "language_entries": 30,
       "release_eligible": false
     },
     {
@@ -1378,6 +1446,24 @@
     },
     {
       "package_id": "vortex.customizeweapon",
+      "errors": [],
+      "warnings": [
+        "payload_missing"
+      ],
+      "language_entries": 0,
+      "release_eligible": false
+    },
+    {
+      "package_id": "wvc.sergkart.biotech.moremechanoidsworkmodes",
+      "errors": [],
+      "warnings": [
+        "payload_missing"
+      ],
+      "language_entries": 0,
+      "release_eligible": false
+    },
+    {
+      "package_id": "xmb.ancientthreat.mo",
       "errors": [],
       "warnings": [
         "payload_missing"

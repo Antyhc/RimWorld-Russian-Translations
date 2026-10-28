@@ -1,0 +1,58 @@
+{
+  "schema_version": 1,
+  "generated_at": "2026-10-28T10:24:26.688862+00:00",
+  "scope": "Exact supplemental translation entries against currently installed source; original native Russian remains separate",
+  "strings": {
+    "DefInjected|WorkGiverDef|SmartMedicineStabilize.gerund": "befcaaca40ca6fd39855f2fc5008fccd016705962f24bf8b259d12aa1e6b26e4",
+    "DefInjected|WorkGiverDef|SmartMedicineStabilize.verb": "befcaaca40ca6fd39855f2fc5008fccd016705962f24bf8b259d12aa1e6b26e4",
+    "Keyed|TD.Encumbered": "b202ed35c97590189d713b375a4de252e9d13c729cd23645d07d55060a65989e",
+    "Keyed|TD.NiceHealthTab.Optimize": "299bbc4d8d8b5c0a02db9a954547020c893d7b9a9cd0a64ed8d85525ff149630",
+    "Keyed|TD.NiceHealthTab.OptimizeDesc": "9bf7a613755ef93f288cb3585aa3c6a5f252bc5d6130a24cd8a8bf0d3533ae4f",
+    "Keyed|TD.SettingFieldTendingIfDying": "566f96f9917d956cab2d7c1488128442034c1a62924507d123512092a938036e",
+    "Keyed|TD.StockAnythingWithoutDev": "f99f4972e317bfd10732658a1dcfbca1853af9ed6785acb400bf4c99ffbd5f00"
+  },
+  "signatures": {
+    "DefInjected|WorkGiverDef|SmartMedicineStabilize.gerund": {
+      "source_hash": "befcaaca40ca6fd39855f2fc5008fccd016705962f24bf8b259d12aa1e6b26e4",
+      "tokens": [],
+      "tags": [],
+      "source_empty": false
+    },
+    "DefInjected|WorkGiverDef|SmartMedicineStabilize.verb": {
+      "source_hash": "befcaaca40ca6fd39855f2fc5008fccd016705962f24bf8b259d12aa1e6b26e4",
+      "tokens": [],
+      "tags": [],
+      "source_empty": false
+    },
+    "Keyed|TD.Encumbered": {
+      "source_hash": "b202ed35c97590189d713b375a4de252e9d13c729cd23645d07d55060a65989e",
+      "tokens": [],
+      "tags": [],
+      "source_empty": false
+    },
+    "Keyed|TD.NiceHealthTab.Optimize": {
+      "source_hash": "299bbc4d8d8b5c0a02db9a954547020c893d7b9a9cd0a64ed8d85525ff149630",
+      "tokens": [],
+      "tags": [],
+      "source_empty": false
+    },
+    "Keyed|TD.NiceHealthTab.OptimizeDesc": {
+      "source_hash": "9bf7a613755ef93f288cb3585aa3c6a5f252bc5d6130a24cd8a8bf0d3533ae4f",
+      "tokens": [],
+      "tags": [],
+      "source_empty": false
+    },
+    "Keyed|TD.SettingFieldTendingIfDying": {
+      "source_hash": "566f96f9917d956cab2d7c1488128442034c1a62924507d123512092a938036e",
+      "tokens": [],
+      "tags": [],
+      "source_empty": false
+    },
+    "Keyed|TD.StockAnythingWithoutDev": {
+      "source_hash": "f99f4972e317bfd10732658a1dcfbca1853af9ed6785acb400bf4c99ffbd5f00",
+      "tokens": [],
+      "tags": [],
+      "source_empty": false
+    }
+  }
+}

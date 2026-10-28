@@ -40,6 +40,7 @@ jobs:
               for (const file of (report.file_monitors || []).filter(x => ['changed_files', 'error'].includes(x.status))) lines.push(file.status === 'error'
                 ? `- ${file.package_id}: upstream repository tree check failed; inspect the workflow artifact.`
                 : `- ${file.package_id}: ${file.delta.added.length} added, ${file.delta.changed.length} changed, ${file.delta.removed.length} removed upstream files; translation impact needs review.`);
+              for (const item of (report.workshop_monitors || []).filter(x => x.status !== 'unchanged')) lines.push(`- ${item.package_id}: public Steam update monitor ${item.status}; Workshop ${item.workshop_id || 'inspect artifact'}. Publication changes require a local source/key review, not automatic translation replacement.`);
               const body = `${marker}\nConfigured source files need attention. Existing Russian translations were preserved.\n\n${lines.join('\n')}\n\nReview the workflow artifact; prepare and review update candidates locally. Steam upload and author outreach are never performed by this workflow.`;
               if (!issue) await github.rest.issues.create({owner, repo, title, body});
               else if (!issue.body?.includes(marker) || issue.state !== 'open') await github.rest.issues.update({owner, repo, issue_number: issue.number, body, state: 'open'});

@@ -1,0 +1,141 @@
+{
+  "checked_at": "2026-10-28T10:24:52.642514+00:00",
+  "registry": {
+    "saved_translation_packages": 156,
+    "known_worked_on_packages": 166,
+    "new_pending_metadata_records": 10,
+    "draft_tasks": {
+      "codex_tasks": 3103,
+      "reviewed_codex_tasks": 3103,
+      "local_model_tasks": 616
+    }
+  },
+  "source_review": {
+    "packages_refreshed": 13,
+    "raw_static_scope": "new/removed keys may be runtime aliases or extractor differences; do not delete automatically",
+    "per_package": [
+      {
+        "package_id": "6224y.onewithdeath",
+        "added_static_keys": 21,
+        "removed_static_keys": 21,
+        "changed_static_keys": 0
+      },
+      {
+        "package_id": "aoba.deadmanswitch.core",
+        "added_static_keys": 628,
+        "removed_static_keys": 37,
+        "changed_static_keys": 6
+      },
+      {
+        "package_id": "aoba.framework",
+        "added_static_keys": 1,
+        "removed_static_keys": 0,
+        "changed_static_keys": 0
+      },
+      {
+        "package_id": "breadmo.cinders",
+        "added_static_keys": 79,
+        "removed_static_keys": 79,
+        "changed_static_keys": 0
+      },
+      {
+        "package_id": "dubwise.dubsperformanceanalyzer.steam",
+        "added_static_keys": 3,
+        "removed_static_keys": 0,
+        "changed_static_keys": 0
+      },
+      {
+        "package_id": "forti.rimmarket",
+        "added_static_keys": 18,
+        "removed_static_keys": 0,
+        "changed_static_keys": 3
+      },
+      {
+        "package_id": "gabrieel1482.workersassistant",
+        "added_static_keys": 0,
+        "removed_static_keys": 0,
+        "changed_static_keys": 0
+      },
+      {
+        "package_id": "jaeger972.factionterritories2",
+        "added_static_keys": 180,
+        "removed_static_keys": 0,
+        "changed_static_keys": 52
+      },
+      {
+        "package_id": "linnun.keepconverting",
+        "added_static_keys": 0,
+        "removed_static_keys": 0,
+        "changed_static_keys": 0
+      },
+      {
+        "package_id": "oskarpotocki.vfe.medieval2",
+        "added_static_keys": 0,
+        "removed_static_keys": 0,
+        "changed_static_keys": 1
+      },
+      {
+        "package_id": "rebuild.cotr.doorsandcorners",
+        "added_static_keys": 0,
+        "removed_static_keys": 0,
+        "changed_static_keys": 16
+      },
+      {
+        "package_id": "regrowth.botr.core",
+        "added_static_keys": 82,
+        "removed_static_keys": 0,
+        "changed_static_keys": 0
+      },
+      {
+        "package_id": "shunter.bettertradersguild",
+        "added_static_keys": 14,
+        "removed_static_keys": 8,
+        "changed_static_keys": 0
+      }
+    ]
+  },
+  "applied_authoritative_fixes": [
+    {
+      "package_id": "dubwise.dubsperformanceanalyzer.steam",
+      "count": 3,
+      "new_entries": 3,
+      "changed_texts": 0,
+      "preserved_texts": 0
+    },
+    {
+      "package_id": "aoba.deadmanswitch.core",
+      "count": 2,
+      "new_entries": 0,
+      "changed_texts": 2,
+      "preserved_texts": 0
+    },
+    {
+      "package_id": "forti.rimmarket",
+      "count": 20,
+      "new_entries": 17,
+      "changed_texts": 3,
+      "preserved_texts": 0
+    },
+    {
+      "package_id": "oskarpotocki.vfe.medieval2",
+      "count": 1,
+      "new_entries": 0,
+      "changed_texts": 1,
+      "preserved_texts": 0
+    },
+    {
+      "package_id": "rebuild.cotr.doorsandcorners",
+      "count": 16,
+      "new_entries": 0,
+      "changed_texts": 1,
+      "preserved_texts": 15
+    }
+  ],
+  "new_strings": 20,
+  "updated_russian_texts": 7,
+  "preserved_russian_texts": 15,
+  "installed_packages_changed": 0,
+  "game_tests_for_new_fixes": 0,
+  "remaining_large_work": "Faction Territories2 expanded help and new definitions; DMS new content; ReGrowth additions; runtime alias refresh; current field profiles",
+  "fresh_gameplay_test_claimed": false
+}

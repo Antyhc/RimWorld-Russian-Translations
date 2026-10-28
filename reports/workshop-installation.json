@@ -1,0 +1,79 @@
+{
+  "schema_version": 1,
+  "checked_at": "2026-10-28T10:52:49.418783+00:00",
+  "scope": "Owned account subscription, Steam installation and exact recursive payload byte comparison; no active mods/settings changed; anonymous visibility and game loading require separate checks",
+  "sources": [
+    "https://partner.steamgames.com/doc/api/ISteamUGC#SubscribeItem",
+    "https://partner.steamgames.com/doc/api/ISteamUGC#DownloadItem",
+    "https://partner.steamgames.com/doc/api/ISteamUGC#GetItemInstallInfo",
+    "https://raw.githubusercontent.com/rlabrecque/SteamworksSDK/master/public/steam/isteamremotestorage.h"
+  ],
+  "items": [
+    {
+      "package_id": "unon.noburnmetal",
+      "url": "https://steamcommunity.com/sharedfiles/filedetails/?id=3828790442",
+      "subscription_verified": true,
+      "subscription_modified": true,
+      "file_count": 5,
+      "exact_payload_bytes": true,
+      "status": "installed_exact_match",
+      "missing": [],
+      "extra": [],
+      "changed": [],
+      "verified_at": "2026-10-28T10:52:29.544326+00:00",
+      "download_completion_evidence": "Steam GetItemState Installed with no NeedsUpdate/Downloading/DownloadPending; existing current cache",
+      "expected_files_fingerprint": "3ac297d921fdc63ce53420f5ae40fd651275a2ca20ddcd21432cb4eed5cd44a6",
+      "downloaded_files_fingerprint": "3ac297d921fdc63ce53420f5ae40fd651275a2ca20ddcd21432cb4eed5cd44a6"
+    },
+    {
+      "package_id": "merthsoft.designatorshapes",
+      "url": "https://steamcommunity.com/sharedfiles/filedetails/?id=3828790605",
+      "subscription_verified": true,
+      "subscription_modified": true,
+      "file_count": 9,
+      "exact_payload_bytes": true,
+      "status": "installed_exact_match",
+      "missing": [],
+      "extra": [],
+      "changed": [],
+      "verified_at": "2026-10-28T10:52:29.915976+00:00",
+      "download_completion_evidence": "Steam GetItemState Installed with no NeedsUpdate/Downloading/DownloadPending; existing current cache",
+      "expected_files_fingerprint": "ac2cea689ea113ceb1a73ec5162b0d5e925b2bbe7dd97e2a3a087b5c721d9ef8",
+      "downloaded_files_fingerprint": "ac2cea689ea113ceb1a73ec5162b0d5e925b2bbe7dd97e2a3a087b5c721d9ef8"
+    },
+    {
+      "package_id": "seohyeon.yart",
+      "url": "https://steamcommunity.com/sharedfiles/filedetails/?id=3828790757",
+      "subscription_verified": true,
+      "subscription_modified": true,
+      "file_count": 5,
+      "exact_payload_bytes": true,
+      "status": "installed_exact_match",
+      "missing": [],
+      "extra": [],
+      "changed": [],
+      "verified_at": "2026-10-28T10:52:39.731844+00:00",
+      "download_completion_evidence": "New item-specific Steam workshop_log Download item result OK record after subscription + GetItemState Installed/current; wrapper callback absent",
+      "expected_files_fingerprint": "0243c86c98538bca31d8f4c9fd43ccf20ddcb45641cf2d0e02c94df0b037932d",
+      "downloaded_files_fingerprint": "0243c86c98538bca31d8f4c9fd43ccf20ddcb45641cf2d0e02c94df0b037932d"
+    },
+    {
+      "package_id": "memegoddess.smartmedicine",
+      "url": "https://steamcommunity.com/sharedfiles/filedetails/?id=3828790822",
+      "subscription_verified": true,
+      "subscription_modified": true,
+      "file_count": 6,
+      "exact_payload_bytes": true,
+      "status": "installed_exact_match",
+      "missing": [],
+      "extra": [],
+      "changed": [],
+      "verified_at": "2026-10-28T10:52:49.414067+00:00",
+      "download_completion_evidence": "New item-specific Steam workshop_log Download item result OK record after subscription + GetItemState Installed/current; wrapper callback absent",
+      "expected_files_fingerprint": "3363565a52d8e6c139300eada2ac40fdc1961bcdbcbd83a282c7214b1f408dd0",
+      "downloaded_files_fingerprint": "3363565a52d8e6c139300eada2ac40fdc1961bcdbcbd83a282c7214b1f408dd0"
+    }
+  ],
+  "exact_matches": 4,
+  "all_four_installed_exact": true
+}

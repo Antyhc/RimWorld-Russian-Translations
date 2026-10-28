@@ -142,7 +142,7 @@
     "native_russian_rows_in_snapshot": 295,
     "third_party_candidates": [],
     "coverage_scope": "saved_static_extraction_lower_bound; not complete runtime coverage",
-    "checked_at": "2026-10-28T09:15:27.268425+00:00",
+    "checked_at": "2026-10-28T10:30:30.068317+00:00",
     "original_license_evidence": [],
     "local_static_audit": {
       "checked_at": "2026-10-28T09:16:16.595926+00:00",
@@ -150,7 +150,21 @@
       "status": "no_detected_issues",
       "issue_count": 0,
       "new_files_outside_saved_source_inventory_checked": false
-    }
+    },
+    "draft_work": {
+      "codex_tasks": 5,
+      "reviewed_codex_tasks": 5,
+      "local_model_tasks": 0,
+      "sources": [
+        "local-translation/20261027-codex95/drafts.jsonl"
+      ],
+      "work_stage": "reviewed_uninstalled",
+      "historical_batch_runtime_verified_keys": 0,
+      "runtime_evidence": null,
+      "runtime_scope": "Earlier isolated managed-batch load; not a test of a new standalone public payload"
+    },
+    "work_stage": "installed_local",
+    "saved_translation_store": true
   },
   "monitor": {
     "github_tree": {
@@ -158,5 +172,6 @@
       "ref": "master",
       "baseline_file": "source.tree.json"
     }
-  }
+  },
+  "work_stage": "installed_local"
 }

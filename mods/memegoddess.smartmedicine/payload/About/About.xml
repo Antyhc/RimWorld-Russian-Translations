@@ -1,0 +1,25 @@
+<?xml version='1.0' encoding='utf-8'?>
+<ModMetaData>
+  <name>Smart Medicine Continued — Russian completion</name>
+  <author>Antyhc (AI-assisted with OpenAI Codex)</author>
+  <packageId>antyhc.russian.memegoddess.smartmedicine</packageId>
+  <url>https://github.com/Antyhc/RimWorld-Russian-Translations</url>
+  <description>Дополняет встроенный русский перевод Smart Medicine - Continued: 7 отсутствующих строк. Существующий русский текст оригинала сохраняется. Автор оригинала: Uuugggg. Подготовлено и вычитано с помощью ИИ; независимая вычитка человеком не заявлена. Требуется оригинальный мод; загружать после него.
+
+Completes the bundled Russian translation of Smart Medicine - Continued with 7 missing entries. Existing upstream Russian text is preserved. Original author: Uuugggg. AI-assisted translation and semantic review; no independent human proofreading claimed. Requires the original mod; load afterwards.
+
+https://steamcommunity.com/sharedfiles/filedetails/?id=3526251680</description>
+  <supportedVersions>
+    <li>1.7</li>
+  </supportedVersions>
+  <modDependencies>
+    <li>
+      <packageId>memegoddess.smartmedicine</packageId>
+      <displayName>Smart Medicine - Continued</displayName>
+      <steamWorkshopUrl>https://steamcommunity.com/sharedfiles/filedetails/?id=3526251680</steamWorkshopUrl>
+    </li>
+  </modDependencies>
+  <loadAfter>
+    <li>memegoddess.smartmedicine</li>
+  </loadAfter>
+</ModMetaData>
