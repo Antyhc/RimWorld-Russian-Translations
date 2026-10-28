@@ -1,0 +1,164 @@
+{
+  "schema_version": 1,
+  "package_id": "lwm.deepstorage",
+  "name": "LWM's Deep Storage",
+  "translation_package_id": "antyhc.russian.lwm.deepstorage",
+  "supported_versions": [
+    "1.7"
+  ],
+  "rights": {
+    "translation": {
+      "status": "unknown",
+      "license": null,
+      "evidence": null,
+      "attribution": null
+    },
+    "icon": {
+      "status": "unknown",
+      "license": null,
+      "evidence": null,
+      "attribution": null
+    }
+  },
+  "qa": {
+    "technical": "pending",
+    "linguistic": "pending",
+    "source_current": false,
+    "in_game": "not_tested",
+    "checked_at": "2026-10-28T09:15:27.268425+00:00"
+  },
+  "publication": {
+    "github_url": "https://github.com/Antyhc/RimWorld-Russian-Translations/tree/main/mods/lwm.deepstorage",
+    "github_status": "metadata_only",
+    "workshop_url": null,
+    "workshop_id": null,
+    "workshop_status": "not_published"
+  },
+  "integration": {
+    "status": "not_sent",
+    "pr_url": null,
+    "contact_url": null
+  },
+  "original": {
+    "author": "Little White Mouse",
+    "workshop_id": "3532608331",
+    "workshop_url": "https://steamcommunity.com/sharedfiles/filedetails/?id=3532608331",
+    "supported_versions": [
+      "1.0",
+      "1.1",
+      "1.2",
+      "1.3",
+      "1.4",
+      "1.5",
+      "1.6",
+      "1.7"
+    ],
+    "repository_url": "https://github.com/lilwhitemouse/RimWorld-LWM.DeepStorage",
+    "repository_candidates": [
+      "https://github.com/lilwhitemouse/RimWorld-LWM.DeepStorage",
+      "https://github.com/pardeike/HarmonyRimWorld"
+    ],
+    "repository_verification": "current_remote_About_package_id_matches_original",
+    "activity": {
+      "pushed_at": "2024-06-09T17:19:36Z",
+      "updated_at": "2026-06-24T04:11:24Z",
+      "archived": false,
+      "disabled": false,
+      "last_commit_at": "2024-06-09T17:03:51Z"
+    },
+    "default_branch": "master",
+    "developer_activity": {
+      "pushed_at": "2024-06-09T17:19:36Z",
+      "updated_at": "2026-06-24T04:11:24Z",
+      "archived": false,
+      "disabled": false,
+      "last_commit_at": "2024-06-09T17:03:51Z"
+    },
+    "license_metadata": {
+      "key": "gpl-3.0",
+      "name": "GNU General Public License v3.0",
+      "spdx_id": "GPL-3.0",
+      "url": "https://api.github.com/licenses/gpl-3.0",
+      "node_id": "MDc6TGljZW5zZTk="
+    },
+    "license_files": [
+      {
+        "path": "LICENSE",
+        "blob_sha": "f288702d2fa16d3cdf0035b15a9fcbc552cd88e7",
+        "url": "https://github.com/lilwhitemouse/RimWorld-LWM.DeepStorage/blob/fe53650ab2c54056eb9e4cd8b8733083dc2eee77/LICENSE"
+      }
+    ],
+    "contribution_instructions": {
+      "dedicated_files": [],
+      "examined_docs": [
+        {
+          "path": "README.md",
+          "blob_sha": "4533c1cec66b098647f5a62d644ab250003fb2f0",
+          "url": "https://github.com/lilwhitemouse/RimWorld-LWM.DeepStorage/blob/fe53650ab2c54056eb9e4cd8b8733083dc2eee77/README.md",
+          "ai_related_terms_present": false
+        }
+      ],
+      "ai_policy_review": "read_document_manually_if_ai_related_terms_present; absence_of_terms_is_not_author_permission"
+    },
+    "repository_evidence": {
+      "checked_at": "2026-10-28T09:27:32.631668+00:00",
+      "source_api": "https://api.github.com/repos/lilwhitemouse/RimWorld-LWM.DeepStorage",
+      "head_commit": "fe53650ab2c54056eb9e4cd8b8733083dc2eee77",
+      "tree_sha": "fe53650ab2c54056eb9e4cd8b8733083dc2eee77",
+      "tree_truncated": false,
+      "matching_about": {
+        "path": "_Mod/LWM.DeepStorage/About/About.xml",
+        "blob_sha": "e24da04bcdbd082f8309f8b613cd247693f07f01",
+        "package_id": "lwm.deepstorage",
+        "url": "https://github.com/lilwhitemouse/RimWorld-LWM.DeepStorage/blob/fe53650ab2c54056eb9e4cd8b8733083dc2eee77/_Mod/LWM.DeepStorage/About/About.xml"
+      },
+      "original_mod_workshop_url": "https://steamcommunity.com/sharedfiles/filedetails/?id=3532608331",
+      "direct_original_url": "https://github.com/lilwhitemouse/RimWorld-LWM.DeepStorage",
+      "other_original_mod_dependency_references": [],
+      "rights_clearance_not_inferred": true
+    },
+    "upstream_russian_paths": [
+      "_Mod/LWM.DeepStorage/Languages/Russian/DefInjected/DesignationCategoryDef/DesignationCategoryDefs.xml",
+      "_Mod/LWM.DeepStorage/Languages/Russian/DefInjected/KeyBindingCategoryDef/KeyBindingCategories_Add_Architect.xml",
+      "_Mod/LWM.DeepStorage/Languages/Russian/DefInjected/StatCategoryDef/StatDefs.xml",
+      "_Mod/LWM.DeepStorage/Languages/Russian/DefInjected/ThingDef/Deep_Storage.xml",
+      "_Mod/LWM.DeepStorage/Languages/Russian/DefInjected/ThingDef/Weapon_Lockers.xml",
+      "_Mod/LWM.DeepStorage/Languages/Russian/Keyed/LWM.DeepStorage.Keys.xml",
+      "_Mod/LWM.DeepStorage/Languages/Russian/Keyed/LWM.Settings.Keys.xml"
+    ]
+  },
+  "inventory": {
+    "saved_records": 2,
+    "historical_approved_records": 2,
+    "provenance_counts": {
+      "new_contextual_translation": 2
+    },
+    "attribution_licenses": {},
+    "installed_locally": true,
+    "native_russian_rows_in_snapshot": 139,
+    "third_party_candidates": [],
+    "coverage_scope": "saved_static_extraction_lower_bound; not complete runtime coverage",
+    "checked_at": "2026-10-28T09:15:27.268425+00:00",
+    "original_license_evidence": [
+      {
+        "relative_path": "Textures/OtherMods/RimFridge/LICENSE.txt",
+        "sha256": "8e6f9ca91273e408bfdb1ba7f760ca35f2df0d5d0d68f07791dd2476d089e24e",
+        "identified_license": "unclassified-review-required"
+      }
+    ],
+    "local_static_audit": {
+      "checked_at": "2026-10-28T09:16:17.142490+00:00",
+      "issue_kinds": [],
+      "status": "no_detected_issues",
+      "issue_count": 0,
+      "new_files_outside_saved_source_inventory_checked": false
+    }
+  },
+  "monitor": {
+    "github_tree": {
+      "repository": "lilwhitemouse/RimWorld-LWM.DeepStorage",
+      "ref": "master",
+      "baseline_file": "source.tree.json"
+    }
+  }
+}

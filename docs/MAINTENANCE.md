@@ -1,0 +1,63 @@
+# Сопровождение / Maintenance
+
+Python 3.12+; основной CLI использует стандартную библиотеку.
+Pillow из `requirements.txt` нужен только для надписи на разрешённых обложках.
+
+Из корня публичного репозитория:
+
+```sh
+python scripts/rwtranslations.py registry
+python scripts/rwtranslations.py validate
+python -m unittest discover -s tests -v
+python scripts/rwtranslations.py snapshot /path/to/original/Languages/English /tmp/current.snapshot.json
+python scripts/rwtranslations.py diff mods/PACKAGE/source.snapshot.json /tmp/current.snapshot.json /tmp/delta.json
+python scripts/rwtranslations.py prepare-update PACKAGE /path/to/original/Languages/English
+python scripts/rwtranslations.py monitor
+python scripts/rwtranslations.py tree-snapshot OWNER/REPOSITORY BRANCH mods/PACKAGE/source.tree.json
+python scripts/rwtranslations.py stage PACKAGE --output dist
+```
+
+`registry` автоматически находит все манифесты и обновляет `registry.json` и
+`PROJECT_STATUS.md`. Локальный импорт существующего проекта выполняется частным
+мостом `publication/sync_public_registry.py`; он экспортирует только метаданные
+и сохраняет ранее записанные решения о правах и публикациях.
+
+`snapshot` сохраняет ключи, SHA256 строк и сигнатуры переменных/тегов. Он извлекает
+`Keyed`, `DefInjected` и `Strings` из указанного языкового каталога. Это не извлечение
+всех строк из DLL, Defs, патчей и генераторов грамматики. Для этих источников
+используется локальный расширенный аудит существующего проекта и игровой тест.
+Файлы/корни разных версий и `LoadFolders.xml` должны быть выбраны по фактическому
+порядку загрузки; не смешивайте все версии рекурсивно.
+
+`prepare-update` записывает в `reports/pending/` новую очередь со значениями
+`proposed_translation: null` и `publication_allowed: false`. Он не заменяет русский
+текст. Автор перевода или ИИ с редакторской проверкой заполняет предложения,
+проверяет исходники, идентификаторы, переменные и терминологию, затем обновляет
+пакет и связанные с точными файлами доказательства QA.
+
+Для проверенного официального GitHub настраивается `monitor.github_tree`:
+`repository`, действующая ветка `ref` и `baseline_file: source.tree.json`.
+Этот монитор сохраняет лишь пути и Git-хеши; обнаруживает новые, изменённые и
+удалённые файлы всего репозитория, включая Defs, шаблоны и DLL. Изменение файла
+не считается доказательством изменения переводимого ключа или ошибки перевода.
+
+Манифест также может содержать `monitor.files` — список официальных HTTPS
+URL на `raw.githubusercontent.com` с типом `Keyed`, `DefInjected` или `Strings`.
+Ежедневный GitHub Actions сравнивает настроенные источники со снимком. При изменении/ошибке
+создаёт или обновляет один отчёт; одинаковое состояние не создаёт повторных
+сообщений. Файлы без настройки честно отмечаются `not_configured`.
+Не следует считать построчным мониторингом всего мода наблюдение лишь за одним
+его файлом; репозиторный монитор и построчный diff — разные проверки.
+
+Новые файлы вне `monitor.files` отслеживаются только при настройке целого дерева.
+Изменения Workshop вне синхронизированного GitHub не отслеживаются Actions.
+Они требуют свежего локального аудита и повторной инвентаризации. Конфигурация расширяется в
+манифесте каждого нового мода без изменения CLI. GitHub Actions не переводит
+текст, не публикует его в Steam и не пишет авторам самостоятельно.
+
+Записанные `integration.pr_url` проверяются автоматически: слияние, закрытие без
+слияния и запрос изменений появляются в отчёте. Наблюдения не переписывают
+манифесты молча. Обсуждения и результаты Workshop требуют проверки реальных страниц.
+Расписание GitHub работает, пока Actions включены владельцем; локальный компьютер
+не обязан оставаться включённым. Сам факт наличия workflow не подтверждает его
+успешное выполнение: проверяйте вкладку Actions.

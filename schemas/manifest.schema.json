@@ -1,0 +1,66 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "RimWorld Russian translation manifest",
+  "type": "object",
+  "required": ["schema_version", "package_id", "name", "original", "rights", "qa"],
+  "properties": {
+    "schema_version": {"const": 1},
+    "package_id": {"type": "string", "pattern": "^[A-Za-z0-9][A-Za-z0-9_.-]*$"},
+    "name": {"type": "string", "minLength": 1},
+    "translation_package_id": {"type": "string", "pattern": "^[A-Za-z0-9][A-Za-z0-9_.-]*$"},
+    "supported_versions": {"type": "array", "items": {"type": "string"}, "uniqueItems": true},
+    "original": {
+      "type": "object",
+      "properties": {
+        "author": {"type": ["string", "null"]},
+        "workshop_id": {"type": ["string", "null"], "pattern": "^[0-9]+$"},
+        "workshop_url": {"type": ["string", "null"]},
+        "repository_url": {"type": ["string", "null"]},
+        "supported_versions": {"type": "array", "items": {"type": "string"}},
+        "developer_activity": {"type": ["object", "null"]}
+      }
+    },
+    "rights": {
+      "type": "object",
+      "required": ["translation", "icon"],
+      "properties": {"translation": {"$ref": "#/$defs/rights"}, "icon": {"$ref": "#/$defs/rights"}}
+    },
+    "qa": {
+      "type": "object",
+      "properties": {
+        "technical": {"enum": ["passed", "pending", "failed"]},
+        "linguistic": {"enum": ["ai_reviewed", "human_reviewed", "pending"]},
+        "source_current": {"type": ["boolean", "null"]},
+        "in_game": {"enum": ["not_tested", "passed", "failed"]},
+        "checked_at": {"type": ["string", "null"]},
+        "source_checked_at": {"type": ["string", "null"]},
+        "payload_sha256": {"type": ["string", "null"], "pattern": "^[0-9a-f]{64}$"},
+        "source_snapshot_sha256": {"type": ["string", "null"], "pattern": "^[0-9a-f]{64}$"},
+        "evidence": {"type": ["string", "array", "null"]}
+      }
+    },
+    "blockers": {"type": "array", "items": {"type": "string"}},
+    "monitor": {
+      "type": "object",
+      "properties": {
+        "snapshot_url": {"type": "string"},
+        "github_tree": {"type": "object", "required": ["repository", "ref"], "properties": {"repository": {"type": "string", "pattern": "^[A-Za-z0-9_.-]+/[A-Za-z0-9_.-]+$"}, "ref": {"type": "string", "minLength": 1}, "baseline_file": {"type": "string"}}},
+        "files": {"type": "array", "items": {"type": "object", "required": ["url", "kind"], "properties": {"url": {"type": "string"}, "kind": {"enum": ["Keyed", "DefInjected", "Strings"]}, "def_type": {"type": "string"}, "path": {"type": "string"}}}}
+      }
+    }
+  },
+  "$defs": {
+    "rights": {
+      "type": "object",
+      "properties": {
+        "status": {"enum": ["confirmed", "unknown", "denied", "permission_requested"]},
+        "license": {"type": ["string", "null"]},
+        "evidence": {"type": ["string", "array", "null"]},
+        "attribution": {"type": ["string", "array", "null"]},
+        "required_notice_files": {"type": "object", "additionalProperties": {"type": "string", "pattern": "^[0-9a-f]{64}$"}},
+        "source_sha256": {"type": ["string", "null"], "pattern": "^[0-9a-f]{64}$"},
+        "preview_sha256": {"type": ["string", "null"], "pattern": "^[0-9a-f]{64}$"}
+      }
+    }
+  }
+}

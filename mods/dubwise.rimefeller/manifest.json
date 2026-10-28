@@ -1,0 +1,162 @@
+{
+  "schema_version": 1,
+  "package_id": "dubwise.rimefeller",
+  "name": "Rimefeller",
+  "translation_package_id": "antyhc.russian.dubwise.rimefeller",
+  "supported_versions": [
+    "1.7"
+  ],
+  "rights": {
+    "translation": {
+      "status": "unknown",
+      "license": null,
+      "evidence": null,
+      "attribution": null
+    },
+    "icon": {
+      "status": "unknown",
+      "license": null,
+      "evidence": null,
+      "attribution": null
+    }
+  },
+  "qa": {
+    "technical": "pending",
+    "linguistic": "pending",
+    "source_current": false,
+    "in_game": "not_tested",
+    "checked_at": "2026-10-28T09:15:27.268425+00:00"
+  },
+  "publication": {
+    "github_url": "https://github.com/Antyhc/RimWorld-Russian-Translations/tree/main/mods/dubwise.rimefeller",
+    "github_status": "metadata_only",
+    "workshop_url": null,
+    "workshop_id": null,
+    "workshop_status": "not_published"
+  },
+  "integration": {
+    "status": "not_sent",
+    "pr_url": null,
+    "contact_url": null
+  },
+  "original": {
+    "author": "Dubwise",
+    "workshop_id": "1321849735",
+    "workshop_url": "https://steamcommunity.com/sharedfiles/filedetails/?id=1321849735",
+    "supported_versions": [
+      "1.0",
+      "1.1",
+      "1.2",
+      "1.3",
+      "1.4",
+      "1.5",
+      "1.6",
+      "1.7"
+    ],
+    "repository_url": "https://github.com/Dubwise56/Rimefeller",
+    "repository_candidates": [
+      "https://github.com/Dubwise56/Rimefeller"
+    ],
+    "repository_verification": "current_remote_About_package_id_matches_original",
+    "activity": {
+      "pushed_at": "2026-10-22T18:52:19Z",
+      "updated_at": "2026-10-22T18:48:58Z",
+      "archived": false,
+      "disabled": false,
+      "last_commit_at": "2026-10-22T18:48:51Z"
+    },
+    "default_branch": "master",
+    "developer_activity": {
+      "pushed_at": "2026-10-22T18:52:19Z",
+      "updated_at": "2026-10-22T18:48:58Z",
+      "archived": false,
+      "disabled": false,
+      "last_commit_at": "2026-10-22T18:48:51Z"
+    },
+    "license_metadata": null,
+    "license_files": [],
+    "contribution_instructions": {
+      "dedicated_files": [],
+      "examined_docs": [
+        {
+          "path": "README.md",
+          "blob_sha": "330357f48b746b91cb53903c0d0f3b1fee9cfb91",
+          "url": "https://github.com/Dubwise56/Rimefeller/blob/ab45267f1dd807c65b827feb58dba81df8450cfd/README.md",
+          "ai_related_terms_present": false
+        }
+      ],
+      "ai_policy_review": "read_document_manually_if_ai_related_terms_present; absence_of_terms_is_not_author_permission"
+    },
+    "repository_evidence": {
+      "checked_at": "2026-10-28T09:27:28.554373+00:00",
+      "source_api": "https://api.github.com/repos/Dubwise56/Rimefeller",
+      "head_commit": "ab45267f1dd807c65b827feb58dba81df8450cfd",
+      "tree_sha": "ab45267f1dd807c65b827feb58dba81df8450cfd",
+      "tree_truncated": false,
+      "matching_about": {
+        "path": "About/About.xml",
+        "blob_sha": "c282d27108dcd77f0c467d3d08c286f4686a56a2",
+        "package_id": "dubwise.rimefeller",
+        "url": "https://github.com/Dubwise56/Rimefeller/blob/ab45267f1dd807c65b827feb58dba81df8450cfd/About/About.xml"
+      },
+      "original_mod_workshop_url": "https://steamcommunity.com/sharedfiles/filedetails/?id=1321849735",
+      "direct_original_url": "https://github.com/Dubwise56/Rimefeller",
+      "other_original_mod_dependency_references": [],
+      "rights_clearance_not_inferred": true
+    },
+    "upstream_russian_paths": [
+      "Languages/Russian/Definjected/DesignationCategoryDef/DesignationCategories.xml",
+      "Languages/Russian/Definjected/IncidentDef/Incidents_Map_Misc.xml",
+      "Languages/Russian/Definjected/JobDef/Jobs_Rimefeller.xml",
+      "Languages/Russian/Definjected/KeyBindingCategoryDef/KeyBindingCategories_Add_Architect.xml",
+      "Languages/Russian/Definjected/RecipeDef/Recipes_Add_Make.xml",
+      "Languages/Russian/Definjected/RecipeDef/Recipes_Production.xml",
+      "Languages/Russian/Definjected/ResearchProjectDef/ResearchProjects_Rimefeller.xml",
+      "Languages/Russian/Definjected/ResearchProjectDef/ResearchProjects_Rimefeller_CE_FSX.xml",
+      "Languages/Russian/Definjected/ResearchTabDef/ResearchProjects_Rimefeller.xml",
+      "Languages/Russian/Definjected/Rimefeller.DubsModOptions/ModOptions.xml",
+      "Languages/Russian/Definjected/StuffCategoryDef/ThingCategories.xml",
+      "Languages/Russian/Definjected/TerrainDef/Terrain_Floors_Synthylene.xml",
+      "Languages/Russian/Definjected/ThingCategoryDef/Items_Resource_Stuff.xml",
+      "Languages/Russian/Definjected/ThingCategoryDef/ThingCategories.xml",
+      "Languages/Russian/Definjected/ThingDef/BuildingsA_Pipes.xml",
+      "Languages/Russian/Definjected/ThingDef/BuildingsB_Oil.xml",
+      "Languages/Russian/Definjected/ThingDef/BuildingsB_Refining.xml",
+      "Languages/Russian/Definjected/ThingDef/BuildingsB_Refining_CE_FSX.xml",
+      "Languages/Russian/Definjected/ThingDef/Filth_Various.xml",
+      "Languages/Russian/Definjected/ThingDef/Items_Resource_Stuff.xml",
+      "Languages/Russian/Definjected/WorkGiverDef/WorkGivers.xml",
+      "Languages/Russian/Keyed/Rimefeller.xml"
+    ]
+  },
+  "inventory": {
+    "saved_records": 37,
+    "historical_approved_records": 37,
+    "provenance_counts": {
+      "authored_and_linguistically_reviewed_against_source": 37
+    },
+    "attribution_licenses": {
+      "unknown": 37
+    },
+    "installed_locally": true,
+    "native_russian_rows_in_snapshot": 295,
+    "third_party_candidates": [],
+    "coverage_scope": "saved_static_extraction_lower_bound; not complete runtime coverage",
+    "checked_at": "2026-10-28T09:15:27.268425+00:00",
+    "original_license_evidence": [],
+    "local_static_audit": {
+      "checked_at": "2026-10-28T09:16:16.595926+00:00",
+      "issue_kinds": [],
+      "status": "no_detected_issues",
+      "issue_count": 0,
+      "new_files_outside_saved_source_inventory_checked": false
+    }
+  },
+  "monitor": {
+    "github_tree": {
+      "repository": "Dubwise56/Rimefeller",
+      "ref": "master",
+      "baseline_file": "source.tree.json"
+    }
+  }
+}

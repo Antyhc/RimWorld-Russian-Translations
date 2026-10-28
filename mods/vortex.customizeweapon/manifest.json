@@ -1,0 +1,163 @@
+{
+  "schema_version": 1,
+  "package_id": "vortex.customizeweapon",
+  "name": "Customize Weapon",
+  "translation_package_id": "antyhc.russian.vortex.customizeweapon",
+  "supported_versions": [
+    "1.7"
+  ],
+  "rights": {
+    "translation": {
+      "status": "unknown",
+      "license": null,
+      "evidence": null,
+      "attribution": null
+    },
+    "icon": {
+      "status": "unknown",
+      "license": null,
+      "evidence": null,
+      "attribution": null
+    }
+  },
+  "qa": {
+    "technical": "pending",
+    "linguistic": "pending",
+    "source_current": false,
+    "in_game": "not_tested",
+    "checked_at": "2026-10-28T09:15:27.268425+00:00"
+  },
+  "publication": {
+    "github_url": "https://github.com/Antyhc/RimWorld-Russian-Translations/tree/main/mods/vortex.customizeweapon",
+    "github_status": "metadata_only",
+    "workshop_url": null,
+    "workshop_id": null,
+    "workshop_status": "not_published"
+  },
+  "integration": {
+    "status": "not_sent",
+    "pr_url": null,
+    "contact_url": null
+  },
+  "original": {
+    "author": "Vortex",
+    "workshop_id": "3550585103",
+    "workshop_url": "https://steamcommunity.com/sharedfiles/filedetails/?id=3550585103",
+    "supported_versions": [
+      "1.6",
+      "1.7"
+    ],
+    "repository_url": "https://github.com/realloon/CustomizeWeapon",
+    "repository_candidates": [
+      "https://github.com/realloon/CustomizeWeapon.git"
+    ],
+    "repository_verification": "current_remote_About_package_id_matches_original",
+    "activity": {
+      "pushed_at": "2026-10-25T03:03:33Z",
+      "updated_at": "2026-10-25T03:03:37Z",
+      "archived": false,
+      "disabled": false,
+      "last_commit_at": "2026-10-25T03:02:30Z"
+    },
+    "default_branch": "main",
+    "developer_activity": {
+      "pushed_at": "2026-10-25T03:03:33Z",
+      "updated_at": "2026-10-25T03:03:37Z",
+      "archived": false,
+      "disabled": false,
+      "last_commit_at": "2026-10-25T03:02:30Z"
+    },
+    "license_metadata": {
+      "key": "mit",
+      "name": "MIT License",
+      "spdx_id": "MIT",
+      "url": "https://api.github.com/licenses/mit",
+      "node_id": "MDc6TGljZW5zZTEz"
+    },
+    "license_files": [
+      {
+        "path": "LICENSE",
+        "blob_sha": "934f208813e8bf3a69cdf86ff4e46ecf7aa66f9a",
+        "url": "https://github.com/realloon/CustomizeWeapon/blob/d5e41881b0b79c7ae74ee7361e3e6fa462323562/LICENSE"
+      }
+    ],
+    "contribution_instructions": {
+      "dedicated_files": [],
+      "examined_docs": [
+        {
+          "path": "README.md",
+          "blob_sha": "49b40a7a8a72798cee812c71c467ac4ab179dcbd",
+          "url": "https://github.com/realloon/CustomizeWeapon/blob/d5e41881b0b79c7ae74ee7361e3e6fa462323562/README.md",
+          "ai_related_terms_present": false
+        }
+      ],
+      "ai_policy_review": "read_document_manually_if_ai_related_terms_present; absence_of_terms_is_not_author_permission"
+    },
+    "repository_evidence": {
+      "checked_at": "2026-10-28T09:27:39.611096+00:00",
+      "source_api": "https://api.github.com/repos/realloon/CustomizeWeapon",
+      "head_commit": "d5e41881b0b79c7ae74ee7361e3e6fa462323562",
+      "tree_sha": "d5e41881b0b79c7ae74ee7361e3e6fa462323562",
+      "tree_truncated": false,
+      "matching_about": {
+        "path": "About/About.xml",
+        "blob_sha": "e0c81944af55b54886d798f1523241d6d56df714",
+        "package_id": "vortex.customizeweapon",
+        "url": "https://github.com/realloon/CustomizeWeapon/blob/d5e41881b0b79c7ae74ee7361e3e6fa462323562/About/About.xml"
+      },
+      "original_mod_workshop_url": "https://steamcommunity.com/sharedfiles/filedetails/?id=3550585103",
+      "direct_original_url": null,
+      "other_original_mod_dependency_references": [],
+      "rights_clearance_not_inferred": true
+    },
+    "upstream_russian_paths": [
+      "Languages/Russian/DefInjected/CWF.PartDef/Parts.xml",
+      "Languages/Russian/DefInjected/ColorDef/Colors.xml",
+      "Languages/Russian/DefInjected/StatCategoryDef/StatCategories.xml",
+      "Languages/Russian/DefInjected/ThingCategoryDef/Categories.xml",
+      "Languages/Russian/DefInjected/ThingDef/Modules.xml",
+      "Languages/Russian/DefInjected/ThingDef/Workbench.xml",
+      "Languages/Russian/DefInjected/WeaponTraitDef/Traits.xml",
+      "Languages/Russian/Keyed/Keyed.xml"
+    ]
+  },
+  "inventory": {
+    "saved_records": 24,
+    "historical_approved_records": 24,
+    "provenance_counts": {
+      "new_contextual_translation": 24
+    },
+    "attribution_licenses": {},
+    "installed_locally": true,
+    "native_russian_rows_in_snapshot": 207,
+    "third_party_candidates": [],
+    "coverage_scope": "saved_static_extraction_lower_bound; not complete runtime coverage",
+    "checked_at": "2026-10-28T09:15:27.268425+00:00",
+    "original_license_evidence": [
+      {
+        "relative_path": "1.7/Textures/LICENSE",
+        "sha256": "d6b769100b016a7746a01d332fe56ce46ad21ec03f7ac5499a9e45a76f5d2a19",
+        "identified_license": "unclassified-review-required"
+      },
+      {
+        "relative_path": "1.6/Textures/LICENSE",
+        "sha256": "d6b769100b016a7746a01d332fe56ce46ad21ec03f7ac5499a9e45a76f5d2a19",
+        "identified_license": "unclassified-review-required"
+      }
+    ],
+    "local_static_audit": {
+      "checked_at": "2026-10-28T09:16:19.210136+00:00",
+      "issue_kinds": [],
+      "status": "no_detected_issues",
+      "issue_count": 0,
+      "new_files_outside_saved_source_inventory_checked": false
+    }
+  },
+  "monitor": {
+    "github_tree": {
+      "repository": "realloon/CustomizeWeapon",
+      "ref": "main",
+      "baseline_file": "source.tree.json"
+    }
+  }
+}

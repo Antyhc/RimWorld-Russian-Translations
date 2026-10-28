@@ -1,0 +1,145 @@
+{
+  "schema_version": 1,
+  "package_id": "memegoddess.giddyup",
+  "name": "Giddy-Up 2 - Continued",
+  "translation_package_id": "antyhc.russian.memegoddess.giddyup",
+  "supported_versions": [
+    "1.7"
+  ],
+  "rights": {
+    "translation": {
+      "status": "unknown",
+      "license": null,
+      "evidence": null,
+      "attribution": null
+    },
+    "icon": {
+      "status": "unknown",
+      "license": null,
+      "evidence": null,
+      "attribution": null
+    }
+  },
+  "qa": {
+    "technical": "pending",
+    "linguistic": "pending",
+    "source_current": false,
+    "in_game": "not_tested",
+    "checked_at": "2026-10-28T09:15:27.268425+00:00"
+  },
+  "publication": {
+    "github_url": "https://github.com/Antyhc/RimWorld-Russian-Translations/tree/main/mods/memegoddess.giddyup",
+    "github_status": "metadata_only",
+    "workshop_url": null,
+    "workshop_id": null,
+    "workshop_status": "not_published"
+  },
+  "integration": {
+    "status": "not_sent",
+    "pr_url": null,
+    "contact_url": null
+  },
+  "original": {
+    "author": "Roolo, Owlchemist, dav9670, Meme Goddess",
+    "workshop_id": "3674332861",
+    "workshop_url": "https://steamcommunity.com/sharedfiles/filedetails/?id=3674332861",
+    "supported_versions": [
+      "1.4",
+      "1.5",
+      "1.6",
+      "1.7"
+    ],
+    "repository_url": "https://github.com/MemeGoddess/GiddyUp2",
+    "repository_candidates": [
+      "https://github.com/MemeGoddess/GiddyUp2"
+    ],
+    "repository_verification": "current_remote_About_package_id_matches_original",
+    "activity": {
+      "pushed_at": "2026-10-22T15:09:16Z",
+      "updated_at": "2026-10-22T15:09:22Z",
+      "archived": false,
+      "disabled": false,
+      "last_commit_at": "2026-10-22T15:09:07Z"
+    },
+    "default_branch": "master",
+    "developer_activity": {
+      "pushed_at": "2026-10-22T15:09:16Z",
+      "updated_at": "2026-10-22T15:09:22Z",
+      "archived": false,
+      "disabled": false,
+      "last_commit_at": "2026-10-22T15:09:07Z"
+    },
+    "license_metadata": null,
+    "license_files": [],
+    "contribution_instructions": {
+      "dedicated_files": [],
+      "examined_docs": [
+        {
+          "path": "README.md",
+          "blob_sha": "132f0863abd3459097c744b5b2533d55a6b57827",
+          "url": "https://github.com/MemeGoddess/GiddyUp2/blob/03dc8455eb544bff7c6e13187eaff9915679b2ad/README.md",
+          "ai_related_terms_present": false
+        }
+      ],
+      "ai_policy_review": "read_document_manually_if_ai_related_terms_present; absence_of_terms_is_not_author_permission"
+    },
+    "repository_evidence": {
+      "checked_at": "2026-10-28T09:27:33.287228+00:00",
+      "source_api": "https://api.github.com/repos/MemeGoddess/GiddyUp2",
+      "head_commit": "03dc8455eb544bff7c6e13187eaff9915679b2ad",
+      "tree_sha": "03dc8455eb544bff7c6e13187eaff9915679b2ad",
+      "tree_truncated": false,
+      "matching_about": {
+        "path": "About/About.xml",
+        "blob_sha": "08b72b3bb2e67ffb621361d03294a2f9895e0d69",
+        "package_id": "memegoddess.giddyup",
+        "url": "https://github.com/MemeGoddess/GiddyUp2/blob/03dc8455eb544bff7c6e13187eaff9915679b2ad/About/About.xml"
+      },
+      "original_mod_workshop_url": "https://steamcommunity.com/sharedfiles/filedetails/?id=3674332861",
+      "direct_original_url": "https://github.com/MemeGoddess/GiddyUp2",
+      "other_original_mod_dependency_references": [],
+      "rights_clearance_not_inferred": true
+    },
+    "upstream_russian_paths": [
+      "Languages/Russian/DefInjected/BattleMounts_ConceptDefs.xml",
+      "Languages/Russian/DefInjected/ConceptDefs.xml",
+      "Languages/Russian/DefInjected/JobDef/Jobs.xml",
+      "Languages/Russian/DefInjected/PawnColumnDef/PawnColumn_Checkbox.xml",
+      "Languages/Russian/DefInjected/UpdateFeatures.xml",
+      "Languages/Russian/Keyed/BattleMounts_Keys.xml",
+      "Languages/Russian/Keyed/GiddyUpCaravan_Keys.xml",
+      "Languages/Russian/Keyed/GiddyUpCore_Keys.xml",
+      "Languages/Russian/Keyed/GiddyUpRideAndRoll_Keys.xml"
+    ]
+  },
+  "inventory": {
+    "saved_records": 100,
+    "historical_approved_records": 100,
+    "provenance_counts": {
+      "authored_and_linguistically_reviewed_against_source": 100
+    },
+    "attribution_licenses": {
+      "unknown": 100
+    },
+    "installed_locally": true,
+    "native_russian_rows_in_snapshot": 54,
+    "third_party_candidates": [],
+    "coverage_scope": "saved_static_extraction_lower_bound; not complete runtime coverage",
+    "checked_at": "2026-10-28T09:15:27.268425+00:00",
+    "original_license_evidence": [],
+    "local_static_audit": {
+      "checked_at": "2026-10-28T09:16:17.158692+00:00",
+      "issue_kinds": [],
+      "status": "no_detected_issues",
+      "issue_count": 0,
+      "new_files_outside_saved_source_inventory_checked": false
+    }
+  },
+  "monitor": {
+    "github_tree": {
+      "repository": "MemeGoddess/GiddyUp2",
+      "ref": "master",
+      "baseline_file": "source.tree.json"
+    }
+  }
+}

@@ -1,0 +1,966 @@
+{
+  "generated_at": "2026-10-28T09:31:40+00:00",
+  "fingerprint": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945",
+  "action_required": false,
+  "scope": "Configured source endpoints, GitHub repository file trees and recorded public upstream PRs; no Workshop login/download, C# literal extraction or auto-translation. File-level changes do not prove translation-key changes. Observations do not alter manifests.",
+  "mods": [
+    {
+      "package_id": "6224y.onewithdeath",
+      "status": "not_configured"
+    },
+    {
+      "package_id": "adamas.hospital",
+      "status": "not_configured"
+    },
+    {
+      "package_id": "adaptive.storage.framework",
+      "status": "not_configured"
+    },
+    {
+      "package_id": "andromeda.usefulmarks",
+      "status": "not_configured"
+    },
+    {
+      "package_id": "aoba.deadmanswitch.ancientcorps",
+      "status": "not_configured"
+    },
+    {
+      "package_id": "aoba.deadmanswitch.core",
+      "status": "not_configured"
+    },
+    {
+      "package_id": "aoba.deadmanswitch.mobiledragoon",
+      "status": "not_configured"
+    },
+    {
+      "package_id": "aoba.fortress.industrial",
+      "status": "not_configured"
+    },
+    {
+      "package_id": "aoba.framework",
+      "status": "not_configured"
+    },
+    {
+      "package_id": "aoba.tent",
+      "status": "not_configured"
+    },
+    {
+      "package_id": "aoba.usac.core",
+      "status": "not_configured"
+    },
+    {
+      "package_id": "arkymn.slowerpawntickrate",
+      "status": "not_configured"
+    },
+    {
+      "package_id": "atlas.simplefx.vapor.revaporized",
+      "status": "not_configured"
+    },
+    {
+      "package_id": "breadmo.cinders",
+      "status": "not_configured"
+    },
+    {
+      "package_id": "caesarv6.damageindicators",
+      "status": "not_configured"
+    },
+    {
+      "package_id": "cain.mineshaft",
+      "status": "not_configured"
+    },
+    {
+      "package_id": "costel.layeredapparel",
+      "status": "not_configured"
+    },
+    {
+      "package_id": "dawnsglow.qualcolor",
+      "status": "not_configured"
+    },
+    {
+      "package_id": "dimonsever000.factionlanguages",
+      "status": "not_configured"
+    },
+    {
+      "package_id": "dubwise.dubsbadhygiene",
+      "status": "not_configured"
+    },
+    {
+      "package_id": "dubwise.dubscentralheating",
+      "status": "not_configured"
+    },
+    {
+      "package_id": "dubwise.dubsmintmenus",
+      "status": "not_configured"
+    },
+    {
+      "package_id": "dubwise.dubsmintminimap",
+      "status": "not_configured"
+    },
+    {
+      "package_id": "dubwise.dubsperformanceanalyzer.steam",
+      "status": "not_configured"
+    },
+    {
+      "package_id": "dubwise.rimatomics",
+      "status": "not_configured"
+    },
+    {
+      "package_id": "dubwise.rimefeller",
+      "status": "not_configured"
+    },
+    {
+      "package_id": "erdelf.minifyeverything",
+      "status": "not_configured"
+    },
+    {
+      "package_id": "ferny.betterarchitect",
+      "status": "not_configured"
+    },
+    {
+      "package_id": "ferny.characterdevelopment",
+      "status": "not_configured"
+    },
+    {
+      "package_id": "ferny.perspectiveshift",
+      "status": "not_configured"
+    },
+    {
+      "package_id": "ferny.progressioneducation",
+      "status": "not_configured"
+    },
+    {
+      "package_id": "ferny.resourcedeliveryhelper",
+      "status": "not_configured"
+    },
+    {
+      "package_id": "ferny.worldbuilder",
+      "status": "not_configured"
+    },
+    {
+      "package_id": "forti.rimmarket",
+      "status": "not_configured"
+    },
+    {
+      "package_id": "fuu.bloodanimations",
+      "status": "not_configured"
+    },
+    {
+      "package_id": "gabrieel1482.workersassistant",
+      "status": "not_configured"
+    },
+    {
+      "package_id": "gm.hotspring",
+      "status": "not_configured"
+    },
+    {
+      "package_id": "hailuan.cathiss",
+      "status": "not_configured"
+    },
+    {
+      "package_id": "hailuan.iwbb",
+      "status": "not_configured"
+    },
+    {
+      "package_id": "haplo.miscellaneous.training",
+      "status": "not_configured"
+    },
+    {
+      "package_id": "har.mugirlrace",
+      "status": "not_configured"
+    },
+    {
+      "package_id": "icc.fov.elves",
+      "status": "not_configured"
+    },
+    {
+      "package_id": "ilarion.bulkloadfortransporters",
+      "status": "not_configured"
+    },
+    {
+      "package_id": "ilyvion.loadingprogress",
+      "status": "not_configured"
+    },
+    {
+      "package_id": "imranfish.xmlextensions",
+      "status": "not_configured"
+    },
+    {
+      "package_id": "indeed.stackxxl",
+      "status": "not_configured"
+    },
+    {
+      "package_id": "jaeger972.factionterritories2",
+      "status": "not_configured"
+    },
+    {
+      "package_id": "juanlopez2008.lightsout",
+      "status": "not_configured"
+    },
+    {
+      "package_id": "kattalisk.allproductionxp",
+      "status": "not_configured"
+    },
+    {
+      "package_id": "keno.tuckedfurniture",
+      "status": "not_configured"
+    },
+    {
+      "package_id": "leo.cleancommandbar",
+      "status": "not_configured"
+    },
+    {
+      "package_id": "lingluo.giantcrop",
+      "status": "not_configured"
+    },
+    {
+      "package_id": "linnun.keepconverting",
+      "status": "not_configured"
+    },
+    {
+      "package_id": "local.washingmachine",
+      "status": "not_configured"
+    },
+    {
+      "package_id": "lotusland.weaponupgrade",
+      "status": "not_configured"
+    },
+    {
+      "package_id": "lts.i",
+      "status": "not_configured"
+    },
+    {
+      "package_id": "lwm.deepstorage",
+      "status": "not_configured"
+    },
+    {
+      "package_id": "m00nl1ght.mappreview",
+      "status": "not_configured"
+    },
+    {
+      "package_id": "mehni.pickupandhaul",
+      "status": "not_configured"
+    },
+    {
+      "package_id": "memegoddess.giddyup",
+      "status": "not_configured"
+    },
+    {
+      "package_id": "memegoddess.replacestuff",
+      "status": "not_configured"
+    },
+    {
+      "package_id": "memegoddess.runandgun",
+      "status": "not_configured"
+    },
+    {
+      "package_id": "memegoddess.smartmedicine",
+      "status": "not_configured"
+    },
+    {
+      "package_id": "merthsoft.designatorshapes",
+      "status": "not_configured"
+    },
+    {
+      "package_id": "migcorp.skiptech",
+      "status": "not_configured"
+    },
+    {
+      "package_id": "mlie.showmeyourhands",
+      "status": "not_configured"
+    },
+    {
+      "package_id": "mrk.architectmenuoptimizer",
+      "status": "not_configured"
+    },
+    {
+      "package_id": "nals.facialanimation",
+      "status": "not_configured"
+    },
+    {
+      "package_id": "ninagoblin.nooneleftbehind",
+      "status": "not_configured"
+    },
+    {
+      "package_id": "ogre.ogrestack",
+      "status": "not_configured"
+    },
+    {
+      "package_id": "oskarpotocki.vanillafactionsexpanded.core",
+      "status": "not_configured"
+    },
+    {
+      "package_id": "oskarpotocki.vanillavehiclesexpanded",
+      "status": "not_configured"
+    },
+    {
+      "package_id": "oskarpotocki.vanillavehiclesexpandedtier3",
+      "status": "not_configured"
+    },
+    {
+      "package_id": "oskarpotocki.vanillavehiclesexpandedupgrades",
+      "status": "not_configured"
+    },
+    {
+      "package_id": "oskarpotocki.vfe.empire",
+      "status": "not_configured"
+    },
+    {
+      "package_id": "oskarpotocki.vfe.insectoid2",
+      "status": "not_configured"
+    },
+    {
+      "package_id": "oskarpotocki.vfe.medieval2",
+      "status": "not_configured"
+    },
+    {
+      "package_id": "phonicmas.rimdark.frameworkcore",
+      "status": "not_configured"
+    },
+    {
+      "package_id": "phonicmas.rimdark.mankindsfinest",
+      "status": "not_configured"
+    },
+    {
+      "package_id": "rabiosus.minesight",
+      "status": "not_configured"
+    },
+    {
+      "package_id": "ray1203.simplecamerasetting",
+      "status": "not_configured"
+    },
+    {
+      "package_id": "rebuild.cotr.doorsandcorners",
+      "status": "not_configured"
+    },
+    {
+      "package_id": "redmattis.bettergeneinheritance",
+      "status": "not_configured"
+    },
+    {
+      "package_id": "reel.expanded.storage",
+      "status": "not_configured"
+    },
+    {
+      "package_id": "reel.turretpipeline",
+      "status": "not_configured"
+    },
+    {
+      "package_id": "regrowth.botr.core",
+      "status": "not_configured"
+    },
+    {
+      "package_id": "salvador143.shuttledock",
+      "status": "not_configured"
+    },
+    {
+      "package_id": "sarg.alphaanimals",
+      "status": "not_configured"
+    },
+    {
+      "package_id": "sarg.alphagenes",
+      "status": "not_configured"
+    },
+    {
+      "package_id": "sarg.smartodyssey",
+      "status": "not_configured"
+    },
+    {
+      "package_id": "sarg.smartspeed",
+      "status": "not_configured"
+    },
+    {
+      "package_id": "sbz.gravshipstorage",
+      "status": "not_configured"
+    },
+    {
+      "package_id": "sbz.neatstorage",
+      "status": "not_configured"
+    },
+    {
+      "package_id": "sbz.neatstoragefridge",
+      "status": "not_configured"
+    },
+    {
+      "package_id": "sbz.neatstorageworkbenchshelf",
+      "status": "not_configured"
+    },
+    {
+      "package_id": "seohyeon.yart",
+      "status": "not_configured"
+    },
+    {
+      "package_id": "shunter.bettertradersguild",
+      "status": "not_configured"
+    },
+    {
+      "package_id": "smashphil.vehicleframework",
+      "status": "not_configured"
+    },
+    {
+      "package_id": "stm.shellabackgrounds",
+      "status": "not_configured"
+    },
+    {
+      "package_id": "tsa.worlddomination",
+      "status": "not_configured"
+    },
+    {
+      "package_id": "unon.noburnmetal",
+      "status": "not_configured"
+    },
+    {
+      "package_id": "vanillaexpanded.achievements",
+      "status": "not_configured"
+    },
+    {
+      "package_id": "vanillaexpanded.gravship",
+      "status": "not_configured"
+    },
+    {
+      "package_id": "vanillaexpanded.gravship2",
+      "status": "not_configured"
+    },
+    {
+      "package_id": "vanillaexpanded.ideo.sophianstyle",
+      "status": "not_configured"
+    },
+    {
+      "package_id": "vanillaexpanded.outposts",
+      "status": "not_configured"
+    },
+    {
+      "package_id": "vanillaexpanded.recycling",
+      "status": "not_configured"
+    },
+    {
+      "package_id": "vanillaexpanded.skills",
+      "status": "not_configured"
+    },
+    {
+      "package_id": "vanillaexpanded.temperature",
+      "status": "not_configured"
+    },
+    {
+      "package_id": "vanillaexpanded.vaeaccessories",
+      "status": "not_configured"
+    },
+    {
+      "package_id": "vanillaexpanded.vanillaanimalsexpanded",
+      "status": "not_configured"
+    },
+    {
+      "package_id": "vanillaexpanded.vanillabackstoriesexpanded",
+      "status": "not_configured"
+    },
+    {
+      "package_id": "vanillaexpanded.vanillafoodvarietyexpanded",
+      "status": "not_configured"
+    },
+    {
+      "package_id": "vanillaexpanded.vanillasocialinteractionsexpanded",
+      "status": "not_configured"
+    },
+    {
+      "package_id": "vanillaexpanded.vanillatradingexpanded",
+      "status": "not_configured"
+    },
+    {
+      "package_id": "vanillaexpanded.vanillatraitsexpanded",
+      "status": "not_configured"
+    },
+    {
+      "package_id": "vanillaexpanded.vappe",
+      "status": "not_configured"
+    },
+    {
+      "package_id": "vanillaexpanded.varme",
+      "status": "not_configured"
+    },
+    {
+      "package_id": "vanillaexpanded.vbookse",
+      "status": "not_configured"
+    },
+    {
+      "package_id": "vanillaexpanded.vbrewe",
+      "status": "not_configured"
+    },
+    {
+      "package_id": "vanillaexpanded.vcef",
+      "status": "not_configured"
+    },
+    {
+      "package_id": "vanillaexpanded.vchemfuele",
+      "status": "not_configured"
+    },
+    {
+      "package_id": "vanillaexpanded.vcooke",
+      "status": "not_configured"
+    },
+    {
+      "package_id": "vanillaexpanded.vcookestews",
+      "status": "not_configured"
+    },
+    {
+      "package_id": "vanillaexpanded.vee",
+      "status": "not_configured"
+    },
+    {
+      "package_id": "vanillaexpanded.vexploratione",
+      "status": "not_configured"
+    },
+    {
+      "package_id": "vanillaexpanded.vfearchitect",
+      "status": "not_configured"
+    },
+    {
+      "package_id": "vanillaexpanded.vfeart",
+      "status": "not_configured"
+    },
+    {
+      "package_id": "vanillaexpanded.vfecore",
+      "status": "not_configured"
+    },
+    {
+      "package_id": "vanillaexpanded.vfefactory",
+      "status": "not_configured"
+    },
+    {
+      "package_id": "vanillaexpanded.vfefarming",
+      "status": "not_configured"
+    },
+    {
+      "package_id": "vanillaexpanded.vfemedical",
+      "status": "not_configured"
+    },
+    {
+      "package_id": "vanillaexpanded.vfepower",
+      "status": "not_configured"
+    },
+    {
+      "package_id": "vanillaexpanded.vfeproduction",
+      "status": "not_configured"
+    },
+    {
+      "package_id": "vanillaexpanded.vfepropsanddecor",
+      "status": "not_configured"
+    },
+    {
+      "package_id": "vanillaexpanded.vfesecurity",
+      "status": "not_configured"
+    },
+    {
+      "package_id": "vanillaexpanded.vfespacer",
+      "status": "not_configured"
+    },
+    {
+      "package_id": "vanillaexpanded.vgeneticse",
+      "status": "not_configured"
+    },
+    {
+      "package_id": "vanillaexpanded.vhe",
+      "status": "not_configured"
+    },
+    {
+      "package_id": "vanillaexpanded.vmemese",
+      "status": "not_configured"
+    },
+    {
+      "package_id": "vanillaexpanded.vnutriente",
+      "status": "not_configured"
+    },
+    {
+      "package_id": "vanillaexpanded.vplantse",
+      "status": "not_configured"
+    },
+    {
+      "package_id": "vanillaexpanded.vpsycastse",
+      "status": "not_configured"
+    },
+    {
+      "package_id": "vanillaexpanded.vtexe",
+      "status": "not_configured"
+    },
+    {
+      "package_id": "vanillaexpanded.vwe",
+      "status": "not_configured"
+    },
+    {
+      "package_id": "vanillaexpanded.vwehw",
+      "status": "not_configured"
+    },
+    {
+      "package_id": "vanillaexpanded.vwel",
+      "status": "not_configured"
+    },
+    {
+      "package_id": "vanillaexpanded.vwenl",
+      "status": "not_configured"
+    },
+    {
+      "package_id": "vanillaquestsexpanded.ancients",
+      "status": "not_configured"
+    },
+    {
+      "package_id": "vanillaquestsexpanded.generator",
+      "status": "not_configured"
+    },
+    {
+      "package_id": "vanillaracesexpanded.sanguophage",
+      "status": "not_configured"
+    },
+    {
+      "package_id": "ve.vanillachristmasexpanded",
+      "status": "not_configured"
+    },
+    {
+      "package_id": "void.charactereditor",
+      "status": "not_configured"
+    },
+    {
+      "package_id": "vortex.customizeweapon",
+      "status": "not_configured"
+    },
+    {
+      "package_id": "zeracronius.dynamictradeinterface",
+      "status": "not_configured"
+    },
+    {
+      "package_id": "zhuma.xenotypesummary",
+      "status": "not_configured"
+    }
+  ],
+  "integrations": [
+    {
+      "package_id": "merthsoft.designatorshapes",
+      "pr_url": "https://github.com/merthsoft/designator-shapes/pull/15",
+      "status": "open",
+      "recorded_status": "pr_submitted",
+      "action_required": false,
+      "head_sha": "cf5d3cc0f4f958c1558101d0be8ee0e3edd0c1b1",
+      "merged_at": null
+    },
+    {
+      "package_id": "unon.noburnmetal",
+      "pr_url": "https://github.com/Nonunon/NoBurnMetal/pull/1",
+      "status": "open",
+      "recorded_status": "pr_submitted",
+      "action_required": false,
+      "head_sha": "e7181538298f54ffad677ed4c6613effbcd7e1fc",
+      "merged_at": null
+    }
+  ],
+  "file_monitors": [
+    {
+      "package_id": "adaptive.storage.framework",
+      "repository": "bbradson/Adaptive-Storage-Framework",
+      "ref": "main",
+      "status": "unchanged",
+      "delta": {
+        "added": [],
+        "changed": [],
+        "removed": []
+      },
+      "tree_sha": "31ee88b46651cfbe37da3f89620bc0b907165cc0",
+      "scope": "File-level repository change detection; does not imply changed translation keys or broken Russian text."
+    },
+    {
+      "package_id": "aoba.framework",
+      "repository": "AobaKuma/Fortified-Framework",
+      "ref": "main",
+      "status": "unchanged",
+      "delta": {
+        "added": [],
+        "changed": [],
+        "removed": []
+      },
+      "tree_sha": "a09dcaa9440dceb03cddcf1f75a8154fc880ce51",
+      "scope": "File-level repository change detection; does not imply changed translation keys or broken Russian text."
+    },
+    {
+      "package_id": "dubwise.dubsbadhygiene",
+      "repository": "Dubwise56/Dubs-Bad-Hygiene",
+      "ref": "master",
+      "status": "unchanged",
+      "delta": {
+        "added": [],
+        "changed": [],
+        "removed": []
+      },
+      "tree_sha": "96ec4b51efaf9ef4baa98aa832a8078be09d3f45",
+      "scope": "File-level repository change detection; does not imply changed translation keys or broken Russian text."
+    },
+    {
+      "package_id": "dubwise.dubsmintmenus",
+      "repository": "Dubwise56/Dubs-Mint-Menus",
+      "ref": "master",
+      "status": "unchanged",
+      "delta": {
+        "added": [],
+        "changed": [],
+        "removed": []
+      },
+      "tree_sha": "2a72b0e5b0d75f289ca9c0556983194a27444c78",
+      "scope": "File-level repository change detection; does not imply changed translation keys or broken Russian text."
+    },
+    {
+      "package_id": "dubwise.dubsmintminimap",
+      "repository": "Dubwise56/Dubs-Mint-Minimap",
+      "ref": "master",
+      "status": "unchanged",
+      "delta": {
+        "added": [],
+        "changed": [],
+        "removed": []
+      },
+      "tree_sha": "c71fd81e458be3928c58e99273bb1ad35cf8ea78",
+      "scope": "File-level repository change detection; does not imply changed translation keys or broken Russian text."
+    },
+    {
+      "package_id": "dubwise.rimatomics",
+      "repository": "Dubwise56/Rimatomics",
+      "ref": "master",
+      "status": "unchanged",
+      "delta": {
+        "added": [],
+        "changed": [],
+        "removed": []
+      },
+      "tree_sha": "de328ca971de38ffef6dd5e5054a27105e279d01",
+      "scope": "File-level repository change detection; does not imply changed translation keys or broken Russian text."
+    },
+    {
+      "package_id": "dubwise.rimefeller",
+      "repository": "Dubwise56/Rimefeller",
+      "ref": "master",
+      "status": "unchanged",
+      "delta": {
+        "added": [],
+        "changed": [],
+        "removed": []
+      },
+      "tree_sha": "ab45267f1dd807c65b827feb58dba81df8450cfd",
+      "scope": "File-level repository change detection; does not imply changed translation keys or broken Russian text."
+    },
+    {
+      "package_id": "ilyvion.loadingprogress",
+      "repository": "ilyvion/loading-progress",
+      "ref": "main",
+      "status": "unchanged",
+      "delta": {
+        "added": [],
+        "changed": [],
+        "removed": []
+      },
+      "tree_sha": "a0247cad66bebd00de6526f0fe4a519f4bc6228a",
+      "scope": "File-level repository change detection; does not imply changed translation keys or broken Russian text."
+    },
+    {
+      "package_id": "lwm.deepstorage",
+      "repository": "lilwhitemouse/RimWorld-LWM.DeepStorage",
+      "ref": "master",
+      "status": "unchanged",
+      "delta": {
+        "added": [],
+        "changed": [],
+        "removed": []
+      },
+      "tree_sha": "fe53650ab2c54056eb9e4cd8b8733083dc2eee77",
+      "scope": "File-level repository change detection; does not imply changed translation keys or broken Russian text."
+    },
+    {
+      "package_id": "m00nl1ght.mappreview",
+      "repository": "m00nl1ght-dev/MapPreview",
+      "ref": "main",
+      "status": "unchanged",
+      "delta": {
+        "added": [],
+        "changed": [],
+        "removed": []
+      },
+      "tree_sha": "8bedaa489a5ea4240749704517df0f0daaa00711",
+      "scope": "File-level repository change detection; does not imply changed translation keys or broken Russian text."
+    },
+    {
+      "package_id": "mehni.pickupandhaul",
+      "repository": "Mehni/PickUpAndHaul",
+      "ref": "master",
+      "status": "unchanged",
+      "delta": {
+        "added": [],
+        "changed": [],
+        "removed": []
+      },
+      "tree_sha": "09f1fac96e70cc2a93d647615a5abd37734a3eba",
+      "scope": "File-level repository change detection; does not imply changed translation keys or broken Russian text."
+    },
+    {
+      "package_id": "memegoddess.giddyup",
+      "repository": "MemeGoddess/GiddyUp2",
+      "ref": "master",
+      "status": "unchanged",
+      "delta": {
+        "added": [],
+        "changed": [],
+        "removed": []
+      },
+      "tree_sha": "03dc8455eb544bff7c6e13187eaff9915679b2ad",
+      "scope": "File-level repository change detection; does not imply changed translation keys or broken Russian text."
+    },
+    {
+      "package_id": "merthsoft.designatorshapes",
+      "repository": "merthsoft/designator-shapes",
+      "ref": "main",
+      "status": "unchanged",
+      "delta": {
+        "added": [],
+        "changed": [],
+        "removed": []
+      },
+      "tree_sha": "401ef576a91957a50e668904a3c5efbedb11eac3",
+      "scope": "File-level repository change detection; does not imply changed translation keys or broken Russian text."
+    },
+    {
+      "package_id": "mlie.showmeyourhands",
+      "repository": "emipa606/ShowMeYourHands",
+      "ref": "main",
+      "status": "unchanged",
+      "delta": {
+        "added": [],
+        "changed": [],
+        "removed": []
+      },
+      "tree_sha": "cef425c47a9a8ca04499c5c9da6f79ef03a03b23",
+      "scope": "File-level repository change detection; does not imply changed translation keys or broken Russian text."
+    },
+    {
+      "package_id": "ogre.ogrestack",
+      "repository": "cmdprompt/OgreStack",
+      "ref": "master",
+      "status": "unchanged",
+      "delta": {
+        "added": [],
+        "changed": [],
+        "removed": []
+      },
+      "tree_sha": "33950195fa65f5cbaf6aa713fc7bb6399791252a",
+      "scope": "File-level repository change detection; does not imply changed translation keys or broken Russian text."
+    },
+    {
+      "package_id": "oskarpotocki.vanillafactionsexpanded.core",
+      "repository": "Vanilla-Expanded/VanillaExpandedFramework",
+      "ref": "main",
+      "status": "unchanged",
+      "delta": {
+        "added": [],
+        "changed": [],
+        "removed": []
+      },
+      "tree_sha": "3df09e3e491b94ed7996099297b7363f275fc072",
+      "scope": "File-level repository change detection; does not imply changed translation keys or broken Russian text."
+    },
+    {
+      "package_id": "seohyeon.yart",
+      "repository": "csh1668/YetAnotherResearchTree",
+      "ref": "main",
+      "status": "unchanged",
+      "delta": {
+        "added": [],
+        "changed": [],
+        "removed": []
+      },
+      "tree_sha": "6daf17cd978f412853fcca49999504652fb59d6d",
+      "scope": "File-level repository change detection; does not imply changed translation keys or broken Russian text."
+    },
+    {
+      "package_id": "smashphil.vehicleframework",
+      "repository": "SmashPhil/Vehicle-Framework",
+      "ref": "develop",
+      "status": "unchanged",
+      "delta": {
+        "added": [],
+        "changed": [],
+        "removed": []
+      },
+      "tree_sha": "26b8579265c78d7d3d0166560c92b9f88e9975cd",
+      "scope": "File-level repository change detection; does not imply changed translation keys or broken Russian text."
+    },
+    {
+      "package_id": "tsa.worlddomination",
+      "repository": "Likewise87/World-Domination",
+      "ref": "main",
+      "status": "unchanged",
+      "delta": {
+        "added": [],
+        "changed": [],
+        "removed": []
+      },
+      "tree_sha": "23bf7822e744026382adc617bd8f2d0972c4cf16",
+      "scope": "File-level repository change detection; does not imply changed translation keys or broken Russian text."
+    },
+    {
+      "package_id": "unon.noburnmetal",
+      "repository": "Nonunon/NoBurnMetal",
+      "ref": "master",
+      "status": "unchanged",
+      "delta": {
+        "added": [],
+        "changed": [],
+        "removed": []
+      },
+      "tree_sha": "8df3fca3cd349657688160e3d73d6ebd91125a04",
+      "scope": "File-level repository change detection; does not imply changed translation keys or broken Russian text."
+    },
+    {
+      "package_id": "vanillaexpanded.achievements",
+      "repository": "AndroidQuazar/VanillaAchievementsExpanded",
+      "ref": "master",
+      "status": "unchanged",
+      "delta": {
+        "added": [],
+        "changed": [],
+        "removed": []
+      },
+      "tree_sha": "bc0a6cf9ca13ccd30dc971aa1c578859299571a2",
+      "scope": "File-level repository change detection; does not imply changed translation keys or broken Russian text."
+    },
+    {
+      "package_id": "vanillaexpanded.gravship",
+      "repository": "Vanilla-Expanded/VanillaGravshipExpanded",
+      "ref": "main",
+      "status": "unchanged",
+      "delta": {
+        "added": [],
+        "changed": [],
+        "removed": []
+      },
+      "tree_sha": "7212a0c11bc392079d1f8ac9395d6434aa29b8af",
+      "scope": "File-level repository change detection; does not imply changed translation keys or broken Russian text."
+    },
+    {
+      "package_id": "vanillaexpanded.vcooke",
+      "repository": "Vanilla-Expanded/VanillaCookingExpanded",
+      "ref": "main",
+      "status": "unchanged",
+      "delta": {
+        "added": [],
+        "changed": [],
+        "removed": []
+      },
+      "tree_sha": "74b2fd7dfb1a9c9aaec2b6108c6a01b5463ff4f1",
+      "scope": "File-level repository change detection; does not imply changed translation keys or broken Russian text."
+    },
+    {
+      "package_id": "vortex.customizeweapon",
+      "repository": "realloon/CustomizeWeapon",
+      "ref": "main",
+      "status": "unchanged",
+      "delta": {
+        "added": [],
+        "changed": [],
+        "removed": []
+      },
+      "tree_sha": "d5e41881b0b79c7ae74ee7361e3e6fa462323562",
+      "scope": "File-level repository change detection; does not imply changed translation keys or broken Russian text."
+    }
+  ]
+}

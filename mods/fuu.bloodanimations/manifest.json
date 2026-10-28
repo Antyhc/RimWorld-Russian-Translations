@@ -1,0 +1,101 @@
+{
+  "schema_version": 1,
+  "package_id": "fuu.bloodanimations",
+  "name": "Blood Animations",
+  "translation_package_id": "antyhc.russian.fuu.bloodanimations",
+  "supported_versions": [
+    "1.7"
+  ],
+  "rights": {
+    "translation": {
+      "status": "unknown",
+      "license": null,
+      "evidence": null,
+      "attribution": null
+    },
+    "icon": {
+      "status": "unknown",
+      "license": null,
+      "evidence": null,
+      "attribution": null
+    }
+  },
+  "qa": {
+    "technical": "pending",
+    "linguistic": "pending",
+    "source_current": false,
+    "in_game": "not_tested",
+    "checked_at": "2026-10-28T09:15:27.268425+00:00"
+  },
+  "publication": {
+    "github_url": "https://github.com/Antyhc/RimWorld-Russian-Translations/tree/main/mods/fuu.bloodanimations",
+    "github_status": "metadata_only",
+    "workshop_url": null,
+    "workshop_id": null,
+    "workshop_status": "not_published"
+  },
+  "integration": {
+    "status": "not_sent",
+    "pr_url": null,
+    "contact_url": null
+  },
+  "original": {
+    "author": "Fuu Chan",
+    "workshop_id": "3228047321",
+    "workshop_url": "https://steamcommunity.com/sharedfiles/filedetails/?id=3228047321",
+    "supported_versions": [
+      "1.4",
+      "1.5",
+      "1.6",
+      "1.7"
+    ],
+    "repository_url": "https://github.com/tenguin/Rimworld_BloodAnimations",
+    "repository_candidates": [
+      "https://github.com/pardeike/HarmonyRimWorld",
+      "https://github.com/tenguin/Rimworld_BloodAnimations"
+    ],
+    "repository_verification": "verified_original_metadata_and_remote_repository",
+    "activity": {
+      "last_push": "2025-03-09T23:27:46Z",
+      "archived": false,
+      "checked_at": "2026-10-28T09:17:47.661244+00:00"
+    },
+    "default_branch": "main",
+    "checked_commit": "8b7cee1725e0c27023503177a2d6348ea6780496",
+    "license": "MIT"
+  },
+  "inventory": {
+    "saved_records": 15,
+    "historical_approved_records": 15,
+    "provenance_counts": {
+      "new_contextual_translation": 15
+    },
+    "attribution_licenses": {},
+    "installed_locally": true,
+    "native_russian_rows_in_snapshot": 0,
+    "third_party_candidates": [],
+    "coverage_scope": "saved_static_extraction_lower_bound; not complete runtime coverage",
+    "checked_at": "2026-10-28T09:15:27.268425+00:00",
+    "original_license_evidence": [
+      {
+        "relative_path": "LICENSE",
+        "sha256": "726eafd2e45a5edbdec604b6010e1da838634d15bcc35ef1735b453baea9f874",
+        "identified_license": "MIT"
+      }
+    ],
+    "local_static_audit": {
+      "checked_at": "2026-10-28T09:16:16.796063+00:00",
+      "issue_kinds": [],
+      "status": "no_detected_issues",
+      "issue_count": 0,
+      "new_files_outside_saved_source_inventory_checked": false
+    }
+  },
+  "duplicate_translation": {
+    "status": "standalone_not_cleared",
+    "candidates": [
+      "https://steamcommunity.com/sharedfiles/filedetails/?id=3278851736"
+    ],
+    "reason": "Existing Russian pack found; current coverage not yet evaluated. Official GitHub older than current Workshop1.7."
+  }
+}

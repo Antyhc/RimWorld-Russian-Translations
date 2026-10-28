@@ -1,0 +1,88 @@
+{
+  "schema_version": 1,
+  "package_id": "vanillaexpanded.vanillatradingexpanded",
+  "name": "Vanilla Trading Expanded",
+  "translation_package_id": "antyhc.russian.vanillaexpanded.vanillatradingexpanded",
+  "supported_versions": [
+    "1.7"
+  ],
+  "rights": {
+    "translation": {
+      "status": "unknown",
+      "license": null,
+      "evidence": null,
+      "attribution": null
+    },
+    "icon": {
+      "status": "unknown",
+      "license": null,
+      "evidence": null,
+      "attribution": null
+    }
+  },
+  "qa": {
+    "technical": "pending",
+    "linguistic": "pending",
+    "source_current": false,
+    "in_game": "not_tested",
+    "checked_at": "2026-10-28T09:15:27.268425+00:00"
+  },
+  "publication": {
+    "github_url": "https://github.com/Antyhc/RimWorld-Russian-Translations/tree/main/mods/vanillaexpanded.vanillatradingexpanded",
+    "github_status": "metadata_only",
+    "workshop_url": null,
+    "workshop_id": null,
+    "workshop_status": "not_published"
+  },
+  "integration": {
+    "status": "not_sent",
+    "pr_url": null,
+    "contact_url": null
+  },
+  "original": {
+    "author": "Oskar Potocki, Taranchuk",
+    "workshop_id": "2785616901",
+    "workshop_url": "https://steamcommunity.com/sharedfiles/filedetails/?id=2785616901",
+    "supported_versions": [
+      "1.7",
+      "1.5",
+      "1.6"
+    ],
+    "repository_url": null,
+    "repository_candidates": [],
+    "repository_verification": "not_remote_checked",
+    "activity": "not_remote_checked"
+  },
+  "inventory": {
+    "saved_records": 126,
+    "historical_approved_records": 126,
+    "provenance_counts": {
+      "community_translation_exact_english_match_static_qa": 126
+    },
+    "attribution_licenses": {
+      "CC-BY-NC-SA-4.0": 126
+    },
+    "installed_locally": true,
+    "native_russian_rows_in_snapshot": 0,
+    "third_party_candidates": [
+      {
+        "name": "Vanilla Trading Expanded Russian Language Pack",
+        "package_id": "ow.ru.trading",
+        "author": "OliveWizard",
+        "workshop_id": "2787018584",
+        "workshop_url": "https://steamcommunity.com/sharedfiles/filedetails/?id=2787018584",
+        "license": "CC-BY-NC-SA-4.0"
+      }
+    ],
+    "coverage_scope": "saved_static_extraction_lower_bound; not complete runtime coverage",
+    "checked_at": "2026-10-28T09:15:27.268425+00:00",
+    "original_license_evidence": [],
+    "local_static_audit": {
+      "checked_at": "2026-10-28T09:16:18.194020+00:00",
+      "issue_kinds": [],
+      "status": "no_detected_issues",
+      "issue_count": 0,
+      "new_files_outside_saved_source_inventory_checked": false
+    }
+  }
+}

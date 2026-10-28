@@ -1,0 +1,6 @@
+Original mod: No Burn Metal by Unon
+Source: https://github.com/Nonunon/NoBurnMetal
+Russian text: Antyhc; AI-assisted authoring and review by OpenAI Codex, 2026.
+Translation contributed under GPL-3.0.
+No independent human proofreading or fresh game test claimed.
+No original code, assemblies, textures or artwork included.

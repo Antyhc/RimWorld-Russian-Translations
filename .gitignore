@@ -1,0 +1,17 @@
+__pycache__/
+*.pyc
+.venv/
+dist/
+reports/*
+!reports/local-audit-2026-10-28.json
+!reports/designator-linguistic-review-2026-10-28.json
+!reports/repository-evidence-2026-10-28.json
+!reports/repository-monitors-2026-10-28.json
+*.log
+*.vdf
+*.token
+.env
+.env.*
+private/
+originals/
+.tests-tmp/

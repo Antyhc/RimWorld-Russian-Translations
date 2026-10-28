@@ -1,0 +1,26 @@
+{
+  "checked_at": "2026-10-28T09:22:32+00:00",
+  "upstream_commit": "8df3fca3cd349657688160e3d73d6ebd91125a04",
+  "records": 19,
+  "file_hashes": {
+    "About/About.xml": "48c0b5ca06181b2df8c692dbf304eda57b43b5d668b0cf0ed4d479a074b47fdd",
+    "About/Credits.txt": "69dc05cfa176b0a0ef15d872e1f4f761e6923efda051cb20d872a9a5115acab0",
+    "About/License.txt": "3972dc9744f6499f0f9b2dbf76696f2ae7ad8af9b23dde66d6af86c9dfb36986",
+    "Languages/Russian/Keyed/NBM_Keys.xml": "55b831444c18d9466fba19839f35de263cfc7ce00f4d05999d0993dbb5201eaf"
+  },
+  "source_sha256": "3721591a666fdf90bcdd6f5a32f7b1bf7389faa0dd35063b55b0291670b31101",
+  "xml_parsed": true,
+  "source_key_hash_match": true,
+  "placeholders_tags_and_newlines": "passed",
+  "ai_semantic_review": "all included English/Russian pairs reviewed",
+  "independent_human_review": false,
+  "fresh_in_game_test": false,
+  "upstream_file_proofs": [
+    {
+      "path": "Common/Languages/Russian/Keyed/NBM_Keys.xml",
+      "sha256": "55b831444c18d9466fba19839f35de263cfc7ce00f4d05999d0993dbb5201eaf",
+      "keys": 19,
+      "operation": "add"
+    }
+  ]
+}

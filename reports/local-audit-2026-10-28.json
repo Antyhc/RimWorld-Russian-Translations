@@ -1,0 +1,3587 @@
+{
+  "schema_version": 1,
+  "checked_at": "2026-10-28T09:16:19.233235+00:00",
+  "game_version": "1.7.4990 rev1069",
+  "summary": {
+    "installed_packages": 150,
+    "original_linked_translation_packages": 149,
+    "runtime_supplement_packages": 1,
+    "excluded_nontranslation_folders": 2,
+    "xml_files_parsed": 1408,
+    "effective_language_records": 55175,
+    "records_checked_against_saved_english": 53061,
+    "static_pass_packages": 130,
+    "original_linked_static_pass_packages": 129,
+    "packages_with_issues": 20,
+    "packages_with_source_drift": 13,
+    "packages_with_native_key_overlap": 0,
+    "cross_package_duplicate_keys": 0,
+    "issue_count": 49,
+    "issue_counts": {
+      "source_snapshot_drift": 13,
+      "field_verification_stale": 33,
+      "installed_translation_record_mismatch": 3
+    },
+    "tested_in_game_this_run": 0
+  },
+  "scope_limits": [
+    "Read-only static audit; no RimWorld executable was launched.",
+    "Saved English source snapshots are compared and their recorded input hashes rechecked; newly added upstream files are outside the snapshot inventory.",
+    "Russian language LoadFolders overlay and TAR parsing use the existing rwloc 1.7 logic with the current personal active-mod set.",
+    "DefInjected physical alias collisions and grammar output require actual runtime observation; string-key comparison alone cannot rule them out.",
+    "Complete cross-mod conflict checking against every active original and third-party translation was not performed.",
+    "Installed package manifests do not constitute current gameplay-test evidence.",
+    "Existing personally_linguistically_reviewed fields are historical provenance, not an independent human review claim."
+  ],
+  "in_game_test_claimed": false,
+  "current_runtime_context": "runtime_assembly_changed; latest source-only game run rejected because Steam Workshop was unavailable",
+  "mods": [
+    {
+      "package_id": "6224y.onewithdeath",
+      "role": "original_linked_translation",
+      "checked_at": "2026-10-28T09:16:15.937613+00:00",
+      "xml_files_parsed": 46,
+      "effective_language_records": 1106,
+      "records_checked_against_saved_english": 1106,
+      "source_input_files_checked": 106,
+      "source_drift_file_count": 2,
+      "issue_kinds": {
+        "source_snapshot_drift": 1
+      },
+      "static_check_status": "issues_found",
+      "in_game_tested_this_run": false,
+      "unmatched_records": 0,
+      "original_declared_versions": [
+        "1.7",
+        "1.6",
+        "1.5"
+      ],
+      "translation_declared_versions": [
+        "1.7"
+      ],
+      "publication_ready_claimed": false
+    },
+    {
+      "package_id": "adamas.hospital",
+      "role": "original_linked_translation",
+      "checked_at": "2026-10-28T09:16:16.120937+00:00",
+      "xml_files_parsed": 6,
+      "effective_language_records": 81,
+      "records_checked_against_saved_english": 81,
+      "source_input_files_checked": 11,
+      "source_drift_file_count": 0,
+      "issue_kinds": {},
+      "static_check_status": "pass_with_scope_limits",
+      "in_game_tested_this_run": false,
+      "unmatched_records": 0,
+      "original_declared_versions": [
+        "1.4",
+        "1.5",
+        "1.6",
+        "1.7"
+      ],
+      "translation_declared_versions": [
+        "1.7"
+      ],
+      "publication_ready_claimed": false
+    },
+    {
+      "package_id": "adaptive.storage.framework",
+      "role": "original_linked_translation",
+      "checked_at": "2026-10-28T09:16:16.127324+00:00",
+      "xml_files_parsed": 3,
+      "effective_language_records": 40,
+      "records_checked_against_saved_english": 40,
+      "source_input_files_checked": 20,
+      "source_drift_file_count": 0,
+      "issue_kinds": {},
+      "static_check_status": "pass_with_scope_limits",
+      "in_game_tested_this_run": false,
+      "unmatched_records": 0,
+      "original_declared_versions": [
+        "1.4",
+        "1.5",
+        "1.6"
+      ],
+      "translation_declared_versions": [
+        "1.7"
+      ],
+      "publication_ready_claimed": false
+    },
+    {
+      "package_id": "andromeda.usefulmarks",
+      "role": "original_linked_translation",
+      "checked_at": "2026-10-28T09:16:16.134330+00:00",
+      "xml_files_parsed": 2,
+      "effective_language_records": 1,
+      "records_checked_against_saved_english": 1,
+      "source_input_files_checked": 8,
+      "source_drift_file_count": 0,
+      "issue_kinds": {},
+      "static_check_status": "pass_with_scope_limits",
+      "in_game_tested_this_run": false,
+      "unmatched_records": 0,
+      "original_declared_versions": [
+        "1.5",
+        "1.6",
+        "1.7"
+      ],
+      "translation_declared_versions": [
+        "1.7"
+      ],
+      "publication_ready_claimed": false
+    },
+    {
+      "package_id": "aoba.deadmanswitch.ancientcorps",
+      "role": "original_linked_translation",
+      "checked_at": "2026-10-28T09:16:16.141895+00:00",
+      "xml_files_parsed": 16,
+      "effective_language_records": 187,
+      "records_checked_against_saved_english": 187,
+      "source_input_files_checked": 71,
+      "source_drift_file_count": 0,
+      "issue_kinds": {},
+      "static_check_status": "pass_with_scope_limits",
+      "in_game_tested_this_run": false,
+      "unmatched_records": 0,
+      "original_declared_versions": [
+        "1.5",
+        "1.6",
+        "1.7"
+      ],
+      "translation_declared_versions": [
+        "1.7"
+      ],
+      "publication_ready_claimed": false
+    },
+    {
+      "package_id": "aoba.deadmanswitch.core",
+      "role": "original_linked_translation",
+      "checked_at": "2026-10-28T09:16:16.204221+00:00",
+      "xml_files_parsed": 54,
+      "effective_language_records": 3128,
+      "records_checked_against_saved_english": 3128,
+      "source_input_files_checked": 534,
+      "source_drift_file_count": 24,
+      "issue_kinds": {
+        "source_snapshot_drift": 1
+      },
+      "static_check_status": "issues_found",
+      "in_game_tested_this_run": false,
+      "unmatched_records": 0,
+      "original_declared_versions": [
+        "1.7"
+      ],
+      "translation_declared_versions": [
+        "1.7"
+      ],
+      "publication_ready_claimed": false
+    },
+    {
+      "package_id": "aoba.deadmanswitch.mobiledragoon",
+      "role": "original_linked_translation",
+      "checked_at": "2026-10-28T09:16:16.325695+00:00",
+      "xml_files_parsed": 8,
+      "effective_language_records": 213,
+      "records_checked_against_saved_english": 213,
+      "source_input_files_checked": 55,
+      "source_drift_file_count": 0,
+      "issue_kinds": {},
+      "static_check_status": "pass_with_scope_limits",
+      "in_game_tested_this_run": false,
+      "unmatched_records": 0,
+      "original_declared_versions": [
+        "1.5",
+        "1.6",
+        "1.7"
+      ],
+      "translation_declared_versions": [
+        "1.7"
+      ],
+      "publication_ready_claimed": false
+    },
+    {
+      "package_id": "aoba.fortress.industrial",
+      "role": "original_linked_translation",
+      "checked_at": "2026-10-28T09:16:16.342897+00:00",
+      "xml_files_parsed": 13,
+      "effective_language_records": 209,
+      "records_checked_against_saved_english": 209,
+      "source_input_files_checked": 33,
+      "source_drift_file_count": 0,
+      "issue_kinds": {
+        "field_verification_stale": 5
+      },
+      "static_check_status": "issues_found",
+      "in_game_tested_this_run": false,
+      "unmatched_records": 0,
+      "original_declared_versions": [
+        "1.3",
+        "1.4",
+        "1.5",
+        "1.6",
+        "1.7"
+      ],
+      "translation_declared_versions": [
+        "1.7"
+      ],
+      "publication_ready_claimed": false
+    },
+    {
+      "package_id": "aoba.framework",
+      "role": "original_linked_translation",
+      "checked_at": "2026-10-28T09:16:16.363316+00:00",
+      "xml_files_parsed": 18,
+      "effective_language_records": 742,
+      "records_checked_against_saved_english": 742,
+      "source_input_files_checked": 85,
+      "source_drift_file_count": 5,
+      "issue_kinds": {
+        "source_snapshot_drift": 1
+      },
+      "static_check_status": "issues_found",
+      "in_game_tested_this_run": false,
+      "unmatched_records": 0,
+      "original_declared_versions": [
+        "1.5",
+        "1.6",
+        "1.7"
+      ],
+      "translation_declared_versions": [
+        "1.7"
+      ],
+      "publication_ready_claimed": false
+    },
+    {
+      "package_id": "aoba.tent",
+      "role": "original_linked_translation",
+      "checked_at": "2026-10-28T09:16:16.394087+00:00",
+      "xml_files_parsed": 3,
+      "effective_language_records": 16,
+      "records_checked_against_saved_english": 16,
+      "source_input_files_checked": 10,
+      "source_drift_file_count": 0,
+      "issue_kinds": {},
+      "static_check_status": "pass_with_scope_limits",
+      "in_game_tested_this_run": false,
+      "unmatched_records": 0,
+      "original_declared_versions": [
+        "1.1",
+        "1.2",
+        "1.3",
+        "1.4",
+        "1.5",
+        "1.6",
+        "1.7"
+      ],
+      "translation_declared_versions": [
+        "1.7"
+      ],
+      "publication_ready_claimed": false
+    },
+    {
+      "package_id": "aoba.usac.core",
+      "role": "original_linked_translation",
+      "checked_at": "2026-10-28T09:16:16.412623+00:00",
+      "xml_files_parsed": 39,
+      "effective_language_records": 1304,
+      "records_checked_against_saved_english": 1304,
+      "source_input_files_checked": 163,
+      "source_drift_file_count": 0,
+      "issue_kinds": {},
+      "static_check_status": "pass_with_scope_limits",
+      "in_game_tested_this_run": false,
+      "unmatched_records": 0,
+      "original_declared_versions": [
+        "1.6",
+        "1.7"
+      ],
+      "translation_declared_versions": [
+        "1.7"
+      ],
+      "publication_ready_claimed": false
+    },
+    {
+      "package_id": "arkymn.slowerpawntickrate",
+      "role": "original_linked_translation",
+      "checked_at": "2026-10-28T09:16:16.464545+00:00",
+      "xml_files_parsed": 2,
+      "effective_language_records": 16,
+      "records_checked_against_saved_english": 16,
+      "source_input_files_checked": 3,
+      "source_drift_file_count": 0,
+      "issue_kinds": {},
+      "static_check_status": "pass_with_scope_limits",
+      "in_game_tested_this_run": false,
+      "unmatched_records": 0,
+      "original_declared_versions": [
+        "1.6",
+        "1.7"
+      ],
+      "translation_declared_versions": [
+        "1.7"
+      ],
+      "publication_ready_claimed": false
+    },
+    {
+      "package_id": "breadmo.cinders",
+      "role": "original_linked_translation",
+      "checked_at": "2026-10-28T09:16:16.478609+00:00",
+      "xml_files_parsed": 35,
+      "effective_language_records": 1211,
+      "records_checked_against_saved_english": 1206,
+      "source_input_files_checked": 126,
+      "source_drift_file_count": 1,
+      "issue_kinds": {
+        "source_snapshot_drift": 1
+      },
+      "static_check_status": "issues_found",
+      "in_game_tested_this_run": false,
+      "unmatched_records": 0,
+      "original_declared_versions": [
+        "1.5",
+        "1.6",
+        "1.7"
+      ],
+      "translation_declared_versions": [
+        "1.7"
+      ],
+      "publication_ready_claimed": false
+    },
+    {
+      "package_id": "caesarv6.damageindicators",
+      "role": "original_linked_translation",
+      "checked_at": "2026-10-28T09:16:16.526818+00:00",
+      "xml_files_parsed": 2,
+      "effective_language_records": 8,
+      "records_checked_against_saved_english": 8,
+      "source_input_files_checked": 3,
+      "source_drift_file_count": 0,
+      "issue_kinds": {},
+      "static_check_status": "pass_with_scope_limits",
+      "in_game_tested_this_run": false,
+      "unmatched_records": 0,
+      "original_declared_versions": [
+        "1.1",
+        "1.2",
+        "1.3",
+        "1.4",
+        "1.5",
+        "1.6",
+        "1.7"
+      ],
+      "translation_declared_versions": [
+        "1.7"
+      ],
+      "publication_ready_claimed": false
+    },
+    {
+      "package_id": "cain.mineshaft",
+      "role": "original_linked_translation",
+      "checked_at": "2026-10-28T09:16:16.529765+00:00",
+      "xml_files_parsed": 5,
+      "effective_language_records": 28,
+      "records_checked_against_saved_english": 28,
+      "source_input_files_checked": 12,
+      "source_drift_file_count": 0,
+      "issue_kinds": {},
+      "static_check_status": "pass_with_scope_limits",
+      "in_game_tested_this_run": false,
+      "unmatched_records": 0,
+      "original_declared_versions": [
+        "1.2",
+        "1.3",
+        "1.4",
+        "1.5",
+        "1.6",
+        "1.7"
+      ],
+      "translation_declared_versions": [
+        "1.7"
+      ],
+      "publication_ready_claimed": false
+    },
+    {
+      "package_id": "costel.layeredapparel",
+      "role": "original_linked_translation",
+      "checked_at": "2026-10-28T09:16:16.537819+00:00",
+      "xml_files_parsed": 2,
+      "effective_language_records": 520,
+      "records_checked_against_saved_english": 520,
+      "source_input_files_checked": 5,
+      "source_drift_file_count": 0,
+      "issue_kinds": {},
+      "static_check_status": "pass_with_scope_limits",
+      "in_game_tested_this_run": false,
+      "unmatched_records": 0,
+      "original_declared_versions": [
+        "1.6",
+        "1.7"
+      ],
+      "translation_declared_versions": [
+        "1.7"
+      ],
+      "publication_ready_claimed": false
+    },
+    {
+      "package_id": "dawnsglow.qualcolor",
+      "role": "original_linked_translation",
+      "checked_at": "2026-10-28T09:16:16.550786+00:00",
+      "xml_files_parsed": 2,
+      "effective_language_records": 18,
+      "records_checked_against_saved_english": 18,
+      "source_input_files_checked": 3,
+      "source_drift_file_count": 0,
+      "issue_kinds": {},
+      "static_check_status": "pass_with_scope_limits",
+      "in_game_tested_this_run": false,
+      "unmatched_records": 0,
+      "original_declared_versions": [
+        "1.2",
+        "1.3",
+        "1.4",
+        "1.5",
+        "1.6",
+        "1.7"
+      ],
+      "translation_declared_versions": [
+        "1.7"
+      ],
+      "publication_ready_claimed": false
+    },
+    {
+      "package_id": "dimonsever000.factionlanguages",
+      "role": "original_linked_translation",
+      "checked_at": "2026-10-28T09:16:16.556604+00:00",
+      "xml_files_parsed": 1,
+      "effective_language_records": 0,
+      "records_checked_against_saved_english": 0,
+      "source_input_files_checked": 37,
+      "source_drift_file_count": 0,
+      "issue_kinds": {},
+      "static_check_status": "pass_with_scope_limits",
+      "in_game_tested_this_run": false,
+      "unmatched_records": 0,
+      "original_declared_versions": [
+        "1.5",
+        "1.6",
+        "1.7"
+      ],
+      "translation_declared_versions": [
+        "1.7"
+      ],
+      "publication_ready_claimed": false
+    },
+    {
+      "package_id": "dubwise.dubscentralheating",
+      "role": "original_linked_translation",
+      "checked_at": "2026-10-28T09:16:16.564882+00:00",
+      "xml_files_parsed": 5,
+      "effective_language_records": 26,
+      "records_checked_against_saved_english": 26,
+      "source_input_files_checked": 10,
+      "source_drift_file_count": 0,
+      "issue_kinds": {},
+      "static_check_status": "pass_with_scope_limits",
+      "in_game_tested_this_run": false,
+      "unmatched_records": 0,
+      "original_declared_versions": [
+        "1.3",
+        "1.4",
+        "1.5",
+        "1.6",
+        "1.7"
+      ],
+      "translation_declared_versions": [
+        "1.7"
+      ],
+      "publication_ready_claimed": false
+    },
+    {
+      "package_id": "dubwise.dubsmintmenus",
+      "role": "original_linked_translation",
+      "checked_at": "2026-10-28T09:16:16.572244+00:00",
+      "xml_files_parsed": 5,
+      "effective_language_records": 142,
+      "records_checked_against_saved_english": 142,
+      "source_input_files_checked": 4,
+      "source_drift_file_count": 0,
+      "issue_kinds": {},
+      "static_check_status": "pass_with_scope_limits",
+      "in_game_tested_this_run": false,
+      "unmatched_records": 0,
+      "original_declared_versions": [
+        "1.0",
+        "1.1",
+        "1.2",
+        "1.3",
+        "1.4",
+        "1.5",
+        "1.6",
+        "1.7"
+      ],
+      "translation_declared_versions": [
+        "1.7"
+      ],
+      "publication_ready_claimed": false
+    },
+    {
+      "package_id": "dubwise.dubsmintminimap",
+      "role": "original_linked_translation",
+      "checked_at": "2026-10-28T09:16:16.578499+00:00",
+      "xml_files_parsed": 4,
+      "effective_language_records": 58,
+      "records_checked_against_saved_english": 58,
+      "source_input_files_checked": 5,
+      "source_drift_file_count": 0,
+      "issue_kinds": {},
+      "static_check_status": "pass_with_scope_limits",
+      "in_game_tested_this_run": false,
+      "unmatched_records": 0,
+      "original_declared_versions": [
+        "1.0",
+        "1.1",
+        "1.2",
+        "1.3",
+        "1.4",
+        "1.5",
+        "1.6",
+        "1.7"
+      ],
+      "translation_declared_versions": [
+        "1.7"
+      ],
+      "publication_ready_claimed": false
+    },
+    {
+      "package_id": "dubwise.dubsperformanceanalyzer.steam",
+      "role": "original_linked_translation",
+      "checked_at": "2026-10-28T09:16:16.586356+00:00",
+      "xml_files_parsed": 2,
+      "effective_language_records": 87,
+      "records_checked_against_saved_english": 87,
+      "source_input_files_checked": 8,
+      "source_drift_file_count": 2,
+      "issue_kinds": {
+        "source_snapshot_drift": 1
+      },
+      "static_check_status": "issues_found",
+      "in_game_tested_this_run": false,
+      "unmatched_records": 0,
+      "original_declared_versions": [
+        "1.2",
+        "1.3",
+        "1.4",
+        "1.5",
+        "1.6",
+        "1.7"
+      ],
+      "translation_declared_versions": [
+        "1.7"
+      ],
+      "publication_ready_claimed": false
+    },
+    {
+      "package_id": "dubwise.rimefeller",
+      "role": "original_linked_translation",
+      "checked_at": "2026-10-28T09:16:16.595926+00:00",
+      "xml_files_parsed": 5,
+      "effective_language_records": 15,
+      "records_checked_against_saved_english": 15,
+      "source_input_files_checked": 46,
+      "source_drift_file_count": 0,
+      "issue_kinds": {},
+      "static_check_status": "pass_with_scope_limits",
+      "in_game_tested_this_run": false,
+      "unmatched_records": 0,
+      "original_declared_versions": [
+        "1.0",
+        "1.1",
+        "1.2",
+        "1.3",
+        "1.4",
+        "1.5",
+        "1.6",
+        "1.7"
+      ],
+      "translation_declared_versions": [
+        "1.7"
+      ],
+      "publication_ready_claimed": false
+    },
+    {
+      "package_id": "ferny.betterarchitect",
+      "role": "original_linked_translation",
+      "checked_at": "2026-10-28T09:16:16.609761+00:00",
+      "xml_files_parsed": 3,
+      "effective_language_records": 270,
+      "records_checked_against_saved_english": 270,
+      "source_input_files_checked": 89,
+      "source_drift_file_count": 0,
+      "issue_kinds": {},
+      "static_check_status": "pass_with_scope_limits",
+      "in_game_tested_this_run": false,
+      "unmatched_records": 0,
+      "original_declared_versions": [
+        "1.6",
+        "1.7"
+      ],
+      "translation_declared_versions": [
+        "1.7"
+      ],
+      "publication_ready_claimed": false
+    },
+    {
+      "package_id": "ferny.characterdevelopment",
+      "role": "original_linked_translation",
+      "checked_at": "2026-10-28T09:16:16.685485+00:00",
+      "xml_files_parsed": 8,
+      "effective_language_records": 444,
+      "records_checked_against_saved_english": 444,
+      "source_input_files_checked": 9,
+      "source_drift_file_count": 0,
+      "issue_kinds": {},
+      "static_check_status": "pass_with_scope_limits",
+      "in_game_tested_this_run": false,
+      "unmatched_records": 0,
+      "original_declared_versions": [
+        "1.6",
+        "1.7"
+      ],
+      "translation_declared_versions": [
+        "1.7"
+      ],
+      "publication_ready_claimed": false
+    },
+    {
+      "package_id": "ferny.perspectiveshift",
+      "role": "original_linked_translation",
+      "checked_at": "2026-10-28T09:16:16.702512+00:00",
+      "xml_files_parsed": 5,
+      "effective_language_records": 332,
+      "records_checked_against_saved_english": 332,
+      "source_input_files_checked": 9,
+      "source_drift_file_count": 0,
+      "issue_kinds": {},
+      "static_check_status": "pass_with_scope_limits",
+      "in_game_tested_this_run": false,
+      "unmatched_records": 0,
+      "original_declared_versions": [
+        "1.6",
+        "1.7"
+      ],
+      "translation_declared_versions": [
+        "1.7"
+      ],
+      "publication_ready_claimed": false
+    },
+    {
+      "package_id": "ferny.progressioneducation",
+      "role": "original_linked_translation",
+      "checked_at": "2026-10-28T09:16:16.717533+00:00",
+      "xml_files_parsed": 13,
+      "effective_language_records": 303,
+      "records_checked_against_saved_english": 303,
+      "source_input_files_checked": 45,
+      "source_drift_file_count": 0,
+      "issue_kinds": {},
+      "static_check_status": "pass_with_scope_limits",
+      "in_game_tested_this_run": false,
+      "unmatched_records": 0,
+      "original_declared_versions": [
+        "1.6",
+        "1.7"
+      ],
+      "translation_declared_versions": [
+        "1.7"
+      ],
+      "publication_ready_claimed": false
+    },
+    {
+      "package_id": "ferny.resourcedeliveryhelper",
+      "role": "original_linked_translation",
+      "checked_at": "2026-10-28T09:16:16.739634+00:00",
+      "xml_files_parsed": 2,
+      "effective_language_records": 2,
+      "records_checked_against_saved_english": 2,
+      "source_input_files_checked": 3,
+      "source_drift_file_count": 0,
+      "issue_kinds": {},
+      "static_check_status": "pass_with_scope_limits",
+      "in_game_tested_this_run": false,
+      "unmatched_records": 0,
+      "original_declared_versions": [
+        "1.6",
+        "1.7"
+      ],
+      "translation_declared_versions": [
+        "1.7"
+      ],
+      "publication_ready_claimed": false
+    },
+    {
+      "package_id": "ferny.worldbuilder",
+      "role": "original_linked_translation",
+      "checked_at": "2026-10-28T09:16:16.747027+00:00",
+      "xml_files_parsed": 6,
+      "effective_language_records": 430,
+      "records_checked_against_saved_english": 430,
+      "source_input_files_checked": 9,
+      "source_drift_file_count": 0,
+      "issue_kinds": {},
+      "static_check_status": "pass_with_scope_limits",
+      "in_game_tested_this_run": false,
+      "unmatched_records": 0,
+      "original_declared_versions": [
+        "1.6",
+        "1.7"
+      ],
+      "translation_declared_versions": [
+        "1.7"
+      ],
+      "publication_ready_claimed": false
+    },
+    {
+      "package_id": "forti.rimmarket",
+      "role": "original_linked_translation",
+      "checked_at": "2026-10-28T09:16:16.769817+00:00",
+      "xml_files_parsed": 13,
+      "effective_language_records": 790,
+      "records_checked_against_saved_english": 790,
+      "source_input_files_checked": 20,
+      "source_drift_file_count": 3,
+      "issue_kinds": {
+        "source_snapshot_drift": 1
+      },
+      "static_check_status": "issues_found",
+      "in_game_tested_this_run": false,
+      "unmatched_records": 0,
+      "original_declared_versions": [
+        "1.6",
+        "1.7"
+      ],
+      "translation_declared_versions": [
+        "1.7"
+      ],
+      "publication_ready_claimed": false
+    },
+    {
+      "package_id": "fuu.bloodanimations",
+      "role": "original_linked_translation",
+      "checked_at": "2026-10-28T09:16:16.796063+00:00",
+      "xml_files_parsed": 3,
+      "effective_language_records": 15,
+      "records_checked_against_saved_english": 15,
+      "source_input_files_checked": 7,
+      "source_drift_file_count": 0,
+      "issue_kinds": {},
+      "static_check_status": "pass_with_scope_limits",
+      "in_game_tested_this_run": false,
+      "unmatched_records": 0,
+      "original_declared_versions": [
+        "1.4",
+        "1.5",
+        "1.6",
+        "1.7"
+      ],
+      "translation_declared_versions": [
+        "1.7"
+      ],
+      "publication_ready_claimed": false
+    },
+    {
+      "package_id": "gabrieel1482.workersassistant",
+      "role": "original_linked_translation",
+      "checked_at": "2026-10-28T09:16:16.800567+00:00",
+      "xml_files_parsed": 4,
+      "effective_language_records": 16,
+      "records_checked_against_saved_english": 16,
+      "source_input_files_checked": 4,
+      "source_drift_file_count": 4,
+      "issue_kinds": {
+        "source_snapshot_drift": 1
+      },
+      "static_check_status": "issues_found",
+      "in_game_tested_this_run": false,
+      "unmatched_records": 0,
+      "original_declared_versions": [
+        "1.7"
+      ],
+      "translation_declared_versions": [
+        "1.7"
+      ],
+      "publication_ready_claimed": false
+    },
+    {
+      "package_id": "gm.hotspring",
+      "role": "original_linked_translation",
+      "checked_at": "2026-10-28T09:16:16.804975+00:00",
+      "xml_files_parsed": 15,
+      "effective_language_records": 101,
+      "records_checked_against_saved_english": 101,
+      "source_input_files_checked": 26,
+      "source_drift_file_count": 0,
+      "issue_kinds": {},
+      "static_check_status": "pass_with_scope_limits",
+      "in_game_tested_this_run": false,
+      "unmatched_records": 0,
+      "original_declared_versions": [
+        "1.6",
+        "1.7"
+      ],
+      "translation_declared_versions": [
+        "1.7"
+      ],
+      "publication_ready_claimed": false
+    },
+    {
+      "package_id": "hailuan.cathiss",
+      "role": "original_linked_translation",
+      "checked_at": "2026-10-28T09:16:16.817662+00:00",
+      "xml_files_parsed": 6,
+      "effective_language_records": 9,
+      "records_checked_against_saved_english": 9,
+      "source_input_files_checked": 15,
+      "source_drift_file_count": 0,
+      "issue_kinds": {},
+      "static_check_status": "pass_with_scope_limits",
+      "in_game_tested_this_run": false,
+      "unmatched_records": 0,
+      "original_declared_versions": [
+        "1.6",
+        "1.7"
+      ],
+      "translation_declared_versions": [
+        "1.7"
+      ],
+      "publication_ready_claimed": false
+    },
+    {
+      "package_id": "hailuan.iwbb",
+      "role": "original_linked_translation",
+      "checked_at": "2026-10-28T09:16:16.824581+00:00",
+      "xml_files_parsed": 4,
+      "effective_language_records": 10,
+      "records_checked_against_saved_english": 10,
+      "source_input_files_checked": 6,
+      "source_drift_file_count": 0,
+      "issue_kinds": {},
+      "static_check_status": "pass_with_scope_limits",
+      "in_game_tested_this_run": false,
+      "unmatched_records": 0,
+      "original_declared_versions": [
+        "1.5",
+        "1.6",
+        "1.7"
+      ],
+      "translation_declared_versions": [
+        "1.7"
+      ],
+      "publication_ready_claimed": false
+    },
+    {
+      "package_id": "haplo.miscellaneous.training",
+      "role": "original_linked_translation",
+      "checked_at": "2026-10-28T09:16:16.829395+00:00",
+      "xml_files_parsed": 6,
+      "effective_language_records": 15,
+      "records_checked_against_saved_english": 15,
+      "source_input_files_checked": 27,
+      "source_drift_file_count": 0,
+      "issue_kinds": {},
+      "static_check_status": "pass_with_scope_limits",
+      "in_game_tested_this_run": false,
+      "unmatched_records": 0,
+      "original_declared_versions": [
+        "1.0",
+        "1.1",
+        "1.2",
+        "1.3",
+        "1.4",
+        "1.5",
+        "1.6",
+        "1.7"
+      ],
+      "translation_declared_versions": [
+        "1.7"
+      ],
+      "publication_ready_claimed": false
+    },
+    {
+      "package_id": "har.mugirlrace",
+      "role": "original_linked_translation",
+      "checked_at": "2026-10-28T09:16:16.855539+00:00",
+      "xml_files_parsed": 39,
+      "effective_language_records": 1711,
+      "records_checked_against_saved_english": 1711,
+      "source_input_files_checked": 145,
+      "source_drift_file_count": 0,
+      "issue_kinds": {},
+      "static_check_status": "pass_with_scope_limits",
+      "in_game_tested_this_run": false,
+      "unmatched_records": 0,
+      "original_declared_versions": [
+        "1.6",
+        "1.7"
+      ],
+      "translation_declared_versions": [
+        "1.7"
+      ],
+      "publication_ready_claimed": false
+    },
+    {
+      "package_id": "icc.fov.elves",
+      "role": "original_linked_translation",
+      "checked_at": "2026-10-28T09:16:16.921465+00:00",
+      "xml_files_parsed": 8,
+      "effective_language_records": 161,
+      "records_checked_against_saved_english": 161,
+      "source_input_files_checked": 17,
+      "source_drift_file_count": 0,
+      "issue_kinds": {},
+      "static_check_status": "pass_with_scope_limits",
+      "in_game_tested_this_run": false,
+      "unmatched_records": 0,
+      "original_declared_versions": [
+        "1.6",
+        "1.7"
+      ],
+      "translation_declared_versions": [
+        "1.7"
+      ],
+      "publication_ready_claimed": false
+    },
+    {
+      "package_id": "ilarion.bulkloadfortransporters",
+      "role": "original_linked_translation",
+      "checked_at": "2026-10-28T09:16:16.931413+00:00",
+      "xml_files_parsed": 2,
+      "effective_language_records": 57,
+      "records_checked_against_saved_english": 57,
+      "source_input_files_checked": 4,
+      "source_drift_file_count": 0,
+      "issue_kinds": {},
+      "static_check_status": "pass_with_scope_limits",
+      "in_game_tested_this_run": false,
+      "unmatched_records": 0,
+      "original_declared_versions": [
+        "1.6",
+        "1.7"
+      ],
+      "translation_declared_versions": [
+        "1.7"
+      ],
+      "publication_ready_claimed": false
+    },
+    {
+      "package_id": "ilyvion.loadingprogress",
+      "role": "original_linked_translation",
+      "checked_at": "2026-10-28T09:16:16.938534+00:00",
+      "xml_files_parsed": 2,
+      "effective_language_records": 399,
+      "records_checked_against_saved_english": 399,
+      "source_input_files_checked": 8,
+      "source_drift_file_count": 0,
+      "issue_kinds": {},
+      "static_check_status": "pass_with_scope_limits",
+      "in_game_tested_this_run": false,
+      "unmatched_records": 0,
+      "original_declared_versions": [
+        "1.6",
+        "1.7"
+      ],
+      "translation_declared_versions": [
+        "1.7"
+      ],
+      "publication_ready_claimed": false
+    },
+    {
+      "package_id": "imranfish.xmlextensions",
+      "role": "original_linked_translation",
+      "checked_at": "2026-10-28T09:16:16.949706+00:00",
+      "xml_files_parsed": 3,
+      "effective_language_records": 28,
+      "records_checked_against_saved_english": 28,
+      "source_input_files_checked": 5,
+      "source_drift_file_count": 0,
+      "issue_kinds": {},
+      "static_check_status": "pass_with_scope_limits",
+      "in_game_tested_this_run": false,
+      "unmatched_records": 0,
+      "original_declared_versions": [
+        "1.2",
+        "1.3",
+        "1.4",
+        "1.5",
+        "1.6"
+      ],
+      "translation_declared_versions": [
+        "1.7"
+      ],
+      "publication_ready_claimed": false
+    },
+    {
+      "package_id": "jaeger972.factionterritories2",
+      "role": "original_linked_translation",
+      "checked_at": "2026-10-28T09:16:16.966467+00:00",
+      "xml_files_parsed": 14,
+      "effective_language_records": 2019,
+      "records_checked_against_saved_english": 2019,
+      "source_input_files_checked": 37,
+      "source_drift_file_count": 14,
+      "issue_kinds": {
+        "source_snapshot_drift": 1
+      },
+      "static_check_status": "issues_found",
+      "in_game_tested_this_run": false,
+      "unmatched_records": 0,
+      "original_declared_versions": [
+        "1.6",
+        "1.7"
+      ],
+      "translation_declared_versions": [
+        "1.7"
+      ],
+      "publication_ready_claimed": false
+    },
+    {
+      "package_id": "juanlopez2008.lightsout",
+      "role": "original_linked_translation",
+      "checked_at": "2026-10-28T09:16:17.036123+00:00",
+      "xml_files_parsed": 2,
+      "effective_language_records": 21,
+      "records_checked_against_saved_english": 21,
+      "source_input_files_checked": 10,
+      "source_drift_file_count": 0,
+      "issue_kinds": {},
+      "static_check_status": "pass_with_scope_limits",
+      "in_game_tested_this_run": false,
+      "unmatched_records": 0,
+      "original_declared_versions": [
+        "1.3",
+        "1.4",
+        "1.5",
+        "1.6",
+        "1.7"
+      ],
+      "translation_declared_versions": [
+        "1.7"
+      ],
+      "publication_ready_claimed": false
+    },
+    {
+      "package_id": "kattalisk.allproductionxp",
+      "role": "original_linked_translation",
+      "checked_at": "2026-10-28T09:16:17.042419+00:00",
+      "xml_files_parsed": 2,
+      "effective_language_records": 15,
+      "records_checked_against_saved_english": 15,
+      "source_input_files_checked": 11,
+      "source_drift_file_count": 0,
+      "issue_kinds": {
+        "field_verification_stale": 14
+      },
+      "static_check_status": "issues_found",
+      "in_game_tested_this_run": false,
+      "unmatched_records": 0,
+      "original_declared_versions": [
+        "1.5",
+        "1.6",
+        "1.7"
+      ],
+      "translation_declared_versions": [
+        "1.7"
+      ],
+      "publication_ready_claimed": false
+    },
+    {
+      "package_id": "keno.tuckedfurniture",
+      "role": "original_linked_translation",
+      "checked_at": "2026-10-28T09:16:17.045618+00:00",
+      "xml_files_parsed": 2,
+      "effective_language_records": 56,
+      "records_checked_against_saved_english": 56,
+      "source_input_files_checked": 4,
+      "source_drift_file_count": 0,
+      "issue_kinds": {},
+      "static_check_status": "pass_with_scope_limits",
+      "in_game_tested_this_run": false,
+      "unmatched_records": 0,
+      "original_declared_versions": [
+        "1.6",
+        "1.7"
+      ],
+      "translation_declared_versions": [
+        "1.7"
+      ],
+      "publication_ready_claimed": false
+    },
+    {
+      "package_id": "leo.cleancommandbar",
+      "role": "original_linked_translation",
+      "checked_at": "2026-10-28T09:16:17.049453+00:00",
+      "xml_files_parsed": 2,
+      "effective_language_records": 3,
+      "records_checked_against_saved_english": 3,
+      "source_input_files_checked": 5,
+      "source_drift_file_count": 0,
+      "issue_kinds": {},
+      "static_check_status": "pass_with_scope_limits",
+      "in_game_tested_this_run": false,
+      "unmatched_records": 0,
+      "original_declared_versions": [
+        "1.6",
+        "1.7"
+      ],
+      "translation_declared_versions": [
+        "1.7"
+      ],
+      "publication_ready_claimed": false
+    },
+    {
+      "package_id": "linnun.keepconverting",
+      "role": "original_linked_translation",
+      "checked_at": "2026-10-28T09:16:17.052538+00:00",
+      "xml_files_parsed": 2,
+      "effective_language_records": 20,
+      "records_checked_against_saved_english": 20,
+      "source_input_files_checked": 5,
+      "source_drift_file_count": 1,
+      "issue_kinds": {
+        "source_snapshot_drift": 1
+      },
+      "static_check_status": "issues_found",
+      "in_game_tested_this_run": false,
+      "unmatched_records": 0,
+      "original_declared_versions": [
+        "1.5",
+        "1.6",
+        "1.7"
+      ],
+      "translation_declared_versions": [
+        "1.7"
+      ],
+      "publication_ready_claimed": false
+    },
+    {
+      "package_id": "local.washingmachine",
+      "role": "original_linked_translation",
+      "checked_at": "2026-10-28T09:16:17.055616+00:00",
+      "xml_files_parsed": 6,
+      "effective_language_records": 34,
+      "records_checked_against_saved_english": 34,
+      "source_input_files_checked": 18,
+      "source_drift_file_count": 0,
+      "issue_kinds": {},
+      "static_check_status": "pass_with_scope_limits",
+      "in_game_tested_this_run": false,
+      "unmatched_records": 0,
+      "original_declared_versions": [
+        "1.6",
+        "1.7"
+      ],
+      "translation_declared_versions": [
+        "1.7"
+      ],
+      "publication_ready_claimed": false
+    },
+    {
+      "package_id": "lotusland.weaponupgrade",
+      "role": "original_linked_translation",
+      "checked_at": "2026-10-28T09:16:17.061105+00:00",
+      "xml_files_parsed": 4,
+      "effective_language_records": 65,
+      "records_checked_against_saved_english": 65,
+      "source_input_files_checked": 6,
+      "source_drift_file_count": 0,
+      "issue_kinds": {},
+      "static_check_status": "pass_with_scope_limits",
+      "in_game_tested_this_run": false,
+      "unmatched_records": 0,
+      "original_declared_versions": [
+        "1.5",
+        "1.6",
+        "1.7"
+      ],
+      "translation_declared_versions": [
+        "1.7"
+      ],
+      "publication_ready_claimed": false
+    },
+    {
+      "package_id": "lts.i",
+      "role": "original_linked_translation",
+      "checked_at": "2026-10-28T09:16:17.086203+00:00",
+      "xml_files_parsed": 17,
+      "effective_language_records": 1953,
+      "records_checked_against_saved_english": 1920,
+      "source_input_files_checked": 74,
+      "source_drift_file_count": 0,
+      "issue_kinds": {
+        "field_verification_stale": 6
+      },
+      "static_check_status": "issues_found",
+      "in_game_tested_this_run": false,
+      "unmatched_records": 0,
+      "original_declared_versions": [
+        "1.5",
+        "1.6",
+        "1.7"
+      ],
+      "translation_declared_versions": [
+        "1.7"
+      ],
+      "publication_ready_claimed": false
+    },
+    {
+      "package_id": "lwm.deepstorage",
+      "role": "original_linked_translation",
+      "checked_at": "2026-10-28T09:16:17.142490+00:00",
+      "xml_files_parsed": 2,
+      "effective_language_records": 2,
+      "records_checked_against_saved_english": 2,
+      "source_input_files_checked": 43,
+      "source_drift_file_count": 0,
+      "issue_kinds": {},
+      "static_check_status": "pass_with_scope_limits",
+      "in_game_tested_this_run": false,
+      "unmatched_records": 0,
+      "original_declared_versions": [
+        "1.0",
+        "1.1",
+        "1.2",
+        "1.3",
+        "1.4",
+        "1.5",
+        "1.6",
+        "1.7"
+      ],
+      "translation_declared_versions": [
+        "1.7"
+      ],
+      "publication_ready_claimed": false
+    },
+    {
+      "package_id": "m00nl1ght.mappreview",
+      "role": "original_linked_translation",
+      "checked_at": "2026-10-28T09:16:17.149733+00:00",
+      "xml_files_parsed": 2,
+      "effective_language_records": 71,
+      "records_checked_against_saved_english": 71,
+      "source_input_files_checked": 6,
+      "source_drift_file_count": 0,
+      "issue_kinds": {},
+      "static_check_status": "pass_with_scope_limits",
+      "in_game_tested_this_run": false,
+      "unmatched_records": 0,
+      "original_declared_versions": [
+        "1.3",
+        "1.4",
+        "1.5",
+        "1.6",
+        "1.7"
+      ],
+      "translation_declared_versions": [
+        "1.7"
+      ],
+      "publication_ready_claimed": false
+    },
+    {
+      "package_id": "mehni.pickupandhaul",
+      "role": "original_linked_translation",
+      "checked_at": "2026-10-28T09:16:17.154186+00:00",
+      "xml_files_parsed": 2,
+      "effective_language_records": 8,
+      "records_checked_against_saved_english": 8,
+      "source_input_files_checked": 10,
+      "source_drift_file_count": 0,
+      "issue_kinds": {},
+      "static_check_status": "pass_with_scope_limits",
+      "in_game_tested_this_run": false,
+      "unmatched_records": 0,
+      "original_declared_versions": [
+        "1.0",
+        "1.1",
+        "1.2",
+        "1.3",
+        "1.4",
+        "1.5",
+        "1.6"
+      ],
+      "translation_declared_versions": [
+        "1.7"
+      ],
+      "publication_ready_claimed": false
+    },
+    {
+      "package_id": "memegoddess.giddyup",
+      "role": "original_linked_translation",
+      "checked_at": "2026-10-28T09:16:17.158692+00:00",
+      "xml_files_parsed": 5,
+      "effective_language_records": 100,
+      "records_checked_against_saved_english": 100,
+      "source_input_files_checked": 35,
+      "source_drift_file_count": 0,
+      "issue_kinds": {},
+      "static_check_status": "pass_with_scope_limits",
+      "in_game_tested_this_run": false,
+      "unmatched_records": 0,
+      "original_declared_versions": [
+        "1.4",
+        "1.5",
+        "1.6",
+        "1.7"
+      ],
+      "translation_declared_versions": [
+        "1.7"
+      ],
+      "publication_ready_claimed": false
+    },
+    {
+      "package_id": "memegoddess.replacestuff",
+      "role": "original_linked_translation",
+      "checked_at": "2026-10-28T09:16:17.166957+00:00",
+      "xml_files_parsed": 3,
+      "effective_language_records": 4,
+      "records_checked_against_saved_english": 4,
+      "source_input_files_checked": 44,
+      "source_drift_file_count": 0,
+      "issue_kinds": {},
+      "static_check_status": "pass_with_scope_limits",
+      "in_game_tested_this_run": false,
+      "unmatched_records": 0,
+      "original_declared_versions": [
+        "1.1",
+        "1.2",
+        "1.3",
+        "1.4",
+        "1.5",
+        "1.6",
+        "1.7"
+      ],
+      "translation_declared_versions": [
+        "1.7"
+      ],
+      "publication_ready_claimed": false
+    },
+    {
+      "package_id": "memegoddess.runandgun",
+      "role": "original_linked_translation",
+      "checked_at": "2026-10-28T09:16:17.175359+00:00",
+      "xml_files_parsed": 2,
+      "effective_language_records": 4,
+      "records_checked_against_saved_english": 4,
+      "source_input_files_checked": 6,
+      "source_drift_file_count": 0,
+      "issue_kinds": {},
+      "static_check_status": "pass_with_scope_limits",
+      "in_game_tested_this_run": false,
+      "unmatched_records": 0,
+      "original_declared_versions": [
+        "1.0",
+        "1.1",
+        "1.2",
+        "1.3",
+        "1.4",
+        "1.5",
+        "1.6",
+        "1.7"
+      ],
+      "translation_declared_versions": [
+        "1.7"
+      ],
+      "publication_ready_claimed": false
+    },
+    {
+      "package_id": "memegoddess.smartmedicine",
+      "role": "original_linked_translation",
+      "checked_at": "2026-10-28T09:16:17.179397+00:00",
+      "xml_files_parsed": 3,
+      "effective_language_records": 7,
+      "records_checked_against_saved_english": 7,
+      "source_input_files_checked": 22,
+      "source_drift_file_count": 0,
+      "issue_kinds": {},
+      "static_check_status": "pass_with_scope_limits",
+      "in_game_tested_this_run": false,
+      "unmatched_records": 0,
+      "original_declared_versions": [
+        "1.1",
+        "1.2",
+        "1.3",
+        "1.4",
+        "1.5",
+        "1.6",
+        "1.7"
+      ],
+      "translation_declared_versions": [
+        "1.7"
+      ],
+      "publication_ready_claimed": false
+    },
+    {
+      "package_id": "merthsoft.designatorshapes",
+      "role": "original_linked_translation",
+      "checked_at": "2026-10-28T09:16:17.189177+00:00",
+      "xml_files_parsed": 5,
+      "effective_language_records": 208,
+      "records_checked_against_saved_english": 208,
+      "source_input_files_checked": 8,
+      "source_drift_file_count": 0,
+      "issue_kinds": {
+        "installed_translation_record_mismatch": 2
+      },
+      "static_check_status": "issues_found",
+      "in_game_tested_this_run": false,
+      "unmatched_records": 0,
+      "original_declared_versions": [
+        "1.1",
+        "1.2",
+        "1.3",
+        "1.4",
+        "1.5",
+        "1.6",
+        "1.7"
+      ],
+      "translation_declared_versions": [
+        "1.7"
+      ],
+      "publication_ready_claimed": false
+    },
+    {
+      "package_id": "migcorp.skiptech",
+      "role": "original_linked_translation",
+      "checked_at": "2026-10-28T09:16:17.197256+00:00",
+      "xml_files_parsed": 7,
+      "effective_language_records": 69,
+      "records_checked_against_saved_english": 69,
+      "source_input_files_checked": 10,
+      "source_drift_file_count": 0,
+      "issue_kinds": {},
+      "static_check_status": "pass_with_scope_limits",
+      "in_game_tested_this_run": false,
+      "unmatched_records": 0,
+      "original_declared_versions": [
+        "1.6",
+        "1.7"
+      ],
+      "translation_declared_versions": [
+        "1.7"
+      ],
+      "publication_ready_claimed": false
+    },
+    {
+      "package_id": "mlie.showmeyourhands",
+      "role": "original_linked_translation",
+      "checked_at": "2026-10-28T09:16:17.204301+00:00",
+      "xml_files_parsed": 2,
+      "effective_language_records": 7,
+      "records_checked_against_saved_english": 7,
+      "source_input_files_checked": 196,
+      "source_drift_file_count": 0,
+      "issue_kinds": {},
+      "static_check_status": "pass_with_scope_limits",
+      "in_game_tested_this_run": false,
+      "unmatched_records": 0,
+      "original_declared_versions": [
+        "1.1",
+        "1.2",
+        "1.3",
+        "1.4",
+        "1.5",
+        "1.6"
+      ],
+      "translation_declared_versions": [
+        "1.7"
+      ],
+      "publication_ready_claimed": false
+    },
+    {
+      "package_id": "mrk.architectmenuoptimizer",
+      "role": "original_linked_translation",
+      "checked_at": "2026-10-28T09:16:17.218921+00:00",
+      "xml_files_parsed": 2,
+      "effective_language_records": 44,
+      "records_checked_against_saved_english": 44,
+      "source_input_files_checked": 4,
+      "source_drift_file_count": 0,
+      "issue_kinds": {},
+      "static_check_status": "pass_with_scope_limits",
+      "in_game_tested_this_run": false,
+      "unmatched_records": 0,
+      "original_declared_versions": [
+        "1.6",
+        "1.7"
+      ],
+      "translation_declared_versions": [
+        "1.7"
+      ],
+      "publication_ready_claimed": false
+    },
+    {
+      "package_id": "nals.facialanimation",
+      "role": "original_linked_translation",
+      "checked_at": "2026-10-28T09:16:17.223104+00:00",
+      "xml_files_parsed": 4,
+      "effective_language_records": 69,
+      "records_checked_against_saved_english": 69,
+      "source_input_files_checked": 42,
+      "source_drift_file_count": 0,
+      "issue_kinds": {},
+      "static_check_status": "pass_with_scope_limits",
+      "in_game_tested_this_run": false,
+      "unmatched_records": 0,
+      "original_declared_versions": [
+        "1.0",
+        "1.1",
+        "1.2",
+        "1.3",
+        "1.4",
+        "1.5",
+        "1.6"
+      ],
+      "translation_declared_versions": [
+        "1.7"
+      ],
+      "publication_ready_claimed": false
+    },
+    {
+      "package_id": "ninagoblin.nooneleftbehind",
+      "role": "original_linked_translation",
+      "checked_at": "2026-10-28T09:16:17.229833+00:00",
+      "xml_files_parsed": 2,
+      "effective_language_records": 7,
+      "records_checked_against_saved_english": 7,
+      "source_input_files_checked": 4,
+      "source_drift_file_count": 0,
+      "issue_kinds": {},
+      "static_check_status": "pass_with_scope_limits",
+      "in_game_tested_this_run": false,
+      "unmatched_records": 0,
+      "original_declared_versions": [
+        "1.6",
+        "1.7"
+      ],
+      "translation_declared_versions": [
+        "1.7"
+      ],
+      "publication_ready_claimed": false
+    },
+    {
+      "package_id": "oskarpotocki.vanillafactionsexpanded.core",
+      "role": "original_linked_translation",
+      "checked_at": "2026-10-28T09:16:17.239920+00:00",
+      "xml_files_parsed": 20,
+      "effective_language_records": 779,
+      "records_checked_against_saved_english": 779,
+      "source_input_files_checked": 102,
+      "source_drift_file_count": 0,
+      "issue_kinds": {},
+      "static_check_status": "pass_with_scope_limits",
+      "in_game_tested_this_run": false,
+      "unmatched_records": 0,
+      "original_declared_versions": [
+        "1.0",
+        "1.1",
+        "1.2",
+        "1.3",
+        "1.4",
+        "1.5",
+        "1.6",
+        "1.7"
+      ],
+      "translation_declared_versions": [
+        "1.7"
+      ],
+      "publication_ready_claimed": false
+    },
+    {
+      "package_id": "oskarpotocki.vanillavehiclesexpanded",
+      "role": "original_linked_translation",
+      "checked_at": "2026-10-28T09:16:17.280751+00:00",
+      "xml_files_parsed": 18,
+      "effective_language_records": 966,
+      "records_checked_against_saved_english": 958,
+      "source_input_files_checked": 93,
+      "source_drift_file_count": 0,
+      "issue_kinds": {},
+      "static_check_status": "pass_with_scope_limits",
+      "in_game_tested_this_run": false,
+      "unmatched_records": 0,
+      "original_declared_versions": [
+        "1.4",
+        "1.5",
+        "1.6"
+      ],
+      "translation_declared_versions": [
+        "1.7"
+      ],
+      "publication_ready_claimed": false
+    },
+    {
+      "package_id": "oskarpotocki.vanillavehiclesexpandedtier3",
+      "role": "original_linked_translation",
+      "checked_at": "2026-10-28T09:16:17.319071+00:00",
+      "xml_files_parsed": 7,
+      "effective_language_records": 99,
+      "records_checked_against_saved_english": 99,
+      "source_input_files_checked": 41,
+      "source_drift_file_count": 0,
+      "issue_kinds": {},
+      "static_check_status": "pass_with_scope_limits",
+      "in_game_tested_this_run": false,
+      "unmatched_records": 0,
+      "original_declared_versions": [
+        "1.4",
+        "1.5",
+        "1.6"
+      ],
+      "translation_declared_versions": [
+        "1.7"
+      ],
+      "publication_ready_claimed": false
+    },
+    {
+      "package_id": "oskarpotocki.vanillavehiclesexpandedupgrades",
+      "role": "original_linked_translation",
+      "checked_at": "2026-10-28T09:16:17.329518+00:00",
+      "xml_files_parsed": 2,
+      "effective_language_records": 10,
+      "records_checked_against_saved_english": 10,
+      "source_input_files_checked": 17,
+      "source_drift_file_count": 0,
+      "issue_kinds": {},
+      "static_check_status": "pass_with_scope_limits",
+      "in_game_tested_this_run": false,
+      "unmatched_records": 0,
+      "original_declared_versions": [
+        "1.5",
+        "1.6",
+        "1.7"
+      ],
+      "translation_declared_versions": [
+        "1.7"
+      ],
+      "publication_ready_claimed": false
+    },
+    {
+      "package_id": "oskarpotocki.vfe.empire",
+      "role": "original_linked_translation",
+      "checked_at": "2026-10-28T09:16:17.339601+00:00",
+      "xml_files_parsed": 33,
+      "effective_language_records": 464,
+      "records_checked_against_saved_english": 464,
+      "source_input_files_checked": 90,
+      "source_drift_file_count": 0,
+      "issue_kinds": {},
+      "static_check_status": "pass_with_scope_limits",
+      "in_game_tested_this_run": false,
+      "unmatched_records": 0,
+      "original_declared_versions": [
+        "1.7",
+        "1.5",
+        "1.6"
+      ],
+      "translation_declared_versions": [
+        "1.7"
+      ],
+      "publication_ready_claimed": false
+    },
+    {
+      "package_id": "oskarpotocki.vfe.insectoid2",
+      "role": "original_linked_translation",
+      "checked_at": "2026-10-28T09:16:17.374360+00:00",
+      "xml_files_parsed": 29,
+      "effective_language_records": 555,
+      "records_checked_against_saved_english": 555,
+      "source_input_files_checked": 97,
+      "source_drift_file_count": 0,
+      "issue_kinds": {},
+      "static_check_status": "pass_with_scope_limits",
+      "in_game_tested_this_run": false,
+      "unmatched_records": 0,
+      "original_declared_versions": [
+        "1.5",
+        "1.6",
+        "1.7"
+      ],
+      "translation_declared_versions": [
+        "1.7"
+      ],
+      "publication_ready_claimed": false
+    },
+    {
+      "package_id": "oskarpotocki.vfe.medieval2",
+      "role": "original_linked_translation",
+      "checked_at": "2026-10-28T09:16:17.417488+00:00",
+      "xml_files_parsed": 33,
+      "effective_language_records": 1058,
+      "records_checked_against_saved_english": 1058,
+      "source_input_files_checked": 146,
+      "source_drift_file_count": 1,
+      "issue_kinds": {
+        "source_snapshot_drift": 1
+      },
+      "static_check_status": "issues_found",
+      "in_game_tested_this_run": false,
+      "unmatched_records": 0,
+      "original_declared_versions": [
+        "1.5",
+        "1.6",
+        "1.7"
+      ],
+      "translation_declared_versions": [
+        "1.7"
+      ],
+      "publication_ready_claimed": false
+    },
+    {
+      "package_id": "phonicmas.rimdark.frameworkcore",
+      "role": "original_linked_translation",
+      "checked_at": "2026-10-28T09:16:17.462997+00:00",
+      "xml_files_parsed": 9,
+      "effective_language_records": 127,
+      "records_checked_against_saved_english": 127,
+      "source_input_files_checked": 36,
+      "source_drift_file_count": 0,
+      "issue_kinds": {},
+      "static_check_status": "pass_with_scope_limits",
+      "in_game_tested_this_run": false,
+      "unmatched_records": 0,
+      "original_declared_versions": [
+        "1.5",
+        "1.6",
+        "1.7"
+      ],
+      "translation_declared_versions": [
+        "1.7"
+      ],
+      "publication_ready_claimed": false
+    },
+    {
+      "package_id": "phonicmas.rimdark.mankindsfinest",
+      "role": "original_linked_translation",
+      "checked_at": "2026-10-28T09:16:17.497900+00:00",
+      "xml_files_parsed": 41,
+      "effective_language_records": 1466,
+      "records_checked_against_saved_english": 1466,
+      "source_input_files_checked": 212,
+      "source_drift_file_count": 0,
+      "issue_kinds": {},
+      "static_check_status": "pass_with_scope_limits",
+      "in_game_tested_this_run": false,
+      "unmatched_records": 0,
+      "original_declared_versions": [
+        "1.5",
+        "1.6",
+        "1.7"
+      ],
+      "translation_declared_versions": [
+        "1.7"
+      ],
+      "publication_ready_claimed": false
+    },
+    {
+      "package_id": "rabiosus.minesight",
+      "role": "original_linked_translation",
+      "checked_at": "2026-10-28T09:16:17.557699+00:00",
+      "xml_files_parsed": 2,
+      "effective_language_records": 9,
+      "records_checked_against_saved_english": 9,
+      "source_input_files_checked": 5,
+      "source_drift_file_count": 0,
+      "issue_kinds": {},
+      "static_check_status": "pass_with_scope_limits",
+      "in_game_tested_this_run": false,
+      "unmatched_records": 0,
+      "original_declared_versions": [
+        "1.6",
+        "1.7"
+      ],
+      "translation_declared_versions": [
+        "1.7"
+      ],
+      "publication_ready_claimed": false
+    },
+    {
+      "package_id": "ray1203.simplecamerasetting",
+      "role": "original_linked_translation",
+      "checked_at": "2026-10-28T09:16:17.561891+00:00",
+      "xml_files_parsed": 2,
+      "effective_language_records": 44,
+      "records_checked_against_saved_english": 44,
+      "source_input_files_checked": 4,
+      "source_drift_file_count": 0,
+      "issue_kinds": {},
+      "static_check_status": "pass_with_scope_limits",
+      "in_game_tested_this_run": false,
+      "unmatched_records": 0,
+      "original_declared_versions": [
+        "1.5",
+        "1.6",
+        "1.7"
+      ],
+      "translation_declared_versions": [
+        "1.7"
+      ],
+      "publication_ready_claimed": false
+    },
+    {
+      "package_id": "rebuild.cotr.doorsandcorners",
+      "role": "original_linked_translation",
+      "checked_at": "2026-10-28T09:16:17.565054+00:00",
+      "xml_files_parsed": 8,
+      "effective_language_records": 99,
+      "records_checked_against_saved_english": 99,
+      "source_input_files_checked": 34,
+      "source_drift_file_count": 16,
+      "issue_kinds": {
+        "source_snapshot_drift": 1
+      },
+      "static_check_status": "issues_found",
+      "in_game_tested_this_run": false,
+      "unmatched_records": 0,
+      "original_declared_versions": [
+        "1.5",
+        "1.6",
+        "1.7"
+      ],
+      "translation_declared_versions": [
+        "1.7"
+      ],
+      "publication_ready_claimed": false
+    },
+    {
+      "package_id": "redmattis.bettergeneinheritance",
+      "role": "original_linked_translation",
+      "checked_at": "2026-10-28T09:16:17.577671+00:00",
+      "xml_files_parsed": 3,
+      "effective_language_records": 21,
+      "records_checked_against_saved_english": 21,
+      "source_input_files_checked": 5,
+      "source_drift_file_count": 0,
+      "issue_kinds": {},
+      "static_check_status": "pass_with_scope_limits",
+      "in_game_tested_this_run": false,
+      "unmatched_records": 0,
+      "original_declared_versions": [
+        "1.4",
+        "1.5",
+        "1.6",
+        "1.7"
+      ],
+      "translation_declared_versions": [
+        "1.7"
+      ],
+      "publication_ready_claimed": false
+    },
+    {
+      "package_id": "reel.expanded.storage",
+      "role": "original_linked_translation",
+      "checked_at": "2026-10-28T09:16:17.581461+00:00",
+      "xml_files_parsed": 3,
+      "effective_language_records": 40,
+      "records_checked_against_saved_english": 40,
+      "source_input_files_checked": 94,
+      "source_drift_file_count": 0,
+      "issue_kinds": {},
+      "static_check_status": "pass_with_scope_limits",
+      "in_game_tested_this_run": false,
+      "unmatched_records": 0,
+      "original_declared_versions": [
+        "1.5",
+        "1.6",
+        "1.7"
+      ],
+      "translation_declared_versions": [
+        "1.7"
+      ],
+      "publication_ready_claimed": false
+    },
+    {
+      "package_id": "reel.turretpipeline",
+      "role": "original_linked_translation",
+      "checked_at": "2026-10-28T09:16:17.592436+00:00",
+      "xml_files_parsed": 5,
+      "effective_language_records": 24,
+      "records_checked_against_saved_english": 24,
+      "source_input_files_checked": 21,
+      "source_drift_file_count": 0,
+      "issue_kinds": {},
+      "static_check_status": "pass_with_scope_limits",
+      "in_game_tested_this_run": false,
+      "unmatched_records": 0,
+      "original_declared_versions": [
+        "1.5",
+        "1.6",
+        "1.7"
+      ],
+      "translation_declared_versions": [
+        "1.7"
+      ],
+      "publication_ready_claimed": false
+    },
+    {
+      "package_id": "regrowth.botr.core",
+      "role": "original_linked_translation",
+      "checked_at": "2026-10-28T09:16:17.603156+00:00",
+      "xml_files_parsed": 18,
+      "effective_language_records": 324,
+      "records_checked_against_saved_english": 324,
+      "source_input_files_checked": 86,
+      "source_drift_file_count": 13,
+      "issue_kinds": {
+        "source_snapshot_drift": 1
+      },
+      "static_check_status": "issues_found",
+      "in_game_tested_this_run": false,
+      "unmatched_records": 0,
+      "original_declared_versions": [
+        "1.5",
+        "1.6",
+        "1.7"
+      ],
+      "translation_declared_versions": [
+        "1.7"
+      ],
+      "publication_ready_claimed": false
+    },
+    {
+      "package_id": "runtime",
+      "role": "runtime_supplement",
+      "checked_at": "2026-10-28T09:16:17.629874+00:00",
+      "xml_files_parsed": 5,
+      "effective_language_records": 1924,
+      "records_checked_against_saved_english": 0,
+      "source_input_files_checked": 0,
+      "source_drift_file_count": 0,
+      "issue_kinds": {},
+      "static_check_status": "pass_with_scope_limits",
+      "in_game_tested_this_run": false,
+      "unmatched_records": 1924,
+      "original_declared_versions": [],
+      "translation_declared_versions": [
+        "1.7"
+      ],
+      "publication_ready_claimed": false
+    },
+    {
+      "package_id": "salvador143.shuttledock",
+      "role": "original_linked_translation",
+      "checked_at": "2026-10-28T09:16:17.655827+00:00",
+      "xml_files_parsed": 4,
+      "effective_language_records": 34,
+      "records_checked_against_saved_english": 34,
+      "source_input_files_checked": 8,
+      "source_drift_file_count": 0,
+      "issue_kinds": {},
+      "static_check_status": "pass_with_scope_limits",
+      "in_game_tested_this_run": false,
+      "unmatched_records": 0,
+      "original_declared_versions": [
+        "1.6",
+        "1.7"
+      ],
+      "translation_declared_versions": [
+        "1.7"
+      ],
+      "publication_ready_claimed": false
+    },
+    {
+      "package_id": "sarg.alphaanimals",
+      "role": "original_linked_translation",
+      "checked_at": "2026-10-28T09:16:17.690664+00:00",
+      "xml_files_parsed": 29,
+      "effective_language_records": 2716,
+      "records_checked_against_saved_english": 2716,
+      "source_input_files_checked": 297,
+      "source_drift_file_count": 0,
+      "issue_kinds": {},
+      "static_check_status": "pass_with_scope_limits",
+      "in_game_tested_this_run": false,
+      "unmatched_records": 0,
+      "original_declared_versions": [
+        "1.7",
+        "1.6"
+      ],
+      "translation_declared_versions": [
+        "1.7"
+      ],
+      "publication_ready_claimed": false
+    },
+    {
+      "package_id": "sarg.alphagenes",
+      "role": "original_linked_translation",
+      "checked_at": "2026-10-28T09:16:17.802898+00:00",
+      "xml_files_parsed": 30,
+      "effective_language_records": 2411,
+      "records_checked_against_saved_english": 2411,
+      "source_input_files_checked": 220,
+      "source_drift_file_count": 0,
+      "issue_kinds": {},
+      "static_check_status": "pass_with_scope_limits",
+      "in_game_tested_this_run": false,
+      "unmatched_records": 0,
+      "original_declared_versions": [
+        "1.6",
+        "1.7",
+        "1.5"
+      ],
+      "translation_declared_versions": [
+        "1.7"
+      ],
+      "publication_ready_claimed": false
+    },
+    {
+      "package_id": "sarg.smartodyssey",
+      "role": "original_linked_translation",
+      "checked_at": "2026-10-28T09:16:17.877430+00:00",
+      "xml_files_parsed": 2,
+      "effective_language_records": 7,
+      "records_checked_against_saved_english": 7,
+      "source_input_files_checked": 5,
+      "source_drift_file_count": 0,
+      "issue_kinds": {},
+      "static_check_status": "pass_with_scope_limits",
+      "in_game_tested_this_run": false,
+      "unmatched_records": 0,
+      "original_declared_versions": [
+        "1.6",
+        "1.7"
+      ],
+      "translation_declared_versions": [
+        "1.7"
+      ],
+      "publication_ready_claimed": false
+    },
+    {
+      "package_id": "sarg.smartspeed",
+      "role": "original_linked_translation",
+      "checked_at": "2026-10-28T09:16:17.881246+00:00",
+      "xml_files_parsed": 2,
+      "effective_language_records": 16,
+      "records_checked_against_saved_english": 16,
+      "source_input_files_checked": 4,
+      "source_drift_file_count": 0,
+      "issue_kinds": {},
+      "static_check_status": "pass_with_scope_limits",
+      "in_game_tested_this_run": false,
+      "unmatched_records": 0,
+      "original_declared_versions": [
+        "1.6",
+        "1.5",
+        "1.7"
+      ],
+      "translation_declared_versions": [
+        "1.7"
+      ],
+      "publication_ready_claimed": false
+    },
+    {
+      "package_id": "sbz.gravshipstorage",
+      "role": "original_linked_translation",
+      "checked_at": "2026-10-28T09:16:17.884241+00:00",
+      "xml_files_parsed": 3,
+      "effective_language_records": 28,
+      "records_checked_against_saved_english": 28,
+      "source_input_files_checked": 11,
+      "source_drift_file_count": 0,
+      "issue_kinds": {},
+      "static_check_status": "pass_with_scope_limits",
+      "in_game_tested_this_run": false,
+      "unmatched_records": 0,
+      "original_declared_versions": [
+        "1.5",
+        "1.6",
+        "1.7"
+      ],
+      "translation_declared_versions": [
+        "1.7"
+      ],
+      "publication_ready_claimed": false
+    },
+    {
+      "package_id": "sbz.neatstorage",
+      "role": "original_linked_translation",
+      "checked_at": "2026-10-28T09:16:17.888435+00:00",
+      "xml_files_parsed": 2,
+      "effective_language_records": 54,
+      "records_checked_against_saved_english": 54,
+      "source_input_files_checked": 12,
+      "source_drift_file_count": 0,
+      "issue_kinds": {},
+      "static_check_status": "pass_with_scope_limits",
+      "in_game_tested_this_run": false,
+      "unmatched_records": 0,
+      "original_declared_versions": [
+        "1.5",
+        "1.6",
+        "1.7"
+      ],
+      "translation_declared_versions": [
+        "1.7"
+      ],
+      "publication_ready_claimed": false
+    },
+    {
+      "package_id": "sbz.neatstoragefridge",
+      "role": "original_linked_translation",
+      "checked_at": "2026-10-28T09:16:17.892301+00:00",
+      "xml_files_parsed": 2,
+      "effective_language_records": 14,
+      "records_checked_against_saved_english": 14,
+      "source_input_files_checked": 8,
+      "source_drift_file_count": 0,
+      "issue_kinds": {},
+      "static_check_status": "pass_with_scope_limits",
+      "in_game_tested_this_run": false,
+      "unmatched_records": 0,
+      "original_declared_versions": [
+        "1.5",
+        "1.6",
+        "1.7"
+      ],
+      "translation_declared_versions": [
+        "1.7"
+      ],
+      "publication_ready_claimed": false
+    },
+    {
+      "package_id": "sbz.neatstorageworkbenchshelf",
+      "role": "original_linked_translation",
+      "checked_at": "2026-10-28T09:16:17.895651+00:00",
+      "xml_files_parsed": 3,
+      "effective_language_records": 7,
+      "records_checked_against_saved_english": 7,
+      "source_input_files_checked": 13,
+      "source_drift_file_count": 0,
+      "issue_kinds": {},
+      "static_check_status": "pass_with_scope_limits",
+      "in_game_tested_this_run": false,
+      "unmatched_records": 0,
+      "original_declared_versions": [
+        "1.5",
+        "1.6",
+        "1.7"
+      ],
+      "translation_declared_versions": [
+        "1.7"
+      ],
+      "publication_ready_claimed": false
+    },
+    {
+      "package_id": "seohyeon.yart",
+      "role": "original_linked_translation",
+      "checked_at": "2026-10-28T09:16:17.900716+00:00",
+      "xml_files_parsed": 2,
+      "effective_language_records": 30,
+      "records_checked_against_saved_english": 30,
+      "source_input_files_checked": 6,
+      "source_drift_file_count": 0,
+      "issue_kinds": {},
+      "static_check_status": "pass_with_scope_limits",
+      "in_game_tested_this_run": false,
+      "unmatched_records": 0,
+      "original_declared_versions": [
+        "1.6",
+        "1.7"
+      ],
+      "translation_declared_versions": [
+        "1.7"
+      ],
+      "publication_ready_claimed": false
+    },
+    {
+      "package_id": "shunter.bettertradersguild",
+      "role": "original_linked_translation",
+      "checked_at": "2026-10-28T09:16:17.906211+00:00",
+      "xml_files_parsed": 1,
+      "effective_language_records": 0,
+      "records_checked_against_saved_english": 0,
+      "source_input_files_checked": 233,
+      "source_drift_file_count": 2,
+      "issue_kinds": {
+        "source_snapshot_drift": 1
+      },
+      "static_check_status": "issues_found",
+      "in_game_tested_this_run": false,
+      "unmatched_records": 0,
+      "original_declared_versions": [
+        "1.6",
+        "1.7"
+      ],
+      "translation_declared_versions": [
+        "1.7"
+      ],
+      "publication_ready_claimed": false
+    },
+    {
+      "package_id": "smashphil.vehicleframework",
+      "role": "original_linked_translation",
+      "checked_at": "2026-10-28T09:16:17.928829+00:00",
+      "xml_files_parsed": 23,
+      "effective_language_records": 669,
+      "records_checked_against_saved_english": 669,
+      "source_input_files_checked": 90,
+      "source_drift_file_count": 0,
+      "issue_kinds": {},
+      "static_check_status": "pass_with_scope_limits",
+      "in_game_tested_this_run": false,
+      "unmatched_records": 0,
+      "original_declared_versions": [
+        "1.4",
+        "1.5",
+        "1.6"
+      ],
+      "translation_declared_versions": [
+        "1.7"
+      ],
+      "publication_ready_claimed": false
+    },
+    {
+      "package_id": "stm.shellabackgrounds",
+      "role": "original_linked_translation",
+      "checked_at": "2026-10-28T09:16:17.955689+00:00",
+      "xml_files_parsed": 3,
+      "effective_language_records": 21,
+      "records_checked_against_saved_english": 21,
+      "source_input_files_checked": 5,
+      "source_drift_file_count": 0,
+      "issue_kinds": {},
+      "static_check_status": "pass_with_scope_limits",
+      "in_game_tested_this_run": false,
+      "unmatched_records": 0,
+      "original_declared_versions": [
+        "1.3",
+        "1.4",
+        "1.5",
+        "1.6",
+        "1.7"
+      ],
+      "translation_declared_versions": [
+        "1.7"
+      ],
+      "publication_ready_claimed": false
+    },
+    {
+      "package_id": "tsa.worlddomination",
+      "role": "original_linked_translation",
+      "checked_at": "2026-10-28T09:16:17.963781+00:00",
+      "xml_files_parsed": 2,
+      "effective_language_records": 656,
+      "records_checked_against_saved_english": 656,
+      "source_input_files_checked": 94,
+      "source_drift_file_count": 0,
+      "issue_kinds": {},
+      "static_check_status": "pass_with_scope_limits",
+      "in_game_tested_this_run": false,
+      "unmatched_records": 0,
+      "original_declared_versions": [
+        "1.6",
+        "1.7"
+      ],
+      "translation_declared_versions": [
+        "1.7"
+      ],
+      "publication_ready_claimed": false
+    },
+    {
+      "package_id": "unon.noburnmetal",
+      "role": "original_linked_translation",
+      "checked_at": "2026-10-28T09:16:17.981920+00:00",
+      "xml_files_parsed": 3,
+      "effective_language_records": 25,
+      "records_checked_against_saved_english": 25,
+      "source_input_files_checked": 5,
+      "source_drift_file_count": 0,
+      "issue_kinds": {
+        "field_verification_stale": 6
+      },
+      "static_check_status": "issues_found",
+      "in_game_tested_this_run": false,
+      "unmatched_records": 0,
+      "original_declared_versions": [
+        "1.0",
+        "1.1",
+        "1.2",
+        "1.3",
+        "1.4",
+        "1.5",
+        "1.6",
+        "1.7"
+      ],
+      "translation_declared_versions": [
+        "1.7"
+      ],
+      "publication_ready_claimed": false
+    },
+    {
+      "package_id": "vanillaexpanded.achievements",
+      "role": "original_linked_translation",
+      "checked_at": "2026-10-28T09:16:17.989304+00:00",
+      "xml_files_parsed": 10,
+      "effective_language_records": 379,
+      "records_checked_against_saved_english": 379,
+      "source_input_files_checked": 36,
+      "source_drift_file_count": 0,
+      "issue_kinds": {},
+      "static_check_status": "pass_with_scope_limits",
+      "in_game_tested_this_run": false,
+      "unmatched_records": 0,
+      "original_declared_versions": [
+        "1.5",
+        "1.6",
+        "1.7"
+      ],
+      "translation_declared_versions": [
+        "1.7"
+      ],
+      "publication_ready_claimed": false
+    },
+    {
+      "package_id": "vanillaexpanded.gravship",
+      "role": "original_linked_translation",
+      "checked_at": "2026-10-28T09:16:18.012512+00:00",
+      "xml_files_parsed": 33,
+      "effective_language_records": 740,
+      "records_checked_against_saved_english": 740,
+      "source_input_files_checked": 141,
+      "source_drift_file_count": 0,
+      "issue_kinds": {},
+      "static_check_status": "pass_with_scope_limits",
+      "in_game_tested_this_run": false,
+      "unmatched_records": 0,
+      "original_declared_versions": [
+        "1.6",
+        "1.7"
+      ],
+      "translation_declared_versions": [
+        "1.7"
+      ],
+      "publication_ready_claimed": false
+    },
+    {
+      "package_id": "vanillaexpanded.gravship2",
+      "role": "original_linked_translation",
+      "checked_at": "2026-10-28T09:16:18.058170+00:00",
+      "xml_files_parsed": 32,
+      "effective_language_records": 797,
+      "records_checked_against_saved_english": 797,
+      "source_input_files_checked": 129,
+      "source_drift_file_count": 0,
+      "issue_kinds": {},
+      "static_check_status": "pass_with_scope_limits",
+      "in_game_tested_this_run": false,
+      "unmatched_records": 0,
+      "original_declared_versions": [
+        "1.6",
+        "1.7"
+      ],
+      "translation_declared_versions": [
+        "1.7"
+      ],
+      "publication_ready_claimed": false
+    },
+    {
+      "package_id": "vanillaexpanded.ideo.sophianstyle",
+      "role": "original_linked_translation",
+      "checked_at": "2026-10-28T09:16:18.098388+00:00",
+      "xml_files_parsed": 3,
+      "effective_language_records": 2,
+      "records_checked_against_saved_english": 2,
+      "source_input_files_checked": 17,
+      "source_drift_file_count": 0,
+      "issue_kinds": {},
+      "static_check_status": "pass_with_scope_limits",
+      "in_game_tested_this_run": false,
+      "unmatched_records": 0,
+      "original_declared_versions": [
+        "1.7",
+        "1.5",
+        "1.6"
+      ],
+      "translation_declared_versions": [
+        "1.7"
+      ],
+      "publication_ready_claimed": false
+    },
+    {
+      "package_id": "vanillaexpanded.outposts",
+      "role": "original_linked_translation",
+      "checked_at": "2026-10-28T09:16:18.103059+00:00",
+      "xml_files_parsed": 4,
+      "effective_language_records": 79,
+      "records_checked_against_saved_english": 79,
+      "source_input_files_checked": 8,
+      "source_drift_file_count": 0,
+      "issue_kinds": {},
+      "static_check_status": "pass_with_scope_limits",
+      "in_game_tested_this_run": false,
+      "unmatched_records": 0,
+      "original_declared_versions": [
+        "1.6",
+        "1.7",
+        "1.5"
+      ],
+      "translation_declared_versions": [
+        "1.7"
+      ],
+      "publication_ready_claimed": false
+    },
+    {
+      "package_id": "vanillaexpanded.recycling",
+      "role": "original_linked_translation",
+      "checked_at": "2026-10-28T09:16:18.108916+00:00",
+      "xml_files_parsed": 10,
+      "effective_language_records": 69,
+      "records_checked_against_saved_english": 69,
+      "source_input_files_checked": 19,
+      "source_drift_file_count": 0,
+      "issue_kinds": {},
+      "static_check_status": "pass_with_scope_limits",
+      "in_game_tested_this_run": false,
+      "unmatched_records": 0,
+      "original_declared_versions": [
+        "1.7",
+        "1.5",
+        "1.6"
+      ],
+      "translation_declared_versions": [
+        "1.7"
+      ],
+      "publication_ready_claimed": false
+    },
+    {
+      "package_id": "vanillaexpanded.skills",
+      "role": "original_linked_translation",
+      "checked_at": "2026-10-28T09:16:18.118071+00:00",
+      "xml_files_parsed": 5,
+      "effective_language_records": 194,
+      "records_checked_against_saved_english": 194,
+      "source_input_files_checked": 8,
+      "source_drift_file_count": 0,
+      "issue_kinds": {},
+      "static_check_status": "pass_with_scope_limits",
+      "in_game_tested_this_run": false,
+      "unmatched_records": 0,
+      "original_declared_versions": [
+        "1.7",
+        "1.5",
+        "1.6"
+      ],
+      "translation_declared_versions": [
+        "1.7"
+      ],
+      "publication_ready_claimed": false
+    },
+    {
+      "package_id": "vanillaexpanded.temperature",
+      "role": "original_linked_translation",
+      "checked_at": "2026-10-28T09:16:18.126513+00:00",
+      "xml_files_parsed": 4,
+      "effective_language_records": 66,
+      "records_checked_against_saved_english": 66,
+      "source_input_files_checked": 13,
+      "source_drift_file_count": 0,
+      "issue_kinds": {},
+      "static_check_status": "pass_with_scope_limits",
+      "in_game_tested_this_run": false,
+      "unmatched_records": 0,
+      "original_declared_versions": [
+        "1.7",
+        "1.5",
+        "1.6"
+      ],
+      "translation_declared_versions": [
+        "1.7"
+      ],
+      "publication_ready_claimed": false
+    },
+    {
+      "package_id": "vanillaexpanded.vaeaccessories",
+      "role": "original_linked_translation",
+      "checked_at": "2026-10-28T09:16:18.132999+00:00",
+      "xml_files_parsed": 3,
+      "effective_language_records": 27,
+      "records_checked_against_saved_english": 27,
+      "source_input_files_checked": 11,
+      "source_drift_file_count": 0,
+      "issue_kinds": {
+        "field_verification_stale": 2
+      },
+      "static_check_status": "issues_found",
+      "in_game_tested_this_run": false,
+      "unmatched_records": 0,
+      "original_declared_versions": [
+        "1.7",
+        "1.5",
+        "1.6"
+      ],
+      "translation_declared_versions": [
+        "1.7"
+      ],
+      "publication_ready_claimed": false
+    },
+    {
+      "package_id": "vanillaexpanded.vanillaanimalsexpanded",
+      "role": "original_linked_translation",
+      "checked_at": "2026-10-28T09:16:18.141852+00:00",
+      "xml_files_parsed": 8,
+      "effective_language_records": 565,
+      "records_checked_against_saved_english": 565,
+      "source_input_files_checked": 55,
+      "source_drift_file_count": 0,
+      "issue_kinds": {},
+      "static_check_status": "pass_with_scope_limits",
+      "in_game_tested_this_run": false,
+      "unmatched_records": 0,
+      "original_declared_versions": [
+        "1.7",
+        "1.5",
+        "1.6"
+      ],
+      "translation_declared_versions": [
+        "1.7"
+      ],
+      "publication_ready_claimed": false
+    },
+    {
+      "package_id": "vanillaexpanded.vanillabackstoriesexpanded",
+      "role": "original_linked_translation",
+      "checked_at": "2026-10-28T09:16:18.162447+00:00",
+      "xml_files_parsed": 2,
+      "effective_language_records": 351,
+      "records_checked_against_saved_english": 351,
+      "source_input_files_checked": 4,
+      "source_drift_file_count": 0,
+      "issue_kinds": {},
+      "static_check_status": "pass_with_scope_limits",
+      "in_game_tested_this_run": false,
+      "unmatched_records": 0,
+      "original_declared_versions": [
+        "1.6",
+        "1.7",
+        "1.5"
+      ],
+      "translation_declared_versions": [
+        "1.7"
+      ],
+      "publication_ready_claimed": false
+    },
+    {
+      "package_id": "vanillaexpanded.vanillafoodvarietyexpanded",
+      "role": "original_linked_translation",
+      "checked_at": "2026-10-28T09:16:18.171292+00:00",
+      "xml_files_parsed": 5,
+      "effective_language_records": 40,
+      "records_checked_against_saved_english": 40,
+      "source_input_files_checked": 20,
+      "source_drift_file_count": 0,
+      "issue_kinds": {},
+      "static_check_status": "pass_with_scope_limits",
+      "in_game_tested_this_run": false,
+      "unmatched_records": 0,
+      "original_declared_versions": [
+        "1.5",
+        "1.6",
+        "1.7"
+      ],
+      "translation_declared_versions": [
+        "1.7"
+      ],
+      "publication_ready_claimed": false
+    },
+    {
+      "package_id": "vanillaexpanded.vanillasocialinteractionsexpanded",
+      "role": "original_linked_translation",
+      "checked_at": "2026-10-28T09:16:18.181131+00:00",
+      "xml_files_parsed": 12,
+      "effective_language_records": 208,
+      "records_checked_against_saved_english": 208,
+      "source_input_files_checked": 34,
+      "source_drift_file_count": 0,
+      "issue_kinds": {},
+      "static_check_status": "pass_with_scope_limits",
+      "in_game_tested_this_run": false,
+      "unmatched_records": 0,
+      "original_declared_versions": [
+        "1.7",
+        "1.5",
+        "1.6"
+      ],
+      "translation_declared_versions": [
+        "1.7"
+      ],
+      "publication_ready_claimed": false
+    },
+    {
+      "package_id": "vanillaexpanded.vanillatradingexpanded",
+      "role": "original_linked_translation",
+      "checked_at": "2026-10-28T09:16:18.194020+00:00",
+      "xml_files_parsed": 6,
+      "effective_language_records": 126,
+      "records_checked_against_saved_english": 126,
+      "source_input_files_checked": 11,
+      "source_drift_file_count": 0,
+      "issue_kinds": {},
+      "static_check_status": "pass_with_scope_limits",
+      "in_game_tested_this_run": false,
+      "unmatched_records": 0,
+      "original_declared_versions": [
+        "1.7",
+        "1.5",
+        "1.6"
+      ],
+      "translation_declared_versions": [
+        "1.7"
+      ],
+      "publication_ready_claimed": false
+    },
+    {
+      "package_id": "vanillaexpanded.vanillatraitsexpanded",
+      "role": "original_linked_translation",
+      "checked_at": "2026-10-28T09:16:18.203232+00:00",
+      "xml_files_parsed": 7,
+      "effective_language_records": 239,
+      "records_checked_against_saved_english": 239,
+      "source_input_files_checked": 15,
+      "source_drift_file_count": 0,
+      "issue_kinds": {},
+      "static_check_status": "pass_with_scope_limits",
+      "in_game_tested_this_run": false,
+      "unmatched_records": 0,
+      "original_declared_versions": [
+        "1.7",
+        "1.5",
+        "1.6"
+      ],
+      "translation_declared_versions": [
+        "1.7"
+      ],
+      "publication_ready_claimed": false
+    },
+    {
+      "package_id": "vanillaexpanded.vappe",
+      "role": "original_linked_translation",
+      "checked_at": "2026-10-28T09:16:18.213281+00:00",
+      "xml_files_parsed": 3,
+      "effective_language_records": 59,
+      "records_checked_against_saved_english": 59,
+      "source_input_files_checked": 12,
+      "source_drift_file_count": 0,
+      "issue_kinds": {},
+      "static_check_status": "pass_with_scope_limits",
+      "in_game_tested_this_run": false,
+      "unmatched_records": 0,
+      "original_declared_versions": [
+        "1.7",
+        "1.5",
+        "1.6"
+      ],
+      "translation_declared_versions": [
+        "1.7"
+      ],
+      "publication_ready_claimed": false
+    },
+    {
+      "package_id": "vanillaexpanded.varme",
+      "role": "original_linked_translation",
+      "checked_at": "2026-10-28T09:16:18.219176+00:00",
+      "xml_files_parsed": 9,
+      "effective_language_records": 37,
+      "records_checked_against_saved_english": 37,
+      "source_input_files_checked": 31,
+      "source_drift_file_count": 0,
+      "issue_kinds": {},
+      "static_check_status": "pass_with_scope_limits",
+      "in_game_tested_this_run": false,
+      "unmatched_records": 0,
+      "original_declared_versions": [
+        "1.7",
+        "1.5",
+        "1.6"
+      ],
+      "translation_declared_versions": [
+        "1.7"
+      ],
+      "publication_ready_claimed": false
+    },
+    {
+      "package_id": "vanillaexpanded.vbookse",
+      "role": "original_linked_translation",
+      "checked_at": "2026-10-28T09:16:18.231327+00:00",
+      "xml_files_parsed": 9,
+      "effective_language_records": 75,
+      "records_checked_against_saved_english": 75,
+      "source_input_files_checked": 38,
+      "source_drift_file_count": 0,
+      "issue_kinds": {},
+      "static_check_status": "pass_with_scope_limits",
+      "in_game_tested_this_run": false,
+      "unmatched_records": 0,
+      "original_declared_versions": [
+        "1.7",
+        "1.5",
+        "1.6"
+      ],
+      "translation_declared_versions": [
+        "1.7"
+      ],
+      "publication_ready_claimed": false
+    },
+    {
+      "package_id": "vanillaexpanded.vbrewe",
+      "role": "original_linked_translation",
+      "checked_at": "2026-10-28T09:16:18.244475+00:00",
+      "xml_files_parsed": 13,
+      "effective_language_records": 410,
+      "records_checked_against_saved_english": 410,
+      "source_input_files_checked": 57,
+      "source_drift_file_count": 0,
+      "issue_kinds": {},
+      "static_check_status": "pass_with_scope_limits",
+      "in_game_tested_this_run": false,
+      "unmatched_records": 0,
+      "original_declared_versions": [
+        "1.7",
+        "1.5",
+        "1.6"
+      ],
+      "translation_declared_versions": [
+        "1.7"
+      ],
+      "publication_ready_claimed": false
+    },
+    {
+      "package_id": "vanillaexpanded.vcef",
+      "role": "original_linked_translation",
+      "checked_at": "2026-10-28T09:16:18.263441+00:00",
+      "xml_files_parsed": 7,
+      "effective_language_records": 93,
+      "records_checked_against_saved_english": 93,
+      "source_input_files_checked": 16,
+      "source_drift_file_count": 0,
+      "issue_kinds": {},
+      "static_check_status": "pass_with_scope_limits",
+      "in_game_tested_this_run": false,
+      "unmatched_records": 0,
+      "original_declared_versions": [
+        "1.6",
+        "1.7",
+        "1.5"
+      ],
+      "translation_declared_versions": [
+        "1.7"
+      ],
+      "publication_ready_claimed": false
+    },
+    {
+      "package_id": "vanillaexpanded.vchemfuele",
+      "role": "original_linked_translation",
+      "checked_at": "2026-10-28T09:16:18.270820+00:00",
+      "xml_files_parsed": 4,
+      "effective_language_records": 44,
+      "records_checked_against_saved_english": 44,
+      "source_input_files_checked": 13,
+      "source_drift_file_count": 0,
+      "issue_kinds": {},
+      "static_check_status": "pass_with_scope_limits",
+      "in_game_tested_this_run": false,
+      "unmatched_records": 0,
+      "original_declared_versions": [
+        "1.6",
+        "1.7",
+        "1.5"
+      ],
+      "translation_declared_versions": [
+        "1.7"
+      ],
+      "publication_ready_claimed": false
+    },
+    {
+      "package_id": "vanillaexpanded.vcooke",
+      "role": "original_linked_translation",
+      "checked_at": "2026-10-28T09:16:18.279833+00:00",
+      "xml_files_parsed": 14,
+      "effective_language_records": 400,
+      "records_checked_against_saved_english": 400,
+      "source_input_files_checked": 58,
+      "source_drift_file_count": 0,
+      "issue_kinds": {},
+      "static_check_status": "pass_with_scope_limits",
+      "in_game_tested_this_run": false,
+      "unmatched_records": 0,
+      "original_declared_versions": [
+        "1.7",
+        "1.5",
+        "1.6"
+      ],
+      "translation_declared_versions": [
+        "1.7"
+      ],
+      "publication_ready_claimed": false
+    },
+    {
+      "package_id": "vanillaexpanded.vcookestews",
+      "role": "original_linked_translation",
+      "checked_at": "2026-10-28T09:16:18.300575+00:00",
+      "xml_files_parsed": 7,
+      "effective_language_records": 42,
+      "records_checked_against_saved_english": 42,
+      "source_input_files_checked": 10,
+      "source_drift_file_count": 0,
+      "issue_kinds": {},
+      "static_check_status": "pass_with_scope_limits",
+      "in_game_tested_this_run": false,
+      "unmatched_records": 0,
+      "original_declared_versions": [
+        "1.7",
+        "1.5",
+        "1.6"
+      ],
+      "translation_declared_versions": [
+        "1.7"
+      ],
+      "publication_ready_claimed": false
+    },
+    {
+      "package_id": "vanillaexpanded.vee",
+      "role": "original_linked_translation",
+      "checked_at": "2026-10-28T09:16:18.308970+00:00",
+      "xml_files_parsed": 12,
+      "effective_language_records": 214,
+      "records_checked_against_saved_english": 214,
+      "source_input_files_checked": 40,
+      "source_drift_file_count": 0,
+      "issue_kinds": {},
+      "static_check_status": "pass_with_scope_limits",
+      "in_game_tested_this_run": false,
+      "unmatched_records": 0,
+      "original_declared_versions": [
+        "1.7",
+        "1.5",
+        "1.6"
+      ],
+      "translation_declared_versions": [
+        "1.7"
+      ],
+      "publication_ready_claimed": false
+    },
+    {
+      "package_id": "vanillaexpanded.vexploratione",
+      "role": "original_linked_translation",
+      "checked_at": "2026-10-28T09:16:18.331219+00:00",
+      "xml_files_parsed": 12,
+      "effective_language_records": 609,
+      "records_checked_against_saved_english": 609,
+      "source_input_files_checked": 50,
+      "source_drift_file_count": 0,
+      "issue_kinds": {},
+      "static_check_status": "pass_with_scope_limits",
+      "in_game_tested_this_run": false,
+      "unmatched_records": 0,
+      "original_declared_versions": [
+        "1.6",
+        "1.7"
+      ],
+      "translation_declared_versions": [
+        "1.7"
+      ],
+      "publication_ready_claimed": false
+    },
+    {
+      "package_id": "vanillaexpanded.vfearchitect",
+      "role": "original_linked_translation",
+      "checked_at": "2026-10-28T09:16:18.352607+00:00",
+      "xml_files_parsed": 7,
+      "effective_language_records": 92,
+      "records_checked_against_saved_english": 92,
+      "source_input_files_checked": 17,
+      "source_drift_file_count": 0,
+      "issue_kinds": {},
+      "static_check_status": "pass_with_scope_limits",
+      "in_game_tested_this_run": false,
+      "unmatched_records": 0,
+      "original_declared_versions": [
+        "1.7",
+        "1.5",
+        "1.6"
+      ],
+      "translation_declared_versions": [
+        "1.7"
+      ],
+      "publication_ready_claimed": false
+    },
+    {
+      "package_id": "vanillaexpanded.vfeart",
+      "role": "original_linked_translation",
+      "checked_at": "2026-10-28T09:16:18.361353+00:00",
+      "xml_files_parsed": 5,
+      "effective_language_records": 60,
+      "records_checked_against_saved_english": 60,
+      "source_input_files_checked": 13,
+      "source_drift_file_count": 0,
+      "issue_kinds": {},
+      "static_check_status": "pass_with_scope_limits",
+      "in_game_tested_this_run": false,
+      "unmatched_records": 0,
+      "original_declared_versions": [
+        "1.7",
+        "1.5",
+        "1.6"
+      ],
+      "translation_declared_versions": [
+        "1.7"
+      ],
+      "publication_ready_claimed": false
+    },
+    {
+      "package_id": "vanillaexpanded.vfecore",
+      "role": "original_linked_translation",
+      "checked_at": "2026-10-28T09:16:18.368611+00:00",
+      "xml_files_parsed": 10,
+      "effective_language_records": 140,
+      "records_checked_against_saved_english": 140,
+      "source_input_files_checked": 39,
+      "source_drift_file_count": 0,
+      "issue_kinds": {},
+      "static_check_status": "pass_with_scope_limits",
+      "in_game_tested_this_run": false,
+      "unmatched_records": 0,
+      "original_declared_versions": [
+        "1.7",
+        "1.5",
+        "1.6"
+      ],
+      "translation_declared_versions": [
+        "1.7"
+      ],
+      "publication_ready_claimed": false
+    },
+    {
+      "package_id": "vanillaexpanded.vfefactory",
+      "role": "original_linked_translation",
+      "checked_at": "2026-10-28T09:16:18.381974+00:00",
+      "xml_files_parsed": 16,
+      "effective_language_records": 325,
+      "records_checked_against_saved_english": 323,
+      "source_input_files_checked": 47,
+      "source_drift_file_count": 0,
+      "issue_kinds": {},
+      "static_check_status": "pass_with_scope_limits",
+      "in_game_tested_this_run": false,
+      "unmatched_records": 0,
+      "original_declared_versions": [
+        "1.6",
+        "1.7"
+      ],
+      "translation_declared_versions": [
+        "1.7"
+      ],
+      "publication_ready_claimed": false
+    },
+    {
+      "package_id": "vanillaexpanded.vfefarming",
+      "role": "original_linked_translation",
+      "checked_at": "2026-10-28T09:16:18.400234+00:00",
+      "xml_files_parsed": 4,
+      "effective_language_records": 57,
+      "records_checked_against_saved_english": 54,
+      "source_input_files_checked": 11,
+      "source_drift_file_count": 0,
+      "issue_kinds": {},
+      "static_check_status": "pass_with_scope_limits",
+      "in_game_tested_this_run": false,
+      "unmatched_records": 0,
+      "original_declared_versions": [
+        "1.7",
+        "1.5",
+        "1.6"
+      ],
+      "translation_declared_versions": [
+        "1.7"
+      ],
+      "publication_ready_claimed": false
+    },
+    {
+      "package_id": "vanillaexpanded.vfemedical",
+      "role": "original_linked_translation",
+      "checked_at": "2026-10-28T09:16:18.405690+00:00",
+      "xml_files_parsed": 3,
+      "effective_language_records": 14,
+      "records_checked_against_saved_english": 14,
+      "source_input_files_checked": 8,
+      "source_drift_file_count": 0,
+      "issue_kinds": {},
+      "static_check_status": "pass_with_scope_limits",
+      "in_game_tested_this_run": false,
+      "unmatched_records": 0,
+      "original_declared_versions": [
+        "1.6",
+        "1.7",
+        "1.5"
+      ],
+      "translation_declared_versions": [
+        "1.7"
+      ],
+      "publication_ready_claimed": false
+    },
+    {
+      "package_id": "vanillaexpanded.vfepower",
+      "role": "original_linked_translation",
+      "checked_at": "2026-10-28T09:16:18.410824+00:00",
+      "xml_files_parsed": 6,
+      "effective_language_records": 186,
+      "records_checked_against_saved_english": 181,
+      "source_input_files_checked": 14,
+      "source_drift_file_count": 0,
+      "issue_kinds": {},
+      "static_check_status": "pass_with_scope_limits",
+      "in_game_tested_this_run": false,
+      "unmatched_records": 0,
+      "original_declared_versions": [
+        "1.7",
+        "1.5",
+        "1.6"
+      ],
+      "translation_declared_versions": [
+        "1.7"
+      ],
+      "publication_ready_claimed": false
+    },
+    {
+      "package_id": "vanillaexpanded.vfeproduction",
+      "role": "original_linked_translation",
+      "checked_at": "2026-10-28T09:16:18.420277+00:00",
+      "xml_files_parsed": 3,
+      "effective_language_records": 43,
+      "records_checked_against_saved_english": 42,
+      "source_input_files_checked": 10,
+      "source_drift_file_count": 0,
+      "issue_kinds": {},
+      "static_check_status": "pass_with_scope_limits",
+      "in_game_tested_this_run": false,
+      "unmatched_records": 0,
+      "original_declared_versions": [
+        "1.7",
+        "1.5",
+        "1.6"
+      ],
+      "translation_declared_versions": [
+        "1.7"
+      ],
+      "publication_ready_claimed": false
+    },
+    {
+      "package_id": "vanillaexpanded.vfepropsanddecor",
+      "role": "original_linked_translation",
+      "checked_at": "2026-10-28T09:16:18.453788+00:00",
+      "xml_files_parsed": 4,
+      "effective_language_records": 2792,
+      "records_checked_against_saved_english": 2792,
+      "source_input_files_checked": 94,
+      "source_drift_file_count": 0,
+      "issue_kinds": {},
+      "static_check_status": "pass_with_scope_limits",
+      "in_game_tested_this_run": false,
+      "unmatched_records": 0,
+      "original_declared_versions": [
+        "1.7",
+        "1.5",
+        "1.6"
+      ],
+      "translation_declared_versions": [
+        "1.7"
+      ],
+      "publication_ready_claimed": false
+    },
+    {
+      "package_id": "vanillaexpanded.vfesecurity",
+      "role": "original_linked_translation",
+      "checked_at": "2026-10-28T09:16:18.524688+00:00",
+      "xml_files_parsed": 10,
+      "effective_language_records": 221,
+      "records_checked_against_saved_english": 221,
+      "source_input_files_checked": 30,
+      "source_drift_file_count": 0,
+      "issue_kinds": {},
+      "static_check_status": "pass_with_scope_limits",
+      "in_game_tested_this_run": false,
+      "unmatched_records": 0,
+      "original_declared_versions": [
+        "1.5",
+        "1.6",
+        "1.7"
+      ],
+      "translation_declared_versions": [
+        "1.7"
+      ],
+      "publication_ready_claimed": false
+    },
+    {
+      "package_id": "vanillaexpanded.vfespacer",
+      "role": "original_linked_translation",
+      "checked_at": "2026-10-28T09:16:18.538966+00:00",
+      "xml_files_parsed": 7,
+      "effective_language_records": 70,
+      "records_checked_against_saved_english": 68,
+      "source_input_files_checked": 21,
+      "source_drift_file_count": 0,
+      "issue_kinds": {},
+      "static_check_status": "pass_with_scope_limits",
+      "in_game_tested_this_run": false,
+      "unmatched_records": 0,
+      "original_declared_versions": [
+        "1.7",
+        "1.5",
+        "1.6"
+      ],
+      "translation_declared_versions": [
+        "1.7"
+      ],
+      "publication_ready_claimed": false
+    },
+    {
+      "package_id": "vanillaexpanded.vgeneticse",
+      "role": "original_linked_translation",
+      "checked_at": "2026-10-28T09:16:18.580034+00:00",
+      "xml_files_parsed": 37,
+      "effective_language_records": 3212,
+      "records_checked_against_saved_english": 3204,
+      "source_input_files_checked": 183,
+      "source_drift_file_count": 0,
+      "issue_kinds": {},
+      "static_check_status": "pass_with_scope_limits",
+      "in_game_tested_this_run": false,
+      "unmatched_records": 0,
+      "original_declared_versions": [
+        "1.7",
+        "1.5",
+        "1.6"
+      ],
+      "translation_declared_versions": [
+        "1.7"
+      ],
+      "publication_ready_claimed": false
+    },
+    {
+      "package_id": "vanillaexpanded.vhe",
+      "role": "original_linked_translation",
+      "checked_at": "2026-10-28T09:16:18.688059+00:00",
+      "xml_files_parsed": 6,
+      "effective_language_records": 126,
+      "records_checked_against_saved_english": 126,
+      "source_input_files_checked": 17,
+      "source_drift_file_count": 0,
+      "issue_kinds": {},
+      "static_check_status": "pass_with_scope_limits",
+      "in_game_tested_this_run": false,
+      "unmatched_records": 0,
+      "original_declared_versions": [
+        "1.7",
+        "1.5",
+        "1.6"
+      ],
+      "translation_declared_versions": [
+        "1.7"
+      ],
+      "publication_ready_claimed": false
+    },
+    {
+      "package_id": "vanillaexpanded.vmemese",
+      "role": "original_linked_translation",
+      "checked_at": "2026-10-28T09:16:18.756313+00:00",
+      "xml_files_parsed": 30,
+      "effective_language_records": 5038,
+      "records_checked_against_saved_english": 4917,
+      "source_input_files_checked": 315,
+      "source_drift_file_count": 0,
+      "issue_kinds": {},
+      "static_check_status": "pass_with_scope_limits",
+      "in_game_tested_this_run": false,
+      "unmatched_records": 0,
+      "original_declared_versions": [
+        "1.7",
+        "1.5",
+        "1.6"
+      ],
+      "translation_declared_versions": [
+        "1.7"
+      ],
+      "publication_ready_claimed": false
+    },
+    {
+      "package_id": "vanillaexpanded.vnutriente",
+      "role": "original_linked_translation",
+      "checked_at": "2026-10-28T09:16:18.988374+00:00",
+      "xml_files_parsed": 4,
+      "effective_language_records": 29,
+      "records_checked_against_saved_english": 29,
+      "source_input_files_checked": 13,
+      "source_drift_file_count": 0,
+      "issue_kinds": {},
+      "static_check_status": "pass_with_scope_limits",
+      "in_game_tested_this_run": false,
+      "unmatched_records": 0,
+      "original_declared_versions": [
+        "1.7",
+        "1.5",
+        "1.6"
+      ],
+      "translation_declared_versions": [
+        "1.7"
+      ],
+      "publication_ready_claimed": false
+    },
+    {
+      "package_id": "vanillaexpanded.vplantse",
+      "role": "original_linked_translation",
+      "checked_at": "2026-10-28T09:16:18.995979+00:00",
+      "xml_files_parsed": 6,
+      "effective_language_records": 87,
+      "records_checked_against_saved_english": 87,
+      "source_input_files_checked": 18,
+      "source_drift_file_count": 0,
+      "issue_kinds": {},
+      "static_check_status": "pass_with_scope_limits",
+      "in_game_tested_this_run": false,
+      "unmatched_records": 0,
+      "original_declared_versions": [
+        "1.7",
+        "1.5",
+        "1.6"
+      ],
+      "translation_declared_versions": [
+        "1.7"
+      ],
+      "publication_ready_claimed": false
+    },
+    {
+      "package_id": "vanillaexpanded.vpsycastse",
+      "role": "original_linked_translation",
+      "checked_at": "2026-10-28T09:16:19.010756+00:00",
+      "xml_files_parsed": 27,
+      "effective_language_records": 785,
+      "records_checked_against_saved_english": 785,
+      "source_input_files_checked": 101,
+      "source_drift_file_count": 0,
+      "issue_kinds": {
+        "installed_translation_record_mismatch": 1
+      },
+      "static_check_status": "issues_found",
+      "in_game_tested_this_run": false,
+      "unmatched_records": 0,
+      "original_declared_versions": [
+        "1.7",
+        "1.5",
+        "1.6"
+      ],
+      "translation_declared_versions": [
+        "1.7"
+      ],
+      "publication_ready_claimed": false
+    },
+    {
+      "package_id": "vanillaexpanded.vtexe",
+      "role": "original_linked_translation",
+      "checked_at": "2026-10-28T09:16:19.041756+00:00",
+      "xml_files_parsed": 3,
+      "effective_language_records": 6,
+      "records_checked_against_saved_english": 6,
+      "source_input_files_checked": 12,
+      "source_drift_file_count": 0,
+      "issue_kinds": {},
+      "static_check_status": "pass_with_scope_limits",
+      "in_game_tested_this_run": false,
+      "unmatched_records": 0,
+      "original_declared_versions": [
+        "1.7",
+        "1.5",
+        "1.6"
+      ],
+      "translation_declared_versions": [
+        "1.7"
+      ],
+      "publication_ready_claimed": false
+    },
+    {
+      "package_id": "vanillaexpanded.vwe",
+      "role": "original_linked_translation",
+      "checked_at": "2026-10-28T09:16:19.051353+00:00",
+      "xml_files_parsed": 16,
+      "effective_language_records": 424,
+      "records_checked_against_saved_english": 424,
+      "source_input_files_checked": 68,
+      "source_drift_file_count": 0,
+      "issue_kinds": {},
+      "static_check_status": "pass_with_scope_limits",
+      "in_game_tested_this_run": false,
+      "unmatched_records": 0,
+      "original_declared_versions": [
+        "1.7",
+        "1.5",
+        "1.6"
+      ],
+      "translation_declared_versions": [
+        "1.7"
+      ],
+      "publication_ready_claimed": false
+    },
+    {
+      "package_id": "vanillaexpanded.vwehw",
+      "role": "original_linked_translation",
+      "checked_at": "2026-10-28T09:16:19.073392+00:00",
+      "xml_files_parsed": 3,
+      "effective_language_records": 24,
+      "records_checked_against_saved_english": 24,
+      "source_input_files_checked": 8,
+      "source_drift_file_count": 0,
+      "issue_kinds": {},
+      "static_check_status": "pass_with_scope_limits",
+      "in_game_tested_this_run": false,
+      "unmatched_records": 0,
+      "original_declared_versions": [
+        "1.7",
+        "1.5",
+        "1.6"
+      ],
+      "translation_declared_versions": [
+        "1.7"
+      ],
+      "publication_ready_claimed": false
+    },
+    {
+      "package_id": "vanillaexpanded.vwel",
+      "role": "original_linked_translation",
+      "checked_at": "2026-10-28T09:16:19.078103+00:00",
+      "xml_files_parsed": 5,
+      "effective_language_records": 97,
+      "records_checked_against_saved_english": 96,
+      "source_input_files_checked": 15,
+      "source_drift_file_count": 0,
+      "issue_kinds": {},
+      "static_check_status": "pass_with_scope_limits",
+      "in_game_tested_this_run": false,
+      "unmatched_records": 0,
+      "original_declared_versions": [
+        "1.7",
+        "1.5",
+        "1.6"
+      ],
+      "translation_declared_versions": [
+        "1.7"
+      ],
+      "publication_ready_claimed": false
+    },
+    {
+      "package_id": "vanillaexpanded.vwenl",
+      "role": "original_linked_translation",
+      "checked_at": "2026-10-28T09:16:19.085168+00:00",
+      "xml_files_parsed": 6,
+      "effective_language_records": 68,
+      "records_checked_against_saved_english": 67,
+      "source_input_files_checked": 17,
+      "source_drift_file_count": 0,
+      "issue_kinds": {},
+      "static_check_status": "pass_with_scope_limits",
+      "in_game_tested_this_run": false,
+      "unmatched_records": 0,
+      "original_declared_versions": [
+        "1.7",
+        "1.5",
+        "1.6"
+      ],
+      "translation_declared_versions": [
+        "1.7"
+      ],
+      "publication_ready_claimed": false
+    },
+    {
+      "package_id": "vanillaquestsexpanded.ancients",
+      "role": "original_linked_translation",
+      "checked_at": "2026-10-28T09:16:19.096695+00:00",
+      "xml_files_parsed": 27,
+      "effective_language_records": 591,
+      "records_checked_against_saved_english": 591,
+      "source_input_files_checked": 85,
+      "source_drift_file_count": 0,
+      "issue_kinds": {},
+      "static_check_status": "pass_with_scope_limits",
+      "in_game_tested_this_run": false,
+      "unmatched_records": 0,
+      "original_declared_versions": [
+        "1.6",
+        "1.7"
+      ],
+      "translation_declared_versions": [
+        "1.7"
+      ],
+      "publication_ready_claimed": false
+    },
+    {
+      "package_id": "vanillaquestsexpanded.generator",
+      "role": "original_linked_translation",
+      "checked_at": "2026-10-28T09:16:19.132607+00:00",
+      "xml_files_parsed": 18,
+      "effective_language_records": 329,
+      "records_checked_against_saved_english": 329,
+      "source_input_files_checked": 56,
+      "source_drift_file_count": 0,
+      "issue_kinds": {},
+      "static_check_status": "pass_with_scope_limits",
+      "in_game_tested_this_run": false,
+      "unmatched_records": 0,
+      "original_declared_versions": [
+        "1.5",
+        "1.6",
+        "1.7"
+      ],
+      "translation_declared_versions": [
+        "1.7"
+      ],
+      "publication_ready_claimed": false
+    },
+    {
+      "package_id": "vanillaracesexpanded.sanguophage",
+      "role": "original_linked_translation",
+      "checked_at": "2026-10-28T09:16:19.155979+00:00",
+      "xml_files_parsed": 15,
+      "effective_language_records": 306,
+      "records_checked_against_saved_english": 306,
+      "source_input_files_checked": 45,
+      "source_drift_file_count": 0,
+      "issue_kinds": {},
+      "static_check_status": "pass_with_scope_limits",
+      "in_game_tested_this_run": false,
+      "unmatched_records": 0,
+      "original_declared_versions": [
+        "1.7",
+        "1.5",
+        "1.6"
+      ],
+      "translation_declared_versions": [
+        "1.7"
+      ],
+      "publication_ready_claimed": false
+    },
+    {
+      "package_id": "ve.vanillachristmasexpanded",
+      "role": "original_linked_translation",
+      "checked_at": "2026-10-28T09:16:19.175434+00:00",
+      "xml_files_parsed": 19,
+      "effective_language_records": 229,
+      "records_checked_against_saved_english": 229,
+      "source_input_files_checked": 72,
+      "source_drift_file_count": 0,
+      "issue_kinds": {},
+      "static_check_status": "pass_with_scope_limits",
+      "in_game_tested_this_run": false,
+      "unmatched_records": 0,
+      "original_declared_versions": [
+        "1.5",
+        "1.6",
+        "1.7"
+      ],
+      "translation_declared_versions": [
+        "1.7"
+      ],
+      "publication_ready_claimed": false
+    },
+    {
+      "package_id": "void.charactereditor",
+      "role": "original_linked_translation",
+      "checked_at": "2026-10-28T09:16:19.201298+00:00",
+      "xml_files_parsed": 5,
+      "effective_language_records": 56,
+      "records_checked_against_saved_english": 56,
+      "source_input_files_checked": 5,
+      "source_drift_file_count": 0,
+      "issue_kinds": {},
+      "static_check_status": "pass_with_scope_limits",
+      "in_game_tested_this_run": false,
+      "unmatched_records": 0,
+      "original_declared_versions": [
+        "1.0",
+        "1.1",
+        "1.2",
+        "1.3",
+        "1.4",
+        "1.5",
+        "1.6",
+        "1.7"
+      ],
+      "translation_declared_versions": [
+        "1.7"
+      ],
+      "publication_ready_claimed": false
+    },
+    {
+      "package_id": "vortex.customizeweapon",
+      "role": "original_linked_translation",
+      "checked_at": "2026-10-28T09:16:19.210136+00:00",
+      "xml_files_parsed": 6,
+      "effective_language_records": 23,
+      "records_checked_against_saved_english": 23,
+      "source_input_files_checked": 12,
+      "source_drift_file_count": 0,
+      "issue_kinds": {},
+      "static_check_status": "pass_with_scope_limits",
+      "in_game_tested_this_run": false,
+      "unmatched_records": 0,
+      "original_declared_versions": [
+        "1.6",
+        "1.7"
+      ],
+      "translation_declared_versions": [
+        "1.7"
+      ],
+      "publication_ready_claimed": false
+    },
+    {
+      "package_id": "zeracronius.dynamictradeinterface",
+      "role": "original_linked_translation",
+      "checked_at": "2026-10-28T09:16:19.217693+00:00",
+      "xml_files_parsed": 3,
+      "effective_language_records": 98,
+      "records_checked_against_saved_english": 98,
+      "source_input_files_checked": 10,
+      "source_drift_file_count": 0,
+      "issue_kinds": {},
+      "static_check_status": "pass_with_scope_limits",
+      "in_game_tested_this_run": false,
+      "unmatched_records": 0,
+      "original_declared_versions": [
+        "1.4",
+        "1.5",
+        "1.6",
+        "1.7"
+      ],
+      "translation_declared_versions": [
+        "1.7"
+      ],
+      "publication_ready_claimed": false
+    },
+    {
+      "package_id": "zhuma.xenotypesummary",
+      "role": "original_linked_translation",
+      "checked_at": "2026-10-28T09:16:19.223485+00:00",
+      "xml_files_parsed": 2,
+      "effective_language_records": 50,
+      "records_checked_against_saved_english": 50,
+      "source_input_files_checked": 3,
+      "source_drift_file_count": 0,
+      "issue_kinds": {},
+      "static_check_status": "pass_with_scope_limits",
+      "in_game_tested_this_run": false,
+      "unmatched_records": 0,
+      "original_declared_versions": [
+        "1.6",
+        "1.7"
+      ],
+      "translation_declared_versions": [
+        "1.7"
+      ],
+      "publication_ready_claimed": false
+    }
+  ]
+}

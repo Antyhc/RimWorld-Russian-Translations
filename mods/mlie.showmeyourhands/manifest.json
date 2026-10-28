@@ -1,0 +1,161 @@
+{
+  "schema_version": 1,
+  "package_id": "mlie.showmeyourhands",
+  "name": "Show Me Your Hands",
+  "translation_package_id": "antyhc.russian.mlie.showmeyourhands",
+  "supported_versions": [],
+  "rights": {
+    "translation": {
+      "status": "unknown",
+      "license": null,
+      "evidence": null,
+      "attribution": null
+    },
+    "icon": {
+      "status": "unknown",
+      "license": null,
+      "evidence": null,
+      "attribution": null
+    }
+  },
+  "qa": {
+    "technical": "pending",
+    "linguistic": "pending",
+    "source_current": false,
+    "in_game": "not_tested",
+    "checked_at": "2026-10-28T09:15:27.268425+00:00"
+  },
+  "publication": {
+    "github_url": "https://github.com/Antyhc/RimWorld-Russian-Translations/tree/main/mods/mlie.showmeyourhands",
+    "github_status": "metadata_only",
+    "workshop_url": null,
+    "workshop_id": null,
+    "workshop_status": "not_published"
+  },
+  "integration": {
+    "status": "not_sent",
+    "pr_url": null,
+    "contact_url": null
+  },
+  "original": {
+    "author": "Mlie",
+    "workshop_id": "2475965842",
+    "workshop_url": "https://steamcommunity.com/sharedfiles/filedetails/?id=2475965842",
+    "supported_versions": [
+      "1.1",
+      "1.2",
+      "1.3",
+      "1.4",
+      "1.5",
+      "1.6"
+    ],
+    "repository_url": "https://github.com/emipa606/ShowMeYourHands",
+    "repository_candidates": [
+      "https://github.com/RimSort/RimSort",
+      "https://github.com/emipa606/ShowMeYourHands",
+      "https://github.com/pardeike/HarmonyRimWorld"
+    ],
+    "repository_verification": "current_remote_About_package_id_matches_original",
+    "activity": {
+      "pushed_at": "2026-10-08T18:57:30Z",
+      "updated_at": "2026-10-08T18:57:32Z",
+      "archived": false,
+      "disabled": false,
+      "last_commit_at": "2026-10-08T18:57:16Z"
+    },
+    "default_branch": "main",
+    "developer_activity": {
+      "pushed_at": "2026-10-08T18:57:30Z",
+      "updated_at": "2026-10-08T18:57:32Z",
+      "archived": false,
+      "disabled": false,
+      "last_commit_at": "2026-10-08T18:57:16Z"
+    },
+    "license_metadata": {
+      "key": "mit",
+      "name": "MIT License",
+      "spdx_id": "MIT",
+      "url": "https://api.github.com/licenses/mit",
+      "node_id": "MDc6TGljZW5zZTEz"
+    },
+    "license_files": [
+      {
+        "path": "LICENSE.md",
+        "blob_sha": "87b3f43584b2b669e03b69a546fc2dc5b7a29110",
+        "url": "https://github.com/emipa606/ShowMeYourHands/blob/cef425c47a9a8ca04499c5c9da6f79ef03a03b23/LICENSE.md"
+      }
+    ],
+    "contribution_instructions": {
+      "dedicated_files": [],
+      "examined_docs": [
+        {
+          "path": "README.md",
+          "blob_sha": "0fd2dcba81d722b90d2f69d17420d888a402c7b2",
+          "url": "https://github.com/emipa606/ShowMeYourHands/blob/cef425c47a9a8ca04499c5c9da6f79ef03a03b23/README.md",
+          "ai_related_terms_present": false
+        }
+      ],
+      "ai_policy_review": "read_document_manually_if_ai_related_terms_present; absence_of_terms_is_not_author_permission"
+    },
+    "repository_evidence": {
+      "checked_at": "2026-10-28T09:27:28.554829+00:00",
+      "source_api": "https://api.github.com/repos/emipa606/ShowMeYourHands",
+      "head_commit": "cef425c47a9a8ca04499c5c9da6f79ef03a03b23",
+      "tree_sha": "cef425c47a9a8ca04499c5c9da6f79ef03a03b23",
+      "tree_truncated": false,
+      "matching_about": {
+        "path": "About/About.xml",
+        "blob_sha": "868272ea0b33d98502a85bd2fd1a3d66f1599673",
+        "package_id": "mlie.showmeyourhands",
+        "url": "https://github.com/emipa606/ShowMeYourHands/blob/cef425c47a9a8ca04499c5c9da6f79ef03a03b23/About/About.xml"
+      },
+      "original_mod_workshop_url": "https://steamcommunity.com/sharedfiles/filedetails/?id=2475965842",
+      "direct_original_url": "https://github.com/emipa606/ShowMeYourHands",
+      "other_original_mod_dependency_references": [],
+      "rights_clearance_not_inferred": true
+    },
+    "upstream_russian_paths": [
+      "Languages/Russian/DefInjected/ThingDef/Anomaly.xml",
+      "Languages/Russian/DefInjected/ThingDef/Biotech.xml",
+      "Languages/Russian/DefInjected/ThingDef/Core.xml",
+      "Languages/Russian/DefInjected/ThingDef/Odyssey.xml",
+      "Languages/Russian/DefInjected/ThingDef/OneOff.xml",
+      "Languages/Russian/DefInjected/ThingDef/Royalty.xml",
+      "Languages/Russian/Keyed/Mod_Settings.xml"
+    ]
+  },
+  "inventory": {
+    "saved_records": 17,
+    "historical_approved_records": 17,
+    "provenance_counts": {
+      "new_contextual_translation": 17
+    },
+    "attribution_licenses": {},
+    "installed_locally": true,
+    "native_russian_rows_in_snapshot": 85,
+    "third_party_candidates": [],
+    "coverage_scope": "saved_static_extraction_lower_bound; not complete runtime coverage",
+    "checked_at": "2026-10-28T09:15:27.268425+00:00",
+    "original_license_evidence": [
+      {
+        "relative_path": "LICENSE.md",
+        "sha256": "0c853dc417f477e3ce493d3dee8a8f5e482968a3e87c2cdb2977a302bf5f1d1f",
+        "identified_license": "MIT"
+      }
+    ],
+    "local_static_audit": {
+      "checked_at": "2026-10-28T09:16:17.204301+00:00",
+      "issue_kinds": [],
+      "status": "no_detected_issues",
+      "issue_count": 0,
+      "new_files_outside_saved_source_inventory_checked": false
+    }
+  },
+  "monitor": {
+    "github_tree": {
+      "repository": "emipa606/ShowMeYourHands",
+      "ref": "main",
+      "baseline_file": "source.tree.json"
+    }
+  }
+}

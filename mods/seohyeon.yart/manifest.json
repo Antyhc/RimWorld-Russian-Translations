@@ -1,0 +1,150 @@
+{
+  "schema_version": 1,
+  "package_id": "seohyeon.yart",
+  "name": "Yet Another Research Tree (YART)",
+  "translation_package_id": "antyhc.russian.seohyeon.yart",
+  "supported_versions": [
+    "1.7"
+  ],
+  "rights": {
+    "translation": {
+      "status": "unknown",
+      "license": null,
+      "evidence": null,
+      "attribution": null
+    },
+    "icon": {
+      "status": "unknown",
+      "license": null,
+      "evidence": null,
+      "attribution": null
+    }
+  },
+  "qa": {
+    "technical": "pending",
+    "linguistic": "pending",
+    "source_current": false,
+    "in_game": "not_tested",
+    "checked_at": "2026-10-28T09:15:27.268425+00:00"
+  },
+  "publication": {
+    "github_url": "https://github.com/Antyhc/RimWorld-Russian-Translations/tree/main/mods/seohyeon.yart",
+    "github_status": "metadata_only",
+    "workshop_url": null,
+    "workshop_id": null,
+    "workshop_status": "not_published"
+  },
+  "integration": {
+    "status": "not_sent",
+    "pr_url": null,
+    "contact_url": null
+  },
+  "original": {
+    "author": "SeoHyeon",
+    "workshop_id": "3745434121",
+    "workshop_url": "https://steamcommunity.com/sharedfiles/filedetails/?id=3745434121",
+    "supported_versions": [
+      "1.6",
+      "1.7"
+    ],
+    "repository_url": "https://github.com/csh1668/YetAnotherResearchTree",
+    "repository_candidates": [
+      "https://github.com/csh1668/YetAnotherResearchTree",
+      "https://github.com/pardeike/HarmonyRimWorld"
+    ],
+    "repository_verification": "current_remote_About_package_id_matches_original",
+    "activity": {
+      "pushed_at": "2026-10-24T04:09:44Z",
+      "updated_at": "2026-10-24T04:09:48Z",
+      "archived": false,
+      "disabled": false,
+      "last_commit_at": "2026-10-24T04:09:39Z"
+    },
+    "default_branch": "main",
+    "developer_activity": {
+      "pushed_at": "2026-10-24T04:09:44Z",
+      "updated_at": "2026-10-24T04:09:48Z",
+      "archived": false,
+      "disabled": false,
+      "last_commit_at": "2026-10-24T04:09:39Z"
+    },
+    "license_metadata": {
+      "key": "mit",
+      "name": "MIT License",
+      "spdx_id": "MIT",
+      "url": "https://api.github.com/licenses/mit",
+      "node_id": "MDc6TGljZW5zZTEz"
+    },
+    "license_files": [
+      {
+        "path": "LICENSE",
+        "blob_sha": "b33bf2da70342022db86b104bfdb3874eb3274d1",
+        "url": "https://github.com/csh1668/YetAnotherResearchTree/blob/6daf17cd978f412853fcca49999504652fb59d6d/LICENSE"
+      }
+    ],
+    "contribution_instructions": {
+      "dedicated_files": [],
+      "examined_docs": [
+        {
+          "path": "README.md",
+          "blob_sha": "0840cc0db3198c6db302896c1f40156a0339fbbe",
+          "url": "https://github.com/csh1668/YetAnotherResearchTree/blob/6daf17cd978f412853fcca49999504652fb59d6d/README.md",
+          "ai_related_terms_present": false
+        }
+      ],
+      "ai_policy_review": "read_document_manually_if_ai_related_terms_present; absence_of_terms_is_not_author_permission"
+    },
+    "repository_evidence": {
+      "checked_at": "2026-10-28T09:27:36.530356+00:00",
+      "source_api": "https://api.github.com/repos/csh1668/YetAnotherResearchTree",
+      "head_commit": "6daf17cd978f412853fcca49999504652fb59d6d",
+      "tree_sha": "6daf17cd978f412853fcca49999504652fb59d6d",
+      "tree_truncated": false,
+      "matching_about": {
+        "path": "About/About.xml",
+        "blob_sha": "6acdd6246f1ba91bb1be7eec360a93d5caff8cfe",
+        "package_id": "seohyeon.yart",
+        "url": "https://github.com/csh1668/YetAnotherResearchTree/blob/6daf17cd978f412853fcca49999504652fb59d6d/About/About.xml"
+      },
+      "original_mod_workshop_url": "https://steamcommunity.com/sharedfiles/filedetails/?id=3745434121",
+      "direct_original_url": null,
+      "other_original_mod_dependency_references": [],
+      "rights_clearance_not_inferred": true
+    },
+    "upstream_russian_paths": []
+  },
+  "inventory": {
+    "saved_records": 31,
+    "historical_approved_records": 31,
+    "provenance_counts": {
+      "new_contextual_translation": 31
+    },
+    "attribution_licenses": {},
+    "installed_locally": true,
+    "native_russian_rows_in_snapshot": 79,
+    "third_party_candidates": [],
+    "coverage_scope": "saved_static_extraction_lower_bound; not complete runtime coverage",
+    "checked_at": "2026-10-28T09:15:27.268425+00:00",
+    "original_license_evidence": [
+      {
+        "relative_path": "LICENSE",
+        "sha256": "fa1ae257ec83d4f91fddcd06f02eb3f5806cc41d960b2bf287db70c7a529a8ec",
+        "identified_license": "MIT"
+      }
+    ],
+    "local_static_audit": {
+      "checked_at": "2026-10-28T09:16:17.900716+00:00",
+      "issue_kinds": [],
+      "status": "no_detected_issues",
+      "issue_count": 0,
+      "new_files_outside_saved_source_inventory_checked": false
+    }
+  },
+  "monitor": {
+    "github_tree": {
+      "repository": "csh1668/YetAnotherResearchTree",
+      "ref": "main",
+      "baseline_file": "source.tree.json"
+    }
+  }
+}

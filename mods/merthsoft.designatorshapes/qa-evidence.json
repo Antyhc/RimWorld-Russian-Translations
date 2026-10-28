@@ -1,0 +1,54 @@
+{
+  "checked_at": "2026-10-28T09:22:32+00:00",
+  "upstream_commit": "401ef576a91957a50e668904a3c5efbedb11eac3",
+  "records": 208,
+  "file_hashes": {
+    "About/About.xml": "d19d3a25042eda260a301430f85494d93fc7d16587138f90ce6fcb1855e9a428",
+    "About/Credits.txt": "9ea1acfb1d9dc5a5e67b92da0d04b39438a741da2035ca2b2e5a9017f8fc3fa0",
+    "About/License.txt": "6b0382b16279f26ff69014300541967a356a666eb0b91b422f6862f6b7dad17e",
+    "Languages/Russian/DefInjected/DrawStyleDef/DrawStyles.xml": "00a393ea5c3ab02e70180ef1b468f2c2d52fac21604b32c84411cb131dc1ee18",
+    "Languages/Russian/DefInjected/Merthsoft.DesignatorShapes.Defs.DesignatorShapeDef/DesignatorShapes.xml": "40b3585c836512f779e3e082a92f5439d77cdc94e74b1de8dfba68fab7329936",
+    "Languages/Russian/DefInjected/Merthsoft.DesignatorShapes.Defs.OverlayGroupDef/OverlayGroups.xml": "c5137b112bcce3a345002c5a50871ab4a3f8546729c9ab6b65db59ec47ff3279",
+    "Languages/Russian/Keyed/DesignatorShapes_Keys.xml": "4efca4820621c2592b8360e8bf60f89856a9f5eab0ae25fd58c90f13c5fd76cd",
+    "Languages/Russian/Keyed/PaletteSettings.xml": "4cc0afc0e62123a69a32f9bef29c9d165195e34b9f9f143ebf20cda89053068c"
+  },
+  "source_sha256": "2260b8c64f84d375f957eb82ab309a7c85d3c9301771ef9ddefd0df493056f11",
+  "xml_parsed": true,
+  "source_key_hash_match": true,
+  "placeholders_tags_and_newlines": "passed",
+  "ai_semantic_review": "all included English/Russian pairs reviewed",
+  "independent_human_review": false,
+  "fresh_in_game_test": false,
+  "upstream_file_proofs": [
+    {
+      "path": "Languages/Russian/Keyed/DesignatorShapes_Keys.xml",
+      "sha256": "4efca4820621c2592b8360e8bf60f89856a9f5eab0ae25fd58c90f13c5fd76cd",
+      "keys": 62,
+      "operation": "add"
+    },
+    {
+      "path": "Languages/Russian/Keyed/PaletteSettings.xml",
+      "sha256": "4cc0afc0e62123a69a32f9bef29c9d165195e34b9f9f143ebf20cda89053068c",
+      "keys": 2,
+      "operation": "add"
+    },
+    {
+      "path": "Languages/Russian/DefInjected/Merthsoft.DesignatorShapes.Defs.DesignatorShapeDef/DesignatorShapes.xml",
+      "sha256": "40b3585c836512f779e3e082a92f5439d77cdc94e74b1de8dfba68fab7329936",
+      "keys": 108,
+      "operation": "add"
+    },
+    {
+      "path": "Languages/Russian/DefInjected/Merthsoft.DesignatorShapes.Defs.OverlayGroupDef/OverlayGroups.xml",
+      "sha256": "c5137b112bcce3a345002c5a50871ab4a3f8546729c9ab6b65db59ec47ff3279",
+      "keys": 25,
+      "operation": "add"
+    },
+    {
+      "path": "Languages/Russian/DefInjected/DrawStyleDef/DrawStyles.xml",
+      "sha256": "00a393ea5c3ab02e70180ef1b468f2c2d52fac21604b32c84411cb131dc1ee18",
+      "keys": 11,
+      "operation": "add"
+    }
+  ]
+}

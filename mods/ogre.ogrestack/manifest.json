@@ -1,0 +1,141 @@
+{
+  "schema_version": 1,
+  "package_id": "ogre.ogrestack",
+  "name": "OgreStack",
+  "translation_package_id": "antyhc.russian.ogre.ogrestack",
+  "supported_versions": [
+    "1.7"
+  ],
+  "rights": {
+    "translation": {
+      "status": "unknown",
+      "license": null,
+      "evidence": null,
+      "attribution": null
+    },
+    "icon": {
+      "status": "unknown",
+      "license": null,
+      "evidence": null,
+      "attribution": null
+    }
+  },
+  "qa": {
+    "technical": "pending",
+    "linguistic": "pending",
+    "source_current": false,
+    "in_game": "not_tested",
+    "checked_at": "2026-10-28T09:15:27.268425+00:00"
+  },
+  "publication": {
+    "github_url": "https://github.com/Antyhc/RimWorld-Russian-Translations/tree/main/mods/ogre.ogrestack",
+    "github_status": "metadata_only",
+    "workshop_url": null,
+    "workshop_id": null,
+    "workshop_status": "not_published"
+  },
+  "integration": {
+    "status": "not_sent",
+    "pr_url": null,
+    "contact_url": null
+  },
+  "original": {
+    "author": "Ogre",
+    "workshop_id": "1447140290",
+    "workshop_url": "https://steamcommunity.com/sharedfiles/filedetails/?id=1447140290",
+    "supported_versions": [
+      "1.1",
+      "1.2",
+      "1.3",
+      "1.4",
+      "1.5",
+      "1.6",
+      "1.7"
+    ],
+    "repository_url": "https://github.com/cmdprompt/OgreStack",
+    "repository_candidates": [
+      "https://github.com/cmdprompt/OgreStack"
+    ],
+    "repository_verification": "current_remote_About_package_id_matches_original",
+    "activity": {
+      "pushed_at": "2024-03-14T18:58:57Z",
+      "updated_at": "2026-06-24T04:11:02Z",
+      "archived": false,
+      "disabled": false,
+      "last_commit_at": "2023-02-12T14:25:48Z"
+    },
+    "default_branch": "master",
+    "developer_activity": {
+      "pushed_at": "2024-03-14T18:58:57Z",
+      "updated_at": "2026-06-24T04:11:02Z",
+      "archived": false,
+      "disabled": false,
+      "last_commit_at": "2023-02-12T14:25:48Z"
+    },
+    "license_metadata": {
+      "key": "mit",
+      "name": "MIT License",
+      "spdx_id": "MIT",
+      "url": "https://api.github.com/licenses/mit",
+      "node_id": "MDc6TGljZW5zZTEz"
+    },
+    "license_files": [
+      {
+        "path": "license.md",
+        "blob_sha": "88b3db80e3cd731f6c548111e917e05d16eb21e8",
+        "url": "https://github.com/cmdprompt/OgreStack/blob/33950195fa65f5cbaf6aa713fc7bb6399791252a/license.md"
+      }
+    ],
+    "contribution_instructions": {
+      "dedicated_files": [],
+      "examined_docs": [],
+      "ai_policy_review": "read_document_manually_if_ai_related_terms_present; absence_of_terms_is_not_author_permission"
+    },
+    "repository_evidence": {
+      "checked_at": "2026-10-28T09:27:35.777911+00:00",
+      "source_api": "https://api.github.com/repos/cmdprompt/OgreStack",
+      "head_commit": "33950195fa65f5cbaf6aa713fc7bb6399791252a",
+      "tree_sha": "33950195fa65f5cbaf6aa713fc7bb6399791252a",
+      "tree_truncated": false,
+      "matching_about": {
+        "path": "_rimworld/About/About.xml",
+        "blob_sha": "f5b77d52a64587034649882258f058aafa120773",
+        "package_id": "ogre.ogrestack",
+        "url": "https://github.com/cmdprompt/OgreStack/blob/33950195fa65f5cbaf6aa713fc7bb6399791252a/_rimworld/About/About.xml"
+      },
+      "original_mod_workshop_url": "https://steamcommunity.com/sharedfiles/filedetails/?id=1447140290",
+      "direct_original_url": null,
+      "other_original_mod_dependency_references": [],
+      "rights_clearance_not_inferred": true
+    },
+    "upstream_russian_paths": []
+  },
+  "inventory": {
+    "saved_records": 9,
+    "historical_approved_records": 9,
+    "provenance_counts": {
+      "new_contextual_translation": 9
+    },
+    "attribution_licenses": {},
+    "installed_locally": false,
+    "native_russian_rows_in_snapshot": 69,
+    "third_party_candidates": [],
+    "coverage_scope": "saved_static_extraction_lower_bound; not complete runtime coverage",
+    "checked_at": "2026-10-28T09:15:27.268425+00:00",
+    "original_license_evidence": [],
+    "local_static_audit": {
+      "checked_at": null,
+      "issue_kinds": [],
+      "status": "not_audited",
+      "issue_count": 0,
+      "new_files_outside_saved_source_inventory_checked": false
+    }
+  },
+  "monitor": {
+    "github_tree": {
+      "repository": "cmdprompt/OgreStack",
+      "ref": "master",
+      "baseline_file": "source.tree.json"
+    }
+  }
+}

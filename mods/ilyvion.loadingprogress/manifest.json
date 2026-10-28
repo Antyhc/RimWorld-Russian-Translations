@@ -1,0 +1,176 @@
+{
+  "schema_version": 1,
+  "package_id": "ilyvion.loadingprogress",
+  "name": "Loading Progress",
+  "translation_package_id": "antyhc.russian.ilyvion.loadingprogress",
+  "supported_versions": [
+    "1.7"
+  ],
+  "rights": {
+    "translation": {
+      "status": "unknown",
+      "license": null,
+      "evidence": null,
+      "attribution": null
+    },
+    "icon": {
+      "status": "unknown",
+      "license": null,
+      "evidence": null,
+      "attribution": null
+    }
+  },
+  "qa": {
+    "technical": "pending",
+    "linguistic": "pending",
+    "source_current": false,
+    "in_game": "not_tested",
+    "checked_at": "2026-10-28T09:15:27.268425+00:00"
+  },
+  "publication": {
+    "github_url": "https://github.com/Antyhc/RimWorld-Russian-Translations/tree/main/mods/ilyvion.loadingprogress",
+    "github_status": "metadata_only",
+    "workshop_url": null,
+    "workshop_id": null,
+    "workshop_status": "not_published"
+  },
+  "integration": {
+    "status": "not_sent",
+    "pr_url": null,
+    "contact_url": null
+  },
+  "original": {
+    "author": "ilyvion",
+    "workshop_id": "3535481557",
+    "workshop_url": "https://steamcommunity.com/sharedfiles/filedetails/?id=3535481557",
+    "supported_versions": [
+      "1.6",
+      "1.7"
+    ],
+    "repository_url": "https://github.com/ilyvion/loading-progress",
+    "repository_candidates": [
+      "https://github.com/ilyvion/SmashPhil-DevTools",
+      "https://github.com/ilyvion/ilyvion-laboratory",
+      "https://github.com/ilyvion/loading-progress",
+      "https://github.com/ilyvion/rimworld-utils"
+    ],
+    "repository_verification": "current_remote_About_package_id_matches_original",
+    "activity": {
+      "pushed_at": "2026-10-21T09:16:42Z",
+      "updated_at": "2026-10-21T09:16:46Z",
+      "archived": false,
+      "disabled": false,
+      "last_commit_at": "2026-10-21T09:16:24Z"
+    },
+    "default_branch": "main",
+    "developer_activity": {
+      "pushed_at": "2026-10-21T09:16:42Z",
+      "updated_at": "2026-10-21T09:16:46Z",
+      "archived": false,
+      "disabled": false,
+      "last_commit_at": "2026-10-21T09:16:24Z"
+    },
+    "license_metadata": {
+      "key": "other",
+      "name": "Other",
+      "spdx_id": "NOASSERTION",
+      "url": null,
+      "node_id": "MDc6TGljZW5zZTA="
+    },
+    "license_files": [
+      {
+        "path": "LICENSE",
+        "blob_sha": "953327ca79aa642375f2b280365a6e0cf9366a04",
+        "url": "https://github.com/ilyvion/loading-progress/blob/a0247cad66bebd00de6526f0fe4a519f4bc6228a/LICENSE"
+      },
+      {
+        "path": "LICENSE.Apache-2.0",
+        "blob_sha": "d645695673349e3947e8e5ae42332d0ac3164cd7",
+        "url": "https://github.com/ilyvion/loading-progress/blob/a0247cad66bebd00de6526f0fe4a519f4bc6228a/LICENSE.Apache-2.0"
+      },
+      {
+        "path": "LICENSE.MIT",
+        "blob_sha": "bedd50ec9b1ed36243182c66ea888b58c679b730",
+        "url": "https://github.com/ilyvion/loading-progress/blob/a0247cad66bebd00de6526f0fe4a519f4bc6228a/LICENSE.MIT"
+      }
+    ],
+    "contribution_instructions": {
+      "dedicated_files": [],
+      "examined_docs": [
+        {
+          "path": "README.md",
+          "blob_sha": "8bedb85691aee6fc0f796a2ee40d9e510c1a1765",
+          "url": "https://github.com/ilyvion/loading-progress/blob/a0247cad66bebd00de6526f0fe4a519f4bc6228a/README.md",
+          "ai_related_terms_present": false
+        }
+      ],
+      "ai_policy_review": "read_document_manually_if_ai_related_terms_present; absence_of_terms_is_not_author_permission"
+    },
+    "repository_evidence": {
+      "checked_at": "2026-10-28T09:27:36.805664+00:00",
+      "source_api": "https://api.github.com/repos/ilyvion/loading-progress",
+      "head_commit": "a0247cad66bebd00de6526f0fe4a519f4bc6228a",
+      "tree_sha": "a0247cad66bebd00de6526f0fe4a519f4bc6228a",
+      "tree_truncated": false,
+      "matching_about": {
+        "path": "About/About.xml",
+        "blob_sha": "7558f97a8f1e7b45f33d8df7cadad139844d8689",
+        "package_id": "ilyvion.loadingprogress",
+        "url": "https://github.com/ilyvion/loading-progress/blob/a0247cad66bebd00de6526f0fe4a519f4bc6228a/About/About.xml"
+      },
+      "original_mod_workshop_url": "https://steamcommunity.com/sharedfiles/filedetails/?id=3535481557",
+      "direct_original_url": null,
+      "other_original_mod_dependency_references": [],
+      "rights_clearance_not_inferred": true
+    },
+    "upstream_russian_paths": []
+  },
+  "inventory": {
+    "saved_records": 399,
+    "historical_approved_records": 399,
+    "provenance_counts": {
+      "authored_and_linguistically_reviewed_against_source": 270,
+      "community_translation_individually_linguistically_reviewed_against_current_source": 129
+    },
+    "attribution_licenses": {
+      "unknown": 270,
+      "unspecified": 129
+    },
+    "installed_locally": true,
+    "native_russian_rows_in_snapshot": 0,
+    "third_party_candidates": [],
+    "coverage_scope": "saved_static_extraction_lower_bound; not complete runtime coverage",
+    "checked_at": "2026-10-28T09:15:27.268425+00:00",
+    "original_license_evidence": [
+      {
+        "relative_path": "LICENSE",
+        "sha256": "12c4662dfa8e784ad58fe222314afce1c89d752d8c802216fe75c65b55ea0381",
+        "identified_license": "Apache-2.0 OR MIT"
+      },
+      {
+        "relative_path": "LICENSE.Apache-2.0",
+        "sha256": "cfc7749b96f63bd31c3c42b5c471bf756814053e847c10f3eb003417bc523d30",
+        "identified_license": "Apache-2.0"
+      },
+      {
+        "relative_path": "LICENSE.MIT",
+        "sha256": "6ce00dc0b8c523fbfa1c987fb739e63b75f0f0de2d6b3d8f65bc77a4b3acfc7f",
+        "identified_license": "MIT"
+      }
+    ],
+    "local_static_audit": {
+      "checked_at": "2026-10-28T09:16:16.938534+00:00",
+      "issue_kinds": [],
+      "status": "no_detected_issues",
+      "issue_count": 0,
+      "new_files_outside_saved_source_inventory_checked": false
+    }
+  },
+  "monitor": {
+    "github_tree": {
+      "repository": "ilyvion/loading-progress",
+      "ref": "main",
+      "baseline_file": "source.tree.json"
+    }
+  }
+}

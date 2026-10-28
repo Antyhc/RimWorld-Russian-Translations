@@ -1,0 +1,160 @@
+{
+  "schema_version": 1,
+  "package_id": "vanillaexpanded.vcooke",
+  "name": "Vanilla Cooking Expanded",
+  "translation_package_id": "antyhc.russian.vanillaexpanded.vcooke",
+  "supported_versions": [
+    "1.7"
+  ],
+  "rights": {
+    "translation": {
+      "status": "unknown",
+      "license": null,
+      "evidence": null,
+      "attribution": null
+    },
+    "icon": {
+      "status": "unknown",
+      "license": null,
+      "evidence": null,
+      "attribution": null
+    }
+  },
+  "qa": {
+    "technical": "pending",
+    "linguistic": "pending",
+    "source_current": false,
+    "in_game": "not_tested",
+    "checked_at": "2026-10-28T09:15:27.268425+00:00"
+  },
+  "publication": {
+    "github_url": "https://github.com/Antyhc/RimWorld-Russian-Translations/tree/main/mods/vanillaexpanded.vcooke",
+    "github_status": "metadata_only",
+    "workshop_url": null,
+    "workshop_id": null,
+    "workshop_status": "not_published"
+  },
+  "integration": {
+    "status": "not_sent",
+    "pr_url": null,
+    "contact_url": null
+  },
+  "original": {
+    "author": "Oskar Potocki, Sarg Bjornson, Chowder",
+    "workshop_id": "2134308519",
+    "workshop_url": "https://steamcommunity.com/sharedfiles/filedetails/?id=2134308519",
+    "supported_versions": [
+      "1.7",
+      "1.5",
+      "1.6"
+    ],
+    "repository_url": "https://github.com/Vanilla-Expanded/VanillaCookingExpanded",
+    "repository_candidates": [
+      "https://github.com/Vanilla-Expanded/VanillaExpandedFramework",
+      "https://github.com/pardeike/HarmonyRimWorld"
+    ],
+    "repository_verification": "current_remote_About_package_id_matches_original",
+    "activity": {
+      "pushed_at": "2026-10-13T14:36:01Z",
+      "updated_at": "2026-10-13T14:36:06Z",
+      "archived": false,
+      "disabled": false,
+      "last_commit_at": "2026-10-13T14:35:58Z"
+    },
+    "default_branch": "main",
+    "developer_activity": {
+      "pushed_at": "2026-10-13T14:36:01Z",
+      "updated_at": "2026-10-13T14:36:06Z",
+      "archived": false,
+      "disabled": false,
+      "last_commit_at": "2026-10-13T14:35:58Z"
+    },
+    "license_metadata": null,
+    "license_files": [],
+    "contribution_instructions": {
+      "dedicated_files": [],
+      "examined_docs": [],
+      "ai_policy_review": "read_document_manually_if_ai_related_terms_present; absence_of_terms_is_not_author_permission"
+    },
+    "repository_evidence": {
+      "checked_at": "2026-10-28T09:28:49.515397+00:00",
+      "source_api": "https://api.github.com/repos/Vanilla-Expanded/VanillaCookingExpanded",
+      "head_commit": "74b2fd7dfb1a9c9aaec2b6108c6a01b5463ff4f1",
+      "tree_sha": "74b2fd7dfb1a9c9aaec2b6108c6a01b5463ff4f1",
+      "tree_truncated": false,
+      "matching_about": {
+        "path": "About/About.xml",
+        "blob_sha": "e583977b25260acda2e678108a29bd1b2e0e22a4",
+        "package_id": "vanillaexpanded.vcooke",
+        "url": "https://github.com/Vanilla-Expanded/VanillaCookingExpanded/blob/74b2fd7dfb1a9c9aaec2b6108c6a01b5463ff4f1/About/About.xml"
+      },
+      "original_mod_workshop_url": "https://steamcommunity.com/sharedfiles/filedetails/?id=2134308519",
+      "direct_original_url": null,
+      "other_original_mod_dependency_references": [
+        {
+          "reference_mod_workshop_url": "https://steamcommunity.com/sharedfiles/filedetails/?id=2134312965",
+          "declared_dependency_package_id": "vanillaexpanded.vcooke",
+          "repository_url": "https://github.com/Vanilla-Expanded/VanillaCookingExpanded"
+        }
+      ],
+      "rights_clearance_not_inferred": true
+    },
+    "upstream_russian_paths": []
+  },
+  "inventory": {
+    "saved_records": 401,
+    "historical_approved_records": 401,
+    "provenance_counts": {
+      "community_translation_exact_english_match_static_qa": 384,
+      "individual_source_punctuation_and_linguistic_review": 17
+    },
+    "attribution_licenses": {
+      "CC-BY-NC-SA-4.0": 401
+    },
+    "installed_locally": true,
+    "native_russian_rows_in_snapshot": 0,
+    "third_party_candidates": [
+      {
+        "name": "Vanilla Cooking Expanded Russian Language Pack",
+        "package_id": "ow.ru.cooking",
+        "author": "Amortem, OliveWizard, Mewn Goddess",
+        "workshop_id": "2914375951",
+        "workshop_url": "https://steamcommunity.com/sharedfiles/filedetails/?id=2914375951",
+        "license": "CC-BY-NC-SA-4.0"
+      },
+      {
+        "name": "Vanilla Ideology Expanded Russian Language Pack",
+        "package_id": "ow.ru.vie",
+        "author": "OliveWizard, Hart ty, Amortem",
+        "workshop_id": "2569397678",
+        "workshop_url": "https://steamcommunity.com/sharedfiles/filedetails/?id=2569397678",
+        "license": "CC-BY-NC-SA-4.0"
+      },
+      {
+        "name": "Vanilla Plants Expanded Russian Language Pack",
+        "package_id": "ow.ru.plants",
+        "author": "OliveWizard",
+        "workshop_id": "2140324006",
+        "workshop_url": "https://steamcommunity.com/sharedfiles/filedetails/?id=2140324006",
+        "license": "CC-BY-NC-SA-4.0"
+      }
+    ],
+    "coverage_scope": "saved_static_extraction_lower_bound; not complete runtime coverage",
+    "checked_at": "2026-10-28T09:15:27.268425+00:00",
+    "original_license_evidence": [],
+    "local_static_audit": {
+      "checked_at": "2026-10-28T09:16:18.279833+00:00",
+      "issue_kinds": [],
+      "status": "no_detected_issues",
+      "issue_count": 0,
+      "new_files_outside_saved_source_inventory_checked": false
+    }
+  },
+  "monitor": {
+    "github_tree": {
+      "repository": "Vanilla-Expanded/VanillaCookingExpanded",
+      "ref": "main",
+      "baseline_file": "source.tree.json"
+    }
+  }
+}

@@ -1,0 +1,180 @@
+{
+  "schema_version": 1,
+  "package_id": "dubwise.rimatomics",
+  "name": "Dubs Rimatomics",
+  "translation_package_id": "antyhc.russian.dubwise.rimatomics",
+  "supported_versions": [
+    "1.7"
+  ],
+  "rights": {
+    "translation": {
+      "status": "unknown",
+      "license": null,
+      "evidence": null,
+      "attribution": null
+    },
+    "icon": {
+      "status": "unknown",
+      "license": null,
+      "evidence": null,
+      "attribution": null
+    }
+  },
+  "qa": {
+    "technical": "pending",
+    "linguistic": "pending",
+    "source_current": false,
+    "in_game": "not_tested",
+    "checked_at": "2026-10-28T09:15:27.268425+00:00"
+  },
+  "publication": {
+    "github_url": "https://github.com/Antyhc/RimWorld-Russian-Translations/tree/main/mods/dubwise.rimatomics",
+    "github_status": "metadata_only",
+    "workshop_url": null,
+    "workshop_id": null,
+    "workshop_status": "not_published"
+  },
+  "integration": {
+    "status": "not_sent",
+    "pr_url": null,
+    "contact_url": null
+  },
+  "original": {
+    "author": "Dubwise",
+    "workshop_id": "1127530465",
+    "workshop_url": "https://steamcommunity.com/sharedfiles/filedetails/?id=1127530465",
+    "supported_versions": [
+      "1.0",
+      "1.1",
+      "1.2",
+      "1.3",
+      "1.4",
+      "1.5",
+      "1.6",
+      "1.7"
+    ],
+    "repository_url": "https://github.com/Dubwise56/Rimatomics",
+    "repository_candidates": [
+      "https://github.com/Dubwise56/Rimatomics"
+    ],
+    "repository_verification": "current_remote_About_package_id_matches_original",
+    "activity": {
+      "pushed_at": "2026-10-23T16:44:31Z",
+      "updated_at": "2026-10-23T16:42:44Z",
+      "archived": false,
+      "disabled": false,
+      "last_commit_at": "2026-10-23T16:42:36Z"
+    },
+    "default_branch": "master",
+    "developer_activity": {
+      "pushed_at": "2026-10-23T16:44:31Z",
+      "updated_at": "2026-10-23T16:42:44Z",
+      "archived": false,
+      "disabled": false,
+      "last_commit_at": "2026-10-23T16:42:36Z"
+    },
+    "license_metadata": null,
+    "license_files": [],
+    "contribution_instructions": {
+      "dedicated_files": [],
+      "examined_docs": [
+        {
+          "path": "README.md",
+          "blob_sha": "0f2bb0ab894536c64c17e5710452931c6f74106c",
+          "url": "https://github.com/Dubwise56/Rimatomics/blob/de328ca971de38ffef6dd5e5054a27105e279d01/README.md",
+          "ai_related_terms_present": false
+        }
+      ],
+      "ai_policy_review": "read_document_manually_if_ai_related_terms_present; absence_of_terms_is_not_author_permission"
+    },
+    "repository_evidence": {
+      "checked_at": "2026-10-28T09:27:28.553809+00:00",
+      "source_api": "https://api.github.com/repos/Dubwise56/Rimatomics",
+      "head_commit": "de328ca971de38ffef6dd5e5054a27105e279d01",
+      "tree_sha": "de328ca971de38ffef6dd5e5054a27105e279d01",
+      "tree_truncated": false,
+      "matching_about": {
+        "path": "About/About.xml",
+        "blob_sha": "71923eb91184cafef9fa6144f168fc9ed8f0947f",
+        "package_id": "dubwise.rimatomics",
+        "url": "https://github.com/Dubwise56/Rimatomics/blob/de328ca971de38ffef6dd5e5054a27105e279d01/About/About.xml"
+      },
+      "original_mod_workshop_url": "https://steamcommunity.com/sharedfiles/filedetails/?id=1127530465",
+      "direct_original_url": "https://github.com/Dubwise56/Rimatomics",
+      "other_original_mod_dependency_references": [],
+      "rights_clearance_not_inferred": true
+    },
+    "upstream_russian_paths": [
+      "1.7/Languages/Russian/DefInjected/HediffDef/Rimatomics_ADSPain.xml",
+      "1.7/Languages/Russian/DefInjected/Rimatomics.DubsModOptions/Rimatomics_PlutoniumSpeed.xml",
+      "1.7/Languages/Russian/Keyed/Rimatomics.xml",
+      "Languages/Russian/DefInjected/DamageDef/Damages_LocalInjury.xml",
+      "Languages/Russian/DefInjected/DesignationCategoryDef/DesignationCategories.xml",
+      "Languages/Russian/DefInjected/GameConditionDef/GameConditions_Misc.xml",
+      "Languages/Russian/DefInjected/HediffDef/Hediffs_Global_Misc.xml",
+      "Languages/Russian/DefInjected/HediffDef/Iodine.xml",
+      "Languages/Russian/DefInjected/IncidentDef/Incidents_Rimatomics.xml",
+      "Languages/Russian/DefInjected/JobDef/Jobs_Work.xml",
+      "Languages/Russian/DefInjected/KeyBindingCategoryDef/KeyBindingCategories_Add_Architect.xml",
+      "Languages/Russian/DefInjected/RecipeDef/Recipes_Add_Administer.xml",
+      "Languages/Russian/DefInjected/RecipeDef/Recipes_Add_Make.xml",
+      "Languages/Russian/DefInjected/RecipeDef/Recipes_Production.xml",
+      "Languages/Russian/DefInjected/ResearchProjectDef/ResearchProjects_RimatomicsActivate.xml",
+      "Languages/Russian/DefInjected/ResearchTabDef/ResearchTabs.xml",
+      "Languages/Russian/DefInjected/Rimatomics.ResearchStepDef/Rimatomics_Projects.xml",
+      "Languages/Russian/DefInjected/Rimatomics.ResearchStepDef/Rimatomics_Upgrade.xml",
+      "Languages/Russian/DefInjected/Rimatomics.RimatomicResearchDef/Rimatomics_Projects.xml",
+      "Languages/Russian/DefInjected/Rimatomics.RimatomicResearchDef/Rimatomics_Upgrade.xml",
+      "Languages/Russian/DefInjected/StatDef/Stats_Pawns_Rimatomics.xml",
+      "Languages/Russian/DefInjected/ThingCategoryDef/ThingCategories.xml",
+      "Languages/Russian/DefInjected/ThingDef/Buildings_A_Pipes.xml",
+      "Languages/Russian/DefInjected/ThingDef/Buildings_B_Production.xml",
+      "Languages/Russian/DefInjected/ThingDef/Buildings_C_Power.xml",
+      "Languages/Russian/DefInjected/ThingDef/Buildings_D_Env.xml",
+      "Languages/Russian/DefInjected/ThingDef/Buildings_E_Weapons.xml",
+      "Languages/Russian/DefInjected/ThingDef/Filth_Various.xml",
+      "Languages/Russian/DefInjected/ThingDef/Iodine.xml",
+      "Languages/Russian/DefInjected/ThingDef/Missiles.xml",
+      "Languages/Russian/DefInjected/ThingDef/Nuclear.xml",
+      "Languages/Russian/DefInjected/ThingDef/RadSuits.xml",
+      "Languages/Russian/DefInjected/ThingDef/SabotRounds.xml",
+      "Languages/Russian/DefInjected/ThingDef/UpgradeParts.xml",
+      "Languages/Russian/DefInjected/ThingDef/_Things_Mote.xml",
+      "Languages/Russian/DefInjected/ThoughtDef/Thoughts_Memory_Tendself.xml",
+      "Languages/Russian/DefInjected/TraderKindDef/TraderKinds_Orbital_Misc.xml",
+      "Languages/Russian/DefInjected/WorkGiverDef/WorkGivers.xml",
+      "Languages/Russian/DefInjected/WorldObjectDef/WorldObjects.xml",
+      "Languages/Russian/Keyed/Rimatomics.xml",
+      "Languages/Russian/Описание.txt",
+      "Languages/Russian/Пометка от переводчика.txt"
+    ]
+  },
+  "inventory": {
+    "saved_records": 358,
+    "historical_approved_records": 358,
+    "provenance_counts": {
+      "new_contextual_translation": 358
+    },
+    "attribution_licenses": {},
+    "installed_locally": false,
+    "native_russian_rows_in_snapshot": 549,
+    "third_party_candidates": [],
+    "coverage_scope": "saved_static_extraction_lower_bound; not complete runtime coverage",
+    "checked_at": "2026-10-28T09:15:27.268425+00:00",
+    "original_license_evidence": [],
+    "local_static_audit": {
+      "checked_at": null,
+      "issue_kinds": [],
+      "status": "not_audited",
+      "issue_count": 0,
+      "new_files_outside_saved_source_inventory_checked": false
+    }
+  },
+  "monitor": {
+    "github_tree": {
+      "repository": "Dubwise56/Rimatomics",
+      "ref": "master",
+      "baseline_file": "source.tree.json"
+    }
+  }
+}

@@ -1,0 +1,128 @@
+{
+  "schema_version": 1,
+  "package_id": "merthsoft.designatorshapes",
+  "name": "Designator Shapes",
+  "translation_package_id": "antyhc.russian.merthsoft.designatorshapes",
+  "supported_versions": [
+    "1.7"
+  ],
+  "rights": {
+    "translation": {
+      "status": "confirmed",
+      "license": "Unlicense",
+      "evidence": "https://github.com/merthsoft/designator-shapes/blob/401ef576a91957a50e668904a3c5efbedb11eac3/LICENSE",
+      "attribution": "Original mod: Designator Shapes by merthsoft\nSource: https://github.com/merthsoft/designator-shapes\nRussian text: Antyhc; AI-assisted authoring and review by OpenAI Codex, 2026.\nTranslation contributed under Unlicense.\nNo independent human proofreading or fresh game test claimed.\nNo original code, assemblies, textures or artwork included.\n",
+      "required_notice_files": {
+        "About/License.txt": "6b0382b16279f26ff69014300541967a356a666eb0b91b422f6862f6b7dad17e",
+        "About/Credits.txt": "9ea1acfb1d9dc5a5e67b92da0d04b39438a741da2035ca2b2e5a9017f8fc3fa0"
+      }
+    },
+    "icon": {
+      "status": "unknown",
+      "license": null,
+      "evidence": null,
+      "attribution": null,
+      "reason": "No original artwork redistributed; separate consent is required for third-party Workshop cover art",
+      "permission_requested": true,
+      "request_url": "https://github.com/merthsoft/designator-shapes/pull/15",
+      "requested_at": "2026-10-28",
+      "permission_received": false
+    }
+  },
+  "qa": {
+    "technical": "passed",
+    "linguistic": "ai_reviewed",
+    "source_current": true,
+    "in_game": "not_tested",
+    "checked_at": "2026-10-28T09:22:32+00:00",
+    "source_checked_at": "2026-10-28T09:22:32+00:00",
+    "payload_sha256": "401e8d56f15126be43fb2ac5095909cc346648f9f0d6da5da5dd89918482695f",
+    "source_snapshot_sha256": "2260b8c64f84d375f957eb82ab309a7c85d3c9301771ef9ddefd0df493056f11",
+    "evidence": "qa-evidence.json",
+    "coverage": "208 current upstream localization/DrawStyle keys"
+  },
+  "publication": {
+    "github_url": "https://github.com/Antyhc/RimWorld-Russian-Translations/tree/main/mods/merthsoft.designatorshapes",
+    "github_status": "published",
+    "workshop_url": null,
+    "workshop_id": null,
+    "workshop_status": "held_rights_and_duplicate_review"
+  },
+  "integration": {
+    "status": "pr_submitted",
+    "pr_url": "https://github.com/merthsoft/designator-shapes/pull/15",
+    "contact_url": null,
+    "submitted_at": "2026-10-28",
+    "head_sha": "cf5d3cc0f4f958c1558101d0be8ee0e3edd0c1b1"
+  },
+  "original": {
+    "author": "merthsoft",
+    "workshop_id": "1235181370",
+    "workshop_url": "https://steamcommunity.com/sharedfiles/filedetails/?id=1235181370",
+    "supported_versions": [
+      "1.1",
+      "1.2",
+      "1.3",
+      "1.4",
+      "1.5",
+      "1.6",
+      "1.7"
+    ],
+    "repository_url": "https://github.com/merthsoft/designator-shapes",
+    "repository_candidates": [
+      "https://github.com/merthsoft/designator-shapes"
+    ],
+    "repository_verification": "verified_original_metadata_and_remote_repository",
+    "activity": {
+      "last_push": "2026-10-19T02:01:04Z",
+      "archived": false,
+      "checked_at": "2026-10-28T09:17:47.661244+00:00"
+    },
+    "default_branch": "main",
+    "checked_commit": "401ef576a91957a50e668904a3c5efbedb11eac3",
+    "license": "Unlicense"
+  },
+  "inventory": {
+    "saved_records": 208,
+    "historical_approved_records": 208,
+    "provenance_counts": {
+      "new_contextual_translation": 208
+    },
+    "attribution_licenses": {},
+    "installed_locally": true,
+    "native_russian_rows_in_snapshot": 0,
+    "third_party_candidates": [],
+    "coverage_scope": "saved_static_extraction_lower_bound; not complete runtime coverage",
+    "checked_at": "2026-10-28T09:15:27.268425+00:00",
+    "original_license_evidence": [
+      {
+        "relative_path": "LICENSE",
+        "sha256": "436a6d536138f203ac333858cff92a568be62797752b3adb94bcaa0f6ffe7ef6",
+        "identified_license": "Unlicense"
+      }
+    ],
+    "local_static_audit": {
+      "checked_at": "2026-10-28T09:16:17.189177+00:00",
+      "issue_kinds": [
+        "installed_translation_record_mismatch"
+      ],
+      "status": "issues_found",
+      "issue_count": 2,
+      "new_files_outside_saved_source_inventory_checked": false
+    }
+  },
+  "duplicate_translation": {
+    "status": "standalone_not_cleared",
+    "scope": "No Russian files or Russian PRs found in current official upstream; third-party Workshop coverage requires further evaluation",
+    "candidates": [
+      "https://steamcommunity.com/sharedfiles/filedetails/?id=3128857702"
+    ]
+  },
+  "monitor": {
+    "github_tree": {
+      "repository": "merthsoft/designator-shapes",
+      "ref": "main",
+      "baseline_file": "source.tree.json"
+    }
+  }
+}

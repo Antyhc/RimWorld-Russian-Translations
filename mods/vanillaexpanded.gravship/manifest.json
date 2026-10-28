@@ -1,0 +1,152 @@
+{
+  "schema_version": 1,
+  "package_id": "vanillaexpanded.gravship",
+  "name": "Vanilla Gravship Expanded - Chapter 1",
+  "translation_package_id": "antyhc.russian.vanillaexpanded.gravship",
+  "supported_versions": [
+    "1.7"
+  ],
+  "rights": {
+    "translation": {
+      "status": "unknown",
+      "license": null,
+      "evidence": null,
+      "attribution": null
+    },
+    "icon": {
+      "status": "unknown",
+      "license": null,
+      "evidence": null,
+      "attribution": null
+    }
+  },
+  "qa": {
+    "technical": "pending",
+    "linguistic": "pending",
+    "source_current": false,
+    "in_game": "not_tested",
+    "checked_at": "2026-10-28T09:15:27.268425+00:00"
+  },
+  "publication": {
+    "github_url": "https://github.com/Antyhc/RimWorld-Russian-Translations/tree/main/mods/vanillaexpanded.gravship",
+    "github_status": "metadata_only",
+    "workshop_url": null,
+    "workshop_id": null,
+    "workshop_status": "not_published"
+  },
+  "integration": {
+    "status": "not_sent",
+    "pr_url": null,
+    "contact_url": null
+  },
+  "original": {
+    "author": "Oskar Potocki, Sarg Bjornson, Sokyran, Taranchuk, Erdelf",
+    "workshop_id": "3609835606",
+    "workshop_url": "https://steamcommunity.com/sharedfiles/filedetails/?id=3609835606",
+    "supported_versions": [
+      "1.6",
+      "1.7"
+    ],
+    "repository_url": "https://github.com/Vanilla-Expanded/VanillaGravshipExpanded",
+    "repository_candidates": [
+      "https://github.com/Vanilla-Expanded/VanillaExpandedFramework",
+      "https://github.com/pardeike/HarmonyRimWorld"
+    ],
+    "repository_verification": "current_remote_About_package_id_matches_original",
+    "activity": {
+      "pushed_at": "2026-10-20T15:04:58Z",
+      "updated_at": "2026-10-20T15:05:03Z",
+      "archived": false,
+      "disabled": false,
+      "last_commit_at": "2026-10-20T15:04:54Z"
+    },
+    "default_branch": "main",
+    "developer_activity": {
+      "pushed_at": "2026-10-20T15:04:58Z",
+      "updated_at": "2026-10-20T15:05:03Z",
+      "archived": false,
+      "disabled": false,
+      "last_commit_at": "2026-10-20T15:04:54Z"
+    },
+    "license_metadata": null,
+    "license_files": [],
+    "contribution_instructions": {
+      "dedicated_files": [],
+      "examined_docs": [
+        {
+          "path": "README.md",
+          "blob_sha": "363cacdc9ef14a83a1520803722cbda31e201bab",
+          "url": "https://github.com/Vanilla-Expanded/VanillaGravshipExpanded/blob/7212a0c11bc392079d1f8ac9395d6434aa29b8af/README.md",
+          "ai_related_terms_present": false
+        }
+      ],
+      "ai_policy_review": "read_document_manually_if_ai_related_terms_present; absence_of_terms_is_not_author_permission"
+    },
+    "repository_evidence": {
+      "checked_at": "2026-10-28T09:28:49.515713+00:00",
+      "source_api": "https://api.github.com/repos/Vanilla-Expanded/VanillaGravshipExpanded",
+      "head_commit": "7212a0c11bc392079d1f8ac9395d6434aa29b8af",
+      "tree_sha": "7212a0c11bc392079d1f8ac9395d6434aa29b8af",
+      "tree_truncated": false,
+      "matching_about": {
+        "path": "About/About.xml",
+        "blob_sha": "43daf73152324f946dd35c68a2a2366b59f506e7",
+        "package_id": "vanillaexpanded.gravship",
+        "url": "https://github.com/Vanilla-Expanded/VanillaGravshipExpanded/blob/7212a0c11bc392079d1f8ac9395d6434aa29b8af/About/About.xml"
+      },
+      "original_mod_workshop_url": "https://steamcommunity.com/sharedfiles/filedetails/?id=3609835606",
+      "direct_original_url": null,
+      "other_original_mod_dependency_references": [
+        {
+          "reference_mod_workshop_url": "https://steamcommunity.com/sharedfiles/filedetails/?id=3799737423",
+          "declared_dependency_package_id": "vanillaexpanded.gravship",
+          "repository_url": "https://github.com/Vanilla-Expanded/VanillaGravshipExpanded"
+        }
+      ],
+      "rights_clearance_not_inferred": true
+    },
+    "upstream_russian_paths": []
+  },
+  "inventory": {
+    "saved_records": 741,
+    "historical_approved_records": 741,
+    "provenance_counts": {
+      "community_translation_exact_english_match_static_qa": 726,
+      "personally_authored_and_reviewed_against_runtime_proven_XML_patched_source": 4,
+      "individual_source_punctuation_and_linguistic_review": 11
+    },
+    "attribution_licenses": {
+      "CC-BY-NC-SA-4.0": 737,
+      "unknown": 4
+    },
+    "installed_locally": true,
+    "native_russian_rows_in_snapshot": 2,
+    "third_party_candidates": [
+      {
+        "name": "Vanilla Gravship Expanded - Chapter 1 Russian Language Pack",
+        "package_id": "ow.ru.gravship1",
+        "author": "OliveWizard",
+        "workshop_id": "3615520226",
+        "workshop_url": "https://steamcommunity.com/sharedfiles/filedetails/?id=3615520226",
+        "license": "CC-BY-NC-SA-4.0"
+      }
+    ],
+    "coverage_scope": "saved_static_extraction_lower_bound; not complete runtime coverage",
+    "checked_at": "2026-10-28T09:15:27.268425+00:00",
+    "original_license_evidence": [],
+    "local_static_audit": {
+      "checked_at": "2026-10-28T09:16:18.012512+00:00",
+      "issue_kinds": [],
+      "status": "no_detected_issues",
+      "issue_count": 0,
+      "new_files_outside_saved_source_inventory_checked": false
+    }
+  },
+  "monitor": {
+    "github_tree": {
+      "repository": "Vanilla-Expanded/VanillaGravshipExpanded",
+      "ref": "main",
+      "baseline_file": "source.tree.json"
+    }
+  }
+}

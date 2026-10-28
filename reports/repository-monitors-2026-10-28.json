@@ -1,0 +1,187 @@
+{
+  "generated_at": "2026-10-28T09:30:26.645007+00:00",
+  "configured_mods": 22,
+  "unique_repository_requests": 22,
+  "scope": "Whole repository Git blob/gitlink hashes only. File changes require subsequent string extraction/review and do not establish broken translations or runtime compatibility. No original file content is included.",
+  "contract": "scripts/rwtranslations.py:fetch_github_tree",
+  "mods": [
+    {
+      "package_id": "adaptive.storage.framework",
+      "repository": "bbradson/Adaptive-Storage-Framework",
+      "ref": "main",
+      "baseline_file": "mods/adaptive.storage.framework/source.tree.json",
+      "tree_sha": "31ee88b46651cfbe37da3f89620bc0b907165cc0",
+      "file_hashes": 286
+    },
+    {
+      "package_id": "aoba.framework",
+      "repository": "AobaKuma/Fortified-Framework",
+      "ref": "main",
+      "baseline_file": "mods/aoba.framework/source.tree.json",
+      "tree_sha": "a09dcaa9440dceb03cddcf1f75a8154fc880ce51",
+      "file_hashes": 997
+    },
+    {
+      "package_id": "dubwise.dubsbadhygiene",
+      "repository": "Dubwise56/Dubs-Bad-Hygiene",
+      "ref": "master",
+      "baseline_file": "mods/dubwise.dubsbadhygiene/source.tree.json",
+      "tree_sha": "96ec4b51efaf9ef4baa98aa832a8078be09d3f45",
+      "file_hashes": 4154
+    },
+    {
+      "package_id": "dubwise.dubsmintmenus",
+      "repository": "Dubwise56/Dubs-Mint-Menus",
+      "ref": "master",
+      "baseline_file": "mods/dubwise.dubsmintmenus/source.tree.json",
+      "tree_sha": "2a72b0e5b0d75f289ca9c0556983194a27444c78",
+      "file_hashes": 78
+    },
+    {
+      "package_id": "dubwise.dubsmintminimap",
+      "repository": "Dubwise56/Dubs-Mint-Minimap",
+      "ref": "master",
+      "baseline_file": "mods/dubwise.dubsmintminimap/source.tree.json",
+      "tree_sha": "c71fd81e458be3928c58e99273bb1ad35cf8ea78",
+      "file_hashes": 150
+    },
+    {
+      "package_id": "dubwise.rimatomics",
+      "repository": "Dubwise56/Rimatomics",
+      "ref": "master",
+      "baseline_file": "mods/dubwise.rimatomics/source.tree.json",
+      "tree_sha": "de328ca971de38ffef6dd5e5054a27105e279d01",
+      "file_hashes": 1206
+    },
+    {
+      "package_id": "dubwise.rimefeller",
+      "repository": "Dubwise56/Rimefeller",
+      "ref": "master",
+      "baseline_file": "mods/dubwise.rimefeller/source.tree.json",
+      "tree_sha": "ab45267f1dd807c65b827feb58dba81df8450cfd",
+      "file_hashes": 454
+    },
+    {
+      "package_id": "ilyvion.loadingprogress",
+      "repository": "ilyvion/loading-progress",
+      "ref": "main",
+      "baseline_file": "mods/ilyvion.loadingprogress/source.tree.json",
+      "tree_sha": "a0247cad66bebd00de6526f0fe4a519f4bc6228a",
+      "file_hashes": 186
+    },
+    {
+      "package_id": "lwm.deepstorage",
+      "repository": "lilwhitemouse/RimWorld-LWM.DeepStorage",
+      "ref": "master",
+      "baseline_file": "mods/lwm.deepstorage/source.tree.json",
+      "tree_sha": "fe53650ab2c54056eb9e4cd8b8733083dc2eee77",
+      "file_hashes": 254
+    },
+    {
+      "package_id": "m00nl1ght.mappreview",
+      "repository": "m00nl1ght-dev/MapPreview",
+      "ref": "main",
+      "baseline_file": "mods/m00nl1ght.mappreview/source.tree.json",
+      "tree_sha": "8bedaa489a5ea4240749704517df0f0daaa00711",
+      "file_hashes": 221
+    },
+    {
+      "package_id": "mehni.pickupandhaul",
+      "repository": "Mehni/PickUpAndHaul",
+      "ref": "master",
+      "baseline_file": "mods/mehni.pickupandhaul/source.tree.json",
+      "tree_sha": "09f1fac96e70cc2a93d647615a5abd37734a3eba",
+      "file_hashes": 73
+    },
+    {
+      "package_id": "memegoddess.giddyup",
+      "repository": "MemeGoddess/GiddyUp2",
+      "ref": "master",
+      "baseline_file": "mods/memegoddess.giddyup/source.tree.json",
+      "tree_sha": "03dc8455eb544bff7c6e13187eaff9915679b2ad",
+      "file_hashes": 403
+    },
+    {
+      "package_id": "mlie.showmeyourhands",
+      "repository": "emipa606/ShowMeYourHands",
+      "ref": "main",
+      "baseline_file": "mods/mlie.showmeyourhands/source.tree.json",
+      "tree_sha": "cef425c47a9a8ca04499c5c9da6f79ef03a03b23",
+      "file_hashes": 1140
+    },
+    {
+      "package_id": "ogre.ogrestack",
+      "repository": "cmdprompt/OgreStack",
+      "ref": "master",
+      "baseline_file": "mods/ogre.ogrestack/source.tree.json",
+      "tree_sha": "33950195fa65f5cbaf6aa713fc7bb6399791252a",
+      "file_hashes": 108
+    },
+    {
+      "package_id": "oskarpotocki.vanillafactionsexpanded.core",
+      "repository": "Vanilla-Expanded/VanillaExpandedFramework",
+      "ref": "main",
+      "baseline_file": "mods/oskarpotocki.vanillafactionsexpanded.core/source.tree.json",
+      "tree_sha": "3df09e3e491b94ed7996099297b7363f275fc072",
+      "file_hashes": 2128
+    },
+    {
+      "package_id": "seohyeon.yart",
+      "repository": "csh1668/YetAnotherResearchTree",
+      "ref": "main",
+      "baseline_file": "mods/seohyeon.yart/source.tree.json",
+      "tree_sha": "6daf17cd978f412853fcca49999504652fb59d6d",
+      "file_hashes": 113
+    },
+    {
+      "package_id": "smashphil.vehicleframework",
+      "repository": "SmashPhil/Vehicle-Framework",
+      "ref": "develop",
+      "baseline_file": "mods/smashphil.vehicleframework/source.tree.json",
+      "tree_sha": "26b8579265c78d7d3d0166560c92b9f88e9975cd",
+      "file_hashes": 1861
+    },
+    {
+      "package_id": "tsa.worlddomination",
+      "repository": "Likewise87/World-Domination",
+      "ref": "main",
+      "baseline_file": "mods/tsa.worlddomination/source.tree.json",
+      "tree_sha": "23bf7822e744026382adc617bd8f2d0972c4cf16",
+      "file_hashes": 175
+    },
+    {
+      "package_id": "vanillaexpanded.achievements",
+      "repository": "AndroidQuazar/VanillaAchievementsExpanded",
+      "ref": "master",
+      "baseline_file": "mods/vanillaexpanded.achievements/source.tree.json",
+      "tree_sha": "bc0a6cf9ca13ccd30dc971aa1c578859299571a2",
+      "file_hashes": 201
+    },
+    {
+      "package_id": "vanillaexpanded.gravship",
+      "repository": "Vanilla-Expanded/VanillaGravshipExpanded",
+      "ref": "main",
+      "baseline_file": "mods/vanillaexpanded.gravship/source.tree.json",
+      "tree_sha": "7212a0c11bc392079d1f8ac9395d6434aa29b8af",
+      "file_hashes": 1282
+    },
+    {
+      "package_id": "vanillaexpanded.vcooke",
+      "repository": "Vanilla-Expanded/VanillaCookingExpanded",
+      "ref": "main",
+      "baseline_file": "mods/vanillaexpanded.vcooke/source.tree.json",
+      "tree_sha": "74b2fd7dfb1a9c9aaec2b6108c6a01b5463ff4f1",
+      "file_hashes": 434
+    },
+    {
+      "package_id": "vortex.customizeweapon",
+      "repository": "realloon/CustomizeWeapon",
+      "ref": "main",
+      "baseline_file": "mods/vortex.customizeweapon/source.tree.json",
+      "tree_sha": "d5e41881b0b79c7ae74ee7361e3e6fa462323562",
+      "file_hashes": 133
+    }
+  ],
+  "errors": [],
+  "other_unknown_sources": "not_configured"
+}

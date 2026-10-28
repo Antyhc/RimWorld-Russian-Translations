@@ -1,0 +1,156 @@
+{
+  "schema_version": 1,
+  "generated_at": "2026-10-28T09:22:32+00:00",
+  "scope": "exact keys in this upstream contribution; not full runtime extraction",
+  "upstream_commit": "8df3fca3cd349657688160e3d73d6ebd91125a04",
+  "strings": {
+    "Keyed|NBM_AllOff": "be938cdb8f8b55d8d829cc1dc38d34cacdbc6c184a0ef7e958d4d48597c1d459",
+    "Keyed|NBM_AllOn": "9a1858dbc4617fdcbdb8f8c4863f6b7ff5f336520f66b7620cedc4a20f6ac4e7",
+    "Keyed|NBM_Base": "8cd5f16f1deca1eec9f8c6e47034f361576e76bfc828495ed48370d87e4b0dcf",
+    "Keyed|NBM_CollapseAll": "25f7b3721119f1ec7fdf7c8c66e779ee9999e2049e569afc3b00a9fbdeece7db",
+    "Keyed|NBM_DisableAll": "6cb2279dbfe762e0855f7fe823e7928a97c6cf9c6a82687817e3f9c5db1d1d06",
+    "Keyed|NBM_EnableAll": "06f08e7c2f8a8c00ba00b6158fbdf7b9e788e2c2b792a9cb7f4f17a373218c4f",
+    "Keyed|NBM_ExpandAll": "a3e586be3eff5fb9f768c0846035db47ccf0f0e10727b0f14d829ff3a5913324",
+    "Keyed|NBM_Factor": "dfa5feecda2879de28d8539f2556b23206be78c91e1c7b46d775b605f5883d48",
+    "Keyed|NBM_HideInactive": "bc808ecd8e8660cd2d03c8251e582ea2313b874846116ee29865674d47e6abdc",
+    "Keyed|NBM_HideInactiveTip": "e01c20e79128fa9e9dae3df8812686ce34b9c372cb99f9e07d46e9865c612aae",
+    "Keyed|NBM_ItemTip": "916d8c01db4c932932d016eaa46850f546c7f826733c467acd28d7a60df1b3e8",
+    "Keyed|NBM_ModName": "d4ced37b6dbfed0e86bdfe42ee5a5b6f5f5e142ae299eb475df0765ed184ba8c",
+    "Keyed|NBM_NoResults": "6701dfede769d7ad8e1c50718e3147d14d959b7c1838040c8e976b6a494170a9",
+    "Keyed|NBM_NotActive": "75fa42934c5b7fdcfa6c4928f5653238c92f009e041390082267ae0ffd8df2eb",
+    "Keyed|NBM_Search": "eee71ace4bfbf449edc5a0bef3e771a9ca4991782fb0fb2f577d1df3cc6591b6",
+    "Keyed|NBM_StateOff": "99cead2e541bc03ee66f861240bbd2390f6ca1d1d778a794b7ec3503cc671b72",
+    "Keyed|NBM_StateOn": "c821b08662be0c50fcd6d521cda24425c101da5922b71fc58386f7ced18dadf5",
+    "Keyed|NBM_Summary": "993f239173f063fb5f7e16a578f93cca22f16d7b86857edc1ccb9959d11fb1bc",
+    "Keyed|NBM_Unset": "6cbf83e080936a8f15fc9acf8777b21dd8ed68c88be41e29f33ed5b5e1adbe52"
+  },
+  "signatures": {
+    "Keyed|NBM_AllOff": {
+      "source_hash": "be938cdb8f8b55d8d829cc1dc38d34cacdbc6c184a0ef7e958d4d48597c1d459",
+      "tokens": [],
+      "tags": [],
+      "source_empty": false
+    },
+    "Keyed|NBM_AllOn": {
+      "source_hash": "9a1858dbc4617fdcbdb8f8c4863f6b7ff5f336520f66b7620cedc4a20f6ac4e7",
+      "tokens": [],
+      "tags": [],
+      "source_empty": false
+    },
+    "Keyed|NBM_Base": {
+      "source_hash": "8cd5f16f1deca1eec9f8c6e47034f361576e76bfc828495ed48370d87e4b0dcf",
+      "tokens": [],
+      "tags": [],
+      "source_empty": false
+    },
+    "Keyed|NBM_CollapseAll": {
+      "source_hash": "25f7b3721119f1ec7fdf7c8c66e779ee9999e2049e569afc3b00a9fbdeece7db",
+      "tokens": [],
+      "tags": [],
+      "source_empty": false
+    },
+    "Keyed|NBM_DisableAll": {
+      "source_hash": "6cb2279dbfe762e0855f7fe823e7928a97c6cf9c6a82687817e3f9c5db1d1d06",
+      "tokens": [],
+      "tags": [],
+      "source_empty": false
+    },
+    "Keyed|NBM_EnableAll": {
+      "source_hash": "06f08e7c2f8a8c00ba00b6158fbdf7b9e788e2c2b792a9cb7f4f17a373218c4f",
+      "tokens": [],
+      "tags": [],
+      "source_empty": false
+    },
+    "Keyed|NBM_ExpandAll": {
+      "source_hash": "a3e586be3eff5fb9f768c0846035db47ccf0f0e10727b0f14d829ff3a5913324",
+      "tokens": [],
+      "tags": [],
+      "source_empty": false
+    },
+    "Keyed|NBM_Factor": {
+      "source_hash": "dfa5feecda2879de28d8539f2556b23206be78c91e1c7b46d775b605f5883d48",
+      "tokens": [],
+      "tags": [],
+      "source_empty": false
+    },
+    "Keyed|NBM_HideInactive": {
+      "source_hash": "bc808ecd8e8660cd2d03c8251e582ea2313b874846116ee29865674d47e6abdc",
+      "tokens": [],
+      "tags": [],
+      "source_empty": false
+    },
+    "Keyed|NBM_HideInactiveTip": {
+      "source_hash": "e01c20e79128fa9e9dae3df8812686ce34b9c372cb99f9e07d46e9865c612aae",
+      "tokens": [],
+      "tags": [],
+      "source_empty": false
+    },
+    "Keyed|NBM_ItemTip": {
+      "source_hash": "916d8c01db4c932932d016eaa46850f546c7f826733c467acd28d7a60df1b3e8",
+      "tokens": [
+        "\\n",
+        "\\n",
+        "\\n",
+        "\\n",
+        "\\n",
+        "{0}",
+        "{1}",
+        "{2}",
+        "{3}"
+      ],
+      "tags": [],
+      "source_empty": false
+    },
+    "Keyed|NBM_ModName": {
+      "source_hash": "d4ced37b6dbfed0e86bdfe42ee5a5b6f5f5e142ae299eb475df0765ed184ba8c",
+      "tokens": [],
+      "tags": [],
+      "source_empty": false
+    },
+    "Keyed|NBM_NoResults": {
+      "source_hash": "6701dfede769d7ad8e1c50718e3147d14d959b7c1838040c8e976b6a494170a9",
+      "tokens": [],
+      "tags": [],
+      "source_empty": false
+    },
+    "Keyed|NBM_NotActive": {
+      "source_hash": "75fa42934c5b7fdcfa6c4928f5653238c92f009e041390082267ae0ffd8df2eb",
+      "tokens": [],
+      "tags": [],
+      "source_empty": false
+    },
+    "Keyed|NBM_Search": {
+      "source_hash": "eee71ace4bfbf449edc5a0bef3e771a9ca4991782fb0fb2f577d1df3cc6591b6",
+      "tokens": [],
+      "tags": [],
+      "source_empty": false
+    },
+    "Keyed|NBM_StateOff": {
+      "source_hash": "99cead2e541bc03ee66f861240bbd2390f6ca1d1d778a794b7ec3503cc671b72",
+      "tokens": [],
+      "tags": [],
+      "source_empty": false
+    },
+    "Keyed|NBM_StateOn": {
+      "source_hash": "c821b08662be0c50fcd6d521cda24425c101da5922b71fc58386f7ced18dadf5",
+      "tokens": [],
+      "tags": [],
+      "source_empty": false
+    },
+    "Keyed|NBM_Summary": {
+      "source_hash": "993f239173f063fb5f7e16a578f93cca22f16d7b86857edc1ccb9959d11fb1bc",
+      "tokens": [
+        "{0}",
+        "{1}"
+      ],
+      "tags": [],
+      "source_empty": false
+    },
+    "Keyed|NBM_Unset": {
+      "source_hash": "6cbf83e080936a8f15fc9acf8777b21dd8ed68c88be41e29f33ed5b5e1adbe52",
+      "tokens": [],
+      "tags": [],
+      "source_empty": false
+    }
+  }
+}

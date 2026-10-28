@@ -1,0 +1,23 @@
+{
+  "schema_version": 1,
+  "contacts": [
+    {
+      "package_id": "merthsoft.designatorshapes",
+      "channel": "github_pull_request",
+      "url": "https://github.com/merthsoft/designator-shapes/pull/15",
+      "date": "2026-10-28",
+      "status": "awaiting_response",
+      "ai_disclosed": true,
+      "fresh_game_test_claimed": false
+    },
+    {
+      "package_id": "unon.noburnmetal",
+      "channel": "github_pull_request",
+      "url": "https://github.com/Nonunon/NoBurnMetal/pull/1",
+      "date": "2026-10-28",
+      "status": "awaiting_response",
+      "ai_disclosed": true,
+      "fresh_game_test_claimed": false
+    }
+  ]
+}

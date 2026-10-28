@@ -1,0 +1,187 @@
+{
+  "schema_version": 1,
+  "package_id": "oskarpotocki.vanillafactionsexpanded.core",
+  "name": "Vanilla Expanded Framework",
+  "translation_package_id": "antyhc.russian.oskarpotocki.vanillafactionsexpanded.core",
+  "supported_versions": [
+    "1.7"
+  ],
+  "rights": {
+    "translation": {
+      "status": "unknown",
+      "license": null,
+      "evidence": null,
+      "attribution": null
+    },
+    "icon": {
+      "status": "unknown",
+      "license": null,
+      "evidence": null,
+      "attribution": null
+    }
+  },
+  "qa": {
+    "technical": "pending",
+    "linguistic": "pending",
+    "source_current": false,
+    "in_game": "not_tested",
+    "checked_at": "2026-10-28T09:15:27.268425+00:00"
+  },
+  "publication": {
+    "github_url": "https://github.com/Antyhc/RimWorld-Russian-Translations/tree/main/mods/oskarpotocki.vanillafactionsexpanded.core",
+    "github_status": "metadata_only",
+    "workshop_url": null,
+    "workshop_id": null,
+    "workshop_status": "not_published"
+  },
+  "integration": {
+    "status": "not_sent",
+    "pr_url": null,
+    "contact_url": null
+  },
+  "original": {
+    "author": "Oskar Potocki, XeoNovaDan, Orion, Kikohi, Taranchuk, Sarg Bjornson, Erdelf",
+    "workshop_id": "2023507013",
+    "workshop_url": "https://steamcommunity.com/sharedfiles/filedetails/?id=2023507013",
+    "supported_versions": [
+      "1.0",
+      "1.1",
+      "1.2",
+      "1.3",
+      "1.4",
+      "1.5",
+      "1.6",
+      "1.7"
+    ],
+    "repository_url": "https://github.com/Vanilla-Expanded/VanillaExpandedFramework",
+    "repository_candidates": [
+      "https://github.com/AndroidQuazar/VanillaExpandedFramework",
+      "https://github.com/pardeike/HarmonyRimWorld"
+    ],
+    "repository_verification": "current_remote_About_package_id_matches_original",
+    "activity": {
+      "pushed_at": "2026-10-27T09:33:40Z",
+      "updated_at": "2026-10-27T13:10:00Z",
+      "archived": false,
+      "disabled": false,
+      "last_commit_at": "2026-10-27T09:33:38Z"
+    },
+    "default_branch": "main",
+    "developer_activity": {
+      "pushed_at": "2026-10-27T09:33:40Z",
+      "updated_at": "2026-10-27T13:10:00Z",
+      "archived": false,
+      "disabled": false,
+      "last_commit_at": "2026-10-27T09:33:38Z"
+    },
+    "license_metadata": {
+      "key": "other",
+      "name": "Other",
+      "spdx_id": "NOASSERTION",
+      "url": null,
+      "node_id": "MDc6TGljZW5zZTA="
+    },
+    "license_files": [
+      {
+        "path": "LICENSE",
+        "blob_sha": "f02d4779ff4ece44aa9a7baecec98673dabec475",
+        "url": "https://github.com/Vanilla-Expanded/VanillaExpandedFramework/blob/3df09e3e491b94ed7996099297b7363f275fc072/LICENSE"
+      }
+    ],
+    "contribution_instructions": {
+      "dedicated_files": [],
+      "examined_docs": [
+        {
+          "path": "README.md",
+          "blob_sha": "7c8ca6a91cccb0d709676a6111cb22414e3f5fff",
+          "url": "https://github.com/Vanilla-Expanded/VanillaExpandedFramework/blob/3df09e3e491b94ed7996099297b7363f275fc072/README.md",
+          "ai_related_terms_present": false
+        }
+      ],
+      "ai_policy_review": "read_document_manually_if_ai_related_terms_present; absence_of_terms_is_not_author_permission"
+    },
+    "repository_evidence": {
+      "checked_at": "2026-10-28T09:28:49.515593+00:00",
+      "source_api": "https://api.github.com/repos/Vanilla-Expanded/VanillaExpandedFramework",
+      "head_commit": "3df09e3e491b94ed7996099297b7363f275fc072",
+      "tree_sha": "3df09e3e491b94ed7996099297b7363f275fc072",
+      "tree_truncated": false,
+      "matching_about": {
+        "path": "About/About.xml",
+        "blob_sha": "aa311f36272c6d5c6e35662ce1a2000d92ed1b2d",
+        "package_id": "oskarpotocki.vanillafactionsexpanded.core",
+        "url": "https://github.com/Vanilla-Expanded/VanillaExpandedFramework/blob/3df09e3e491b94ed7996099297b7363f275fc072/About/About.xml"
+      },
+      "original_mod_workshop_url": "https://steamcommunity.com/sharedfiles/filedetails/?id=2023507013",
+      "direct_original_url": null,
+      "other_original_mod_dependency_references": [
+        {
+          "reference_mod_workshop_url": "https://steamcommunity.com/sharedfiles/filedetails/?id=3380695249",
+          "declared_dependency_package_id": "oskarpotocki.vanillafactionsexpanded.core",
+          "repository_url": "https://github.com/Vanilla-Expanded/VanillaExpandedFramework"
+        },
+        {
+          "reference_mod_workshop_url": "https://steamcommunity.com/sharedfiles/filedetails/?id=1989352844",
+          "declared_dependency_package_id": "oskarpotocki.vanillafactionsexpanded.core",
+          "repository_url": "https://github.com/AndroidQuazar/VanillaExpandedFramework"
+        }
+      ],
+      "rights_clearance_not_inferred": true
+    },
+    "upstream_russian_paths": []
+  },
+  "inventory": {
+    "saved_records": 785,
+    "historical_approved_records": 785,
+    "provenance_counts": {
+      "community_translation_exact_english_match_static_qa": 775,
+      "individual_source_punctuation_and_linguistic_review": 10
+    },
+    "attribution_licenses": {
+      "CC-BY-NC-SA-4.0": 785
+    },
+    "installed_locally": true,
+    "native_russian_rows_in_snapshot": 0,
+    "third_party_candidates": [
+      {
+        "name": "Vanilla Expanded Framework Russian Language Pack",
+        "package_id": "ow.ru.core",
+        "author": "OliveWizard",
+        "workshop_id": "2507140407",
+        "workshop_url": "https://steamcommunity.com/sharedfiles/filedetails/?id=2507140407",
+        "license": "CC-BY-NC-SA-4.0"
+      },
+      {
+        "name": "Vanilla Storytellers Expanded Russian Language Pack",
+        "package_id": "ow.ru.vse",
+        "author": "OliveWizard",
+        "workshop_id": "2150723779",
+        "workshop_url": "https://steamcommunity.com/sharedfiles/filedetails/?id=2150723779",
+        "license": "CC-BY-NC-SA-4.0"
+      }
+    ],
+    "coverage_scope": "saved_static_extraction_lower_bound; not complete runtime coverage",
+    "checked_at": "2026-10-28T09:15:27.268425+00:00",
+    "original_license_evidence": [
+      {
+        "relative_path": "LICENSE",
+        "sha256": "95bd6cd3813f36a2ce36d8dc925be7b18d1bde014efa9f79734e0999e094bf2c",
+        "identified_license": "unclassified-review-required"
+      }
+    ],
+    "local_static_audit": {
+      "checked_at": "2026-10-28T09:16:17.239920+00:00",
+      "issue_kinds": [],
+      "status": "no_detected_issues",
+      "issue_count": 0,
+      "new_files_outside_saved_source_inventory_checked": false
+    }
+  },
+  "monitor": {
+    "github_tree": {
+      "repository": "Vanilla-Expanded/VanillaExpandedFramework",
+      "ref": "main",
+      "baseline_file": "source.tree.json"
+    }
+  }
+}

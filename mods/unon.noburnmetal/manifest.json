@@ -1,0 +1,121 @@
+{
+  "schema_version": 1,
+  "package_id": "unon.noburnmetal",
+  "name": "No Burn Metal",
+  "translation_package_id": "antyhc.russian.unon.noburnmetal",
+  "supported_versions": [
+    "1.7"
+  ],
+  "rights": {
+    "translation": {
+      "status": "confirmed",
+      "license": "GPL-3.0",
+      "evidence": "https://github.com/Nonunon/NoBurnMetal/blob/8df3fca3cd349657688160e3d73d6ebd91125a04/LICENSE",
+      "attribution": "Original mod: No Burn Metal by Unon\nSource: https://github.com/Nonunon/NoBurnMetal\nRussian text: Antyhc; AI-assisted authoring and review by OpenAI Codex, 2026.\nTranslation contributed under GPL-3.0.\nNo independent human proofreading or fresh game test claimed.\nNo original code, assemblies, textures or artwork included.\n",
+      "required_notice_files": {
+        "About/License.txt": "3972dc9744f6499f0f9b2dbf76696f2ae7ad8af9b23dde66d6af86c9dfb36986",
+        "About/Credits.txt": "69dc05cfa176b0a0ef15d872e1f4f761e6923efda051cb20d872a9a5115acab0"
+      }
+    },
+    "icon": {
+      "status": "unknown",
+      "license": null,
+      "evidence": null,
+      "attribution": null,
+      "reason": "No original artwork redistributed; separate consent is required for third-party Workshop cover art",
+      "permission_requested": true,
+      "request_url": "https://github.com/Nonunon/NoBurnMetal/pull/1",
+      "requested_at": "2026-10-28",
+      "permission_received": false
+    }
+  },
+  "qa": {
+    "technical": "passed",
+    "linguistic": "ai_reviewed",
+    "source_current": true,
+    "in_game": "not_tested",
+    "checked_at": "2026-10-28T09:22:32+00:00",
+    "source_checked_at": "2026-10-28T09:22:32+00:00",
+    "payload_sha256": "7b1d1f0973d93e6c1d736944c1622b9bd34ad202e63e38fb050e32fcbbd13239",
+    "source_snapshot_sha256": "3721591a666fdf90bcdd6f5a32f7b1bf7389faa0dd35063b55b0291670b31101",
+    "evidence": "qa-evidence.json",
+    "coverage": "19 Keyed settings strings; six unchanged supported-mod brand labels omitted"
+  },
+  "publication": {
+    "github_url": "https://github.com/Antyhc/RimWorld-Russian-Translations/tree/main/mods/unon.noburnmetal",
+    "github_status": "published",
+    "workshop_url": null,
+    "workshop_id": null,
+    "workshop_status": "held_rights_and_duplicate_review"
+  },
+  "integration": {
+    "status": "pr_submitted",
+    "pr_url": "https://github.com/Nonunon/NoBurnMetal/pull/1",
+    "contact_url": null,
+    "submitted_at": "2026-10-28",
+    "head_sha": "e7181538298f54ffad677ed4c6613effbcd7e1fc"
+  },
+  "original": {
+    "author": "Unon",
+    "workshop_id": "1923990111",
+    "workshop_url": "https://steamcommunity.com/sharedfiles/filedetails/?id=1923990111",
+    "supported_versions": [
+      "1.0",
+      "1.1",
+      "1.2",
+      "1.3",
+      "1.4",
+      "1.5",
+      "1.6",
+      "1.7"
+    ],
+    "repository_url": "https://github.com/Nonunon/NoBurnMetal",
+    "repository_candidates": [
+      "https://github.com/Nonunon/NoBurnMetal"
+    ],
+    "repository_verification": "verified_original_metadata_and_remote_repository",
+    "activity": {
+      "last_push": "2026-10-15T05:00:28Z",
+      "archived": false,
+      "checked_at": "2026-10-28T09:17:47.661244+00:00"
+    },
+    "default_branch": "master",
+    "checked_commit": "8df3fca3cd349657688160e3d73d6ebd91125a04",
+    "license": "GPL-3.0"
+  },
+  "inventory": {
+    "saved_records": 25,
+    "historical_approved_records": 25,
+    "provenance_counts": {
+      "new_contextual_translation": 25
+    },
+    "attribution_licenses": {},
+    "installed_locally": true,
+    "native_russian_rows_in_snapshot": 0,
+    "third_party_candidates": [],
+    "coverage_scope": "saved_static_extraction_lower_bound; not complete runtime coverage",
+    "checked_at": "2026-10-28T09:15:27.268425+00:00",
+    "original_license_evidence": [],
+    "local_static_audit": {
+      "checked_at": "2026-10-28T09:16:17.981920+00:00",
+      "issue_kinds": [
+        "field_verification_stale"
+      ],
+      "status": "issues_found",
+      "issue_count": 6,
+      "new_files_outside_saved_source_inventory_checked": false
+    }
+  },
+  "duplicate_translation": {
+    "status": "standalone_not_cleared",
+    "scope": "No Russian files or Russian PRs found in current official upstream; third-party Workshop coverage requires further evaluation",
+    "candidates": []
+  },
+  "monitor": {
+    "github_tree": {
+      "repository": "Nonunon/NoBurnMetal",
+      "ref": "master",
+      "baseline_file": "source.tree.json"
+    }
+  }
+}

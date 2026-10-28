@@ -1,0 +1,1832 @@
+{
+  "generated_at": "2026-10-28T09:28:54.307989+00:00",
+  "scope": "Public primary-source repository evidence only; no rights, QA, integration or publication status changed.",
+  "unique_repositories_checked": 27,
+  "dependency_candidates_excluded": 150,
+  "verified_mods": [
+    {
+      "package_id": "adaptive.storage.framework",
+      "repository_url": "https://github.com/bbradson/Adaptive-Storage-Framework",
+      "verification": "current_remote_About_package_id_matches_original",
+      "license_spdx": "MIT",
+      "native_russian_files": 0,
+      "head_commit": "31ee88b46651cfbe37da3f89620bc0b907165cc0"
+    },
+    {
+      "package_id": "aoba.framework",
+      "repository_url": "https://github.com/AobaKuma/Fortified-Framework",
+      "verification": "current_remote_About_package_id_matches_original",
+      "license_spdx": null,
+      "native_russian_files": 0,
+      "head_commit": "a09dcaa9440dceb03cddcf1f75a8154fc880ce51"
+    },
+    {
+      "package_id": "dubwise.dubsbadhygiene",
+      "repository_url": "https://github.com/Dubwise56/Dubs-Bad-Hygiene",
+      "verification": "current_remote_About_package_id_matches_original",
+      "license_spdx": null,
+      "native_russian_files": 208,
+      "head_commit": "96ec4b51efaf9ef4baa98aa832a8078be09d3f45"
+    },
+    {
+      "package_id": "dubwise.dubsmintmenus",
+      "repository_url": "https://github.com/Dubwise56/Dubs-Mint-Menus",
+      "verification": "current_remote_About_package_id_matches_original",
+      "license_spdx": null,
+      "native_russian_files": 0,
+      "head_commit": "2a72b0e5b0d75f289ca9c0556983194a27444c78"
+    },
+    {
+      "package_id": "dubwise.dubsmintminimap",
+      "repository_url": "https://github.com/Dubwise56/Dubs-Mint-Minimap",
+      "verification": "current_remote_About_package_id_matches_original",
+      "license_spdx": null,
+      "native_russian_files": 0,
+      "head_commit": "c71fd81e458be3928c58e99273bb1ad35cf8ea78"
+    },
+    {
+      "package_id": "dubwise.rimatomics",
+      "repository_url": "https://github.com/Dubwise56/Rimatomics",
+      "verification": "current_remote_About_package_id_matches_original",
+      "license_spdx": null,
+      "native_russian_files": 42,
+      "head_commit": "de328ca971de38ffef6dd5e5054a27105e279d01"
+    },
+    {
+      "package_id": "dubwise.rimefeller",
+      "repository_url": "https://github.com/Dubwise56/Rimefeller",
+      "verification": "current_remote_About_package_id_matches_original",
+      "license_spdx": null,
+      "native_russian_files": 22,
+      "head_commit": "ab45267f1dd807c65b827feb58dba81df8450cfd"
+    },
+    {
+      "package_id": "ilyvion.loadingprogress",
+      "repository_url": "https://github.com/ilyvion/loading-progress",
+      "verification": "current_remote_About_package_id_matches_original",
+      "license_spdx": "NOASSERTION",
+      "native_russian_files": 0,
+      "head_commit": "a0247cad66bebd00de6526f0fe4a519f4bc6228a"
+    },
+    {
+      "package_id": "lwm.deepstorage",
+      "repository_url": "https://github.com/lilwhitemouse/RimWorld-LWM.DeepStorage",
+      "verification": "current_remote_About_package_id_matches_original",
+      "license_spdx": "GPL-3.0",
+      "native_russian_files": 7,
+      "head_commit": "fe53650ab2c54056eb9e4cd8b8733083dc2eee77"
+    },
+    {
+      "package_id": "m00nl1ght.mappreview",
+      "repository_url": "https://github.com/m00nl1ght-dev/MapPreview",
+      "verification": "current_remote_About_package_id_matches_original",
+      "license_spdx": "NOASSERTION",
+      "native_russian_files": 5,
+      "head_commit": "8bedaa489a5ea4240749704517df0f0daaa00711"
+    },
+    {
+      "package_id": "mehni.pickupandhaul",
+      "repository_url": "https://github.com/Mehni/PickUpAndHaul",
+      "verification": "current_remote_About_package_id_matches_original",
+      "license_spdx": "MIT",
+      "native_russian_files": 2,
+      "head_commit": "09f1fac96e70cc2a93d647615a5abd37734a3eba"
+    },
+    {
+      "package_id": "memegoddess.giddyup",
+      "repository_url": "https://github.com/MemeGoddess/GiddyUp2",
+      "verification": "current_remote_About_package_id_matches_original",
+      "license_spdx": null,
+      "native_russian_files": 9,
+      "head_commit": "03dc8455eb544bff7c6e13187eaff9915679b2ad"
+    },
+    {
+      "package_id": "mlie.showmeyourhands",
+      "repository_url": "https://github.com/emipa606/ShowMeYourHands",
+      "verification": "current_remote_About_package_id_matches_original",
+      "license_spdx": "MIT",
+      "native_russian_files": 7,
+      "head_commit": "cef425c47a9a8ca04499c5c9da6f79ef03a03b23"
+    },
+    {
+      "package_id": "ogre.ogrestack",
+      "repository_url": "https://github.com/cmdprompt/OgreStack",
+      "verification": "current_remote_About_package_id_matches_original",
+      "license_spdx": "MIT",
+      "native_russian_files": 0,
+      "head_commit": "33950195fa65f5cbaf6aa713fc7bb6399791252a"
+    },
+    {
+      "package_id": "oskarpotocki.vanillafactionsexpanded.core",
+      "repository_url": "https://github.com/Vanilla-Expanded/VanillaExpandedFramework",
+      "verification": "current_remote_About_package_id_matches_original",
+      "license_spdx": "NOASSERTION",
+      "native_russian_files": 0,
+      "head_commit": "3df09e3e491b94ed7996099297b7363f275fc072"
+    },
+    {
+      "package_id": "seohyeon.yart",
+      "repository_url": "https://github.com/csh1668/YetAnotherResearchTree",
+      "verification": "current_remote_About_package_id_matches_original",
+      "license_spdx": "MIT",
+      "native_russian_files": 0,
+      "head_commit": "6daf17cd978f412853fcca49999504652fb59d6d"
+    },
+    {
+      "package_id": "smashphil.vehicleframework",
+      "repository_url": "https://github.com/SmashPhil/Vehicle-Framework",
+      "verification": "current_remote_About_package_id_matches_original",
+      "license_spdx": "MIT",
+      "native_russian_files": 0,
+      "head_commit": "26b8579265c78d7d3d0166560c92b9f88e9975cd"
+    },
+    {
+      "package_id": "tsa.worlddomination",
+      "repository_url": "https://github.com/Likewise87/World-Domination",
+      "verification": "current_remote_About_package_id_matches_original",
+      "license_spdx": null,
+      "native_russian_files": 0,
+      "head_commit": "23bf7822e744026382adc617bd8f2d0972c4cf16"
+    },
+    {
+      "package_id": "vanillaexpanded.achievements",
+      "repository_url": "https://github.com/AndroidQuazar/VanillaAchievementsExpanded",
+      "verification": "current_remote_About_package_id_matches_original",
+      "license_spdx": null,
+      "native_russian_files": 0,
+      "head_commit": "bc0a6cf9ca13ccd30dc971aa1c578859299571a2"
+    },
+    {
+      "package_id": "vanillaexpanded.gravship",
+      "repository_url": "https://github.com/Vanilla-Expanded/VanillaGravshipExpanded",
+      "verification": "current_remote_About_package_id_matches_original",
+      "license_spdx": null,
+      "native_russian_files": 0,
+      "head_commit": "7212a0c11bc392079d1f8ac9395d6434aa29b8af"
+    },
+    {
+      "package_id": "vanillaexpanded.vcooke",
+      "repository_url": "https://github.com/Vanilla-Expanded/VanillaCookingExpanded",
+      "verification": "current_remote_About_package_id_matches_original",
+      "license_spdx": null,
+      "native_russian_files": 0,
+      "head_commit": "74b2fd7dfb1a9c9aaec2b6108c6a01b5463ff4f1"
+    },
+    {
+      "package_id": "vortex.customizeweapon",
+      "repository_url": "https://github.com/realloon/CustomizeWeapon",
+      "verification": "current_remote_About_package_id_matches_original",
+      "license_spdx": "MIT",
+      "native_russian_files": 8,
+      "head_commit": "d5e41881b0b79c7ae74ee7361e3e6fa462323562"
+    }
+  ],
+  "unresolved": [],
+  "repositories": [
+    {
+      "requested_repository": "Dubwise56/Dubs-Bad-Hygiene",
+      "repository": "Dubwise56/Dubs-Bad-Hygiene",
+      "repository_url": "https://github.com/Dubwise56/Dubs-Bad-Hygiene",
+      "checked_at": "2026-10-28T09:27:28.552963+00:00",
+      "default_branch": "master",
+      "head_commit": "96ec4b51efaf9ef4baa98aa832a8078be09d3f45",
+      "tree_sha": "96ec4b51efaf9ef4baa98aa832a8078be09d3f45",
+      "tree_truncated": false,
+      "activity": {
+        "pushed_at": "2026-10-26T19:44:45Z",
+        "updated_at": "2026-10-26T19:36:36Z",
+        "archived": false,
+        "disabled": false,
+        "last_commit_at": "2026-10-26T19:36:24Z"
+      },
+      "license_metadata": null,
+      "license_files": [],
+      "abouts_checked": [
+        {
+          "path": "About/About.xml",
+          "blob_sha": "5a288cf454bc18eeb2b160cdef8411ef76218052",
+          "package_id": "dubwise.dubsbadhygiene",
+          "url": "https://github.com/Dubwise56/Dubs-Bad-Hygiene/blob/96ec4b51efaf9ef4baa98aa832a8078be09d3f45/About/About.xml"
+        }
+      ],
+      "about_candidates_total": 1,
+      "contribution_instructions": {
+        "dedicated_files": [],
+        "examined_docs": [
+          {
+            "path": "README.md",
+            "blob_sha": "ef0fab79f544ceae4b254de4abd7bcbe147d1bcb",
+            "url": "https://github.com/Dubwise56/Dubs-Bad-Hygiene/blob/96ec4b51efaf9ef4baa98aa832a8078be09d3f45/README.md",
+            "ai_related_terms_present": false
+          }
+        ],
+        "ai_policy_review": "read_document_manually_if_ai_related_terms_present; absence_of_terms_is_not_author_permission"
+      },
+      "source_api": "https://api.github.com/repos/Dubwise56/Dubs-Bad-Hygiene",
+      "russian_language_paths": [
+        "1.0/Languages/Russian/DefInjected/DesignationCategoryDef/DesignationCategories.xml",
+        "1.0/Languages/Russian/DefInjected/DubsBadHygiene.DubsModOptions/ModOptions.xml",
+        "1.0/Languages/Russian/DefInjected/HediffDef/Hediffs_Hygiene.xml",
+        "1.0/Languages/Russian/DefInjected/IncidentDef/Incidents_Map_Misc.xml",
+        "1.0/Languages/Russian/DefInjected/JobDef/Jobs_Hygiene.xml",
+        "1.0/Languages/Russian/DefInjected/KeyBindingCategoryDef/KeyBindingCategories_Add_Architect.xml",
+        "1.0/Languages/Russian/DefInjected/NeedDef/Needs_Misc.xml",
+        "1.0/Languages/Russian/DefInjected/RecipeDef/Recipes_Production.xml",
+        "1.0/Languages/Russian/DefInjected/ResearchProjectDef/ResearchProjects_Hygiene.xml",
+        "1.0/Languages/Russian/DefInjected/ResearchTabDef/ResearchProjects_Hygiene.xml",
+        "1.0/Languages/Russian/DefInjected/RoomRoleDef/RoomRoles.xml",
+        "1.0/Languages/Russian/DefInjected/ThingCategoryDef/ThingCategories.xml",
+        "1.0/Languages/Russian/DefInjected/ThingDef/BuildingsA_Pipes.xml",
+        "1.0/Languages/Russian/DefInjected/ThingDef/BuildingsB_Hygiene.xml",
+        "1.0/Languages/Russian/DefInjected/ThingDef/BuildingsC_Joy.xml",
+        "1.0/Languages/Russian/DefInjected/ThingDef/BuildingsD_WaterManagement.xml",
+        "1.0/Languages/Russian/DefInjected/ThingDef/BuildingsE_Heating.xml",
+        "1.0/Languages/Russian/DefInjected/ThingDef/BuildingsF_Irrigation.xml",
+        "1.0/Languages/Russian/DefInjected/ThingDef/Filth_Various.xml",
+        "1.0/Languages/Russian/DefInjected/ThingDef/Items_Resource_Stuff.xml",
+        "1.0/Languages/Russian/DefInjected/ThingDef/_Terrain_Extra.xml",
+        "1.0/Languages/Russian/DefInjected/ThingDef/_Things_Mote.xml",
+        "1.0/Languages/Russian/DefInjected/ThoughtDef/Thoughts_Memory_Hygiene.xml",
+        "1.0/Languages/Russian/DefInjected/ThoughtDef/Thoughts_Situation_Needs.xml",
+        "1.0/Languages/Russian/DefInjected/WorkGiverDef/WorkGivers.xml",
+        "1.0/Languages/Russian/Keyed/DubsHygiene.xml",
+        "1.1/Languages/Russian/DefInjected/DesignationCategoryDef/DesignationCategories.xml",
+        "1.1/Languages/Russian/DefInjected/DubsBadHygiene.DubsModOptions/ModOptions.xml",
+        "1.1/Languages/Russian/DefInjected/HediffDef/Hediffs_Hygiene.xml",
+        "1.1/Languages/Russian/DefInjected/IncidentDef/Incidents_Map_Misc.xml",
+        "1.1/Languages/Russian/DefInjected/JobDef/Jobs_Hygiene.xml",
+        "1.1/Languages/Russian/DefInjected/KeyBindingCategoryDef/KeyBindingCategories_Add_Architect.xml",
+        "1.1/Languages/Russian/DefInjected/NeedDef/Needs_Misc.xml",
+        "1.1/Languages/Russian/DefInjected/RecipeDef/Recipes_Production.xml",
+        "1.1/Languages/Russian/DefInjected/ResearchProjectDef/ResearchProjects_Hygiene.xml",
+        "1.1/Languages/Russian/DefInjected/ResearchTabDef/ResearchProjects_Hygiene.xml",
+        "1.1/Languages/Russian/DefInjected/RoomRoleDef/RoomRoles.xml",
+        "1.1/Languages/Russian/DefInjected/ThingCategoryDef/ThingCategories.xml",
+        "1.1/Languages/Russian/DefInjected/ThingDef/BuildingsA_Pipes.xml",
+        "1.1/Languages/Russian/DefInjected/ThingDef/BuildingsB_Hygiene.xml",
+        "1.1/Languages/Russian/DefInjected/ThingDef/BuildingsC_Joy.xml",
+        "1.1/Languages/Russian/DefInjected/ThingDef/BuildingsD_WaterManagement.xml",
+        "1.1/Languages/Russian/DefInjected/ThingDef/BuildingsE_Heating.xml",
+        "1.1/Languages/Russian/DefInjected/ThingDef/BuildingsF_Irrigation.xml",
+        "1.1/Languages/Russian/DefInjected/ThingDef/Filth_Various.xml",
+        "1.1/Languages/Russian/DefInjected/ThingDef/Items_Resource_Stuff.xml",
+        "1.1/Languages/Russian/DefInjected/ThingDef/_Terrain_Extra.xml",
+        "1.1/Languages/Russian/DefInjected/ThingDef/_Things_Mote.xml",
+        "1.1/Languages/Russian/DefInjected/ThoughtDef/Thoughts_Memory_Hygiene.xml",
+        "1.1/Languages/Russian/DefInjected/ThoughtDef/Thoughts_Situation_Needs.xml",
+        "1.1/Languages/Russian/DefInjected/WorkGiverDef/WorkGivers.xml",
+        "1.1/Languages/Russian/Keyed/DubsHygiene.xml",
+        "1.2/Languages/Russian/DefInjected/DesignationCategoryDef/DesignationCategories.xml",
+        "1.2/Languages/Russian/DefInjected/DubsBadHygiene.DubsModOptions/ModOptions.xml",
+        "1.2/Languages/Russian/DefInjected/HediffDef/Hediffs_Hygiene.xml",
+        "1.2/Languages/Russian/DefInjected/IncidentDef/Incidents_Map_Misc.xml",
+        "1.2/Languages/Russian/DefInjected/JobDef/Jobs_Hygiene.xml",
+        "1.2/Languages/Russian/DefInjected/KeyBindingCategoryDef/KeyBindingCategories_Add_Architect.xml",
+        "1.2/Languages/Russian/DefInjected/NeedDef/Needs_Misc.xml",
+        "1.2/Languages/Russian/DefInjected/RecipeDef/Recipes_Production.xml",
+        "1.2/Languages/Russian/DefInjected/ResearchProjectDef/ResearchProjects_Hygiene.xml",
+        "1.2/Languages/Russian/DefInjected/ResearchTabDef/ResearchProjects_Hygiene.xml",
+        "1.2/Languages/Russian/DefInjected/RoomRoleDef/RoomRoles.xml",
+        "1.2/Languages/Russian/DefInjected/ThingCategoryDef/ThingCategories.xml",
+        "1.2/Languages/Russian/DefInjected/ThingDef/BuildingsA_Pipes.xml",
+        "1.2/Languages/Russian/DefInjected/ThingDef/BuildingsB_Hygiene.xml",
+        "1.2/Languages/Russian/DefInjected/ThingDef/BuildingsC_Joy.xml",
+        "1.2/Languages/Russian/DefInjected/ThingDef/BuildingsD_WaterManagement.xml",
+        "1.2/Languages/Russian/DefInjected/ThingDef/BuildingsE_Heating.xml",
+        "1.2/Languages/Russian/DefInjected/ThingDef/BuildingsF_Irrigation.xml",
+        "1.2/Languages/Russian/DefInjected/ThingDef/Filth_Various.xml",
+        "1.2/Languages/Russian/DefInjected/ThingDef/Items_Resource_Stuff.xml",
+        "1.2/Languages/Russian/DefInjected/ThingDef/_Terrain_Extra.xml",
+        "1.2/Languages/Russian/DefInjected/ThingDef/_Things_Mote.xml",
+        "1.2/Languages/Russian/DefInjected/ThoughtDef/Thoughts_Memory_Hygiene.xml",
+        "1.2/Languages/Russian/DefInjected/ThoughtDef/Thoughts_Situation_Needs.xml",
+        "1.2/Languages/Russian/DefInjected/WorkGiverDef/WorkGivers.xml",
+        "1.2/Languages/Russian/Keyed/DubsHygiene.xml",
+        "1.3/Languages/Russian/DefInjected/DesignationCategoryDef/DesignationCategories.xml",
+        "1.3/Languages/Russian/DefInjected/DubsBadHygiene.DubsModOptions/ModOptions.xml",
+        "1.3/Languages/Russian/DefInjected/HediffDef/Hediffs_Hygiene.xml",
+        "1.3/Languages/Russian/DefInjected/IncidentDef/Incidents_Map_Misc.xml",
+        "1.3/Languages/Russian/DefInjected/JobDef/Jobs_Hygiene.xml",
+        "1.3/Languages/Russian/DefInjected/KeyBindingCategoryDef/KeyBindingCategories_Add_Architect.xml",
+        "1.3/Languages/Russian/DefInjected/NeedDef/Needs_Misc.xml",
+        "1.3/Languages/Russian/DefInjected/RecipeDef/Recipes_Production.xml",
+        "1.3/Languages/Russian/DefInjected/ResearchProjectDef/ResearchProjects_Hygiene.xml",
+        "1.3/Languages/Russian/DefInjected/ResearchTabDef/ResearchProjects_Hygiene.xml",
+        "1.3/Languages/Russian/DefInjected/RoomRoleDef/RoomRoles.xml",
+        "1.3/Languages/Russian/DefInjected/ThingCategoryDef/ThingCategories.xml",
+        "1.3/Languages/Russian/DefInjected/ThingDef/BuildingsA_Pipes.xml",
+        "1.3/Languages/Russian/DefInjected/ThingDef/BuildingsB_Hygiene.xml",
+        "1.3/Languages/Russian/DefInjected/ThingDef/BuildingsC_Joy.xml",
+        "1.3/Languages/Russian/DefInjected/ThingDef/BuildingsD_WaterManagement.xml",
+        "1.3/Languages/Russian/DefInjected/ThingDef/BuildingsE_Heating.xml",
+        "1.3/Languages/Russian/DefInjected/ThingDef/BuildingsF_Irrigation.xml",
+        "1.3/Languages/Russian/DefInjected/ThingDef/Filth_Various.xml",
+        "1.3/Languages/Russian/DefInjected/ThingDef/Items_Resource_Stuff.xml",
+        "1.3/Languages/Russian/DefInjected/ThingDef/_Terrain_Extra.xml",
+        "1.3/Languages/Russian/DefInjected/ThingDef/_Things_Mote.xml",
+        "1.3/Languages/Russian/DefInjected/ThoughtDef/Thoughts_Memory_Hygiene.xml",
+        "1.3/Languages/Russian/DefInjected/ThoughtDef/Thoughts_Situation_Needs.xml",
+        "1.3/Languages/Russian/DefInjected/WorkGiverDef/WorkGivers.xml",
+        "1.3/Languages/Russian/Keyed/DubsHygiene.xml",
+        "1.4/Languages/Russian/DefInjected/DesignationCategoryDef/DesignationCategories.xml",
+        "1.4/Languages/Russian/DefInjected/DubsBadHygiene.DubsModOptions/ModOptions.xml",
+        "1.4/Languages/Russian/DefInjected/HediffDef/Hediffs_Hygiene.xml",
+        "1.4/Languages/Russian/DefInjected/IncidentDef/Incidents_Map_Misc.xml",
+        "1.4/Languages/Russian/DefInjected/JobDef/Jobs_Hygiene.xml",
+        "1.4/Languages/Russian/DefInjected/KeyBindingCategoryDef/KeyBindingCategories_Add_Architect.xml",
+        "1.4/Languages/Russian/DefInjected/NeedDef/Needs_Misc.xml",
+        "1.4/Languages/Russian/DefInjected/RecipeDef/Recipes_Production.xml",
+        "1.4/Languages/Russian/DefInjected/ResearchProjectDef/ResearchProjects_Hygiene.xml",
+        "1.4/Languages/Russian/DefInjected/ResearchTabDef/ResearchProjects_Hygiene.xml",
+        "1.4/Languages/Russian/DefInjected/RoomRoleDef/RoomRoles.xml",
+        "1.4/Languages/Russian/DefInjected/ThingCategoryDef/ThingCategories.xml",
+        "1.4/Languages/Russian/DefInjected/ThingDef/BuildingsA_Pipes.xml",
+        "1.4/Languages/Russian/DefInjected/ThingDef/BuildingsB_Hygiene.xml",
+        "1.4/Languages/Russian/DefInjected/ThingDef/BuildingsC_Joy.xml",
+        "1.4/Languages/Russian/DefInjected/ThingDef/BuildingsD_WaterManagement.xml",
+        "1.4/Languages/Russian/DefInjected/ThingDef/BuildingsE_Heating.xml",
+        "1.4/Languages/Russian/DefInjected/ThingDef/BuildingsF_Irrigation.xml",
+        "1.4/Languages/Russian/DefInjected/ThingDef/Filth_Various.xml",
+        "1.4/Languages/Russian/DefInjected/ThingDef/Items_Resource_Stuff.xml",
+        "1.4/Languages/Russian/DefInjected/ThingDef/_Terrain_Extra.xml",
+        "1.4/Languages/Russian/DefInjected/ThingDef/_Things_Mote.xml",
+        "1.4/Languages/Russian/DefInjected/ThoughtDef/Thoughts_Memory_Hygiene.xml",
+        "1.4/Languages/Russian/DefInjected/ThoughtDef/Thoughts_Situation_Needs.xml",
+        "1.4/Languages/Russian/DefInjected/WorkGiverDef/WorkGivers.xml",
+        "1.4/Languages/Russian/Keyed/DubsHygiene.xml",
+        "1.5/Languages/Russian/DefInjected/DesignationCategoryDef/DesignationCategories.xml",
+        "1.5/Languages/Russian/DefInjected/DubsBadHygiene.DubsModOptions/ModOptions.xml",
+        "1.5/Languages/Russian/DefInjected/HediffDef/Hediffs_Hygiene.xml",
+        "1.5/Languages/Russian/DefInjected/IncidentDef/Incidents_Map_Misc.xml",
+        "1.5/Languages/Russian/DefInjected/JobDef/Jobs_Hygiene.xml",
+        "1.5/Languages/Russian/DefInjected/KeyBindingCategoryDef/KeyBindingCategories_Add_Architect.xml",
+        "1.5/Languages/Russian/DefInjected/NeedDef/Needs_Misc.xml",
+        "1.5/Languages/Russian/DefInjected/RecipeDef/Recipes_Production.xml",
+        "1.5/Languages/Russian/DefInjected/ResearchProjectDef/ResearchProjects_Hygiene.xml",
+        "1.5/Languages/Russian/DefInjected/ResearchTabDef/ResearchProjects_Hygiene.xml",
+        "1.5/Languages/Russian/DefInjected/RoomRoleDef/RoomRoles.xml",
+        "1.5/Languages/Russian/DefInjected/ThingCategoryDef/ThingCategories.xml",
+        "1.5/Languages/Russian/DefInjected/ThingDef/BuildingsA_Pipes.xml",
+        "1.5/Languages/Russian/DefInjected/ThingDef/BuildingsB_Hygiene.xml",
+        "1.5/Languages/Russian/DefInjected/ThingDef/BuildingsC_Joy.xml",
+        "1.5/Languages/Russian/DefInjected/ThingDef/BuildingsD_WaterManagement.xml",
+        "1.5/Languages/Russian/DefInjected/ThingDef/BuildingsE_Heating.xml",
+        "1.5/Languages/Russian/DefInjected/ThingDef/BuildingsF_Irrigation.xml",
+        "1.5/Languages/Russian/DefInjected/ThingDef/Filth_Various.xml",
+        "1.5/Languages/Russian/DefInjected/ThingDef/Items_Resource_Stuff.xml",
+        "1.5/Languages/Russian/DefInjected/ThingDef/_Terrain_Extra.xml",
+        "1.5/Languages/Russian/DefInjected/ThingDef/_Things_Mote.xml",
+        "1.5/Languages/Russian/DefInjected/ThoughtDef/Thoughts_Memory_Hygiene.xml",
+        "1.5/Languages/Russian/DefInjected/ThoughtDef/Thoughts_Situation_Needs.xml",
+        "1.5/Languages/Russian/DefInjected/WorkGiverDef/WorkGivers.xml",
+        "1.5/Languages/Russian/Keyed/DubsHygiene.xml",
+        "1.6/Languages/Russian/DefInjected/DesignationCategoryDef/DesignationCategories.xml",
+        "1.6/Languages/Russian/DefInjected/DubsBadHygiene.DubsModOptions/ModOptions.xml",
+        "1.6/Languages/Russian/DefInjected/HediffDef/Hediffs_Hygiene.xml",
+        "1.6/Languages/Russian/DefInjected/IncidentDef/Incidents_Map_Misc.xml",
+        "1.6/Languages/Russian/DefInjected/JobDef/Jobs_Hygiene.xml",
+        "1.6/Languages/Russian/DefInjected/KeyBindingCategoryDef/KeyBindingCategories_Add_Architect.xml",
+        "1.6/Languages/Russian/DefInjected/NeedDef/Needs_Misc.xml",
+        "1.6/Languages/Russian/DefInjected/RecipeDef/Recipes_Production.xml",
+        "1.6/Languages/Russian/DefInjected/ResearchProjectDef/ResearchProjects_Hygiene.xml",
+        "1.6/Languages/Russian/DefInjected/ResearchTabDef/ResearchProjects_Hygiene.xml",
+        "1.6/Languages/Russian/DefInjected/RoomRoleDef/RoomRoles.xml",
+        "1.6/Languages/Russian/DefInjected/ThingCategoryDef/ThingCategories.xml",
+        "1.6/Languages/Russian/DefInjected/ThingDef/BuildingsA_Pipes.xml",
+        "1.6/Languages/Russian/DefInjected/ThingDef/BuildingsB_Hygiene.xml",
+        "1.6/Languages/Russian/DefInjected/ThingDef/BuildingsC_Joy.xml",
+        "1.6/Languages/Russian/DefInjected/ThingDef/BuildingsD_WaterManagement.xml",
+        "1.6/Languages/Russian/DefInjected/ThingDef/BuildingsE_Heating.xml",
+        "1.6/Languages/Russian/DefInjected/ThingDef/BuildingsF_Irrigation.xml",
+        "1.6/Languages/Russian/DefInjected/ThingDef/Filth_Various.xml",
+        "1.6/Languages/Russian/DefInjected/ThingDef/Items_Resource_Stuff.xml",
+        "1.6/Languages/Russian/DefInjected/ThingDef/_Terrain_Extra.xml",
+        "1.6/Languages/Russian/DefInjected/ThingDef/_Things_Mote.xml",
+        "1.6/Languages/Russian/DefInjected/ThoughtDef/Thoughts_Memory_Hygiene.xml",
+        "1.6/Languages/Russian/DefInjected/ThoughtDef/Thoughts_Situation_Needs.xml",
+        "1.6/Languages/Russian/DefInjected/WorkGiverDef/WorkGivers.xml",
+        "1.6/Languages/Russian/Keyed/DubsHygiene.xml",
+        "1.7/Languages/Russian/DefInjected/DesignationCategoryDef/DesignationCategories.xml",
+        "1.7/Languages/Russian/DefInjected/DubsBadHygiene.DubsModOptions/ModOptions.xml",
+        "1.7/Languages/Russian/DefInjected/HediffDef/Hediffs_Hygiene.xml",
+        "1.7/Languages/Russian/DefInjected/IncidentDef/Incidents_Map_Misc.xml",
+        "1.7/Languages/Russian/DefInjected/JobDef/Jobs_Hygiene.xml",
+        "1.7/Languages/Russian/DefInjected/KeyBindingCategoryDef/KeyBindingCategories_Add_Architect.xml",
+        "1.7/Languages/Russian/DefInjected/NeedDef/Needs_Misc.xml",
+        "1.7/Languages/Russian/DefInjected/RecipeDef/Recipes_Production.xml",
+        "1.7/Languages/Russian/DefInjected/ResearchProjectDef/ResearchProjects_Hygiene.xml",
+        "1.7/Languages/Russian/DefInjected/ResearchTabDef/ResearchProjects_Hygiene.xml",
+        "1.7/Languages/Russian/DefInjected/RoomRoleDef/RoomRoles.xml",
+        "1.7/Languages/Russian/DefInjected/ThingCategoryDef/ThingCategories.xml",
+        "1.7/Languages/Russian/DefInjected/ThingDef/BuildingsA_Pipes.xml",
+        "1.7/Languages/Russian/DefInjected/ThingDef/BuildingsB_Hygiene.xml",
+        "1.7/Languages/Russian/DefInjected/ThingDef/BuildingsC_Joy.xml",
+        "1.7/Languages/Russian/DefInjected/ThingDef/BuildingsD_WaterManagement.xml",
+        "1.7/Languages/Russian/DefInjected/ThingDef/BuildingsE_Heating.xml",
+        "1.7/Languages/Russian/DefInjected/ThingDef/BuildingsF_Irrigation.xml",
+        "1.7/Languages/Russian/DefInjected/ThingDef/Filth_Various.xml",
+        "1.7/Languages/Russian/DefInjected/ThingDef/Items_Resource_Stuff.xml",
+        "1.7/Languages/Russian/DefInjected/ThingDef/_Terrain_Extra.xml",
+        "1.7/Languages/Russian/DefInjected/ThingDef/_Things_Mote.xml",
+        "1.7/Languages/Russian/DefInjected/ThoughtDef/Thoughts_Memory_Hygiene.xml",
+        "1.7/Languages/Russian/DefInjected/ThoughtDef/Thoughts_Situation_Needs.xml",
+        "1.7/Languages/Russian/DefInjected/WorkGiverDef/WorkGivers.xml",
+        "1.7/Languages/Russian/Keyed/DubsHygiene.xml"
+      ]
+    },
+    {
+      "requested_repository": "Dubwise56/Dubs-Mint-Menus",
+      "repository": "Dubwise56/Dubs-Mint-Menus",
+      "repository_url": "https://github.com/Dubwise56/Dubs-Mint-Menus",
+      "checked_at": "2026-10-28T09:27:28.553314+00:00",
+      "default_branch": "master",
+      "head_commit": "2a72b0e5b0d75f289ca9c0556983194a27444c78",
+      "tree_sha": "2a72b0e5b0d75f289ca9c0556983194a27444c78",
+      "tree_truncated": false,
+      "activity": {
+        "pushed_at": "2026-10-19T17:25:58Z",
+        "updated_at": "2026-10-19T17:25:02Z",
+        "archived": false,
+        "disabled": false,
+        "last_commit_at": "2026-10-19T17:24:53Z"
+      },
+      "license_metadata": null,
+      "license_files": [],
+      "abouts_checked": [
+        {
+          "path": "About/About.xml",
+          "blob_sha": "0d7c91d69e96726349be33950f707b43e4744367",
+          "package_id": "dubwise.dubsmintmenus",
+          "url": "https://github.com/Dubwise56/Dubs-Mint-Menus/blob/2a72b0e5b0d75f289ca9c0556983194a27444c78/About/About.xml"
+        }
+      ],
+      "about_candidates_total": 1,
+      "contribution_instructions": {
+        "dedicated_files": [],
+        "examined_docs": [
+          {
+            "path": "README.md",
+            "blob_sha": "f907b41fbb9a881335443168a91b3262950be746",
+            "url": "https://github.com/Dubwise56/Dubs-Mint-Menus/blob/2a72b0e5b0d75f289ca9c0556983194a27444c78/README.md",
+            "ai_related_terms_present": false
+          }
+        ],
+        "ai_policy_review": "read_document_manually_if_ai_related_terms_present; absence_of_terms_is_not_author_permission"
+      },
+      "source_api": "https://api.github.com/repos/Dubwise56/Dubs-Mint-Menus",
+      "russian_language_paths": []
+    },
+    {
+      "requested_repository": "Dubwise56/Dubs-Mint-Minimap",
+      "repository": "Dubwise56/Dubs-Mint-Minimap",
+      "repository_url": "https://github.com/Dubwise56/Dubs-Mint-Minimap",
+      "checked_at": "2026-10-28T09:27:28.553689+00:00",
+      "default_branch": "master",
+      "head_commit": "c71fd81e458be3928c58e99273bb1ad35cf8ea78",
+      "tree_sha": "c71fd81e458be3928c58e99273bb1ad35cf8ea78",
+      "tree_truncated": false,
+      "activity": {
+        "pushed_at": "2026-10-17T15:01:18Z",
+        "updated_at": "2026-10-17T15:01:22Z",
+        "archived": false,
+        "disabled": false,
+        "last_commit_at": "2026-10-17T15:01:15Z"
+      },
+      "license_metadata": null,
+      "license_files": [],
+      "abouts_checked": [
+        {
+          "path": "About/About.xml",
+          "blob_sha": "06f5485a921a5c4f89e499bc0a49d4f41570bcdb",
+          "package_id": "dubwise.dubsmintminimap",
+          "url": "https://github.com/Dubwise56/Dubs-Mint-Minimap/blob/c71fd81e458be3928c58e99273bb1ad35cf8ea78/About/About.xml"
+        }
+      ],
+      "about_candidates_total": 1,
+      "contribution_instructions": {
+        "dedicated_files": [],
+        "examined_docs": [
+          {
+            "path": "README.md",
+            "blob_sha": "28da0e9f6ed1438bf78d108977eb468911320470",
+            "url": "https://github.com/Dubwise56/Dubs-Mint-Minimap/blob/c71fd81e458be3928c58e99273bb1ad35cf8ea78/README.md",
+            "ai_related_terms_present": false
+          }
+        ],
+        "ai_policy_review": "read_document_manually_if_ai_related_terms_present; absence_of_terms_is_not_author_permission"
+      },
+      "source_api": "https://api.github.com/repos/Dubwise56/Dubs-Mint-Minimap",
+      "russian_language_paths": []
+    },
+    {
+      "requested_repository": "Dubwise56/Rimatomics",
+      "repository": "Dubwise56/Rimatomics",
+      "repository_url": "https://github.com/Dubwise56/Rimatomics",
+      "checked_at": "2026-10-28T09:27:28.553809+00:00",
+      "default_branch": "master",
+      "head_commit": "de328ca971de38ffef6dd5e5054a27105e279d01",
+      "tree_sha": "de328ca971de38ffef6dd5e5054a27105e279d01",
+      "tree_truncated": false,
+      "activity": {
+        "pushed_at": "2026-10-23T16:44:31Z",
+        "updated_at": "2026-10-23T16:42:44Z",
+        "archived": false,
+        "disabled": false,
+        "last_commit_at": "2026-10-23T16:42:36Z"
+      },
+      "license_metadata": null,
+      "license_files": [],
+      "abouts_checked": [
+        {
+          "path": "About/About.xml",
+          "blob_sha": "71923eb91184cafef9fa6144f168fc9ed8f0947f",
+          "package_id": "dubwise.rimatomics",
+          "url": "https://github.com/Dubwise56/Rimatomics/blob/de328ca971de38ffef6dd5e5054a27105e279d01/About/About.xml"
+        }
+      ],
+      "about_candidates_total": 1,
+      "contribution_instructions": {
+        "dedicated_files": [],
+        "examined_docs": [
+          {
+            "path": "README.md",
+            "blob_sha": "0f2bb0ab894536c64c17e5710452931c6f74106c",
+            "url": "https://github.com/Dubwise56/Rimatomics/blob/de328ca971de38ffef6dd5e5054a27105e279d01/README.md",
+            "ai_related_terms_present": false
+          }
+        ],
+        "ai_policy_review": "read_document_manually_if_ai_related_terms_present; absence_of_terms_is_not_author_permission"
+      },
+      "source_api": "https://api.github.com/repos/Dubwise56/Rimatomics",
+      "russian_language_paths": [
+        "1.7/Languages/Russian/DefInjected/HediffDef/Rimatomics_ADSPain.xml",
+        "1.7/Languages/Russian/DefInjected/Rimatomics.DubsModOptions/Rimatomics_PlutoniumSpeed.xml",
+        "1.7/Languages/Russian/Keyed/Rimatomics.xml",
+        "Languages/Russian/DefInjected/DamageDef/Damages_LocalInjury.xml",
+        "Languages/Russian/DefInjected/DesignationCategoryDef/DesignationCategories.xml",
+        "Languages/Russian/DefInjected/GameConditionDef/GameConditions_Misc.xml",
+        "Languages/Russian/DefInjected/HediffDef/Hediffs_Global_Misc.xml",
+        "Languages/Russian/DefInjected/HediffDef/Iodine.xml",
+        "Languages/Russian/DefInjected/IncidentDef/Incidents_Rimatomics.xml",
+        "Languages/Russian/DefInjected/JobDef/Jobs_Work.xml",
+        "Languages/Russian/DefInjected/KeyBindingCategoryDef/KeyBindingCategories_Add_Architect.xml",
+        "Languages/Russian/DefInjected/RecipeDef/Recipes_Add_Administer.xml",
+        "Languages/Russian/DefInjected/RecipeDef/Recipes_Add_Make.xml",
+        "Languages/Russian/DefInjected/RecipeDef/Recipes_Production.xml",
+        "Languages/Russian/DefInjected/ResearchProjectDef/ResearchProjects_RimatomicsActivate.xml",
+        "Languages/Russian/DefInjected/ResearchTabDef/ResearchTabs.xml",
+        "Languages/Russian/DefInjected/Rimatomics.ResearchStepDef/Rimatomics_Projects.xml",
+        "Languages/Russian/DefInjected/Rimatomics.ResearchStepDef/Rimatomics_Upgrade.xml",
+        "Languages/Russian/DefInjected/Rimatomics.RimatomicResearchDef/Rimatomics_Projects.xml",
+        "Languages/Russian/DefInjected/Rimatomics.RimatomicResearchDef/Rimatomics_Upgrade.xml",
+        "Languages/Russian/DefInjected/StatDef/Stats_Pawns_Rimatomics.xml",
+        "Languages/Russian/DefInjected/ThingCategoryDef/ThingCategories.xml",
+        "Languages/Russian/DefInjected/ThingDef/Buildings_A_Pipes.xml",
+        "Languages/Russian/DefInjected/ThingDef/Buildings_B_Production.xml",
+        "Languages/Russian/DefInjected/ThingDef/Buildings_C_Power.xml",
+        "Languages/Russian/DefInjected/ThingDef/Buildings_D_Env.xml",
+        "Languages/Russian/DefInjected/ThingDef/Buildings_E_Weapons.xml",
+        "Languages/Russian/DefInjected/ThingDef/Filth_Various.xml",
+        "Languages/Russian/DefInjected/ThingDef/Iodine.xml",
+        "Languages/Russian/DefInjected/ThingDef/Missiles.xml",
+        "Languages/Russian/DefInjected/ThingDef/Nuclear.xml",
+        "Languages/Russian/DefInjected/ThingDef/RadSuits.xml",
+        "Languages/Russian/DefInjected/ThingDef/SabotRounds.xml",
+        "Languages/Russian/DefInjected/ThingDef/UpgradeParts.xml",
+        "Languages/Russian/DefInjected/ThingDef/_Things_Mote.xml",
+        "Languages/Russian/DefInjected/ThoughtDef/Thoughts_Memory_Tendself.xml",
+        "Languages/Russian/DefInjected/TraderKindDef/TraderKinds_Orbital_Misc.xml",
+        "Languages/Russian/DefInjected/WorkGiverDef/WorkGivers.xml",
+        "Languages/Russian/DefInjected/WorldObjectDef/WorldObjects.xml",
+        "Languages/Russian/Keyed/Rimatomics.xml",
+        "Languages/Russian/Описание.txt",
+        "Languages/Russian/Пометка от переводчика.txt"
+      ]
+    },
+    {
+      "requested_repository": "Dubwise56/Rimefeller",
+      "repository": "Dubwise56/Rimefeller",
+      "repository_url": "https://github.com/Dubwise56/Rimefeller",
+      "checked_at": "2026-10-28T09:27:28.554373+00:00",
+      "default_branch": "master",
+      "head_commit": "ab45267f1dd807c65b827feb58dba81df8450cfd",
+      "tree_sha": "ab45267f1dd807c65b827feb58dba81df8450cfd",
+      "tree_truncated": false,
+      "activity": {
+        "pushed_at": "2026-10-22T18:52:19Z",
+        "updated_at": "2026-10-22T18:48:58Z",
+        "archived": false,
+        "disabled": false,
+        "last_commit_at": "2026-10-22T18:48:51Z"
+      },
+      "license_metadata": null,
+      "license_files": [],
+      "abouts_checked": [
+        {
+          "path": "About/About.xml",
+          "blob_sha": "c282d27108dcd77f0c467d3d08c286f4686a56a2",
+          "package_id": "dubwise.rimefeller",
+          "url": "https://github.com/Dubwise56/Rimefeller/blob/ab45267f1dd807c65b827feb58dba81df8450cfd/About/About.xml"
+        }
+      ],
+      "about_candidates_total": 1,
+      "contribution_instructions": {
+        "dedicated_files": [],
+        "examined_docs": [
+          {
+            "path": "README.md",
+            "blob_sha": "330357f48b746b91cb53903c0d0f3b1fee9cfb91",
+            "url": "https://github.com/Dubwise56/Rimefeller/blob/ab45267f1dd807c65b827feb58dba81df8450cfd/README.md",
+            "ai_related_terms_present": false
+          }
+        ],
+        "ai_policy_review": "read_document_manually_if_ai_related_terms_present; absence_of_terms_is_not_author_permission"
+      },
+      "source_api": "https://api.github.com/repos/Dubwise56/Rimefeller",
+      "russian_language_paths": [
+        "Languages/Russian/Definjected/DesignationCategoryDef/DesignationCategories.xml",
+        "Languages/Russian/Definjected/IncidentDef/Incidents_Map_Misc.xml",
+        "Languages/Russian/Definjected/JobDef/Jobs_Rimefeller.xml",
+        "Languages/Russian/Definjected/KeyBindingCategoryDef/KeyBindingCategories_Add_Architect.xml",
+        "Languages/Russian/Definjected/RecipeDef/Recipes_Add_Make.xml",
+        "Languages/Russian/Definjected/RecipeDef/Recipes_Production.xml",
+        "Languages/Russian/Definjected/ResearchProjectDef/ResearchProjects_Rimefeller.xml",
+        "Languages/Russian/Definjected/ResearchProjectDef/ResearchProjects_Rimefeller_CE_FSX.xml",
+        "Languages/Russian/Definjected/ResearchTabDef/ResearchProjects_Rimefeller.xml",
+        "Languages/Russian/Definjected/Rimefeller.DubsModOptions/ModOptions.xml",
+        "Languages/Russian/Definjected/StuffCategoryDef/ThingCategories.xml",
+        "Languages/Russian/Definjected/TerrainDef/Terrain_Floors_Synthylene.xml",
+        "Languages/Russian/Definjected/ThingCategoryDef/Items_Resource_Stuff.xml",
+        "Languages/Russian/Definjected/ThingCategoryDef/ThingCategories.xml",
+        "Languages/Russian/Definjected/ThingDef/BuildingsA_Pipes.xml",
+        "Languages/Russian/Definjected/ThingDef/BuildingsB_Oil.xml",
+        "Languages/Russian/Definjected/ThingDef/BuildingsB_Refining.xml",
+        "Languages/Russian/Definjected/ThingDef/BuildingsB_Refining_CE_FSX.xml",
+        "Languages/Russian/Definjected/ThingDef/Filth_Various.xml",
+        "Languages/Russian/Definjected/ThingDef/Items_Resource_Stuff.xml",
+        "Languages/Russian/Definjected/WorkGiverDef/WorkGivers.xml",
+        "Languages/Russian/Keyed/Rimefeller.xml"
+      ]
+    },
+    {
+      "requested_repository": "emipa606/ShowMeYourHands",
+      "repository": "emipa606/ShowMeYourHands",
+      "repository_url": "https://github.com/emipa606/ShowMeYourHands",
+      "checked_at": "2026-10-28T09:27:28.554829+00:00",
+      "default_branch": "main",
+      "head_commit": "cef425c47a9a8ca04499c5c9da6f79ef03a03b23",
+      "tree_sha": "cef425c47a9a8ca04499c5c9da6f79ef03a03b23",
+      "tree_truncated": false,
+      "activity": {
+        "pushed_at": "2026-10-08T18:57:30Z",
+        "updated_at": "2026-10-08T18:57:32Z",
+        "archived": false,
+        "disabled": false,
+        "last_commit_at": "2026-10-08T18:57:16Z"
+      },
+      "license_metadata": {
+        "key": "mit",
+        "name": "MIT License",
+        "spdx_id": "MIT",
+        "url": "https://api.github.com/licenses/mit",
+        "node_id": "MDc6TGljZW5zZTEz"
+      },
+      "license_files": [
+        {
+          "path": "LICENSE.md",
+          "blob_sha": "87b3f43584b2b669e03b69a546fc2dc5b7a29110",
+          "url": "https://github.com/emipa606/ShowMeYourHands/blob/cef425c47a9a8ca04499c5c9da6f79ef03a03b23/LICENSE.md"
+        }
+      ],
+      "abouts_checked": [
+        {
+          "path": "About/About.xml",
+          "blob_sha": "868272ea0b33d98502a85bd2fd1a3d66f1599673",
+          "package_id": "mlie.showmeyourhands",
+          "url": "https://github.com/emipa606/ShowMeYourHands/blob/cef425c47a9a8ca04499c5c9da6f79ef03a03b23/About/About.xml"
+        }
+      ],
+      "about_candidates_total": 1,
+      "contribution_instructions": {
+        "dedicated_files": [],
+        "examined_docs": [
+          {
+            "path": "README.md",
+            "blob_sha": "0fd2dcba81d722b90d2f69d17420d888a402c7b2",
+            "url": "https://github.com/emipa606/ShowMeYourHands/blob/cef425c47a9a8ca04499c5c9da6f79ef03a03b23/README.md",
+            "ai_related_terms_present": false
+          }
+        ],
+        "ai_policy_review": "read_document_manually_if_ai_related_terms_present; absence_of_terms_is_not_author_permission"
+      },
+      "source_api": "https://api.github.com/repos/emipa606/ShowMeYourHands",
+      "russian_language_paths": [
+        "Languages/Russian/DefInjected/ThingDef/Anomaly.xml",
+        "Languages/Russian/DefInjected/ThingDef/Biotech.xml",
+        "Languages/Russian/DefInjected/ThingDef/Core.xml",
+        "Languages/Russian/DefInjected/ThingDef/Odyssey.xml",
+        "Languages/Russian/DefInjected/ThingDef/OneOff.xml",
+        "Languages/Russian/DefInjected/ThingDef/Royalty.xml",
+        "Languages/Russian/Keyed/Mod_Settings.xml"
+      ]
+    },
+    {
+      "requested_repository": "Likewise87/World-Domination",
+      "repository": "Likewise87/World-Domination",
+      "repository_url": "https://github.com/Likewise87/World-Domination",
+      "checked_at": "2026-10-28T09:27:32.627068+00:00",
+      "default_branch": "main",
+      "head_commit": "23bf7822e744026382adc617bd8f2d0972c4cf16",
+      "tree_sha": "23bf7822e744026382adc617bd8f2d0972c4cf16",
+      "tree_truncated": false,
+      "activity": {
+        "pushed_at": "2026-10-16T09:08:22Z",
+        "updated_at": "2026-10-16T09:08:26Z",
+        "archived": false,
+        "disabled": false,
+        "last_commit_at": "2026-10-16T09:08:18Z"
+      },
+      "license_metadata": null,
+      "license_files": [],
+      "abouts_checked": [
+        {
+          "path": "About/About.xml",
+          "blob_sha": "e72a0e57b80694e6bc845cd4bb6ff915cf2d64c4",
+          "package_id": "tsa.worlddomination",
+          "url": "https://github.com/Likewise87/World-Domination/blob/23bf7822e744026382adc617bd8f2d0972c4cf16/About/About.xml"
+        }
+      ],
+      "about_candidates_total": 1,
+      "contribution_instructions": {
+        "dedicated_files": [],
+        "examined_docs": [],
+        "ai_policy_review": "read_document_manually_if_ai_related_terms_present; absence_of_terms_is_not_author_permission"
+      },
+      "source_api": "https://api.github.com/repos/Likewise87/World-Domination",
+      "russian_language_paths": []
+    },
+    {
+      "requested_repository": "lilwhitemouse/RimWorld-LWM.DeepStorage",
+      "repository": "lilwhitemouse/RimWorld-LWM.DeepStorage",
+      "repository_url": "https://github.com/lilwhitemouse/RimWorld-LWM.DeepStorage",
+      "checked_at": "2026-10-28T09:27:32.631668+00:00",
+      "default_branch": "master",
+      "head_commit": "fe53650ab2c54056eb9e4cd8b8733083dc2eee77",
+      "tree_sha": "fe53650ab2c54056eb9e4cd8b8733083dc2eee77",
+      "tree_truncated": false,
+      "activity": {
+        "pushed_at": "2024-06-09T17:19:36Z",
+        "updated_at": "2026-06-24T04:11:24Z",
+        "archived": false,
+        "disabled": false,
+        "last_commit_at": "2024-06-09T17:03:51Z"
+      },
+      "license_metadata": {
+        "key": "gpl-3.0",
+        "name": "GNU General Public License v3.0",
+        "spdx_id": "GPL-3.0",
+        "url": "https://api.github.com/licenses/gpl-3.0",
+        "node_id": "MDc6TGljZW5zZTk="
+      },
+      "license_files": [
+        {
+          "path": "LICENSE",
+          "blob_sha": "f288702d2fa16d3cdf0035b15a9fcbc552cd88e7",
+          "url": "https://github.com/lilwhitemouse/RimWorld-LWM.DeepStorage/blob/fe53650ab2c54056eb9e4cd8b8733083dc2eee77/LICENSE"
+        }
+      ],
+      "abouts_checked": [
+        {
+          "path": "_Mod/LWM.DeepStorage/About/About.xml",
+          "blob_sha": "e24da04bcdbd082f8309f8b613cd247693f07f01",
+          "package_id": "lwm.deepstorage",
+          "url": "https://github.com/lilwhitemouse/RimWorld-LWM.DeepStorage/blob/fe53650ab2c54056eb9e4cd8b8733083dc2eee77/_Mod/LWM.DeepStorage/About/About.xml"
+        }
+      ],
+      "about_candidates_total": 1,
+      "contribution_instructions": {
+        "dedicated_files": [],
+        "examined_docs": [
+          {
+            "path": "README.md",
+            "blob_sha": "4533c1cec66b098647f5a62d644ab250003fb2f0",
+            "url": "https://github.com/lilwhitemouse/RimWorld-LWM.DeepStorage/blob/fe53650ab2c54056eb9e4cd8b8733083dc2eee77/README.md",
+            "ai_related_terms_present": false
+          }
+        ],
+        "ai_policy_review": "read_document_manually_if_ai_related_terms_present; absence_of_terms_is_not_author_permission"
+      },
+      "source_api": "https://api.github.com/repos/lilwhitemouse/RimWorld-LWM.DeepStorage",
+      "russian_language_paths": [
+        "_Mod/LWM.DeepStorage/Languages/Russian/DefInjected/DesignationCategoryDef/DesignationCategoryDefs.xml",
+        "_Mod/LWM.DeepStorage/Languages/Russian/DefInjected/KeyBindingCategoryDef/KeyBindingCategories_Add_Architect.xml",
+        "_Mod/LWM.DeepStorage/Languages/Russian/DefInjected/StatCategoryDef/StatDefs.xml",
+        "_Mod/LWM.DeepStorage/Languages/Russian/DefInjected/ThingDef/Deep_Storage.xml",
+        "_Mod/LWM.DeepStorage/Languages/Russian/DefInjected/ThingDef/Weapon_Lockers.xml",
+        "_Mod/LWM.DeepStorage/Languages/Russian/Keyed/LWM.DeepStorage.Keys.xml",
+        "_Mod/LWM.DeepStorage/Languages/Russian/Keyed/LWM.Settings.Keys.xml"
+      ]
+    },
+    {
+      "requested_repository": "m00nl1ght-dev/MapPreview",
+      "repository": "m00nl1ght-dev/MapPreview",
+      "repository_url": "https://github.com/m00nl1ght-dev/MapPreview",
+      "checked_at": "2026-10-28T09:27:32.817659+00:00",
+      "default_branch": "main",
+      "head_commit": "8bedaa489a5ea4240749704517df0f0daaa00711",
+      "tree_sha": "8bedaa489a5ea4240749704517df0f0daaa00711",
+      "tree_truncated": false,
+      "activity": {
+        "pushed_at": "2026-10-25T03:28:32Z",
+        "updated_at": "2026-10-25T03:28:06Z",
+        "archived": false,
+        "disabled": false,
+        "last_commit_at": "2026-10-25T03:14:21Z"
+      },
+      "license_metadata": {
+        "key": "other",
+        "name": "Other",
+        "spdx_id": "NOASSERTION",
+        "url": null,
+        "node_id": "MDc6TGljZW5zZTA="
+      },
+      "license_files": [
+        {
+          "path": "LICENSE",
+          "blob_sha": "14b0e059f54066ac051c7dbe2aef06a21bfa422f",
+          "url": "https://github.com/m00nl1ght-dev/MapPreview/blob/8bedaa489a5ea4240749704517df0f0daaa00711/LICENSE"
+        }
+      ],
+      "abouts_checked": [
+        {
+          "path": "About/About.xml",
+          "blob_sha": "25d647222c2dc2600d64241192946a138decb286",
+          "package_id": "m00nl1ght.mappreview",
+          "url": "https://github.com/m00nl1ght-dev/MapPreview/blob/8bedaa489a5ea4240749704517df0f0daaa00711/About/About.xml"
+        }
+      ],
+      "about_candidates_total": 1,
+      "contribution_instructions": {
+        "dedicated_files": [],
+        "examined_docs": [
+          {
+            "path": "README.md",
+            "blob_sha": "ca6e0c7121e4e104a153e7d8d2bf981eeb00ab17",
+            "url": "https://github.com/m00nl1ght-dev/MapPreview/blob/8bedaa489a5ea4240749704517df0f0daaa00711/README.md",
+            "ai_related_terms_present": false
+          }
+        ],
+        "ai_policy_review": "read_document_manually_if_ai_related_terms_present; absence_of_terms_is_not_author_permission"
+      },
+      "source_api": "https://api.github.com/repos/m00nl1ght-dev/MapPreview",
+      "russian_language_paths": [
+        "1.3/Languages/Russian/Keyed/Keys.xml",
+        "1.4/Languages/Russian/Keyed/Keys.xml",
+        "1.5/Languages/Russian/Keyed/Keys.xml",
+        "1.6/Languages/Russian/Keyed/Keys.xml",
+        "1.7/Languages/Russian/Keyed/Keys.xml"
+      ]
+    },
+    {
+      "requested_repository": "MemeGoddess/GiddyUp2",
+      "repository": "MemeGoddess/GiddyUp2",
+      "repository_url": "https://github.com/MemeGoddess/GiddyUp2",
+      "checked_at": "2026-10-28T09:27:33.287228+00:00",
+      "default_branch": "master",
+      "head_commit": "03dc8455eb544bff7c6e13187eaff9915679b2ad",
+      "tree_sha": "03dc8455eb544bff7c6e13187eaff9915679b2ad",
+      "tree_truncated": false,
+      "activity": {
+        "pushed_at": "2026-10-22T15:09:16Z",
+        "updated_at": "2026-10-22T15:09:22Z",
+        "archived": false,
+        "disabled": false,
+        "last_commit_at": "2026-10-22T15:09:07Z"
+      },
+      "license_metadata": null,
+      "license_files": [],
+      "abouts_checked": [
+        {
+          "path": "About/About.xml",
+          "blob_sha": "08b72b3bb2e67ffb621361d03294a2f9895e0d69",
+          "package_id": "memegoddess.giddyup",
+          "url": "https://github.com/MemeGoddess/GiddyUp2/blob/03dc8455eb544bff7c6e13187eaff9915679b2ad/About/About.xml"
+        }
+      ],
+      "about_candidates_total": 1,
+      "contribution_instructions": {
+        "dedicated_files": [],
+        "examined_docs": [
+          {
+            "path": "README.md",
+            "blob_sha": "132f0863abd3459097c744b5b2533d55a6b57827",
+            "url": "https://github.com/MemeGoddess/GiddyUp2/blob/03dc8455eb544bff7c6e13187eaff9915679b2ad/README.md",
+            "ai_related_terms_present": false
+          }
+        ],
+        "ai_policy_review": "read_document_manually_if_ai_related_terms_present; absence_of_terms_is_not_author_permission"
+      },
+      "source_api": "https://api.github.com/repos/MemeGoddess/GiddyUp2",
+      "russian_language_paths": [
+        "Languages/Russian/DefInjected/BattleMounts_ConceptDefs.xml",
+        "Languages/Russian/DefInjected/ConceptDefs.xml",
+        "Languages/Russian/DefInjected/JobDef/Jobs.xml",
+        "Languages/Russian/DefInjected/PawnColumnDef/PawnColumn_Checkbox.xml",
+        "Languages/Russian/DefInjected/UpdateFeatures.xml",
+        "Languages/Russian/Keyed/BattleMounts_Keys.xml",
+        "Languages/Russian/Keyed/GiddyUpCaravan_Keys.xml",
+        "Languages/Russian/Keyed/GiddyUpCore_Keys.xml",
+        "Languages/Russian/Keyed/GiddyUpRideAndRoll_Keys.xml"
+      ]
+    },
+    {
+      "requested_repository": "AndroidQuazar/VanillaAchievementsExpanded",
+      "repository": "AndroidQuazar/VanillaAchievementsExpanded",
+      "repository_url": "https://github.com/AndroidQuazar/VanillaAchievementsExpanded",
+      "checked_at": "2026-10-28T09:27:33.290281+00:00",
+      "default_branch": "master",
+      "head_commit": "bc0a6cf9ca13ccd30dc971aa1c578859299571a2",
+      "tree_sha": "bc0a6cf9ca13ccd30dc971aa1c578859299571a2",
+      "tree_truncated": false,
+      "activity": {
+        "pushed_at": "2022-02-12T18:17:42Z",
+        "updated_at": "2021-09-22T03:26:51Z",
+        "archived": false,
+        "disabled": false,
+        "last_commit_at": "2021-08-21T15:10:08Z"
+      },
+      "license_metadata": null,
+      "license_files": [],
+      "abouts_checked": [
+        {
+          "path": "About/About.xml",
+          "blob_sha": "2a453aa9bb07cd019fd8cf593d5366e99d6abb4c",
+          "package_id": "vanillaexpanded.achievements",
+          "url": "https://github.com/AndroidQuazar/VanillaAchievementsExpanded/blob/bc0a6cf9ca13ccd30dc971aa1c578859299571a2/About/About.xml"
+        }
+      ],
+      "about_candidates_total": 1,
+      "contribution_instructions": {
+        "dedicated_files": [],
+        "examined_docs": [
+          {
+            "path": "README.md",
+            "blob_sha": "03f3f64f630de93ecb48254831969a0dedbde39a",
+            "url": "https://github.com/AndroidQuazar/VanillaAchievementsExpanded/blob/bc0a6cf9ca13ccd30dc971aa1c578859299571a2/README.md",
+            "ai_related_terms_present": false
+          }
+        ],
+        "ai_policy_review": "read_document_manually_if_ai_related_terms_present; absence_of_terms_is_not_author_permission"
+      },
+      "source_api": "https://api.github.com/repos/AndroidQuazar/VanillaAchievementsExpanded",
+      "russian_language_paths": []
+    },
+    {
+      "requested_repository": "bbradson/Adaptive-Storage-Framework",
+      "repository": "bbradson/Adaptive-Storage-Framework",
+      "repository_url": "https://github.com/bbradson/Adaptive-Storage-Framework",
+      "checked_at": "2026-10-28T09:27:34.036130+00:00",
+      "default_branch": "main",
+      "head_commit": "31ee88b46651cfbe37da3f89620bc0b907165cc0",
+      "tree_sha": "31ee88b46651cfbe37da3f89620bc0b907165cc0",
+      "tree_truncated": false,
+      "activity": {
+        "pushed_at": "2026-03-26T20:45:56Z",
+        "updated_at": "2026-06-24T04:10:58Z",
+        "archived": false,
+        "disabled": false,
+        "last_commit_at": "2026-03-26T20:45:55Z"
+      },
+      "license_metadata": {
+        "key": "mit",
+        "name": "MIT License",
+        "spdx_id": "MIT",
+        "url": "https://api.github.com/licenses/mit",
+        "node_id": "MDc6TGljZW5zZTEz"
+      },
+      "license_files": [
+        {
+          "path": "LICENSE",
+          "blob_sha": "0963ba5eae76e2c69e97bd9d787ae5397e08f185",
+          "url": "https://github.com/bbradson/Adaptive-Storage-Framework/blob/31ee88b46651cfbe37da3f89620bc0b907165cc0/LICENSE"
+        }
+      ],
+      "abouts_checked": [
+        {
+          "path": "About/About.xml",
+          "blob_sha": "e27620d6209734230ee42c99bdcdb1eebfff55b0",
+          "package_id": "adaptive.storage.framework",
+          "url": "https://github.com/bbradson/Adaptive-Storage-Framework/blob/31ee88b46651cfbe37da3f89620bc0b907165cc0/About/About.xml"
+        }
+      ],
+      "about_candidates_total": 1,
+      "contribution_instructions": {
+        "dedicated_files": [],
+        "examined_docs": [
+          {
+            "path": "README.md",
+            "blob_sha": "8bf1e87c2a5adc178c4bc2686a61eaf110fb3b68",
+            "url": "https://github.com/bbradson/Adaptive-Storage-Framework/blob/31ee88b46651cfbe37da3f89620bc0b907165cc0/README.md",
+            "ai_related_terms_present": true
+          }
+        ],
+        "ai_policy_review": "read_document_manually_if_ai_related_terms_present; absence_of_terms_is_not_author_permission"
+      },
+      "source_api": "https://api.github.com/repos/bbradson/Adaptive-Storage-Framework",
+      "russian_language_paths": []
+    },
+    {
+      "requested_repository": "cmdprompt/OgreStack",
+      "repository": "cmdprompt/OgreStack",
+      "repository_url": "https://github.com/cmdprompt/OgreStack",
+      "checked_at": "2026-10-28T09:27:35.777911+00:00",
+      "default_branch": "master",
+      "head_commit": "33950195fa65f5cbaf6aa713fc7bb6399791252a",
+      "tree_sha": "33950195fa65f5cbaf6aa713fc7bb6399791252a",
+      "tree_truncated": false,
+      "activity": {
+        "pushed_at": "2024-03-14T18:58:57Z",
+        "updated_at": "2026-06-24T04:11:02Z",
+        "archived": false,
+        "disabled": false,
+        "last_commit_at": "2023-02-12T14:25:48Z"
+      },
+      "license_metadata": {
+        "key": "mit",
+        "name": "MIT License",
+        "spdx_id": "MIT",
+        "url": "https://api.github.com/licenses/mit",
+        "node_id": "MDc6TGljZW5zZTEz"
+      },
+      "license_files": [
+        {
+          "path": "license.md",
+          "blob_sha": "88b3db80e3cd731f6c548111e917e05d16eb21e8",
+          "url": "https://github.com/cmdprompt/OgreStack/blob/33950195fa65f5cbaf6aa713fc7bb6399791252a/license.md"
+        }
+      ],
+      "abouts_checked": [
+        {
+          "path": "_rimworld/About/About.xml",
+          "blob_sha": "f5b77d52a64587034649882258f058aafa120773",
+          "package_id": "ogre.ogrestack",
+          "url": "https://github.com/cmdprompt/OgreStack/blob/33950195fa65f5cbaf6aa713fc7bb6399791252a/_rimworld/About/About.xml"
+        }
+      ],
+      "about_candidates_total": 1,
+      "contribution_instructions": {
+        "dedicated_files": [],
+        "examined_docs": [],
+        "ai_policy_review": "read_document_manually_if_ai_related_terms_present; absence_of_terms_is_not_author_permission"
+      },
+      "source_api": "https://api.github.com/repos/cmdprompt/OgreStack",
+      "russian_language_paths": []
+    },
+    {
+      "requested_repository": "csh1668/YetAnotherResearchTree",
+      "repository": "csh1668/YetAnotherResearchTree",
+      "repository_url": "https://github.com/csh1668/YetAnotherResearchTree",
+      "checked_at": "2026-10-28T09:27:36.530356+00:00",
+      "default_branch": "main",
+      "head_commit": "6daf17cd978f412853fcca49999504652fb59d6d",
+      "tree_sha": "6daf17cd978f412853fcca49999504652fb59d6d",
+      "tree_truncated": false,
+      "activity": {
+        "pushed_at": "2026-10-24T04:09:44Z",
+        "updated_at": "2026-10-24T04:09:48Z",
+        "archived": false,
+        "disabled": false,
+        "last_commit_at": "2026-10-24T04:09:39Z"
+      },
+      "license_metadata": {
+        "key": "mit",
+        "name": "MIT License",
+        "spdx_id": "MIT",
+        "url": "https://api.github.com/licenses/mit",
+        "node_id": "MDc6TGljZW5zZTEz"
+      },
+      "license_files": [
+        {
+          "path": "LICENSE",
+          "blob_sha": "b33bf2da70342022db86b104bfdb3874eb3274d1",
+          "url": "https://github.com/csh1668/YetAnotherResearchTree/blob/6daf17cd978f412853fcca49999504652fb59d6d/LICENSE"
+        }
+      ],
+      "abouts_checked": [
+        {
+          "path": "About/About.xml",
+          "blob_sha": "6acdd6246f1ba91bb1be7eec360a93d5caff8cfe",
+          "package_id": "seohyeon.yart",
+          "url": "https://github.com/csh1668/YetAnotherResearchTree/blob/6daf17cd978f412853fcca49999504652fb59d6d/About/About.xml"
+        }
+      ],
+      "about_candidates_total": 1,
+      "contribution_instructions": {
+        "dedicated_files": [],
+        "examined_docs": [
+          {
+            "path": "README.md",
+            "blob_sha": "0840cc0db3198c6db302896c1f40156a0339fbbe",
+            "url": "https://github.com/csh1668/YetAnotherResearchTree/blob/6daf17cd978f412853fcca49999504652fb59d6d/README.md",
+            "ai_related_terms_present": false
+          }
+        ],
+        "ai_policy_review": "read_document_manually_if_ai_related_terms_present; absence_of_terms_is_not_author_permission"
+      },
+      "source_api": "https://api.github.com/repos/csh1668/YetAnotherResearchTree",
+      "russian_language_paths": []
+    },
+    {
+      "requested_repository": "ilyvion/ilyvion-laboratory",
+      "repository": "ilyvion/ilyvion-laboratory",
+      "repository_url": "https://github.com/ilyvion/ilyvion-laboratory",
+      "checked_at": "2026-10-28T09:27:36.619803+00:00",
+      "default_branch": "main",
+      "head_commit": "07684f243da852db8368ac9504cc6952dd9abb60",
+      "tree_sha": "07684f243da852db8368ac9504cc6952dd9abb60",
+      "tree_truncated": false,
+      "activity": {
+        "pushed_at": "2026-10-20T10:54:58Z",
+        "updated_at": "2026-10-20T10:55:02Z",
+        "archived": false,
+        "disabled": false,
+        "last_commit_at": "2026-10-20T10:54:50Z"
+      },
+      "license_metadata": {
+        "key": "other",
+        "name": "Other",
+        "spdx_id": "NOASSERTION",
+        "url": null,
+        "node_id": "MDc6TGljZW5zZTA="
+      },
+      "license_files": [
+        {
+          "path": "LICENSE",
+          "blob_sha": "953327ca79aa642375f2b280365a6e0cf9366a04",
+          "url": "https://github.com/ilyvion/ilyvion-laboratory/blob/07684f243da852db8368ac9504cc6952dd9abb60/LICENSE"
+        },
+        {
+          "path": "LICENSE.Apache-2.0",
+          "blob_sha": "d645695673349e3947e8e5ae42332d0ac3164cd7",
+          "url": "https://github.com/ilyvion/ilyvion-laboratory/blob/07684f243da852db8368ac9504cc6952dd9abb60/LICENSE.Apache-2.0"
+        },
+        {
+          "path": "LICENSE.Content",
+          "blob_sha": "9a63f841d5263e2d8177f9945784418580df30e3",
+          "url": "https://github.com/ilyvion/ilyvion-laboratory/blob/07684f243da852db8368ac9504cc6952dd9abb60/LICENSE.Content"
+        },
+        {
+          "path": "LICENSE.MIT",
+          "blob_sha": "12e4ae6a2a97e6440c26a91ebb1c9c88d57c2e06",
+          "url": "https://github.com/ilyvion/ilyvion-laboratory/blob/07684f243da852db8368ac9504cc6952dd9abb60/LICENSE.MIT"
+        }
+      ],
+      "abouts_checked": [
+        {
+          "path": "About/About.xml",
+          "blob_sha": "475fe5710687fbedfc52948dea7addc85103b600",
+          "package_id": "ilyvion.laboratory",
+          "url": "https://github.com/ilyvion/ilyvion-laboratory/blob/07684f243da852db8368ac9504cc6952dd9abb60/About/About.xml"
+        }
+      ],
+      "about_candidates_total": 1,
+      "contribution_instructions": {
+        "dedicated_files": [],
+        "examined_docs": [
+          {
+            "path": "README.md",
+            "blob_sha": "e16c2d9b466689b1e513750eb8f0324f0c0d0848",
+            "url": "https://github.com/ilyvion/ilyvion-laboratory/blob/07684f243da852db8368ac9504cc6952dd9abb60/README.md",
+            "ai_related_terms_present": false
+          }
+        ],
+        "ai_policy_review": "read_document_manually_if_ai_related_terms_present; absence_of_terms_is_not_author_permission"
+      },
+      "source_api": "https://api.github.com/repos/ilyvion/ilyvion-laboratory",
+      "russian_language_paths": []
+    },
+    {
+      "requested_repository": "ilyvion/loading-progress",
+      "repository": "ilyvion/loading-progress",
+      "repository_url": "https://github.com/ilyvion/loading-progress",
+      "checked_at": "2026-10-28T09:27:36.805664+00:00",
+      "default_branch": "main",
+      "head_commit": "a0247cad66bebd00de6526f0fe4a519f4bc6228a",
+      "tree_sha": "a0247cad66bebd00de6526f0fe4a519f4bc6228a",
+      "tree_truncated": false,
+      "activity": {
+        "pushed_at": "2026-10-21T09:16:42Z",
+        "updated_at": "2026-10-21T09:16:46Z",
+        "archived": false,
+        "disabled": false,
+        "last_commit_at": "2026-10-21T09:16:24Z"
+      },
+      "license_metadata": {
+        "key": "other",
+        "name": "Other",
+        "spdx_id": "NOASSERTION",
+        "url": null,
+        "node_id": "MDc6TGljZW5zZTA="
+      },
+      "license_files": [
+        {
+          "path": "LICENSE",
+          "blob_sha": "953327ca79aa642375f2b280365a6e0cf9366a04",
+          "url": "https://github.com/ilyvion/loading-progress/blob/a0247cad66bebd00de6526f0fe4a519f4bc6228a/LICENSE"
+        },
+        {
+          "path": "LICENSE.Apache-2.0",
+          "blob_sha": "d645695673349e3947e8e5ae42332d0ac3164cd7",
+          "url": "https://github.com/ilyvion/loading-progress/blob/a0247cad66bebd00de6526f0fe4a519f4bc6228a/LICENSE.Apache-2.0"
+        },
+        {
+          "path": "LICENSE.MIT",
+          "blob_sha": "bedd50ec9b1ed36243182c66ea888b58c679b730",
+          "url": "https://github.com/ilyvion/loading-progress/blob/a0247cad66bebd00de6526f0fe4a519f4bc6228a/LICENSE.MIT"
+        }
+      ],
+      "abouts_checked": [
+        {
+          "path": "About/About.xml",
+          "blob_sha": "7558f97a8f1e7b45f33d8df7cadad139844d8689",
+          "package_id": "ilyvion.loadingprogress",
+          "url": "https://github.com/ilyvion/loading-progress/blob/a0247cad66bebd00de6526f0fe4a519f4bc6228a/About/About.xml"
+        }
+      ],
+      "about_candidates_total": 1,
+      "contribution_instructions": {
+        "dedicated_files": [],
+        "examined_docs": [
+          {
+            "path": "README.md",
+            "blob_sha": "8bedb85691aee6fc0f796a2ee40d9e510c1a1765",
+            "url": "https://github.com/ilyvion/loading-progress/blob/a0247cad66bebd00de6526f0fe4a519f4bc6228a/README.md",
+            "ai_related_terms_present": false
+          }
+        ],
+        "ai_policy_review": "read_document_manually_if_ai_related_terms_present; absence_of_terms_is_not_author_permission"
+      },
+      "source_api": "https://api.github.com/repos/ilyvion/loading-progress",
+      "russian_language_paths": []
+    },
+    {
+      "requested_repository": "ilyvion/rimworld-utils",
+      "repository": "ilyvion/rimworld-utils",
+      "repository_url": "https://github.com/ilyvion/rimworld-utils",
+      "checked_at": "2026-10-28T09:27:37.214580+00:00",
+      "default_branch": "main",
+      "head_commit": "225d742fad5f91ca3efc2bf590bd26850ee394c5",
+      "tree_sha": "225d742fad5f91ca3efc2bf590bd26850ee394c5",
+      "tree_truncated": false,
+      "activity": {
+        "pushed_at": "2026-10-21T14:30:49Z",
+        "updated_at": "2026-10-21T14:32:53Z",
+        "archived": false,
+        "disabled": false,
+        "last_commit_at": "2026-10-21T07:56:20Z"
+      },
+      "license_metadata": {
+        "key": "other",
+        "name": "Other",
+        "spdx_id": "NOASSERTION",
+        "url": null,
+        "node_id": "MDc6TGljZW5zZTA="
+      },
+      "license_files": [
+        {
+          "path": "LICENSE",
+          "blob_sha": "953327ca79aa642375f2b280365a6e0cf9366a04",
+          "url": "https://github.com/ilyvion/rimworld-utils/blob/225d742fad5f91ca3efc2bf590bd26850ee394c5/LICENSE"
+        },
+        {
+          "path": "LICENSE.Apache-2.0",
+          "blob_sha": "d645695673349e3947e8e5ae42332d0ac3164cd7",
+          "url": "https://github.com/ilyvion/rimworld-utils/blob/225d742fad5f91ca3efc2bf590bd26850ee394c5/LICENSE.Apache-2.0"
+        },
+        {
+          "path": "LICENSE.MIT",
+          "blob_sha": "12e4ae6a2a97e6440c26a91ebb1c9c88d57c2e06",
+          "url": "https://github.com/ilyvion/rimworld-utils/blob/225d742fad5f91ca3efc2bf590bd26850ee394c5/LICENSE.MIT"
+        }
+      ],
+      "abouts_checked": [],
+      "about_candidates_total": 0,
+      "contribution_instructions": {
+        "dedicated_files": [],
+        "examined_docs": [],
+        "ai_policy_review": "read_document_manually_if_ai_related_terms_present; absence_of_terms_is_not_author_permission"
+      },
+      "source_api": "https://api.github.com/repos/ilyvion/rimworld-utils",
+      "russian_language_paths": []
+    },
+    {
+      "requested_repository": "ilyvion/SmashPhil-DevTools",
+      "repository": "ilyvion/SmashPhil-DevTools",
+      "repository_url": "https://github.com/ilyvion/SmashPhil-DevTools",
+      "checked_at": "2026-10-28T09:27:37.467787+00:00",
+      "default_branch": "develop",
+      "head_commit": "a73626d797cfeabbf6fd42ebd38dd13e80c12a2f",
+      "tree_sha": "a73626d797cfeabbf6fd42ebd38dd13e80c12a2f",
+      "tree_truncated": false,
+      "activity": {
+        "pushed_at": "2026-10-20T13:41:43Z",
+        "updated_at": "2026-10-20T13:41:50Z",
+        "archived": false,
+        "disabled": false,
+        "last_commit_at": "2026-10-20T13:39:20Z"
+      },
+      "license_metadata": {
+        "key": "mit",
+        "name": "MIT License",
+        "spdx_id": "MIT",
+        "url": "https://api.github.com/licenses/mit",
+        "node_id": "MDc6TGljZW5zZTEz"
+      },
+      "license_files": [
+        {
+          "path": "LICENSE",
+          "blob_sha": "52474b474b78f77023da289b3e850fab8160112d",
+          "url": "https://github.com/ilyvion/SmashPhil-DevTools/blob/a73626d797cfeabbf6fd42ebd38dd13e80c12a2f/LICENSE"
+        }
+      ],
+      "abouts_checked": [],
+      "about_candidates_total": 0,
+      "contribution_instructions": {
+        "dedicated_files": [],
+        "examined_docs": [
+          {
+            "path": "README.md",
+            "blob_sha": "a2dbe67d5ef90a78af8725cf20b3959f67a04b2e",
+            "url": "https://github.com/ilyvion/SmashPhil-DevTools/blob/a73626d797cfeabbf6fd42ebd38dd13e80c12a2f/README.md",
+            "ai_related_terms_present": false
+          }
+        ],
+        "ai_policy_review": "read_document_manually_if_ai_related_terms_present; absence_of_terms_is_not_author_permission"
+      },
+      "source_api": "https://api.github.com/repos/ilyvion/SmashPhil-DevTools",
+      "russian_language_paths": []
+    },
+    {
+      "requested_repository": "Mehni/PickUpAndHaul",
+      "repository": "Mehni/PickUpAndHaul",
+      "repository_url": "https://github.com/Mehni/PickUpAndHaul",
+      "checked_at": "2026-10-28T09:27:38.823467+00:00",
+      "default_branch": "master",
+      "head_commit": "09f1fac96e70cc2a93d647615a5abd37734a3eba",
+      "tree_sha": "09f1fac96e70cc2a93d647615a5abd37734a3eba",
+      "tree_truncated": false,
+      "activity": {
+        "pushed_at": "2025-08-28T14:38:15Z",
+        "updated_at": "2026-10-14T15:55:27Z",
+        "archived": false,
+        "disabled": false,
+        "last_commit_at": "2025-08-28T14:38:15Z"
+      },
+      "license_metadata": {
+        "key": "mit",
+        "name": "MIT License",
+        "spdx_id": "MIT",
+        "url": "https://api.github.com/licenses/mit",
+        "node_id": "MDc6TGljZW5zZTEz"
+      },
+      "license_files": [
+        {
+          "path": "LICENSE",
+          "blob_sha": "17a318320cb856660767ae8af96db9b875a3d794",
+          "url": "https://github.com/Mehni/PickUpAndHaul/blob/09f1fac96e70cc2a93d647615a5abd37734a3eba/LICENSE"
+        }
+      ],
+      "abouts_checked": [
+        {
+          "path": "About/About.xml",
+          "blob_sha": "6c505e0c3289827ce9e289d7ba20090a4088aa00",
+          "package_id": "mehni.pickupandhaul",
+          "url": "https://github.com/Mehni/PickUpAndHaul/blob/09f1fac96e70cc2a93d647615a5abd37734a3eba/About/About.xml"
+        }
+      ],
+      "about_candidates_total": 1,
+      "contribution_instructions": {
+        "dedicated_files": [],
+        "examined_docs": [
+          {
+            "path": "README.md",
+            "blob_sha": "2135baa92fafb8c97bfe6bfd85d2b2075a9b7e3c",
+            "url": "https://github.com/Mehni/PickUpAndHaul/blob/09f1fac96e70cc2a93d647615a5abd37734a3eba/README.md",
+            "ai_related_terms_present": false
+          }
+        ],
+        "ai_policy_review": "read_document_manually_if_ai_related_terms_present; absence_of_terms_is_not_author_permission"
+      },
+      "source_api": "https://api.github.com/repos/Mehni/PickUpAndHaul",
+      "russian_language_paths": [
+        "Languages/Russian/DefInjected/JobDef/WorkGiver.xml",
+        "Languages/Russian/DefInjected/WorkGiverDef/WorkGiver.xml"
+      ]
+    },
+    {
+      "requested_repository": "realloon/CustomizeWeapon",
+      "repository": "realloon/CustomizeWeapon",
+      "repository_url": "https://github.com/realloon/CustomizeWeapon",
+      "checked_at": "2026-10-28T09:27:39.611096+00:00",
+      "default_branch": "main",
+      "head_commit": "d5e41881b0b79c7ae74ee7361e3e6fa462323562",
+      "tree_sha": "d5e41881b0b79c7ae74ee7361e3e6fa462323562",
+      "tree_truncated": false,
+      "activity": {
+        "pushed_at": "2026-10-25T03:03:33Z",
+        "updated_at": "2026-10-25T03:03:37Z",
+        "archived": false,
+        "disabled": false,
+        "last_commit_at": "2026-10-25T03:02:30Z"
+      },
+      "license_metadata": {
+        "key": "mit",
+        "name": "MIT License",
+        "spdx_id": "MIT",
+        "url": "https://api.github.com/licenses/mit",
+        "node_id": "MDc6TGljZW5zZTEz"
+      },
+      "license_files": [
+        {
+          "path": "LICENSE",
+          "blob_sha": "934f208813e8bf3a69cdf86ff4e46ecf7aa66f9a",
+          "url": "https://github.com/realloon/CustomizeWeapon/blob/d5e41881b0b79c7ae74ee7361e3e6fa462323562/LICENSE"
+        }
+      ],
+      "abouts_checked": [
+        {
+          "path": "About/About.xml",
+          "blob_sha": "e0c81944af55b54886d798f1523241d6d56df714",
+          "package_id": "vortex.customizeweapon",
+          "url": "https://github.com/realloon/CustomizeWeapon/blob/d5e41881b0b79c7ae74ee7361e3e6fa462323562/About/About.xml"
+        }
+      ],
+      "about_candidates_total": 1,
+      "contribution_instructions": {
+        "dedicated_files": [],
+        "examined_docs": [
+          {
+            "path": "README.md",
+            "blob_sha": "49b40a7a8a72798cee812c71c467ac4ab179dcbd",
+            "url": "https://github.com/realloon/CustomizeWeapon/blob/d5e41881b0b79c7ae74ee7361e3e6fa462323562/README.md",
+            "ai_related_terms_present": false
+          }
+        ],
+        "ai_policy_review": "read_document_manually_if_ai_related_terms_present; absence_of_terms_is_not_author_permission"
+      },
+      "source_api": "https://api.github.com/repos/realloon/CustomizeWeapon",
+      "russian_language_paths": [
+        "Languages/Russian/DefInjected/CWF.PartDef/Parts.xml",
+        "Languages/Russian/DefInjected/ColorDef/Colors.xml",
+        "Languages/Russian/DefInjected/StatCategoryDef/StatCategories.xml",
+        "Languages/Russian/DefInjected/ThingCategoryDef/Categories.xml",
+        "Languages/Russian/DefInjected/ThingDef/Modules.xml",
+        "Languages/Russian/DefInjected/ThingDef/Workbench.xml",
+        "Languages/Russian/DefInjected/WeaponTraitDef/Traits.xml",
+        "Languages/Russian/Keyed/Keyed.xml"
+      ]
+    },
+    {
+      "requested_repository": "RimSort/RimSort",
+      "repository": "RimSort/RimSort",
+      "repository_url": "https://github.com/RimSort/RimSort",
+      "checked_at": "2026-10-28T09:27:40.163820+00:00",
+      "default_branch": "main",
+      "head_commit": "4cdb7f59290dac6168cceae1a0a3fb65834a4e23",
+      "tree_sha": "4cdb7f59290dac6168cceae1a0a3fb65834a4e23",
+      "tree_truncated": false,
+      "activity": {
+        "pushed_at": "2026-10-28T05:43:45Z",
+        "updated_at": "2026-10-28T09:19:38Z",
+        "archived": false,
+        "disabled": false,
+        "last_commit_at": "2026-10-27T06:47:11Z"
+      },
+      "license_metadata": {
+        "key": "gpl-3.0",
+        "name": "GNU General Public License v3.0",
+        "spdx_id": "GPL-3.0",
+        "url": "https://api.github.com/licenses/gpl-3.0",
+        "node_id": "MDc6TGljZW5zZTk="
+      },
+      "license_files": [
+        {
+          "path": "LICENSE.md",
+          "blob_sha": "f288702d2fa16d3cdf0035b15a9fcbc552cd88e7",
+          "url": "https://github.com/RimSort/RimSort/blob/4cdb7f59290dac6168cceae1a0a3fb65834a4e23/LICENSE.md"
+        }
+      ],
+      "abouts_checked": [
+        {
+          "path": "tests/data/mod_examples/Local/Fishery/About/About.xml",
+          "blob_sha": "e8cd82286ba9bc0c99376b0ce947376673188c17",
+          "package_id": "bs.fishery",
+          "url": "https://github.com/RimSort/RimSort/blob/4cdb7f59290dac6168cceae1a0a3fb65834a4e23/tests/data/mod_examples/Local/Fishery/About/About.xml"
+        },
+        {
+          "path": "tests/data/mod_examples/Local/local_mod_1/About/About.xml",
+          "blob_sha": "461f265c9a47599401aaf830ef68f44178d3811b",
+          "package_id": "local.mod1",
+          "url": "https://github.com/RimSort/RimSort/blob/4cdb7f59290dac6168cceae1a0a3fb65834a4e23/tests/data/mod_examples/Local/local_mod_1/About/About.xml"
+        },
+        {
+          "path": "tests/data/mod_examples/Local/local_mod_2/About/About.xml",
+          "blob_sha": "8eaa2f4273a91c252f9e8f0a11c9e9422e388bf9",
+          "package_id": "local.mod2",
+          "url": "https://github.com/RimSort/RimSort/blob/4cdb7f59290dac6168cceae1a0a3fb65834a4e23/tests/data/mod_examples/Local/local_mod_2/About/About.xml"
+        },
+        {
+          "path": "tests/data/mod_examples/Steam/steam_mod_1/About/About.xml",
+          "blob_sha": "129bb033fe1627007550e11c4bd7da9050d0a270",
+          "package_id": "steam.mod1",
+          "url": "https://github.com/RimSort/RimSort/blob/4cdb7f59290dac6168cceae1a0a3fb65834a4e23/tests/data/mod_examples/Steam/steam_mod_1/About/About.xml"
+        },
+        {
+          "path": "tests/data/mod_examples/RimWorld/Data/Core/About/About.xml",
+          "blob_sha": "ffd23c72e25f497af27251cd4df9a7c0acb2dd8e",
+          "package_id": "ludeon.rimworld",
+          "url": "https://github.com/RimSort/RimSort/blob/4cdb7f59290dac6168cceae1a0a3fb65834a4e23/tests/data/mod_examples/RimWorld/Data/Core/About/About.xml"
+        },
+        {
+          "path": "tests/data/mod_examples/Local/steamcmd_mod_1/About/About.xml",
+          "blob_sha": "36713c99ffd72a24c689008c55df97e23cf5a313",
+          "package_id": "steamcmd.mod1",
+          "url": "https://github.com/RimSort/RimSort/blob/4cdb7f59290dac6168cceae1a0a3fb65834a4e23/tests/data/mod_examples/Local/steamcmd_mod_1/About/About.xml"
+        },
+        {
+          "path": "tests/data/mod_examples/RimWorld/Data/Biotech/About/About.xml",
+          "blob_sha": "5dbda64efccc2cc917ca3b64bedc28bce7c28bbe",
+          "package_id": "ludeon.rimworld.biotech",
+          "url": "https://github.com/RimSort/RimSort/blob/4cdb7f59290dac6168cceae1a0a3fb65834a4e23/tests/data/mod_examples/RimWorld/Data/Biotech/About/About.xml"
+        },
+        {
+          "path": "tests/data/mod_examples/RimWorld/Data/Royalty/About/About.xml",
+          "blob_sha": "25b6e71f87264d3c40d7528f1b39dd030e1d6298",
+          "package_id": "ludeon.rimworld.royalty",
+          "url": "https://github.com/RimSort/RimSort/blob/4cdb7f59290dac6168cceae1a0a3fb65834a4e23/tests/data/mod_examples/RimWorld/Data/Royalty/About/About.xml"
+        },
+        {
+          "path": "tests/data/mod_examples/RimWorld/Data/FutureDLC/About/About.xml",
+          "blob_sha": "13649ca6c98e473bb2894c36f9592e20c690f8fa",
+          "package_id": "ludeon.future",
+          "url": "https://github.com/RimSort/RimSort/blob/4cdb7f59290dac6168cceae1a0a3fb65834a4e23/tests/data/mod_examples/RimWorld/Data/FutureDLC/About/About.xml"
+        }
+      ],
+      "about_candidates_total": 9,
+      "contribution_instructions": {
+        "dedicated_files": [
+          "AGENTS.md",
+          "CONTRIBUTING.md"
+        ],
+        "examined_docs": [
+          {
+            "path": "AGENTS.md",
+            "blob_sha": "a9c3a029105361b06ada06fb91614eb968b28439",
+            "url": "https://github.com/RimSort/RimSort/blob/4cdb7f59290dac6168cceae1a0a3fb65834a4e23/AGENTS.md",
+            "ai_related_terms_present": false
+          },
+          {
+            "path": "CONTRIBUTING.md",
+            "blob_sha": "72d108467f8e0fe94b95fafe24852d804d0a315f",
+            "url": "https://github.com/RimSort/RimSort/blob/4cdb7f59290dac6168cceae1a0a3fb65834a4e23/CONTRIBUTING.md",
+            "ai_related_terms_present": false
+          },
+          {
+            "path": "README.md",
+            "blob_sha": "ccd9cdd4b64c463960c3b2dcf6052ab966a67e38",
+            "url": "https://github.com/RimSort/RimSort/blob/4cdb7f59290dac6168cceae1a0a3fb65834a4e23/README.md",
+            "ai_related_terms_present": false
+          }
+        ],
+        "ai_policy_review": "read_document_manually_if_ai_related_terms_present; absence_of_terms_is_not_author_permission"
+      },
+      "source_api": "https://api.github.com/repos/RimSort/RimSort",
+      "russian_language_paths": []
+    },
+    {
+      "requested_repository": "AndroidQuazar/VanillaExpandedFramework",
+      "checked_at": "2026-10-28T09:28:49.513865+00:00",
+      "error": "GitHub 404: {\"message\":\"Not Found\",\"documentation_url\":\"https://docs.github.com/rest/repos/repos#get-a-repository\",\"status\":\"404\"}"
+    },
+    {
+      "requested_repository": "AobaKuma/Fortified-Framework",
+      "repository": "AobaKuma/Fortified-Framework",
+      "repository_url": "https://github.com/AobaKuma/Fortified-Framework",
+      "checked_at": "2026-10-28T09:28:49.514292+00:00",
+      "default_branch": "main",
+      "head_commit": "a09dcaa9440dceb03cddcf1f75a8154fc880ce51",
+      "tree_sha": "a09dcaa9440dceb03cddcf1f75a8154fc880ce51",
+      "tree_truncated": false,
+      "activity": {
+        "pushed_at": "2026-10-26T10:14:53Z",
+        "updated_at": "2026-10-26T10:14:58Z",
+        "archived": false,
+        "disabled": false,
+        "last_commit_at": "2026-10-26T10:14:49Z"
+      },
+      "license_metadata": null,
+      "license_files": [],
+      "abouts_checked": [
+        {
+          "path": "About/About.xml",
+          "blob_sha": "06348b9436ba06568327ab88daeb2d4465f388d0",
+          "package_id": "aoba.framework",
+          "url": "https://github.com/AobaKuma/Fortified-Framework/blob/a09dcaa9440dceb03cddcf1f75a8154fc880ce51/About/About.xml"
+        }
+      ],
+      "about_candidates_total": 1,
+      "contribution_instructions": {
+        "dedicated_files": [],
+        "examined_docs": [],
+        "ai_policy_review": "read_document_manually_if_ai_related_terms_present; absence_of_terms_is_not_author_permission"
+      },
+      "source_api": "https://api.github.com/repos/AobaKuma/Fortified-Framework",
+      "russian_language_paths": []
+    },
+    {
+      "requested_repository": "SmashPhil/Vehicles",
+      "repository": "SmashPhil/Vehicle-Framework",
+      "repository_url": "https://github.com/SmashPhil/Vehicle-Framework",
+      "checked_at": "2026-10-28T09:28:49.514799+00:00",
+      "default_branch": "develop",
+      "head_commit": "26b8579265c78d7d3d0166560c92b9f88e9975cd",
+      "tree_sha": "26b8579265c78d7d3d0166560c92b9f88e9975cd",
+      "tree_truncated": false,
+      "activity": {
+        "pushed_at": "2026-10-19T17:58:11Z",
+        "updated_at": "2026-10-22T15:38:17Z",
+        "archived": false,
+        "disabled": false,
+        "last_commit_at": "2026-10-19T17:58:08Z"
+      },
+      "license_metadata": {
+        "key": "mit",
+        "name": "MIT License",
+        "spdx_id": "MIT",
+        "url": "https://api.github.com/licenses/mit",
+        "node_id": "MDc6TGljZW5zZTEz"
+      },
+      "license_files": [
+        {
+          "path": "LICENSE",
+          "blob_sha": "a853963c6f4c0221db08f65727c13a976d8ffaf7",
+          "url": "https://github.com/SmashPhil/Vehicle-Framework/blob/26b8579265c78d7d3d0166560c92b9f88e9975cd/LICENSE"
+        }
+      ],
+      "abouts_checked": [
+        {
+          "path": "About/About.xml",
+          "blob_sha": "f04733293b081316b4685697e5711775cddbf494",
+          "package_id": "smashphil.vehicleframework",
+          "url": "https://github.com/SmashPhil/Vehicle-Framework/blob/26b8579265c78d7d3d0166560c92b9f88e9975cd/About/About.xml"
+        }
+      ],
+      "about_candidates_total": 1,
+      "contribution_instructions": {
+        "dedicated_files": [],
+        "examined_docs": [
+          {
+            "path": "README.md",
+            "blob_sha": "3be322e5a484433a530332afce7a2c3042a0014b",
+            "url": "https://github.com/SmashPhil/Vehicle-Framework/blob/26b8579265c78d7d3d0166560c92b9f88e9975cd/README.md",
+            "ai_related_terms_present": false
+          }
+        ],
+        "ai_policy_review": "read_document_manually_if_ai_related_terms_present; absence_of_terms_is_not_author_permission"
+      },
+      "source_api": "https://api.github.com/repos/SmashPhil/Vehicle-Framework",
+      "russian_language_paths": []
+    },
+    {
+      "requested_repository": "Vanilla-Expanded/VanillaCookingExpanded",
+      "repository": "Vanilla-Expanded/VanillaCookingExpanded",
+      "repository_url": "https://github.com/Vanilla-Expanded/VanillaCookingExpanded",
+      "checked_at": "2026-10-28T09:28:49.515397+00:00",
+      "default_branch": "main",
+      "head_commit": "74b2fd7dfb1a9c9aaec2b6108c6a01b5463ff4f1",
+      "tree_sha": "74b2fd7dfb1a9c9aaec2b6108c6a01b5463ff4f1",
+      "tree_truncated": false,
+      "activity": {
+        "pushed_at": "2026-10-13T14:36:01Z",
+        "updated_at": "2026-10-13T14:36:06Z",
+        "archived": false,
+        "disabled": false,
+        "last_commit_at": "2026-10-13T14:35:58Z"
+      },
+      "license_metadata": null,
+      "license_files": [],
+      "abouts_checked": [
+        {
+          "path": "About/About.xml",
+          "blob_sha": "e583977b25260acda2e678108a29bd1b2e0e22a4",
+          "package_id": "vanillaexpanded.vcooke",
+          "url": "https://github.com/Vanilla-Expanded/VanillaCookingExpanded/blob/74b2fd7dfb1a9c9aaec2b6108c6a01b5463ff4f1/About/About.xml"
+        }
+      ],
+      "about_candidates_total": 1,
+      "contribution_instructions": {
+        "dedicated_files": [],
+        "examined_docs": [],
+        "ai_policy_review": "read_document_manually_if_ai_related_terms_present; absence_of_terms_is_not_author_permission"
+      },
+      "source_api": "https://api.github.com/repos/Vanilla-Expanded/VanillaCookingExpanded",
+      "russian_language_paths": []
+    },
+    {
+      "requested_repository": "Vanilla-Expanded/VanillaExpandedFramework",
+      "repository": "Vanilla-Expanded/VanillaExpandedFramework",
+      "repository_url": "https://github.com/Vanilla-Expanded/VanillaExpandedFramework",
+      "checked_at": "2026-10-28T09:28:49.515593+00:00",
+      "default_branch": "main",
+      "head_commit": "3df09e3e491b94ed7996099297b7363f275fc072",
+      "tree_sha": "3df09e3e491b94ed7996099297b7363f275fc072",
+      "tree_truncated": false,
+      "activity": {
+        "pushed_at": "2026-10-27T09:33:40Z",
+        "updated_at": "2026-10-27T13:10:00Z",
+        "archived": false,
+        "disabled": false,
+        "last_commit_at": "2026-10-27T09:33:38Z"
+      },
+      "license_metadata": {
+        "key": "other",
+        "name": "Other",
+        "spdx_id": "NOASSERTION",
+        "url": null,
+        "node_id": "MDc6TGljZW5zZTA="
+      },
+      "license_files": [
+        {
+          "path": "LICENSE",
+          "blob_sha": "f02d4779ff4ece44aa9a7baecec98673dabec475",
+          "url": "https://github.com/Vanilla-Expanded/VanillaExpandedFramework/blob/3df09e3e491b94ed7996099297b7363f275fc072/LICENSE"
+        }
+      ],
+      "abouts_checked": [
+        {
+          "path": "About/About.xml",
+          "blob_sha": "aa311f36272c6d5c6e35662ce1a2000d92ed1b2d",
+          "package_id": "oskarpotocki.vanillafactionsexpanded.core",
+          "url": "https://github.com/Vanilla-Expanded/VanillaExpandedFramework/blob/3df09e3e491b94ed7996099297b7363f275fc072/About/About.xml"
+        }
+      ],
+      "about_candidates_total": 1,
+      "contribution_instructions": {
+        "dedicated_files": [],
+        "examined_docs": [
+          {
+            "path": "README.md",
+            "blob_sha": "7c8ca6a91cccb0d709676a6111cb22414e3f5fff",
+            "url": "https://github.com/Vanilla-Expanded/VanillaExpandedFramework/blob/3df09e3e491b94ed7996099297b7363f275fc072/README.md",
+            "ai_related_terms_present": false
+          }
+        ],
+        "ai_policy_review": "read_document_manually_if_ai_related_terms_present; absence_of_terms_is_not_author_permission"
+      },
+      "source_api": "https://api.github.com/repos/Vanilla-Expanded/VanillaExpandedFramework",
+      "russian_language_paths": []
+    },
+    {
+      "requested_repository": "Vanilla-Expanded/VanillaGravshipExpanded",
+      "repository": "Vanilla-Expanded/VanillaGravshipExpanded",
+      "repository_url": "https://github.com/Vanilla-Expanded/VanillaGravshipExpanded",
+      "checked_at": "2026-10-28T09:28:49.515713+00:00",
+      "default_branch": "main",
+      "head_commit": "7212a0c11bc392079d1f8ac9395d6434aa29b8af",
+      "tree_sha": "7212a0c11bc392079d1f8ac9395d6434aa29b8af",
+      "tree_truncated": false,
+      "activity": {
+        "pushed_at": "2026-10-20T15:04:58Z",
+        "updated_at": "2026-10-20T15:05:03Z",
+        "archived": false,
+        "disabled": false,
+        "last_commit_at": "2026-10-20T15:04:54Z"
+      },
+      "license_metadata": null,
+      "license_files": [],
+      "abouts_checked": [
+        {
+          "path": "About/About.xml",
+          "blob_sha": "43daf73152324f946dd35c68a2a2366b59f506e7",
+          "package_id": "vanillaexpanded.gravship",
+          "url": "https://github.com/Vanilla-Expanded/VanillaGravshipExpanded/blob/7212a0c11bc392079d1f8ac9395d6434aa29b8af/About/About.xml"
+        }
+      ],
+      "about_candidates_total": 1,
+      "contribution_instructions": {
+        "dedicated_files": [],
+        "examined_docs": [
+          {
+            "path": "README.md",
+            "blob_sha": "363cacdc9ef14a83a1520803722cbda31e201bab",
+            "url": "https://github.com/Vanilla-Expanded/VanillaGravshipExpanded/blob/7212a0c11bc392079d1f8ac9395d6434aa29b8af/README.md",
+            "ai_related_terms_present": false
+          }
+        ],
+        "ai_policy_review": "read_document_manually_if_ai_related_terms_present; absence_of_terms_is_not_author_permission"
+      },
+      "source_api": "https://api.github.com/repos/Vanilla-Expanded/VanillaGravshipExpanded",
+      "russian_language_paths": []
+    }
+  ]
+}

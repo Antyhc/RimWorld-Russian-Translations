@@ -1,0 +1,52 @@
+{
+  "schema_version": 1,
+  "package_id": "merthsoft.designatorshapes",
+  "reviewed_at": "2026-10-28T09:21:24.374491+00:00",
+  "reviewer": "OpenAI Codex AI; not an independent human reviewer",
+  "review_scope": "All 208 saved English/Russian pairs read individually. Generated PR XML then compared exactly to those reviewed records.",
+  "reviewed_records": 208,
+  "files": [
+    {
+      "path": "Languages/Russian/Keyed/DesignatorShapes_Keys.xml",
+      "sha256": "4efca4820621c2592b8360e8bf60f89856a9f5eab0ae25fd58c90f13c5fd76cd",
+      "keys": 62
+    },
+    {
+      "path": "Languages/Russian/Keyed/PaletteSettings.xml",
+      "sha256": "4cc0afc0e62123a69a32f9bef29c9d165195e34b9f9f143ebf20cda89053068c",
+      "keys": 2
+    },
+    {
+      "path": "Languages/Russian/DefInjected/Merthsoft.DesignatorShapes.Defs.DesignatorShapeDef/DesignatorShapes.xml",
+      "sha256": "40b3585c836512f779e3e082a92f5439d77cdc94e74b1de8dfba68fab7329936",
+      "keys": 108
+    },
+    {
+      "path": "Languages/Russian/DefInjected/Merthsoft.DesignatorShapes.Defs.OverlayGroupDef/OverlayGroups.xml",
+      "sha256": "c5137b112bcce3a345002c5a50871ab4a3f8546729c9ab6b65db59ec47ff3279",
+      "keys": 25
+    },
+    {
+      "path": "Languages/Russian/DefInjected/DrawStyleDef/DrawStyles.xml",
+      "sha256": "00a393ea5c3ab02e70180ef1b468f2c2d52fac21604b32c84411cb131dc1ee18",
+      "keys": 11
+    }
+  ],
+  "upstream_repository": "merthsoft/designator-shapes",
+  "upstream_base_commit": "401ef576a91957a50e668904a3c5efbedb11eac3",
+  "english_source_proof": "All per-key SHA256 values match the PR-preparation manifest for the pinned upstream commit; this reviewer independently compared them to the saved English records.",
+  "generated_xml_all_match_reviewed_records": true,
+  "duplicate_generated_keys": 0,
+  "linguistic_blockers": [],
+  "language_changes_by_this_review": 0,
+  "tested_in_game_this_review": false,
+  "independent_human_review_claimed": false,
+  "notes": [
+    "Numeric limits 128, 255 and 512 and all inversion, geometry, key-control and pause qualifications preserved.",
+    "Brand title Designator Shapes remains unchanged deliberately.",
+    "Stored short captions Положение X and Положение Y used; they are linguistically acceptable beside Положение окна. Installed alternative captions were not copied.",
+    "Technical rock-link wording is retained close to original implementation terminology; no clear semantic defect found."
+  ],
+  "source_review_input_sha256": "e832a78335a41e3d85acb95b0de977b632c45373285705fea89e6086e5cfb23d",
+  "translation_review_input_sha256": "e45bd53456a157fed0620d49bf3293d11f8431662dd0affea12f8fff06a8e306"
+}

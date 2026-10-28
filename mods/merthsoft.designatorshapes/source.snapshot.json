@@ -1,0 +1,1475 @@
+{
+  "schema_version": 1,
+  "generated_at": "2026-10-28T09:22:32+00:00",
+  "scope": "exact keys in this upstream contribution; not full runtime extraction",
+  "upstream_commit": "401ef576a91957a50e668904a3c5efbedb11eac3",
+  "strings": {
+    "DefInjected|DrawStyleDef|Circle.label": "8a39178d327e72a92d3b9800e55c5e95930f7ef61605464fe8cb43899abd1367",
+    "DefInjected|DrawStyleDef|CircleFilled.label": "106fece82529c162cfa701e78be5a33b2fcd8fa6a83543ac0b96f825a3ff3d2f",
+    "DefInjected|DrawStyleDef|Hexagon.label": "866091acb5ff40f25f6d72b9ed3152c7dfb7fb605d5f39b4dec2a2e9f3e99202",
+    "DefInjected|DrawStyleDef|HexagonFilled.label": "67acb4ac3bbc1ef5cc9c916c9877b71d7f81b3abf134fcd626128e318572ef9c",
+    "DefInjected|DrawStyleDef|LineFreeform.label": "5c5512b964bb8ca61b1f7a30899f9b9b43d9d05b9a611305f698573040c693ec",
+    "DefInjected|DrawStyleDef|MidpointHexagon.label": "f2e12f2eeb4e4a3c56183b7949d5727d9389a712b065965564af7787f9959e1c",
+    "DefInjected|DrawStyleDef|MidpointHexagonFilled.label": "fbe6cf30c2315ca0efe9a8d5cea438c0c4f0b25584150d86321a762d4c2f2396",
+    "DefInjected|DrawStyleDef|SunLamp.label": "ba59a4bf02d05649c9cec3517c884bfc1cfaaf48b6d8c742972ff3970e059395",
+    "DefInjected|DrawStyleDef|SunLampOutline.label": "fe60c373693d8aa8d502abf44bfeb23f7283071e0df1e1a33ec4fd34ddd97f24",
+    "DefInjected|DrawStyleDef|TradeBeacon.label": "c558726b1247ee7864d5ad61addec6310c7885d28858494004bc38ba8eaf678b",
+    "DefInjected|DrawStyleDef|TradeBeaconOutline.label": "7a3d384802cb4f37da60cb44213220be1c38e63d8793fac6709d97529373181f",
+    "DefInjected|Merthsoft.DesignatorShapes.Defs.DesignatorShapeDef|Checkerboard.description": "0e66cd6e47516deb0233ebfcd70121483a24992c2b7640d25fba782ba2be8e50",
+    "DefInjected|Merthsoft.DesignatorShapes.Defs.DesignatorShapeDef|Checkerboard.label": "e7765f35a32ad26aceae31f9e50deff4ff5c2cb8708b67c87a1574f9e1f52f02",
+    "DefInjected|Merthsoft.DesignatorShapes.Defs.DesignatorShapeDef|CheckerboardInverse.description": "6c2462ed285730528eafc8c86aeb76166a980cf6889a936bf81dd97bffa1dfe7",
+    "DefInjected|Merthsoft.DesignatorShapes.Defs.DesignatorShapeDef|CheckerboardInverse.label": "25b9f0986c3154f727a55e726864483b3f0b0a83e02668dffb0106d37db2b4a6",
+    "DefInjected|Merthsoft.DesignatorShapes.Defs.DesignatorShapeDef|Circle.description": "4759a4c2a1513c06eeac670c3924e5d1762b28a35a464e78f10b93a778e3b19a",
+    "DefInjected|Merthsoft.DesignatorShapes.Defs.DesignatorShapeDef|Circle.label": "8a39178d327e72a92d3b9800e55c5e95930f7ef61605464fe8cb43899abd1367",
+    "DefInjected|Merthsoft.DesignatorShapes.Defs.DesignatorShapeDef|CircleFilled.description": "c0f2d0b9f19c364b893e5ea6af27481cc180205a21717c414a7c5b563061c75b",
+    "DefInjected|Merthsoft.DesignatorShapes.Defs.DesignatorShapeDef|CircleFilled.label": "106fece82529c162cfa701e78be5a33b2fcd8fa6a83543ac0b96f825a3ff3d2f",
+    "DefInjected|Merthsoft.DesignatorShapes.Defs.DesignatorShapeDef|CustomPolygon.description": "efacc08fc0ab8660b38c893a5d6ec1494874fb8a5bbfd0b017037f6f6dfcc24e",
+    "DefInjected|Merthsoft.DesignatorShapes.Defs.DesignatorShapeDef|CustomPolygon.label": "079d210dcc5e6650e1e0305edfb9a5dec4eb4167b45e7fe7ccbc790d3801e044",
+    "DefInjected|Merthsoft.DesignatorShapes.Defs.DesignatorShapeDef|CustomPolygonFilled.description": "efacc08fc0ab8660b38c893a5d6ec1494874fb8a5bbfd0b017037f6f6dfcc24e",
+    "DefInjected|Merthsoft.DesignatorShapes.Defs.DesignatorShapeDef|CustomPolygonFilled.label": "a96a8a920467966eb7a76bfd3aff02c811e00d0706a03271410614402b0c03c4",
+    "DefInjected|Merthsoft.DesignatorShapes.Defs.DesignatorShapeDef|Ellipse.description": "52b7d48d83ad8aa46f80a4dc83451215ea7c82a8b8b4aa5ae3eb62f02f639089",
+    "DefInjected|Merthsoft.DesignatorShapes.Defs.DesignatorShapeDef|Ellipse.label": "c613c7687a303c38a0203a4cdbbd8f9026120afe21b57be0753c3459b1a5e291",
+    "DefInjected|Merthsoft.DesignatorShapes.Defs.DesignatorShapeDef|EllipseFilled.description": "49dc356d6fe7505ef7ec798d888c676adb08bb5b845eb9e91159f249233355ba",
+    "DefInjected|Merthsoft.DesignatorShapes.Defs.DesignatorShapeDef|EllipseFilled.label": "088b72e832f1f1b145a1899dcbd98a30c4e28d9d784599eaff078bb16eef46a5",
+    "DefInjected|Merthsoft.DesignatorShapes.Defs.DesignatorShapeDef|EllipseFilled_Input.description": "96bce86556d1f5dd0068e9cf9b38d5f6e62f9a83b636d4c02eb6d6f4bf18a8e7",
+    "DefInjected|Merthsoft.DesignatorShapes.Defs.DesignatorShapeDef|EllipseFilled_Input.label": "bae65098faf53640eedb6cd9bf4ac40a09518ab9614f036bc7c96e61cc31584c",
+    "DefInjected|Merthsoft.DesignatorShapes.Defs.DesignatorShapeDef|Ellipse_Input.description": "e095620ddce36d7ab2024f45bcba025dd712658b4dfa7b5bca5168477c1f85c2",
+    "DefInjected|Merthsoft.DesignatorShapes.Defs.DesignatorShapeDef|Ellipse_Input.label": "d3b93b9741a7e0126d5a5713ad917b9580272b6412e1e29fe7e63e57de1fba8e",
+    "DefInjected|Merthsoft.DesignatorShapes.Defs.DesignatorShapeDef|FloodFill.description": "422a61ef12e1831343c80967b519eba2894db60e7b8416c6005b2c23f1b17601",
+    "DefInjected|Merthsoft.DesignatorShapes.Defs.DesignatorShapeDef|FloodFill.label": "74139245c383dacfa0a546df215bcc7726cb9b9aa33806ccc8358d22e7e7fecf",
+    "DefInjected|Merthsoft.DesignatorShapes.Defs.DesignatorShapeDef|GridFiveByFive.description": "1662550f44e8a9ffcfcfbd808765777c7be2234a208e20b20c33977e3513855e",
+    "DefInjected|Merthsoft.DesignatorShapes.Defs.DesignatorShapeDef|GridFiveByFive.label": "96bd90bf51c8df76791be4d49b6c6bcc88a4c25c73cbdfb91e3815679b7b66dd",
+    "DefInjected|Merthsoft.DesignatorShapes.Defs.DesignatorShapeDef|GridFiveByFiveInverse.description": "a8029bdc1d8bb57312e2e63253bc6c6633c367523ff3f7e53ba32051583bd491",
+    "DefInjected|Merthsoft.DesignatorShapes.Defs.DesignatorShapeDef|GridFiveByFiveInverse.label": "9c0cb7b96bb077fc70ef63f3efd3252244cd916654c85dac8e129213427df8f6",
+    "DefInjected|Merthsoft.DesignatorShapes.Defs.DesignatorShapeDef|GridFourByFour.description": "fe685fe307e26cc154d83a2d09ab4e9b01e841173cbc34316c37ad0d3c446d18",
+    "DefInjected|Merthsoft.DesignatorShapes.Defs.DesignatorShapeDef|GridFourByFour.label": "c86c94f5d66ab4ec19b862a1d619a3bd4a86ac3b19621292f1468d00d5936170",
+    "DefInjected|Merthsoft.DesignatorShapes.Defs.DesignatorShapeDef|GridFourByFourInverse.description": "696599a0529af3dc6d8423cde5ebc9c0b4412c52354e23fb60a92a0380855b07",
+    "DefInjected|Merthsoft.DesignatorShapes.Defs.DesignatorShapeDef|GridFourByFourInverse.label": "39f65290f5d4c3a262e2280e9aa627f2459dc9f2ff9eb9e031cf5f2b401f7cbb",
+    "DefInjected|Merthsoft.DesignatorShapes.Defs.DesignatorShapeDef|GridSevenBySeven.description": "9fd7104d1dcdc4435efdd5faa386482f8040807b0e4239055e2340456688d736",
+    "DefInjected|Merthsoft.DesignatorShapes.Defs.DesignatorShapeDef|GridSevenBySeven.label": "f58eb93c24a266129bdd90a599c733edaae8e2258d861d408c919c819267092a",
+    "DefInjected|Merthsoft.DesignatorShapes.Defs.DesignatorShapeDef|GridSevenBySevenInverse.description": "07cdaa0d019422436621ec583867729261474c92c7ee4de9922ef4de142fdcc9",
+    "DefInjected|Merthsoft.DesignatorShapes.Defs.DesignatorShapeDef|GridSevenBySevenInverse.label": "be8f33235cc2d44562487207af37429365698ffabf757fda3c6ef52b59e09fa8",
+    "DefInjected|Merthsoft.DesignatorShapes.Defs.DesignatorShapeDef|GridSixBySix.description": "629d5e974f3b085f32093759067e3095239625e161013e0188d7c44714dae07c",
+    "DefInjected|Merthsoft.DesignatorShapes.Defs.DesignatorShapeDef|GridSixBySix.label": "7d3e16ce3b3cca82836f2d3ba7944f2b81ed9b6380fd312e60042bdb41cca7a1",
+    "DefInjected|Merthsoft.DesignatorShapes.Defs.DesignatorShapeDef|GridSixBySixInverse.description": "e269008a35fb05789fb34f8301259264772a15725e460dff74d62d3a937edf43",
+    "DefInjected|Merthsoft.DesignatorShapes.Defs.DesignatorShapeDef|GridSixBySixInverse.label": "2d8b755fad74029aaa9ead980d1bf882da0a4ac05b86818a057a4f27c304ec30",
+    "DefInjected|Merthsoft.DesignatorShapes.Defs.DesignatorShapeDef|GridSizeInput.description": "5783463ee12412bdf3b0467b2cf8a7499bbe7f5906f53a73747e55947eae1485",
+    "DefInjected|Merthsoft.DesignatorShapes.Defs.DesignatorShapeDef|GridSizeInput.label": "83706850f5d8079360cf08519639cf4824426dac3a3cb9ba462d1e9ae0fc79bc",
+    "DefInjected|Merthsoft.DesignatorShapes.Defs.DesignatorShapeDef|GridSizeInputInverse.description": "3ba45c42234e17d4be3ff555538a01bdd94e8df4493a736a62433e195bb4ce43",
+    "DefInjected|Merthsoft.DesignatorShapes.Defs.DesignatorShapeDef|GridSizeInputInverse.label": "01ad4bb9c95c964938af8cc79ca572ef6cc61a2ffa4e327c4b121935479fcb28",
+    "DefInjected|Merthsoft.DesignatorShapes.Defs.DesignatorShapeDef|GridThreeByThree.description": "c9ef15c3a22a63647f6d751d6402cdc4cb4bcdb044cb5f7c6729ff129df2c2d8",
+    "DefInjected|Merthsoft.DesignatorShapes.Defs.DesignatorShapeDef|GridThreeByThree.label": "810842a54552be47f21fd4f724725854ce3e716f816ed7e5fc6da91d15ed147f",
+    "DefInjected|Merthsoft.DesignatorShapes.Defs.DesignatorShapeDef|GridThreeByThreeInverse.description": "6ac853c7aca72485d66920af05ac47f5fb8e0874e84ea1c8350c3e4cb626d735",
+    "DefInjected|Merthsoft.DesignatorShapes.Defs.DesignatorShapeDef|GridThreeByThreeInverse.label": "15c154c024a27270a7ae6654f57e2139586a2d02e89ab87e058e448c9948f43c",
+    "DefInjected|Merthsoft.DesignatorShapes.Defs.DesignatorShapeDef|Hexagon.description": "83de3182bdcaf4fdef5f9b5913ddcc12193d1ca68352d0b2be0f25a13b07fe42",
+    "DefInjected|Merthsoft.DesignatorShapes.Defs.DesignatorShapeDef|Hexagon.label": "866091acb5ff40f25f6d72b9ed3152c7dfb7fb605d5f39b4dec2a2e9f3e99202",
+    "DefInjected|Merthsoft.DesignatorShapes.Defs.DesignatorShapeDef|HexagonFilled.description": "93abb1a453c6bbdfa00ef0562bdeff1454dfc8885455d1150ab923ad54a7b277",
+    "DefInjected|Merthsoft.DesignatorShapes.Defs.DesignatorShapeDef|HexagonFilled.label": "67acb4ac3bbc1ef5cc9c916c9877b71d7f81b3abf134fcd626128e318572ef9c",
+    "DefInjected|Merthsoft.DesignatorShapes.Defs.DesignatorShapeDef|L.description": "cc027fe9b954323582b0cee2ed5148a7cda1979d4ff5e99577fa15f455f5a0b4",
+    "DefInjected|Merthsoft.DesignatorShapes.Defs.DesignatorShapeDef|L.label": "a3000ea89e3e57f6d62c88027e672d9a89e586236f658bb3c7dd3a2c6339f477",
+    "DefInjected|Merthsoft.DesignatorShapes.Defs.DesignatorShapeDef|LInverse.description": "b14341f0a5a8c2937ff7b51e9be596fd36046926b63e76ecdc26fc9b8adcb593",
+    "DefInjected|Merthsoft.DesignatorShapes.Defs.DesignatorShapeDef|LInverse.label": "bb39101857ace89e51f10eae8806f5ec82cf327b64d2aa870947a3f88a859e4e",
+    "DefInjected|Merthsoft.DesignatorShapes.Defs.DesignatorShapeDef|Line.description": "6ec18203482f83148c7c3741c23a244b8f1eb4562eb23ff1ea376d38b6b1ba85",
+    "DefInjected|Merthsoft.DesignatorShapes.Defs.DesignatorShapeDef|Line.label": "38a9c1e721584da284b90ceea4ed7eb8db15ac4ea86c2c75ec925d5f8799fcf0",
+    "DefInjected|Merthsoft.DesignatorShapes.Defs.DesignatorShapeDef|LineFreeform.description": "9d1ec7ae8d2aeb21bee8480875f351f9d04d714d31077be6691046f330866cef",
+    "DefInjected|Merthsoft.DesignatorShapes.Defs.DesignatorShapeDef|LineFreeform.label": "5c5512b964bb8ca61b1f7a30899f9b9b43d9d05b9a611305f698573040c693ec",
+    "DefInjected|Merthsoft.DesignatorShapes.Defs.DesignatorShapeDef|MidpointHexagon.description": "4112e1d26678de793144222f8093030864b9860e445ad40269a9826bc0e7aad0",
+    "DefInjected|Merthsoft.DesignatorShapes.Defs.DesignatorShapeDef|MidpointHexagon.label": "f2e12f2eeb4e4a3c56183b7949d5727d9389a712b065965564af7787f9959e1c",
+    "DefInjected|Merthsoft.DesignatorShapes.Defs.DesignatorShapeDef|MidpointHexagonFilled.description": "6a523c67bb7978c91880dd4f3925bdf7d942cfd3395ef44f156038425b35b4e8",
+    "DefInjected|Merthsoft.DesignatorShapes.Defs.DesignatorShapeDef|MidpointHexagonFilled.label": "fbe6cf30c2315ca0efe9a8d5cea438c0c4f0b25584150d86321a762d4c2f2396",
+    "DefInjected|Merthsoft.DesignatorShapes.Defs.DesignatorShapeDef|MidpointOctagon.description": "58445c91e835e96301f77e841e323f9747501c80950280f2a9cfd28b341f5b82",
+    "DefInjected|Merthsoft.DesignatorShapes.Defs.DesignatorShapeDef|MidpointOctagon.label": "02895271a2c91f39521de264494dbde098ddb6617f9f7be4ce9e48d30948ca0d",
+    "DefInjected|Merthsoft.DesignatorShapes.Defs.DesignatorShapeDef|MidpointOctagonFilled.description": "58445c91e835e96301f77e841e323f9747501c80950280f2a9cfd28b341f5b82",
+    "DefInjected|Merthsoft.DesignatorShapes.Defs.DesignatorShapeDef|MidpointOctagonFilled.label": "e2f48bfa7b49b03ac153b1edafa6c0a9e0b172d4c47f1f97dcce7cce2b7d3b6a",
+    "DefInjected|Merthsoft.DesignatorShapes.Defs.DesignatorShapeDef|MidpointPentagon.description": "d6bec7c606300e80757e06f881ebc8be5de718b944e40762a99baacbcff429ff",
+    "DefInjected|Merthsoft.DesignatorShapes.Defs.DesignatorShapeDef|MidpointPentagon.label": "51171df9a3ad1664784644538894f3b477837e74adcadfc041e453c59bfa4204",
+    "DefInjected|Merthsoft.DesignatorShapes.Defs.DesignatorShapeDef|MidpointPentagonFilled.description": "1661a687590d8e17a90577e04c624716b340d3cb3d9957f5978dba996e6ac248",
+    "DefInjected|Merthsoft.DesignatorShapes.Defs.DesignatorShapeDef|MidpointPentagonFilled.label": "4213ef1439ff164f3faff0320713dadfe01cc753a2699f38f2e749009e8aba13",
+    "DefInjected|Merthsoft.DesignatorShapes.Defs.DesignatorShapeDef|Octagon.description": "80031db4d0eb9f859971b22309ca19af53188ce81efa25f133979cf6ef79ed81",
+    "DefInjected|Merthsoft.DesignatorShapes.Defs.DesignatorShapeDef|Octagon.label": "05e4809657f46bf80c75f0b34f7d2c2fdb6b21a5400872f469fa93c1e388ae84",
+    "DefInjected|Merthsoft.DesignatorShapes.Defs.DesignatorShapeDef|OctagonFilled.description": "4e3cb2039b75ce731d91932df696a7dde4a062fc3347dc5d2b6a54e4eb8fcddc",
+    "DefInjected|Merthsoft.DesignatorShapes.Defs.DesignatorShapeDef|OctagonFilled.label": "790723317bedd1fcc38600e1eeecb820b1b6eacdd710608086a47567543dc790",
+    "DefInjected|Merthsoft.DesignatorShapes.Defs.DesignatorShapeDef|ParallelLines.description": "e202562d972570575586fc6cfc3a457861dffd144b921ec68891d99831d9aea2",
+    "DefInjected|Merthsoft.DesignatorShapes.Defs.DesignatorShapeDef|ParallelLines.label": "53e71362f1afca3c8031e4749e426e5d21a9998cef7d86fd2971e7317c8141e6",
+    "DefInjected|Merthsoft.DesignatorShapes.Defs.DesignatorShapeDef|Pentagon.description": "80857aa6a9d32249bc8fb67afceae3522da7125b27441051182c97f4046881dd",
+    "DefInjected|Merthsoft.DesignatorShapes.Defs.DesignatorShapeDef|Pentagon.label": "ecc7dcf5bc2d51ebc4d9a9c9108443e3e2b035c0e167594a63ff2fde9a9cea98",
+    "DefInjected|Merthsoft.DesignatorShapes.Defs.DesignatorShapeDef|PentagonFilled.description": "48ea09e48dc257763a2aa9a2a735ec6f8d2e3e19c8c6f8ce619082dadf373b55",
+    "DefInjected|Merthsoft.DesignatorShapes.Defs.DesignatorShapeDef|PentagonFilled.label": "5485f4fbdc30e9a9cc4f7165b139577eaaa783e7c0c37bedd7ca5093fbc3a08d",
+    "DefInjected|Merthsoft.DesignatorShapes.Defs.DesignatorShapeDef|QuarterArc.description": "5ba257370bf8f10678e638aec23a089183e747dff1780895ca8aab2b61f17caf",
+    "DefInjected|Merthsoft.DesignatorShapes.Defs.DesignatorShapeDef|QuarterArc.label": "6aae3db4fb0565d50eff27d8bb4666a141e784311ff59d7f7e5520252f02d0e4",
+    "DefInjected|Merthsoft.DesignatorShapes.Defs.DesignatorShapeDef|Rectangle.description": "7d5fde9174eab709307d132eb3a0c7e242587b1809e9c960f84a7572975fd06b",
+    "DefInjected|Merthsoft.DesignatorShapes.Defs.DesignatorShapeDef|Rectangle.label": "32dfed947e8bca93c393bba8525ecad6b7d623d9aaad23078343783f8e3603ff",
+    "DefInjected|Merthsoft.DesignatorShapes.Defs.DesignatorShapeDef|RectangleFilled.description": "b6ba3f272ba33799d249ee01517c798140cb587e826e94027109d7926c3fcc0e",
+    "DefInjected|Merthsoft.DesignatorShapes.Defs.DesignatorShapeDef|RectangleFilled.label": "dbacf22544bf05752838991564b04f1c70ffd1588a6916bd334b2de447fa30cc",
+    "DefInjected|Merthsoft.DesignatorShapes.Defs.DesignatorShapeDef|RectangleFilled_Input.description": "3427e865b16d9744938cd4e1a33b205a09f25eea3eaa12bf46c376c928c9d20b",
+    "DefInjected|Merthsoft.DesignatorShapes.Defs.DesignatorShapeDef|RectangleFilled_Input.label": "227d59d547308eafa4fd7d9a75261b692c2e3f0c84da6e14c7ac17c61eebf6dc",
+    "DefInjected|Merthsoft.DesignatorShapes.Defs.DesignatorShapeDef|Rectangle_Input.description": "9c0b2a9a86d0610f6518d7f4bf38106c9be0cc42ecd170beffc81b1c614725bf",
+    "DefInjected|Merthsoft.DesignatorShapes.Defs.DesignatorShapeDef|Rectangle_Input.label": "88ecc30b976c12d51612198296c245931966af96a8eded7f6ba008ef96b4950d",
+    "DefInjected|Merthsoft.DesignatorShapes.Defs.DesignatorShapeDef|Redo.description": "00169d7d80be9109b3ab588a01df03fbe17d956929ef642e12d79c2685edcf4d",
+    "DefInjected|Merthsoft.DesignatorShapes.Defs.DesignatorShapeDef|Redo.label": "77276c72c008b0652e0aa28321a47c3bae8f104d8e549c419f1e4c1796a8484c",
+    "DefInjected|Merthsoft.DesignatorShapes.Defs.DesignatorShapeDef|RoundedRectangle.description": "d583281a1ef475830a77fe8e84cee82c0774e342d658291b957a843c18dc56b7",
+    "DefInjected|Merthsoft.DesignatorShapes.Defs.DesignatorShapeDef|RoundedRectangle.label": "eb71d3b584173204b8fa64ed550062e4ee22c6fd89b16f963fb12534861d1034",
+    "DefInjected|Merthsoft.DesignatorShapes.Defs.DesignatorShapeDef|RoundedRectangleFilled.description": "a6efaef4eb67af149c0f0ad41d3561bf4e633c9ff507c9bf4fe76f10e3da39a0",
+    "DefInjected|Merthsoft.DesignatorShapes.Defs.DesignatorShapeDef|RoundedRectangleFilled.label": "85c940a7649d9916855ec010cd26e9689df235ad98b7c7746ebff0f4aab9dec9",
+    "DefInjected|Merthsoft.DesignatorShapes.Defs.DesignatorShapeDef|SemicircleArc.description": "8f4a7c0f7d48cfc06ae344ef63c579ad43b0041111adfdb8ad6f72d604f5a646",
+    "DefInjected|Merthsoft.DesignatorShapes.Defs.DesignatorShapeDef|SemicircleArc.label": "23795453065859a8f7279813c2f4c605cf01d235e1d65b79de04e27dcc3224de",
+    "DefInjected|Merthsoft.DesignatorShapes.Defs.DesignatorShapeDef|SunLamp.description": "d44a8e2201fcd3b42e7a081a6049718fb90de82886d7e002ec495bb1cbd70507",
+    "DefInjected|Merthsoft.DesignatorShapes.Defs.DesignatorShapeDef|SunLamp.label": "ba59a4bf02d05649c9cec3517c884bfc1cfaaf48b6d8c742972ff3970e059395",
+    "DefInjected|Merthsoft.DesignatorShapes.Defs.DesignatorShapeDef|SunLampOutline.description": "4bbf94730749edbcc5b50c78908d4162d0f96b974d963a140fd4eed075c52d5c",
+    "DefInjected|Merthsoft.DesignatorShapes.Defs.DesignatorShapeDef|SunLampOutline.label": "fe60c373693d8aa8d502abf44bfeb23f7283071e0df1e1a33ec4fd34ddd97f24",
+    "DefInjected|Merthsoft.DesignatorShapes.Defs.DesignatorShapeDef|TradeBeacon.description": "5fb680a87b0d0f0bc18c367c6ce9a1ee3f392f227cec4154261dd3caa97f21b8",
+    "DefInjected|Merthsoft.DesignatorShapes.Defs.DesignatorShapeDef|TradeBeacon.label": "c558726b1247ee7864d5ad61addec6310c7885d28858494004bc38ba8eaf678b",
+    "DefInjected|Merthsoft.DesignatorShapes.Defs.DesignatorShapeDef|TradeBeaconOutline.description": "46d835ebbf36616bbad64adf0046f322ae05e34db8d0ad091ca74421ea94c37b",
+    "DefInjected|Merthsoft.DesignatorShapes.Defs.DesignatorShapeDef|TradeBeaconOutline.label": "7a3d384802cb4f37da60cb44213220be1c38e63d8793fac6709d97529373181f",
+    "DefInjected|Merthsoft.DesignatorShapes.Defs.DesignatorShapeDef|Undo.description": "fa2ce2a4d89af9b067889fc0c9f67fcdb16c1ef82cd0bcc9cd6deca15b86b3bc",
+    "DefInjected|Merthsoft.DesignatorShapes.Defs.DesignatorShapeDef|Undo.label": "f015346ae3563d83d3a9cad3223586a53d2a62b08a6a7f47d7eeeb3f89be4e90",
+    "DefInjected|Merthsoft.DesignatorShapes.Defs.OverlayGroupDef|Arcs.label": "babfab4de250a2705e30ce10f6bfe20e1bbed86657e4c337b3a39cf16c74f15f",
+    "DefInjected|Merthsoft.DesignatorShapes.Defs.OverlayGroupDef|Checkerboards.label": "5b701664c3d8820e3b0a20020aa4269c58293c0ce26e81ffea393c2fae1a342c",
+    "DefInjected|Merthsoft.DesignatorShapes.Defs.OverlayGroupDef|CustomPolygons.label": "ed91c6632dfe60bda9838d556c5dd3df032f4b8de7b8cc8fd842db842ec31764",
+    "DefInjected|Merthsoft.DesignatorShapes.Defs.OverlayGroupDef|Ellipse.label": "6167c7ca0af10b00e67f8953043d513572ff66626262715f31dd145ae9505ee3",
+    "DefInjected|Merthsoft.DesignatorShapes.Defs.OverlayGroupDef|Ellipse_Input.description": "e27965ba1dca4edd9a1a6f06496959f3ce6630aad7603c863cf099cc3aa6a177",
+    "DefInjected|Merthsoft.DesignatorShapes.Defs.OverlayGroupDef|Ellipse_Input.label": "5475b9bb97dfd6400a198b0624ea200736127d0287a3e229d21a26ce7d2a31f0",
+    "DefInjected|Merthsoft.DesignatorShapes.Defs.OverlayGroupDef|Etc.description": "b148150f825a2dccafa8560779d8ace2796a20f5a7ee3cb4254b83ebc55bb6aa",
+    "DefInjected|Merthsoft.DesignatorShapes.Defs.OverlayGroupDef|Etc.label": "2a3aff6e16ed847fce73918a2f98db7a0adff63771625800ce6e56e4aac4b87e",
+    "DefInjected|Merthsoft.DesignatorShapes.Defs.OverlayGroupDef|FloodFill.description": "422a61ef12e1831343c80967b519eba2894db60e7b8416c6005b2c23f1b17601",
+    "DefInjected|Merthsoft.DesignatorShapes.Defs.OverlayGroupDef|FloodFill.label": "19ea4cae2bdc0694bf6d173242c2bd7e9bac074ffb4bef296dd76b31f50a25f3",
+    "DefInjected|Merthsoft.DesignatorShapes.Defs.OverlayGroupDef|Grids.description": "0b6da7f975dcdec0e23e851238ebd34688d66140f261107362707437540d1674",
+    "DefInjected|Merthsoft.DesignatorShapes.Defs.OverlayGroupDef|Grids.label": "59fdbab8d87b0ecff74d7f56b5b532ca546c2f689f00238b9b2b49f29447b59d",
+    "DefInjected|Merthsoft.DesignatorShapes.Defs.OverlayGroupDef|Grids_Inverse.description": "21cc043bb1dd17844bdc91ebc3680a48ffd9afea65332561b49e7ccb49ae4049",
+    "DefInjected|Merthsoft.DesignatorShapes.Defs.OverlayGroupDef|Grids_Inverse.label": "d496a7999067a555c275d69ba9dc5db29d7951dd56cc62560ce3d5f50acf7cf2",
+    "DefInjected|Merthsoft.DesignatorShapes.Defs.OverlayGroupDef|Hexagons.label": "48fa360b3c13488a2cb02ea2f366432f6c4e480cb96662ea84e11cacacb7512d",
+    "DefInjected|Merthsoft.DesignatorShapes.Defs.OverlayGroupDef|Line.label": "3b26a5427458edd20c9ec7f0954847adb8e0e692f739cc1bca3ab7438bc9c171",
+    "DefInjected|Merthsoft.DesignatorShapes.Defs.OverlayGroupDef|MoreShapes.description": "97004f0c5804b73ae1977c0aea311f5f894e0829514cfc455d4cb51d2be7d425",
+    "DefInjected|Merthsoft.DesignatorShapes.Defs.OverlayGroupDef|MoreShapes.label": "57549e15922308fa3b66de63105c2b1406b580006455551b48be7710a77b8fe6",
+    "DefInjected|Merthsoft.DesignatorShapes.Defs.OverlayGroupDef|Octagons.label": "4952cdcd9ca8e12c5a51c4315a8bd8a904fc6559875983417fe9d5a25bc2526e",
+    "DefInjected|Merthsoft.DesignatorShapes.Defs.OverlayGroupDef|Pentagons.label": "beb416d02b5f9c48d698b9bd2575894d54b5a6246bb8c8dcbacf0d6f1256ac54",
+    "DefInjected|Merthsoft.DesignatorShapes.Defs.OverlayGroupDef|Rectangle.label": "183bc1aabbc9b333ab7faeaf5ee9f024cb5ef279777a51c70be866049d87aea5",
+    "DefInjected|Merthsoft.DesignatorShapes.Defs.OverlayGroupDef|Rectangle_Input.description": "c5988bdaa2ff60a33fb789155419f0b9a32515b83f1010d5c6dcdbfb99bfe38c",
+    "DefInjected|Merthsoft.DesignatorShapes.Defs.OverlayGroupDef|Rectangle_Input.label": "62dc26db4004c222df8d2ede3a688da001e2beec824304af5cfd8b7242da112e",
+    "DefInjected|Merthsoft.DesignatorShapes.Defs.OverlayGroupDef|RoundedRectangles.description": "09b988a1fd8493f122f78137ca4db740ce852f979edc05f9ce9831e56110b7ac",
+    "DefInjected|Merthsoft.DesignatorShapes.Defs.OverlayGroupDef|RoundedRectangles.label": "915728c3146fd67a7c5d5ffc76b6c727ef920fe14697793dfec516c23bfd5ee4",
+    "Keyed|Merthsoft_DesignatorShapes": "04b8528915af21a8b0ba36c8b7cb9a2cee7eb35cd6b06b24d1cbbd65535a63e4",
+    "Keyed|Merthsoft_DesignatorShapes_BoundingBoxBasedOnShapeMode": "69cb99b6a586a423ead9f0142fca3726fb1a609dd8d9c9cf2b990166107969ab",
+    "Keyed|Merthsoft_DesignatorShapes_BoundingBoxBasedOnShapeMode_Shape": "95bf8b73d1be63f8c04766677c69a5d4e8c840cc254fdf15b80a6c8a5aa57393",
+    "Keyed|Merthsoft_DesignatorShapes_BoundingBoxBasedOnShapeMode_Toggle": "105aef64f648b7d88ba64fbce31fad1175055b1b442c5ad9e3cf6130d22278bc",
+    "Keyed|Merthsoft_DesignatorShapes_BoundingBoxBasedOnShapeMode_Vanilla": "4252dd4930efcbe4a11194c31ab7cdeaf8540a58f5ba844d9a2d55d0316520a8",
+    "Keyed|Merthsoft_DesignatorShapes_BoundingBoxBasedOnShapeToggleTooltip": "23a447347f00b028f4d8719fe72fe0054b3c17188343fdf642fc7eee96fc006a",
+    "Keyed|Merthsoft_DesignatorShapes_ConfirmApply": "dab4ef068949026890cd00b6f66bdeb25ec70beb9c487d566e3322f5928ee6ba",
+    "Keyed|Merthsoft_DesignatorShapes_ConfirmDestructiveText": "26e3e9789ce3e12b5afd347592f5d036574101a5065b7ccc51145930e1a1d8c3",
+    "Keyed|Merthsoft_DesignatorShapes_ConfirmKeep": "97a10014a834b0a245086534196609e7293941c84cb4eefbc56a59842f653063",
+    "Keyed|Merthsoft_DesignatorShapes_CornerRadius": "6fe0661c82d10d34d342a2db6cf48e6903215f3e296d0dc8038ab44fcb48a0ce",
+    "Keyed|Merthsoft_DesignatorShapes_IncludeVanillaPalette": "6839f4d3caece9731d7b2f28f8311472ab10c6a5687f20c1290f292fc174b99a",
+    "Keyed|Merthsoft_DesignatorShapes_IncludeVanillaPaletteTooltip": "6d2bccc48b97a075e5b5e0df675c1452867a160ba5eb4dfa47ba5b3c1febd717",
+    "Keyed|Merthsoft_DesignatorShapes_KeyLabel_DecreaseThickness": "36176b48ae669f0cebc8bdb563580ea1515633379c14c1ce1c9d323f2ef5f93b",
+    "Keyed|Merthsoft_DesignatorShapes_KeyLabel_FillCorners": "9626846a20f5c9135f6e0468b9888deb22f25284462f918f398f622e506568de",
+    "Keyed|Merthsoft_DesignatorShapes_KeyLabel_IncreaseThickness": "f61ed2631baee54b397846d857e1e7e6cb6d7e8751817040438970d707032814",
+    "Keyed|Merthsoft_DesignatorShapes_KeyLabel_PreviousShape": "3a310929205cb161a411bc30ea427f6e371948fbdc40558c1ae23784f8050bfe",
+    "Keyed|Merthsoft_DesignatorShapes_KeyLabel_Redo": "74273989b0966e2369b6d01aadb23af4ad6a9e724643fa88f2bde99202a36708",
+    "Keyed|Merthsoft_DesignatorShapes_KeyLabel_RotateLeft": "c003fd257a48b400ae923cde78cb0daee25615ebc7c1881f17466d67ca16a2ce",
+    "Keyed|Merthsoft_DesignatorShapes_KeyLabel_RotateRight": "9b688ce14156c23f0ebc46d8ddcce311cfdb95374f7cf90652680e6846f25384",
+    "Keyed|Merthsoft_DesignatorShapes_KeyLabel_Undo": "a8283ade31856f71220db0e6f60a257c6889dc4dad0f275f66ad44b9ed9bf8d5",
+    "Keyed|Merthsoft_DesignatorShapes_ParallelSkip": "28d03596d24eeb4eab2d6fe21ca1cb95be7cb1fa6f92933db05e2cc4f4cdfa06",
+    "Keyed|Merthsoft_DesignatorShapes_ParallelThickness": "7b5944144275ea10a17c903d2d06c015e34740dab2ea4930aeb7573b43bb635e",
+    "Keyed|Merthsoft_DesignatorShapes_PolygonControls": "fbb59118488c79dcb8af83b9240ce79b1db781819933cf86c990f480c8b02921",
+    "Keyed|Merthsoft_DesignatorShapes_PolygonLimit": "38c15ba62006a44ea9b6ff6dbffb4abf0028116815bbd1ba2dd92fbe545e12b1",
+    "Keyed|Merthsoft_DesignatorShapes_PolygonNeedCorners": "f75278ec2f3d94353a0963051d8937fe7d3c3dadc1096d4862db3d7ed9100c47",
+    "Keyed|Merthsoft_DesignatorShapes_Settings_AdditionalBarriers": "826fb31c4b5d8f1518ecaecf5eb149bf679ec6c8d208047655d3fea5fd1a73fa",
+    "Keyed|Merthsoft_DesignatorShapes_Settings_AdditionalBarriersTooltip": "9718eb706eff0c01b70f282ce0c4dc16685d2b26ca77ab8e9f56e4c9ee48198e",
+    "Keyed|Merthsoft_DesignatorShapes_Settings_AllowCollapsing": "c4fae67e69696eef82f26a475860e267591b34e60418ed8f7a5b96c15c1bf939",
+    "Keyed|Merthsoft_DesignatorShapes_Settings_AltToggle": "1e7def901c5b41fd4b1147226cf7e4fff52088d7ef454df714ae6e35aec88f2a",
+    "Keyed|Merthsoft_DesignatorShapes_Settings_AnnounceToolSelection": "49ef2cc82b53ab7ff186fd364a578a5d35f879718c15075a63ebe24e63fa194f",
+    "Keyed|Merthsoft_DesignatorShapes_Settings_AutoSelectShapes": "ab1dda223ec6636aade0b941a1229a07066ab1d86bf94c30d3fcbe01fcf340b8",
+    "Keyed|Merthsoft_DesignatorShapes_Settings_CancelStroke": "e3d14aade62e95f2558a55675cc570853e391f2660486de8e9621b1b1a4332ce",
+    "Keyed|Merthsoft_DesignatorShapes_Settings_ConfirmDestructive": "c057c1c473fdf68967aecce57c87c805680a2562fd28aca8bdc08c0ccabc53bd",
+    "Keyed|Merthsoft_DesignatorShapes_Settings_ConfirmDestructiveTooltip": "792809333c5d3e00f25e50c8f01e715d2c45b588bd816255c94a8931a737457c",
+    "Keyed|Merthsoft_DesignatorShapes_Settings_DrawBackground": "b0c65abdc965e3fc1094c0939d27fe963fc825d721bb525f36a80f974d45a604",
+    "Keyed|Merthsoft_DesignatorShapes_Settings_EnableKeyboardInput": "a59b70b05d1cc4f961b8fa1b993d95a5ab6e0829661956f1b26f2a0b8f353bba",
+    "Keyed|Merthsoft_DesignatorShapes_Settings_EnableRotation": "29e29180908ef49dd1fd596ab8b3337d9163ade51893ca1e12f0d8f64a877ed7",
+    "Keyed|Merthsoft_DesignatorShapes_Settings_HideCompletelyOnAltToggle": "b6b4b46fb5afc9d30a57d97233685723bcaf6da05db33f33fb83b89207335894",
+    "Keyed|Merthsoft_DesignatorShapes_Settings_HideWhenArchitectMenuIsHidden": "0653cbbc4820bd1ccf98e8b7db9633e338ed9a70e47926d80b29ae585b358a4f",
+    "Keyed|Merthsoft_DesignatorShapes_Settings_IconSize": "8d5db5580aacb4fff9e1bbb03a0e24a7a8368fd5dc4940ceafd8d934f2109a5a",
+    "Keyed|Merthsoft_DesignatorShapes_Settings_KeyBindings": "e3d1649181a93a8470353aebf9b626f9041d5c72d14e302fcc0ded52465e8495",
+    "Keyed|Merthsoft_DesignatorShapes_Settings_LockWindow": "d4244042ee7a1f83a9ad454e5c627043a0151cd03048a6cf394c573d395e4954",
+    "Keyed|Merthsoft_DesignatorShapes_Settings_MaxCells": "8b2e744d65e8ab5138af0c4adbedbf56f36c8a9dc6b2efa2b0eee827892b28ff",
+    "Keyed|Merthsoft_DesignatorShapes_Settings_PauseOnFloodFill": "138e5522bb4d5fef1a170ba89e39bb7161c4f7fad24b922454aa732915fb9ba5",
+    "Keyed|Merthsoft_DesignatorShapes_Settings_RememberPerDesignator": "2f5d0cb58be6634f54232332df7fa64f8ffdcef75a40a9c6ef116f8e802c1031",
+    "Keyed|Merthsoft_DesignatorShapes_Settings_RememberPerDesignatorTooltip": "1414d47d5ffa62ad7b3173b2833c0e69cfc52f7485b0b8bbd3d75de0ad38c37f",
+    "Keyed|Merthsoft_DesignatorShapes_Settings_ResetShapeOnResume": "dac09753ebcc7f222ff83687716ba5f2e5b9cce2585cf18b79ec289223cb26fa",
+    "Keyed|Merthsoft_DesignatorShapes_Settings_RestrictFloodFillToRevealedCells": "f529d003476734a87e1c8b9103275cf8ae0b335b5a9c72e4d995ecd189c43e9b",
+    "Keyed|Merthsoft_DesignatorShapes_Settings_RestrictFloodFillToRevealedCellsTooltip": "fc6f8ed9aa97cb902215ec392c38125a13e6f956c23bd40b975043b68b9d06a9",
+    "Keyed|Merthsoft_DesignatorShapes_Settings_SearchBuildings": "f3bfc8b0fbeb3c5cffc1b4ad3047b0b8b9c15fd44e27085b17e2f57a8eca4ed6",
+    "Keyed|Merthsoft_DesignatorShapes_Settings_ShapeShortcuts": "efe3e683ef41b2de8b2f8619cbb835c3673b634456dc48932b3224fffe8b8cd7",
+    "Keyed|Merthsoft_DesignatorShapes_Settings_ShortcutCapture": "f95ce63a7580d7f4a7a9e1daa0b923b9e7689f29dbde8c35c4ea19c69bfaf444",
+    "Keyed|Merthsoft_DesignatorShapes_Settings_ShortcutConflict": "d6dae60b2a8e13f640ef8c1cfdde2fcf0a66d9b84770b552c8f21b3e25d294c3",
+    "Keyed|Merthsoft_DesignatorShapes_Settings_ShowShapeDictionary": "7ee1a015a62fa649373df2038583e05532cc6e76bdf56d6d4691a8e288c4d341",
+    "Keyed|Merthsoft_DesignatorShapes_Settings_ToggleBinding": "9596dc3540f7b05dfb9337aced08b3a86bbca20240abf716337a3069b4656f52",
+    "Keyed|Merthsoft_DesignatorShapes_Settings_ToggleShortcut": "e1b3d95cb0085e95aead8e93a7cee94b9d25d10b7d0982702f220b35a962bc18",
+    "Keyed|Merthsoft_DesignatorShapes_Settings_ToggleShortcutCapture": "a7a83d589d6647a096ab204b2c90fb43b42999b3a9057d26e67e3de1c1028663",
+    "Keyed|Merthsoft_DesignatorShapes_Settings_WindowPosition": "1558b83fcda5d7babc9bc6aa21a67101f811e1f2fdb6b1a51fcfde0e830dff80",
+    "Keyed|Merthsoft_DesignatorShapes_Settings_WindowX": "725722cd977dd3e78c4f45dbb57a3832ba5b8865b2084d96f1a91be0601e290e",
+    "Keyed|Merthsoft_DesignatorShapes_Settings_WindowY": "ce17773a105bd5f82587f9dc4b7118f44f1cc9cd554799008f7721414c7bcc69",
+    "Keyed|Merthsoft_DesignatorShapes_Shapes": "75e8028a7913992e177895b466dd201f9be97e6fc0d435f1ffaeb531c5302581",
+    "Keyed|Merthsoft_DesignatorShapes_SizeInputHeightLabel": "44bd7ae60f478fae1061e11a7739f4b94d1daf917982d33b6fc8a01a63f89c21",
+    "Keyed|Merthsoft_DesignatorShapes_SizeInputWidthLabel": "fcb5f40df9be6bae66c1d77a6c15968866a9e6cbd7314ca432b019d17392f6f4",
+    "Keyed|Merthsoft_DesignatorShapes_ToolSelected": "8ee12fe3eec2678426dddc2988072f37996b3ff445c633a703034394bd7d0829"
+  },
+  "signatures": {
+    "DefInjected|DrawStyleDef|Circle.label": {
+      "source_hash": "8a39178d327e72a92d3b9800e55c5e95930f7ef61605464fe8cb43899abd1367",
+      "tokens": [],
+      "tags": [],
+      "source_empty": false
+    },
+    "DefInjected|DrawStyleDef|CircleFilled.label": {
+      "source_hash": "106fece82529c162cfa701e78be5a33b2fcd8fa6a83543ac0b96f825a3ff3d2f",
+      "tokens": [],
+      "tags": [],
+      "source_empty": false
+    },
+    "DefInjected|DrawStyleDef|Hexagon.label": {
+      "source_hash": "866091acb5ff40f25f6d72b9ed3152c7dfb7fb605d5f39b4dec2a2e9f3e99202",
+      "tokens": [],
+      "tags": [],
+      "source_empty": false
+    },
+    "DefInjected|DrawStyleDef|HexagonFilled.label": {
+      "source_hash": "67acb4ac3bbc1ef5cc9c916c9877b71d7f81b3abf134fcd626128e318572ef9c",
+      "tokens": [],
+      "tags": [],
+      "source_empty": false
+    },
+    "DefInjected|DrawStyleDef|LineFreeform.label": {
+      "source_hash": "5c5512b964bb8ca61b1f7a30899f9b9b43d9d05b9a611305f698573040c693ec",
+      "tokens": [],
+      "tags": [],
+      "source_empty": false
+    },
+    "DefInjected|DrawStyleDef|MidpointHexagon.label": {
+      "source_hash": "f2e12f2eeb4e4a3c56183b7949d5727d9389a712b065965564af7787f9959e1c",
+      "tokens": [],
+      "tags": [],
+      "source_empty": false
+    },
+    "DefInjected|DrawStyleDef|MidpointHexagonFilled.label": {
+      "source_hash": "fbe6cf30c2315ca0efe9a8d5cea438c0c4f0b25584150d86321a762d4c2f2396",
+      "tokens": [],
+      "tags": [],
+      "source_empty": false
+    },
+    "DefInjected|DrawStyleDef|SunLamp.label": {
+      "source_hash": "ba59a4bf02d05649c9cec3517c884bfc1cfaaf48b6d8c742972ff3970e059395",
+      "tokens": [],
+      "tags": [],
+      "source_empty": false
+    },
+    "DefInjected|DrawStyleDef|SunLampOutline.label": {
+      "source_hash": "fe60c373693d8aa8d502abf44bfeb23f7283071e0df1e1a33ec4fd34ddd97f24",
+      "tokens": [],
+      "tags": [],
+      "source_empty": false
+    },
+    "DefInjected|DrawStyleDef|TradeBeacon.label": {
+      "source_hash": "c558726b1247ee7864d5ad61addec6310c7885d28858494004bc38ba8eaf678b",
+      "tokens": [],
+      "tags": [],
+      "source_empty": false
+    },
+    "DefInjected|DrawStyleDef|TradeBeaconOutline.label": {
+      "source_hash": "7a3d384802cb4f37da60cb44213220be1c38e63d8793fac6709d97529373181f",
+      "tokens": [],
+      "tags": [],
+      "source_empty": false
+    },
+    "DefInjected|Merthsoft.DesignatorShapes.Defs.DesignatorShapeDef|Checkerboard.description": {
+      "source_hash": "0e66cd6e47516deb0233ebfcd70121483a24992c2b7640d25fba782ba2be8e50",
+      "tokens": [],
+      "tags": [],
+      "source_empty": false
+    },
+    "DefInjected|Merthsoft.DesignatorShapes.Defs.DesignatorShapeDef|Checkerboard.label": {
+      "source_hash": "e7765f35a32ad26aceae31f9e50deff4ff5c2cb8708b67c87a1574f9e1f52f02",
+      "tokens": [],
+      "tags": [],
+      "source_empty": false
+    },
+    "DefInjected|Merthsoft.DesignatorShapes.Defs.DesignatorShapeDef|CheckerboardInverse.description": {
+      "source_hash": "6c2462ed285730528eafc8c86aeb76166a980cf6889a936bf81dd97bffa1dfe7",
+      "tokens": [],
+      "tags": [],
+      "source_empty": false
+    },
+    "DefInjected|Merthsoft.DesignatorShapes.Defs.DesignatorShapeDef|CheckerboardInverse.label": {
+      "source_hash": "25b9f0986c3154f727a55e726864483b3f0b0a83e02668dffb0106d37db2b4a6",
+      "tokens": [],
+      "tags": [],
+      "source_empty": false
+    },
+    "DefInjected|Merthsoft.DesignatorShapes.Defs.DesignatorShapeDef|Circle.description": {
+      "source_hash": "4759a4c2a1513c06eeac670c3924e5d1762b28a35a464e78f10b93a778e3b19a",
+      "tokens": [],
+      "tags": [],
+      "source_empty": false
+    },
+    "DefInjected|Merthsoft.DesignatorShapes.Defs.DesignatorShapeDef|Circle.label": {
+      "source_hash": "8a39178d327e72a92d3b9800e55c5e95930f7ef61605464fe8cb43899abd1367",
+      "tokens": [],
+      "tags": [],
+      "source_empty": false
+    },
+    "DefInjected|Merthsoft.DesignatorShapes.Defs.DesignatorShapeDef|CircleFilled.description": {
+      "source_hash": "c0f2d0b9f19c364b893e5ea6af27481cc180205a21717c414a7c5b563061c75b",
+      "tokens": [],
+      "tags": [],
+      "source_empty": false
+    },
+    "DefInjected|Merthsoft.DesignatorShapes.Defs.DesignatorShapeDef|CircleFilled.label": {
+      "source_hash": "106fece82529c162cfa701e78be5a33b2fcd8fa6a83543ac0b96f825a3ff3d2f",
+      "tokens": [],
+      "tags": [],
+      "source_empty": false
+    },
+    "DefInjected|Merthsoft.DesignatorShapes.Defs.DesignatorShapeDef|CustomPolygon.description": {
+      "source_hash": "efacc08fc0ab8660b38c893a5d6ec1494874fb8a5bbfd0b017037f6f6dfcc24e",
+      "tokens": [],
+      "tags": [],
+      "source_empty": false
+    },
+    "DefInjected|Merthsoft.DesignatorShapes.Defs.DesignatorShapeDef|CustomPolygon.label": {
+      "source_hash": "079d210dcc5e6650e1e0305edfb9a5dec4eb4167b45e7fe7ccbc790d3801e044",
+      "tokens": [],
+      "tags": [],
+      "source_empty": false
+    },
+    "DefInjected|Merthsoft.DesignatorShapes.Defs.DesignatorShapeDef|CustomPolygonFilled.description": {
+      "source_hash": "efacc08fc0ab8660b38c893a5d6ec1494874fb8a5bbfd0b017037f6f6dfcc24e",
+      "tokens": [],
+      "tags": [],
+      "source_empty": false
+    },
+    "DefInjected|Merthsoft.DesignatorShapes.Defs.DesignatorShapeDef|CustomPolygonFilled.label": {
+      "source_hash": "a96a8a920467966eb7a76bfd3aff02c811e00d0706a03271410614402b0c03c4",
+      "tokens": [],
+      "tags": [],
+      "source_empty": false
+    },
+    "DefInjected|Merthsoft.DesignatorShapes.Defs.DesignatorShapeDef|Ellipse.description": {
+      "source_hash": "52b7d48d83ad8aa46f80a4dc83451215ea7c82a8b8b4aa5ae3eb62f02f639089",
+      "tokens": [],
+      "tags": [],
+      "source_empty": false
+    },
+    "DefInjected|Merthsoft.DesignatorShapes.Defs.DesignatorShapeDef|Ellipse.label": {
+      "source_hash": "c613c7687a303c38a0203a4cdbbd8f9026120afe21b57be0753c3459b1a5e291",
+      "tokens": [],
+      "tags": [],
+      "source_empty": false
+    },
+    "DefInjected|Merthsoft.DesignatorShapes.Defs.DesignatorShapeDef|EllipseFilled.description": {
+      "source_hash": "49dc356d6fe7505ef7ec798d888c676adb08bb5b845eb9e91159f249233355ba",
+      "tokens": [],
+      "tags": [],
+      "source_empty": false
+    },
+    "DefInjected|Merthsoft.DesignatorShapes.Defs.DesignatorShapeDef|EllipseFilled.label": {
+      "source_hash": "088b72e832f1f1b145a1899dcbd98a30c4e28d9d784599eaff078bb16eef46a5",
+      "tokens": [],
+      "tags": [],
+      "source_empty": false
+    },
+    "DefInjected|Merthsoft.DesignatorShapes.Defs.DesignatorShapeDef|EllipseFilled_Input.description": {
+      "source_hash": "96bce86556d1f5dd0068e9cf9b38d5f6e62f9a83b636d4c02eb6d6f4bf18a8e7",
+      "tokens": [],
+      "tags": [],
+      "source_empty": false
+    },
+    "DefInjected|Merthsoft.DesignatorShapes.Defs.DesignatorShapeDef|EllipseFilled_Input.label": {
+      "source_hash": "bae65098faf53640eedb6cd9bf4ac40a09518ab9614f036bc7c96e61cc31584c",
+      "tokens": [],
+      "tags": [],
+      "source_empty": false
+    },
+    "DefInjected|Merthsoft.DesignatorShapes.Defs.DesignatorShapeDef|Ellipse_Input.description": {
+      "source_hash": "e095620ddce36d7ab2024f45bcba025dd712658b4dfa7b5bca5168477c1f85c2",
+      "tokens": [],
+      "tags": [],
+      "source_empty": false
+    },
+    "DefInjected|Merthsoft.DesignatorShapes.Defs.DesignatorShapeDef|Ellipse_Input.label": {
+      "source_hash": "d3b93b9741a7e0126d5a5713ad917b9580272b6412e1e29fe7e63e57de1fba8e",
+      "tokens": [],
+      "tags": [],
+      "source_empty": false
+    },
+    "DefInjected|Merthsoft.DesignatorShapes.Defs.DesignatorShapeDef|FloodFill.description": {
+      "source_hash": "422a61ef12e1831343c80967b519eba2894db60e7b8416c6005b2c23f1b17601",
+      "tokens": [],
+      "tags": [],
+      "source_empty": false
+    },
+    "DefInjected|Merthsoft.DesignatorShapes.Defs.DesignatorShapeDef|FloodFill.label": {
+      "source_hash": "74139245c383dacfa0a546df215bcc7726cb9b9aa33806ccc8358d22e7e7fecf",
+      "tokens": [],
+      "tags": [],
+      "source_empty": false
+    },
+    "DefInjected|Merthsoft.DesignatorShapes.Defs.DesignatorShapeDef|GridFiveByFive.description": {
+      "source_hash": "1662550f44e8a9ffcfcfbd808765777c7be2234a208e20b20c33977e3513855e",
+      "tokens": [],
+      "tags": [],
+      "source_empty": false
+    },
+    "DefInjected|Merthsoft.DesignatorShapes.Defs.DesignatorShapeDef|GridFiveByFive.label": {
+      "source_hash": "96bd90bf51c8df76791be4d49b6c6bcc88a4c25c73cbdfb91e3815679b7b66dd",
+      "tokens": [],
+      "tags": [],
+      "source_empty": false
+    },
+    "DefInjected|Merthsoft.DesignatorShapes.Defs.DesignatorShapeDef|GridFiveByFiveInverse.description": {
+      "source_hash": "a8029bdc1d8bb57312e2e63253bc6c6633c367523ff3f7e53ba32051583bd491",
+      "tokens": [],
+      "tags": [],
+      "source_empty": false
+    },
+    "DefInjected|Merthsoft.DesignatorShapes.Defs.DesignatorShapeDef|GridFiveByFiveInverse.label": {
+      "source_hash": "9c0cb7b96bb077fc70ef63f3efd3252244cd916654c85dac8e129213427df8f6",
+      "tokens": [],
+      "tags": [],
+      "source_empty": false
+    },
+    "DefInjected|Merthsoft.DesignatorShapes.Defs.DesignatorShapeDef|GridFourByFour.description": {
+      "source_hash": "fe685fe307e26cc154d83a2d09ab4e9b01e841173cbc34316c37ad0d3c446d18",
+      "tokens": [],
+      "tags": [],
+      "source_empty": false
+    },
+    "DefInjected|Merthsoft.DesignatorShapes.Defs.DesignatorShapeDef|GridFourByFour.label": {
+      "source_hash": "c86c94f5d66ab4ec19b862a1d619a3bd4a86ac3b19621292f1468d00d5936170",
+      "tokens": [],
+      "tags": [],
+      "source_empty": false
+    },
+    "DefInjected|Merthsoft.DesignatorShapes.Defs.DesignatorShapeDef|GridFourByFourInverse.description": {
+      "source_hash": "696599a0529af3dc6d8423cde5ebc9c0b4412c52354e23fb60a92a0380855b07",
+      "tokens": [],
+      "tags": [],
+      "source_empty": false
+    },
+    "DefInjected|Merthsoft.DesignatorShapes.Defs.DesignatorShapeDef|GridFourByFourInverse.label": {
+      "source_hash": "39f65290f5d4c3a262e2280e9aa627f2459dc9f2ff9eb9e031cf5f2b401f7cbb",
+      "tokens": [],
+      "tags": [],
+      "source_empty": false
+    },
+    "DefInjected|Merthsoft.DesignatorShapes.Defs.DesignatorShapeDef|GridSevenBySeven.description": {
+      "source_hash": "9fd7104d1dcdc4435efdd5faa386482f8040807b0e4239055e2340456688d736",
+      "tokens": [],
+      "tags": [],
+      "source_empty": false
+    },
+    "DefInjected|Merthsoft.DesignatorShapes.Defs.DesignatorShapeDef|GridSevenBySeven.label": {
+      "source_hash": "f58eb93c24a266129bdd90a599c733edaae8e2258d861d408c919c819267092a",
+      "tokens": [],
+      "tags": [],
+      "source_empty": false
+    },
+    "DefInjected|Merthsoft.DesignatorShapes.Defs.DesignatorShapeDef|GridSevenBySevenInverse.description": {
+      "source_hash": "07cdaa0d019422436621ec583867729261474c92c7ee4de9922ef4de142fdcc9",
+      "tokens": [],
+      "tags": [],
+      "source_empty": false
+    },
+    "DefInjected|Merthsoft.DesignatorShapes.Defs.DesignatorShapeDef|GridSevenBySevenInverse.label": {
+      "source_hash": "be8f33235cc2d44562487207af37429365698ffabf757fda3c6ef52b59e09fa8",
+      "tokens": [],
+      "tags": [],
+      "source_empty": false
+    },
+    "DefInjected|Merthsoft.DesignatorShapes.Defs.DesignatorShapeDef|GridSixBySix.description": {
+      "source_hash": "629d5e974f3b085f32093759067e3095239625e161013e0188d7c44714dae07c",
+      "tokens": [],
+      "tags": [],
+      "source_empty": false
+    },
+    "DefInjected|Merthsoft.DesignatorShapes.Defs.DesignatorShapeDef|GridSixBySix.label": {
+      "source_hash": "7d3e16ce3b3cca82836f2d3ba7944f2b81ed9b6380fd312e60042bdb41cca7a1",
+      "tokens": [],
+      "tags": [],
+      "source_empty": false
+    },
+    "DefInjected|Merthsoft.DesignatorShapes.Defs.DesignatorShapeDef|GridSixBySixInverse.description": {
+      "source_hash": "e269008a35fb05789fb34f8301259264772a15725e460dff74d62d3a937edf43",
+      "tokens": [],
+      "tags": [],
+      "source_empty": false
+    },
+    "DefInjected|Merthsoft.DesignatorShapes.Defs.DesignatorShapeDef|GridSixBySixInverse.label": {
+      "source_hash": "2d8b755fad74029aaa9ead980d1bf882da0a4ac05b86818a057a4f27c304ec30",
+      "tokens": [],
+      "tags": [],
+      "source_empty": false
+    },
+    "DefInjected|Merthsoft.DesignatorShapes.Defs.DesignatorShapeDef|GridSizeInput.description": {
+      "source_hash": "5783463ee12412bdf3b0467b2cf8a7499bbe7f5906f53a73747e55947eae1485",
+      "tokens": [],
+      "tags": [],
+      "source_empty": false
+    },
+    "DefInjected|Merthsoft.DesignatorShapes.Defs.DesignatorShapeDef|GridSizeInput.label": {
+      "source_hash": "83706850f5d8079360cf08519639cf4824426dac3a3cb9ba462d1e9ae0fc79bc",
+      "tokens": [],
+      "tags": [],
+      "source_empty": false
+    },
+    "DefInjected|Merthsoft.DesignatorShapes.Defs.DesignatorShapeDef|GridSizeInputInverse.description": {
+      "source_hash": "3ba45c42234e17d4be3ff555538a01bdd94e8df4493a736a62433e195bb4ce43",
+      "tokens": [],
+      "tags": [],
+      "source_empty": false
+    },
+    "DefInjected|Merthsoft.DesignatorShapes.Defs.DesignatorShapeDef|GridSizeInputInverse.label": {
+      "source_hash": "01ad4bb9c95c964938af8cc79ca572ef6cc61a2ffa4e327c4b121935479fcb28",
+      "tokens": [],
+      "tags": [],
+      "source_empty": false
+    },
+    "DefInjected|Merthsoft.DesignatorShapes.Defs.DesignatorShapeDef|GridThreeByThree.description": {
+      "source_hash": "c9ef15c3a22a63647f6d751d6402cdc4cb4bcdb044cb5f7c6729ff129df2c2d8",
+      "tokens": [],
+      "tags": [],
+      "source_empty": false
+    },
+    "DefInjected|Merthsoft.DesignatorShapes.Defs.DesignatorShapeDef|GridThreeByThree.label": {
+      "source_hash": "810842a54552be47f21fd4f724725854ce3e716f816ed7e5fc6da91d15ed147f",
+      "tokens": [],
+      "tags": [],
+      "source_empty": false
+    },
+    "DefInjected|Merthsoft.DesignatorShapes.Defs.DesignatorShapeDef|GridThreeByThreeInverse.description": {
+      "source_hash": "6ac853c7aca72485d66920af05ac47f5fb8e0874e84ea1c8350c3e4cb626d735",
+      "tokens": [],
+      "tags": [],
+      "source_empty": false
+    },
+    "DefInjected|Merthsoft.DesignatorShapes.Defs.DesignatorShapeDef|GridThreeByThreeInverse.label": {
+      "source_hash": "15c154c024a27270a7ae6654f57e2139586a2d02e89ab87e058e448c9948f43c",
+      "tokens": [],
+      "tags": [],
+      "source_empty": false
+    },
+    "DefInjected|Merthsoft.DesignatorShapes.Defs.DesignatorShapeDef|Hexagon.description": {
+      "source_hash": "83de3182bdcaf4fdef5f9b5913ddcc12193d1ca68352d0b2be0f25a13b07fe42",
+      "tokens": [],
+      "tags": [],
+      "source_empty": false
+    },
+    "DefInjected|Merthsoft.DesignatorShapes.Defs.DesignatorShapeDef|Hexagon.label": {
+      "source_hash": "866091acb5ff40f25f6d72b9ed3152c7dfb7fb605d5f39b4dec2a2e9f3e99202",
+      "tokens": [],
+      "tags": [],
+      "source_empty": false
+    },
+    "DefInjected|Merthsoft.DesignatorShapes.Defs.DesignatorShapeDef|HexagonFilled.description": {
+      "source_hash": "93abb1a453c6bbdfa00ef0562bdeff1454dfc8885455d1150ab923ad54a7b277",
+      "tokens": [],
+      "tags": [],
+      "source_empty": false
+    },
+    "DefInjected|Merthsoft.DesignatorShapes.Defs.DesignatorShapeDef|HexagonFilled.label": {
+      "source_hash": "67acb4ac3bbc1ef5cc9c916c9877b71d7f81b3abf134fcd626128e318572ef9c",
+      "tokens": [],
+      "tags": [],
+      "source_empty": false
+    },
+    "DefInjected|Merthsoft.DesignatorShapes.Defs.DesignatorShapeDef|L.description": {
+      "source_hash": "cc027fe9b954323582b0cee2ed5148a7cda1979d4ff5e99577fa15f455f5a0b4",
+      "tokens": [],
+      "tags": [],
+      "source_empty": false
+    },
+    "DefInjected|Merthsoft.DesignatorShapes.Defs.DesignatorShapeDef|L.label": {
+      "source_hash": "a3000ea89e3e57f6d62c88027e672d9a89e586236f658bb3c7dd3a2c6339f477",
+      "tokens": [],
+      "tags": [],
+      "source_empty": false
+    },
+    "DefInjected|Merthsoft.DesignatorShapes.Defs.DesignatorShapeDef|LInverse.description": {
+      "source_hash": "b14341f0a5a8c2937ff7b51e9be596fd36046926b63e76ecdc26fc9b8adcb593",
+      "tokens": [],
+      "tags": [],
+      "source_empty": false
+    },
+    "DefInjected|Merthsoft.DesignatorShapes.Defs.DesignatorShapeDef|LInverse.label": {
+      "source_hash": "bb39101857ace89e51f10eae8806f5ec82cf327b64d2aa870947a3f88a859e4e",
+      "tokens": [],
+      "tags": [],
+      "source_empty": false
+    },
+    "DefInjected|Merthsoft.DesignatorShapes.Defs.DesignatorShapeDef|Line.description": {
+      "source_hash": "6ec18203482f83148c7c3741c23a244b8f1eb4562eb23ff1ea376d38b6b1ba85",
+      "tokens": [],
+      "tags": [],
+      "source_empty": false
+    },
+    "DefInjected|Merthsoft.DesignatorShapes.Defs.DesignatorShapeDef|Line.label": {
+      "source_hash": "38a9c1e721584da284b90ceea4ed7eb8db15ac4ea86c2c75ec925d5f8799fcf0",
+      "tokens": [],
+      "tags": [],
+      "source_empty": false
+    },
+    "DefInjected|Merthsoft.DesignatorShapes.Defs.DesignatorShapeDef|LineFreeform.description": {
+      "source_hash": "9d1ec7ae8d2aeb21bee8480875f351f9d04d714d31077be6691046f330866cef",
+      "tokens": [],
+      "tags": [],
+      "source_empty": false
+    },
+    "DefInjected|Merthsoft.DesignatorShapes.Defs.DesignatorShapeDef|LineFreeform.label": {
+      "source_hash": "5c5512b964bb8ca61b1f7a30899f9b9b43d9d05b9a611305f698573040c693ec",
+      "tokens": [],
+      "tags": [],
+      "source_empty": false
+    },
+    "DefInjected|Merthsoft.DesignatorShapes.Defs.DesignatorShapeDef|MidpointHexagon.description": {
+      "source_hash": "4112e1d26678de793144222f8093030864b9860e445ad40269a9826bc0e7aad0",
+      "tokens": [],
+      "tags": [],
+      "source_empty": false
+    },
+    "DefInjected|Merthsoft.DesignatorShapes.Defs.DesignatorShapeDef|MidpointHexagon.label": {
+      "source_hash": "f2e12f2eeb4e4a3c56183b7949d5727d9389a712b065965564af7787f9959e1c",
+      "tokens": [],
+      "tags": [],
+      "source_empty": false
+    },
+    "DefInjected|Merthsoft.DesignatorShapes.Defs.DesignatorShapeDef|MidpointHexagonFilled.description": {
+      "source_hash": "6a523c67bb7978c91880dd4f3925bdf7d942cfd3395ef44f156038425b35b4e8",
+      "tokens": [],
+      "tags": [],
+      "source_empty": false
+    },
+    "DefInjected|Merthsoft.DesignatorShapes.Defs.DesignatorShapeDef|MidpointHexagonFilled.label": {
+      "source_hash": "fbe6cf30c2315ca0efe9a8d5cea438c0c4f0b25584150d86321a762d4c2f2396",
+      "tokens": [],
+      "tags": [],
+      "source_empty": false
+    },
+    "DefInjected|Merthsoft.DesignatorShapes.Defs.DesignatorShapeDef|MidpointOctagon.description": {
+      "source_hash": "58445c91e835e96301f77e841e323f9747501c80950280f2a9cfd28b341f5b82",
+      "tokens": [],
+      "tags": [],
+      "source_empty": false
+    },
+    "DefInjected|Merthsoft.DesignatorShapes.Defs.DesignatorShapeDef|MidpointOctagon.label": {
+      "source_hash": "02895271a2c91f39521de264494dbde098ddb6617f9f7be4ce9e48d30948ca0d",
+      "tokens": [],
+      "tags": [],
+      "source_empty": false
+    },
+    "DefInjected|Merthsoft.DesignatorShapes.Defs.DesignatorShapeDef|MidpointOctagonFilled.description": {
+      "source_hash": "58445c91e835e96301f77e841e323f9747501c80950280f2a9cfd28b341f5b82",
+      "tokens": [],
+      "tags": [],
+      "source_empty": false
+    },
+    "DefInjected|Merthsoft.DesignatorShapes.Defs.DesignatorShapeDef|MidpointOctagonFilled.label": {
+      "source_hash": "e2f48bfa7b49b03ac153b1edafa6c0a9e0b172d4c47f1f97dcce7cce2b7d3b6a",
+      "tokens": [],
+      "tags": [],
+      "source_empty": false
+    },
+    "DefInjected|Merthsoft.DesignatorShapes.Defs.DesignatorShapeDef|MidpointPentagon.description": {
+      "source_hash": "d6bec7c606300e80757e06f881ebc8be5de718b944e40762a99baacbcff429ff",
+      "tokens": [],
+      "tags": [],
+      "source_empty": false
+    },
+    "DefInjected|Merthsoft.DesignatorShapes.Defs.DesignatorShapeDef|MidpointPentagon.label": {
+      "source_hash": "51171df9a3ad1664784644538894f3b477837e74adcadfc041e453c59bfa4204",
+      "tokens": [],
+      "tags": [],
+      "source_empty": false
+    },
+    "DefInjected|Merthsoft.DesignatorShapes.Defs.DesignatorShapeDef|MidpointPentagonFilled.description": {
+      "source_hash": "1661a687590d8e17a90577e04c624716b340d3cb3d9957f5978dba996e6ac248",
+      "tokens": [],
+      "tags": [],
+      "source_empty": false
+    },
+    "DefInjected|Merthsoft.DesignatorShapes.Defs.DesignatorShapeDef|MidpointPentagonFilled.label": {
+      "source_hash": "4213ef1439ff164f3faff0320713dadfe01cc753a2699f38f2e749009e8aba13",
+      "tokens": [],
+      "tags": [],
+      "source_empty": false
+    },
+    "DefInjected|Merthsoft.DesignatorShapes.Defs.DesignatorShapeDef|Octagon.description": {
+      "source_hash": "80031db4d0eb9f859971b22309ca19af53188ce81efa25f133979cf6ef79ed81",
+      "tokens": [],
+      "tags": [],
+      "source_empty": false
+    },
+    "DefInjected|Merthsoft.DesignatorShapes.Defs.DesignatorShapeDef|Octagon.label": {
+      "source_hash": "05e4809657f46bf80c75f0b34f7d2c2fdb6b21a5400872f469fa93c1e388ae84",
+      "tokens": [],
+      "tags": [],
+      "source_empty": false
+    },
+    "DefInjected|Merthsoft.DesignatorShapes.Defs.DesignatorShapeDef|OctagonFilled.description": {
+      "source_hash": "4e3cb2039b75ce731d91932df696a7dde4a062fc3347dc5d2b6a54e4eb8fcddc",
+      "tokens": [],
+      "tags": [],
+      "source_empty": false
+    },
+    "DefInjected|Merthsoft.DesignatorShapes.Defs.DesignatorShapeDef|OctagonFilled.label": {
+      "source_hash": "790723317bedd1fcc38600e1eeecb820b1b6eacdd710608086a47567543dc790",
+      "tokens": [],
+      "tags": [],
+      "source_empty": false
+    },
+    "DefInjected|Merthsoft.DesignatorShapes.Defs.DesignatorShapeDef|ParallelLines.description": {
+      "source_hash": "e202562d972570575586fc6cfc3a457861dffd144b921ec68891d99831d9aea2",
+      "tokens": [],
+      "tags": [],
+      "source_empty": false
+    },
+    "DefInjected|Merthsoft.DesignatorShapes.Defs.DesignatorShapeDef|ParallelLines.label": {
+      "source_hash": "53e71362f1afca3c8031e4749e426e5d21a9998cef7d86fd2971e7317c8141e6",
+      "tokens": [],
+      "tags": [],
+      "source_empty": false
+    },
+    "DefInjected|Merthsoft.DesignatorShapes.Defs.DesignatorShapeDef|Pentagon.description": {
+      "source_hash": "80857aa6a9d32249bc8fb67afceae3522da7125b27441051182c97f4046881dd",
+      "tokens": [],
+      "tags": [],
+      "source_empty": false
+    },
+    "DefInjected|Merthsoft.DesignatorShapes.Defs.DesignatorShapeDef|Pentagon.label": {
+      "source_hash": "ecc7dcf5bc2d51ebc4d9a9c9108443e3e2b035c0e167594a63ff2fde9a9cea98",
+      "tokens": [],
+      "tags": [],
+      "source_empty": false
+    },
+    "DefInjected|Merthsoft.DesignatorShapes.Defs.DesignatorShapeDef|PentagonFilled.description": {
+      "source_hash": "48ea09e48dc257763a2aa9a2a735ec6f8d2e3e19c8c6f8ce619082dadf373b55",
+      "tokens": [],
+      "tags": [],
+      "source_empty": false
+    },
+    "DefInjected|Merthsoft.DesignatorShapes.Defs.DesignatorShapeDef|PentagonFilled.label": {
+      "source_hash": "5485f4fbdc30e9a9cc4f7165b139577eaaa783e7c0c37bedd7ca5093fbc3a08d",
+      "tokens": [],
+      "tags": [],
+      "source_empty": false
+    },
+    "DefInjected|Merthsoft.DesignatorShapes.Defs.DesignatorShapeDef|QuarterArc.description": {
+      "source_hash": "5ba257370bf8f10678e638aec23a089183e747dff1780895ca8aab2b61f17caf",
+      "tokens": [],
+      "tags": [],
+      "source_empty": false
+    },
+    "DefInjected|Merthsoft.DesignatorShapes.Defs.DesignatorShapeDef|QuarterArc.label": {
+      "source_hash": "6aae3db4fb0565d50eff27d8bb4666a141e784311ff59d7f7e5520252f02d0e4",
+      "tokens": [],
+      "tags": [],
+      "source_empty": false
+    },
+    "DefInjected|Merthsoft.DesignatorShapes.Defs.DesignatorShapeDef|Rectangle.description": {
+      "source_hash": "7d5fde9174eab709307d132eb3a0c7e242587b1809e9c960f84a7572975fd06b",
+      "tokens": [],
+      "tags": [],
+      "source_empty": false
+    },
+    "DefInjected|Merthsoft.DesignatorShapes.Defs.DesignatorShapeDef|Rectangle.label": {
+      "source_hash": "32dfed947e8bca93c393bba8525ecad6b7d623d9aaad23078343783f8e3603ff",
+      "tokens": [],
+      "tags": [],
+      "source_empty": false
+    },
+    "DefInjected|Merthsoft.DesignatorShapes.Defs.DesignatorShapeDef|RectangleFilled.description": {
+      "source_hash": "b6ba3f272ba33799d249ee01517c798140cb587e826e94027109d7926c3fcc0e",
+      "tokens": [],
+      "tags": [],
+      "source_empty": false
+    },
+    "DefInjected|Merthsoft.DesignatorShapes.Defs.DesignatorShapeDef|RectangleFilled.label": {
+      "source_hash": "dbacf22544bf05752838991564b04f1c70ffd1588a6916bd334b2de447fa30cc",
+      "tokens": [],
+      "tags": [],
+      "source_empty": false
+    },
+    "DefInjected|Merthsoft.DesignatorShapes.Defs.DesignatorShapeDef|RectangleFilled_Input.description": {
+      "source_hash": "3427e865b16d9744938cd4e1a33b205a09f25eea3eaa12bf46c376c928c9d20b",
+      "tokens": [],
+      "tags": [],
+      "source_empty": false
+    },
+    "DefInjected|Merthsoft.DesignatorShapes.Defs.DesignatorShapeDef|RectangleFilled_Input.label": {
+      "source_hash": "227d59d547308eafa4fd7d9a75261b692c2e3f0c84da6e14c7ac17c61eebf6dc",
+      "tokens": [],
+      "tags": [],
+      "source_empty": false
+    },
+    "DefInjected|Merthsoft.DesignatorShapes.Defs.DesignatorShapeDef|Rectangle_Input.description": {
+      "source_hash": "9c0b2a9a86d0610f6518d7f4bf38106c9be0cc42ecd170beffc81b1c614725bf",
+      "tokens": [],
+      "tags": [],
+      "source_empty": false
+    },
+    "DefInjected|Merthsoft.DesignatorShapes.Defs.DesignatorShapeDef|Rectangle_Input.label": {
+      "source_hash": "88ecc30b976c12d51612198296c245931966af96a8eded7f6ba008ef96b4950d",
+      "tokens": [],
+      "tags": [],
+      "source_empty": false
+    },
+    "DefInjected|Merthsoft.DesignatorShapes.Defs.DesignatorShapeDef|Redo.description": {
+      "source_hash": "00169d7d80be9109b3ab588a01df03fbe17d956929ef642e12d79c2685edcf4d",
+      "tokens": [],
+      "tags": [],
+      "source_empty": false
+    },
+    "DefInjected|Merthsoft.DesignatorShapes.Defs.DesignatorShapeDef|Redo.label": {
+      "source_hash": "77276c72c008b0652e0aa28321a47c3bae8f104d8e549c419f1e4c1796a8484c",
+      "tokens": [],
+      "tags": [],
+      "source_empty": false
+    },
+    "DefInjected|Merthsoft.DesignatorShapes.Defs.DesignatorShapeDef|RoundedRectangle.description": {
+      "source_hash": "d583281a1ef475830a77fe8e84cee82c0774e342d658291b957a843c18dc56b7",
+      "tokens": [],
+      "tags": [],
+      "source_empty": false
+    },
+    "DefInjected|Merthsoft.DesignatorShapes.Defs.DesignatorShapeDef|RoundedRectangle.label": {
+      "source_hash": "eb71d3b584173204b8fa64ed550062e4ee22c6fd89b16f963fb12534861d1034",
+      "tokens": [],
+      "tags": [],
+      "source_empty": false
+    },
+    "DefInjected|Merthsoft.DesignatorShapes.Defs.DesignatorShapeDef|RoundedRectangleFilled.description": {
+      "source_hash": "a6efaef4eb67af149c0f0ad41d3561bf4e633c9ff507c9bf4fe76f10e3da39a0",
+      "tokens": [],
+      "tags": [],
+      "source_empty": false
+    },
+    "DefInjected|Merthsoft.DesignatorShapes.Defs.DesignatorShapeDef|RoundedRectangleFilled.label": {
+      "source_hash": "85c940a7649d9916855ec010cd26e9689df235ad98b7c7746ebff0f4aab9dec9",
+      "tokens": [],
+      "tags": [],
+      "source_empty": false
+    },
+    "DefInjected|Merthsoft.DesignatorShapes.Defs.DesignatorShapeDef|SemicircleArc.description": {
+      "source_hash": "8f4a7c0f7d48cfc06ae344ef63c579ad43b0041111adfdb8ad6f72d604f5a646",
+      "tokens": [],
+      "tags": [],
+      "source_empty": false
+    },
+    "DefInjected|Merthsoft.DesignatorShapes.Defs.DesignatorShapeDef|SemicircleArc.label": {
+      "source_hash": "23795453065859a8f7279813c2f4c605cf01d235e1d65b79de04e27dcc3224de",
+      "tokens": [],
+      "tags": [],
+      "source_empty": false
+    },
+    "DefInjected|Merthsoft.DesignatorShapes.Defs.DesignatorShapeDef|SunLamp.description": {
+      "source_hash": "d44a8e2201fcd3b42e7a081a6049718fb90de82886d7e002ec495bb1cbd70507",
+      "tokens": [],
+      "tags": [],
+      "source_empty": false
+    },
+    "DefInjected|Merthsoft.DesignatorShapes.Defs.DesignatorShapeDef|SunLamp.label": {
+      "source_hash": "ba59a4bf02d05649c9cec3517c884bfc1cfaaf48b6d8c742972ff3970e059395",
+      "tokens": [],
+      "tags": [],
+      "source_empty": false
+    },
+    "DefInjected|Merthsoft.DesignatorShapes.Defs.DesignatorShapeDef|SunLampOutline.description": {
+      "source_hash": "4bbf94730749edbcc5b50c78908d4162d0f96b974d963a140fd4eed075c52d5c",
+      "tokens": [],
+      "tags": [],
+      "source_empty": false
+    },
+    "DefInjected|Merthsoft.DesignatorShapes.Defs.DesignatorShapeDef|SunLampOutline.label": {
+      "source_hash": "fe60c373693d8aa8d502abf44bfeb23f7283071e0df1e1a33ec4fd34ddd97f24",
+      "tokens": [],
+      "tags": [],
+      "source_empty": false
+    },
+    "DefInjected|Merthsoft.DesignatorShapes.Defs.DesignatorShapeDef|TradeBeacon.description": {
+      "source_hash": "5fb680a87b0d0f0bc18c367c6ce9a1ee3f392f227cec4154261dd3caa97f21b8",
+      "tokens": [],
+      "tags": [],
+      "source_empty": false
+    },
+    "DefInjected|Merthsoft.DesignatorShapes.Defs.DesignatorShapeDef|TradeBeacon.label": {
+      "source_hash": "c558726b1247ee7864d5ad61addec6310c7885d28858494004bc38ba8eaf678b",
+      "tokens": [],
+      "tags": [],
+      "source_empty": false
+    },
+    "DefInjected|Merthsoft.DesignatorShapes.Defs.DesignatorShapeDef|TradeBeaconOutline.description": {
+      "source_hash": "46d835ebbf36616bbad64adf0046f322ae05e34db8d0ad091ca74421ea94c37b",
+      "tokens": [],
+      "tags": [],
+      "source_empty": false
+    },
+    "DefInjected|Merthsoft.DesignatorShapes.Defs.DesignatorShapeDef|TradeBeaconOutline.label": {
+      "source_hash": "7a3d384802cb4f37da60cb44213220be1c38e63d8793fac6709d97529373181f",
+      "tokens": [],
+      "tags": [],
+      "source_empty": false
+    },
+    "DefInjected|Merthsoft.DesignatorShapes.Defs.DesignatorShapeDef|Undo.description": {
+      "source_hash": "fa2ce2a4d89af9b067889fc0c9f67fcdb16c1ef82cd0bcc9cd6deca15b86b3bc",
+      "tokens": [],
+      "tags": [],
+      "source_empty": false
+    },
+    "DefInjected|Merthsoft.DesignatorShapes.Defs.DesignatorShapeDef|Undo.label": {
+      "source_hash": "f015346ae3563d83d3a9cad3223586a53d2a62b08a6a7f47d7eeeb3f89be4e90",
+      "tokens": [],
+      "tags": [],
+      "source_empty": false
+    },
+    "DefInjected|Merthsoft.DesignatorShapes.Defs.OverlayGroupDef|Arcs.label": {
+      "source_hash": "babfab4de250a2705e30ce10f6bfe20e1bbed86657e4c337b3a39cf16c74f15f",
+      "tokens": [],
+      "tags": [],
+      "source_empty": false
+    },
+    "DefInjected|Merthsoft.DesignatorShapes.Defs.OverlayGroupDef|Checkerboards.label": {
+      "source_hash": "5b701664c3d8820e3b0a20020aa4269c58293c0ce26e81ffea393c2fae1a342c",
+      "tokens": [],
+      "tags": [],
+      "source_empty": false
+    },
+    "DefInjected|Merthsoft.DesignatorShapes.Defs.OverlayGroupDef|CustomPolygons.label": {
+      "source_hash": "ed91c6632dfe60bda9838d556c5dd3df032f4b8de7b8cc8fd842db842ec31764",
+      "tokens": [],
+      "tags": [],
+      "source_empty": false
+    },
+    "DefInjected|Merthsoft.DesignatorShapes.Defs.OverlayGroupDef|Ellipse.label": {
+      "source_hash": "6167c7ca0af10b00e67f8953043d513572ff66626262715f31dd145ae9505ee3",
+      "tokens": [],
+      "tags": [],
+      "source_empty": false
+    },
+    "DefInjected|Merthsoft.DesignatorShapes.Defs.OverlayGroupDef|Ellipse_Input.description": {
+      "source_hash": "e27965ba1dca4edd9a1a6f06496959f3ce6630aad7603c863cf099cc3aa6a177",
+      "tokens": [],
+      "tags": [],
+      "source_empty": false
+    },
+    "DefInjected|Merthsoft.DesignatorShapes.Defs.OverlayGroupDef|Ellipse_Input.label": {
+      "source_hash": "5475b9bb97dfd6400a198b0624ea200736127d0287a3e229d21a26ce7d2a31f0",
+      "tokens": [],
+      "tags": [],
+      "source_empty": false
+    },
+    "DefInjected|Merthsoft.DesignatorShapes.Defs.OverlayGroupDef|Etc.description": {
+      "source_hash": "b148150f825a2dccafa8560779d8ace2796a20f5a7ee3cb4254b83ebc55bb6aa",
+      "tokens": [],
+      "tags": [],
+      "source_empty": false
+    },
+    "DefInjected|Merthsoft.DesignatorShapes.Defs.OverlayGroupDef|Etc.label": {
+      "source_hash": "2a3aff6e16ed847fce73918a2f98db7a0adff63771625800ce6e56e4aac4b87e",
+      "tokens": [],
+      "tags": [],
+      "source_empty": false
+    },
+    "DefInjected|Merthsoft.DesignatorShapes.Defs.OverlayGroupDef|FloodFill.description": {
+      "source_hash": "422a61ef12e1831343c80967b519eba2894db60e7b8416c6005b2c23f1b17601",
+      "tokens": [],
+      "tags": [],
+      "source_empty": false
+    },
+    "DefInjected|Merthsoft.DesignatorShapes.Defs.OverlayGroupDef|FloodFill.label": {
+      "source_hash": "19ea4cae2bdc0694bf6d173242c2bd7e9bac074ffb4bef296dd76b31f50a25f3",
+      "tokens": [],
+      "tags": [],
+      "source_empty": false
+    },
+    "DefInjected|Merthsoft.DesignatorShapes.Defs.OverlayGroupDef|Grids.description": {
+      "source_hash": "0b6da7f975dcdec0e23e851238ebd34688d66140f261107362707437540d1674",
+      "tokens": [],
+      "tags": [],
+      "source_empty": false
+    },
+    "DefInjected|Merthsoft.DesignatorShapes.Defs.OverlayGroupDef|Grids.label": {
+      "source_hash": "59fdbab8d87b0ecff74d7f56b5b532ca546c2f689f00238b9b2b49f29447b59d",
+      "tokens": [],
+      "tags": [],
+      "source_empty": false
+    },
+    "DefInjected|Merthsoft.DesignatorShapes.Defs.OverlayGroupDef|Grids_Inverse.description": {
+      "source_hash": "21cc043bb1dd17844bdc91ebc3680a48ffd9afea65332561b49e7ccb49ae4049",
+      "tokens": [],
+      "tags": [],
+      "source_empty": false
+    },
+    "DefInjected|Merthsoft.DesignatorShapes.Defs.OverlayGroupDef|Grids_Inverse.label": {
+      "source_hash": "d496a7999067a555c275d69ba9dc5db29d7951dd56cc62560ce3d5f50acf7cf2",
+      "tokens": [],
+      "tags": [],
+      "source_empty": false
+    },
+    "DefInjected|Merthsoft.DesignatorShapes.Defs.OverlayGroupDef|Hexagons.label": {
+      "source_hash": "48fa360b3c13488a2cb02ea2f366432f6c4e480cb96662ea84e11cacacb7512d",
+      "tokens": [],
+      "tags": [],
+      "source_empty": false
+    },
+    "DefInjected|Merthsoft.DesignatorShapes.Defs.OverlayGroupDef|Line.label": {
+      "source_hash": "3b26a5427458edd20c9ec7f0954847adb8e0e692f739cc1bca3ab7438bc9c171",
+      "tokens": [],
+      "tags": [],
+      "source_empty": false
+    },
+    "DefInjected|Merthsoft.DesignatorShapes.Defs.OverlayGroupDef|MoreShapes.description": {
+      "source_hash": "97004f0c5804b73ae1977c0aea311f5f894e0829514cfc455d4cb51d2be7d425",
+      "tokens": [],
+      "tags": [],
+      "source_empty": false
+    },
+    "DefInjected|Merthsoft.DesignatorShapes.Defs.OverlayGroupDef|MoreShapes.label": {
+      "source_hash": "57549e15922308fa3b66de63105c2b1406b580006455551b48be7710a77b8fe6",
+      "tokens": [],
+      "tags": [],
+      "source_empty": false
+    },
+    "DefInjected|Merthsoft.DesignatorShapes.Defs.OverlayGroupDef|Octagons.label": {
+      "source_hash": "4952cdcd9ca8e12c5a51c4315a8bd8a904fc6559875983417fe9d5a25bc2526e",
+      "tokens": [],
+      "tags": [],
+      "source_empty": false
+    },
+    "DefInjected|Merthsoft.DesignatorShapes.Defs.OverlayGroupDef|Pentagons.label": {
+      "source_hash": "beb416d02b5f9c48d698b9bd2575894d54b5a6246bb8c8dcbacf0d6f1256ac54",
+      "tokens": [],
+      "tags": [],
+      "source_empty": false
+    },
+    "DefInjected|Merthsoft.DesignatorShapes.Defs.OverlayGroupDef|Rectangle.label": {
+      "source_hash": "183bc1aabbc9b333ab7faeaf5ee9f024cb5ef279777a51c70be866049d87aea5",
+      "tokens": [],
+      "tags": [],
+      "source_empty": false
+    },
+    "DefInjected|Merthsoft.DesignatorShapes.Defs.OverlayGroupDef|Rectangle_Input.description": {
+      "source_hash": "c5988bdaa2ff60a33fb789155419f0b9a32515b83f1010d5c6dcdbfb99bfe38c",
+      "tokens": [],
+      "tags": [],
+      "source_empty": false
+    },
+    "DefInjected|Merthsoft.DesignatorShapes.Defs.OverlayGroupDef|Rectangle_Input.label": {
+      "source_hash": "62dc26db4004c222df8d2ede3a688da001e2beec824304af5cfd8b7242da112e",
+      "tokens": [],
+      "tags": [],
+      "source_empty": false
+    },
+    "DefInjected|Merthsoft.DesignatorShapes.Defs.OverlayGroupDef|RoundedRectangles.description": {
+      "source_hash": "09b988a1fd8493f122f78137ca4db740ce852f979edc05f9ce9831e56110b7ac",
+      "tokens": [],
+      "tags": [],
+      "source_empty": false
+    },
+    "DefInjected|Merthsoft.DesignatorShapes.Defs.OverlayGroupDef|RoundedRectangles.label": {
+      "source_hash": "915728c3146fd67a7c5d5ffc76b6c727ef920fe14697793dfec516c23bfd5ee4",
+      "tokens": [],
+      "tags": [],
+      "source_empty": false
+    },
+    "Keyed|Merthsoft_DesignatorShapes": {
+      "source_hash": "04b8528915af21a8b0ba36c8b7cb9a2cee7eb35cd6b06b24d1cbbd65535a63e4",
+      "tokens": [],
+      "tags": [],
+      "source_empty": false
+    },
+    "Keyed|Merthsoft_DesignatorShapes_BoundingBoxBasedOnShapeMode": {
+      "source_hash": "69cb99b6a586a423ead9f0142fca3726fb1a609dd8d9c9cf2b990166107969ab",
+      "tokens": [],
+      "tags": [],
+      "source_empty": false
+    },
+    "Keyed|Merthsoft_DesignatorShapes_BoundingBoxBasedOnShapeMode_Shape": {
+      "source_hash": "95bf8b73d1be63f8c04766677c69a5d4e8c840cc254fdf15b80a6c8a5aa57393",
+      "tokens": [],
+      "tags": [],
+      "source_empty": false
+    },
+    "Keyed|Merthsoft_DesignatorShapes_BoundingBoxBasedOnShapeMode_Toggle": {
+      "source_hash": "105aef64f648b7d88ba64fbce31fad1175055b1b442c5ad9e3cf6130d22278bc",
+      "tokens": [],
+      "tags": [],
+      "source_empty": false
+    },
+    "Keyed|Merthsoft_DesignatorShapes_BoundingBoxBasedOnShapeMode_Vanilla": {
+      "source_hash": "4252dd4930efcbe4a11194c31ab7cdeaf8540a58f5ba844d9a2d55d0316520a8",
+      "tokens": [],
+      "tags": [],
+      "source_empty": false
+    },
+    "Keyed|Merthsoft_DesignatorShapes_BoundingBoxBasedOnShapeToggleTooltip": {
+      "source_hash": "23a447347f00b028f4d8719fe72fe0054b3c17188343fdf642fc7eee96fc006a",
+      "tokens": [],
+      "tags": [],
+      "source_empty": false
+    },
+    "Keyed|Merthsoft_DesignatorShapes_ConfirmApply": {
+      "source_hash": "dab4ef068949026890cd00b6f66bdeb25ec70beb9c487d566e3322f5928ee6ba",
+      "tokens": [],
+      "tags": [],
+      "source_empty": false
+    },
+    "Keyed|Merthsoft_DesignatorShapes_ConfirmDestructiveText": {
+      "source_hash": "26e3e9789ce3e12b5afd347592f5d036574101a5065b7ccc51145930e1a1d8c3",
+      "tokens": [
+        "{0}",
+        "{1}"
+      ],
+      "tags": [],
+      "source_empty": false
+    },
+    "Keyed|Merthsoft_DesignatorShapes_ConfirmKeep": {
+      "source_hash": "97a10014a834b0a245086534196609e7293941c84cb4eefbc56a59842f653063",
+      "tokens": [],
+      "tags": [],
+      "source_empty": false
+    },
+    "Keyed|Merthsoft_DesignatorShapes_CornerRadius": {
+      "source_hash": "6fe0661c82d10d34d342a2db6cf48e6903215f3e296d0dc8038ab44fcb48a0ce",
+      "tokens": [],
+      "tags": [],
+      "source_empty": false
+    },
+    "Keyed|Merthsoft_DesignatorShapes_IncludeVanillaPalette": {
+      "source_hash": "6839f4d3caece9731d7b2f28f8311472ab10c6a5687f20c1290f292fc174b99a",
+      "tokens": [],
+      "tags": [],
+      "source_empty": false
+    },
+    "Keyed|Merthsoft_DesignatorShapes_IncludeVanillaPaletteTooltip": {
+      "source_hash": "6d2bccc48b97a075e5b5e0df675c1452867a160ba5eb4dfa47ba5b3c1febd717",
+      "tokens": [],
+      "tags": [],
+      "source_empty": false
+    },
+    "Keyed|Merthsoft_DesignatorShapes_KeyLabel_DecreaseThickness": {
+      "source_hash": "36176b48ae669f0cebc8bdb563580ea1515633379c14c1ce1c9d323f2ef5f93b",
+      "tokens": [],
+      "tags": [],
+      "source_empty": false
+    },
+    "Keyed|Merthsoft_DesignatorShapes_KeyLabel_FillCorners": {
+      "source_hash": "9626846a20f5c9135f6e0468b9888deb22f25284462f918f398f622e506568de",
+      "tokens": [],
+      "tags": [],
+      "source_empty": false
+    },
+    "Keyed|Merthsoft_DesignatorShapes_KeyLabel_IncreaseThickness": {
+      "source_hash": "f61ed2631baee54b397846d857e1e7e6cb6d7e8751817040438970d707032814",
+      "tokens": [],
+      "tags": [],
+      "source_empty": false
+    },
+    "Keyed|Merthsoft_DesignatorShapes_KeyLabel_PreviousShape": {
+      "source_hash": "3a310929205cb161a411bc30ea427f6e371948fbdc40558c1ae23784f8050bfe",
+      "tokens": [],
+      "tags": [],
+      "source_empty": false
+    },
+    "Keyed|Merthsoft_DesignatorShapes_KeyLabel_Redo": {
+      "source_hash": "74273989b0966e2369b6d01aadb23af4ad6a9e724643fa88f2bde99202a36708",
+      "tokens": [],
+      "tags": [],
+      "source_empty": false
+    },
+    "Keyed|Merthsoft_DesignatorShapes_KeyLabel_RotateLeft": {
+      "source_hash": "c003fd257a48b400ae923cde78cb0daee25615ebc7c1881f17466d67ca16a2ce",
+      "tokens": [],
+      "tags": [],
+      "source_empty": false
+    },
+    "Keyed|Merthsoft_DesignatorShapes_KeyLabel_RotateRight": {
+      "source_hash": "9b688ce14156c23f0ebc46d8ddcce311cfdb95374f7cf90652680e6846f25384",
+      "tokens": [],
+      "tags": [],
+      "source_empty": false
+    },
+    "Keyed|Merthsoft_DesignatorShapes_KeyLabel_Undo": {
+      "source_hash": "a8283ade31856f71220db0e6f60a257c6889dc4dad0f275f66ad44b9ed9bf8d5",
+      "tokens": [],
+      "tags": [],
+      "source_empty": false
+    },
+    "Keyed|Merthsoft_DesignatorShapes_ParallelSkip": {
+      "source_hash": "28d03596d24eeb4eab2d6fe21ca1cb95be7cb1fa6f92933db05e2cc4f4cdfa06",
+      "tokens": [],
+      "tags": [],
+      "source_empty": false
+    },
+    "Keyed|Merthsoft_DesignatorShapes_ParallelThickness": {
+      "source_hash": "7b5944144275ea10a17c903d2d06c015e34740dab2ea4930aeb7573b43bb635e",
+      "tokens": [],
+      "tags": [],
+      "source_empty": false
+    },
+    "Keyed|Merthsoft_DesignatorShapes_PolygonControls": {
+      "source_hash": "fbb59118488c79dcb8af83b9240ce79b1db781819933cf86c990f480c8b02921",
+      "tokens": [
+        "{0}"
+      ],
+      "tags": [],
+      "source_empty": false
+    },
+    "Keyed|Merthsoft_DesignatorShapes_PolygonLimit": {
+      "source_hash": "38c15ba62006a44ea9b6ff6dbffb4abf0028116815bbd1ba2dd92fbe545e12b1",
+      "tokens": [],
+      "tags": [],
+      "source_empty": false
+    },
+    "Keyed|Merthsoft_DesignatorShapes_PolygonNeedCorners": {
+      "source_hash": "f75278ec2f3d94353a0963051d8937fe7d3c3dadc1096d4862db3d7ed9100c47",
+      "tokens": [],
+      "tags": [],
+      "source_empty": false
+    },
+    "Keyed|Merthsoft_DesignatorShapes_Settings_AdditionalBarriers": {
+      "source_hash": "826fb31c4b5d8f1518ecaecf5eb149bf679ec6c8d208047655d3fea5fd1a73fa",
+      "tokens": [],
+      "tags": [],
+      "source_empty": false
+    },
+    "Keyed|Merthsoft_DesignatorShapes_Settings_AdditionalBarriersTooltip": {
+      "source_hash": "9718eb706eff0c01b70f282ce0c4dc16685d2b26ca77ab8e9f56e4c9ee48198e",
+      "tokens": [],
+      "tags": [],
+      "source_empty": false
+    },
+    "Keyed|Merthsoft_DesignatorShapes_Settings_AllowCollapsing": {
+      "source_hash": "c4fae67e69696eef82f26a475860e267591b34e60418ed8f7a5b96c15c1bf939",
+      "tokens": [],
+      "tags": [],
+      "source_empty": false
+    },
+    "Keyed|Merthsoft_DesignatorShapes_Settings_AltToggle": {
+      "source_hash": "1e7def901c5b41fd4b1147226cf7e4fff52088d7ef454df714ae6e35aec88f2a",
+      "tokens": [],
+      "tags": [],
+      "source_empty": false
+    },
+    "Keyed|Merthsoft_DesignatorShapes_Settings_AnnounceToolSelection": {
+      "source_hash": "49ef2cc82b53ab7ff186fd364a578a5d35f879718c15075a63ebe24e63fa194f",
+      "tokens": [],
+      "tags": [],
+      "source_empty": false
+    },
+    "Keyed|Merthsoft_DesignatorShapes_Settings_AutoSelectShapes": {
+      "source_hash": "ab1dda223ec6636aade0b941a1229a07066ab1d86bf94c30d3fcbe01fcf340b8",
+      "tokens": [],
+      "tags": [],
+      "source_empty": false
+    },
+    "Keyed|Merthsoft_DesignatorShapes_Settings_CancelStroke": {
+      "source_hash": "e3d14aade62e95f2558a55675cc570853e391f2660486de8e9621b1b1a4332ce",
+      "tokens": [],
+      "tags": [],
+      "source_empty": false
+    },
+    "Keyed|Merthsoft_DesignatorShapes_Settings_ConfirmDestructive": {
+      "source_hash": "c057c1c473fdf68967aecce57c87c805680a2562fd28aca8bdc08c0ccabc53bd",
+      "tokens": [],
+      "tags": [],
+      "source_empty": false
+    },
+    "Keyed|Merthsoft_DesignatorShapes_Settings_ConfirmDestructiveTooltip": {
+      "source_hash": "792809333c5d3e00f25e50c8f01e715d2c45b588bd816255c94a8931a737457c",
+      "tokens": [],
+      "tags": [],
+      "source_empty": false
+    },
+    "Keyed|Merthsoft_DesignatorShapes_Settings_DrawBackground": {
+      "source_hash": "b0c65abdc965e3fc1094c0939d27fe963fc825d721bb525f36a80f974d45a604",
+      "tokens": [],
+      "tags": [],
+      "source_empty": false
+    },
+    "Keyed|Merthsoft_DesignatorShapes_Settings_EnableKeyboardInput": {
+      "source_hash": "a59b70b05d1cc4f961b8fa1b993d95a5ab6e0829661956f1b26f2a0b8f353bba",
+      "tokens": [],
+      "tags": [],
+      "source_empty": false
+    },
+    "Keyed|Merthsoft_DesignatorShapes_Settings_EnableRotation": {
+      "source_hash": "29e29180908ef49dd1fd596ab8b3337d9163ade51893ca1e12f0d8f64a877ed7",
+      "tokens": [],
+      "tags": [],
+      "source_empty": false
+    },
+    "Keyed|Merthsoft_DesignatorShapes_Settings_HideCompletelyOnAltToggle": {
+      "source_hash": "b6b4b46fb5afc9d30a57d97233685723bcaf6da05db33f33fb83b89207335894",
+      "tokens": [],
+      "tags": [],
+      "source_empty": false
+    },
+    "Keyed|Merthsoft_DesignatorShapes_Settings_HideWhenArchitectMenuIsHidden": {
+      "source_hash": "0653cbbc4820bd1ccf98e8b7db9633e338ed9a70e47926d80b29ae585b358a4f",
+      "tokens": [],
+      "tags": [],
+      "source_empty": false
+    },
+    "Keyed|Merthsoft_DesignatorShapes_Settings_IconSize": {
+      "source_hash": "8d5db5580aacb4fff9e1bbb03a0e24a7a8368fd5dc4940ceafd8d934f2109a5a",
+      "tokens": [
+        "{0}"
+      ],
+      "tags": [],
+      "source_empty": false
+    },
+    "Keyed|Merthsoft_DesignatorShapes_Settings_KeyBindings": {
+      "source_hash": "e3d1649181a93a8470353aebf9b626f9041d5c72d14e302fcc0ded52465e8495",
+      "tokens": [],
+      "tags": [],
+      "source_empty": false
+    },
+    "Keyed|Merthsoft_DesignatorShapes_Settings_LockWindow": {
+      "source_hash": "d4244042ee7a1f83a9ad454e5c627043a0151cd03048a6cf394c573d395e4954",
+      "tokens": [],
+      "tags": [],
+      "source_empty": false
+    },
+    "Keyed|Merthsoft_DesignatorShapes_Settings_MaxCells": {
+      "source_hash": "8b2e744d65e8ab5138af0c4adbedbf56f36c8a9dc6b2efa2b0eee827892b28ff",
+      "tokens": [],
+      "tags": [],
+      "source_empty": false
+    },
+    "Keyed|Merthsoft_DesignatorShapes_Settings_PauseOnFloodFill": {
+      "source_hash": "138e5522bb4d5fef1a170ba89e39bb7161c4f7fad24b922454aa732915fb9ba5",
+      "tokens": [],
+      "tags": [],
+      "source_empty": false
+    },
+    "Keyed|Merthsoft_DesignatorShapes_Settings_RememberPerDesignator": {
+      "source_hash": "2f5d0cb58be6634f54232332df7fa64f8ffdcef75a40a9c6ef116f8e802c1031",
+      "tokens": [],
+      "tags": [],
+      "source_empty": false
+    },
+    "Keyed|Merthsoft_DesignatorShapes_Settings_RememberPerDesignatorTooltip": {
+      "source_hash": "1414d47d5ffa62ad7b3173b2833c0e69cfc52f7485b0b8bbd3d75de0ad38c37f",
+      "tokens": [],
+      "tags": [],
+      "source_empty": false
+    },
+    "Keyed|Merthsoft_DesignatorShapes_Settings_ResetShapeOnResume": {
+      "source_hash": "dac09753ebcc7f222ff83687716ba5f2e5b9cce2585cf18b79ec289223cb26fa",
+      "tokens": [],
+      "tags": [],
+      "source_empty": false
+    },
+    "Keyed|Merthsoft_DesignatorShapes_Settings_RestrictFloodFillToRevealedCells": {
+      "source_hash": "f529d003476734a87e1c8b9103275cf8ae0b335b5a9c72e4d995ecd189c43e9b",
+      "tokens": [],
+      "tags": [],
+      "source_empty": false
+    },
+    "Keyed|Merthsoft_DesignatorShapes_Settings_RestrictFloodFillToRevealedCellsTooltip": {
+      "source_hash": "fc6f8ed9aa97cb902215ec392c38125a13e6f956c23bd40b975043b68b9d06a9",
+      "tokens": [],
+      "tags": [],
+      "source_empty": false
+    },
+    "Keyed|Merthsoft_DesignatorShapes_Settings_SearchBuildings": {
+      "source_hash": "f3bfc8b0fbeb3c5cffc1b4ad3047b0b8b9c15fd44e27085b17e2f57a8eca4ed6",
+      "tokens": [],
+      "tags": [],
+      "source_empty": false
+    },
+    "Keyed|Merthsoft_DesignatorShapes_Settings_ShapeShortcuts": {
+      "source_hash": "efe3e683ef41b2de8b2f8619cbb835c3673b634456dc48932b3224fffe8b8cd7",
+      "tokens": [],
+      "tags": [],
+      "source_empty": false
+    },
+    "Keyed|Merthsoft_DesignatorShapes_Settings_ShortcutCapture": {
+      "source_hash": "f95ce63a7580d7f4a7a9e1daa0b923b9e7689f29dbde8c35c4ea19c69bfaf444",
+      "tokens": [],
+      "tags": [],
+      "source_empty": false
+    },
+    "Keyed|Merthsoft_DesignatorShapes_Settings_ShortcutConflict": {
+      "source_hash": "d6dae60b2a8e13f640ef8c1cfdde2fcf0a66d9b84770b552c8f21b3e25d294c3",
+      "tokens": [],
+      "tags": [],
+      "source_empty": false
+    },
+    "Keyed|Merthsoft_DesignatorShapes_Settings_ShowShapeDictionary": {
+      "source_hash": "7ee1a015a62fa649373df2038583e05532cc6e76bdf56d6d4691a8e288c4d341",
+      "tokens": [],
+      "tags": [],
+      "source_empty": false
+    },
+    "Keyed|Merthsoft_DesignatorShapes_Settings_ToggleBinding": {
+      "source_hash": "9596dc3540f7b05dfb9337aced08b3a86bbca20240abf716337a3069b4656f52",
+      "tokens": [],
+      "tags": [],
+      "source_empty": false
+    },
+    "Keyed|Merthsoft_DesignatorShapes_Settings_ToggleShortcut": {
+      "source_hash": "e1b3d95cb0085e95aead8e93a7cee94b9d25d10b7d0982702f220b35a962bc18",
+      "tokens": [],
+      "tags": [],
+      "source_empty": false
+    },
+    "Keyed|Merthsoft_DesignatorShapes_Settings_ToggleShortcutCapture": {
+      "source_hash": "a7a83d589d6647a096ab204b2c90fb43b42999b3a9057d26e67e3de1c1028663",
+      "tokens": [],
+      "tags": [],
+      "source_empty": false
+    },
+    "Keyed|Merthsoft_DesignatorShapes_Settings_WindowPosition": {
+      "source_hash": "1558b83fcda5d7babc9bc6aa21a67101f811e1f2fdb6b1a51fcfde0e830dff80",
+      "tokens": [],
+      "tags": [],
+      "source_empty": false
+    },
+    "Keyed|Merthsoft_DesignatorShapes_Settings_WindowX": {
+      "source_hash": "725722cd977dd3e78c4f45dbb57a3832ba5b8865b2084d96f1a91be0601e290e",
+      "tokens": [],
+      "tags": [],
+      "source_empty": false
+    },
+    "Keyed|Merthsoft_DesignatorShapes_Settings_WindowY": {
+      "source_hash": "ce17773a105bd5f82587f9dc4b7118f44f1cc9cd554799008f7721414c7bcc69",
+      "tokens": [],
+      "tags": [],
+      "source_empty": false
+    },
+    "Keyed|Merthsoft_DesignatorShapes_Shapes": {
+      "source_hash": "75e8028a7913992e177895b466dd201f9be97e6fc0d435f1ffaeb531c5302581",
+      "tokens": [],
+      "tags": [],
+      "source_empty": false
+    },
+    "Keyed|Merthsoft_DesignatorShapes_SizeInputHeightLabel": {
+      "source_hash": "44bd7ae60f478fae1061e11a7739f4b94d1daf917982d33b6fc8a01a63f89c21",
+      "tokens": [],
+      "tags": [],
+      "source_empty": false
+    },
+    "Keyed|Merthsoft_DesignatorShapes_SizeInputWidthLabel": {
+      "source_hash": "fcb5f40df9be6bae66c1d77a6c15968866a9e6cbd7314ca432b019d17392f6f4",
+      "tokens": [],
+      "tags": [],
+      "source_empty": false
+    },
+    "Keyed|Merthsoft_DesignatorShapes_ToolSelected": {
+      "source_hash": "8ee12fe3eec2678426dddc2988072f37996b3ff445c633a703034394bd7d0829",
+      "tokens": [
+        "{0}"
+      ],
+      "tags": [],
+      "source_empty": false
+    }
+  }
+}
