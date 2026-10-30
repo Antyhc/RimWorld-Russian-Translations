@@ -31,7 +31,7 @@ was reused only after identical source/context/game/probe verification. Full
 localization-error multisets were unchanged within each pair. Achievements was
 checked with Odyssey enabled and disabled; it injects nothing without that DLC.
 Loading Progress also passed a fresh control/candidate pair for its actual
-early 399-entrycache; the Workshop run showed Russian transient progress text,
+early translation cache containing 399 entries; the Workshop run showed Russian transient progress text,
 startup time, tooltip and report empty-state. No saves, colony playthrough or
 extended gameplay were tested.
 
@@ -45,7 +45,7 @@ Achievements localizes one descriptive Odyssey title, preserving game names and
 acronyms. Traits additionally requires OliveWizard's main Russian pack 2337425872
 and adds two internal effect-stage captions; newly visible ordinary UI text is
 not promised. Third-party Russian is not copied into these supplements. Loading Progress is
-a complete 399-keyown provider because its loader does not merge partial packs.
+a complete provider with 399 independently authored values because its loader does not merge partial packs.
 Disable old ilyvion.loadingprogress.ru 3585898788 if installed; the new pack does
 not disable other mods automatically.
 
