@@ -42,25 +42,30 @@
     "game_evidence": "game-test-evidence.json",
     "game_test_scope": "Actual isolated game load, all264expectedlanguagevalues/physicalDeffields and foursettingswindows; no colony or long gameplay session",
     "gameplay_tested": false,
-    "workshop_install_tested": true
+    "workshop_install_tested": true,
+    "historical_game_context_changed_after_upstream_merge": true,
+    "current_native_distribution_verified_by_file_match": true,
+    "standalone_update_retest_required": true
   },
   "publication": {
     "github_url": "https://github.com/Antyhc/RimWorld-Russian-Translations/tree/main/mods/unon.noburnmetal",
     "github_status": "published",
     "workshop_url": "https://steamcommunity.com/sharedfiles/filedetails/?id=3828790442",
     "workshop_id": "3828790442",
-    "workshop_status": "published_integrated_upstream",
+    "workshop_status": "published",
     "dependency_verified": true,
     "anonymous_page_verified": true,
     "published_at": "2026-10-28T10:41:35.907741+00:00",
-    "collection_id": "3828791160",
+    "collection_id": "3830036321",
     "collection_member_verified": true,
     "installation_tested": true,
     "standalone_needed": false,
     "upstream_integration_confirmed": true,
     "deprecation_guidance_pending": false,
     "deprecation_guidance_verified": true,
-    "deprecation_guidance_checked_at": "2026-10-30T08:37:15.638595+00:00"
+    "deprecation_guidance_checked_at": "2026-10-30T08:37:15.638595+00:00",
+    "anonymous_page_checked_at": "2026-10-30T10:06:35.955Z",
+    "anonymous_page_evidence": "community/workshop-public-pages-2026-10-30.json"
   },
   "integration": {
     "status": "accepted",

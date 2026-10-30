@@ -1,0 +1,11 @@
+Vanilla Traits Expanded — Russian additions
+
+Original creators: Oskar Potocki, Taranchuk, Chowder.
+Original work: https://steamcommunity.com/sharedfiles/filedetails/?id=2296404655
+Original and Russian adapted text: Creative Commons Attribution-NonCommercial-ShareAlike4.0 International (CC BY-NC-SA4.0).
+License URI: https://creativecommons.org/licenses/by-nc-sa/4.0/
+Legal code and disclaimer: https://creativecommons.org/licenses/by-nc-sa/4.0/legalcode.en
+
+Russian contributions copyright(c)2026Antyhc. Changes are translation and semantic editing of selected original English entries.
+Retain original attribution, source link, license notices, modification history and this notice. Noncommercial use only. Adapted translated text must retain CC BY-NC-SA4.0; no extra legal or technical restrictions.
+No original mod code, assemblies, art, textures or third-party Russian are redistributed. Own typographic cover is MIT-licensed separately.

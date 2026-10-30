@@ -1,0 +1,139 @@
+{
+  "schema_version": 1,
+  "checked_at": "2026-10-30T09:37:41.235022+00:00",
+  "permission_url": "https://github.com/Vanilla-Expanded/VanillaExpandedFramework/issues/195#issuecomment-6519584242",
+  "request_url": "https://github.com/Vanilla-Expanded/VanillaExpandedFramework/issues/195",
+  "respondent": "AndroidQuazar",
+  "reply_summary": "The Vanilla Expanded maintainer permits independently authored standalone translation uploads, including AI-assisted work, and expressly disclaims Vanilla Expanded endorsement or association.",
+  "applied_scope": "Only the23 Vanilla Expanded-family original mods explicitly listed in this request; newly authored Russian text, free standalone language patches, original-author credit and links, own typographic covers. No permission for original art or unrelated third-party Russian is inferred.",
+  "original_license_unchanged": "Current ND license metadata is retained; the reply is separate permission for the requested adaptations.",
+  "third_party_text_included": false,
+  "original_art_permission_granted": false,
+  "ai_assistance_disclosed": true,
+  "independent_human_review_claimed": false,
+  "mods": [
+    {
+      "package_id": "oskarpotocki.vanillafactionsexpanded.core",
+      "workshop_id": "2023507013",
+      "original_mod_url": "https://steamcommunity.com/sharedfiles/filedetails/?id=2023507013"
+    },
+    {
+      "package_id": "oskarpotocki.vanillavehiclesexpandedtier3",
+      "workshop_id": "3047892432",
+      "original_mod_url": "https://steamcommunity.com/sharedfiles/filedetails/?id=3047892432"
+    },
+    {
+      "package_id": "oskarpotocki.vanillavehiclesexpandedupgrades",
+      "workshop_id": "3302208420",
+      "original_mod_url": "https://steamcommunity.com/sharedfiles/filedetails/?id=3302208420"
+    },
+    {
+      "package_id": "oskarpotocki.vfe.empire",
+      "workshop_id": "2938820380",
+      "original_mod_url": "https://steamcommunity.com/sharedfiles/filedetails/?id=2938820380"
+    },
+    {
+      "package_id": "oskarpotocki.vfe.insectoid2",
+      "workshop_id": "3309003431",
+      "original_mod_url": "https://steamcommunity.com/sharedfiles/filedetails/?id=3309003431"
+    },
+    {
+      "package_id": "oskarpotocki.vfe.medieval2",
+      "workshop_id": "3444347874",
+      "original_mod_url": "https://steamcommunity.com/sharedfiles/filedetails/?id=3444347874"
+    },
+    {
+      "package_id": "vanillaexpanded.gravship",
+      "workshop_id": "3609835606",
+      "original_mod_url": "https://steamcommunity.com/sharedfiles/filedetails/?id=3609835606"
+    },
+    {
+      "package_id": "vanillaexpanded.gravship2",
+      "workshop_id": "3799737423",
+      "original_mod_url": "https://steamcommunity.com/sharedfiles/filedetails/?id=3799737423"
+    },
+    {
+      "package_id": "vanillaexpanded.vaeaccessories",
+      "workshop_id": "2521176396",
+      "original_mod_url": "https://steamcommunity.com/sharedfiles/filedetails/?id=2521176396"
+    },
+    {
+      "package_id": "vanillaexpanded.vanillasocialinteractionsexpanded",
+      "workshop_id": "2439736083",
+      "original_mod_url": "https://steamcommunity.com/sharedfiles/filedetails/?id=2439736083"
+    },
+    {
+      "package_id": "vanillaexpanded.vanillatradingexpanded",
+      "workshop_id": "2785616901",
+      "original_mod_url": "https://steamcommunity.com/sharedfiles/filedetails/?id=2785616901"
+    },
+    {
+      "package_id": "vanillaexpanded.vappe",
+      "workshop_id": "1814987817",
+      "original_mod_url": "https://steamcommunity.com/sharedfiles/filedetails/?id=1814987817"
+    },
+    {
+      "package_id": "vanillaexpanded.varme",
+      "workshop_id": "1814988282",
+      "original_mod_url": "https://steamcommunity.com/sharedfiles/filedetails/?id=1814988282"
+    },
+    {
+      "package_id": "vanillaexpanded.vbookse",
+      "workshop_id": "2193152410",
+      "original_mod_url": "https://steamcommunity.com/sharedfiles/filedetails/?id=2193152410"
+    },
+    {
+      "package_id": "vanillaexpanded.vbrewe",
+      "workshop_id": "2186560858",
+      "original_mod_url": "https://steamcommunity.com/sharedfiles/filedetails/?id=2186560858"
+    },
+    {
+      "package_id": "vanillaexpanded.vcooke",
+      "workshop_id": "2134308519",
+      "original_mod_url": "https://steamcommunity.com/sharedfiles/filedetails/?id=2134308519"
+    },
+    {
+      "package_id": "vanillaexpanded.vee",
+      "workshop_id": "1938420742",
+      "original_mod_url": "https://steamcommunity.com/sharedfiles/filedetails/?id=1938420742"
+    },
+    {
+      "package_id": "vanillaexpanded.vexploratione",
+      "workshop_id": "3656316229",
+      "original_mod_url": "https://steamcommunity.com/sharedfiles/filedetails/?id=3656316229"
+    },
+    {
+      "package_id": "vanillaexpanded.vfecore",
+      "workshop_id": "1718190143",
+      "original_mod_url": "https://steamcommunity.com/sharedfiles/filedetails/?id=1718190143"
+    },
+    {
+      "package_id": "vanillaexpanded.vfesecurity",
+      "workshop_id": "1845154007",
+      "original_mod_url": "https://steamcommunity.com/sharedfiles/filedetails/?id=1845154007"
+    },
+    {
+      "package_id": "vanillaquestsexpanded.ancients",
+      "workshop_id": "3618306875",
+      "original_mod_url": "https://steamcommunity.com/sharedfiles/filedetails/?id=3618306875"
+    },
+    {
+      "package_id": "vanillaquestsexpanded.generator",
+      "workshop_id": "3411401573",
+      "original_mod_url": "https://steamcommunity.com/sharedfiles/filedetails/?id=3411401573"
+    },
+    {
+      "package_id": "ve.vanillachristmasexpanded",
+      "workshop_id": "3380695249",
+      "original_mod_url": "https://steamcommunity.com/sharedfiles/filedetails/?id=3380695249"
+    }
+  ],
+  "respondent_identity_evidence": {
+    "github_login": "AndroidQuazar",
+    "name": "Oskar Potocki",
+    "official_repository_commit_url": "https://github.com/Vanilla-Expanded/VanillaFurnitureExpanded/commit/b25342a1be195e9c45c6efe224f18c6634df34cf",
+    "commit_author_and_committer_name": "Oskar Potocki",
+    "github_comment_association": "CONTRIBUTOR",
+    "private_organization_permissions_inspected": false
+  }
+}

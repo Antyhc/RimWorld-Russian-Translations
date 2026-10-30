@@ -1,0 +1,402 @@
+<?xml version='1.0' encoding='utf-8'?>
+<LanguageData>
+  <LoadingProgress.AutoSaveStartupImpactReport> - Автоматически сохранять отчёт о времени запуска</LoadingProgress.AutoSaveStartupImpactReport>
+  <LoadingProgress.AutoSaveStartupImpactReport.Tip>После каждого запуска автоматически сохранять отчёт в StartupImpactData.xml в папке данных RimWorld. Открывать окно отчёта и нажимать «Сохранить» не потребуется.\n\nЭто позволяет внешним инструментам, например менеджеру модов RimSort, показывать время загрузки каждого мода.</LoadingProgress.AutoSaveStartupImpactReport.Tip>
+  <LoadingProgress.Bottom>Внизу</LoadingProgress.Bottom>
+  <LoadingProgress.CachingTextures>Этот запуск может занять больше времени: игра кэширует новые текстуры. Последующие запуски будут быстрее.</LoadingProgress.CachingTextures>
+  <LoadingProgress.CallAll>Ход загрузки: запуск статических конструкторов</LoadingProgress.CallAll>
+  <LoadingProgress.ClearEstimatesOnModListChange>Сбрасывать оценки времени при изменении списка модов</LoadingProgress.ClearEstimatesOnModListChange>
+  <LoadingProgress.ClearEstimatesOnModListChange.Tip>Если включено, история времени загрузки очищается при каждом изменении списка модов. Оценка будет соответствовать текущей сборке.\n\nОтключите, чтобы сохранять оценки при изменении списка — например, если вы часто добавляете и убираете моды, но хотите иметь приблизительный ориентир.</LoadingProgress.ClearEstimatesOnModListChange.Tip>
+  <LoadingProgress.Custom>Своё положение</LoadingProgress.Custom>
+  <LoadingProgress.CustomPlacementPreview.Tip>Перетащите это окно туда, где должно появляться окно загрузки, затем закройте его. Окно нельзя переместить за пределы экрана. Положение сохраняется относительно размера экрана, поэтому при смене разрешения оно останется примерно на том же месте.</LoadingProgress.CustomPlacementPreview.Tip>
+  <LoadingProgress.EditCustomPlacement>Задать своё положение...</LoadingProgress.EditCustomPlacement>
+  <LoadingProgress.EstimateBasedOn>оценка по предыдущим запускам: {0}</LoadingProgress.EstimateBasedOn>
+  <LoadingProgress.EstimateBasedOnSingle>оценка по предыдущему запуску</LoadingProgress.EstimateBasedOnSingle>
+  <LoadingProgress.ExecuteToExecuteWhenFinished>Ход загрузки: выполнение отложенных задач инициализации</LoadingProgress.ExecuteToExecuteWhenFinished>
+  <LoadingProgress.FasterGameLoadingEarlyModContentLoading>Ход загрузки — ранняя загрузка содержимого модов Faster Game Loading</LoadingProgress.FasterGameLoadingEarlyModContentLoading>
+  <LoadingProgress.FasterGameLoadingEarlyModContentLoading.ForMod>Faster Game Loading заранее загружает содержимое &lt;i&gt;{0}&lt;/i&gt;...</LoadingProgress.FasterGameLoadingEarlyModContentLoading.ForMod>
+  <LoadingProgress.FinishingUp>Завершение</LoadingProgress.FinishingUp>
+  <LoadingProgress.ForceImmediateRepaints>Немедленно обновлять окно при смене этапа и перезагрузке содержимого</LoadingProgress.ForceImmediateRepaints>
+  <LoadingProgress.ForceImmediateRepaints.Tip>Окно обновляется сразу при смене этапа загрузки и перед каждым шагом перезагрузки содержимого мода. Подпись соответствует текущей операции, даже если та выполняется долго.\n\nЧастое обновление экрана во время загрузки ресурсов может замедлить запуск.\n\nТребуется перезапуск игры.</LoadingProgress.ForceImmediateRepaints.Tip>
+  <LoadingProgress.InGame.EncounterMapGeneration>Генерация карты</LoadingProgress.InGame.EncounterMapGeneration>
+  <LoadingProgress.InGame.EncounterMapGenerationStatic>Генерация карты</LoadingProgress.InGame.EncounterMapGenerationStatic>
+  <LoadingProgress.InGame.Label.ApplyingMapFeatures>Применение особых свойств карты</LoadingProgress.InGame.Label.ApplyingMapFeatures>
+  <LoadingProgress.InGame.Label.ApplyingScenarioSettings>Применение настроек сценария</LoadingProgress.InGame.Label.ApplyingScenarioSettings>
+  <LoadingProgress.InGame.Label.CalculatingWealth>Подсчёт богатства колонии</LoadingProgress.InGame.Label.CalculatingWealth>
+  <LoadingProgress.InGame.Label.CheckingHomeAreaMess>Проверка загрязнения домашней области</LoadingProgress.InGame.Label.CheckingHomeAreaMess>
+  <LoadingProgress.InGame.Label.ChoosingStartingSpot>Выбор стартового места</LoadingProgress.InGame.Label.ChoosingStartingSpot>
+  <LoadingProgress.InGame.Label.CombiningItems>Объединение загруженных предметов</LoadingProgress.InGame.Label.CombiningItems>
+  <LoadingProgress.InGame.Label.CountingResources>Подсчёт ресурсов</LoadingProgress.InGame.Label.CountingResources>
+  <LoadingProgress.InGame.Label.DrawingClouds>Отрисовка облаков</LoadingProgress.InGame.Label.DrawingClouds>
+  <LoadingProgress.InGame.Label.DrawingHills>Отрисовка холмов</LoadingProgress.InGame.Label.DrawingHills>
+  <LoadingProgress.InGame.Label.DrawingLandmarks>Отрисовка ориентиров</LoadingProgress.InGame.Label.DrawingLandmarks>
+  <LoadingProgress.InGame.Label.DrawingPlanetGlow>Отрисовка свечения планеты</LoadingProgress.InGame.Label.DrawingPlanetGlow>
+  <LoadingProgress.InGame.Label.DrawingPollution>Отрисовка загрязнения</LoadingProgress.InGame.Label.DrawingPollution>
+  <LoadingProgress.InGame.Label.DrawingRivers>Отрисовка рек</LoadingProgress.InGame.Label.DrawingRivers>
+  <LoadingProgress.InGame.Label.DrawingRoads>Отрисовка дорог</LoadingProgress.InGame.Label.DrawingRoads>
+  <LoadingProgress.InGame.Label.DrawingStars>Отрисовка звёзд</LoadingProgress.InGame.Label.DrawingStars>
+  <LoadingProgress.InGame.Label.DrawingSunlight>Отрисовка солнечного света</LoadingProgress.InGame.Label.DrawingSunlight>
+  <LoadingProgress.InGame.Label.DrawingTerrain>Отрисовка рельефа</LoadingProgress.InGame.Label.DrawingTerrain>
+  <LoadingProgress.InGame.Label.DrawingUnexploredAreas>Отрисовка неисследованных областей</LoadingProgress.InGame.Label.DrawingUnexploredAreas>
+  <LoadingProgress.InGame.Label.DrawingWorldObjects>Отрисовка объектов мира</LoadingProgress.InGame.Label.DrawingWorldObjects>
+  <LoadingProgress.InGame.Label.FinalizingMapLayout>Завершение формирования карты</LoadingProgress.InGame.Label.FinalizingMapLayout>
+  <LoadingProgress.InGame.Label.FinalizingMaps>Завершение подготовки карт</LoadingProgress.InGame.Label.FinalizingMaps>
+  <LoadingProgress.InGame.Label.FinishingSaveData>Завершение обработки сохранения</LoadingProgress.InGame.Label.FinishingSaveData>
+  <LoadingProgress.InGame.Label.FinishingUp>Завершение</LoadingProgress.InGame.Label.FinishingUp>
+  <LoadingProgress.InGame.Label.GeneratingWorld>Генерация мира</LoadingProgress.InGame.Label.GeneratingWorld>
+  <LoadingProgress.InGame.Label.GrowingPoluxTrees>Создание деревьев поллукс</LoadingProgress.InGame.Label.GrowingPoluxTrees>
+  <LoadingProgress.InGame.Label.InitializingMapObjects>Инициализация объектов карты</LoadingProgress.InGame.Label.InitializingMapObjects>
+  <LoadingProgress.InGame.Label.InitializingObjects>Инициализация загруженных объектов</LoadingProgress.InGame.Label.InitializingObjects>
+  <LoadingProgress.InGame.Label.LoadingItems>Загрузка предметов</LoadingProgress.InGame.Label.LoadingItems>
+  <LoadingProgress.InGame.Label.MappingOutRooms>Определение помещений</LoadingProgress.InGame.Label.MappingOutRooms>
+  <LoadingProgress.InGame.Label.MarkingCurrentTile>Обозначение текущей клетки</LoadingProgress.InGame.Label.MarkingCurrentTile>
+  <LoadingProgress.InGame.Label.MarkingNearestTile>Обозначение ближайшей клетки</LoadingProgress.InGame.Label.MarkingNearestTile>
+  <LoadingProgress.InGame.Label.MarkingSelectedTile>Обозначение выбранной клетки</LoadingProgress.InGame.Label.MarkingSelectedTile>
+  <LoadingProgress.InGame.Label.MarkingSettlementTile>Обозначение клетки поселения</LoadingProgress.InGame.Label.MarkingSettlementTile>
+  <LoadingProgress.InGame.Label.MarkingTileUnderCursor>Обозначение клетки под курсором</LoadingProgress.InGame.Label.MarkingTileUnderCursor>
+  <LoadingProgress.InGame.Label.PlacingAncientBuildings>Размещение древних построек</LoadingProgress.InGame.Label.PlacingAncientBuildings>
+  <LoadingProgress.InGame.Label.PlacingAncientFences>Размещение древних оград</LoadingProgress.InGame.Label.PlacingAncientFences>
+  <LoadingProgress.InGame.Label.PlacingAncientLandingPad>Размещение древней посадочной площадки</LoadingProgress.InGame.Label.PlacingAncientLandingPad>
+  <LoadingProgress.InGame.Label.PlacingAncientMechanoids>Размещение древних механоидов</LoadingProgress.InGame.Label.PlacingAncientMechanoids>
+  <LoadingProgress.InGame.Label.PlacingAncientPipelines>Размещение древних трубопроводов</LoadingProgress.InGame.Label.PlacingAncientPipelines>
+  <LoadingProgress.InGame.Label.PlacingAncientRoads>Размещение древних дорог</LoadingProgress.InGame.Label.PlacingAncientRoads>
+  <LoadingProgress.InGame.Label.PlacingAncientSites>Размещение древних объектов</LoadingProgress.InGame.Label.PlacingAncientSites>
+  <LoadingProgress.InGame.Label.PlacingAncientTurrets>Размещение древних турелей</LoadingProgress.InGame.Label.PlacingAncientTurrets>
+  <LoadingProgress.InGame.Label.PlacingAnimaTrees>Размещение деревьев анимы</LoadingProgress.InGame.Label.PlacingAnimaTrees>
+  <LoadingProgress.InGame.Label.PlacingExostriderRemains>Размещение останков древнего экзострайдера</LoadingProgress.InGame.Label.PlacingExostriderRemains>
+  <LoadingProgress.InGame.Label.PlacingInsectHives>Размещение ульев насекомых</LoadingProgress.InGame.Label.PlacingInsectHives>
+  <LoadingProgress.InGame.Label.PlacingMechanoidRemains>Размещение останков механоидов</LoadingProgress.InGame.Label.PlacingMechanoidRemains>
+  <LoadingProgress.InGame.Label.PlacingRockChunks>Размещение обломков породы</LoadingProgress.InGame.Label.PlacingRockChunks>
+  <LoadingProgress.InGame.Label.PlacingRockFormations>Размещение скальных образований</LoadingProgress.InGame.Label.PlacingRockFormations>
+  <LoadingProgress.InGame.Label.PlacingRuins>Размещение руин</LoadingProgress.InGame.Label.PlacingRuins>
+  <LoadingProgress.InGame.Label.PlacingShrines>Размещение святилищ</LoadingProgress.InGame.Label.PlacingShrines>
+  <LoadingProgress.InGame.Label.PlacingSteamGeysers>Размещение паровых гейзеров</LoadingProgress.InGame.Label.PlacingSteamGeysers>
+  <LoadingProgress.InGame.Label.PlacingVoidMonolith>Размещение монолита пустоты</LoadingProgress.InGame.Label.PlacingVoidMonolith>
+  <LoadingProgress.InGame.Label.ReadingSaveFile>Чтение файла сохранения</LoadingProgress.InGame.Label.ReadingSaveFile>
+  <LoadingProgress.InGame.Label.RedrawingMapChunk>Перерисовка карты (участок {0} из {1})</LoadingProgress.InGame.Label.RedrawingMapChunk>
+  <LoadingProgress.InGame.Label.ResolvingReferences>Связывание ссылок</LoadingProgress.InGame.Label.ResolvingReferences>
+  <LoadingProgress.InGame.Label.RunningMapComponents>Завершающая настройка карты</LoadingProgress.InGame.Label.RunningMapComponents>
+  <LoadingProgress.InGame.Label.ScatteringAncientJunk>Размещение древнего хлама</LoadingProgress.InGame.Label.ScatteringAncientJunk>
+  <LoadingProgress.InGame.Label.ScatteringCaveDebris>Размещение обломков в пещерах</LoadingProgress.InGame.Label.ScatteringCaveDebris>
+  <LoadingProgress.InGame.Label.ScatteringPollutedJunk>Размещение загрязнённого хлама</LoadingProgress.InGame.Label.ScatteringPollutedJunk>
+  <LoadingProgress.InGame.Label.ScatteringRoadDebris>Размещение дорожных обломков</LoadingProgress.InGame.Label.ScatteringRoadDebris>
+  <LoadingProgress.InGame.Label.SettingUpFogOfWar>Подготовка тумана войны</LoadingProgress.InGame.Label.SettingUpFogOfWar>
+  <LoadingProgress.InGame.Label.SettingUpMapGeneration>Подготовка генерации карты</LoadingProgress.InGame.Label.SettingUpMapGeneration>
+  <LoadingProgress.InGame.Label.SettingUpWorld>Подготовка мира</LoadingProgress.InGame.Label.SettingUpWorld>
+  <LoadingProgress.InGame.Label.ShapingTerrain>Формирование рельефа</LoadingProgress.InGame.Label.ShapingTerrain>
+  <LoadingProgress.InGame.NewGameMapGeneration>Генерация карты</LoadingProgress.InGame.NewGameMapGeneration>
+  <LoadingProgress.InGame.Phase.EncounterMapGenerationStatic_Generating>Генерация карты</LoadingProgress.InGame.Phase.EncounterMapGenerationStatic_Generating>
+  <LoadingProgress.InGame.Phase.EncounterMapGeneration_Deferred>Перестроение отображения</LoadingProgress.InGame.Phase.EncounterMapGeneration_Deferred>
+  <LoadingProgress.InGame.Phase.EncounterMapGeneration_Finalize>Завершение подготовки карты</LoadingProgress.InGame.Phase.EncounterMapGeneration_Finalize>
+  <LoadingProgress.InGame.Phase.EncounterMapGeneration_GenSteps>Генерация карты</LoadingProgress.InGame.Phase.EncounterMapGeneration_GenSteps>
+  <LoadingProgress.InGame.Phase.EncounterMapGeneration_PostInit>Завершение</LoadingProgress.InGame.Phase.EncounterMapGeneration_PostInit>
+  <LoadingProgress.InGame.Phase.EncounterMapGeneration_SetUp>Подготовка карты</LoadingProgress.InGame.Phase.EncounterMapGeneration_SetUp>
+  <LoadingProgress.InGame.Phase.EncounterMapGeneration_SpawningColonists>Размещение поселенцев</LoadingProgress.InGame.Phase.EncounterMapGeneration_SpawningColonists>
+  <LoadingProgress.InGame.Phase.NewGameMapGeneration_Deferred>Перестроение отображения</LoadingProgress.InGame.Phase.NewGameMapGeneration_Deferred>
+  <LoadingProgress.InGame.Phase.NewGameMapGeneration_Finalize>Завершение подготовки карты</LoadingProgress.InGame.Phase.NewGameMapGeneration_Finalize>
+  <LoadingProgress.InGame.Phase.NewGameMapGeneration_GenSteps>Генерация карты</LoadingProgress.InGame.Phase.NewGameMapGeneration_GenSteps>
+  <LoadingProgress.InGame.Phase.NewGameMapGeneration_LoadingScene>Загрузка ресурсов</LoadingProgress.InGame.Phase.NewGameMapGeneration_LoadingScene>
+  <LoadingProgress.InGame.Phase.NewGameMapGeneration_PostInit>Завершение</LoadingProgress.InGame.Phase.NewGameMapGeneration_PostInit>
+  <LoadingProgress.InGame.Phase.NewGameMapGeneration_SetUp>Подготовка карты</LoadingProgress.InGame.Phase.NewGameMapGeneration_SetUp>
+  <LoadingProgress.InGame.Phase.PlanetRegeneration_RegeneratingLayers>Перестроение слоёв</LoadingProgress.InGame.Phase.PlanetRegeneration_RegeneratingLayers>
+  <LoadingProgress.InGame.Phase.SaveLoading_Deferred>Перестроение отображения</LoadingProgress.InGame.Phase.SaveLoading_Deferred>
+  <LoadingProgress.InGame.Phase.SaveLoading_Finishing>Завершение</LoadingProgress.InGame.Phase.SaveLoading_Finishing>
+  <LoadingProgress.InGame.Phase.SaveLoading_LoadingScene>Загрузка ресурсов</LoadingProgress.InGame.Phase.SaveLoading_LoadingScene>
+  <LoadingProgress.InGame.Phase.SaveLoading_Maps>Загрузка карт</LoadingProgress.InGame.Phase.SaveLoading_Maps>
+  <LoadingProgress.InGame.Phase.SaveLoading_PostLoadInits>Инициализация игры</LoadingProgress.InGame.Phase.SaveLoading_PostLoadInits>
+  <LoadingProgress.InGame.Phase.SaveLoading_ReadingFile>Чтение файла</LoadingProgress.InGame.Phase.SaveLoading_ReadingFile>
+  <LoadingProgress.InGame.Phase.SaveLoading_ResolvingCrossReferences>Связывание ссылок</LoadingProgress.InGame.Phase.SaveLoading_ResolvingCrossReferences>
+  <LoadingProgress.InGame.Phase.SaveLoading_Spawning>Размещение объектов</LoadingProgress.InGame.Phase.SaveLoading_Spawning>
+  <LoadingProgress.InGame.Phase.SaveLoading_World>Загрузка мира</LoadingProgress.InGame.Phase.SaveLoading_World>
+  <LoadingProgress.InGame.Phase.WorldGeneration_Deferred>Перестроение отображения</LoadingProgress.InGame.Phase.WorldGeneration_Deferred>
+  <LoadingProgress.InGame.Phase.WorldGeneration_LayerSteps>Генерация слоёв</LoadingProgress.InGame.Phase.WorldGeneration_LayerSteps>
+  <LoadingProgress.InGame.Phase.WorldGeneration_SetupSteps>Подготовка</LoadingProgress.InGame.Phase.WorldGeneration_SetupSteps>
+  <LoadingProgress.InGame.PlanetRegeneration>Повторная генерация планеты</LoadingProgress.InGame.PlanetRegeneration>
+  <LoadingProgress.InGame.SaveLoading>Загрузка игры</LoadingProgress.InGame.SaveLoading>
+  <LoadingProgress.InGame.WorldGeneration>Генерация мира</LoadingProgress.InGame.WorldGeneration>
+  <LoadingProgress.InGameExecuteToExecuteWhenFinished>Ход загрузки: перестроение отображения</LoadingProgress.InGameExecuteToExecuteWhenFinished>
+  <LoadingProgress.KeepPinnedSessions> - Сохранять закреплённые сеансы сверх ограничения</LoadingProgress.KeepPinnedSessions>
+  <LoadingProgress.KeepPinnedSessions.Tip>Закреплённые сеансы не удаляются при достижении ограничения и не занимают отведённые для обычных сеансов места.\n\nОтключите, чтобы закреплённые сеансы удалялись по давности на общих основаниях, а закрепление влияло только на положение в списке.</LoadingProgress.KeepPinnedSessions.Tip>
+  <LoadingProgress.KeepUnfinishedBoots> - Сохранять сеансы незавершённых запусков</LoadingProgress.KeepUnfinishedBoots>
+  <LoadingProgress.KeepUnfinishedBoots.Tip>Если запуск зависает или игра аварийно завершается, отчёт обычно не создаётся. Так теряются наиболее полезные для диагностики данные.\n\nЭта настройка сохраняет небольшую отметку на время загрузки и удаляет её после завершения. Если отметка сохранилась до следующего запуска, в историю добавляется запись со временем начала и последним достигнутым этапом. Разбивки по модам в таком отчёте нет: запуск завершился раньше, чем она была составлена.</LoadingProgress.KeepUnfinishedBoots.Tip>
+  <LoadingProgress.LastLoadingTime>Показывать время загрузки</LoadingProgress.LastLoadingTime>
+  <LoadingProgress.LastLoadingTime.Tip>Показывает время, прошедшее с начала загрузки. После первого полного запуска игра сохранит результат и будет использовать его для оценки длительности следующей загрузки.</LoadingProgress.LastLoadingTime.Tip>
+  <LoadingProgress.LastLoadingTimeInCorner>Показывать время загрузки в правом нижнем углу главного меню</LoadingProgress.LastLoadingTimeInCorner>
+  <LoadingProgress.LastLoadingTimeInCorner.Tip>В правом нижнем углу главного меню будет показано, сколько времени заняла загрузка игры.</LoadingProgress.LastLoadingTimeInCorner.Tip>
+  <LoadingProgress.LastLoadingTimeProgressBar> - Показывать полосу времени загрузки</LoadingProgress.LastLoadingTimeProgressBar>
+  <LoadingProgress.LastLoadingTimeProgressBar.Tip>Во время загрузки показывает полосу, которая сопоставляет прошедшее время с ожидаемой длительностью загрузки.</LoadingProgress.LastLoadingTimeProgressBar.Tip>
+  <LoadingProgress.LoadingTime>Игра загрузилась за {0}</LoadingProgress.LoadingTime>
+  <LoadingProgress.LoadingTime.Tip>Нажмите, чтобы посмотреть подробную разбивку времени загрузки.</LoadingProgress.LoadingTime.Tip>
+  <LoadingProgress.LoadingTimeAsCountDown>Показывать обратный отсчёт до завершения загрузки</LoadingProgress.LoadingTimeAsCountDown>
+  <LoadingProgress.LoadingTimeAsCountDown.Tip>Показывает обратный отсчёт, начиная с ожидаемой длительности загрузки. Это помогает оценить, сколько времени осталось до полного запуска игры.</LoadingProgress.LoadingTimeAsCountDown.Tip>
+  <LoadingProgress.LoadingTimeLabel>Время загрузки</LoadingProgress.LoadingTimeLabel>
+  <LoadingProgress.LoadingTimeNotRecorded>Время загрузки не записано</LoadingProgress.LoadingTimeNotRecorded>
+  <LoadingProgress.LoadingTimesCapacity>Количество оценок в истории: {0}</LoadingProgress.LoadingTimesCapacity>
+  <LoadingProgress.LoadingTimesCapacity.Tip>Сколько предыдущих замеров учитывать при оценке времени загрузки.\n\nИспользуется взвешенное среднее: последние 10 запусков имеют возрастающий вес — от 1× для десятого по давности до 10× для последнего. Более старые запуски имеют одинаковый вес 1× и тоже учитываются независимо от размера истории.\n\nЧем больше замеров, тем стабильнее оценка: единичные медленные или быстрые загрузки влияют на неё слабее.</LoadingProgress.LoadingTimesCapacity.Tip>
+  <LoadingProgress.LoadingWindowPlacement>Положение окна загрузки</LoadingProgress.LoadingWindowPlacement>
+  <LoadingProgress.ManageSessions>Управление сохранёнными сеансами...</LoadingProgress.ManageSessions>
+  <LoadingProgress.MemoryUsage>Куча: {0}  ·  Процесс: {1}</LoadingProgress.MemoryUsage>
+  <LoadingProgress.Middle>Посередине</LoadingProgress.Middle>
+  <LoadingProgress.MiddleInverted>Посередине (обратный порядок)</LoadingProgress.MiddleInverted>
+  <LoadingProgress.ModHashChanged>(Список модов изменился после прошлого запуска; оценка времени может быть неточной.)</LoadingProgress.ModHashChanged>
+  <LoadingProgress.PatchInGameDeferredRepaint>Обновлять окно загрузки во время перестроения отображения карты и мира</LoadingProgress.PatchInGameDeferredRepaint>
+  <LoadingProgress.PatchInGameDeferredRepaint.Tip>Разбивает перестроение отображения карты и мира на небольшие части, обновляя окно между ними. Без этого окно может выглядеть зависшим на протяжении всей операции. Действует при начале новой игры, загрузке сохранения, создании поселения или карты во время игры и генерации мира.\n\nЕсли возникнут проблемы с Loading Progress, попробуйте отключить эту настройку.</LoadingProgress.PatchInGameDeferredRepaint.Tip>
+  <LoadingProgress.PatchInitialization>Отслеживать ход поздней инициализации</LoadingProgress.PatchInitialization>
+  <LoadingProgress.PatchInitialization.Tip>Изменяет этап запуска RimWorld, на котором игра обычно перестаёт отвечать, чтобы сделать его отзывчивее. Это позволяет отслеживать и показывать ход выполнения каждого статического конструктора. Проблемы возможны с модами, которые меняют именно этот код и чувствительны ко времени его выполнения.\n\nЕсли Loading Progress вызывает неполадки, отключите эту настройку и проверьте, исчезли ли они.</LoadingProgress.PatchInitialization.Tip>
+  <LoadingProgress.PatchReloadContent>Отслеживать ход загрузки содержимого</LoadingProgress.PatchReloadContent>
+  <LoadingProgress.PatchReloadContent.Tip>Заменяет метод загрузки содержимого модов, чтобы отслеживать и показывать ход перезагрузки каждого пакета. Проблемы возможны с модами, меняющими именно этот код. При обнаружении других изменений этого метода в журнал будет записано предупреждение.\n\nЕсли Loading Progress вызывает неполадки, отключите эту настройку и проверьте, исчезли ли они. О проблемах с модами, вызвавшими предупреждение, можно сообщить автору.</LoadingProgress.PatchReloadContent.Tip>
+  <LoadingProgress.ProgressBarColor>Цвет полосы загрузки</LoadingProgress.ProgressBarColor>
+  <LoadingProgress.ProgressBarColor.Tip>Цвет основной полосы в окне загрузки.</LoadingProgress.ProgressBarColor.Tip>
+  <LoadingProgress.Reset>Сбросить</LoadingProgress.Reset>
+  <LoadingProgress.SessionsToKeep> - Сохранять сеансов: {0}</LoadingProgress.SessionsToKeep>
+  <LoadingProgress.SessionsToKeep.Tip>Сколько прошлых отчётов о запуске хранить на диске.\n\nОдин сеанс занимает примерно 950 байт на мод, то есть около 220 КБ для сборки из 230 модов. При достижении ограничения удаляется самый старый сеанс.\n\nЭто отдельная настройка: «Количество оценок в истории» выше определяет число замеров для расчёта ожидаемого времени, а не число отчётов на диске.</LoadingProgress.SessionsToKeep.Tip>
+  <LoadingProgress.ShowBaseGameOffThreadImpact> - Показывать фоновую работу основной игры при запуске</LoadingProgress.ShowBaseGameOffThreadImpact>
+  <LoadingProgress.ShowBaseGameOffThreadImpact.Tip>Под полосой времени основной игры появляется вторая полоса с разбивкой работы в фоновых потоках. Она учитывается отдельно от работы главного потока.\n\nПо умолчанию отключено: большинству игроков эта дополнительная информация не нужна.</LoadingProgress.ShowBaseGameOffThreadImpact.Tip>
+  <LoadingProgress.ShowFasterGameLoadingEarlyModContentLoading>Показывать раннюю загрузку модов Faster Game Loading</LoadingProgress.ShowFasterGameLoadingEarlyModContentLoading>
+  <LoadingProgress.ShowFasterGameLoadingEarlyModContentLoading.Tip>Если Faster Game Loading включён, показывает дополнительный индикатор для содержимого модов, которое загружается на раннем этапе запуска игры.</LoadingProgress.ShowFasterGameLoadingEarlyModContentLoading.Tip>
+  <LoadingProgress.ShowInGameLoadingProgress>Показывать ход генерации и загрузки во время игры</LoadingProgress.ShowInGameLoadingProgress>
+  <LoadingProgress.ShowInGameLoadingProgress.Tip>Показывать окно во время длительных операций внутри игры: генерации нового мира, создания карты новой игры и загрузки сохранения.</LoadingProgress.ShowInGameLoadingProgress.Tip>
+  <LoadingProgress.ShowMemoryUsage>Показывать использование памяти</LoadingProgress.ShowMemoryUsage>
+  <LoadingProgress.ShowMemoryUsage.Tip>Показывать размер управляемой кучи (Mono) и общую рабочую память процесса игры.\n\nПамять процесса лучше отражает общую нагрузку на оперативную память. Куча показывает только часть памяти, которой управляет .NET.</LoadingProgress.ShowMemoryUsage.Tip>
+  <LoadingProgress.ShowStartupImpactTimesInSecondsOnly> - Показывать время только в секундах и миллисекундах</LoadingProgress.ShowStartupImpactTimesInSecondsOnly>
+  <LoadingProgress.ShowStartupImpactTimesInSecondsOnly.Tip>В окне статистики запуска и экспортируемых отчётах всё время указывается в секундах или миллисекундах, например 324,3 с.\n\nЕсли отключено, значения от минуты включают минуты, а от часа — часы, например 5:24,3 или 1:02:05,4.</LoadingProgress.ShowStartupImpactTimesInSecondsOnly.Tip>
+  <LoadingProgress.SmallBarColor>Цвет полосы подэтапа</LoadingProgress.SmallBarColor>
+  <LoadingProgress.SmallBarColor.Tip>Цвет индикатора подэтапа на основной полосе в окне загрузки.</LoadingProgress.SmallBarColor.Tip>
+  <LoadingProgress.Stage.ApplyPatches>Применение XML-патчей... (&lt;i&gt;{0}&lt;/i&gt;)</LoadingProgress.Stage.ApplyPatches>
+  <LoadingProgress.Stage.AtlasBaking>Подготовка статических атласов текстур...</LoadingProgress.Stage.AtlasBaking>
+  <LoadingProgress.Stage.ClearCachedPatches>Очистка кэша патчей...</LoadingProgress.Stage.ClearCachedPatches>
+  <LoadingProgress.Stage.CombineIntoUnifiedXml>Объединение XML...</LoadingProgress.Stage.CombineIntoUnifiedXml>
+  <LoadingProgress.Stage.CopyAllDefsToGlobalDatabases>Копирование определений модов в общие базы...</LoadingProgress.Stage.CopyAllDefsToGlobalDatabases>
+  <LoadingProgress.Stage.ErrorCheckAllDefs>Проверка определений на ошибки...</LoadingProgress.Stage.ErrorCheckAllDefs>
+  <LoadingProgress.Stage.ErrorCheckPatches>Проверка XML-патчей на ошибки...</LoadingProgress.Stage.ErrorCheckPatches>
+  <LoadingProgress.Stage.ErrorCheckPatches.ForMod>Проверка XML-патчей на ошибки... (&lt;i&gt;{0}&lt;/i&gt;)</LoadingProgress.Stage.ErrorCheckPatches.ForMod>
+  <LoadingProgress.Stage.ExecuteToExecuteWhenFinished>Выполнение отложенных задач инициализации... (&lt;i&gt;{0}&lt;/i&gt;)</LoadingProgress.Stage.ExecuteToExecuteWhenFinished>
+  <LoadingProgress.Stage.ExecuteToExecuteWhenFinished.Reloading.asset_bundles>Загрузка пакетов ресурсов &lt;i&gt;{0}&lt;/i&gt;</LoadingProgress.Stage.ExecuteToExecuteWhenFinished.Reloading.asset_bundles>
+  <LoadingProgress.Stage.ExecuteToExecuteWhenFinished.Reloading.audio_clips>Загрузка звуков &lt;i&gt;{0}&lt;/i&gt;</LoadingProgress.Stage.ExecuteToExecuteWhenFinished.Reloading.audio_clips>
+  <LoadingProgress.Stage.ExecuteToExecuteWhenFinished.Reloading.strings>Загрузка строк &lt;i&gt;{0}&lt;/i&gt;</LoadingProgress.Stage.ExecuteToExecuteWhenFinished.Reloading.strings>
+  <LoadingProgress.Stage.ExecuteToExecuteWhenFinished.Reloading.textures>Загрузка текстур &lt;i&gt;{0}&lt;/i&gt;</LoadingProgress.Stage.ExecuteToExecuteWhenFinished.Reloading.textures>
+  <LoadingProgress.Stage.Finished>Готово!</LoadingProgress.Stage.Finished>
+  <LoadingProgress.Stage.GarbageCollection>Освобождение неиспользуемой памяти...</LoadingProgress.Stage.GarbageCollection>
+  <LoadingProgress.Stage.GenerateImpliedDefs>Создание производных определений (до связывания)...</LoadingProgress.Stage.GenerateImpliedDefs>
+  <LoadingProgress.Stage.GlobalOperationsEarly>Выполнение общих операций (ранний этап)...</LoadingProgress.Stage.GlobalOperationsEarly>
+  <LoadingProgress.Stage.Initializing>Инициализация...</LoadingProgress.Stage.Initializing>
+  <LoadingProgress.Stage.InjectSelectedLanguageDataEarly>Внедрение выбранного перевода в данные игры (ранний этап)...</LoadingProgress.Stage.InjectSelectedLanguageDataEarly>
+  <LoadingProgress.Stage.InjectSelectedLanguageDataIntoGameData>Внедрение выбранного перевода в данные игры...</LoadingProgress.Stage.InjectSelectedLanguageDataIntoGameData>
+  <LoadingProgress.Stage.LegacyBackstoryTranslations>Загрузка переводов предысторий старого формата...</LoadingProgress.Stage.LegacyBackstoryTranslations>
+  <LoadingProgress.Stage.LoadLanguage>Загрузка перевода... (&lt;i&gt;{0}&lt;/i&gt;)</LoadingProgress.Stage.LoadLanguage>
+  <LoadingProgress.Stage.LoadLanguageMetadata>Загрузка сведений о языках...</LoadingProgress.Stage.LoadLanguageMetadata>
+  <LoadingProgress.Stage.LoadModXml>Загрузка XML мода... (&lt;i&gt;{0}&lt;/i&gt;)</LoadingProgress.Stage.LoadModXml>
+  <LoadingProgress.Stage.LoadingAllBios>Загрузка всех биографий...</LoadingProgress.Stage.LoadingAllBios>
+  <LoadingProgress.Stage.LoadingDefs>Загрузка определений... (&lt;i&gt;{0}&lt;/i&gt;)</LoadingProgress.Stage.LoadingDefs>
+  <LoadingProgress.Stage.LoadingDefs.WithDef>Загрузка определений... (&lt;i&gt;{0} — {1} ({2})&lt;/i&gt;)</LoadingProgress.Stage.LoadingDefs.WithDef>
+  <LoadingProgress.Stage.LoadingModClasses>Загрузка классов мода... (&lt;i&gt;{0}&lt;/i&gt;)</LoadingProgress.Stage.LoadingModClasses>
+  <LoadingProgress.Stage.OtherOperationsPostResolve>Выполнение других общих операций (после связывания)...</LoadingProgress.Stage.OtherOperationsPostResolve>
+  <LoadingProgress.Stage.OtherOperationsPreResolve>Выполнение других общих операций (до связывания)...</LoadingProgress.Stage.OtherOperationsPreResolve>
+  <LoadingProgress.Stage.ParseAndProcessXml>Разбор и обработка XML...</LoadingProgress.Stage.ParseAndProcessXml>
+  <LoadingProgress.Stage.ParseAndProcessXml.ForMod>Разбор и обработка XML... (&lt;i&gt;{0}&lt;/i&gt;)</LoadingProgress.Stage.ParseAndProcessXml.ForMod>
+  <LoadingProgress.Stage.RebindDefOfsEarly>Привязка DefOf (ранний этап)...</LoadingProgress.Stage.RebindDefOfsEarly>
+  <LoadingProgress.Stage.RebindDefOfsFinal>Привязка DefOf (заключительный этап)...</LoadingProgress.Stage.RebindDefOfsFinal>
+  <LoadingProgress.Stage.ResolveCrossReferencesBetweenImpliedDefs>Связывание перекрёстных ссылок между производными определениями...</LoadingProgress.Stage.ResolveCrossReferencesBetweenImpliedDefs>
+  <LoadingProgress.Stage.ResolveCrossReferencesBetweenNonImpliedDefsStage1>Связывание перекрёстных ссылок между исходными определениями (этап 1)...</LoadingProgress.Stage.ResolveCrossReferencesBetweenNonImpliedDefsStage1>
+  <LoadingProgress.Stage.ResolveCrossReferencesBetweenNonImpliedDefsStage2>Связывание перекрёстных ссылок между исходными определениями (этап 2)...</LoadingProgress.Stage.ResolveCrossReferencesBetweenNonImpliedDefsStage2>
+  <LoadingProgress.Stage.ResolveReferences>Связывание ссылок... (&lt;i&gt;{0}&lt;/i&gt;)</LoadingProgress.Stage.ResolveReferences>
+  <LoadingProgress.Stage.ShortHashGiving>Назначение коротких хешей определениям...</LoadingProgress.Stage.ShortHashGiving>
+  <LoadingProgress.Stage.StaticConstructorOnStartupCallAll>Выполнение статических конструкторов... (&lt;i&gt;{0}&lt;/i&gt;)</LoadingProgress.Stage.StaticConstructorOnStartupCallAll>
+  <LoadingProgress.Stage.TKeySystemBuildMappings>Построение соответствий ключей перевода...</LoadingProgress.Stage.TKeySystemBuildMappings>
+  <LoadingProgress.Stage.TKeySystemParse>Разбор системы ключей перевода...</LoadingProgress.Stage.TKeySystemParse>
+  <LoadingProgress.Stage.XmlInheritanceClear>Очистка данных наследования XML...</LoadingProgress.Stage.XmlInheritanceClear>
+  <LoadingProgress.Stage.XmlInheritanceResolve>Обработка наследования XML...</LoadingProgress.Stage.XmlInheritanceResolve>
+  <LoadingProgress.StartupImpact.AbstractFilesystemClearAllCache>Очистка кэша файловой системы</LoadingProgress.StartupImpact.AbstractFilesystemClearAllCache>
+  <LoadingProgress.StartupImpact.ApplyPatches>Применение патчей</LoadingProgress.StartupImpact.ApplyPatches>
+  <LoadingProgress.StartupImpact.BackStoryTranslationUtilityLoadAndInjectBackstoryData>Загрузка и внедрение переводов предысторий старого формата</LoadingProgress.StartupImpact.BackStoryTranslationUtilityLoadAndInjectBackstoryData>
+  <LoadingProgress.StartupImpact.Breakdown.More>И ещё {0}</LoadingProgress.StartupImpact.Breakdown.More>
+  <LoadingProgress.StartupImpact.ClearCachedPatches>Очистка кэша патчей</LoadingProgress.StartupImpact.ClearCachedPatches>
+  <LoadingProgress.StartupImpact.ClearCachedXmlInheritance>Очистка кэша наследования XML</LoadingProgress.StartupImpact.ClearCachedXmlInheritance>
+  <LoadingProgress.StartupImpact.ColoredTextResetStaticData>Выполнение общих операций (ранний этап)</LoadingProgress.StartupImpact.ColoredTextResetStaticData>
+  <LoadingProgress.StartupImpact.ColumnImpact>Время</LoadingProgress.StartupImpact.ColumnImpact>
+  <LoadingProgress.StartupImpact.ColumnName>Мод</LoadingProgress.StartupImpact.ColumnName>
+  <LoadingProgress.StartupImpact.ColumnPhase>Этап загрузки</LoadingProgress.StartupImpact.ColumnPhase>
+  <LoadingProgress.StartupImpact.CombineXml>Объединение XML в один документ</LoadingProgress.StartupImpact.CombineXml>
+  <LoadingProgress.StartupImpact.Compare.AddedMods>Моды только в сравниваемом сеансе</LoadingProgress.StartupImpact.Compare.AddedMods>
+  <LoadingProgress.StartupImpact.Compare.BaselineSession>{0} (базовый сеанс)</LoadingProgress.StartupImpact.Compare.BaselineSession>
+  <LoadingProgress.StartupImpact.Compare.Button>Сравнить</LoadingProgress.StartupImpact.Compare.Button>
+  <LoadingProgress.StartupImpact.Compare.Change>Изменение</LoadingProgress.StartupImpact.Compare.Change>
+  <LoadingProgress.StartupImpact.Compare.Changed>изменён</LoadingProgress.StartupImpact.Compare.Changed>
+  <LoadingProgress.StartupImpact.Compare.Compared>Сравниваемый сеанс</LoadingProgress.StartupImpact.Compare.Compared>
+  <LoadingProgress.StartupImpact.Compare.DefsParsed>Обработано определений</LoadingProgress.StartupImpact.Compare.DefsParsed>
+  <LoadingProgress.StartupImpact.Compare.Different>различается</LoadingProgress.StartupImpact.Compare.Different>
+  <LoadingProgress.StartupImpact.Compare.HarmonyHooks>Отдельный замер патчей Harmony</LoadingProgress.StartupImpact.Compare.HarmonyHooks>
+  <LoadingProgress.StartupImpact.Compare.Headline>Время загрузки: {0} → {1} ({2})</LoadingProgress.StartupImpact.Compare.Headline>
+  <LoadingProgress.StartupImpact.Compare.Issue.DifferentModList>Список модов в этих сеансах различается, поэтому напрямую сравнивать время нельзя.</LoadingProgress.StartupImpact.Compare.Issue.DifferentModList>
+  <LoadingProgress.StartupImpact.Compare.Issue.HarmonyHookTimingDiffers>Настройка отдельного замера патчей Harmony различается. Она переносит время из выполнявшихся этапов в статистику модов, которым принадлежат патчи. Поэтому изменения времени модов и шагов могут отражать перераспределение учёта, а не реальное ускорение или замедление.</LoadingProgress.StartupImpact.Compare.Issue.HarmonyHookTimingDiffers>
+  <LoadingProgress.StartupImpact.Compare.Issue.HarmonyHookTimingUnknown>По крайней мере один из сеансов сохранён до того, как Loading Progress стал записывать настройку отдельного замера патчей Harmony.</LoadingProgress.StartupImpact.Compare.Issue.HarmonyHookTimingUnknown>
+  <LoadingProgress.StartupImpact.Compare.Issue.ModOrderChanged>Моды загружались в разном порядке.</LoadingProgress.StartupImpact.Compare.Issue.ModOrderChanged>
+  <LoadingProgress.StartupImpact.Compare.Issue.NotBothTimedToMenu>Только один сеанс измерялся до появления главного меню, поэтому время запуска охватывает разные промежутки. Вместо него сравнивайте время загрузки.</LoadingProgress.StartupImpact.Compare.Issue.NotBothTimedToMenu>
+  <LoadingProgress.StartupImpact.Compare.LoadingTime>Время загрузки</LoadingProgress.StartupImpact.Compare.LoadingTime>
+  <LoadingProgress.StartupImpact.Compare.ModDetails>Наибольшие изменения:</LoadingProgress.StartupImpact.Compare.ModDetails>
+  <LoadingProgress.StartupImpact.Compare.ModList>Список модов</LoadingProgress.StartupImpact.Compare.ModList>
+  <LoadingProgress.StartupImpact.Compare.ModOrder>Порядок загрузки модов</LoadingProgress.StartupImpact.Compare.ModOrder>
+  <LoadingProgress.StartupImpact.Compare.ModsLoaded>Загружено модов</LoadingProgress.StartupImpact.Compare.ModsLoaded>
+  <LoadingProgress.StartupImpact.Compare.NoiseHint>Время меняется от запуска к запуску, иногда на несколько секунд. Разница, скорее всего, существенна только тогда, когда стабильно повторяется при сравнении запусков с изменением и без него.</LoadingProgress.StartupImpact.Compare.NoiseHint>
+  <LoadingProgress.StartupImpact.Compare.Noisy>колеблется</LoadingProgress.StartupImpact.Compare.Noisy>
+  <LoadingProgress.StartupImpact.Compare.Noisy.ModTip>Основная разница приходится на шаги, время которых сильно колеблется даже без изменений. Это может быть случайное отклонение.</LoadingProgress.StartupImpact.Compare.Noisy.ModTip>
+  <LoadingProgress.StartupImpact.Compare.Noisy.Tip>Время этой операции заметно колеблется даже без изменений. Разница может быть случайным отклонением.</LoadingProgress.StartupImpact.Compare.Noisy.Tip>
+  <LoadingProgress.StartupImpact.Compare.NotLoaded>не загружен</LoadingProgress.StartupImpact.Compare.NotLoaded>
+  <LoadingProgress.StartupImpact.Compare.NothingToCompare>Нет другого сохранённого сеанса с разбивкой для сравнения.</LoadingProgress.StartupImpact.Compare.NothingToCompare>
+  <LoadingProgress.StartupImpact.Compare.Off>выкл.</LoadingProgress.StartupImpact.Compare.Off>
+  <LoadingProgress.StartupImpact.Compare.On>вкл.</LoadingProgress.StartupImpact.Compare.On>
+  <LoadingProgress.StartupImpact.Compare.PatchOperations>Применено операций патчей</LoadingProgress.StartupImpact.Compare.PatchOperations>
+  <LoadingProgress.StartupImpact.Compare.Reference>Опорный сеанс</LoadingProgress.StartupImpact.Compare.Reference>
+  <LoadingProgress.StartupImpact.Compare.RemovedMods>Моды только в опорном сеансе</LoadingProgress.StartupImpact.Compare.RemovedMods>
+  <LoadingProgress.StartupImpact.Compare.Same>совпадает</LoadingProgress.StartupImpact.Compare.Same>
+  <LoadingProgress.StartupImpact.Compare.StartupTime>Время запуска</LoadingProgress.StartupImpact.Compare.StartupTime>
+  <LoadingProgress.StartupImpact.Compare.Summary.Mods>Время каждого мода. Настройки распределения времени могут переносить его из статистики одного мода в другой. Используйте эти данные для объяснения изменений этапа, а не как самостоятельный результат.</LoadingProgress.StartupImpact.Compare.Summary.Mods>
+  <LoadingProgress.StartupImpact.Compare.Summary.Stages>Время этапов образует общее время загрузки и не зависит от распределения времени между модами. Суммарное изменение: {0}.</LoadingProgress.StartupImpact.Compare.Summary.Stages>
+  <LoadingProgress.StartupImpact.Compare.Summary.Steps>Время каждого шага, суммарно для основной игры и всех модов. Настройки учёта могут перераспределять время между шагами. Используйте эти данные для объяснения изменений этапа, а не как самостоятельный результат.</LoadingProgress.StartupImpact.Compare.Summary.Steps>
+  <LoadingProgress.StartupImpact.Compare.Swap>Поменять местами</LoadingProgress.StartupImpact.Compare.Swap>
+  <LoadingProgress.StartupImpact.Compare.Swap.Tip>Поменять местами опорный и сравниваемый сеансы.</LoadingProgress.StartupImpact.Compare.Swap.Tip>
+  <LoadingProgress.StartupImpact.Compare.Tab.Mods>Моды</LoadingProgress.StartupImpact.Compare.Tab.Mods>
+  <LoadingProgress.StartupImpact.Compare.Tab.Overview>Обзор</LoadingProgress.StartupImpact.Compare.Tab.Overview>
+  <LoadingProgress.StartupImpact.Compare.Tab.Stages>Этапы</LoadingProgress.StartupImpact.Compare.Tab.Stages>
+  <LoadingProgress.StartupImpact.Compare.Tab.Steps>Шаги</LoadingProgress.StartupImpact.Compare.Tab.Steps>
+  <LoadingProgress.StartupImpact.Compare.TimeToMenu>Время до главного меню</LoadingProgress.StartupImpact.Compare.TimeToMenu>
+  <LoadingProgress.StartupImpact.Compare.Title>Сравнение запусков</LoadingProgress.StartupImpact.Compare.Title>
+  <LoadingProgress.StartupImpact.Compare.Unknown>неизвестно</LoadingProgress.StartupImpact.Compare.Unknown>
+  <LoadingProgress.StartupImpact.Compare.With>Сравнить с...</LoadingProgress.StartupImpact.Compare.With>
+  <LoadingProgress.StartupImpact.DefDatabaseAddAllInMods>Копирование определений модов в общие базы</LoadingProgress.StartupImpact.DefDatabaseAddAllInMods>
+  <LoadingProgress.StartupImpact.DefGeneratorGenerateImpliedDefsPostResolve>Создание производных определений (после связывания)</LoadingProgress.StartupImpact.DefGeneratorGenerateImpliedDefsPostResolve>
+  <LoadingProgress.StartupImpact.DefGeneratorGenerateImpliedDefsPreResolve>Создание производных определений (до связывания)</LoadingProgress.StartupImpact.DefGeneratorGenerateImpliedDefsPreResolve>
+  <LoadingProgress.StartupImpact.DefOfHelperRebindAllDefOfs.Early>Привязка DefOf (ранний этап)</LoadingProgress.StartupImpact.DefOfHelperRebindAllDefOfs.Early>
+  <LoadingProgress.StartupImpact.DefOfHelperRebindAllDefOfs.Final>Привязка DefOf (заключительный этап)</LoadingProgress.StartupImpact.DefOfHelperRebindAllDefOfs.Final>
+  <LoadingProgress.StartupImpact.DisabledAtStartup>При запуске сбор статистики загрузки был отключён. Для этого сеанса нет данных.</LoadingProgress.StartupImpact.DisabledAtStartup>
+  <LoadingProgress.StartupImpact.EnableTracking>Включить сбор статистики загрузки</LoadingProgress.StartupImpact.EnableTracking>
+  <LoadingProgress.StartupImpact.EnableTrackingHint>Включите настройку ниже, чтобы собрать статистику при следующем запуске.</LoadingProgress.StartupImpact.EnableTrackingHint>
+  <LoadingProgress.StartupImpact.ErrorCheckAllDefs>Проверка определений на ошибки</LoadingProgress.StartupImpact.ErrorCheckAllDefs>
+  <LoadingProgress.StartupImpact.ErrorCheckPatches>Проверка патчей на ошибки</LoadingProgress.StartupImpact.ErrorCheckPatches>
+  <LoadingProgress.StartupImpact.ExecuteToExecuteWhenFinished>Выполнение отложенной задачи инициализации {0}</LoadingProgress.StartupImpact.ExecuteToExecuteWhenFinished>
+  <LoadingProgress.StartupImpact.ExecuteToExecuteWhenFinished.Grouped>Выполнение отложенных задач инициализации</LoadingProgress.StartupImpact.ExecuteToExecuteWhenFinished.Grouped>
+  <LoadingProgress.StartupImpact.ExportFailed>Ошибка экспорта: {0}</LoadingProgress.StartupImpact.ExportFailed>
+  <LoadingProgress.StartupImpact.ExportHtml>Экспорт в HTML</LoadingProgress.StartupImpact.ExportHtml>
+  <LoadingProgress.StartupImpact.ExportHtml.Tip>Экспортировать статистику этого запуска в отдельный HTML-отчёт. Его можно открыть в браузере или передать другим без запуска игры.</LoadingProgress.StartupImpact.ExportHtml.Tip>
+  <LoadingProgress.StartupImpact.Exported>Экспорт завершён</LoadingProgress.StartupImpact.Exported>
+  <LoadingProgress.StartupImpact.Exported.Tip>Сохранено в {0}</LoadingProgress.StartupImpact.Exported.Tip>
+  <LoadingProgress.StartupImpact.FilterMods>Фильтр:</LoadingProgress.StartupImpact.FilterMods>
+  <LoadingProgress.StartupImpact.FilterMods.Placeholder>Поиск по названию мода или packageId</LoadingProgress.StartupImpact.FilterMods.Placeholder>
+  <LoadingProgress.StartupImpact.FloatMenuMakerMapInit>Инициализация контекстного меню карты</LoadingProgress.StartupImpact.FloatMenuMakerMapInit>
+  <LoadingProgress.StartupImpact.GarbageCollection>Сборка мусора и выгрузка ресурсов</LoadingProgress.StartupImpact.GarbageCollection>
+  <LoadingProgress.StartupImpact.GlobalTextureAtlasManagerBakeStaticAtlases>Подготовка атласов текстур</LoadingProgress.StartupImpact.GlobalTextureAtlasManagerBakeStaticAtlases>
+  <LoadingProgress.StartupImpact.GroupByMod>Группировка по модам</LoadingProgress.StartupImpact.GroupByMod>
+  <LoadingProgress.StartupImpact.GroupByPhase>Группировка по этапам загрузки</LoadingProgress.StartupImpact.GroupByPhase>
+  <LoadingProgress.StartupImpact.Grouping.Tip>Переключить отображение между временем каждого мода и суммарным временем всех модов на каждом этапе загрузки.</LoadingProgress.StartupImpact.Grouping.Tip>
+  <LoadingProgress.StartupImpact.HarmonyHook>Патчи Harmony для {0}</LoadingProgress.StartupImpact.HarmonyHook>
+  <LoadingProgress.StartupImpact.HarmonyHook.Grouped>Патчи Harmony</LoadingProgress.StartupImpact.HarmonyHook.Grouped>
+  <LoadingProgress.StartupImpact.History>История</LoadingProgress.StartupImpact.History>
+  <LoadingProgress.StartupImpact.History.ChooseBaseline>Выберите базовый сеанс</LoadingProgress.StartupImpact.History.ChooseBaseline>
+  <LoadingProgress.StartupImpact.History.ClearBaseline>Очистить</LoadingProgress.StartupImpact.History.ClearBaseline>
+  <LoadingProgress.StartupImpact.History.Column.List>Список</LoadingProgress.StartupImpact.History.Column.List>
+  <LoadingProgress.StartupImpact.History.Column.Load>Время</LoadingProgress.StartupImpact.History.Column.Load>
+  <LoadingProgress.StartupImpact.History.Column.Mods>Моды</LoadingProgress.StartupImpact.History.Column.Mods>
+  <LoadingProgress.StartupImpact.History.Column.Notes>Примечания</LoadingProgress.StartupImpact.History.Column.Notes>
+  <LoadingProgress.StartupImpact.History.Column.When>Дата</LoadingProgress.StartupImpact.History.Column.When>
+  <LoadingProgress.StartupImpact.History.Confirm.Baseline>Это базовый сеанс. После удаления базовый сеанс не будет задан, пока вы не выберете другой.</LoadingProgress.StartupImpact.History.Confirm.Baseline>
+  <LoadingProgress.StartupImpact.History.Confirm.Delete>Удалить сохранённый сеанс от {0}?</LoadingProgress.StartupImpact.History.Confirm.Delete>
+  <LoadingProgress.StartupImpact.History.Delete>Удалить</LoadingProgress.StartupImpact.History.Delete>
+  <LoadingProgress.StartupImpact.History.Empty.Baseline>Базовый сеанс не выбран. Он сохраняется независимо от ограничения.</LoadingProgress.StartupImpact.History.Empty.Baseline>
+  <LoadingProgress.StartupImpact.History.Empty.Pinned>Нет закреплённых сеансов. Закреплённый сеанс сохраняется даже сверх ограничения.</LoadingProgress.StartupImpact.History.Empty.Pinned>
+  <LoadingProgress.StartupImpact.History.Empty.Recent>Сохранённых сеансов пока нет.</LoadingProgress.StartupImpact.History.Empty.Recent>
+  <LoadingProgress.StartupImpact.History.Group.Baseline>Базовый сеанс</LoadingProgress.StartupImpact.History.Group.Baseline>
+  <LoadingProgress.StartupImpact.History.Group.Pinned>Закреплённые</LoadingProgress.StartupImpact.History.Group.Pinned>
+  <LoadingProgress.StartupImpact.History.Group.Recent>Последние</LoadingProgress.StartupImpact.History.Group.Recent>
+  <LoadingProgress.StartupImpact.History.Load>Загрузить</LoadingProgress.StartupImpact.History.Load>
+  <LoadingProgress.StartupImpact.History.NoBreakdown>Этот запуск не завершился. Разбивка по модам отсутствует.</LoadingProgress.StartupImpact.History.NoBreakdown>
+  <LoadingProgress.StartupImpact.History.NoLoadTime>нет</LoadingProgress.StartupImpact.History.NoLoadTime>
+  <LoadingProgress.StartupImpact.History.Note.DifferentList>Разные списки модов, сравнение некорректно</LoadingProgress.StartupImpact.History.Note.DifferentList>
+  <LoadingProgress.StartupImpact.History.Note.ToEndOfLoading>Время до главного меню не измерялось</LoadingProgress.StartupImpact.History.Note.ToEndOfLoading>
+  <LoadingProgress.StartupImpact.History.Note.Unfinished>Не завершён</LoadingProgress.StartupImpact.History.Note.Unfinished>
+  <LoadingProgress.StartupImpact.History.Note.UnfinishedAfterLoading>Остановлен после загрузки, до готовности главного меню</LoadingProgress.StartupImpact.History.Note.UnfinishedAfterLoading>
+  <LoadingProgress.StartupImpact.History.Note.UnfinishedAt>Остановлен на этапе: {0}</LoadingProgress.StartupImpact.History.Note.UnfinishedAt>
+  <LoadingProgress.StartupImpact.History.Pin>Закрепить</LoadingProgress.StartupImpact.History.Pin>
+  <LoadingProgress.StartupImpact.History.SetBaseline>Сделать базовым</LoadingProgress.StartupImpact.History.SetBaseline>
+  <LoadingProgress.StartupImpact.History.Status.BaselineCleared>Базовый сеанс сброшен. Выберите другой, чтобы задать его.</LoadingProgress.StartupImpact.History.Status.BaselineCleared>
+  <LoadingProgress.StartupImpact.History.Status.BaselineSet>Базовый сеанс задан.</LoadingProgress.StartupImpact.History.Status.BaselineSet>
+  <LoadingProgress.StartupImpact.History.Status.Deleted>Сеанс удалён.</LoadingProgress.StartupImpact.History.Status.Deleted>
+  <LoadingProgress.StartupImpact.History.Status.LoadFailed>Не удалось прочитать данные этого сеанса.</LoadingProgress.StartupImpact.History.Status.LoadFailed>
+  <LoadingProgress.StartupImpact.History.Status.Loaded>Показан запуск от {0}.</LoadingProgress.StartupImpact.History.Status.Loaded>
+  <LoadingProgress.StartupImpact.History.Status.Pinned>Закреплено.</LoadingProgress.StartupImpact.History.Status.Pinned>
+  <LoadingProgress.StartupImpact.History.Status.Unpinned>Откреплено.</LoadingProgress.StartupImpact.History.Status.Unpinned>
+  <LoadingProgress.StartupImpact.History.Summary>Сохранено: {0}; ограничение: {1}</LoadingProgress.StartupImpact.History.Summary>
+  <LoadingProgress.StartupImpact.History.Title>История времени запуска</LoadingProgress.StartupImpact.History.Title>
+  <LoadingProgress.StartupImpact.History.Unpin>Открепить</LoadingProgress.StartupImpact.History.Unpin>
+  <LoadingProgress.StartupImpact.HtmlReport.Footer>Создано Loading Progress: {0}.</LoadingProgress.StartupImpact.HtmlReport.Footer>
+  <LoadingProgress.StartupImpact.HtmlReport.Title>Отчёт о времени запуска</LoadingProgress.StartupImpact.HtmlReport.Title>
+  <LoadingProgress.StartupImpact.KeyPrefsInit>Загрузка назначений клавиш</LoadingProgress.StartupImpact.KeyPrefsInit>
+  <LoadingProgress.StartupImpact.LanguageDatabaseInitAllMetadata>Загрузка сведений о языках</LoadingProgress.StartupImpact.LanguageDatabaseInitAllMetadata>
+  <LoadingProgress.StartupImpact.LoadDefs>Загрузка определений</LoadingProgress.StartupImpact.LoadDefs>
+  <LoadingProgress.StartupImpact.LoadPatches>Загрузка патчей</LoadingProgress.StartupImpact.LoadPatches>
+  <LoadingProgress.StartupImpact.LoadedLanguageInjectIntoDataAfterImpliedDefs>Внедрение выбранного перевода в данные игры</LoadingProgress.StartupImpact.LoadedLanguageInjectIntoDataAfterImpliedDefs>
+  <LoadingProgress.StartupImpact.LoadedLanguageInjectIntoDataBeforeImpliedDefs>Внедрение выбранного перевода в данные игры (ранний этап)</LoadingProgress.StartupImpact.LoadedLanguageInjectIntoDataBeforeImpliedDefs>
+  <LoadingProgress.StartupImpact.LoadedModManagerParseAndProcessXML>Разбор и обработка XML</LoadingProgress.StartupImpact.LoadedModManagerParseAndProcessXML>
+  <LoadingProgress.StartupImpact.LogarithmicScale>Использовать логарифмическую шкалу</LoadingProgress.StartupImpact.LogarithmicScale>
+  <LoadingProgress.StartupImpact.LogarithmicScale.Tip>Показывает затраты времени на запуск по логарифмической шкале. Большие различия сжимаются, чтобы их было легче сравнивать. Степень сжатия можно настроить ползунком «Детализация» рядом с этой настройкой.</LoadingProgress.StartupImpact.LogarithmicScale.Tip>
+  <LoadingProgress.StartupImpact.Milliseconds>{0} мс</LoadingProgress.StartupImpact.Milliseconds>
+  <LoadingProgress.StartupImpact.ModConstructor>Выполнение конструктора мода</LoadingProgress.StartupImpact.ModConstructor>
+  <LoadingProgress.StartupImpact.ModContentPackReloadContentInt.AssetBundles>Загрузка пакетов ресурсов</LoadingProgress.StartupImpact.ModContentPackReloadContentInt.AssetBundles>
+  <LoadingProgress.StartupImpact.ModContentPackReloadContentInt.AudioClips>Загрузка звуков</LoadingProgress.StartupImpact.ModContentPackReloadContentInt.AudioClips>
+  <LoadingProgress.StartupImpact.ModContentPackReloadContentInt.Strings>Загрузка строк</LoadingProgress.StartupImpact.ModContentPackReloadContentInt.Strings>
+  <LoadingProgress.StartupImpact.ModContentPackReloadContentInt.Textures>Загрузка текстур</LoadingProgress.StartupImpact.ModContentPackReloadContentInt.Textures>
+  <LoadingProgress.StartupImpact.Nonmods.BySteps>Не связано напрямую с модами, самые долгие шаги вначале:</LoadingProgress.StartupImpact.Nonmods.BySteps>
+  <LoadingProgress.StartupImpact.OnOtherThreads.Tip>В других потоках, суммарно</LoadingProgress.StartupImpact.OnOtherThreads.Tip>
+  <LoadingProgress.StartupImpact.PlayDataLoaderResetStaticDataPost>Другие операции привязки определений, сброса и общей обработки (после связывания)</LoadingProgress.StartupImpact.PlayDataLoaderResetStaticDataPost>
+  <LoadingProgress.StartupImpact.PlayDataLoaderResetStaticDataPre>Другие операции привязки определений, сброса и общей обработки (до связывания)</LoadingProgress.StartupImpact.PlayDataLoaderResetStaticDataPre>
+  <LoadingProgress.StartupImpact.PostLoadLongEvent>После загрузки: {0}</LoadingProgress.StartupImpact.PostLoadLongEvent>
+  <LoadingProgress.StartupImpact.PostLoadLongEvent.Grouped>После загрузки</LoadingProgress.StartupImpact.PostLoadLongEvent.Grouped>
+  <LoadingProgress.StartupImpact.RegisterXmlInheritance>Регистрация наследования XML</LoadingProgress.StartupImpact.RegisterXmlInheritance>
+  <LoadingProgress.StartupImpact.Remaining.AfterLoading>После загрузки, до готовности главного меню</LoadingProgress.StartupImpact.Remaining.AfterLoading>
+  <LoadingProgress.StartupImpact.Remaining.ByStage>Оставшееся время по этапам, самые долгие вначале:</LoadingProgress.StartupImpact.Remaining.ByStage>
+  <LoadingProgress.StartupImpact.Remaining.CallAllHookTiming>Подключение и отключение замеров патчей этапа статических конструкторов</LoadingProgress.StartupImpact.Remaining.CallAllHookTiming>
+  <LoadingProgress.StartupImpact.Remaining.SecondPass>{0} (второй проход)</LoadingProgress.StartupImpact.Remaining.SecondPass>
+  <LoadingProgress.StartupImpact.ReplacedBy>{0} (заменено на {1})</LoadingProgress.StartupImpact.ReplacedBy>
+  <LoadingProgress.StartupImpact.ReportProbablyMissingAttributes>Поиск отсутствующих атрибутов StaticConstructorOnStartup (режим разработчика)</LoadingProgress.StartupImpact.ReportProbablyMissingAttributes>
+  <LoadingProgress.StartupImpact.ResolveAllWantedCrossReferences.Implied>Связывание перекрёстных ссылок между производными определениями</LoadingProgress.StartupImpact.ResolveAllWantedCrossReferences.Implied>
+  <LoadingProgress.StartupImpact.ResolveAllWantedCrossReferences.NonImplied>Связывание перекрёстных ссылок между исходными определениями</LoadingProgress.StartupImpact.ResolveAllWantedCrossReferences.NonImplied>
+  <LoadingProgress.StartupImpact.ResolveReferences>Связывание ссылок</LoadingProgress.StartupImpact.ResolveReferences>
+  <LoadingProgress.StartupImpact.ResolveXmlInheritance>Обработка наследования XML</LoadingProgress.StartupImpact.ResolveXmlInheritance>
+  <LoadingProgress.StartupImpact.SaveFailed>Не удалось сохранить: {0}</LoadingProgress.StartupImpact.SaveFailed>
+  <LoadingProgress.StartupImpact.Saved>Сохранено</LoadingProgress.StartupImpact.Saved>
+  <LoadingProgress.StartupImpact.ScaleDetail>Детализация: {0}</LoadingProgress.StartupImpact.ScaleDetail>
+  <LoadingProgress.StartupImpact.ScaleDetail.Tip>Значения времени ниже этого порога показаны почти пропорционально, а более высокие сжимаются сильнее, чтобы один медленный мод не занимал почти всю полосу. Уменьшите порог для различения быстрых модов; увеличьте, чтобы сохранить более точные пропорции больших значений.</LoadingProgress.StartupImpact.ScaleDetail.Tip>
+  <LoadingProgress.StartupImpact.Seconds>{0} с</LoadingProgress.StartupImpact.Seconds>
+  <LoadingProgress.StartupImpact.Section.OnOtherThreads>{0} в других потоках</LoadingProgress.StartupImpact.Section.OnOtherThreads>
+  <LoadingProgress.StartupImpact.Section.Tip>Нажмите, чтобы развернуть или свернуть раздел.</LoadingProgress.StartupImpact.Section.Tip>
+  <LoadingProgress.StartupImpact.SessionStats>Обработано определений: {0}; применено операций патчей: {1}; загружено модов: {2}</LoadingProgress.StartupImpact.SessionStats>
+  <LoadingProgress.StartupImpact.ShortHashGiverGiveAllShortHashes>Назначение коротких хешей</LoadingProgress.StartupImpact.ShortHashGiverGiveAllShortHashes>
+  <LoadingProgress.StartupImpact.ShowingSaved>Сохранённый запуск от {0}</LoadingProgress.StartupImpact.ShowingSaved>
+  <LoadingProgress.StartupImpact.SolidBioDatabaseLoadAllBios>Загрузка всех биографий</LoadingProgress.StartupImpact.SolidBioDatabaseLoadAllBios>
+  <LoadingProgress.StartupImpact.StartupMods>Время запуска модов: {0}</LoadingProgress.StartupImpact.StartupMods>
+  <LoadingProgress.StartupImpact.StartupNonmods>Не связано напрямую с модами: {0}</LoadingProgress.StartupImpact.StartupNonmods>
+  <LoadingProgress.StartupImpact.StartupRemaining>Оставшееся время: {0}</LoadingProgress.StartupImpact.StartupRemaining>
+  <LoadingProgress.StartupImpact.StartupTime>Время запуска: {0}</LoadingProgress.StartupImpact.StartupTime>
+  <LoadingProgress.StartupImpact.StaticConstructorOnStartupUtilityCallAll>Выполнение статических конструкторов</LoadingProgress.StartupImpact.StaticConstructorOnStartupUtilityCallAll>
+  <LoadingProgress.StartupImpact.StaticConstructorOnStartupUtilityCallAllHook>Патч этапа статических конструкторов: {0}</LoadingProgress.StartupImpact.StaticConstructorOnStartupUtilityCallAllHook>
+  <LoadingProgress.StartupImpact.StaticConstructorOnStartupUtilityCallAllHook.Grouped>Патчи этапа статических конструкторов</LoadingProgress.StartupImpact.StaticConstructorOnStartupUtilityCallAllHook.Grouped>
+  <LoadingProgress.StartupImpact.StaticConstructorOnStartupUtilityCallAllPass>Этап статических конструкторов с патчами других модов</LoadingProgress.StartupImpact.StaticConstructorOnStartupUtilityCallAllPass>
+  <LoadingProgress.StartupImpact.StaticConstructorOnStartupUtilityCallAllPassWithUntimedHooks>Этап статических конструкторов с патчами других модов без отдельного замера патчей: {0}</LoadingProgress.StartupImpact.StaticConstructorOnStartupUtilityCallAllPassWithUntimedHooks>
+  <LoadingProgress.StartupImpact.TKeySystemBuildMappings>Построение соответствий ключей перевода</LoadingProgress.StartupImpact.TKeySystemBuildMappings>
+  <LoadingProgress.StartupImpact.TKeySystemParse>Разбор системы ключей перевода</LoadingProgress.StartupImpact.TKeySystemParse>
+  <LoadingProgress.StartupImpact.ToggleModVisibility.Tip>Показать или скрыть вклад этого мода во время запуска. Если сейчас он запускается дольше остальных, вместо него точкой отсчёта для сравнения станет следующий по длительности мод.</LoadingProgress.StartupImpact.ToggleModVisibility.Tip>
+  <LoadingProgress.StartupImpact.Total.BaseGame>Не связано напрямую с модами</LoadingProgress.StartupImpact.Total.BaseGame>
+  <LoadingProgress.StartupImpact.Total.EarlyLaunch>Начальная стадия запуска игры</LoadingProgress.StartupImpact.Total.EarlyLaunch>
+  <LoadingProgress.StartupImpact.Total.EarlyLaunch.Tip>От запуска игры до начала замеров Loading Progress: запуск движка, чтение списка модов, загрузка их кода и выполнение конструкторов модов, загруженных раньше Loading Progress.</LoadingProgress.StartupImpact.Total.EarlyLaunch.Tip>
+  <LoadingProgress.StartupImpact.Total.Mods>Моды</LoadingProgress.StartupImpact.Total.Mods>
+  <LoadingProgress.StartupImpact.Total.ModsHidden>Скрытые моды</LoadingProgress.StartupImpact.Total.ModsHidden>
+  <LoadingProgress.StartupImpact.Total.Others>Прочее</LoadingProgress.StartupImpact.Total.Others>
+  <LoadingProgress.StartupImpact.WillTrackNextStartup>Настройка включена. Статистика будет собрана при следующем запуске.</LoadingProgress.StartupImpact.WillTrackNextStartup>
+  <LoadingProgress.TimeHarmonyHooks> - Отдельно измерять время патчей Harmony других модов</LoadingProgress.TimeHarmonyHooks>
+  <LoadingProgress.TimeHarmonyHooks.Tip>Время каждого патча Harmony во время загрузки относится к моду, которому он принадлежит, и показывается под заголовком «Патчи Harmony для» с названием метода. Если отключено, время патча включается в текущий шаг загрузки.\n\nВ некоторых сборках эта настройка мешала загрузке сохранений, поэтому по умолчанию она выключена. Если с ней сохранения не загружаются, отключите её и оставьте выключенной. Изменение вступит в силу при следующем запуске.</LoadingProgress.TimeHarmonyHooks.Tip>
+  <LoadingProgress.TimeOverEstimate>{0} сверх ожидаемых {1}</LoadingProgress.TimeOverEstimate>
+  <LoadingProgress.TimeRemaining>Осталось {0} из {1}</LoadingProgress.TimeRemaining>
+  <LoadingProgress.Title>Ход загрузки</LoadingProgress.Title>
+  <LoadingProgress.Top>Вверху</LoadingProgress.Top>
+  <LoadingProgress.TrackStartupLoadingImpact>Измерять влияние модов на время запуска</LoadingProgress.TrackStartupLoadingImpact>
+  <LoadingProgress.TrackStartupLoadingImpact.Tip>Измеряет, сколько времени при запуске занимают моды и основная игра. Подробная разбивка помогает найти причины самых больших задержек.</LoadingProgress.TrackStartupLoadingImpact.Tip>
+</LanguageData>

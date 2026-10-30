@@ -1,0 +1,27 @@
+<?xml version='1.0' encoding='utf-8'?>
+<ModMetaData>
+  <name>Loading Progress — Russian translation</name>
+  <author>Antyhc (AI-assisted with OpenAI Codex)</author>
+  <packageId>antyhc.russian.ilyvion.loadingprogress</packageId>
+  <url>https://github.com/Antyhc/RimWorld-Russian-Translations</url>
+  <description>Полный собственный русский перевод Loading Progress для RimWorld 1.7: 399 строк окна загрузки, настроек и отчётов о времени запуска. В актуальной версии исходного мода встроенного русского текста нет; старый сторонний перевод охватывает 129 из 399 текущих ключей. Этот пакет добавляет 270 отсутствующих переводов и содержит заново переведённые с английского остальные 129 строк; чужой русский текст не распространяется. Требуются оригинальный Loading Progress и Harmony. Загружать после оригинала. Включайте только один русский перевод Loading Progress: его ранний загрузчик использует первый найденный языковой пакет. Перевод подготовлен и вычитан с помощью OpenAI Codex; независимая вычитка человеком и длительный игровой тест не заявляются.
+
+Complete independently authored Russian translation for Loading Progress on RimWorld 1.7: 399 loading-window, settings and startup-report strings. The current original has no built-in Russian; the old external Russian pack covers 129 of 399 current keys. This pack adds 270 missing translations and independently retranslates the remaining 129 from English; no third-party Russian is redistributed. Requires original Loading Progress and Harmony. Load after the original. Enable only one Russian translation for Loading Progress: its early loader uses the first language provider found. AI-assisted authoring and semantic review by OpenAI Codex; no independent human proofreading or extended gameplay testing claimed.</description>
+  <supportedVersions>
+    <li>1.7</li>
+  </supportedVersions>
+  <modDependencies>
+    <li>
+      <packageId>ilyvion.loadingprogress</packageId>
+      <displayName>Loading Progress</displayName>
+      <steamWorkshopUrl>https://steamcommunity.com/sharedfiles/filedetails/?id=3535481557</steamWorkshopUrl>
+    </li>
+  </modDependencies>
+  <loadAfter>
+    <li>ilyvion.loadingprogress</li>
+    <li>brrainz.harmony</li>
+  </loadAfter>
+  <incompatibleWith>
+    <li>ilyvion.loadingprogress.ru</li>
+  </incompatibleWith>
+</ModMetaData>

@@ -1,0 +1,38 @@
+{
+  "schema": 1,
+  "checked_at": "2026-10-30T07:47:15.136190+00:00",
+  "package_id": "vanillaexpanded.vanillatraitsexpanded",
+  "workshop_id": "2296404655",
+  "original_author": "Oskar Potocki, Taranchuk, Chowder",
+  "original_workshop_url": "https://steamcommunity.com/sharedfiles/filedetails/?id=2296404655",
+  "translation_rights": "confirmed_under_recorded_conditions",
+  "license": "CC-BY-NC-SA-4.0",
+  "public_evidence_url": "https://steamcommunity.com/sharedfiles/filedetails/?id=2296404655",
+  "official_public_api": "https://api.steampowered.com/ISteamRemoteStorage/GetPublishedFileDetails/v1/",
+  "official_description_sha256": "60d88c470de3082358a94666029f1b67969dea130a612c463e4ba526d59a8f34",
+  "official_description_updated_unix": 1791981627,
+  "exact_permission_or_license_marker": "https://creativecommons.org/licenses/by-nc-sa/4.0/",
+  "conditions": "Noncommercial release only. Credit original authors/source; identify translation/adaptation changes and AI assistance; retain license URI and supplied notices; no extra restrictions. Adapted translation must be CC-BY-NC-SA-4.0 (ShareAlike).",
+  "legalcode_url": "https://creativecommons.org/licenses/by-nc-sa/4.0/legalcode.en",
+  "own_stored_reviewed_values": 181,
+  "existing_third_party_candidates": [
+    {
+      "name": "Vanilla Backstories Expanded Russian Language Pack",
+      "package_id": "ow.ru.backstories",
+      "author": "OliveWizard, Amortem, Hart ty",
+      "workshop_id": "2869759953",
+      "workshop_url": "https://steamcommunity.com/sharedfiles/filedetails/?id=2869759953",
+      "license": "CC-BY-NC-SA-4.0"
+    },
+    {
+      "name": "Vanilla Traits Expanded Russian Language Pack",
+      "package_id": "ow.ru.traits",
+      "author": "OliveWizard",
+      "workshop_id": "2337425872",
+      "workshop_url": "https://steamcommunity.com/sharedfiles/filedetails/?id=2337425872",
+      "license": "CC-BY-NC-SA-4.0"
+    }
+  ],
+  "release_status": "Rights only. Requires own-provenance selection, current source and duplicate coverage, semantic review if stale, actual standalone test. No existing community text automatically included.",
+  "public_file_changed": false
+}

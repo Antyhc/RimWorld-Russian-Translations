@@ -1,0 +1,10 @@
+Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)
+
+Original: Vanilla Achievements Expanded, Oskar Potocki, Smash Phil, Sarg Bjornson.
+Source and original license notice: https://steamcommunity.com/sharedfiles/filedetails/?id=2288125657
+Russian adaptation: Antyhc,2026; one achievement title translated with OpenAI Codex assistance.
+The adapted Russian text is distributed under CC BY-NC-SA 4.0. Retain attribution and license URI, indicate changes, use noncommercially and ShareAlike. No additional restrictions.
+License URI: https://creativecommons.org/licenses/by-nc-sa/4.0/
+Full legal text: https://creativecommons.org/licenses/by-nc-sa/4.0/legalcode.en
+
+The own typographic cover is MIT; original mod art/code/resources and third-party Russian are not included.

@@ -8,14 +8,19 @@
   ],
   "rights": {
     "translation": {
-      "status": "unknown",
-      "license": null,
-      "evidence": null,
-      "attribution": null,
+      "status": "confirmed",
+      "license": "Author permission for free standalone own-text Russian adaptation",
+      "evidence": "https://github.com/Vanilla-Expanded/VanillaExpandedFramework/issues/195#issuecomment-6519584242",
+      "attribution": "Original mod: Vanilla Landmarks Expanded by Oskar Potocki, Sarg Bjornson. Original: https://steamcommunity.com/sharedfiles/filedetails/?id=3656316229. Own Russian adaptation: Antyhc,2026, AI-assisted with OpenAI Codex. Permission: https://github.com/Vanilla-Expanded/VanillaExpandedFramework/issues/195#issuecomment-6519584242. No Vanilla Expanded endorsement or affiliation. No original artwork or third-party Russian text licensed by this reply.",
       "permission_requested": true,
       "permission_request_url": "https://github.com/Vanilla-Expanded/VanillaExpandedFramework/issues/195",
       "permission_request_date": "2026-10-30",
-      "permission_received": false
+      "permission_received": true,
+      "permission_received_date": "2026-10-30",
+      "permission_reply_url": "https://github.com/Vanilla-Expanded/VanillaExpandedFramework/issues/195#issuecomment-6519584242",
+      "permission_scope": "newly_authored_standalone_translation_text_only",
+      "original_license": "CC-BY-NC-ND-4.0",
+      "license_evidence_file": "translation-rights-evidence.json"
     },
     "icon": {
       "status": "unknown",

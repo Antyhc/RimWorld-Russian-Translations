@@ -1,0 +1,31 @@
+<?xml version='1.0' encoding='utf-8'?>
+<ModMetaData>
+  <name>Vanilla Traits Expanded — Russian completion</name>
+  <author>Antyhc (AI-assisted with OpenAI Codex)</author>
+  <packageId>antyhc.russian.vanillaexpanded.vanillatraitsexpanded</packageId>
+  <url>https://github.com/Antyhc/RimWorld-Russian-Translations</url>
+  <description>Дополнение к русскому переводу Vanilla Traits Expanded: две отсутствующие подписи стадий эффекта замедления работы. Требуются оригинальный мод и Vanilla Traits Expanded Russian Language Pack от OliveWizard (2337425872), а также их зависимости. Загружать после обоих. Содержит только две собственные строки; остальные тексты остаются в существующем переводе. Текст: CC BY-NC-SA 4.0. Подготовлено и вычитано с помощью OpenAI Codex; независимая вычитка человеком и длительный игровой тест не заявляются.
+
+Russian completion for Vanilla Traits Expanded: two missing slow-work effect-stage captions. Requires the original and Vanilla Traits Expanded Russian Language Pack by OliveWizard (2337425872), plus their dependencies. Load after both. Contains only two newly authored strings; all other Russian text remains in the existing translation. Text: CC BY-NC-SA 4.0. AI-assisted authoring and semantic review by OpenAI Codex; no independent human proofreading or extended gameplay testing claimed.</description>
+  <supportedVersions>
+    <li>1.7</li>
+  </supportedVersions>
+  <modDependencies>
+    <li>
+      <packageId>vanillaexpanded.vanillatraitsexpanded</packageId>
+      <displayName>Vanilla Traits Expanded</displayName>
+      <steamWorkshopUrl>https://steamcommunity.com/sharedfiles/filedetails/?id=2296404655</steamWorkshopUrl>
+    </li>
+    <li>
+      <packageId>ow.ru.traits</packageId>
+      <displayName>Vanilla Traits Expanded Russian Language Pack</displayName>
+      <steamWorkshopUrl>https://steamcommunity.com/sharedfiles/filedetails/?id=2337425872</steamWorkshopUrl>
+    </li>
+  </modDependencies>
+  <loadAfter>
+    <li>vanillaexpanded.vanillatraitsexpanded</li>
+    <li>brrainz.harmony</li>
+    <li>oskarpotocki.vanillafactionsexpanded.core</li>
+    <li>ow.ru.traits</li>
+  </loadAfter>
+</ModMetaData>

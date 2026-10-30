@@ -61,25 +61,32 @@
     "game_evidence": "game-test-evidence.json",
     "game_version": "1.7.4990 rev1069",
     "game_test_scope": "Actual isolated startup and physical language-value readback, exact active dependencies/DLC and source/payload/probe hashes; no save, extended gameplay or independent human proofreading claim.",
-    "game_test_evidence_sha256": "89ec4280c8de86075455e729c1bfe877123fdf7244d6c824e87a21248e8c7622"
+    "game_test_evidence_sha256": "89ec4280c8de86075455e729c1bfe877123fdf7244d6c824e87a21248e8c7622",
+    "workshop_installation": "passed_exact_subscribed_bytes",
+    "workshop_game_load": "passed_actual_subscribed_Workshop_root",
+    "workshop_game_evidence": "workshop-game-test-evidence.json",
+    "workshop_game_evidence_sha256": "1bb0923c669bf113d92daa985b1a1bb49387e07ef26d92f9f12beaebbbd015a2",
+    "workshop_game_test_scope": "Fresh actual load of the subscribed byte-exact Workshop item. Earlier actual English control reused only after exact original source/context, game, selected values and unchanged read-only probe verification. Exact full localization-error multiset compared. The earlier local proof remains historical; no new English-control boot, save or extended gameplay/human proof claimed."
   },
   "publication": {
     "github_url": "https://github.com/Antyhc/RimWorld-Russian-Translations/tree/main/mods/wvc.sergkart.biotech.moremechanoidsworkmodes",
-    "github_status": "prepared_not_published",
+    "github_status": "published",
     "workshop_url": "https://steamcommunity.com/sharedfiles/filedetails/?id=3830010549",
     "workshop_id": "3830010549",
     "workshop_status": "published",
     "release_blockers": [],
     "anonymous_page_verified": true,
     "dependency_verified": true,
-    "collection_id": "3828791160",
+    "collection_id": "3830036321",
     "collection_member_verified": true,
     "published_at": "2026-10-30T08:34:09.336773+00:00",
-    "anonymous_page_checked_at": "2026-10-30T08:40:10.419654+00:00",
+    "anonymous_page_checked_at": "2026-10-30T10:06:45.036Z",
     "dlc_dependency_app_id": "1826140",
     "dlc_dependency_verified": true,
     "installation_tested": true,
-    "installation_scope": "Official Steam subscription/download and exact recursive payload byte comparison; actual Workshop-root game loading is separate."
+    "installation_scope": "Official Steam subscription/download and exact recursive payload byte comparison; actual Workshop-root game loading is separate.",
+    "github_first_public_commit": "a386b9120f422473c895d475aa35e17f4ea78893",
+    "anonymous_page_evidence": "community/workshop-public-pages-2026-10-30.json"
   },
   "integration": {
     "status": "not_sent",

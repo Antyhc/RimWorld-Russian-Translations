@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-30T09:02:09+00:00",
+  "generated_at": "2026-10-30T10:09:57+00:00",
   "scope": "Static files only; no RimWorld game test is performed.",
   "release_gates": false,
   "mods": [
@@ -452,10 +452,8 @@
     {
       "package_id": "ilyvion.loadingprogress",
       "errors": [],
-      "warnings": [
-        "payload_missing"
-      ],
-      "language_entries": 0,
+      "warnings": [],
+      "language_entries": 399,
       "release_eligible": false
     },
     {
@@ -971,10 +969,8 @@
     {
       "package_id": "vanillaexpanded.achievements",
       "errors": [],
-      "warnings": [
-        "payload_missing"
-      ],
-      "language_entries": 0,
+      "warnings": [],
+      "language_entries": 1,
       "release_eligible": false
     },
     {
@@ -1097,10 +1093,8 @@
     {
       "package_id": "vanillaexpanded.vanillatraitsexpanded",
       "errors": [],
-      "warnings": [
-        "payload_missing"
-      ],
-      "language_entries": 0,
+      "warnings": [],
+      "language_entries": 2,
       "release_eligible": false
     },
     {

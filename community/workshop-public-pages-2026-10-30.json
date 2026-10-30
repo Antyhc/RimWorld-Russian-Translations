@@ -1,0 +1,139 @@
+{
+  "schema_version": 1,
+  "method": "Each of12URLs was independently opened in the logged-out in-app browser and its fresh DOM snapshot checked for login link, expected title, Subscribe heading and Antyhc creator. Observed directly in two browser tool results at10:06:35–46Z; not inferred from native visibility or collection membership.",
+  "pages": [
+    {
+      "item_id": "3828790442",
+      "url": "https://steamcommunity.com/sharedfiles/filedetails/?id=3828790442",
+      "expected_title": "No Burn Metal",
+      "checked_at": "2026-10-30T10:06:35.955Z",
+      "anonymous_login_link_present": true,
+      "expected_title_visible": true,
+      "subscribe_heading_present": true,
+      "creator_visible": true,
+      "public_page_verified": true
+    },
+    {
+      "item_id": "3828790605",
+      "url": "https://steamcommunity.com/sharedfiles/filedetails/?id=3828790605",
+      "expected_title": "Designator Shapes",
+      "checked_at": "2026-10-30T10:06:36.342Z",
+      "anonymous_login_link_present": true,
+      "expected_title_visible": true,
+      "subscribe_heading_present": true,
+      "creator_visible": true,
+      "public_page_verified": true
+    },
+    {
+      "item_id": "3828790757",
+      "url": "https://steamcommunity.com/sharedfiles/filedetails/?id=3828790757",
+      "expected_title": "Yet Another Research Tree",
+      "checked_at": "2026-10-30T10:06:36.775Z",
+      "anonymous_login_link_present": true,
+      "expected_title_visible": true,
+      "subscribe_heading_present": true,
+      "creator_visible": true,
+      "public_page_verified": true
+    },
+    {
+      "item_id": "3828790822",
+      "url": "https://steamcommunity.com/sharedfiles/filedetails/?id=3828790822",
+      "expected_title": "Smart Medicine",
+      "checked_at": "2026-10-30T10:06:37.220Z",
+      "anonymous_login_link_present": true,
+      "expected_title_visible": true,
+      "subscribe_heading_present": true,
+      "creator_visible": true,
+      "public_page_verified": true
+    },
+    {
+      "item_id": "3828883103",
+      "url": "https://steamcommunity.com/sharedfiles/filedetails/?id=3828883103",
+      "expected_title": "Mechanoid Upgrades",
+      "checked_at": "2026-10-30T10:06:37.673Z",
+      "anonymous_login_link_present": true,
+      "expected_title_visible": true,
+      "subscribe_heading_present": true,
+      "creator_visible": true,
+      "public_page_verified": true
+    },
+    {
+      "item_id": "3830000511",
+      "url": "https://steamcommunity.com/sharedfiles/filedetails/?id=3830000511",
+      "expected_title": "Blood Animations",
+      "checked_at": "2026-10-30T10:06:38.082Z",
+      "anonymous_login_link_present": true,
+      "expected_title_visible": true,
+      "subscribe_heading_present": true,
+      "creator_visible": true,
+      "public_page_verified": true
+    },
+    {
+      "item_id": "3830009448",
+      "url": "https://steamcommunity.com/sharedfiles/filedetails/?id=3830009448",
+      "expected_title": "Turret Pipeline",
+      "checked_at": "2026-10-30T10:06:44.597Z",
+      "anonymous_login_link_present": true,
+      "expected_title_visible": true,
+      "subscribe_heading_present": true,
+      "creator_visible": true,
+      "public_page_verified": true
+    },
+    {
+      "item_id": "3830010549",
+      "url": "https://steamcommunity.com/sharedfiles/filedetails/?id=3830010549",
+      "expected_title": "Work Modes",
+      "checked_at": "2026-10-30T10:06:45.036Z",
+      "anonymous_login_link_present": true,
+      "expected_title_visible": true,
+      "subscribe_heading_present": true,
+      "creator_visible": true,
+      "public_page_verified": true
+    },
+    {
+      "item_id": "3830014953",
+      "url": "https://steamcommunity.com/sharedfiles/filedetails/?id=3830014953",
+      "expected_title": "Expanded Storage",
+      "checked_at": "2026-10-30T10:06:45.427Z",
+      "anonymous_login_link_present": true,
+      "expected_title_visible": true,
+      "subscribe_heading_present": true,
+      "creator_visible": true,
+      "public_page_verified": true
+    },
+    {
+      "item_id": "3830022947",
+      "url": "https://steamcommunity.com/sharedfiles/filedetails/?id=3830022947",
+      "expected_title": "Vanilla Achievements Expanded",
+      "checked_at": "2026-10-30T10:06:46.001Z",
+      "anonymous_login_link_present": true,
+      "expected_title_visible": true,
+      "subscribe_heading_present": true,
+      "creator_visible": true,
+      "public_page_verified": true
+    },
+    {
+      "item_id": "3830032379",
+      "url": "https://steamcommunity.com/sharedfiles/filedetails/?id=3830032379",
+      "expected_title": "Vanilla Traits Expanded",
+      "checked_at": "2026-10-30T10:06:46.419Z",
+      "anonymous_login_link_present": true,
+      "expected_title_visible": true,
+      "subscribe_heading_present": true,
+      "creator_visible": true,
+      "public_page_verified": true
+    },
+    {
+      "item_id": "3830035919",
+      "url": "https://steamcommunity.com/sharedfiles/filedetails/?id=3830035919",
+      "expected_title": "Loading Progress",
+      "checked_at": "2026-10-30T10:06:46.844Z",
+      "anonymous_login_link_present": true,
+      "expected_title_visible": true,
+      "subscribe_heading_present": true,
+      "creator_visible": true,
+      "public_page_verified": true
+    }
+  ],
+  "verified_pages": 12
+}

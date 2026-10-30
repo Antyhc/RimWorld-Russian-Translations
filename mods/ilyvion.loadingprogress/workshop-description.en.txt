@@ -1,0 +1,16 @@
+Loading Progress — Russian (399 strings)
+
+A complete independently authored Russian language pack for all 399 current English keys: loading messages, settings and startup-impact reports. 270 previously authored translations were retained and reviewed; 129 more were independently translated from current English. No third-party Russian text from the old partial pack is redistributed.
+
+Original Loading Progress by ilyvion (Alexander Krivács Schrøder):
+https://steamcommunity.com/sharedfiles/filedetails/?id=3535481557
+Original source and licenses:
+https://github.com/ilyvion/loading-progress
+
+Requires original Loading Progress and its Harmony dependency. Load this Russian pack after the original. RimWorld: 1.7.
+
+IMPORTANT: enable only one Loading Progress Russian pack. Disable the old ilyvion.loadingprogress.ru (Workshop 3585898788) if installed. About.xml marks it incompatible; this mod does not disable other mods automatically. The original's early loader selects the first language provider and does not merge partial translations. This package therefore contains all 399 strings, instead of an overlay for the old 129-string pack.
+
+Testing: actual isolated English-control and Russian-candidate launches on RimWorld 1.7.4990 rev1069. Both ordinary Keyed values and Loading Progress's naturally initialized custom dictionary verified 399 English and399 Russian values; the original module's log confirmed this Russian provider. Diagnostic code only read the existing cache. The natural startup-time summary changed from English to Russian; its Russian tooltip and an opened report empty-state were observed and readable. Transient progress frames and every formatting/settings variant were not observed. Full localization-error and Player.log ERROR multisets were unchanged: 38 → 38 localization errors, zero new errors. Extended gameplay and subscription installation of the published Workshop copy were not tested by these runs.
+
+Russian text: Antyhc, 2026, MIT. AI-assisted drafting and individual semantic review with OpenAI Codex; no independent human proofreading claimed. The original offers Apache-2.0 OR MIT; this adaptation uses MIT and retains the full notice in License.txt. Own typographic cover, MIT. Original code, assemblies and artwork are not included. No endorsement by the original author claimed.

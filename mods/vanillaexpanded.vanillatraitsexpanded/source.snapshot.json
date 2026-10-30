@@ -1,0 +1,23 @@
+{
+  "schema_version": 1,
+  "generated_at": "2026-10-30T09:11:18.024832+00:00",
+  "scope": "Only newly authored missing additions; existing native/community Russian remains separate.",
+  "strings": {
+    "DefInjected|HediffDef|VTE_SlowWorkSpeed.stages.0.label": "d1022618b99a974b56caeae99b4f9e2eac444335123e3ab94bbbc817c306f2c0",
+    "DefInjected|HediffDef|VTE_SlowWorkSpeed.stages.1.label": "96879611650f80a81392a52e0db9b0237669087c4518e1c130e541a505e0eeef"
+  },
+  "signatures": {
+    "DefInjected|HediffDef|VTE_SlowWorkSpeed.stages.0.label": {
+      "source_hash": "d1022618b99a974b56caeae99b4f9e2eac444335123e3ab94bbbc817c306f2c0",
+      "tokens": [],
+      "tags": [],
+      "source_empty": false
+    },
+    "DefInjected|HediffDef|VTE_SlowWorkSpeed.stages.1.label": {
+      "source_hash": "96879611650f80a81392a52e0db9b0237669087c4518e1c130e541a505e0eeef",
+      "tokens": [],
+      "tags": [],
+      "source_empty": false
+    }
+  }
+}

@@ -53,9 +53,11 @@
     "dependency_verified": true,
     "anonymous_page_verified": true,
     "published_at": "2026-10-28T10:41:57.571700+00:00",
-    "collection_id": "3828791160",
+    "collection_id": "3830036321",
     "collection_member_verified": true,
-    "installation_tested": true
+    "installation_tested": true,
+    "anonymous_page_checked_at": "2026-10-30T10:06:36.342Z",
+    "anonymous_page_evidence": "community/workshop-public-pages-2026-10-30.json"
   },
   "integration": {
     "status": "open",

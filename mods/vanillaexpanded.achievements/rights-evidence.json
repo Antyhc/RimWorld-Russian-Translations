@@ -1,0 +1,63 @@
+{
+  "schema": 1,
+  "checked_at": "2026-10-30T07:42:41.539337+00:00",
+  "package_id": "vanillaexpanded.achievements",
+  "workshop_id": "2288125657",
+  "original_author": "Oskar Potocki, Smash Phil, Sarg Bjornson",
+  "original_workshop_url": "https://steamcommunity.com/sharedfiles/filedetails/?id=2288125657",
+  "translation_rights": "confirmed_under_recorded_conditions",
+  "license": "CC-BY-NC-SA-4.0",
+  "public_evidence_url": "https://steamcommunity.com/sharedfiles/filedetails/?id=2288125657",
+  "official_public_api": "https://api.steampowered.com/ISteamRemoteStorage/GetPublishedFileDetails/v1/",
+  "official_description_sha256": "eee3f2c7898df1122fcedbfba23ef57bc031956f54a2435ded63ed94d04000b9",
+  "official_description_updated_unix": 1791978894,
+  "exact_permission_or_license_marker": "(CC BY-NC-SA 4.0)",
+  "conditions": "Credit all original creators and source link; state translation/adaptation changes and AI assistance; distribute adapted translation under CC-BY-NC-SA-4.0 with license URI and notices; no commercial use; no additional restrictions. Own fallback artwork, no copied assets/code. Existing third-party Russian requires its own provenance/license.",
+  "legalcode_url": "https://creativecommons.org/licenses/by-nc-sa/4.0/legalcode.en",
+  "own_reviewed_QA_keys": 8,
+  "native_russian_in_existing_snapshot": 0,
+  "existing_third_party_candidates": [
+    {
+      "name": "Vanilla Achievements Expanded Russian Language Pack",
+      "package_id": "ow.ru.achieve",
+      "author": "OliveWizard",
+      "workshop_id": "2289313263",
+      "workshop_url": "https://steamcommunity.com/sharedfiles/filedetails/?id=2289313263",
+      "license": "CC-BY-NC-SA-4.0"
+    },
+    {
+      "name": "Vanilla Brewing Expanded Russian Language Pack",
+      "package_id": "ow.ru.brewing",
+      "author": "Mewn Goddess",
+      "workshop_id": "2914395524",
+      "workshop_url": "https://steamcommunity.com/sharedfiles/filedetails/?id=2914395524",
+      "license": "CC-BY-NC-SA-4.0"
+    },
+    {
+      "name": "Vanilla Cooking Expanded Russian Language Pack",
+      "package_id": "ow.ru.cooking",
+      "author": "Amortem, OliveWizard, Mewn Goddess",
+      "workshop_id": "2914375951",
+      "workshop_url": "https://steamcommunity.com/sharedfiles/filedetails/?id=2914375951",
+      "license": "CC-BY-NC-SA-4.0"
+    },
+    {
+      "name": "Vanilla Fishing Expanded Russian Language Pack",
+      "package_id": "ow.ru.fishing",
+      "author": "OliveWizard",
+      "workshop_id": "2126439745",
+      "workshop_url": "https://steamcommunity.com/sharedfiles/filedetails/?id=2126439745",
+      "license": "CC-BY-NC-SA-4.0"
+    },
+    {
+      "name": "Vanilla Weapons Expanded Russian Language Pack",
+      "package_id": "ow.ru.weapons",
+      "author": "OliveWizard",
+      "workshop_id": "2126925929",
+      "workshop_url": "https://steamcommunity.com/sharedfiles/filedetails/?id=2126925929",
+      "license": "CC-BY-NC-SA-4.0"
+    }
+  ],
+  "release_status": "Rights cleared only; new independent payload requires current-source comparison, duplicate coverage check and minimal actual game testing. Prior42 proof alone does not approve new standalone.",
+  "public_file_changed": false
+}

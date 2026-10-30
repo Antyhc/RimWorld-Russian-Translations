@@ -130,10 +130,25 @@
       "target_kind": "translation_distribution_permission",
       "url": "https://github.com/Vanilla-Expanded/VanillaExpandedFramework/issues/195",
       "date": "2026-10-30",
+      "status": "permission_granted_for_named_own_text_translations",
+      "ai_disclosed": true,
+      "rights_granted": true,
+      "scope": "Permission for standalone own Russian text for the23named mods, including disclosed AI assistance. No Vanilla Expanded endorsement, original art or third-party Russian rights inferred.",
+      "reply_url": "https://github.com/Vanilla-Expanded/VanillaExpandedFramework/issues/195#issuecomment-6519584242",
+      "reply_at": "2026-10-30T09:34:25Z",
+      "respondent": "AndroidQuazar (Oskar Potocki)"
+    },
+    {
+      "package_id": "oskarpotocki.vanillafactionsexpanded.core",
+      "channel": "github_pull_request",
+      "url": "https://github.com/OneCodeUnit/VanillaRussianExpanded/pull/47",
+      "date": "2026-10-30",
+      "target_kind": "community_translation",
       "status": "awaiting_response",
       "ai_disclosed": true,
-      "rights_granted": false,
-      "scope": "One consolidated request for23named current-ND mods; exact coauthor/mod/conditions scope requested. Existing separate-translation precedents are not treated as a blanket license."
+      "fresh_game_test_claimed": false,
+      "head_sha": "70fd91bf3a5d56bb39cd3bcbb8aefb040e87df99",
+      "scope": "Nine missing own strings:6GodMode-only terrain labels and3player-facing captions in four XML files; current upstream checked, static QA only. Existing Russian retained."
     }
   ]
 }

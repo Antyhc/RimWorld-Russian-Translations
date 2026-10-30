@@ -1,0 +1,8 @@
+Original mod: Loading Progress by ilyvion (Alexander Krivács Schrøder).
+Original: https://steamcommunity.com/sharedfiles/filedetails/?id=3535481557
+Original source/license: https://github.com/ilyvion/loading-progress ; Apache-2.0 OR MIT. This translation chooses MIT; exact original copyright and permission notice retained in License.txt.
+Russian text: Copyright (c) 2026 Antyhc, MIT. Changes:270 prior original-authored reviewed translations retained,129 entries independently translated from current English,6 terminology alignments across the full 399-entry draft. No text from the historical unknown-license Russian pack is redistributed.
+AI assistance: local-model drafting and individual English/Russian semantic review using OpenAI Codex; no independent human proofreading claimed.
+Source-only language content: no original code, DLLs, textures, audio, assets or third-party Russian copied.
+Own typographic cover by Antyhc, MIT. No original mod artwork used.
+No original-author endorsement or extended colony-gameplay test claimed.

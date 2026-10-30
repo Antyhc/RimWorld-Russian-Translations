@@ -1,0 +1,105 @@
+{
+  "schema": 1,
+  "status": "actual_all_required_conditional_contexts_verified",
+  "package_id": "vanillaexpanded.achievements",
+  "translation_package_id": "antyhc.russian.vanillaexpanded.achievements",
+  "game_version": "1.7.4990 rev1069",
+  "payload_sha256": "735d519c8e99817a451c20890175ff3082adc89f4280e998b2c5324a21f2f1fb",
+  "values_verified": 1,
+  "additional_localization_errors": 0,
+  "exact_error_multiset_unchanged": true,
+  "conditional_roots_enabled_and_disabled_verified": [
+    "ludeon.rimworld.odyssey"
+  ],
+  "case_evidence_sha256": {
+    "vea1-off": "55ba28b4c7da9da2b8a18e44091de7df0faf222ca27b0eb7d17089083e877051",
+    "vea1-on": "ac321304367ff3d442bf0aff616ea25ab6de58399244709546da06e4172a5115"
+  },
+  "contexts": [
+    {
+      "schema": 1,
+      "harness_version": 2,
+      "status": "actual_conditional_control_and_candidate_verified",
+      "checked_at": "2026-10-30T08:58:41.969158+00:00",
+      "case_id": "vea1-off",
+      "package_id": "vanillaexpanded.achievements",
+      "translation_package_id": "antyhc.russian.vanillaexpanded.achievements",
+      "game_version": "1.7.4990 rev1069",
+      "payload_sha256": "735d519c8e99817a451c20890175ff3082adc89f4280e998b2c5324a21f2f1fb",
+      "values_verified": 0,
+      "english_control_values_verified": 0,
+      "master_targets_observed": 1,
+      "active_target_ids": [],
+      "inactive_target_ids": [
+        "DefInjected|AchievementsExpanded.AchievementDef|VAE_Substructure_Minor.label"
+      ],
+      "inactive_targets_verified_unchanged_and_not_injected": 1,
+      "baseline_localization_errors": 38,
+      "candidate_localization_errors": 38,
+      "additional_localization_errors": 0,
+      "exact_error_multiset_unchanged": true,
+      "candidate_root_verified": true,
+      "keyed_owner_verified": true,
+      "source_inputs_unchanged": true,
+      "control_capture_sha256": "1fb108ad90e496e1d6e9197c4689d5e454d690178cc7731af31c2df3dec2a9b8",
+      "candidate_capture_sha256": "2ca067a3b27e4b1e5a12a99be1504c88e61107965faaea1a7a1d867731f8a332",
+      "request_sha256": "6bc3ba5174c1eab49c3a6f0f1952433e0606fc7ec79c26e69296f2f3f00b9cf8",
+      "probe_dll_sha256": "01359af068f9b58b29c4f7b61c35742b88cf4c7881ba2e09a7cf277a6b90d7a8",
+      "active_packages": [
+        "brrainz.harmony",
+        "ludeon.rimworld",
+        "oskarpotocki.vanillafactionsexpanded.core",
+        "vanillaexpanded.achievements",
+        "antyhc.russian.vanillaexpanded.achievements",
+        "publicationqa.session4.vea1-off"
+      ],
+      "conditional_context": {},
+      "gameplay_tested": false,
+      "scope": "Actual isolated startup and all-master-target readback. Enabled targets match English then Russian with physical/Keyed ownership; disabled targets preserve exact control state and receive no candidate injection. Exact active context, source/payload/probe hashes and full error multiset verified. No save, extended gameplay or full human proofreading claim."
+    },
+    {
+      "schema": 1,
+      "harness_version": 2,
+      "status": "actual_conditional_control_and_candidate_verified",
+      "checked_at": "2026-10-30T09:06:20.258816+00:00",
+      "case_id": "vea1-on",
+      "package_id": "vanillaexpanded.achievements",
+      "translation_package_id": "antyhc.russian.vanillaexpanded.achievements",
+      "game_version": "1.7.4990 rev1069",
+      "payload_sha256": "735d519c8e99817a451c20890175ff3082adc89f4280e998b2c5324a21f2f1fb",
+      "values_verified": 1,
+      "english_control_values_verified": 1,
+      "master_targets_observed": 1,
+      "active_target_ids": [
+        "DefInjected|AchievementsExpanded.AchievementDef|VAE_Substructure_Minor.label"
+      ],
+      "inactive_target_ids": [],
+      "inactive_targets_verified_unchanged_and_not_injected": 0,
+      "baseline_localization_errors": 98,
+      "candidate_localization_errors": 98,
+      "additional_localization_errors": 0,
+      "exact_error_multiset_unchanged": true,
+      "candidate_root_verified": true,
+      "keyed_owner_verified": true,
+      "source_inputs_unchanged": true,
+      "control_capture_sha256": "bf9c7a400c5afc3805340394116761bc160baac56eeaa6bfc77f8ae17dd569f5",
+      "candidate_capture_sha256": "01ccd4f640b7c6343eb07e30364269f211fa94a2c2b38809d166e63eb9c23828",
+      "request_sha256": "8f5cc0de16c775de214ff1bdd5c050a4778cc906d4ed8ce4dd195401ab896e53",
+      "probe_dll_sha256": "01359af068f9b58b29c4f7b61c35742b88cf4c7881ba2e09a7cf277a6b90d7a8",
+      "active_packages": [
+        "brrainz.harmony",
+        "ludeon.rimworld",
+        "ludeon.rimworld.odyssey",
+        "oskarpotocki.vanillafactionsexpanded.core",
+        "vanillaexpanded.achievements",
+        "antyhc.russian.vanillaexpanded.achievements",
+        "publicationqa.session4.vea1-on"
+      ],
+      "conditional_context": {},
+      "gameplay_tested": false,
+      "scope": "Actual isolated startup and all-master-target readback. Enabled targets match English then Russian with physical/Keyed ownership; disabled targets preserve exact control state and receive no candidate injection. Exact active context, source/payload/probe hashes and full error multiset verified. No save, extended gameplay or full human proofreading claim."
+    }
+  ],
+  "gameplay_tested": false,
+  "scope": "The same exact payload passed original-only/candidate tests with every declared condition enabled and disabled. Enabled values matched English then Russian; disabled targets retained exact control state and received no injection. Error multisets matched within each context; baselines may differ across contexts. No saves, extended gameplay, Workshop-copy installation or independent human proofreading claimed."
+}

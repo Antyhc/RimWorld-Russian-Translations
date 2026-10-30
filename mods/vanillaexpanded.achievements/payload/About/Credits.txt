@@ -1,0 +1,11 @@
+Original mod: Vanilla Achievements Expanded by Oskar Potocki, Smash Phil and Sarg Bjornson.
+Original Workshop: https://steamcommunity.com/sharedfiles/filedetails/?id=2288125657
+Original text is offered under Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0).
+License: https://creativecommons.org/licenses/by-nc-sa/4.0/
+Legal code: https://creativecommons.org/licenses/by-nc-sa/4.0/legalcode.en
+Changes: one descriptive English achievement title translated into Russian; original functionality and protected resources not copied.
+Russian adaptation: Antyhc,2026; AI-assisted authoring and semantic review by OpenAI Codex. This adapted text is offered under the same CC BY-NC-SA 4.0: attribution, noncommercial use and ShareAlike apply; no additional restrictions.
+Existing Russian translation by OliveWizard: https://steamcommunity.com/sharedfiles/filedetails/?id=2289313263; its text is not redistributed.
+Four original-brand/acronym/quotation titles in that pack are preserved; they are not falsely counted as missing keys.
+Original typographic cover by Antyhc, MIT; no original mod artwork.
+No independent human proofreading or extended gameplay test claimed.

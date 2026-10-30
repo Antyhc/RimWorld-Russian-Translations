@@ -45,19 +45,28 @@
     "game_evidence": "game-test-evidence.json",
     "game_version": "1.7.4990 rev1069",
     "game_test_scope": "Actual isolated startup and physical language-value readback, exact active dependencies/DLC and source/payload/probe hashes; no save, extended gameplay or independent human proofreading claim.",
-    "game_test_evidence_sha256": "273713d279313a74dc98ee24f125a06ae5c8a3aebfe6e82b17af7bb0484eeccf"
+    "game_test_evidence_sha256": "273713d279313a74dc98ee24f125a06ae5c8a3aebfe6e82b17af7bb0484eeccf",
+    "workshop_installation": "passed_exact_subscribed_bytes",
+    "workshop_game_load": "passed_actual_subscribed_Workshop_root",
+    "workshop_game_evidence": "workshop-game-test-evidence.json",
+    "workshop_game_evidence_sha256": "9b37286f27ce9a9cb52750209f51dab95973703cfb2adfd0135acfbcd2bdc141",
+    "workshop_game_test_scope": "Fresh actual load of the subscribed byte-exact Workshop item. Earlier actual English control reused only after exact original source/context, game, selected values and unchanged read-only probe verification. Exact full localization-error multiset compared. The earlier local proof remains historical; no new English-control boot, save or extended gameplay/human proof claimed."
   },
   "publication": {
     "github_url": "https://github.com/Antyhc/RimWorld-Russian-Translations/tree/main/mods/reel.expanded.storage",
-    "github_status": "prepared_not_published",
+    "github_status": "published",
     "workshop_url": "https://steamcommunity.com/sharedfiles/filedetails/?id=3830014953",
     "workshop_id": "3830014953",
-    "workshop_status": "submitted_public_page_unverified",
+    "workshop_status": "published",
     "release_blockers": [],
     "dependency_verified": true,
-    "collection_id": "3828791160",
+    "collection_id": "3830036321",
     "collection_member_verified": true,
-    "published_at": "2026-10-30T08:49:02.799414+00:00"
+    "published_at": "2026-10-30T08:49:02.799414+00:00",
+    "github_first_public_commit": "a386b9120f422473c895d475aa35e17f4ea78893",
+    "anonymous_page_verified": true,
+    "anonymous_page_checked_at": "2026-10-30T10:06:45.427Z",
+    "anonymous_page_evidence": "community/workshop-public-pages-2026-10-30.json"
   },
   "integration": {
     "status": "not_sent",

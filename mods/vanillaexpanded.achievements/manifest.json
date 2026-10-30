@@ -11,31 +11,73 @@
       "status": "confirmed",
       "license": "CC-BY-NC-SA-4.0",
       "evidence": "https://steamcommunity.com/sharedfiles/filedetails/?id=2288125657",
-      "attribution": "Original: Vanilla Achievements Expanded by Oskar Potocki, Smash Phil, Sarg Bjornson. https://steamcommunity.com/sharedfiles/filedetails/?id=2288125657. Conditions: Credit all original creators and source link; state translation/adaptation changes and AI assistance; distribute adapted translation under CC-BY-NC-SA-4.0 with license URI and notices; no commercial use; no additional restrictions. Own fallback artwork, no copied assets/code. Existing third-party Russian requires its own provenance/license.",
-      "license_evidence_file": "translation-rights-evidence.json",
-      "grant_checked_at": "2026-10-30T07:42:41.539337+00:00",
-      "grant_scope": "Text-only own translation subject to the recorded license/conditions; does not grant original artwork or third-party Russian rights."
+      "attribution": "Original mod: Vanilla Achievements Expanded by Oskar Potocki, Smash Phil and Sarg Bjornson.\nOriginal Workshop: https://steamcommunity.com/sharedfiles/filedetails/?id=2288125657\nOriginal text is offered under Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0).\nLicense: https://creativecommons.org/licenses/by-nc-sa/4.0/\nLegal code: https://creativecommons.org/licenses/by-nc-sa/4.0/legalcode.en\nChanges: one descriptive English achievement title translated into Russian; original functionality and protected resources not copied.\nRussian adaptation: Antyhc,2026; AI-assisted authoring and semantic review by OpenAI Codex. This adapted text is offered under the same CC BY-NC-SA 4.0: attribution, noncommercial use and ShareAlike apply; no additional restrictions.\nExisting Russian translation by OliveWizard: https://steamcommunity.com/sharedfiles/filedetails/?id=2289313263; its text is not redistributed.\nFour original-brand/acronym/quotation titles in that pack are preserved; they are not falsely counted as missing keys.\nOriginal typographic cover by Antyhc, MIT; no original mod artwork.\nNo independent human proofreading or extended gameplay test claimed.\n",
+      "license_evidence_file": "rights-evidence.json",
+      "required_notice_files": {
+        "About/License.txt": "fc5966fd3c719ea111e8135aba0e585f4908c2acafd3ae182675c616402a719a",
+        "About/Credits.txt": "03687d6741851f8ad08e63ad17461ebaf683b924323ca6a219d7c0000ee1d9bf"
+      }
     },
     "icon": {
-      "status": "unknown",
-      "license": null,
-      "evidence": null,
-      "attribution": null
+      "status": "confirmed",
+      "kind": "original_typographic_fallback",
+      "license": "MIT",
+      "evidence": "scripts/make_original_cover.py; own typographic design",
+      "attribution": "Own typographic cover by Antyhc; no original mod artwork",
+      "source_sha256": "2fc43ba53797c5e44eb34887eae6661b52624a40b007589f1025d7e4402fd97f",
+      "preview_sha256": "2fc43ba53797c5e44eb34887eae6661b52624a40b007589f1025d7e4402fd97f",
+      "original_mod_art_used": false
     }
   },
   "qa": {
-    "technical": "pending",
-    "linguistic": "pending",
-    "source_current": false,
-    "in_game": "not_tested",
-    "checked_at": "2026-10-28T09:15:27.268425+00:00"
+    "technical": "passed",
+    "linguistic": "ai_reviewed",
+    "source_current": true,
+    "in_game": "passed",
+    "checked_at": "2026-10-30T08:21:58.439333+00:00",
+    "source_checked_at": "2026-10-30T08:21:58.439333+00:00",
+    "payload_sha256": "735d519c8e99817a451c20890175ff3082adc89f4280e998b2c5324a21f2f1fb",
+    "source_snapshot_sha256": "b0af7d3872a25f8bd4f26b10c1349854145356cd3221cd28e701ddf923c5fc96",
+    "evidence": "qa-evidence.json",
+    "coverage": "One own Russian descriptive achievement title gated by Odyssey; brand/acronym/quotation names and existing Russian preserved.",
+    "standalone_minimal_game_test": "passed_actual_enabled_and_disabled_contexts",
+    "game_evidence": "game-test-evidence.json",
+    "game_version": "1.7.4990 rev1069",
+    "game_test_scope": "The same exact payload passed original-only/candidate tests with every declared condition enabled and disabled. Enabled values matched English then Russian; disabled targets retained exact control state and received no injection. Error multisets matched within each context; baselines may differ across contexts. No saves, extended gameplay, Workshop-copy installation or independent human proofreading claimed.",
+    "game_test_evidence_sha256": "3075090c7194aff1d41b41789a1f884dcb52c405127894e06d95b59e3a60fd3c",
+    "workshop_installation": "passed_exact_subscribed_bytes",
+    "workshop_game_load": "passed_actual_subscribed_Workshop_root_both_conditional_contexts",
+    "workshop_game_evidence_contexts": [
+      {
+        "file": "workshop-game-test-off-evidence.json",
+        "sha256": "d600474b7d55c1152c14d09297332a59946986d202e8c99955aa911739a77bc0",
+        "active_values_verified": 0,
+        "inactive_targets_verified_unchanged_and_not_injected": 1
+      },
+      {
+        "file": "workshop-game-test-on-evidence.json",
+        "sha256": "756db7d568cf0cc56c586ddc4d355aa65ff5e3cccd8dfa1c19a1b989af6937d2",
+        "active_values_verified": 1,
+        "inactive_targets_verified_unchanged_and_not_injected": 0
+      }
+    ],
+    "workshop_game_test_scope": "Fresh subscribed Workshop-root boots with Odyssey enabled and disabled, each compared against its preserved actual English control after exact current-source/context/probe checks; one unique title, no gameplay claim."
   },
   "publication": {
     "github_url": "https://github.com/Antyhc/RimWorld-Russian-Translations/tree/main/mods/vanillaexpanded.achievements",
-    "github_status": "metadata_only",
-    "workshop_url": null,
-    "workshop_id": null,
-    "workshop_status": "not_published"
+    "github_status": "published",
+    "workshop_url": "https://steamcommunity.com/sharedfiles/filedetails/?id=3830022947",
+    "workshop_id": "3830022947",
+    "workshop_status": "published",
+    "release_blockers": [],
+    "workshop_visibility": "public",
+    "workshop_submitted_at": "2026-10-30T09:15:53.308392+00:00",
+    "anonymous_page_verified": true,
+    "anonymous_page_checked_at": "2026-10-30T10:06:46.001Z",
+    "anonymous_page_evidence": "community/workshop-public-pages-2026-10-30.json",
+    "collection_id": "3830036321",
+    "collection_member_verified": true,
+    "github_publication_date": "2026-10-30"
   },
   "integration": {
     "status": "not_sent",
@@ -193,5 +235,25 @@
       "baseline_file": "source.tree.json"
     }
   },
-  "work_stage": "installed_local"
+  "work_stage": "ready_for_publication",
+  "conditional_languages": {
+    "version": "1.7",
+    "roots": [
+      {
+        "path": "Conditional/ludeon.rimworld.odyssey",
+        "if_mod_active": "ludeon.rimworld.odyssey",
+        "source_relative_root": "1.6/Mods/Odyssey"
+      }
+    ],
+    "evidence": "source-layout-evidence.json",
+    "evidence_sha256": "742bd612ae7dadd03a69e83e3a2c8deffb3b6982f18c0bc50bdcee839cce0f3d"
+  },
+  "duplicate_translation": {
+    "status": "checked_no_current_equivalent",
+    "checked_at": "2026-10-30T08:21:58.439333+00:00",
+    "scope": "Current Russian2289313263 contains this descriptive title in English. Four other candidate titles are international game/film names or DLC acronym and are retained; no claim of five absent keys is made. No third-party Russian copied.",
+    "candidates": [
+      "https://steamcommunity.com/sharedfiles/filedetails/?id=2289313263"
+    ]
+  }
 }

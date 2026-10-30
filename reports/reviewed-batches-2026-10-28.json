@@ -482,5 +482,7 @@
     "existing_value_candidates_observed": 172,
     "strict_stage_preserved_existing_russian": 136,
     "scope": "Initial 731 source observations precede strict routing/alias resolution; observed existing-value candidates and later preserved unique targets are separate counts."
-  }
+  },
+  "current_source_context_revalidated": false,
+  "current_guard_status": "Old combined42+473profile is blocked following current NoBurnMetal/ReGrowth source changes. Oct28actual3947readbacks remain historical; hashes were not waived."
 }

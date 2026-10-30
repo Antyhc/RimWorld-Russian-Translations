@@ -1,0 +1,31 @@
+{
+  "schema": 1,
+  "game_version": "1.7.4990 rev1069",
+  "case_id": "loading399",
+  "method": "Actual CUA native screenshot inspection recorded by testing agent",
+  "startup_summary": {
+    "control": {
+      "observed_strings": [
+        "Game took",
+        "to load"
+      ],
+      "record_sha256": "04b679e608b284508b2249b13213ceb3b435db433def44ce0a9ed3fbc539d2e8"
+    },
+    "candidate": {
+      "observed_strings": [
+        "Игра загрузилась за"
+      ],
+      "record_sha256": "1dd6a4894f0e30300a999bfb8b995825c0b4893b5caf4887fa2a7266a80fb1b7"
+    }
+  },
+  "candidate_report": {
+    "ui": "startup impact report empty-state opened by natural loading-time label click",
+    "visible_text": "При запуске сбор статистики загрузки был отключён. Для этого сеанса нет данных. Включите настройку ниже, чтобы собрать статистику при следующем запуске.",
+    "button": "Включить сбор статистики загрузки",
+    "layout_observation": "Russian text and button are readable, fit observed dialog, no replacement glyphs seen.",
+    "tracking_setting_changed": false,
+    "scope": "Read-only UI inspection, feature not enabled; no claim of every report/settings state."
+  },
+  "candidate_report_record_sha256": "521a937c7658c5dd6ffb4847e890e0b0a7bd14277b17325bc30648837eba7408",
+  "scope": "Natural startup summary/tooltip and opened report empty-state were observed. Transient progress frames and every settings/report state were not observed. No screenshot files are invented."
+}

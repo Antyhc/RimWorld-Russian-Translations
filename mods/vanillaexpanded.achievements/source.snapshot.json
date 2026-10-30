@@ -1,0 +1,16 @@
+{
+  "schema_version": 1,
+  "generated_at": "2026-10-30T08:21:58.439333+00:00",
+  "scope": "Only newly authored missing additions; existing native/community Russian remains separate.",
+  "strings": {
+    "DefInjected|AchievementsExpanded.AchievementDef|VAE_Substructure_Minor.label": "ae91d145e4f235bebf46ae844ae3c7f60455f07a8b6ffd25bc21c09e33c9861b"
+  },
+  "signatures": {
+    "DefInjected|AchievementsExpanded.AchievementDef|VAE_Substructure_Minor.label": {
+      "source_hash": "ae91d145e4f235bebf46ae844ae3c7f60455f07a8b6ffd25bc21c09e33c9861b",
+      "tokens": [],
+      "tags": [],
+      "source_empty": false
+    }
+  }
+}

@@ -1,0 +1,57 @@
+{
+  "schema": 1,
+  "package_id": "vanillaexpanded.achievements",
+  "version": "1.7",
+  "roots": [
+    {
+      "path": "Conditional/ludeon.rimworld.odyssey",
+      "if_mod_active": "ludeon.rimworld.odyssey",
+      "source_relative_root": "1.6/Mods/Odyssey"
+    }
+  ],
+  "original_input_files": {
+    "1.6\\Assemblies\\AchievementsExpanded.dll": "f909ac839050e0492c24c81fccddbc7c49dae74a241e850f557d4fa0a375a01b",
+    "1.6\\Defs\\Achievements\\Abilities.xml": "18d4d6c103a495bf88ca2dc6b1bc6c8df63e26452c7a987db715f368fa92a0a1",
+    "1.6\\Defs\\Achievements\\Building.xml": "e7a9f7502cfcba0ed6ba595de69e01076fe64038b1aff8ed676b202264a8073c",
+    "1.6\\Defs\\Achievements\\ColonistCount.xml": "9e2a1c4789fc16d11fe2024ee66fe5c8bcc42bd0ad1f9bec68a32c4404c578bc",
+    "1.6\\Defs\\Achievements\\Food.xml": "82d4a8741790758918dad3effda2f20e98222d691251ac432978b115679130f0",
+    "1.6\\Defs\\Achievements\\Hediffs.xml": "8e105cd5ee2e3f7f944a39357bf981a54f27145a884d3a3c7615e06dc9ca5829",
+    "1.6\\Defs\\Achievements\\Incidents.xml": "a97afa29f17d39918595ae514d7200ff614b7d3d691a9efe145da08a55d1541f",
+    "1.6\\Defs\\Achievements\\Items.xml": "5dfd9aeca0eb0a2a5c43a283a9d880b1625db54d05df92f7d862e613b4417cab",
+    "1.6\\Defs\\Achievements\\Kills.xml": "094b58d37e47cc4274985d1207af6979b2f84c1161e34ef852222b878ae5be6e",
+    "1.6\\Defs\\Achievements\\Livestock.xml": "a6bb7ee4748a67bf739099a2fd89ee48ddf76d1d43b422f83927cc8ad1be0fb9",
+    "1.6\\Defs\\Achievements\\MentalBreaks.xml": "904b3dc591901fa797c63f7a656f38c82dd59296dd0cf0a04aaf05166208dc51",
+    "1.6\\Defs\\Achievements\\ModAmount.xml": "7df6367272434b7cc98c56394ff01c0a35cfbeff1c0a182d80a7c3b36c589001",
+    "1.6\\Defs\\Achievements\\Mood.xml": "96ae737f6e19066a2fc737bd99bc646fd0a18864a63bed9e409332b5ef1be173",
+    "1.6\\Defs\\Achievements\\Plants.xml": "d8f2e0175b7d6c2575256a185e8b44cde9124ab7873fb45420e70021fd3c2d00",
+    "1.6\\Defs\\Achievements\\Prisoners.xml": "8eada25c3cd470905666447b24207f21a3a56d3973ce6254fadfddf02cc1d42e",
+    "1.6\\Defs\\Achievements\\Quests.xml": "c25c6e6d9c7c57f48ac4837c609bf0ad13340e5b5a13bb8c34af6f48dca981e0",
+    "1.6\\Defs\\Achievements\\Records.xml": "810bdcc23e853b6f4d3f432b81aa796dc3937428f9538dbc99447fc45e7f43de",
+    "1.6\\Defs\\Achievements\\Research.xml": "a7155b4156f7341096a492eb8c1d7ca9821769dd8ba5b23932cf1008e6bd2ad4",
+    "1.6\\Defs\\Achievements\\Skills.xml": "ab9c91ecdbaf1d399bce5beb5435db714fbb2f22dce33b0ba0671a562fda7560",
+    "1.6\\Defs\\Achievements\\Time.xml": "51b6a63de4758f34b5a8f1d8b6f99d83bb3effd3d2b5935ccf250d2f42334622",
+    "1.6\\Defs\\Achievements\\Trade.xml": "6cbc1ae6aaea0fbd7823c5e5e23cec6e21bfb5ed3cac2617c59d7af2e6e58719",
+    "1.6\\Defs\\Achievements\\Wealth.xml": "9773f5022976b08fa6c2b89cdfc2139c239604bac6aa3a8c500906da5805cff1",
+    "1.6\\Defs\\AchievementTabDef\\AchievementTabDef_Main.xml": "2c0af389df51e485c2fb8df90e49860c2872f71e2d16e738782956334e39b129",
+    "1.6\\Defs\\MainButtonDefs\\MainButtons.xml": "7dbd17c87795323d63db2b91cf0220464a31e2e2d5f66d4419f3141b78f85f5e",
+    "1.6\\Defs\\Rewards\\Rewards.xml": "036a835efea8571e8a1f9757a5e0a6abb8e4ef328a6dc9f2296d1d0e8773ad3f",
+    "1.6\\Mods\\Anomaly\\Defs\\Achievements\\Anomaly.xml": "0cc1c9702e80ca9d23737fbf61d30cfeca18603af9da4abe14ede75d93b054fa",
+    "1.6\\Mods\\Anomaly\\Patches\\IdeologyPatchForAnomaly.xml": "eb4d0cec086d45897e9538f0ca1b56885f7de1ac5294f1203967d70dabc2be09",
+    "1.6\\Mods\\Biotech\\Defs\\Achievements\\Biotech.xml": "a81bb483f97717123d34155f69cdd89ac2b384291a934f9282c2f7ce4eaa5b34",
+    "1.6\\Mods\\Ideology\\Defs\\Achievements\\Ideology.xml": "3a8d6816a5b52b777433ad1b6dd715091816ba4cccbe366d40c8b9ede244c6ed",
+    "1.6\\Mods\\Odyssey\\Defs\\Achievements\\Odyssey.xml": "2073dadc9296a7a7340008c0bbc4ed83655fbefe5ddffd642c17082a36ed94ac",
+    "1.6\\Mods\\Odyssey\\Defs\\AchievementTabDef\\AchievementTabDef_DLC.xml": "387fb7fbd3170aca0ac02f4d68726dd98c51356acb2b2bd838d70fb4e5b5c794",
+    "1.6\\Mods\\Odyssey\\Defs\\RecordDefs\\Records_Time.xml": "198d1d411d429f331225611964e27a46738a9215c58c287ca6785c8c86bea18a",
+    "1.6\\Mods\\Royalty\\Defs\\Achievements\\Royalty.xml": "d7a0dc3e24d171a14978379fad8c7626bddd57c85493086f55e0389c6939ed0b",
+    "About\\About.xml": "4ff2d3a2df29630cea7ea89ab85742d151579784a9a1088b861164612b1459da",
+    "Languages\\English\\Keyed\\TranslationKeys.xml": "054a68618a869c5884f6f0718faf2a2ea02169a46ce58be0bda62f87ce6bb3ec",
+    "LoadFolders.xml": "04009fa4421c6d2a660afe66ae44cfd7ad89c51cb25f8902d3d98747e0c824e4"
+  },
+  "selected_conditions": [
+    {
+      "target_id": "DefInjected|AchievementsExpanded.AchievementDef|VAE_Substructure_Minor.label",
+      "if_mod_active": "ludeon.rimworld.odyssey",
+      "source_origin": "1.6/Mods/Odyssey/Defs/Achievements/Odyssey.xml"
+    }
+  ]
+}

@@ -46,23 +46,30 @@
     "game_test_scope": "Actual isolated startup and physical language-value readback, exact active dependencies/DLC and source/payload/probe hashes; no save, extended gameplay or independent human proofreading claim.",
     "game_test_evidence_sha256": "c46e037f9a1f544a2b90f2c79efe25b0e293e2bc478d9a03d926abf253b32bf2",
     "ui_inspected": true,
-    "ui_scope": "Russian settings title and both captions visually inspected in actual candidate profile; remaining captions are English without the separately linked primary Russian pack."
+    "ui_scope": "Russian settings title and both captions visually inspected in actual candidate profile; remaining captions are English without the separately linked primary Russian pack.",
+    "workshop_installation": "passed_exact_subscribed_bytes",
+    "workshop_game_load": "passed_actual_subscribed_Workshop_root",
+    "workshop_game_evidence": "workshop-game-test-evidence.json",
+    "workshop_game_evidence_sha256": "75480dccd2b43f1ce4ab2d196630142784c1676fb7d5787c5eb44b5d3ae02e5e",
+    "workshop_game_test_scope": "Fresh actual load of the subscribed byte-exact Workshop item. Earlier actual English control reused only after exact original source/context, game, selected values and unchanged read-only probe verification. Exact full localization-error multiset compared. The earlier local proof remains historical; no new English-control boot, save or extended gameplay/human proof claimed."
   },
   "publication": {
     "github_url": "https://github.com/Antyhc/RimWorld-Russian-Translations/tree/main/mods/fuu.bloodanimations",
-    "github_status": "prepared_not_published",
+    "github_status": "published",
     "workshop_url": "https://steamcommunity.com/sharedfiles/filedetails/?id=3830000511",
     "workshop_id": "3830000511",
     "workshop_status": "published",
     "release_blockers": [],
     "anonymous_page_verified": true,
     "dependency_verified": true,
-    "collection_id": "3828791160",
+    "collection_id": "3830036321",
     "collection_member_verified": true,
     "published_at": "2026-10-30T08:01:16.777189+00:00",
-    "anonymous_page_checked_at": "2026-10-30T08:37:15.638595+00:00",
+    "anonymous_page_checked_at": "2026-10-30T10:06:38.082Z",
     "installation_tested": true,
-    "installation_scope": "Official Steam subscription/download and exact recursive payload byte comparison; actual Workshop-root game loading is separate."
+    "installation_scope": "Official Steam subscription/download and exact recursive payload byte comparison; actual Workshop-root game loading is separate.",
+    "github_first_public_commit": "a386b9120f422473c895d475aa35e17f4ea78893",
+    "anonymous_page_evidence": "community/workshop-public-pages-2026-10-30.json"
   },
   "integration": {
     "status": "not_sent",

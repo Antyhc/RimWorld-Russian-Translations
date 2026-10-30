@@ -1,0 +1,33 @@
+{
+  "schema": 1,
+  "status": "actual_minimal_control_and_candidate_verified",
+  "checked_at": "2026-10-30T09:48:29.507752+00:00",
+  "case_id": "loading399",
+  "package_id": "ilyvion.loadingprogress",
+  "translation_package_id": "antyhc.russian.ilyvion.loadingprogress",
+  "game_version": "1.7.4990 rev1069",
+  "payload_sha256": "e8c87f613b8c5b6f6772e5982a80d1058b8b875f73bcb727a64b69fb88b15101",
+  "values_verified": 399,
+  "english_control_values_verified": 399,
+  "baseline_localization_errors": 38,
+  "candidate_localization_errors": 38,
+  "additional_localization_errors": 0,
+  "exact_error_multiset_unchanged": true,
+  "candidate_root_verified": true,
+  "keyed_owner_verified": true,
+  "source_inputs_unchanged": true,
+  "control_capture_sha256": "ce17b2a67d13fea36db8f8c80467284be7f3f97933b9e1d4c20d8440b1822617",
+  "candidate_capture_sha256": "ec8aa72859239a38c83a8f1495fe1ceb733de657e02387a334ca196b2a143e81",
+  "request_sha256": "0267a075435855128fc4f0910e661e21271c9b4ea6089f155e620ea11ac98cbb",
+  "probe_dll_sha256": "01359af068f9b58b29c4f7b61c35742b88cf4c7881ba2e09a7cf277a6b90d7a8",
+  "active_packages": [
+    "brrainz.harmony",
+    "ludeon.rimworld",
+    "publicationqa.session4.loadingcache399",
+    "ilyvion.loadingprogress",
+    "antyhc.russian.ilyvion.loadingprogress",
+    "publicationqa.session4.loading399"
+  ],
+  "gameplay_tested": false,
+  "scope": "Actual isolated startup and physical language-value readback, exact active dependencies/DLC and source/payload/probe hashes; no save, extended gameplay or independent human proofreading claim."
+}

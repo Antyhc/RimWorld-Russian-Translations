@@ -1,0 +1,18 @@
+Vanilla Traits Expanded — Russian completion: 2 captions
+
+A small completeness supplement for OliveWizard's existing Russian pack. Contains only two newly authored slow-work effect-stage captions: “inactive” → “не действует” and “active” → “действует”. All other Russian text remains in the existing pack and is not copied here. This supplement requires the main Russian pack; it does not replace it.
+
+Required mods:
+Vanilla Traits Expanded by Oskar Potocki, Taranchuk and Chowder:
+https://steamcommunity.com/sharedfiles/filedetails/?id=2296404655
+Vanilla Traits Expanded Russian Language Pack by OliveWizard:
+https://steamcommunity.com/sharedfiles/filedetails/?id=2337425872
+
+Their dependencies are also required. Load this supplement after both the original and OliveWizard's Russian pack. Supported RimWorld version: 1.7.
+
+Testing: two actual RimWorld 1.7.4990 rev1069 launches in isolated profiles. The original and required Russian pack were active in both runs. Automated game-field readback confirmed two English control captions and two Russian candidate captions, with correct definitions and physical field paths. The full localization error multiset stayed unchanged: 38 → 38; zero new errors. This test covers these internal stage captions. Newly visible ordinary interface text, gameplay changes, extended play and subscription installation of the published Workshop copy were not verified by these runs.
+
+Two-caption Russian adaptation by Antyhc, 2026; AI-assisted authoring and semantic review by OpenAI Codex. No independent human proofreading claimed. Original and adapted text: CC BY-NC-SA 4.0, requiring attribution, noncommercial use and ShareAlike. Changes: two state captions translated. No third-party Russian text, original code or original artwork is included.
+https://creativecommons.org/licenses/by-nc-sa/4.0/
+
+Original typographic cover by Antyhc; no original mod artwork used. No endorsement by the original authors is claimed.

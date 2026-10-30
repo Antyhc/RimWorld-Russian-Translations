@@ -1,0 +1,13 @@
+{
+  "schema_version": 1,
+  "package_id": "vanillaexpanded.vappe",
+  "original_workshop_id": "1814987817",
+  "checked_at": "2026-10-30T09:37:41.235022+00:00",
+  "status": "confirmed",
+  "evidence_url": "https://github.com/Vanilla-Expanded/VanillaExpandedFramework/issues/195#issuecomment-6519584242",
+  "registry_evidence_file": "community/vanilla-expanded-text-permission-2026-10-30.json",
+  "scope": "Only the23 Vanilla Expanded-family original mods explicitly listed in this request; newly authored Russian text, free standalone language patches, original-author credit and links, own typographic covers. No permission for original art or unrelated third-party Russian is inferred.",
+  "original_license": "CC-BY-NC-ND-4.0",
+  "original_art_permission_granted": false,
+  "release_qa_status": "Permission only; current standalone payload quality, duplicate coverage and actual game tests remain separate gates."
+}

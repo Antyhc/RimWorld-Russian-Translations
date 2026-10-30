@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "generated_at": "2026-10-30T09:02:08+00:00",
+  "generated_at": "2026-10-30T10:09:57+00:00",
   "mods": [
     {
       "schema_version": 1,
@@ -4642,23 +4642,30 @@
         "game_test_scope": "Actual isolated startup and physical language-value readback, exact active dependencies/DLC and source/payload/probe hashes; no save, extended gameplay or independent human proofreading claim.",
         "game_test_evidence_sha256": "c46e037f9a1f544a2b90f2c79efe25b0e293e2bc478d9a03d926abf253b32bf2",
         "ui_inspected": true,
-        "ui_scope": "Russian settings title and both captions visually inspected in actual candidate profile; remaining captions are English without the separately linked primary Russian pack."
+        "ui_scope": "Russian settings title and both captions visually inspected in actual candidate profile; remaining captions are English without the separately linked primary Russian pack.",
+        "workshop_installation": "passed_exact_subscribed_bytes",
+        "workshop_game_load": "passed_actual_subscribed_Workshop_root",
+        "workshop_game_evidence": "workshop-game-test-evidence.json",
+        "workshop_game_evidence_sha256": "75480dccd2b43f1ce4ab2d196630142784c1676fb7d5787c5eb44b5d3ae02e5e",
+        "workshop_game_test_scope": "Fresh actual load of the subscribed byte-exact Workshop item. Earlier actual English control reused only after exact original source/context, game, selected values and unchanged read-only probe verification. Exact full localization-error multiset compared. The earlier local proof remains historical; no new English-control boot, save or extended gameplay/human proof claimed."
       },
       "publication": {
         "github_url": "https://github.com/Antyhc/RimWorld-Russian-Translations/tree/main/mods/fuu.bloodanimations",
-        "github_status": "prepared_not_published",
+        "github_status": "published",
         "workshop_url": "https://steamcommunity.com/sharedfiles/filedetails/?id=3830000511",
         "workshop_id": "3830000511",
         "workshop_status": "published",
         "release_blockers": [],
         "anonymous_page_verified": true,
         "dependency_verified": true,
-        "collection_id": "3828791160",
+        "collection_id": "3830036321",
         "collection_member_verified": true,
         "published_at": "2026-10-30T08:01:16.777189+00:00",
-        "anonymous_page_checked_at": "2026-10-30T08:37:15.638595+00:00",
+        "anonymous_page_checked_at": "2026-10-30T10:06:38.082Z",
         "installation_tested": true,
-        "installation_scope": "Official Steam subscription/download and exact recursive payload byte comparison; actual Workshop-root game loading is separate."
+        "installation_scope": "Official Steam subscription/download and exact recursive payload byte comparison; actual Workshop-root game loading is separate.",
+        "github_first_public_commit": "a386b9120f422473c895d475aa35e17f4ea78893",
+        "anonymous_page_evidence": "community/workshop-public-pages-2026-10-30.json"
       },
       "integration": {
         "status": "not_sent",
@@ -4977,11 +4984,11 @@
         "anonymous_page_verified": true,
         "dependency_verified": true,
         "published_at": "2026-10-28T14:11:35.984917+00:00",
-        "collection_id": "3828791160",
+        "collection_id": "3830036321",
         "collection_member_verified": true,
         "installation_tested": true,
-        "anonymous_page_checked_at": "2026-10-28T14:13:13.005620+00:00",
-        "anonymous_page_evidence": "Unauthenticated browser page shows title, subscribe action, 108-entry bilingual description, original dependency and Biotech DLC; Steam login link visible.",
+        "anonymous_page_checked_at": "2026-10-30T10:06:37.673Z",
+        "anonymous_page_evidence": "community/workshop-public-pages-2026-10-30.json",
         "dlc_dependency_app_id": "1826140",
         "dlc_dependency_verified": true,
         "installation_scope": "Official Steam subscription/download with exact 18-file payload hash comparison, followed by an actual minimal-game load from Workshop item 3828883103: 108/108 Russian values, zero added localization errors, and the same 52 baseline errors. No save or long-gameplay test.",
@@ -5720,31 +5727,75 @@
           "status": "confirmed",
           "license": "MIT",
           "evidence": "https://github.com/ilyvion/loading-progress/blob/main/LICENSE.MIT",
-          "attribution": "Original: Loading Progress by ilyvion. https://steamcommunity.com/sharedfiles/filedetails/?id=3535481557. Conditions: Preserve exact MIT copyright/permission notice, original author attribution and original-mod dependency. Own original cover. Upstream explicitly invites Languages-only separate translation mods. Do not redistribute the original mod or its code/art. Original uses custom early-startup language loader, so a fresh test must exercise that actual loader/UI rather than only ordinary game Keyed.",
-          "license_evidence_file": "translation-rights-evidence.json",
-          "grant_checked_at": null,
-          "grant_scope": "Text-only own translation subject to the recorded license/conditions; does not grant original artwork or third-party Russian rights."
+          "attribution": "Original mod: Loading Progress by ilyvion (Alexander Krivács Schrøder).\nOriginal: https://steamcommunity.com/sharedfiles/filedetails/?id=3535481557\nOriginal source/license: https://github.com/ilyvion/loading-progress ; Apache-2.0 OR MIT. This translation chooses MIT; exact original copyright and permission notice retained in License.txt.\nRussian text: Copyright (c) 2026 Antyhc, MIT. Changes:270 prior original-authored reviewed translations retained,129 entries independently translated from current English,6 terminology alignments across the full 399-entry draft. No text from the historical unknown-license Russian pack is redistributed.\nAI assistance: local-model drafting and individual English/Russian semantic review using OpenAI Codex; no independent human proofreading claimed.\nSource-only language content: no original code, DLLs, textures, audio, assets or third-party Russian copied.\nOwn typographic cover by Antyhc, MIT. No original mod artwork used.\nNo original-author endorsement or extended colony-gameplay test claimed.\n",
+          "license_evidence_file": "rights-evidence.json",
+          "required_notice_files": {
+            "About/License.txt": "a4a2d858a31f140aef2311773ecbb30248aca8188c7bae7fe428c9c2c3f9d942",
+            "About/Credits.txt": "398ee75b480f0c6fc468127e6d29a018391d370ec07b1e45e597c20387705558"
+          }
         },
         "icon": {
-          "status": "unknown",
-          "license": null,
-          "evidence": null,
-          "attribution": null
+          "status": "confirmed",
+          "kind": "original_typographic_fallback",
+          "license": "MIT",
+          "evidence": "scripts/make_original_cover.py; own typographic design",
+          "attribution": "Own typographic cover by Antyhc; no original mod artwork",
+          "source_sha256": "f6d4aaad7350968c2df8ad99e9a2170ecaeee91d93f8d8f980fff35ca76b4966",
+          "preview_sha256": "f6d4aaad7350968c2df8ad99e9a2170ecaeee91d93f8d8f980fff35ca76b4966",
+          "original_mod_art_used": false
         }
       },
       "qa": {
-        "technical": "pending",
-        "linguistic": "pending",
-        "source_current": false,
-        "in_game": "not_tested",
-        "checked_at": "2026-10-28T09:15:27.268425+00:00"
+        "technical": "passed",
+        "linguistic": "ai_reviewed",
+        "source_current": true,
+        "in_game": "passed",
+        "checked_at": "2026-10-30T09:20:02.289942+00:00",
+        "source_checked_at": "2026-10-30T09:20:02.289942+00:00",
+        "payload_sha256": "e8c87f613b8c5b6f6772e5982a80d1058b8b875f73bcb727a64b69fb88b15101",
+        "source_snapshot_sha256": "89d0722b58b9d2e2f64ee0035c027dbb43d9b8469899e381f8d0b5666f9a6966",
+        "evidence": "qa-evidence.json",
+        "coverage": "All399current English Keyed XML strings,270missing from current existingRussian+129independent English-first translations. Full single-provider language package is required because original custom early loader does not merge language providers.",
+        "standalone_minimal_game_test": "passed_actual_control_and_candidate",
+        "custom_loader_test": "passed_actual_natural_cache_provider_and_ui",
+        "game_evidence": "game-test-evidence.json",
+        "game_version": "1.7.4990 rev1069",
+        "game_test_scope": "Actual isolated startup and physical language-value readback, exact active dependencies/DLC and source/payload/probe hashes; no save, extended gameplay or independent human proofreading claim.",
+        "game_test_evidence_sha256": "8a84c068799a94a53934f4ffb962b6f97cb3bddcfc7d526113cbf811b9ed52e6",
+        "custom_loader_evidence": "custom-loader-test-evidence.json",
+        "custom_loader_evidence_sha256": "cecc860ae5d2d5ef352ff0f9c5f5cc71113e7a183a0312917919e91bcb049b3d",
+        "custom_loader_values_verified": 399,
+        "custom_loader_ui_evidence": "custom-loader-ui-evidence.json",
+        "custom_loader_ui_evidence_sha256": "5bba50c3101577008f2407eb8ef04c01a843b8fe489258abe2ba688a55eb1b34",
+        "custom_loader_scope": "Actual naturally initialized custom translation cache and original provider log plus startup UI. All399 dictionary values verified; no artificial GetTranslation/Clear invocation, no claim of interactively exercising every formatted UI scenario or extended gameplay.",
+        "workshop_installation": "passed_exact_subscribed_bytes",
+        "workshop_game_load": "passed_actual_subscribed_Workshop_custom_loader",
+        "workshop_game_evidence": "workshop-custom-game-test-evidence.json",
+        "workshop_game_evidence_sha256": "9cadb0361a4d8e191379eb04bff7bf7969b7a597cb0fc29680c9c3637f4f71aa",
+        "workshop_game_test_scope": "Fresh subscribed Workshop copy and fresh English control:399 actual custom Russian values, original provider log and natural transient loading UI verified; exact5files,38→38 localization errors,0new. No extended gameplay or every UI/formatting variant claim.",
+        "workshop_game_checked_at": "2026-10-30T10:02:53.163442+00:00",
+        "workshop_custom_loader_values_verified": 399,
+        "workshop_fresh_english_control_boot": true,
+        "workshop_transient_loading_ui_observed": true
       },
       "publication": {
         "github_url": "https://github.com/Antyhc/RimWorld-Russian-Translations/tree/main/mods/ilyvion.loadingprogress",
-        "github_status": "metadata_only",
-        "workshop_url": null,
-        "workshop_id": null,
-        "workshop_status": "not_published"
+        "github_status": "published",
+        "workshop_url": "https://steamcommunity.com/sharedfiles/filedetails/?id=3830035919",
+        "workshop_id": "3830035919",
+        "workshop_status": "published",
+        "release_blockers": [],
+        "workshop_title": "Loading Progress — Russian (399 strings)",
+        "workshop_visibility": "public",
+        "workshop_submitted_at": "2026-10-30T09:53:34.530296+00:00",
+        "installation_tested": true,
+        "installation_scope": "Official Steam subscription/download and exact5-file payload match, followed by a fresh English-control and actual Workshop-root custom-loader game test; all399 Russian dictionary entries and natural loading UI verified.",
+        "anonymous_page_verified": true,
+        "anonymous_page_checked_at": "2026-10-30T10:06:46.844Z",
+        "anonymous_page_evidence": "community/workshop-public-pages-2026-10-30.json",
+        "collection_id": "3830036321",
+        "collection_member_verified": true,
+        "github_publication_date": "2026-10-30"
       },
       "integration": {
         "status": "not_sent",
@@ -5887,7 +5938,15 @@
           "baseline_file": "source.tree.json"
         }
       },
-      "work_stage": "installed_local",
+      "work_stage": "ready_for_publication",
+      "duplicate_translation": {
+        "status": "checked_no_current_equivalent",
+        "checked_at": "2026-10-30T09:20:02.289942+00:00",
+        "scope": "Official current cache3585898788 provides128same-contract+1obsolete-extra-placeholder strings and lacks ALL270prior own keys. Current original nativeRussian0. Existing partial pack is not a current equivalent to this full399single-provider translation. No ordinary partial overlay claimed.",
+        "candidates": [
+          "https://steamcommunity.com/sharedfiles/filedetails/?id=3585898788"
+        ]
+      },
       "manifest": "mods/ilyvion.loadingprogress/manifest.json"
     },
     {
@@ -7794,12 +7853,13 @@
         "dependency_verified": true,
         "anonymous_page_verified": true,
         "published_at": "2026-10-28T10:42:32.878108+00:00",
-        "collection_id": "3828791160",
+        "collection_id": "3830036321",
         "collection_member_verified": true,
         "installation_tested": true,
-        "anonymous_page_checked_at": "2026-10-30T07:51:45.177930+00:00",
+        "anonymous_page_checked_at": "2026-10-30T10:06:37.220Z",
         "automatic_content_check_completed": true,
-        "availability_evidence": "Unauthenticated Steam browser page exposes expected title, subscription action, bilingual7-entry description and original dependency; login link visible."
+        "availability_evidence": "Unauthenticated Steam browser page exposes expected title, subscription action, bilingual7-entry description and original dependency; login link visible.",
+        "anonymous_page_evidence": "community/workshop-public-pages-2026-10-30.json"
       },
       "integration": {
         "status": "not_sent",
@@ -7939,9 +7999,11 @@
         "dependency_verified": true,
         "anonymous_page_verified": true,
         "published_at": "2026-10-28T10:41:57.571700+00:00",
-        "collection_id": "3828791160",
+        "collection_id": "3830036321",
         "collection_member_verified": true,
-        "installation_tested": true
+        "installation_tested": true,
+        "anonymous_page_checked_at": "2026-10-30T10:06:36.342Z",
+        "anonymous_page_evidence": "community/workshop-public-pages-2026-10-30.json"
       },
       "integration": {
         "status": "open",
@@ -8814,14 +8876,19 @@
       ],
       "rights": {
         "translation": {
-          "status": "unknown",
-          "license": null,
-          "evidence": null,
-          "attribution": null,
+          "status": "confirmed",
+          "license": "Author permission for free standalone own-text Russian adaptation",
+          "evidence": "https://github.com/Vanilla-Expanded/VanillaExpandedFramework/issues/195#issuecomment-6519584242",
+          "attribution": "Original mod: Vanilla Expanded Framework by Oskar Potocki, XeoNovaDan, Orion, Kikohi, Taranchuk, Sarg Bjornson, Erdelf. Original: https://steamcommunity.com/sharedfiles/filedetails/?id=2023507013. Own Russian adaptation: Antyhc,2026, AI-assisted with OpenAI Codex. Permission: https://github.com/Vanilla-Expanded/VanillaExpandedFramework/issues/195#issuecomment-6519584242. No Vanilla Expanded endorsement or affiliation. No original artwork or third-party Russian text licensed by this reply.",
           "permission_requested": true,
           "permission_request_url": "https://github.com/Vanilla-Expanded/VanillaExpandedFramework/issues/195",
           "permission_request_date": "2026-10-30",
-          "permission_received": false
+          "permission_received": true,
+          "permission_received_date": "2026-10-30",
+          "permission_reply_url": "https://github.com/Vanilla-Expanded/VanillaExpandedFramework/issues/195#issuecomment-6519584242",
+          "permission_scope": "newly_authored_standalone_translation_text_only",
+          "original_license": "CC-BY-NC-ND-4.0",
+          "license_evidence_file": "translation-rights-evidence.json"
         },
         "icon": {
           "status": "unknown",
@@ -8845,9 +8912,20 @@
         "workshop_status": "not_published"
       },
       "integration": {
-        "status": "not_sent",
-        "pr_url": null,
-        "contact_url": null
+        "status": "open",
+        "pr_url": "https://github.com/OneCodeUnit/VanillaRussianExpanded/pull/47",
+        "contact_url": null,
+        "target_kind": "community_translation",
+        "target_repository_url": "https://github.com/OneCodeUnit/VanillaRussianExpanded",
+        "head_sha": "70fd91bf3a5d56bb39cd3bcbb8aefb040e87df99",
+        "submitted_at": "2026-10-30",
+        "last_checked_at": "2026-10-30T10:07:33.421025+00:00",
+        "original_native_accepted": false,
+        "community_translation_accepted": false,
+        "ai_disclosed": true,
+        "fresh_game_test_claimed": false,
+        "merge_conflicts": false,
+        "scope": "Nine missing own strings:6GodMode-only terrain labels and3player-facing captions in four XML files; current upstream checked, static QA only. Existing Russian retained."
       },
       "original": {
         "author": "Oskar Potocki, XeoNovaDan, Orion, Kikohi, Taranchuk, Sarg Bjornson, Erdelf",
@@ -9122,14 +9200,19 @@
       "supported_versions": [],
       "rights": {
         "translation": {
-          "status": "unknown",
-          "license": null,
-          "evidence": null,
-          "attribution": null,
+          "status": "confirmed",
+          "license": "Author permission for free standalone own-text Russian adaptation",
+          "evidence": "https://github.com/Vanilla-Expanded/VanillaExpandedFramework/issues/195#issuecomment-6519584242",
+          "attribution": "Original mod: Vanilla Vehicles Expanded - Tier 3 by Oskar Potocki, xrushha, Smash Phil, Taranchuk, Reann Shepard. Original: https://steamcommunity.com/sharedfiles/filedetails/?id=3047892432. Own Russian adaptation: Antyhc,2026, AI-assisted with OpenAI Codex. Permission: https://github.com/Vanilla-Expanded/VanillaExpandedFramework/issues/195#issuecomment-6519584242. No Vanilla Expanded endorsement or affiliation. No original artwork or third-party Russian text licensed by this reply.",
           "permission_requested": true,
           "permission_request_url": "https://github.com/Vanilla-Expanded/VanillaExpandedFramework/issues/195",
           "permission_request_date": "2026-10-30",
-          "permission_received": false
+          "permission_received": true,
+          "permission_received_date": "2026-10-30",
+          "permission_reply_url": "https://github.com/Vanilla-Expanded/VanillaExpandedFramework/issues/195#issuecomment-6519584242",
+          "permission_scope": "newly_authored_standalone_translation_text_only",
+          "original_license": "CC-BY-NC-ND-4.0",
+          "license_evidence_file": "translation-rights-evidence.json"
         },
         "icon": {
           "status": "unknown",
@@ -9235,14 +9318,19 @@
       ],
       "rights": {
         "translation": {
-          "status": "unknown",
-          "license": null,
-          "evidence": null,
-          "attribution": null,
+          "status": "confirmed",
+          "license": "Author permission for free standalone own-text Russian adaptation",
+          "evidence": "https://github.com/Vanilla-Expanded/VanillaExpandedFramework/issues/195#issuecomment-6519584242",
+          "attribution": "Original mod: Vanilla Vehicles Expanded - Upgrades by Oskar Potocki, Smash Phil. Original: https://steamcommunity.com/sharedfiles/filedetails/?id=3302208420. Own Russian adaptation: Antyhc,2026, AI-assisted with OpenAI Codex. Permission: https://github.com/Vanilla-Expanded/VanillaExpandedFramework/issues/195#issuecomment-6519584242. No Vanilla Expanded endorsement or affiliation. No original artwork or third-party Russian text licensed by this reply.",
           "permission_requested": true,
           "permission_request_url": "https://github.com/Vanilla-Expanded/VanillaExpandedFramework/issues/195",
           "permission_request_date": "2026-10-30",
-          "permission_received": false
+          "permission_received": true,
+          "permission_received_date": "2026-10-30",
+          "permission_reply_url": "https://github.com/Vanilla-Expanded/VanillaExpandedFramework/issues/195#issuecomment-6519584242",
+          "permission_scope": "newly_authored_standalone_translation_text_only",
+          "original_license": "CC-BY-NC-ND-4.0",
+          "license_evidence_file": "translation-rights-evidence.json"
         },
         "icon": {
           "status": "unknown",
@@ -9348,14 +9436,19 @@
       ],
       "rights": {
         "translation": {
-          "status": "unknown",
-          "license": null,
-          "evidence": null,
-          "attribution": null,
+          "status": "confirmed",
+          "license": "Author permission for free standalone own-text Russian adaptation",
+          "evidence": "https://github.com/Vanilla-Expanded/VanillaExpandedFramework/issues/195#issuecomment-6519584242",
+          "attribution": "Original mod: Vanilla Factions Expanded - Empire by Oskar Potocki, xrushha, legodude17, Allie. Original: https://steamcommunity.com/sharedfiles/filedetails/?id=2938820380. Own Russian adaptation: Antyhc,2026, AI-assisted with OpenAI Codex. Permission: https://github.com/Vanilla-Expanded/VanillaExpandedFramework/issues/195#issuecomment-6519584242. No Vanilla Expanded endorsement or affiliation. No original artwork or third-party Russian text licensed by this reply.",
           "permission_requested": true,
           "permission_request_url": "https://github.com/Vanilla-Expanded/VanillaExpandedFramework/issues/195",
           "permission_request_date": "2026-10-30",
-          "permission_received": false
+          "permission_received": true,
+          "permission_received_date": "2026-10-30",
+          "permission_reply_url": "https://github.com/Vanilla-Expanded/VanillaExpandedFramework/issues/195#issuecomment-6519584242",
+          "permission_scope": "newly_authored_standalone_translation_text_only",
+          "original_license": "CC-BY-NC-ND-4.0",
+          "license_evidence_file": "translation-rights-evidence.json"
         },
         "icon": {
           "status": "unknown",
@@ -9460,14 +9553,19 @@
       ],
       "rights": {
         "translation": {
-          "status": "unknown",
-          "license": null,
-          "evidence": null,
-          "attribution": null,
+          "status": "confirmed",
+          "license": "Author permission for free standalone own-text Russian adaptation",
+          "evidence": "https://github.com/Vanilla-Expanded/VanillaExpandedFramework/issues/195#issuecomment-6519584242",
+          "attribution": "Original mod: Vanilla Factions Expanded - Insectoids 2 by Oskar Potocki, xrushha, Taranchuk, Sarg Bjornson. Original: https://steamcommunity.com/sharedfiles/filedetails/?id=3309003431. Own Russian adaptation: Antyhc,2026, AI-assisted with OpenAI Codex. Permission: https://github.com/Vanilla-Expanded/VanillaExpandedFramework/issues/195#issuecomment-6519584242. No Vanilla Expanded endorsement or affiliation. No original artwork or third-party Russian text licensed by this reply.",
           "permission_requested": true,
           "permission_request_url": "https://github.com/Vanilla-Expanded/VanillaExpandedFramework/issues/195",
           "permission_request_date": "2026-10-30",
-          "permission_received": false
+          "permission_received": true,
+          "permission_received_date": "2026-10-30",
+          "permission_reply_url": "https://github.com/Vanilla-Expanded/VanillaExpandedFramework/issues/195#issuecomment-6519584242",
+          "permission_scope": "newly_authored_standalone_translation_text_only",
+          "original_license": "CC-BY-NC-ND-4.0",
+          "license_evidence_file": "translation-rights-evidence.json"
         },
         "icon": {
           "status": "unknown",
@@ -9575,14 +9673,19 @@
       ],
       "rights": {
         "translation": {
-          "status": "unknown",
-          "license": null,
-          "evidence": null,
-          "attribution": null,
+          "status": "confirmed",
+          "license": "Author permission for free standalone own-text Russian adaptation",
+          "evidence": "https://github.com/Vanilla-Expanded/VanillaExpandedFramework/issues/195#issuecomment-6519584242",
+          "attribution": "Original mod: Vanilla Factions Expanded - Medieval 2 by Oskar Potocki, xrushha, Taranchuk, Sarg Bjornson, Oracle of Thessia. Original: https://steamcommunity.com/sharedfiles/filedetails/?id=3444347874. Own Russian adaptation: Antyhc,2026, AI-assisted with OpenAI Codex. Permission: https://github.com/Vanilla-Expanded/VanillaExpandedFramework/issues/195#issuecomment-6519584242. No Vanilla Expanded endorsement or affiliation. No original artwork or third-party Russian text licensed by this reply.",
           "permission_requested": true,
           "permission_request_url": "https://github.com/Vanilla-Expanded/VanillaExpandedFramework/issues/195",
           "permission_request_date": "2026-10-30",
-          "permission_received": false
+          "permission_received": true,
+          "permission_received_date": "2026-10-30",
+          "permission_reply_url": "https://github.com/Vanilla-Expanded/VanillaExpandedFramework/issues/195#issuecomment-6519584242",
+          "permission_scope": "newly_authored_standalone_translation_text_only",
+          "original_license": "CC-BY-NC-ND-4.0",
+          "license_evidence_file": "translation-rights-evidence.json"
         },
         "icon": {
           "status": "unknown",
@@ -10281,19 +10384,28 @@
         "game_evidence": "game-test-evidence.json",
         "game_version": "1.7.4990 rev1069",
         "game_test_scope": "Actual isolated startup and physical language-value readback, exact active dependencies/DLC and source/payload/probe hashes; no save, extended gameplay or independent human proofreading claim.",
-        "game_test_evidence_sha256": "273713d279313a74dc98ee24f125a06ae5c8a3aebfe6e82b17af7bb0484eeccf"
+        "game_test_evidence_sha256": "273713d279313a74dc98ee24f125a06ae5c8a3aebfe6e82b17af7bb0484eeccf",
+        "workshop_installation": "passed_exact_subscribed_bytes",
+        "workshop_game_load": "passed_actual_subscribed_Workshop_root",
+        "workshop_game_evidence": "workshop-game-test-evidence.json",
+        "workshop_game_evidence_sha256": "9b37286f27ce9a9cb52750209f51dab95973703cfb2adfd0135acfbcd2bdc141",
+        "workshop_game_test_scope": "Fresh actual load of the subscribed byte-exact Workshop item. Earlier actual English control reused only after exact original source/context, game, selected values and unchanged read-only probe verification. Exact full localization-error multiset compared. The earlier local proof remains historical; no new English-control boot, save or extended gameplay/human proof claimed."
       },
       "publication": {
         "github_url": "https://github.com/Antyhc/RimWorld-Russian-Translations/tree/main/mods/reel.expanded.storage",
-        "github_status": "prepared_not_published",
+        "github_status": "published",
         "workshop_url": "https://steamcommunity.com/sharedfiles/filedetails/?id=3830014953",
         "workshop_id": "3830014953",
-        "workshop_status": "submitted_public_page_unverified",
+        "workshop_status": "published",
         "release_blockers": [],
         "dependency_verified": true,
-        "collection_id": "3828791160",
+        "collection_id": "3830036321",
         "collection_member_verified": true,
-        "published_at": "2026-10-30T08:49:02.799414+00:00"
+        "published_at": "2026-10-30T08:49:02.799414+00:00",
+        "github_first_public_commit": "a386b9120f422473c895d475aa35e17f4ea78893",
+        "anonymous_page_verified": true,
+        "anonymous_page_checked_at": "2026-10-30T10:06:45.427Z",
+        "anonymous_page_evidence": "community/workshop-public-pages-2026-10-30.json"
       },
       "integration": {
         "status": "not_sent",
@@ -10412,23 +10524,30 @@
         "game_evidence": "game-test-evidence.json",
         "game_version": "1.7.4990 rev1069",
         "game_test_scope": "Actual isolated startup and physical language-value readback, exact active dependencies/DLC and source/payload/probe hashes; no save, extended gameplay or independent human proofreading claim.",
-        "game_test_evidence_sha256": "69c17159a1dd2bdd988f5070b682af7b326becbe92ace5c0a938bd97358f8ad5"
+        "game_test_evidence_sha256": "69c17159a1dd2bdd988f5070b682af7b326becbe92ace5c0a938bd97358f8ad5",
+        "workshop_installation": "passed_exact_subscribed_bytes",
+        "workshop_game_load": "passed_actual_subscribed_Workshop_root",
+        "workshop_game_evidence": "workshop-game-test-evidence.json",
+        "workshop_game_evidence_sha256": "8b75a55d45080ad02d90c52f3a094de249d855567d087d81762d5be8c0013469",
+        "workshop_game_test_scope": "Fresh actual load of the subscribed byte-exact Workshop item. Earlier actual English control reused only after exact original source/context, game, selected values and unchanged read-only probe verification. Exact full localization-error multiset compared. The earlier local proof remains historical; no new English-control boot, save or extended gameplay/human proof claimed."
       },
       "publication": {
         "github_url": "https://github.com/Antyhc/RimWorld-Russian-Translations/tree/main/mods/reel.turretpipeline",
-        "github_status": "prepared_not_published",
+        "github_status": "published",
         "workshop_url": "https://steamcommunity.com/sharedfiles/filedetails/?id=3830009448",
         "workshop_id": "3830009448",
         "workshop_status": "published",
         "release_blockers": [],
         "anonymous_page_verified": true,
         "dependency_verified": true,
-        "collection_id": "3828791160",
+        "collection_id": "3830036321",
         "collection_member_verified": true,
         "published_at": "2026-10-30T08:30:15.669602+00:00",
-        "anonymous_page_checked_at": "2026-10-30T08:40:10.419654+00:00",
+        "anonymous_page_checked_at": "2026-10-30T10:06:44.597Z",
         "installation_tested": true,
-        "installation_scope": "Official Steam subscription/download and exact recursive payload byte comparison; actual Workshop-root game loading is separate."
+        "installation_scope": "Official Steam subscription/download and exact recursive payload byte comparison; actual Workshop-root game loading is separate.",
+        "github_first_public_commit": "a386b9120f422473c895d475aa35e17f4ea78893",
+        "anonymous_page_evidence": "community/workshop-public-pages-2026-10-30.json"
       },
       "integration": {
         "status": "not_sent",
@@ -11452,9 +11571,11 @@
         "dependency_verified": true,
         "anonymous_page_verified": true,
         "published_at": "2026-10-28T10:42:22.483714+00:00",
-        "collection_id": "3828791160",
+        "collection_id": "3830036321",
         "collection_member_verified": true,
-        "installation_tested": true
+        "installation_tested": true,
+        "anonymous_page_checked_at": "2026-10-30T10:06:36.775Z",
+        "anonymous_page_evidence": "community/workshop-public-pages-2026-10-30.json"
       },
       "integration": {
         "status": "open",
@@ -12123,25 +12244,30 @@
         "game_evidence": "game-test-evidence.json",
         "game_test_scope": "Actual isolated game load, all264expectedlanguagevalues/physicalDeffields and foursettingswindows; no colony or long gameplay session",
         "gameplay_tested": false,
-        "workshop_install_tested": true
+        "workshop_install_tested": true,
+        "historical_game_context_changed_after_upstream_merge": true,
+        "current_native_distribution_verified_by_file_match": true,
+        "standalone_update_retest_required": true
       },
       "publication": {
         "github_url": "https://github.com/Antyhc/RimWorld-Russian-Translations/tree/main/mods/unon.noburnmetal",
         "github_status": "published",
         "workshop_url": "https://steamcommunity.com/sharedfiles/filedetails/?id=3828790442",
         "workshop_id": "3828790442",
-        "workshop_status": "published_integrated_upstream",
+        "workshop_status": "published",
         "dependency_verified": true,
         "anonymous_page_verified": true,
         "published_at": "2026-10-28T10:41:35.907741+00:00",
-        "collection_id": "3828791160",
+        "collection_id": "3830036321",
         "collection_member_verified": true,
         "installation_tested": true,
         "standalone_needed": false,
         "upstream_integration_confirmed": true,
         "deprecation_guidance_pending": false,
         "deprecation_guidance_verified": true,
-        "deprecation_guidance_checked_at": "2026-10-30T08:37:15.638595+00:00"
+        "deprecation_guidance_checked_at": "2026-10-30T08:37:15.638595+00:00",
+        "anonymous_page_checked_at": "2026-10-30T10:06:35.955Z",
+        "anonymous_page_evidence": "community/workshop-public-pages-2026-10-30.json"
       },
       "integration": {
         "status": "accepted",
@@ -12253,31 +12379,73 @@
           "status": "confirmed",
           "license": "CC-BY-NC-SA-4.0",
           "evidence": "https://steamcommunity.com/sharedfiles/filedetails/?id=2288125657",
-          "attribution": "Original: Vanilla Achievements Expanded by Oskar Potocki, Smash Phil, Sarg Bjornson. https://steamcommunity.com/sharedfiles/filedetails/?id=2288125657. Conditions: Credit all original creators and source link; state translation/adaptation changes and AI assistance; distribute adapted translation under CC-BY-NC-SA-4.0 with license URI and notices; no commercial use; no additional restrictions. Own fallback artwork, no copied assets/code. Existing third-party Russian requires its own provenance/license.",
-          "license_evidence_file": "translation-rights-evidence.json",
-          "grant_checked_at": "2026-10-30T07:42:41.539337+00:00",
-          "grant_scope": "Text-only own translation subject to the recorded license/conditions; does not grant original artwork or third-party Russian rights."
+          "attribution": "Original mod: Vanilla Achievements Expanded by Oskar Potocki, Smash Phil and Sarg Bjornson.\nOriginal Workshop: https://steamcommunity.com/sharedfiles/filedetails/?id=2288125657\nOriginal text is offered under Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0).\nLicense: https://creativecommons.org/licenses/by-nc-sa/4.0/\nLegal code: https://creativecommons.org/licenses/by-nc-sa/4.0/legalcode.en\nChanges: one descriptive English achievement title translated into Russian; original functionality and protected resources not copied.\nRussian adaptation: Antyhc,2026; AI-assisted authoring and semantic review by OpenAI Codex. This adapted text is offered under the same CC BY-NC-SA 4.0: attribution, noncommercial use and ShareAlike apply; no additional restrictions.\nExisting Russian translation by OliveWizard: https://steamcommunity.com/sharedfiles/filedetails/?id=2289313263; its text is not redistributed.\nFour original-brand/acronym/quotation titles in that pack are preserved; they are not falsely counted as missing keys.\nOriginal typographic cover by Antyhc, MIT; no original mod artwork.\nNo independent human proofreading or extended gameplay test claimed.\n",
+          "license_evidence_file": "rights-evidence.json",
+          "required_notice_files": {
+            "About/License.txt": "fc5966fd3c719ea111e8135aba0e585f4908c2acafd3ae182675c616402a719a",
+            "About/Credits.txt": "03687d6741851f8ad08e63ad17461ebaf683b924323ca6a219d7c0000ee1d9bf"
+          }
         },
         "icon": {
-          "status": "unknown",
-          "license": null,
-          "evidence": null,
-          "attribution": null
+          "status": "confirmed",
+          "kind": "original_typographic_fallback",
+          "license": "MIT",
+          "evidence": "scripts/make_original_cover.py; own typographic design",
+          "attribution": "Own typographic cover by Antyhc; no original mod artwork",
+          "source_sha256": "2fc43ba53797c5e44eb34887eae6661b52624a40b007589f1025d7e4402fd97f",
+          "preview_sha256": "2fc43ba53797c5e44eb34887eae6661b52624a40b007589f1025d7e4402fd97f",
+          "original_mod_art_used": false
         }
       },
       "qa": {
-        "technical": "pending",
-        "linguistic": "pending",
-        "source_current": false,
-        "in_game": "not_tested",
-        "checked_at": "2026-10-28T09:15:27.268425+00:00"
+        "technical": "passed",
+        "linguistic": "ai_reviewed",
+        "source_current": true,
+        "in_game": "passed",
+        "checked_at": "2026-10-30T08:21:58.439333+00:00",
+        "source_checked_at": "2026-10-30T08:21:58.439333+00:00",
+        "payload_sha256": "735d519c8e99817a451c20890175ff3082adc89f4280e998b2c5324a21f2f1fb",
+        "source_snapshot_sha256": "b0af7d3872a25f8bd4f26b10c1349854145356cd3221cd28e701ddf923c5fc96",
+        "evidence": "qa-evidence.json",
+        "coverage": "One own Russian descriptive achievement title gated by Odyssey; brand/acronym/quotation names and existing Russian preserved.",
+        "standalone_minimal_game_test": "passed_actual_enabled_and_disabled_contexts",
+        "game_evidence": "game-test-evidence.json",
+        "game_version": "1.7.4990 rev1069",
+        "game_test_scope": "The same exact payload passed original-only/candidate tests with every declared condition enabled and disabled. Enabled values matched English then Russian; disabled targets retained exact control state and received no injection. Error multisets matched within each context; baselines may differ across contexts. No saves, extended gameplay, Workshop-copy installation or independent human proofreading claimed.",
+        "game_test_evidence_sha256": "3075090c7194aff1d41b41789a1f884dcb52c405127894e06d95b59e3a60fd3c",
+        "workshop_installation": "passed_exact_subscribed_bytes",
+        "workshop_game_load": "passed_actual_subscribed_Workshop_root_both_conditional_contexts",
+        "workshop_game_evidence_contexts": [
+          {
+            "file": "workshop-game-test-off-evidence.json",
+            "sha256": "d600474b7d55c1152c14d09297332a59946986d202e8c99955aa911739a77bc0",
+            "active_values_verified": 0,
+            "inactive_targets_verified_unchanged_and_not_injected": 1
+          },
+          {
+            "file": "workshop-game-test-on-evidence.json",
+            "sha256": "756db7d568cf0cc56c586ddc4d355aa65ff5e3cccd8dfa1c19a1b989af6937d2",
+            "active_values_verified": 1,
+            "inactive_targets_verified_unchanged_and_not_injected": 0
+          }
+        ],
+        "workshop_game_test_scope": "Fresh subscribed Workshop-root boots with Odyssey enabled and disabled, each compared against its preserved actual English control after exact current-source/context/probe checks; one unique title, no gameplay claim."
       },
       "publication": {
         "github_url": "https://github.com/Antyhc/RimWorld-Russian-Translations/tree/main/mods/vanillaexpanded.achievements",
-        "github_status": "metadata_only",
-        "workshop_url": null,
-        "workshop_id": null,
-        "workshop_status": "not_published"
+        "github_status": "published",
+        "workshop_url": "https://steamcommunity.com/sharedfiles/filedetails/?id=3830022947",
+        "workshop_id": "3830022947",
+        "workshop_status": "published",
+        "release_blockers": [],
+        "workshop_visibility": "public",
+        "workshop_submitted_at": "2026-10-30T09:15:53.308392+00:00",
+        "anonymous_page_verified": true,
+        "anonymous_page_checked_at": "2026-10-30T10:06:46.001Z",
+        "anonymous_page_evidence": "community/workshop-public-pages-2026-10-30.json",
+        "collection_id": "3830036321",
+        "collection_member_verified": true,
+        "github_publication_date": "2026-10-30"
       },
       "integration": {
         "status": "not_sent",
@@ -12435,7 +12603,27 @@
           "baseline_file": "source.tree.json"
         }
       },
-      "work_stage": "installed_local",
+      "work_stage": "ready_for_publication",
+      "conditional_languages": {
+        "version": "1.7",
+        "roots": [
+          {
+            "path": "Conditional/ludeon.rimworld.odyssey",
+            "if_mod_active": "ludeon.rimworld.odyssey",
+            "source_relative_root": "1.6/Mods/Odyssey"
+          }
+        ],
+        "evidence": "source-layout-evidence.json",
+        "evidence_sha256": "742bd612ae7dadd03a69e83e3a2c8deffb3b6982f18c0bc50bdcee839cce0f3d"
+      },
+      "duplicate_translation": {
+        "status": "checked_no_current_equivalent",
+        "checked_at": "2026-10-30T08:21:58.439333+00:00",
+        "scope": "Current Russian2289313263 contains this descriptive title in English. Four other candidate titles are international game/film names or DLC acronym and are retained; no claim of five absent keys is made. No third-party Russian copied.",
+        "candidates": [
+          "https://steamcommunity.com/sharedfiles/filedetails/?id=2289313263"
+        ]
+      },
       "manifest": "mods/vanillaexpanded.achievements/manifest.json"
     },
     {
@@ -12448,14 +12636,19 @@
       ],
       "rights": {
         "translation": {
-          "status": "unknown",
-          "license": null,
-          "evidence": null,
-          "attribution": null,
+          "status": "confirmed",
+          "license": "Author permission for free standalone own-text Russian adaptation",
+          "evidence": "https://github.com/Vanilla-Expanded/VanillaExpandedFramework/issues/195#issuecomment-6519584242",
+          "attribution": "Original mod: Vanilla Gravship Expanded - Chapter 1 by Oskar Potocki, Sarg Bjornson, Sokyran, Taranchuk, Erdelf. Original: https://steamcommunity.com/sharedfiles/filedetails/?id=3609835606. Own Russian adaptation: Antyhc,2026, AI-assisted with OpenAI Codex. Permission: https://github.com/Vanilla-Expanded/VanillaExpandedFramework/issues/195#issuecomment-6519584242. No Vanilla Expanded endorsement or affiliation. No original artwork or third-party Russian text licensed by this reply.",
           "permission_requested": true,
           "permission_request_url": "https://github.com/Vanilla-Expanded/VanillaExpandedFramework/issues/195",
           "permission_request_date": "2026-10-30",
-          "permission_received": false
+          "permission_received": true,
+          "permission_received_date": "2026-10-30",
+          "permission_reply_url": "https://github.com/Vanilla-Expanded/VanillaExpandedFramework/issues/195#issuecomment-6519584242",
+          "permission_scope": "newly_authored_standalone_translation_text_only",
+          "original_license": "CC-BY-NC-ND-4.0",
+          "license_evidence_file": "translation-rights-evidence.json"
         },
         "icon": {
           "status": "unknown",
@@ -12622,14 +12815,19 @@
       ],
       "rights": {
         "translation": {
-          "status": "unknown",
-          "license": null,
-          "evidence": null,
-          "attribution": null,
+          "status": "confirmed",
+          "license": "Author permission for free standalone own-text Russian adaptation",
+          "evidence": "https://github.com/Vanilla-Expanded/VanillaExpandedFramework/issues/195#issuecomment-6519584242",
+          "attribution": "Original mod: Vanilla Gravship Expanded - Chapter 2 by Oskar Potocki, Sarg Bjornson, Sokyran, Taranchuk. Original: https://steamcommunity.com/sharedfiles/filedetails/?id=3799737423. Own Russian adaptation: Antyhc,2026, AI-assisted with OpenAI Codex. Permission: https://github.com/Vanilla-Expanded/VanillaExpandedFramework/issues/195#issuecomment-6519584242. No Vanilla Expanded endorsement or affiliation. No original artwork or third-party Russian text licensed by this reply.",
           "permission_requested": true,
           "permission_request_url": "https://github.com/Vanilla-Expanded/VanillaExpandedFramework/issues/195",
           "permission_request_date": "2026-10-30",
-          "permission_received": false
+          "permission_received": true,
+          "permission_received_date": "2026-10-30",
+          "permission_reply_url": "https://github.com/Vanilla-Expanded/VanillaExpandedFramework/issues/195#issuecomment-6519584242",
+          "permission_scope": "newly_authored_standalone_translation_text_only",
+          "original_license": "CC-BY-NC-ND-4.0",
+          "license_evidence_file": "translation-rights-evidence.json"
         },
         "icon": {
           "status": "unknown",
@@ -13228,14 +13426,19 @@
       ],
       "rights": {
         "translation": {
-          "status": "unknown",
-          "license": null,
-          "evidence": null,
-          "attribution": null,
+          "status": "confirmed",
+          "license": "Author permission for free standalone own-text Russian adaptation",
+          "evidence": "https://github.com/Vanilla-Expanded/VanillaExpandedFramework/issues/195#issuecomment-6519584242",
+          "attribution": "Original mod: Vanilla Apparel Expanded — Accessories by Oskar Potocki, xrushha, SmashPhil, legodude17. Original: https://steamcommunity.com/sharedfiles/filedetails/?id=2521176396. Own Russian adaptation: Antyhc,2026, AI-assisted with OpenAI Codex. Permission: https://github.com/Vanilla-Expanded/VanillaExpandedFramework/issues/195#issuecomment-6519584242. No Vanilla Expanded endorsement or affiliation. No original artwork or third-party Russian text licensed by this reply.",
           "permission_requested": true,
           "permission_request_url": "https://github.com/Vanilla-Expanded/VanillaExpandedFramework/issues/195",
           "permission_request_date": "2026-10-30",
-          "permission_received": false
+          "permission_received": true,
+          "permission_received_date": "2026-10-30",
+          "permission_reply_url": "https://github.com/Vanilla-Expanded/VanillaExpandedFramework/issues/195#issuecomment-6519584242",
+          "permission_scope": "newly_authored_standalone_translation_text_only",
+          "original_license": "CC-BY-NC-ND-4.0",
+          "license_evidence_file": "translation-rights-evidence.json"
         },
         "icon": {
           "status": "unknown",
@@ -13670,14 +13873,19 @@
       ],
       "rights": {
         "translation": {
-          "status": "unknown",
-          "license": null,
-          "evidence": null,
-          "attribution": null,
+          "status": "confirmed",
+          "license": "Author permission for free standalone own-text Russian adaptation",
+          "evidence": "https://github.com/Vanilla-Expanded/VanillaExpandedFramework/issues/195#issuecomment-6519584242",
+          "attribution": "Original mod: Vanilla Social Interactions Expanded by Oskar Potocki, Taranchuk. Original: https://steamcommunity.com/sharedfiles/filedetails/?id=2439736083. Own Russian adaptation: Antyhc,2026, AI-assisted with OpenAI Codex. Permission: https://github.com/Vanilla-Expanded/VanillaExpandedFramework/issues/195#issuecomment-6519584242. No Vanilla Expanded endorsement or affiliation. No original artwork or third-party Russian text licensed by this reply.",
           "permission_requested": true,
           "permission_request_url": "https://github.com/Vanilla-Expanded/VanillaExpandedFramework/issues/195",
           "permission_request_date": "2026-10-30",
-          "permission_received": false
+          "permission_received": true,
+          "permission_received_date": "2026-10-30",
+          "permission_reply_url": "https://github.com/Vanilla-Expanded/VanillaExpandedFramework/issues/195#issuecomment-6519584242",
+          "permission_scope": "newly_authored_standalone_translation_text_only",
+          "original_license": "CC-BY-NC-ND-4.0",
+          "license_evidence_file": "translation-rights-evidence.json"
         },
         "icon": {
           "status": "unknown",
@@ -13780,14 +13988,19 @@
       ],
       "rights": {
         "translation": {
-          "status": "unknown",
-          "license": null,
-          "evidence": null,
-          "attribution": null,
+          "status": "confirmed",
+          "license": "Author permission for free standalone own-text Russian adaptation",
+          "evidence": "https://github.com/Vanilla-Expanded/VanillaExpandedFramework/issues/195#issuecomment-6519584242",
+          "attribution": "Original mod: Vanilla Trading Expanded by Oskar Potocki, Taranchuk. Original: https://steamcommunity.com/sharedfiles/filedetails/?id=2785616901. Own Russian adaptation: Antyhc,2026, AI-assisted with OpenAI Codex. Permission: https://github.com/Vanilla-Expanded/VanillaExpandedFramework/issues/195#issuecomment-6519584242. No Vanilla Expanded endorsement or affiliation. No original artwork or third-party Russian text licensed by this reply.",
           "permission_requested": true,
           "permission_request_url": "https://github.com/Vanilla-Expanded/VanillaExpandedFramework/issues/195",
           "permission_request_date": "2026-10-30",
-          "permission_received": false
+          "permission_received": true,
+          "permission_received_date": "2026-10-30",
+          "permission_reply_url": "https://github.com/Vanilla-Expanded/VanillaExpandedFramework/issues/195#issuecomment-6519584242",
+          "permission_scope": "newly_authored_standalone_translation_text_only",
+          "original_license": "CC-BY-NC-ND-4.0",
+          "license_evidence_file": "translation-rights-evidence.json"
         },
         "icon": {
           "status": "unknown",
@@ -13893,31 +14106,62 @@
           "status": "confirmed",
           "license": "CC-BY-NC-SA-4.0",
           "evidence": "https://steamcommunity.com/sharedfiles/filedetails/?id=2296404655",
-          "attribution": "Original: Vanilla Traits Expanded by Oskar Potocki, Taranchuk, Chowder. https://steamcommunity.com/sharedfiles/filedetails/?id=2296404655. Conditions: Noncommercial release only. Credit original authors/source; identify translation/adaptation changes and AI assistance; retain license URI and supplied notices; no extra restrictions. Adapted translation must be CC-BY-NC-SA-4.0 (ShareAlike).",
-          "license_evidence_file": "translation-rights-evidence.json",
-          "grant_checked_at": "2026-10-30T07:47:15.136190+00:00",
-          "grant_scope": "Text-only own translation subject to the recorded license/conditions; does not grant original artwork or third-party Russian rights."
+          "attribution": "Original mod: Vanilla Traits Expanded by Oskar Potocki, Taranchuk and Chowder.\nOriginal Workshop: https://steamcommunity.com/sharedfiles/filedetails/?id=2296404655\nOriginal and adapted text: CC BY-NC-SA4.0, https://creativecommons.org/licenses/by-nc-sa/4.0/ .\nRussian additions: copyright(c)2026Antyhc; two newly authored slow-work effect-stage captions. AI-assisted authoring/semantic review by OpenAI Codex; no independent human proofreading claimed.\nThis supplement requires the separate existing Russian language pack by OliveWizard: https://steamcommunity.com/sharedfiles/filedetails/?id=2337425872 . No text from that pack is redistributed.\nRetain author credits, source links, license notices and changes; noncommercial distribution only; adapted text remains CC BY-NC-SA4.0 without additional restrictions.\nOriginal typographic cover by Antyhc, MIT; no original mod artwork/code/assemblies/assets used.\nNo endorsement by original authors or extended gameplay test claimed.\n",
+          "license_evidence_file": "rights-evidence.json",
+          "required_notice_files": {
+            "About/License.txt": "5d5ef5031462e90ef70627cc245af8d361f364a5942cdfdd2527d62653eb1b99",
+            "About/Credits.txt": "0de95581a28bd7ea7faf3ac352bdf6449a8e8e9f45dbc7c8bb2ede2f3bf08a8a"
+          }
         },
         "icon": {
-          "status": "unknown",
-          "license": null,
-          "evidence": null,
-          "attribution": null
+          "status": "confirmed",
+          "kind": "original_typographic_fallback",
+          "license": "MIT",
+          "evidence": "scripts/make_original_cover.py; own typographic design",
+          "attribution": "Own typographic cover by Antyhc; no original mod artwork",
+          "source_sha256": "89133b9aba53f3877f309e0164fad31d5939277af7f71f332d43bb3843f990a9",
+          "preview_sha256": "89133b9aba53f3877f309e0164fad31d5939277af7f71f332d43bb3843f990a9",
+          "original_mod_art_used": false
         }
       },
       "qa": {
-        "technical": "pending",
-        "linguistic": "pending",
-        "source_current": false,
-        "in_game": "not_tested",
-        "checked_at": "2026-10-28T09:15:27.268425+00:00"
+        "technical": "passed",
+        "linguistic": "ai_reviewed",
+        "source_current": true,
+        "in_game": "passed",
+        "checked_at": "2026-10-30T09:11:18.024832+00:00",
+        "source_checked_at": "2026-10-30T09:11:18.024832+00:00",
+        "payload_sha256": "36fe69da0d85688287f7d9a9a9b1feebf30a29e4a00f26e47a5dc052ac97f95f",
+        "source_snapshot_sha256": "72e3b5c057f46f7bf288dadddbaa9299de97274f9b3f8c13f39e4c3d51605587",
+        "evidence": "qa-evidence.json",
+        "coverage": "Two HediffDef stage labels only. Actual original+existing-Russian observation found these2 English with no Russian injection;106plural TraitDefs entries were already correctly injected and are excluded.",
+        "standalone_minimal_game_test": "passed_actual_all_active_v2_with_required_support",
+        "game_evidence": "game-test-evidence.json",
+        "game_version": "1.7.4990 rev1069",
+        "game_test_scope": "Actual isolated original+required-support control and candidate startup/readback. All ordinary payload targets matched English then Russian, with exact physical/Keyed ownership. Additional support packages were present in both runs; full localization error multiset unchanged. No save, extended gameplay, Workshop-copy subscription test or independent human proofreading claimed.",
+        "game_test_evidence_sha256": "8ab6096e27e6b05b8b6eca4e180f13feda8208463c605ca427d9fb28aa95aadb",
+        "workshop_installation": "passed_exact_subscribed_bytes",
+        "workshop_game_load": "passed_actual_subscribed_Workshop_root",
+        "workshop_game_evidence": "workshop-game-test-evidence.json",
+        "workshop_game_evidence_sha256": "a5d5585dcc42cf00bc6a10413ed2f09dfcce10909daa62dbbcbe1ec673ca1e83",
+        "workshop_game_test_scope": "Fresh actual load of the subscribed byte-exact Workshop item. Earlier actual English control reused only after exact original source/context, game, selected values and unchanged read-only probe verification. Exact full localization-error multiset compared. The earlier local proof remains historical; no new English-control boot, save or extended gameplay/human proof claimed."
       },
       "publication": {
         "github_url": "https://github.com/Antyhc/RimWorld-Russian-Translations/tree/main/mods/vanillaexpanded.vanillatraitsexpanded",
-        "github_status": "metadata_only",
-        "workshop_url": null,
-        "workshop_id": null,
-        "workshop_status": "not_published"
+        "github_status": "published",
+        "workshop_url": "https://steamcommunity.com/sharedfiles/filedetails/?id=3830032379",
+        "workshop_id": "3830032379",
+        "workshop_status": "published",
+        "release_blockers": [],
+        "workshop_title": "Vanilla Traits Expanded — Russian completion (2 captions)",
+        "workshop_visibility": "public",
+        "workshop_submitted_at": "2026-10-30T09:42:59.548008+00:00",
+        "anonymous_page_verified": true,
+        "anonymous_page_checked_at": "2026-10-30T10:06:46.419Z",
+        "anonymous_page_evidence": "community/workshop-public-pages-2026-10-30.json",
+        "collection_id": "3830036321",
+        "collection_member_verified": true,
+        "github_publication_date": "2026-10-30"
       },
       "integration": {
         "status": "not_sent",
@@ -13984,7 +14228,15 @@
         "work_stage": "installed_local",
         "saved_translation_store": true
       },
-      "work_stage": "installed_local",
+      "work_stage": "ready_for_publication",
+      "duplicate_translation": {
+        "status": "checked_no_current_equivalent",
+        "checked_at": "2026-10-30T09:11:18.024832+00:00",
+        "scope": "Official current Russian2337425872 was actually loaded in RimWorld1.7.4990rev1069. Observation captured106/106trait fields as existing Russian and only these2Hediff labels as English/uninjected. Preserve every existing Russian field, including25different grammar contracts. No plural-folder repair or duplicated106traits.",
+        "candidates": [
+          "https://steamcommunity.com/sharedfiles/filedetails/?id=2337425872"
+        ]
+      },
       "manifest": "mods/vanillaexpanded.vanillatraitsexpanded/manifest.json"
     },
     {
@@ -13997,14 +14249,19 @@
       ],
       "rights": {
         "translation": {
-          "status": "unknown",
-          "license": null,
-          "evidence": null,
-          "attribution": null,
+          "status": "confirmed",
+          "license": "Author permission for free standalone own-text Russian adaptation",
+          "evidence": "https://github.com/Vanilla-Expanded/VanillaExpandedFramework/issues/195#issuecomment-6519584242",
+          "attribution": "Original mod: Vanilla Apparel Expanded by Oskar Potocki, Trunken, Sarg. Original: https://steamcommunity.com/sharedfiles/filedetails/?id=1814987817. Own Russian adaptation: Antyhc,2026, AI-assisted with OpenAI Codex. Permission: https://github.com/Vanilla-Expanded/VanillaExpandedFramework/issues/195#issuecomment-6519584242. No Vanilla Expanded endorsement or affiliation. No original artwork or third-party Russian text licensed by this reply.",
           "permission_requested": true,
           "permission_request_url": "https://github.com/Vanilla-Expanded/VanillaExpandedFramework/issues/195",
           "permission_request_date": "2026-10-30",
-          "permission_received": false
+          "permission_received": true,
+          "permission_received_date": "2026-10-30",
+          "permission_reply_url": "https://github.com/Vanilla-Expanded/VanillaExpandedFramework/issues/195#issuecomment-6519584242",
+          "permission_scope": "newly_authored_standalone_translation_text_only",
+          "original_license": "CC-BY-NC-ND-4.0",
+          "license_evidence_file": "translation-rights-evidence.json"
         },
         "icon": {
           "status": "unknown",
@@ -14118,14 +14375,19 @@
       ],
       "rights": {
         "translation": {
-          "status": "unknown",
-          "license": null,
-          "evidence": null,
-          "attribution": null,
+          "status": "confirmed",
+          "license": "Author permission for free standalone own-text Russian adaptation",
+          "evidence": "https://github.com/Vanilla-Expanded/VanillaExpandedFramework/issues/195#issuecomment-6519584242",
+          "attribution": "Original mod: Vanilla Armour Expanded by Oskar Potocki, Trunken, Sarg Bjornson. Original: https://steamcommunity.com/sharedfiles/filedetails/?id=1814988282. Own Russian adaptation: Antyhc,2026, AI-assisted with OpenAI Codex. Permission: https://github.com/Vanilla-Expanded/VanillaExpandedFramework/issues/195#issuecomment-6519584242. No Vanilla Expanded endorsement or affiliation. No original artwork or third-party Russian text licensed by this reply.",
           "permission_requested": true,
           "permission_request_url": "https://github.com/Vanilla-Expanded/VanillaExpandedFramework/issues/195",
           "permission_request_date": "2026-10-30",
-          "permission_received": false
+          "permission_received": true,
+          "permission_received_date": "2026-10-30",
+          "permission_reply_url": "https://github.com/Vanilla-Expanded/VanillaExpandedFramework/issues/195#issuecomment-6519584242",
+          "permission_scope": "newly_authored_standalone_translation_text_only",
+          "original_license": "CC-BY-NC-ND-4.0",
+          "license_evidence_file": "translation-rights-evidence.json"
         },
         "icon": {
           "status": "unknown",
@@ -14247,14 +14509,19 @@
       ],
       "rights": {
         "translation": {
-          "status": "unknown",
-          "license": null,
-          "evidence": null,
-          "attribution": null,
+          "status": "confirmed",
+          "license": "Author permission for free standalone own-text Russian adaptation",
+          "evidence": "https://github.com/Vanilla-Expanded/VanillaExpandedFramework/issues/195#issuecomment-6519584242",
+          "attribution": "Original mod: Vanilla Books Expanded by Oskar Potocki, Taranchuk. Original: https://steamcommunity.com/sharedfiles/filedetails/?id=2193152410. Own Russian adaptation: Antyhc,2026, AI-assisted with OpenAI Codex. Permission: https://github.com/Vanilla-Expanded/VanillaExpandedFramework/issues/195#issuecomment-6519584242. No Vanilla Expanded endorsement or affiliation. No original artwork or third-party Russian text licensed by this reply.",
           "permission_requested": true,
           "permission_request_url": "https://github.com/Vanilla-Expanded/VanillaExpandedFramework/issues/195",
           "permission_request_date": "2026-10-30",
-          "permission_received": false
+          "permission_received": true,
+          "permission_received_date": "2026-10-30",
+          "permission_reply_url": "https://github.com/Vanilla-Expanded/VanillaExpandedFramework/issues/195#issuecomment-6519584242",
+          "permission_scope": "newly_authored_standalone_translation_text_only",
+          "original_license": "CC-BY-NC-ND-4.0",
+          "license_evidence_file": "translation-rights-evidence.json"
         },
         "icon": {
           "status": "unknown",
@@ -14368,14 +14635,19 @@
       ],
       "rights": {
         "translation": {
-          "status": "unknown",
-          "license": null,
-          "evidence": null,
-          "attribution": null,
+          "status": "confirmed",
+          "license": "Author permission for free standalone own-text Russian adaptation",
+          "evidence": "https://github.com/Vanilla-Expanded/VanillaExpandedFramework/issues/195#issuecomment-6519584242",
+          "attribution": "Original mod: Vanilla Brewing Expanded by Oskar Potocki, Sarg Bjornson, Chowder. Original: https://steamcommunity.com/sharedfiles/filedetails/?id=2186560858. Own Russian adaptation: Antyhc,2026, AI-assisted with OpenAI Codex. Permission: https://github.com/Vanilla-Expanded/VanillaExpandedFramework/issues/195#issuecomment-6519584242. No Vanilla Expanded endorsement or affiliation. No original artwork or third-party Russian text licensed by this reply.",
           "permission_requested": true,
           "permission_request_url": "https://github.com/Vanilla-Expanded/VanillaExpandedFramework/issues/195",
           "permission_request_date": "2026-10-30",
-          "permission_received": false
+          "permission_received": true,
+          "permission_received_date": "2026-10-30",
+          "permission_reply_url": "https://github.com/Vanilla-Expanded/VanillaExpandedFramework/issues/195#issuecomment-6519584242",
+          "permission_scope": "newly_authored_standalone_translation_text_only",
+          "original_license": "CC-BY-NC-ND-4.0",
+          "license_evidence_file": "translation-rights-evidence.json"
         },
         "icon": {
           "status": "unknown",
@@ -14704,14 +14976,19 @@
       ],
       "rights": {
         "translation": {
-          "status": "unknown",
-          "license": null,
-          "evidence": null,
-          "attribution": null,
+          "status": "confirmed",
+          "license": "Author permission for free standalone own-text Russian adaptation",
+          "evidence": "https://github.com/Vanilla-Expanded/VanillaExpandedFramework/issues/195#issuecomment-6519584242",
+          "attribution": "Original mod: Vanilla Cooking Expanded by Oskar Potocki, Sarg Bjornson, Chowder. Original: https://steamcommunity.com/sharedfiles/filedetails/?id=2134308519. Own Russian adaptation: Antyhc,2026, AI-assisted with OpenAI Codex. Permission: https://github.com/Vanilla-Expanded/VanillaExpandedFramework/issues/195#issuecomment-6519584242. No Vanilla Expanded endorsement or affiliation. No original artwork or third-party Russian text licensed by this reply.",
           "permission_requested": true,
           "permission_request_url": "https://github.com/Vanilla-Expanded/VanillaExpandedFramework/issues/195",
           "permission_request_date": "2026-10-30",
-          "permission_received": false
+          "permission_received": true,
+          "permission_received_date": "2026-10-30",
+          "permission_reply_url": "https://github.com/Vanilla-Expanded/VanillaExpandedFramework/issues/195#issuecomment-6519584242",
+          "permission_scope": "newly_authored_standalone_translation_text_only",
+          "original_license": "CC-BY-NC-ND-4.0",
+          "license_evidence_file": "translation-rights-evidence.json"
         },
         "icon": {
           "status": "unknown",
@@ -14982,14 +15259,19 @@
       ],
       "rights": {
         "translation": {
-          "status": "unknown",
-          "license": null,
-          "evidence": null,
-          "attribution": null,
+          "status": "confirmed",
+          "license": "Author permission for free standalone own-text Russian adaptation",
+          "evidence": "https://github.com/Vanilla-Expanded/VanillaExpandedFramework/issues/195#issuecomment-6519584242",
+          "attribution": "Original mod: Vanilla Events Expanded by Oskar Potocki, Kikohi, Helixien, Sarg. Original: https://steamcommunity.com/sharedfiles/filedetails/?id=1938420742. Own Russian adaptation: Antyhc,2026, AI-assisted with OpenAI Codex. Permission: https://github.com/Vanilla-Expanded/VanillaExpandedFramework/issues/195#issuecomment-6519584242. No Vanilla Expanded endorsement or affiliation. No original artwork or third-party Russian text licensed by this reply.",
           "permission_requested": true,
           "permission_request_url": "https://github.com/Vanilla-Expanded/VanillaExpandedFramework/issues/195",
           "permission_request_date": "2026-10-30",
-          "permission_received": false
+          "permission_received": true,
+          "permission_received_date": "2026-10-30",
+          "permission_reply_url": "https://github.com/Vanilla-Expanded/VanillaExpandedFramework/issues/195#issuecomment-6519584242",
+          "permission_scope": "newly_authored_standalone_translation_text_only",
+          "original_license": "CC-BY-NC-ND-4.0",
+          "license_evidence_file": "translation-rights-evidence.json"
         },
         "icon": {
           "status": "unknown",
@@ -15095,14 +15377,19 @@
       ],
       "rights": {
         "translation": {
-          "status": "unknown",
-          "license": null,
-          "evidence": null,
-          "attribution": null,
+          "status": "confirmed",
+          "license": "Author permission for free standalone own-text Russian adaptation",
+          "evidence": "https://github.com/Vanilla-Expanded/VanillaExpandedFramework/issues/195#issuecomment-6519584242",
+          "attribution": "Original mod: Vanilla Landmarks Expanded by Oskar Potocki, Sarg Bjornson. Original: https://steamcommunity.com/sharedfiles/filedetails/?id=3656316229. Own Russian adaptation: Antyhc,2026, AI-assisted with OpenAI Codex. Permission: https://github.com/Vanilla-Expanded/VanillaExpandedFramework/issues/195#issuecomment-6519584242. No Vanilla Expanded endorsement or affiliation. No original artwork or third-party Russian text licensed by this reply.",
           "permission_requested": true,
           "permission_request_url": "https://github.com/Vanilla-Expanded/VanillaExpandedFramework/issues/195",
           "permission_request_date": "2026-10-30",
-          "permission_received": false
+          "permission_received": true,
+          "permission_received_date": "2026-10-30",
+          "permission_reply_url": "https://github.com/Vanilla-Expanded/VanillaExpandedFramework/issues/195#issuecomment-6519584242",
+          "permission_scope": "newly_authored_standalone_translation_text_only",
+          "original_license": "CC-BY-NC-ND-4.0",
+          "license_evidence_file": "translation-rights-evidence.json"
         },
         "icon": {
           "status": "unknown",
@@ -15411,14 +15698,19 @@
       ],
       "rights": {
         "translation": {
-          "status": "unknown",
-          "license": null,
-          "evidence": null,
-          "attribution": null,
+          "status": "confirmed",
+          "license": "Author permission for free standalone own-text Russian adaptation",
+          "evidence": "https://github.com/Vanilla-Expanded/VanillaExpandedFramework/issues/195#issuecomment-6519584242",
+          "attribution": "Original mod: Vanilla Furniture Expanded by OskarPotocki, Taranchuk , Sarg, Sokyran. Original: https://steamcommunity.com/sharedfiles/filedetails/?id=1718190143. Own Russian adaptation: Antyhc,2026, AI-assisted with OpenAI Codex. Permission: https://github.com/Vanilla-Expanded/VanillaExpandedFramework/issues/195#issuecomment-6519584242. No Vanilla Expanded endorsement or affiliation. No original artwork or third-party Russian text licensed by this reply.",
           "permission_requested": true,
           "permission_request_url": "https://github.com/Vanilla-Expanded/VanillaExpandedFramework/issues/195",
           "permission_request_date": "2026-10-30",
-          "permission_received": false
+          "permission_received": true,
+          "permission_received_date": "2026-10-30",
+          "permission_reply_url": "https://github.com/Vanilla-Expanded/VanillaExpandedFramework/issues/195#issuecomment-6519584242",
+          "permission_scope": "newly_authored_standalone_translation_text_only",
+          "original_license": "CC-BY-NC-ND-4.0",
+          "license_evidence_file": "translation-rights-evidence.json"
         },
         "icon": {
           "status": "unknown",
@@ -16173,14 +16465,19 @@
       ],
       "rights": {
         "translation": {
-          "status": "unknown",
-          "license": null,
-          "evidence": null,
-          "attribution": null,
+          "status": "confirmed",
+          "license": "Author permission for free standalone own-text Russian adaptation",
+          "evidence": "https://github.com/Vanilla-Expanded/VanillaExpandedFramework/issues/195#issuecomment-6519584242",
+          "attribution": "Original mod: Vanilla Furniture Expanded - Security by Oskar Potocki, Sokyran, Taranchuk. Original: https://steamcommunity.com/sharedfiles/filedetails/?id=1845154007. Own Russian adaptation: Antyhc,2026, AI-assisted with OpenAI Codex. Permission: https://github.com/Vanilla-Expanded/VanillaExpandedFramework/issues/195#issuecomment-6519584242. No Vanilla Expanded endorsement or affiliation. No original artwork or third-party Russian text licensed by this reply.",
           "permission_requested": true,
           "permission_request_url": "https://github.com/Vanilla-Expanded/VanillaExpandedFramework/issues/195",
           "permission_request_date": "2026-10-30",
-          "permission_received": false
+          "permission_received": true,
+          "permission_received_date": "2026-10-30",
+          "permission_reply_url": "https://github.com/Vanilla-Expanded/VanillaExpandedFramework/issues/195#issuecomment-6519584242",
+          "permission_scope": "newly_authored_standalone_translation_text_only",
+          "original_license": "CC-BY-NC-ND-4.0",
+          "license_evidence_file": "translation-rights-evidence.json"
         },
         "icon": {
           "status": "unknown",
@@ -17516,14 +17813,19 @@
       ],
       "rights": {
         "translation": {
-          "status": "unknown",
-          "license": null,
-          "evidence": null,
-          "attribution": null,
+          "status": "confirmed",
+          "license": "Author permission for free standalone own-text Russian adaptation",
+          "evidence": "https://github.com/Vanilla-Expanded/VanillaExpandedFramework/issues/195#issuecomment-6519584242",
+          "attribution": "Original mod: Vanilla Quests Expanded - Ancients by Oskar Potocki, Sarg Bjornson, Taranchuk, Ferny. Original: https://steamcommunity.com/sharedfiles/filedetails/?id=3618306875. Own Russian adaptation: Antyhc,2026, AI-assisted with OpenAI Codex. Permission: https://github.com/Vanilla-Expanded/VanillaExpandedFramework/issues/195#issuecomment-6519584242. No Vanilla Expanded endorsement or affiliation. No original artwork or third-party Russian text licensed by this reply.",
           "permission_requested": true,
           "permission_request_url": "https://github.com/Vanilla-Expanded/VanillaExpandedFramework/issues/195",
           "permission_request_date": "2026-10-30",
-          "permission_received": false
+          "permission_received": true,
+          "permission_received_date": "2026-10-30",
+          "permission_reply_url": "https://github.com/Vanilla-Expanded/VanillaExpandedFramework/issues/195#issuecomment-6519584242",
+          "permission_scope": "newly_authored_standalone_translation_text_only",
+          "original_license": "CC-BY-NC-ND-4.0",
+          "license_evidence_file": "translation-rights-evidence.json"
         },
         "icon": {
           "status": "unknown",
@@ -17629,14 +17931,19 @@
       ],
       "rights": {
         "translation": {
-          "status": "unknown",
-          "license": null,
-          "evidence": null,
-          "attribution": null,
+          "status": "confirmed",
+          "license": "Author permission for free standalone own-text Russian adaptation",
+          "evidence": "https://github.com/Vanilla-Expanded/VanillaExpandedFramework/issues/195#issuecomment-6519584242",
+          "attribution": "Original mod: Vanilla Quests Expanded - The Generator by Oskar Potocki, Sarg Bjornson, Taranchuk, Bread mo. Original: https://steamcommunity.com/sharedfiles/filedetails/?id=3411401573. Own Russian adaptation: Antyhc,2026, AI-assisted with OpenAI Codex. Permission: https://github.com/Vanilla-Expanded/VanillaExpandedFramework/issues/195#issuecomment-6519584242. No Vanilla Expanded endorsement or affiliation. No original artwork or third-party Russian text licensed by this reply.",
           "permission_requested": true,
           "permission_request_url": "https://github.com/Vanilla-Expanded/VanillaExpandedFramework/issues/195",
           "permission_request_date": "2026-10-30",
-          "permission_received": false
+          "permission_received": true,
+          "permission_received_date": "2026-10-30",
+          "permission_reply_url": "https://github.com/Vanilla-Expanded/VanillaExpandedFramework/issues/195#issuecomment-6519584242",
+          "permission_scope": "newly_authored_standalone_translation_text_only",
+          "original_license": "CC-BY-NC-ND-4.0",
+          "license_evidence_file": "translation-rights-evidence.json"
         },
         "icon": {
           "status": "unknown",
@@ -17840,14 +18147,19 @@
       ],
       "rights": {
         "translation": {
-          "status": "unknown",
-          "license": null,
-          "evidence": null,
-          "attribution": null,
+          "status": "confirmed",
+          "license": "Author permission for free standalone own-text Russian adaptation",
+          "evidence": "https://github.com/Vanilla-Expanded/VanillaExpandedFramework/issues/195#issuecomment-6519584242",
+          "attribution": "Original mod: Vanilla Christmas Expanded by Oskar Potocki, Sarg Bjornson, Taranchuk. Original: https://steamcommunity.com/sharedfiles/filedetails/?id=3380695249. Own Russian adaptation: Antyhc,2026, AI-assisted with OpenAI Codex. Permission: https://github.com/Vanilla-Expanded/VanillaExpandedFramework/issues/195#issuecomment-6519584242. No Vanilla Expanded endorsement or affiliation. No original artwork or third-party Russian text licensed by this reply.",
           "permission_requested": true,
           "permission_request_url": "https://github.com/Vanilla-Expanded/VanillaExpandedFramework/issues/195",
           "permission_request_date": "2026-10-30",
-          "permission_received": false
+          "permission_received": true,
+          "permission_received_date": "2026-10-30",
+          "permission_reply_url": "https://github.com/Vanilla-Expanded/VanillaExpandedFramework/issues/195#issuecomment-6519584242",
+          "permission_scope": "newly_authored_standalone_translation_text_only",
+          "original_license": "CC-BY-NC-ND-4.0",
+          "license_evidence_file": "translation-rights-evidence.json"
         },
         "icon": {
           "status": "unknown",
@@ -18259,25 +18571,32 @@
         "game_evidence": "game-test-evidence.json",
         "game_version": "1.7.4990 rev1069",
         "game_test_scope": "Actual isolated startup and physical language-value readback, exact active dependencies/DLC and source/payload/probe hashes; no save, extended gameplay or independent human proofreading claim.",
-        "game_test_evidence_sha256": "89ec4280c8de86075455e729c1bfe877123fdf7244d6c824e87a21248e8c7622"
+        "game_test_evidence_sha256": "89ec4280c8de86075455e729c1bfe877123fdf7244d6c824e87a21248e8c7622",
+        "workshop_installation": "passed_exact_subscribed_bytes",
+        "workshop_game_load": "passed_actual_subscribed_Workshop_root",
+        "workshop_game_evidence": "workshop-game-test-evidence.json",
+        "workshop_game_evidence_sha256": "1bb0923c669bf113d92daa985b1a1bb49387e07ef26d92f9f12beaebbbd015a2",
+        "workshop_game_test_scope": "Fresh actual load of the subscribed byte-exact Workshop item. Earlier actual English control reused only after exact original source/context, game, selected values and unchanged read-only probe verification. Exact full localization-error multiset compared. The earlier local proof remains historical; no new English-control boot, save or extended gameplay/human proof claimed."
       },
       "publication": {
         "github_url": "https://github.com/Antyhc/RimWorld-Russian-Translations/tree/main/mods/wvc.sergkart.biotech.moremechanoidsworkmodes",
-        "github_status": "prepared_not_published",
+        "github_status": "published",
         "workshop_url": "https://steamcommunity.com/sharedfiles/filedetails/?id=3830010549",
         "workshop_id": "3830010549",
         "workshop_status": "published",
         "release_blockers": [],
         "anonymous_page_verified": true,
         "dependency_verified": true,
-        "collection_id": "3828791160",
+        "collection_id": "3830036321",
         "collection_member_verified": true,
         "published_at": "2026-10-30T08:34:09.336773+00:00",
-        "anonymous_page_checked_at": "2026-10-30T08:40:10.419654+00:00",
+        "anonymous_page_checked_at": "2026-10-30T10:06:45.036Z",
         "dlc_dependency_app_id": "1826140",
         "dlc_dependency_verified": true,
         "installation_tested": true,
-        "installation_scope": "Official Steam subscription/download and exact recursive payload byte comparison; actual Workshop-root game loading is separate."
+        "installation_scope": "Official Steam subscription/download and exact recursive payload byte comparison; actual Workshop-root game loading is separate.",
+        "github_first_public_commit": "a386b9120f422473c895d475aa35e17f4ea78893",
+        "anonymous_page_evidence": "community/workshop-public-pages-2026-10-30.json"
       },
       "integration": {
         "status": "not_sent",
@@ -18602,24 +18921,24 @@
     "model_held_tasks": 10,
     "private_model_test_values": 473,
     "store_scope_unverified": 0,
-    "technically_checked": 9,
-    "game_tested": 9,
+    "technically_checked": 12,
+    "game_tested": 12,
     "github_metadata_records": 166,
-    "github_published": 5,
-    "workshop_submitted": 9,
-    "workshop_published": 8,
-    "pull_requests": 4,
+    "github_published": 12,
+    "workshop_submitted": 12,
+    "workshop_published": 12,
+    "pull_requests": 5,
     "accepted": 1,
-    "awaiting_rights": 145,
+    "awaiting_rights": 122,
     "needs_update": 13,
-    "freshness_unverified": 157,
+    "freshness_unverified": 154,
     "static_inventory_pass": 129,
     "static_inventory_flagged": 20,
     "static_findings": 49,
     "repository_monitors": 24,
-    "pull_request_monitors": 4,
+    "pull_request_monitors": 5,
     "icon_permission_requests": 2,
-    "workshop_public_pages_verified": 8,
+    "workshop_public_pages_verified": 12,
     "workshop_content_check_pending": 0,
     "workshop_source_monitors": 166
   }

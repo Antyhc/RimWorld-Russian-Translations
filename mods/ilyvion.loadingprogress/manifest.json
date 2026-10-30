@@ -11,31 +11,75 @@
       "status": "confirmed",
       "license": "MIT",
       "evidence": "https://github.com/ilyvion/loading-progress/blob/main/LICENSE.MIT",
-      "attribution": "Original: Loading Progress by ilyvion. https://steamcommunity.com/sharedfiles/filedetails/?id=3535481557. Conditions: Preserve exact MIT copyright/permission notice, original author attribution and original-mod dependency. Own original cover. Upstream explicitly invites Languages-only separate translation mods. Do not redistribute the original mod or its code/art. Original uses custom early-startup language loader, so a fresh test must exercise that actual loader/UI rather than only ordinary game Keyed.",
-      "license_evidence_file": "translation-rights-evidence.json",
-      "grant_checked_at": null,
-      "grant_scope": "Text-only own translation subject to the recorded license/conditions; does not grant original artwork or third-party Russian rights."
+      "attribution": "Original mod: Loading Progress by ilyvion (Alexander Krivács Schrøder).\nOriginal: https://steamcommunity.com/sharedfiles/filedetails/?id=3535481557\nOriginal source/license: https://github.com/ilyvion/loading-progress ; Apache-2.0 OR MIT. This translation chooses MIT; exact original copyright and permission notice retained in License.txt.\nRussian text: Copyright (c) 2026 Antyhc, MIT. Changes:270 prior original-authored reviewed translations retained,129 entries independently translated from current English,6 terminology alignments across the full 399-entry draft. No text from the historical unknown-license Russian pack is redistributed.\nAI assistance: local-model drafting and individual English/Russian semantic review using OpenAI Codex; no independent human proofreading claimed.\nSource-only language content: no original code, DLLs, textures, audio, assets or third-party Russian copied.\nOwn typographic cover by Antyhc, MIT. No original mod artwork used.\nNo original-author endorsement or extended colony-gameplay test claimed.\n",
+      "license_evidence_file": "rights-evidence.json",
+      "required_notice_files": {
+        "About/License.txt": "a4a2d858a31f140aef2311773ecbb30248aca8188c7bae7fe428c9c2c3f9d942",
+        "About/Credits.txt": "398ee75b480f0c6fc468127e6d29a018391d370ec07b1e45e597c20387705558"
+      }
     },
     "icon": {
-      "status": "unknown",
-      "license": null,
-      "evidence": null,
-      "attribution": null
+      "status": "confirmed",
+      "kind": "original_typographic_fallback",
+      "license": "MIT",
+      "evidence": "scripts/make_original_cover.py; own typographic design",
+      "attribution": "Own typographic cover by Antyhc; no original mod artwork",
+      "source_sha256": "f6d4aaad7350968c2df8ad99e9a2170ecaeee91d93f8d8f980fff35ca76b4966",
+      "preview_sha256": "f6d4aaad7350968c2df8ad99e9a2170ecaeee91d93f8d8f980fff35ca76b4966",
+      "original_mod_art_used": false
     }
   },
   "qa": {
-    "technical": "pending",
-    "linguistic": "pending",
-    "source_current": false,
-    "in_game": "not_tested",
-    "checked_at": "2026-10-28T09:15:27.268425+00:00"
+    "technical": "passed",
+    "linguistic": "ai_reviewed",
+    "source_current": true,
+    "in_game": "passed",
+    "checked_at": "2026-10-30T09:20:02.289942+00:00",
+    "source_checked_at": "2026-10-30T09:20:02.289942+00:00",
+    "payload_sha256": "e8c87f613b8c5b6f6772e5982a80d1058b8b875f73bcb727a64b69fb88b15101",
+    "source_snapshot_sha256": "89d0722b58b9d2e2f64ee0035c027dbb43d9b8469899e381f8d0b5666f9a6966",
+    "evidence": "qa-evidence.json",
+    "coverage": "All399current English Keyed XML strings,270missing from current existingRussian+129independent English-first translations. Full single-provider language package is required because original custom early loader does not merge language providers.",
+    "standalone_minimal_game_test": "passed_actual_control_and_candidate",
+    "custom_loader_test": "passed_actual_natural_cache_provider_and_ui",
+    "game_evidence": "game-test-evidence.json",
+    "game_version": "1.7.4990 rev1069",
+    "game_test_scope": "Actual isolated startup and physical language-value readback, exact active dependencies/DLC and source/payload/probe hashes; no save, extended gameplay or independent human proofreading claim.",
+    "game_test_evidence_sha256": "8a84c068799a94a53934f4ffb962b6f97cb3bddcfc7d526113cbf811b9ed52e6",
+    "custom_loader_evidence": "custom-loader-test-evidence.json",
+    "custom_loader_evidence_sha256": "cecc860ae5d2d5ef352ff0f9c5f5cc71113e7a183a0312917919e91bcb049b3d",
+    "custom_loader_values_verified": 399,
+    "custom_loader_ui_evidence": "custom-loader-ui-evidence.json",
+    "custom_loader_ui_evidence_sha256": "5bba50c3101577008f2407eb8ef04c01a843b8fe489258abe2ba688a55eb1b34",
+    "custom_loader_scope": "Actual naturally initialized custom translation cache and original provider log plus startup UI. All399 dictionary values verified; no artificial GetTranslation/Clear invocation, no claim of interactively exercising every formatted UI scenario or extended gameplay.",
+    "workshop_installation": "passed_exact_subscribed_bytes",
+    "workshop_game_load": "passed_actual_subscribed_Workshop_custom_loader",
+    "workshop_game_evidence": "workshop-custom-game-test-evidence.json",
+    "workshop_game_evidence_sha256": "9cadb0361a4d8e191379eb04bff7bf7969b7a597cb0fc29680c9c3637f4f71aa",
+    "workshop_game_test_scope": "Fresh subscribed Workshop copy and fresh English control:399 actual custom Russian values, original provider log and natural transient loading UI verified; exact5files,38→38 localization errors,0new. No extended gameplay or every UI/formatting variant claim.",
+    "workshop_game_checked_at": "2026-10-30T10:02:53.163442+00:00",
+    "workshop_custom_loader_values_verified": 399,
+    "workshop_fresh_english_control_boot": true,
+    "workshop_transient_loading_ui_observed": true
   },
   "publication": {
     "github_url": "https://github.com/Antyhc/RimWorld-Russian-Translations/tree/main/mods/ilyvion.loadingprogress",
-    "github_status": "metadata_only",
-    "workshop_url": null,
-    "workshop_id": null,
-    "workshop_status": "not_published"
+    "github_status": "published",
+    "workshop_url": "https://steamcommunity.com/sharedfiles/filedetails/?id=3830035919",
+    "workshop_id": "3830035919",
+    "workshop_status": "published",
+    "release_blockers": [],
+    "workshop_title": "Loading Progress — Russian (399 strings)",
+    "workshop_visibility": "public",
+    "workshop_submitted_at": "2026-10-30T09:53:34.530296+00:00",
+    "installation_tested": true,
+    "installation_scope": "Official Steam subscription/download and exact5-file payload match, followed by a fresh English-control and actual Workshop-root custom-loader game test; all399 Russian dictionary entries and natural loading UI verified.",
+    "anonymous_page_verified": true,
+    "anonymous_page_checked_at": "2026-10-30T10:06:46.844Z",
+    "anonymous_page_evidence": "community/workshop-public-pages-2026-10-30.json",
+    "collection_id": "3830036321",
+    "collection_member_verified": true,
+    "github_publication_date": "2026-10-30"
   },
   "integration": {
     "status": "not_sent",
@@ -178,5 +222,13 @@
       "baseline_file": "source.tree.json"
     }
   },
-  "work_stage": "installed_local"
+  "work_stage": "ready_for_publication",
+  "duplicate_translation": {
+    "status": "checked_no_current_equivalent",
+    "checked_at": "2026-10-30T09:20:02.289942+00:00",
+    "scope": "Official current cache3585898788 provides128same-contract+1obsolete-extra-placeholder strings and lacks ALL270prior own keys. Current original nativeRussian0. Existing partial pack is not a current equivalent to this full399single-provider translation. No ordinary partial overlay claimed.",
+    "candidates": [
+      "https://steamcommunity.com/sharedfiles/filedetails/?id=3585898788"
+    ]
+  }
 }

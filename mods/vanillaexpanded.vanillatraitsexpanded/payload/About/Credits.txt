@@ -1,0 +1,8 @@
+Original mod: Vanilla Traits Expanded by Oskar Potocki, Taranchuk and Chowder.
+Original Workshop: https://steamcommunity.com/sharedfiles/filedetails/?id=2296404655
+Original and adapted text: CC BY-NC-SA4.0, https://creativecommons.org/licenses/by-nc-sa/4.0/ .
+Russian additions: copyright(c)2026Antyhc; two newly authored slow-work effect-stage captions. AI-assisted authoring/semantic review by OpenAI Codex; no independent human proofreading claimed.
+This supplement requires the separate existing Russian language pack by OliveWizard: https://steamcommunity.com/sharedfiles/filedetails/?id=2337425872 . No text from that pack is redistributed.
+Retain author credits, source links, license notices and changes; noncommercial distribution only; adapted text remains CC BY-NC-SA4.0 without additional restrictions.
+Original typographic cover by Antyhc, MIT; no original mod artwork/code/assemblies/assets used.
+No endorsement by original authors or extended gameplay test claimed.

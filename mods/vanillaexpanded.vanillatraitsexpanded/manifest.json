@@ -11,31 +11,62 @@
       "status": "confirmed",
       "license": "CC-BY-NC-SA-4.0",
       "evidence": "https://steamcommunity.com/sharedfiles/filedetails/?id=2296404655",
-      "attribution": "Original: Vanilla Traits Expanded by Oskar Potocki, Taranchuk, Chowder. https://steamcommunity.com/sharedfiles/filedetails/?id=2296404655. Conditions: Noncommercial release only. Credit original authors/source; identify translation/adaptation changes and AI assistance; retain license URI and supplied notices; no extra restrictions. Adapted translation must be CC-BY-NC-SA-4.0 (ShareAlike).",
-      "license_evidence_file": "translation-rights-evidence.json",
-      "grant_checked_at": "2026-10-30T07:47:15.136190+00:00",
-      "grant_scope": "Text-only own translation subject to the recorded license/conditions; does not grant original artwork or third-party Russian rights."
+      "attribution": "Original mod: Vanilla Traits Expanded by Oskar Potocki, Taranchuk and Chowder.\nOriginal Workshop: https://steamcommunity.com/sharedfiles/filedetails/?id=2296404655\nOriginal and adapted text: CC BY-NC-SA4.0, https://creativecommons.org/licenses/by-nc-sa/4.0/ .\nRussian additions: copyright(c)2026Antyhc; two newly authored slow-work effect-stage captions. AI-assisted authoring/semantic review by OpenAI Codex; no independent human proofreading claimed.\nThis supplement requires the separate existing Russian language pack by OliveWizard: https://steamcommunity.com/sharedfiles/filedetails/?id=2337425872 . No text from that pack is redistributed.\nRetain author credits, source links, license notices and changes; noncommercial distribution only; adapted text remains CC BY-NC-SA4.0 without additional restrictions.\nOriginal typographic cover by Antyhc, MIT; no original mod artwork/code/assemblies/assets used.\nNo endorsement by original authors or extended gameplay test claimed.\n",
+      "license_evidence_file": "rights-evidence.json",
+      "required_notice_files": {
+        "About/License.txt": "5d5ef5031462e90ef70627cc245af8d361f364a5942cdfdd2527d62653eb1b99",
+        "About/Credits.txt": "0de95581a28bd7ea7faf3ac352bdf6449a8e8e9f45dbc7c8bb2ede2f3bf08a8a"
+      }
     },
     "icon": {
-      "status": "unknown",
-      "license": null,
-      "evidence": null,
-      "attribution": null
+      "status": "confirmed",
+      "kind": "original_typographic_fallback",
+      "license": "MIT",
+      "evidence": "scripts/make_original_cover.py; own typographic design",
+      "attribution": "Own typographic cover by Antyhc; no original mod artwork",
+      "source_sha256": "89133b9aba53f3877f309e0164fad31d5939277af7f71f332d43bb3843f990a9",
+      "preview_sha256": "89133b9aba53f3877f309e0164fad31d5939277af7f71f332d43bb3843f990a9",
+      "original_mod_art_used": false
     }
   },
   "qa": {
-    "technical": "pending",
-    "linguistic": "pending",
-    "source_current": false,
-    "in_game": "not_tested",
-    "checked_at": "2026-10-28T09:15:27.268425+00:00"
+    "technical": "passed",
+    "linguistic": "ai_reviewed",
+    "source_current": true,
+    "in_game": "passed",
+    "checked_at": "2026-10-30T09:11:18.024832+00:00",
+    "source_checked_at": "2026-10-30T09:11:18.024832+00:00",
+    "payload_sha256": "36fe69da0d85688287f7d9a9a9b1feebf30a29e4a00f26e47a5dc052ac97f95f",
+    "source_snapshot_sha256": "72e3b5c057f46f7bf288dadddbaa9299de97274f9b3f8c13f39e4c3d51605587",
+    "evidence": "qa-evidence.json",
+    "coverage": "Two HediffDef stage labels only. Actual original+existing-Russian observation found these2 English with no Russian injection;106plural TraitDefs entries were already correctly injected and are excluded.",
+    "standalone_minimal_game_test": "passed_actual_all_active_v2_with_required_support",
+    "game_evidence": "game-test-evidence.json",
+    "game_version": "1.7.4990 rev1069",
+    "game_test_scope": "Actual isolated original+required-support control and candidate startup/readback. All ordinary payload targets matched English then Russian, with exact physical/Keyed ownership. Additional support packages were present in both runs; full localization error multiset unchanged. No save, extended gameplay, Workshop-copy subscription test or independent human proofreading claimed.",
+    "game_test_evidence_sha256": "8ab6096e27e6b05b8b6eca4e180f13feda8208463c605ca427d9fb28aa95aadb",
+    "workshop_installation": "passed_exact_subscribed_bytes",
+    "workshop_game_load": "passed_actual_subscribed_Workshop_root",
+    "workshop_game_evidence": "workshop-game-test-evidence.json",
+    "workshop_game_evidence_sha256": "a5d5585dcc42cf00bc6a10413ed2f09dfcce10909daa62dbbcbe1ec673ca1e83",
+    "workshop_game_test_scope": "Fresh actual load of the subscribed byte-exact Workshop item. Earlier actual English control reused only after exact original source/context, game, selected values and unchanged read-only probe verification. Exact full localization-error multiset compared. The earlier local proof remains historical; no new English-control boot, save or extended gameplay/human proof claimed."
   },
   "publication": {
     "github_url": "https://github.com/Antyhc/RimWorld-Russian-Translations/tree/main/mods/vanillaexpanded.vanillatraitsexpanded",
-    "github_status": "metadata_only",
-    "workshop_url": null,
-    "workshop_id": null,
-    "workshop_status": "not_published"
+    "github_status": "published",
+    "workshop_url": "https://steamcommunity.com/sharedfiles/filedetails/?id=3830032379",
+    "workshop_id": "3830032379",
+    "workshop_status": "published",
+    "release_blockers": [],
+    "workshop_title": "Vanilla Traits Expanded — Russian completion (2 captions)",
+    "workshop_visibility": "public",
+    "workshop_submitted_at": "2026-10-30T09:42:59.548008+00:00",
+    "anonymous_page_verified": true,
+    "anonymous_page_checked_at": "2026-10-30T10:06:46.419Z",
+    "anonymous_page_evidence": "community/workshop-public-pages-2026-10-30.json",
+    "collection_id": "3830036321",
+    "collection_member_verified": true,
+    "github_publication_date": "2026-10-30"
   },
   "integration": {
     "status": "not_sent",
@@ -102,5 +133,13 @@
     "work_stage": "installed_local",
     "saved_translation_store": true
   },
-  "work_stage": "installed_local"
+  "work_stage": "ready_for_publication",
+  "duplicate_translation": {
+    "status": "checked_no_current_equivalent",
+    "checked_at": "2026-10-30T09:11:18.024832+00:00",
+    "scope": "Official current Russian2337425872 was actually loaded in RimWorld1.7.4990rev1069. Observation captured106/106trait fields as existing Russian and only these2Hediff labels as English/uninjected. Preserve every existing Russian field, including25different grammar contracts. No plural-folder repair or duplicated106traits.",
+    "candidates": [
+      "https://steamcommunity.com/sharedfiles/filedetails/?id=2337425872"
+    ]
+  }
 }

@@ -1,0 +1,52 @@
+{
+  "schema": 1,
+  "checked_at": "2026-10-30T09:11:18.024832+00:00",
+  "translation_rows": 2,
+  "semantic_review": "Read both current English state labels in VTE_SlowWorkSpeed and their Hediff_ForcedWork context. Не действует/действует preserve inactive/active state without a gender agreement dependency. Both source hashes match. Source stages declare becomeVisible=false; no broad assertion that the entire effect can never be shown is made. Only these two captions are included; existing Russian trait translations are preserved.",
+  "independent_human_review": false,
+  "game_tested": true,
+  "third_party_russian_copied": false,
+  "current_source_inputs_hash_verified": true,
+  "entries": [
+    {
+      "target_id": "DefInjected|HediffDef|VTE_SlowWorkSpeed.stages.0.label",
+      "source_id": "DefInjected|HediffDef|VTE_SlowWorkSpeed.stages.0.label",
+      "source_sha256": "d1022618b99a974b56caeae99b4f9e2eac444335123e3ab94bbbc817c306f2c0",
+      "text_sha256": "caded7c2aef19c5103f6dd66ff99cda6255814ccae17b1f60d261c5801e326a8",
+      "source_origin": "1.6\\Defs\\HediffDef\\Hediffs_Local_Misc.xml",
+      "minimal_static_present": true,
+      "source_provenance": "new_contextual_translation",
+      "context": "slow work",
+      "review_state": "ai_semantically_reviewed_20261030"
+    },
+    {
+      "target_id": "DefInjected|HediffDef|VTE_SlowWorkSpeed.stages.1.label",
+      "source_id": "DefInjected|HediffDef|VTE_SlowWorkSpeed.stages.1.label",
+      "source_sha256": "96879611650f80a81392a52e0db9b0237669087c4518e1c130e541a505e0eeef",
+      "text_sha256": "3ecf9b9caead969450ecd4b6cc0bec85230f52781a285d03acca1a5981ea5f6e",
+      "source_origin": "1.6\\Defs\\HediffDef\\Hediffs_Local_Misc.xml",
+      "minimal_static_present": true,
+      "source_provenance": "new_contextual_translation",
+      "context": "slow work",
+      "review_state": "ai_semantically_reviewed_20261030"
+    }
+  ],
+  "payload_sha256": "36fe69da0d85688287f7d9a9a9b1feebf30a29e4a00f26e47a5dc052ac97f95f",
+  "payload_file_hashes": {
+    "About/About.xml": "c34b123be2dcfb70810dc41274855b0784d2e7b428a2deccf1a5388b55237787",
+    "About/Credits.txt": "0de95581a28bd7ea7faf3ac352bdf6449a8e8e9f45dbc7c8bb2ede2f3bf08a8a",
+    "About/License.txt": "5d5ef5031462e90ef70627cc245af8d361f364a5942cdfdd2527d62653eb1b99",
+    "About/Preview.png": "89133b9aba53f3877f309e0164fad31d5939277af7f71f332d43bb3843f990a9",
+    "Languages/Russian/DefInjected/HediffDef/AdditionalRussian.xml": "064b04892dbe3c4a1cfa7f0d5bdcdb3d17fcef8cbba074913b31dfa1aa7b2e30"
+  },
+  "game_evidence": "game-test-evidence.json",
+  "game_evidence_sha256": "8ab6096e27e6b05b8b6eca4e180f13feda8208463c605ca427d9fb28aa95aadb",
+  "game_test_scope": "Actual original+required ow.ru.traits control/candidate startup and field readback; both ordinary targets active, English2/Russian2, error multiset38→38. Internal stage captions only; no claim of newly visible ordinary UI, gameplay changes, extended play or Workshop-copy subscription testing.",
+  "required_support_packages": [
+    {
+      "package_id": "ow.ru.traits",
+      "workshop_id": "2337425872",
+      "active_in_both_actual_runs": true
+    }
+  ]
+}

@@ -1,0 +1,59 @@
+{
+  "schema": 1,
+  "status": "actual_custom_loader_control_and_candidate_verified",
+  "checked_at": "2026-10-30T09:48:29.377873+00:00",
+  "case_id": "loading399",
+  "package_id": "ilyvion.loadingprogress",
+  "translation_package_id": "antyhc.russian.ilyvion.loadingprogress",
+  "game_version": "1.7.4990 rev1069",
+  "payload_sha256": "e8c87f613b8c5b6f6772e5982a80d1058b8b875f73bcb727a64b69fb88b15101",
+  "custom_values_verified": 399,
+  "english_control_custom_values_verified": 399,
+  "custom_dictionary_never_initialized_or_mutated_by_probe": true,
+  "actual_provider_verified_from_original_startup_log": true,
+  "natural_startup_UI_observed_both_phases": true,
+  "baseline_localization_errors": 38,
+  "candidate_localization_errors": 38,
+  "additional_localization_errors": 0,
+  "exact_error_multiset_unchanged": true,
+  "source_inputs_unchanged": true,
+  "custom_probe_dll_sha256": "cc2b846e68e4eab53d383178a6a1cdb4af3016eef091368356b4f5709a262cc8",
+  "ordinary_probe_dll_sha256": "01359af068f9b58b29c4f7b61c35742b88cf4c7881ba2e09a7cf277a6b90d7a8",
+  "control_capture_sha256": "ce17b2a67d13fea36db8f8c80467284be7f3f97933b9e1d4c20d8440b1822617",
+  "candidate_capture_sha256": "ec8aa72859239a38c83a8f1495fe1ceb733de657e02387a334ca196b2a143e81",
+  "contexts": {
+    "control": {
+      "stable_initialized_snapshots": 1,
+      "snapshot_sha256": [
+        "8c0eff8773e1de2ed3e9936a388afb8d72069251bb2cfc0c08128e5aba06d970"
+      ],
+      "original_assembly_sha256": "4a0ff826f95a1a76a45a56ad1f9d2c6e86f505054b399c9e95013978cb77c639",
+      "english_dictionary_values_verified": 399,
+      "active_dictionary_values_verified": 0,
+      "original_provider_log_entries": [],
+      "Player_log_sha256": "04dda7d52a38137eb5e2167c1fc9e20cd1850c87a97d3998128f518505435061",
+      "natural_startup_ui_observation_sha256": "04b679e608b284508b2249b13213ceb3b435db433def44ce0a9ed3fbc539d2e8"
+    },
+    "candidate": {
+      "stable_initialized_snapshots": 1,
+      "snapshot_sha256": [
+        "9eba9e31f5597de3a51a6cce9c3eb91e880e8bcaff0b8d838588f9ecedb6cb1d"
+      ],
+      "original_assembly_sha256": "4a0ff826f95a1a76a45a56ad1f9d2c6e86f505054b399c9e95013978cb77c639",
+      "english_dictionary_values_verified": 399,
+      "active_dictionary_values_verified": 399,
+      "original_provider_log_entries": [
+        {
+          "language": "Russian (Русский)",
+          "provider_name": "Loading Progress — Russian translation",
+          "provider_directory_sha256": "06173701b56d88ee1356f4f7a45879844a0834de71c11008d833d52f1aaacf12",
+          "log_line_sha256": "4a4d3f9364f95dff58eee20d0c8d692dfb1ddeda6b54ee2ed76d36e6b8e46c8b"
+        }
+      ],
+      "Player_log_sha256": "7091e8c0b562dfd0743f897c3910115794ee564d961a7c201b6201815dc1eff9",
+      "natural_startup_ui_observation_sha256": "1dd6a4894f0e30300a999bfb8b995825c0b4893b5caf4887fa2a7266a80fb1b7"
+    }
+  },
+  "gameplay_tested": false,
+  "scope": "Actual naturally initialized custom translation cache and original provider log plus startup UI. All399 dictionary values verified; no artificial GetTranslation/Clear invocation, no claim of interactively exercising every formatted UI scenario or extended gameplay."
+}

@@ -1,0 +1,24 @@
+<?xml version='1.0' encoding='utf-8'?>
+<ModMetaData>
+  <name>Vanilla Achievements Expanded — Russian completion</name>
+  <author>Antyhc (AI-assisted with OpenAI Codex)</author>
+  <packageId>antyhc.russian.vanillaexpanded.achievements</packageId>
+  <url>https://github.com/Antyhc/RimWorld-Russian-Translations</url>
+  <description>Дополнение русского перевода Vanilla Achievements Expanded: русское название достижения «Закладывая основу» из Odyssey. Требуется оригинальный мод и его зависимости. Строка включается только при активном DLC Odyssey; без него дополнение не добавляет переводов. Рекомендуется вместе с существующим русификатором: чужой русский текст и сохранённые названия игр/цитат не копируются и не заменяются. Оригинал: Oskar Potocki, Smash Phil, Sarg Bjornson. Новый перевод: Antyhc, подготовлен и вычитан с помощью OpenAI Codex, CC BY-NC-SA 4.0. Независимая вычитка человеком и длительное прохождение не заявляются.
+
+Russian completion for Vanilla Achievements Expanded: the Odyssey achievement title "Laying Down Foundations" rendered in Russian. Requires the original mod and its dependencies. The string loads only while Odyssey DLC is active; the supplement adds no text without it. Recommended alongside the existing Russian pack; no third-party Russian or preserved game/quotation names are copied or replaced. Original: Oskar Potocki, Smash Phil, Sarg Bjornson. New translation: Antyhc, AI-assisted authoring and semantic review by OpenAI Codex, CC BY-NC-SA 4.0. No independent human proofreading or extended gameplay test claimed.</description>
+  <supportedVersions>
+    <li>1.7</li>
+  </supportedVersions>
+  <modDependencies>
+    <li>
+      <packageId>vanillaexpanded.achievements</packageId>
+      <displayName>Vanilla Achievements Expanded</displayName>
+      <steamWorkshopUrl>https://steamcommunity.com/sharedfiles/filedetails/?id=2288125657</steamWorkshopUrl>
+    </li>
+  </modDependencies>
+  <loadAfter>
+    <li>vanillaexpanded.achievements</li>
+    <li>ow.ru.achieve</li>
+  </loadAfter>
+</ModMetaData>

@@ -2,37 +2,41 @@
 
 Generated from `mods/*/manifest.json` by `python scripts/rwtranslations.py registry`.
 
-Last inventory generation (UTC): 2026-10-30T09:02:08+00:00
+Last inventory generation (UTC): 2026-10-30T10:09:57+00:00
 
 The registry tracks **166 mods**: 156 saved-store records and 10 additional draft/review metadata records; 0 records have unverified store scope. Saved stores can also contain unfinished drafts. Original and translation package IDs are separate namespaces. Discovery has no fixed mod limit.
 
-Steam has confirmed 9 item submissions: **8 pages verified anonymously**, 0 awaiting automatic content inspection. A submitted item ID or public API visibility flag alone does not prove public page access.
+Steam has confirmed 12 item submissions: **12 pages verified anonymously**, 0 awaiting automatic content inspection. A submitted item ID or public API visibility flag alone does not prove public page access.
 
 | Workshop translation | Website state | Game QA evidence |
 |---|---|---|
 | [Blood Animations](https://steamcommunity.com/sharedfiles/filedetails/?id=3830000511) | public; anonymous page verified | [passed](mods/fuu.bloodanimations/game-test-evidence.json) |
 | [Mechanoid Upgrades](https://steamcommunity.com/sharedfiles/filedetails/?id=3828883103) | public; anonymous page verified | [passed](mods/gogatio.mechanoidupgrades/game-test-evidence.json) |
+| [Loading Progress](https://steamcommunity.com/sharedfiles/filedetails/?id=3830035919) | public; anonymous page verified | [passed](mods/ilyvion.loadingprogress/game-test-evidence.json) |
 | [Smart Medicine - Continued](https://steamcommunity.com/sharedfiles/filedetails/?id=3828790822) | public; anonymous page verified | [passed](mods/memegoddess.smartmedicine/game-test-evidence.json) |
 | [Designator Shapes](https://steamcommunity.com/sharedfiles/filedetails/?id=3828790605) | public; anonymous page verified | [passed](mods/merthsoft.designatorshapes/game-test-evidence.json) |
-| [Reel's Expanded Storage](https://steamcommunity.com/sharedfiles/filedetails/?id=3830014953) | submitted_public_page_unverified | [passed](mods/reel.expanded.storage/game-test-evidence.json) |
+| [Reel's Expanded Storage](https://steamcommunity.com/sharedfiles/filedetails/?id=3830014953) | public; anonymous page verified | [passed](mods/reel.expanded.storage/game-test-evidence.json) |
 | [Reel's Turret Pipeline](https://steamcommunity.com/sharedfiles/filedetails/?id=3830009448) | public; anonymous page verified | [passed](mods/reel.turretpipeline/game-test-evidence.json) |
 | [Yet Another Research Tree (YART)](https://steamcommunity.com/sharedfiles/filedetails/?id=3828790757) | public; anonymous page verified | [passed](mods/seohyeon.yart/game-test-evidence.json) |
 | [No Burn Metal](https://steamcommunity.com/sharedfiles/filedetails/?id=3828790442) | public; anonymous page verified | [passed](mods/unon.noburnmetal/game-test-evidence.json) |
+| [Vanilla Achievements Expanded](https://steamcommunity.com/sharedfiles/filedetails/?id=3830022947) | public; anonymous page verified | [passed](mods/vanillaexpanded.achievements/game-test-evidence.json) |
+| [Vanilla Traits Expanded](https://steamcommunity.com/sharedfiles/filedetails/?id=3830032379) | public; anonymous page verified | [passed](mods/vanillaexpanded.vanillatraitsexpanded/game-test-evidence.json) |
 | [WVC - Work Modes](https://steamcommunity.com/sharedfiles/filedetails/?id=3830010549) | public; anonymous page verified | [passed](mods/wvc.sergkart.biotech.moremechanoidsworkmodes/game-test-evidence.json) |
 
-Game QA: 421 expected Russian values loaded across the recorded isolated RimWorld 1.7.4990 rev1069 checks. Each linked evidence file records its own baseline errors, Workshop-copy verification and UI inspection scope. Personal configuration hashes were unchanged. This is load/readback testing, **not a colony playthrough or extended gameplay test**. No independent human proofreading is claimed.
+Game QA: 823 expected Russian values loaded across the recorded isolated RimWorld 1.7.4990 rev1069 checks. Each linked evidence file records its own baseline errors, Workshop-copy verification and UI inspection scope. Personal configuration hashes were unchanged. This is load/readback testing, **not a colony playthrough or extended gameplay test**. No independent human proofreading is claimed.
 
 Private reviewed batches: **42 managed packages / 3474 values tested**; 616 local-model tasks processed. The private model candidate has **473 values verified across 8 providers**; 3947 combined values matched. This is isolated load/readback testing, with no colony playthrough or main-profile installation approval. Translation rights and public release QA are separate. [Counts and evidence hashes](reports/reviewed-batches-2026-10-28.json).
 
 Two fresh game boots verified the current upstream files and the same private candidate tree; the guarded isolated launcher now passes. Runtime UI handlers: **96 applied / 2 held** after the Dubs Mint Menus update; the assembly guard was preserved. Full UI translation is not claimed.
 
-[Workshop collection](https://steamcommunity.com/sharedfiles/filedetails/?id=3828791160): **native item and membership created; website publication pending**. Membership uses native SteamUGC AddDependency with postcondition verification; website publication is a separate step.
+[Workshop collection](https://steamcommunity.com/sharedfiles/filedetails/?id=3830036321): **native item and membership created; website publication pending**. Membership uses native SteamUGC AddDependency with postcondition verification; website publication is a separate step.
 
-Authenticated owner edit form returns Steam error15: Access denied when saving collection title/description, including after selecting the owned Preview.png. Five native members verified; website Publish remains incomplete.
+Official web wizard created the collection and uploaded its own preview successfully. All12members and bilingual description are visible to the owner. Publish button does not complete; supported native visibility-only update returns15 AccessDenied with needs_legal=false. Collection remains private(2); no public availability is claimed.
 
 Integration proposals:
 
 - [Designator Shapes](https://github.com/merthsoft/designator-shapes/pull/15): open.
+- [Vanilla Expanded Framework](https://github.com/OneCodeUnit/VanillaRussianExpanded/pull/47): open (community translation repository; original-native acceptance not claimed).
 - [ReGrowth 2](https://github.com/OneCodeUnit/VanillaRussianExpanded/pull/46): accepted_into_community_translation (community translation repository; original-native acceptance not claimed).
 - [Yet Another Research Tree (YART)](https://github.com/csh1668/YetAnotherResearchTree/pull/6): open.
 - [No Burn Metal](https://github.com/Nonunon/NoBurnMetal/pull/1): accepted.
@@ -50,24 +54,24 @@ The 13 source-drift packages were refreshed. Targeted repairs added 20 strings, 
 | model_held_tasks | 10 |
 | private_model_test_values | 473 |
 | store_scope_unverified | 0 |
-| technically_checked | 9 |
-| game_tested | 9 |
+| technically_checked | 12 |
+| game_tested | 12 |
 | github_metadata_records | 166 |
-| github_published | 5 |
-| workshop_submitted | 9 |
-| workshop_published | 8 |
-| pull_requests | 4 |
+| github_published | 12 |
+| workshop_submitted | 12 |
+| workshop_published | 12 |
+| pull_requests | 5 |
 | accepted | 1 |
-| awaiting_rights | 145 |
+| awaiting_rights | 122 |
 | needs_update | 13 |
-| freshness_unverified | 157 |
+| freshness_unverified | 154 |
 | static_inventory_pass | 129 |
 | static_inventory_flagged | 20 |
 | static_findings | 49 |
 | repository_monitors | 24 |
-| pull_request_monitors | 4 |
+| pull_request_monitors | 5 |
 | icon_permission_requests | 2 |
-| workshop_public_pages_verified | 8 |
+| workshop_public_pages_verified | 12 |
 | workshop_content_check_pending | 0 |
 | workshop_source_monitors | 166 |
 

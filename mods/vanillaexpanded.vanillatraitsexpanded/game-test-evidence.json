@@ -1,0 +1,43 @@
+{
+  "schema": 1,
+  "harness_version": 2,
+  "status": "actual_conditional_control_and_candidate_verified",
+  "checked_at": "2026-10-30T09:19:32.024847+00:00",
+  "case_id": "traits2",
+  "package_id": "vanillaexpanded.vanillatraitsexpanded",
+  "translation_package_id": "antyhc.russian.vanillaexpanded.vanillatraitsexpanded",
+  "game_version": "1.7.4990 rev1069",
+  "payload_sha256": "36fe69da0d85688287f7d9a9a9b1feebf30a29e4a00f26e47a5dc052ac97f95f",
+  "values_verified": 2,
+  "english_control_values_verified": 2,
+  "master_targets_observed": 2,
+  "active_target_ids": [
+    "DefInjected|HediffDef|VTE_SlowWorkSpeed.stages.0.label",
+    "DefInjected|HediffDef|VTE_SlowWorkSpeed.stages.1.label"
+  ],
+  "inactive_target_ids": [],
+  "inactive_targets_verified_unchanged_and_not_injected": 0,
+  "baseline_localization_errors": 38,
+  "candidate_localization_errors": 38,
+  "additional_localization_errors": 0,
+  "exact_error_multiset_unchanged": true,
+  "candidate_root_verified": true,
+  "keyed_owner_verified": true,
+  "source_inputs_unchanged": true,
+  "control_capture_sha256": "1f159abe6ed97e4ce09436826a361c8c109eca37ab0d196faab1ddf34fabc743",
+  "candidate_capture_sha256": "7d14e8219105fa9fdaf996d467ec89742057d587b5fb371c37fd8a8d87de59e5",
+  "request_sha256": "f18cf87f1f3f2ddd02b1157f969f6bfcae7827c0c618587dfef70388f1d0f40a",
+  "probe_dll_sha256": "01359af068f9b58b29c4f7b61c35742b88cf4c7881ba2e09a7cf277a6b90d7a8",
+  "active_packages": [
+    "brrainz.harmony",
+    "ludeon.rimworld",
+    "oskarpotocki.vanillafactionsexpanded.core",
+    "vanillaexpanded.vanillatraitsexpanded",
+    "ow.ru.traits",
+    "antyhc.russian.vanillaexpanded.vanillatraitsexpanded",
+    "publicationqa.session4.traits2"
+  ],
+  "conditional_context": {},
+  "gameplay_tested": false,
+  "scope": "Actual isolated startup and all-master-target readback. Enabled targets match English then Russian with physical/Keyed ownership; disabled targets preserve exact control state and receive no candidate injection. Exact active context, source/payload/probe hashes and full error multiset verified. No save, extended gameplay or full human proofreading claim."
+}
