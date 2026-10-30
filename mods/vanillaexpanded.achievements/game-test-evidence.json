@@ -1,31 +1,51 @@
 {
   "schema": 1,
-  "status": "actual_all_required_conditional_contexts_verified",
+  "status": "actual_all_condition_combinations_verified",
   "package_id": "vanillaexpanded.achievements",
   "translation_package_id": "antyhc.russian.vanillaexpanded.achievements",
   "game_version": "1.7.4990 rev1069",
-  "payload_sha256": "735d519c8e99817a451c20890175ff3082adc89f4280e998b2c5324a21f2f1fb",
+  "payload_sha256": "30eb978f526c784f6f155fd93a380bf14767e300f0fd1f556b44abbedbef845f",
   "values_verified": 1,
-  "additional_localization_errors": 0,
-  "exact_error_multiset_unchanged": true,
-  "conditional_roots_enabled_and_disabled_verified": [
+  "condition_ids": [
     "ludeon.rimworld.odyssey"
   ],
+  "actual_condition_combinations_verified": 2,
+  "additional_localization_errors": 0,
+  "exact_error_multiset_unchanged": true,
+  "full_global_Player_ERROR_multisets_unchanged": true,
+  "Player_log_verification": {
+    "vea1v2-off": {
+      "error_records": 0,
+      "error_record_multiset_sha256": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945",
+      "control_log_sha256": "463e2da06fa3e57d259f0b93fbeda305e0e30141dc677229e45a91d0217a473a",
+      "candidate_log_sha256": "31ed09b389296bc07b5bbf200cb5a4681992651d9d3e86e38154ed3b72225ea1"
+    },
+    "vea1v2-on": {
+      "error_records": 0,
+      "error_record_multiset_sha256": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945",
+      "control_log_sha256": "5858723d2f9eeb841a2e87049bf12c22920de18e783ae98264f19609c891b7ad",
+      "candidate_log_sha256": "ca591e4764e037d8e94f33cd3fe4f1ce1e3eca37db99645cf38f78845d891178"
+    }
+  },
+  "source_inputs_unchanged": true,
+  "same_installed_payload_root_verified": true,
+  "all_master_targets_observed_in_each_context": true,
+  "probe_dll_sha256": "01359af068f9b58b29c4f7b61c35742b88cf4c7881ba2e09a7cf277a6b90d7a8",
   "case_evidence_sha256": {
-    "vea1-off": "55ba28b4c7da9da2b8a18e44091de7df0faf222ca27b0eb7d17089083e877051",
-    "vea1-on": "ac321304367ff3d442bf0aff616ea25ab6de58399244709546da06e4172a5115"
+    "vea1v2-off": "a67920754ff770fb6366e69cd0a628ad6588270f31a2ccc1b60808edc5eb85df",
+    "vea1v2-on": "4f4f0c91c7a5dd1ac494696f7f52d46ab2f6f3a0872cb6e352e0da019a9f2898"
   },
   "contexts": [
     {
       "schema": 1,
       "harness_version": 2,
       "status": "actual_conditional_control_and_candidate_verified",
-      "checked_at": "2026-10-30T08:58:41.969158+00:00",
-      "case_id": "vea1-off",
+      "checked_at": "2026-10-30T11:03:54.658740+00:00",
+      "case_id": "vea1v2-off",
       "package_id": "vanillaexpanded.achievements",
       "translation_package_id": "antyhc.russian.vanillaexpanded.achievements",
       "game_version": "1.7.4990 rev1069",
-      "payload_sha256": "735d519c8e99817a451c20890175ff3082adc89f4280e998b2c5324a21f2f1fb",
+      "payload_sha256": "30eb978f526c784f6f155fd93a380bf14767e300f0fd1f556b44abbedbef845f",
       "values_verified": 0,
       "english_control_values_verified": 0,
       "master_targets_observed": 1,
@@ -41,9 +61,9 @@
       "candidate_root_verified": true,
       "keyed_owner_verified": true,
       "source_inputs_unchanged": true,
-      "control_capture_sha256": "1fb108ad90e496e1d6e9197c4689d5e454d690178cc7731af31c2df3dec2a9b8",
-      "candidate_capture_sha256": "2ca067a3b27e4b1e5a12a99be1504c88e61107965faaea1a7a1d867731f8a332",
-      "request_sha256": "6bc3ba5174c1eab49c3a6f0f1952433e0606fc7ec79c26e69296f2f3f00b9cf8",
+      "control_capture_sha256": "8881a3a1d0186783eb0709ed72775d9b5bc139c094ce69232e471663a6719cbb",
+      "candidate_capture_sha256": "049fca691c36272fbab7764b021644f8477d3c173bd9f16b8e7a6f2f4ef01170",
+      "request_sha256": "b1d45786be2ce495e7b265ec7bc56cc2e619ace2728f52fe01abfca03ba10007",
       "probe_dll_sha256": "01359af068f9b58b29c4f7b61c35742b88cf4c7881ba2e09a7cf277a6b90d7a8",
       "active_packages": [
         "brrainz.harmony",
@@ -51,7 +71,7 @@
         "oskarpotocki.vanillafactionsexpanded.core",
         "vanillaexpanded.achievements",
         "antyhc.russian.vanillaexpanded.achievements",
-        "publicationqa.session4.vea1-off"
+        "publicationqa.session4.vea1v2-off"
       ],
       "conditional_context": {},
       "gameplay_tested": false,
@@ -61,12 +81,12 @@
       "schema": 1,
       "harness_version": 2,
       "status": "actual_conditional_control_and_candidate_verified",
-      "checked_at": "2026-10-30T09:06:20.258816+00:00",
-      "case_id": "vea1-on",
+      "checked_at": "2026-10-30T11:09:34.093826+00:00",
+      "case_id": "vea1v2-on",
       "package_id": "vanillaexpanded.achievements",
       "translation_package_id": "antyhc.russian.vanillaexpanded.achievements",
       "game_version": "1.7.4990 rev1069",
-      "payload_sha256": "735d519c8e99817a451c20890175ff3082adc89f4280e998b2c5324a21f2f1fb",
+      "payload_sha256": "30eb978f526c784f6f155fd93a380bf14767e300f0fd1f556b44abbedbef845f",
       "values_verified": 1,
       "english_control_values_verified": 1,
       "master_targets_observed": 1,
@@ -82,9 +102,9 @@
       "candidate_root_verified": true,
       "keyed_owner_verified": true,
       "source_inputs_unchanged": true,
-      "control_capture_sha256": "bf9c7a400c5afc3805340394116761bc160baac56eeaa6bfc77f8ae17dd569f5",
-      "candidate_capture_sha256": "01ccd4f640b7c6343eb07e30364269f211fa94a2c2b38809d166e63eb9c23828",
-      "request_sha256": "8f5cc0de16c775de214ff1bdd5c050a4778cc906d4ed8ce4dd195401ab896e53",
+      "control_capture_sha256": "950effc0115ff11fe1635fea9223fc1c95ce3acc7b60d4607e13b3904bdba1a6",
+      "candidate_capture_sha256": "5b1f815851212545e426dfd552887baddfd9375bece76f56c85f2d42a06b8d44",
+      "request_sha256": "a6f2d875e2ddc499070131cd487ddc9a3d4e5a5740042b9d63d5303ea886a463",
       "probe_dll_sha256": "01359af068f9b58b29c4f7b61c35742b88cf4c7881ba2e09a7cf277a6b90d7a8",
       "active_packages": [
         "brrainz.harmony",
@@ -93,7 +113,7 @@
         "oskarpotocki.vanillafactionsexpanded.core",
         "vanillaexpanded.achievements",
         "antyhc.russian.vanillaexpanded.achievements",
-        "publicationqa.session4.vea1-on"
+        "publicationqa.session4.vea1v2-on"
       ],
       "conditional_context": {},
       "gameplay_tested": false,
@@ -101,5 +121,5 @@
     }
   ],
   "gameplay_tested": false,
-  "scope": "The same exact payload passed original-only/candidate tests with every declared condition enabled and disabled. Enabled values matched English then Russian; disabled targets retained exact control state and received no injection. Error multisets matched within each context; baselines may differ across contexts. No saves, extended gameplay, Workshop-copy installation or independent human proofreading claimed."
+  "scope": "All declared condition combinations passed separate actual English-control/Russian-candidate startup and master-target readback. Active values matched exact sources/owners; inactive targets retained exact control state without candidate injection. Full localization multisets and complete timestamp-stripped global Player.log ERROR records matched within each pair; baselines may differ across contexts. Unique active target union is counted once. No save, extended gameplay, every formatted scenario, Workshop-copy installation or independent human proofreading claimed."
 }

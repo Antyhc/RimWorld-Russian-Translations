@@ -1,0 +1,40 @@
+{
+  "schema": 1,
+  "url": "https://github.com/bbradson/Adaptive-Storage-Framework/pull/41",
+  "number": 41,
+  "state": "open",
+  "merged": false,
+  "head_sha": "4d8c34b6362f3a436c73ac942d985195b5435fa5",
+  "base_sha": "31ee88b46651cfbe37da3f89620bc0b907165cc0",
+  "repository": "bbradson/Adaptive-Storage-Framework",
+  "head_repository": "Antyhc/Adaptive-Storage-Framework",
+  "branch": "russian-localization-20261030",
+  "changed_XML_files": 2,
+  "keys": 42,
+  "Russian_wordings": 41,
+  "retained_Vanilla_mode_label": 1,
+  "contribution_license": "MIT",
+  "AI_disclosed": true,
+  "fresh_game_claimed": false,
+  "human_proofread_claimed": false,
+  "RimWorld_1_7_support_claimed": false,
+  "existing_metadata_untouched": true,
+  "credentials_written": false,
+  "author_committer_public_noreply": true,
+  "source_package_id": "adaptive.storage.framework",
+  "original_workshop_id": "3033901359",
+  "files": [
+    {
+      "path": "Languages/Russian/Keyed/Keys.xml",
+      "sha256": "4b5cd880607d69b7ab90100ac60b9989d940d2674623bcfbc6e59bd8a2bb7922",
+      "git_blob_sha": "206a1e0bd1d88ab3a156460d01e50e7bcc362a54",
+      "entries": 24
+    },
+    {
+      "path": "Languages/Russian/DefInjected/AdaptiveStorage.ContentLabelStyleDef/ContentLabelStyles.xml",
+      "sha256": "8de1c9082c479ab6b6c23f90ac142c9fc171848e5a8d20e953ded9ff29f498b3",
+      "git_blob_sha": "81e2792fdf4a7ef1729574d9b1cd7669463b8eda",
+      "entries": 18
+    }
+  ]
+}

@@ -1,0 +1,9 @@
+<?xml version='1.0' encoding='utf-8'?>
+<LanguageData>
+  <VCE_BlueMilkIntoCheese.description>Перерабатывает 40 ед. синего молока в 25 ед. сыра.</VCE_BlueMilkIntoCheese.description>
+  <VCE_BlueMilkIntoCheese.label>Сыр из синего молока</VCE_BlueMilkIntoCheese.label>
+  <VCE_GowMilkIntoCheese.description>Перерабатывает 40 ед. корозьего молока в 25 ед. сыра.</VCE_GowMilkIntoCheese.description>
+  <VCE_GowMilkIntoCheese.label>Сыр из корозьего молока</VCE_GowMilkIntoCheese.label>
+  <VCE_NightMilkIntoCheese.description>Перерабатывает 40 ед. ночного молока в 25 ед. сыра.</VCE_NightMilkIntoCheese.description>
+  <VCE_NightMilkIntoCheese.label>Сыр из ночного молока</VCE_NightMilkIntoCheese.label>
+</LanguageData>

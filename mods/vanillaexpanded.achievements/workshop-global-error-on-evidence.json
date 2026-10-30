@@ -1,0 +1,13 @@
+{
+  "checked_at": "2026-10-30T11:24:28.612198+00:00",
+  "status": "actual_Workshop_complete_ERROR_FATAL_record_multiset_unchanged",
+  "case_id": "vea1v2-on-ws",
+  "records": {
+    "error_records": 0,
+    "error_record_multiset_sha256": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945"
+  },
+  "control_log_sha256": "5858723d2f9eeb841a2e87049bf12c22920de18e783ae98264f19609c891b7ad",
+  "candidate_log_sha256": "056adb12c93e7e24987abd47fe91fba61fb051fc916a12242a396669fbb18cc8",
+  "parser_sha256": "722d2cc8061e9b58f39f1dd3c6bd5cf8a2cdf36d8d5a377ff66655fab933fc6a",
+  "scope": "Actual updated subscribed-copy ERROR/FATAL records, including continuations; exact earlier actual English control separately source-bound by Workshop field proof."
+}

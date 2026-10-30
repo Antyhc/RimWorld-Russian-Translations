@@ -1,0 +1,13 @@
+<?xml version='1.0' encoding='utf-8'?>
+<LanguageData>
+  <VFEE.Parade.CalledOffIn>Отмена через {0}</VFEE.Parade.CalledOffIn>
+  <VFEE.Parade.CalledOffOn>Если знать не высадится раньше, парад отменят {0}.</VFEE.Parade.CalledOffOn>
+  <VFEE.Parade.EndGame.Ending>{STELLARCH_nameDef} и другие участники восхождения, сопровождавшие {STELLARCH_objective}, покинули этот окраинный мир на имперском челноке. Отныне {STELLARCH_pronoun} служит правой рукой императора {EMPEROR_nameFull}.\n\nКолония остаётся, и её история продолжается.</VFEE.Parade.EndGame.Ending>
+  <VFEE.Parade.EndGame.Intro>{STELLARCH_nameDef}: восхождение состоялось!</VFEE.Parade.EndGame.Intro>
+  <VFEE.Parade.NoblesArriveIn>Знать прибудет через {0}</VFEE.Parade.NoblesArriveIn>
+  <VFEE.Parade.NoblesArriveInDesc>Челнок со знатью, прибывающей на парад в честь восхождения, приземлится через {0}. До этого у колонии есть время подготовиться. Знать не высадится, пока стелларх отсутствует или колонии что-то угрожает. Если это продлится день, парад отменят.</VFEE.Parade.NoblesArriveInDesc>
+  <VFEE.Parade.NoblesArriveOn>Знать высадится {0}.</VFEE.Parade.NoblesArriveOn>
+  <VFEE.Parade.NoblesWaiting>Знать ожидает парада</VFEE.Parade.NoblesWaiting>
+  <VFEE.Parade.NoblesWaitingAwayDesc>Представители знати не высадятся на парад в честь восхождения, пока {STELLARCH_nameDef} не окажется в колонии, чтобы принять их. Если {STELLARCH_pronoun} не вернётся в течение {TIME}, парад отменят.</VFEE.Parade.NoblesWaitingAwayDesc>
+  <VFEE.Parade.NoblesWaitingThreatDesc>Знать, приглашённая на парад в честь восхождения, не высадится, пока колонии угрожает опасность. Если за {TIME} угроза не исчезнет, парад отменят.</VFEE.Parade.NoblesWaitingThreatDesc>
+</LanguageData>

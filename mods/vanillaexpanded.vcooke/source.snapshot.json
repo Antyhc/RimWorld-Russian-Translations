@@ -1,0 +1,177 @@
+{
+  "schema_version": 1,
+  "generated_at": "2026-10-30T10:32:59.334081+00:00",
+  "scope": "Only newly authored missing additions; existing native/community Russian remains separate.",
+  "strings": {
+    "DefInjected|PipeSystem.ProcessDef|VCE_BearffaloMilkIntoCheese.description": "abc770affe2d5475fdc0f09edbbeb3222bc3098382b88fcd6b897fae8899dba1",
+    "DefInjected|PipeSystem.ProcessDef|VCE_BearffaloMilkIntoCheese.label": "3c231f560a693d23d0d9ea135d9abda799f0bed51de1bdd5072989772b39f558",
+    "DefInjected|PipeSystem.ProcessDef|VCE_BlueMilkIntoCheese.description": "2e6ddfd0db89a69bd1453de54da87da299f8875e2375bf6df0f39d95f583cb2d",
+    "DefInjected|PipeSystem.ProcessDef|VCE_BlueMilkIntoCheese.label": "c4459affb74814f9f93f4bd45a7ac5f10af547a01a9534a825170e6b982e7dcb",
+    "DefInjected|PipeSystem.ProcessDef|VCE_ChickenffaloMilkIntoCheese.description": "dfb6849945cb5fb83b201716664caef883874e19a86aa0477b4c2e7909d6eb43",
+    "DefInjected|PipeSystem.ProcessDef|VCE_ChickenffaloMilkIntoCheese.label": "ca27e0668248b8dd679e322e3e29f8466af655102135430688b9e062e152583e",
+    "DefInjected|PipeSystem.ProcessDef|VCE_GowMilkIntoCheese.description": "4db073eb9eb6b7df873deb67ab787b55eec34bb18322f47ac752ab416f6c37d4",
+    "DefInjected|PipeSystem.ProcessDef|VCE_GowMilkIntoCheese.label": "2be6925f7dae58bcf6738e97eab3fc85edfde22f755cf0cb00e76dd3b40d1577",
+    "DefInjected|PipeSystem.ProcessDef|VCE_MechaMilkIntoCheese.description": "ca62b169d7bee187dd79f7b8d7a4f9def6407daee42d212a28b9888548b06de0",
+    "DefInjected|PipeSystem.ProcessDef|VCE_MechaMilkIntoCheese.label": "bb41737d14b7eddd2990fc98c63ad2026409f7d7c406256ea31dcb84d2657d5a",
+    "DefInjected|PipeSystem.ProcessDef|VCE_MuffalobearMilkIntoCheese.description": "435b05f4a20b32f1745f2bbdf858928f6091096dbbe598f2c64969e22b846d91",
+    "DefInjected|PipeSystem.ProcessDef|VCE_MuffalobearMilkIntoCheese.label": "8f754591b3277e7ac90e0a66ca1efea6aa08f99b713df44a101c9c6492cdb21a",
+    "DefInjected|PipeSystem.ProcessDef|VCE_MuffalochickenMilkIntoCheese.description": "a2389350b74be86d57de5d5e2cac391b31e5280bec5c687d5cb48d91ba928456",
+    "DefInjected|PipeSystem.ProcessDef|VCE_MuffalochickenMilkIntoCheese.label": "82ba3bffabf1fb56842bcfeaacf649936a70f1d2e8248acc4b17ce1eb996070b",
+    "DefInjected|PipeSystem.ProcessDef|VCE_NightMilkIntoCheese.description": "edbd2a281b53f4d6bbccbbbb998f38f1a94c741bdd99373fda869d2073207c65",
+    "DefInjected|PipeSystem.ProcessDef|VCE_NightMilkIntoCheese.label": "4b3cda0a3fe80f48392dd4268664aff5e1084b28a600b13f3c0b6d34f3cf058e",
+    "DefInjected|PipeSystem.ProcessDef|VCE_RatMilkIntoCheese.description": "37ef46885b5d95bdab9e9f96346fedd7d693791845127e08a90487f6872ff821",
+    "DefInjected|PipeSystem.ProcessDef|VCE_RatMilkIntoCheese.label": "68eb895f3c55fd913115a31457d9c5307ba2688fd9cdff8ea7a9549b07ca9c02",
+    "DefInjected|PipeSystem.ProcessDef|VCE_ThrumffaloMilkIntoCheese.description": "912f9b58929bed93e9131c873476cce2cce04661a89e44bdbfb6e1a8d87a323d",
+    "DefInjected|PipeSystem.ProcessDef|VCE_ThrumffaloMilkIntoCheese.label": "80d69222ba5b577181a5f9798200b5c47cda3903af162eb52c648b6d2356f4a5",
+    "DefInjected|PipeSystem.ProcessDef|VCE_WeirdMilkIntoCheese.description": "c447aa581b258070f87564761803ea2faadf91da9344dc82e7544c0a307090cb",
+    "DefInjected|PipeSystem.ProcessDef|VCE_WeirdMilkIntoCheese.label": "f3324e8cc7255949b30865bb51734746445cf795583ea59d4142c25ec6df2f10",
+    "DefInjected|PipeSystem.ProcessDef|VCE_WolffaloMilkIntoCheese.description": "c8e446e4bc627575002d18cbf50836129e9674ec3cd6267a2eaf0c1369101408",
+    "DefInjected|PipeSystem.ProcessDef|VCE_WolffaloMilkIntoCheese.label": "46ab10d261e896ee6311e83f0aa1b4e4d8bdb43cc1b1485feda61c2dcab86259"
+  },
+  "signatures": {
+    "DefInjected|PipeSystem.ProcessDef|VCE_BearffaloMilkIntoCheese.description": {
+      "source_hash": "abc770affe2d5475fdc0f09edbbeb3222bc3098382b88fcd6b897fae8899dba1",
+      "tokens": [],
+      "tags": [],
+      "source_empty": false
+    },
+    "DefInjected|PipeSystem.ProcessDef|VCE_BearffaloMilkIntoCheese.label": {
+      "source_hash": "3c231f560a693d23d0d9ea135d9abda799f0bed51de1bdd5072989772b39f558",
+      "tokens": [],
+      "tags": [],
+      "source_empty": false
+    },
+    "DefInjected|PipeSystem.ProcessDef|VCE_BlueMilkIntoCheese.description": {
+      "source_hash": "2e6ddfd0db89a69bd1453de54da87da299f8875e2375bf6df0f39d95f583cb2d",
+      "tokens": [],
+      "tags": [],
+      "source_empty": false
+    },
+    "DefInjected|PipeSystem.ProcessDef|VCE_BlueMilkIntoCheese.label": {
+      "source_hash": "c4459affb74814f9f93f4bd45a7ac5f10af547a01a9534a825170e6b982e7dcb",
+      "tokens": [],
+      "tags": [],
+      "source_empty": false
+    },
+    "DefInjected|PipeSystem.ProcessDef|VCE_ChickenffaloMilkIntoCheese.description": {
+      "source_hash": "dfb6849945cb5fb83b201716664caef883874e19a86aa0477b4c2e7909d6eb43",
+      "tokens": [],
+      "tags": [],
+      "source_empty": false
+    },
+    "DefInjected|PipeSystem.ProcessDef|VCE_ChickenffaloMilkIntoCheese.label": {
+      "source_hash": "ca27e0668248b8dd679e322e3e29f8466af655102135430688b9e062e152583e",
+      "tokens": [],
+      "tags": [],
+      "source_empty": false
+    },
+    "DefInjected|PipeSystem.ProcessDef|VCE_GowMilkIntoCheese.description": {
+      "source_hash": "4db073eb9eb6b7df873deb67ab787b55eec34bb18322f47ac752ab416f6c37d4",
+      "tokens": [],
+      "tags": [],
+      "source_empty": false
+    },
+    "DefInjected|PipeSystem.ProcessDef|VCE_GowMilkIntoCheese.label": {
+      "source_hash": "2be6925f7dae58bcf6738e97eab3fc85edfde22f755cf0cb00e76dd3b40d1577",
+      "tokens": [],
+      "tags": [],
+      "source_empty": false
+    },
+    "DefInjected|PipeSystem.ProcessDef|VCE_MechaMilkIntoCheese.description": {
+      "source_hash": "ca62b169d7bee187dd79f7b8d7a4f9def6407daee42d212a28b9888548b06de0",
+      "tokens": [],
+      "tags": [],
+      "source_empty": false
+    },
+    "DefInjected|PipeSystem.ProcessDef|VCE_MechaMilkIntoCheese.label": {
+      "source_hash": "bb41737d14b7eddd2990fc98c63ad2026409f7d7c406256ea31dcb84d2657d5a",
+      "tokens": [],
+      "tags": [],
+      "source_empty": false
+    },
+    "DefInjected|PipeSystem.ProcessDef|VCE_MuffalobearMilkIntoCheese.description": {
+      "source_hash": "435b05f4a20b32f1745f2bbdf858928f6091096dbbe598f2c64969e22b846d91",
+      "tokens": [],
+      "tags": [],
+      "source_empty": false
+    },
+    "DefInjected|PipeSystem.ProcessDef|VCE_MuffalobearMilkIntoCheese.label": {
+      "source_hash": "8f754591b3277e7ac90e0a66ca1efea6aa08f99b713df44a101c9c6492cdb21a",
+      "tokens": [],
+      "tags": [],
+      "source_empty": false
+    },
+    "DefInjected|PipeSystem.ProcessDef|VCE_MuffalochickenMilkIntoCheese.description": {
+      "source_hash": "a2389350b74be86d57de5d5e2cac391b31e5280bec5c687d5cb48d91ba928456",
+      "tokens": [],
+      "tags": [],
+      "source_empty": false
+    },
+    "DefInjected|PipeSystem.ProcessDef|VCE_MuffalochickenMilkIntoCheese.label": {
+      "source_hash": "82ba3bffabf1fb56842bcfeaacf649936a70f1d2e8248acc4b17ce1eb996070b",
+      "tokens": [],
+      "tags": [],
+      "source_empty": false
+    },
+    "DefInjected|PipeSystem.ProcessDef|VCE_NightMilkIntoCheese.description": {
+      "source_hash": "edbd2a281b53f4d6bbccbbbb998f38f1a94c741bdd99373fda869d2073207c65",
+      "tokens": [],
+      "tags": [],
+      "source_empty": false
+    },
+    "DefInjected|PipeSystem.ProcessDef|VCE_NightMilkIntoCheese.label": {
+      "source_hash": "4b3cda0a3fe80f48392dd4268664aff5e1084b28a600b13f3c0b6d34f3cf058e",
+      "tokens": [],
+      "tags": [],
+      "source_empty": false
+    },
+    "DefInjected|PipeSystem.ProcessDef|VCE_RatMilkIntoCheese.description": {
+      "source_hash": "37ef46885b5d95bdab9e9f96346fedd7d693791845127e08a90487f6872ff821",
+      "tokens": [],
+      "tags": [],
+      "source_empty": false
+    },
+    "DefInjected|PipeSystem.ProcessDef|VCE_RatMilkIntoCheese.label": {
+      "source_hash": "68eb895f3c55fd913115a31457d9c5307ba2688fd9cdff8ea7a9549b07ca9c02",
+      "tokens": [],
+      "tags": [],
+      "source_empty": false
+    },
+    "DefInjected|PipeSystem.ProcessDef|VCE_ThrumffaloMilkIntoCheese.description": {
+      "source_hash": "912f9b58929bed93e9131c873476cce2cce04661a89e44bdbfb6e1a8d87a323d",
+      "tokens": [],
+      "tags": [],
+      "source_empty": false
+    },
+    "DefInjected|PipeSystem.ProcessDef|VCE_ThrumffaloMilkIntoCheese.label": {
+      "source_hash": "80d69222ba5b577181a5f9798200b5c47cda3903af162eb52c648b6d2356f4a5",
+      "tokens": [],
+      "tags": [],
+      "source_empty": false
+    },
+    "DefInjected|PipeSystem.ProcessDef|VCE_WeirdMilkIntoCheese.description": {
+      "source_hash": "c447aa581b258070f87564761803ea2faadf91da9344dc82e7544c0a307090cb",
+      "tokens": [],
+      "tags": [],
+      "source_empty": false
+    },
+    "DefInjected|PipeSystem.ProcessDef|VCE_WeirdMilkIntoCheese.label": {
+      "source_hash": "f3324e8cc7255949b30865bb51734746445cf795583ea59d4142c25ec6df2f10",
+      "tokens": [],
+      "tags": [],
+      "source_empty": false
+    },
+    "DefInjected|PipeSystem.ProcessDef|VCE_WolffaloMilkIntoCheese.description": {
+      "source_hash": "c8e446e4bc627575002d18cbf50836129e9674ec3cd6267a2eaf0c1369101408",
+      "tokens": [],
+      "tags": [],
+      "source_empty": false
+    },
+    "DefInjected|PipeSystem.ProcessDef|VCE_WolffaloMilkIntoCheese.label": {
+      "source_hash": "46ab10d261e896ee6311e83f0aa1b4e4d8bdb43cc1b1485feda61c2dcab86259",
+      "tokens": [],
+      "tags": [],
+      "source_empty": false
+    }
+  }
+}

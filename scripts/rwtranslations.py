@@ -288,7 +288,7 @@ def conditional_language_roots(folder, manifest):
 
 
 def extract_payload_language(folder, manifest, conditional_roots=None):
-    """Merge only validated Russian roots, rejecting cross-root key collisions."""
+    """Merge validated Russian roots, rejecting key and physical XML collisions."""
     folder = Path(folder)
     errors = []
     if conditional_roots is None:
@@ -296,11 +296,27 @@ def extract_payload_language(folder, manifest, conditional_roots=None):
     payload = folder / "payload"
     root_language = payload / "Languages/Russian"
     language_roots = [(".", root_language)]
+    if conditional_roots and not any(path.is_file() and path.suffix.casefold() == ".xml" for path in root_language.rglob("*")):
+        # RimWorld1.7's AnyTranslationsLoaded checks files, not translated keys.
+        # A valid empty base dictionary avoids an ERROR when all optional roots
+        # are inactive, without inventing a source string or injecting a Def.
+        errors.append("conditional_package_missing_unconditional_language_xml")
     if manifest.get("conditional_languages") is not None and not root_language.is_dir():
-        language_roots = []  # A conditional-only supplement has no unconditional strings.
+        language_roots = []
     language_roots += [(rel, payload / rel / "Languages/Russian") for rel in conditional_roots]
-    rows = {}
+    rows, xml_paths = {}, {}
     for label, directory in language_roots:
+        # Positive conditions can all be active together. The game overlays files
+        # by their relative path before parsing keys, so disjoint keys do not make
+        # equal filenames in different roots safe (including the base root).
+        for path in sorted(directory.rglob("*")):
+            if not path.is_file() or path.suffix.casefold() != ".xml":
+                continue
+            relative = path.relative_to(directory).as_posix().casefold()
+            if relative in xml_paths and xml_paths[relative] != label:
+                errors.append("duplicate_xml_path_across_language_roots:" + relative)
+            else:
+                xml_paths[relative] = label
         current, problems = extract_language(directory)
         errors.extend(problems)
         if label != "." and not current:
@@ -481,6 +497,7 @@ def registry(root=ROOT):
         item["manifest"] = path.relative_to(root).as_posix()
         records.append(item)
     static = [m.get("inventory", {}).get("local_static_audit", {}) for m in records]
+    pr_urls = {m["integration"]["pr_url"].rstrip("/") for m in records if m.get("integration", {}).get("pr_url")}
     return {"schema_version": 1, "generated_at": utcnow(), "mods": records, "counts": {
         "translations": len(records),
         "saved_store_records": sum(m.get("inventory", {}).get("saved_translation_store") is True for m in records),
@@ -495,7 +512,8 @@ def registry(root=ROOT):
         "github_published": sum(bool(m.get("publication", {}).get("github_url")) and m.get("publication", {}).get("github_status") in ("translation_published", "published") and (root / "mods" / m["package_id"] / "payload").is_dir() for m in records),
         "workshop_submitted": sum(bool(m.get("publication", {}).get("workshop_id")) for m in records),
         "workshop_published": sum(m.get("publication", {}).get("anonymous_page_verified") is True for m in records),
-        "pull_requests": sum(bool(m.get("integration", {}).get("pr_url")) for m in records),
+        "pull_requests": len(pr_urls),
+        "integration_records": sum(bool(m.get("integration", {}).get("pr_url")) for m in records),
         "accepted": sum(m.get("integration", {}).get("status") == "accepted" for m in records),
         "awaiting_rights": sum(not confirmed_rights(m, "translation") for m in records),
         "needs_update": sum(m.get("qa", {}).get("update_required") is True or "source_snapshot_drift" in m.get("inventory", {}).get("local_static_audit", {}).get("issue_kinds", []) for m in records),
@@ -504,7 +522,7 @@ def registry(root=ROOT):
         "static_inventory_flagged": sum(bool(x.get("issue_kinds") or x.get("issues")) for x in static),
         "static_findings": sum(x.get("issue_count", sum(i.get("count", 1) for i in x.get("issues", []))) for x in static),
         "repository_monitors": sum(bool(m.get("monitor", {}).get("github_tree")) for m in records),
-        "pull_request_monitors": sum(bool(m.get("integration", {}).get("pr_url")) for m in records),
+        "pull_request_monitors": len(pr_urls),
         "icon_permission_requests": sum((m.get("rights", {}).get("icon", {}).get("permission_requested") is True) or (m.get("original_art_permission_request") or {}).get("permission_requested") is True for m in records),
         "workshop_public_pages_verified": sum(m.get("publication", {}).get("anonymous_page_verified") is True for m in records),
         "workshop_content_check_pending": sum(m.get("publication", {}).get("workshop_status") == "submitted_public_automatic_content_check" for m in records),
@@ -549,7 +567,9 @@ def status_markdown(reg, root=None):
         model = batch_report.get("local_model_review", {})
         private_test = model.get("private_runtime_test", {})
         lines += ["", f"Private reviewed batches: **{managed.get('packages', 0)} managed packages / {managed.get('matching_values', 0)} values tested**; {model.get('reviewed_tasks', 0)} local-model tasks processed. The private model candidate has **{private_test.get('verified_target_values', 0)} values verified across {private_test.get('provider_count', 0)} providers**; {private_test.get('combined_matching_values', 0)} combined values matched. This is isolated load/readback testing, with no colony playthrough or main-profile installation approval. Translation rights and public release QA are separate. [Counts and evidence hashes]({batch_path.relative_to(root).as_posix()})."]
-        if private_test.get("current_full_profile_freshness") == "upstream_changed_retest_required":
+        if batch_report.get("current_source_context_revalidated") is False:
+            lines += ["", "The private batch results above are historical. Current source-context validation is revoked after upstream updates; the launcher blocks a full-profile rerun pending fresh validation. The old proof has not been relabeled as current."]
+        elif private_test.get("current_full_profile_freshness") == "upstream_changed_retest_required":
             lines += ["", f"The captured private-profile result remains bound to its tested hashes. {private_test.get('changed_upstream_files', 0)} upstream files changed afterward; the launcher blocks a full-profile rerun pending fresh validation. The old proof has not been relabeled as current."]
         elif private_test.get("current_full_profile_freshness") == "current_inputs_verified_by_fresh_game_readback":
             ui = private_test.get("runtime_ui_handlers", {})
@@ -703,7 +723,7 @@ def check_file_tree(folder, mod, cache):
         return {"package_id": mod["package_id"], "status": "error", "error": str(ex), "scope": "GitHub repository tree monitor"}
 
 
-def check_integration(mod):
+def check_integration(mod, cache=None):
     integration = mod.get("integration", {})
     url = integration.get("pr_url")
     if not url:
@@ -713,8 +733,14 @@ def check_integration(mod):
         return {"package_id": mod["package_id"], "status": "error", "action_required": True, "error": "Only public github.com pull request URLs can be monitored"}
     owner, repo, number = match.groups()
     api = f"https://api.github.com/repos/{owner}/{repo}/pulls/{number}"
+    def fetch_json(endpoint):
+        if cache is None:
+            return json.loads(fetch_bytes(endpoint))
+        if endpoint not in cache:
+            cache[endpoint] = json.loads(fetch_bytes(endpoint))
+        return cache[endpoint]
     try:
-        pr = json.loads(fetch_bytes(api))
+        pr = fetch_json(api)
         if pr.get("merged_at"):
             status = "accepted_into_community_translation" if integration.get("target_kind") == "community_translation" else "accepted"
         elif pr.get("state") == "closed":
@@ -722,7 +748,7 @@ def check_integration(mod):
         elif pr.get("state") == "open":
             decisive = {}
             for page in range(1, 11):
-                batch = json.loads(fetch_bytes(api + f"/reviews?per_page=100&page={page}"))
+                batch = fetch_json(api + f"/reviews?per_page=100&page={page}")
                 if not isinstance(batch, list):
                     raise ValueError("Unexpected review API result")
                 for review in batch:
@@ -834,12 +860,12 @@ def check_workshop(root):
 
 
 def monitor(root=ROOT):
-    reports, integrations, file_monitors, tree_cache = [], [], [], {}
+    reports, integrations, file_monitors, tree_cache, integration_cache = [], [], [], {}, {}
     for path, mod in manifests(root):
         file_report = check_file_tree(path.parent, mod, tree_cache)
         if file_report:
             file_monitors.append(file_report)
-        integration = check_integration(mod)
+        integration = check_integration(mod, integration_cache)
         if integration:
             integrations.append(integration)
         config = mod.get("monitor", {})

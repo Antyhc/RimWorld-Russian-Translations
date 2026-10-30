@@ -11,37 +11,76 @@
       "status": "confirmed",
       "license": "Author permission for free standalone own-text Russian adaptation",
       "evidence": "https://github.com/Vanilla-Expanded/VanillaExpandedFramework/issues/195#issuecomment-6519584242",
-      "attribution": "Original mod: Vanilla Factions Expanded - Empire by Oskar Potocki, xrushha, legodude17, Allie. Original: https://steamcommunity.com/sharedfiles/filedetails/?id=2938820380. Own Russian adaptation: Antyhc,2026, AI-assisted with OpenAI Codex. Permission: https://github.com/Vanilla-Expanded/VanillaExpandedFramework/issues/195#issuecomment-6519584242. No Vanilla Expanded endorsement or affiliation. No original artwork or third-party Russian text licensed by this reply.",
+      "attribution": "Original mod: Vanilla Factions Expanded - Empire by Oskar Potocki, xrushha, legodude17 and Allie (current About.xml credits).\nOriginal Workshop: https://steamcommunity.com/sharedfiles/filedetails/?id=2938820380\nSpecific translation permission: https://github.com/Vanilla-Expanded/VanillaExpandedFramework/issues/195#issuecomment-6519584242\nOriginal CC BY-NC-ND 4.0 metadata remains unchanged; this is the separately permitted free own-text adaptation. No original artwork or third-party Russian permission is inferred.\nRussian supplement: Antyhc,2026;12 newly authored/reviewed missing fields, AI-assisted with OpenAI Codex. No independent human proofreading, affiliation or Vanilla Expanded endorsement claimed.\nRequired existing Russian pack: https://steamcommunity.com/sharedfiles/filedetails/?id=2942002763 ; its83 covered selected fields and brand label are neither copied nor replaced.\nOnly language XML and own notices/typographic cover are included; no original code, assemblies or artwork. Own typographic cover: Antyhc, MIT.\n",
+      "license_evidence_file": "rights-evidence.json",
+      "required_notice_files": {
+        "About/License.txt": "fb08ba04301996d1b9c76a844ec9e2518f497310130147eee9daa867f2b5bb09",
+        "About/Credits.txt": "50d3c0d4d22250315bc1c622631e282f29bc7bf67392c9213f5760e2e274a243"
+      },
+      "original_license": "CC-BY-NC-ND-4.0",
       "permission_requested": true,
       "permission_request_url": "https://github.com/Vanilla-Expanded/VanillaExpandedFramework/issues/195",
       "permission_request_date": "2026-10-30",
       "permission_received": true,
       "permission_received_date": "2026-10-30",
       "permission_reply_url": "https://github.com/Vanilla-Expanded/VanillaExpandedFramework/issues/195#issuecomment-6519584242",
-      "permission_scope": "newly_authored_standalone_translation_text_only",
-      "original_license": "CC-BY-NC-ND-4.0",
-      "license_evidence_file": "translation-rights-evidence.json"
+      "permission_scope": "newly_authored_standalone_translation_text_only"
     },
     "icon": {
-      "status": "unknown",
-      "license": null,
-      "evidence": null,
-      "attribution": null
+      "status": "confirmed",
+      "kind": "original_typographic_fallback",
+      "license": "MIT",
+      "evidence": "scripts/make_original_cover.py; own typographic design",
+      "attribution": "Own typographic cover by Antyhc; no original mod artwork",
+      "source_sha256": "a8c0657905f34a3b3f7de8d3196c4ea3b20ae0b7175d3bdfd1f8ce25e89030ac",
+      "preview_sha256": "a8c0657905f34a3b3f7de8d3196c4ea3b20ae0b7175d3bdfd1f8ce25e89030ac",
+      "original_mod_art_used": false
     }
   },
   "qa": {
-    "technical": "pending",
-    "linguistic": "pending",
-    "source_current": false,
-    "in_game": "not_tested",
-    "checked_at": "2026-10-28T09:15:27.268425+00:00"
+    "technical": "passed",
+    "linguistic": "ai_reviewed",
+    "source_current": true,
+    "in_game": "passed",
+    "checked_at": "2026-10-30T10:23:55.272314+00:00",
+    "source_checked_at": "2026-10-30T10:23:55.272314+00:00",
+    "payload_sha256": "52411ee1a6873d00746c69d423dfc99da67cadffa5c858439d47f8095e42cc54",
+    "source_snapshot_sha256": "22f7ce83a4ea7412af84610fe570f70e8b3b7d4c5f63904324f86ff89439d20e",
+    "evidence": "qa-evidence.json",
+    "coverage": "Exactly12 own missing entries,10Keyed+2HediffDef;83 selected existing Russian fields and1brand title not copied. Royalty and base Russian required.",
+    "standalone_minimal_game_test": "passed_actual_all_active_v2_with_required_support",
+    "game_evidence": "game-test-evidence.json",
+    "game_version": "1.7.4990 rev1069",
+    "game_test_scope": "Actual isolated original+required-support control and candidate startup/readback. All ordinary payload targets matched English then Russian, with exact physical/Keyed ownership. Additional support packages were present in both runs; full localization error multiset unchanged. No save, extended gameplay, Workshop-copy subscription test or independent human proofreading claimed.",
+    "game_test_evidence_sha256": "34e06a1f1f8e6ccb9e77b38a3e5ee9c94524eecdbe83c5db2c743369e9a6cadc",
+    "workshop_installation": "passed_exact_subscribed_bytes",
+    "workshop_game_load": "passed_actual_subscribed_Workshop_root",
+    "workshop_game_evidence": "workshop-game-test-evidence.json",
+    "workshop_game_evidence_sha256": "91069f67162a43103f977074bf9aec00d0f31100e59ced87f0effcb272b458e4",
+    "workshop_game_test_scope": "Fresh actual load of the subscribed byte-exact Workshop item. Earlier actual English control reused only after exact original source/context, game, selected values and unchanged read-only probe verification. Exact full localization-error multiset compared. The earlier local proof remains historical; no new English-control boot, save or extended gameplay/human proof claimed.",
+    "compatibility_note": "Mandatory base-Russian package2942002763 declares versions through1.6. Its actual load in this1.7.4990test was verified; no certification of the full base translation beyond this checked supplement."
   },
   "publication": {
     "github_url": "https://github.com/Antyhc/RimWorld-Russian-Translations/tree/main/mods/oskarpotocki.vfe.empire",
-    "github_status": "metadata_only",
-    "workshop_url": null,
-    "workshop_id": null,
-    "workshop_status": "not_published"
+    "github_status": "published",
+    "workshop_url": "https://steamcommunity.com/sharedfiles/filedetails/?id=3830050048",
+    "workshop_id": "3830050048",
+    "workshop_status": "published",
+    "release_blockers": [],
+    "workshop_title": "Vanilla Factions Expanded - Empire — Russian supplement (12 strings)",
+    "dependency_verified": true,
+    "required_dlc_apps": [
+      1149640
+    ],
+    "required_dlc_metadata_verified": true,
+    "collection_id": "3830036321",
+    "collection_member_verified": true,
+    "published_at": "2026-10-30T10:32:18.100105+00:00",
+    "anonymous_page_verified": true,
+    "anonymous_page_checked_at": "2026-10-30T10:36:24.293Z",
+    "anonymous_page_evidence": "community/workshop-public-pages-2026-10-30.json",
+    "installation_tested": true,
+    "installation_scope": "Official subscription exact6files; actual subscribed root12values compared against identical preserved real English control; Royalty and required base Russian active."
   },
   "integration": {
     "status": "not_sent",
@@ -112,5 +151,13 @@
     "work_stage": "installed_local",
     "saved_translation_store": true
   },
-  "work_stage": "installed_local"
+  "work_stage": "ready_for_publication",
+  "duplicate_translation": {
+    "status": "checked_no_current_equivalent",
+    "checked_at": "2026-10-30T10:23:55.272314+00:00",
+    "scope": "Current official Russian2942002763 was compared by exact targets, actual historical physical paths and conservative alias/base-type holds.83/96 selected own targets already Russian,1brand name intentionally English,12 absent. No third-party Russian copied. All96 current English hashes unchanged.",
+    "candidates": [
+      "https://steamcommunity.com/sharedfiles/filedetails/?id=2942002763"
+    ]
+  }
 }

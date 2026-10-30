@@ -1,0 +1,23 @@
+Vanilla Cooking Expanded — Russian integrations (24 strings)
+
+Captions and descriptions for 12 cheese-making processes: 6 Alpha Animals integration strings and 18 Vanilla Genetics Expanded strings. Each branch loads only with its corresponding addon active. With neither active, no integration strings are injected and the package loads correctly. All 24 entries are independently authored; no third-party Russian text is copied.
+
+Requires original Vanilla Cooking Expanded, its dependencies and the main Russian pack:
+https://steamcommunity.com/sharedfiles/filedetails/?id=2134308519
+https://steamcommunity.com/sharedfiles/filedetails/?id=2914375951
+Original by Oskar Potocki, Sarg Bjornson and Chowder. Main Russian pack by Amortem, OliveWizard and Mewn Goddess. Load this supplement after both.
+
+Optional addons for their respective branches:
+Alpha Animals: https://steamcommunity.com/sharedfiles/filedetails/?id=1541721856
+Vanilla Genetics Expanded: https://steamcommunity.com/sharedfiles/filedetails/?id=2801160906
+Use either or both; both are not mandatory.
+
+This supplement targets RimWorld 1.7. The main Russian pack still declares support only through 1.6; its metadata was not altered. Joint startup and these 24 additions were tested on 1.7; full main-pack compatibility and colony behavior are not certified.
+
+Testing: eight actual RimWorld 1.7.4990 rev1069 launches, an English-control/Russian-candidate pair in each context: neither addon (0 active strings), Alpha only (6), Genetics only (18), both (24). Every active game value matched; inactive targets received no injection. Full localization-error multisets were unchanged per pair: 46 → 46, 46 → 46, 70 → 70, 70 → 70. Complete Player.log ERROR/FATAL records: 0 → 0 in all four pairs. Subscription installation of the published copy, extended gameplay, actual cheese-production cycles and every UI state were not verified by these local runs.
+
+Russian text by Antyhc, 2026, CC BY-NC-SA 4.0; AI-assisted drafting and individual semantic review with OpenAI Codex. Ingredients, quantities and unit grammar were checked. No independent human proofreading claimed.
+
+Separately recorded author permission for free standalone translations:
+https://github.com/Vanilla-Expanded/VanillaExpandedFramework/issues/195#issuecomment-6519584242
+The original ND license remains; translation permission is recorded separately. Retain credits, links and CC BY-NC-SA 4.0 terms for the new Russian text. No Vanilla Expanded endorsement or affiliation claimed. Own typographic cover by Antyhc, MIT; no original code or artwork included.

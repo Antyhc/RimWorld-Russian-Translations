@@ -1,0 +1,31 @@
+{
+  "schema": 1,
+  "package_id": "vanillaexpanded.vcooke",
+  "selected_targets": 24,
+  "analysis_sha256": "d801f835ea8bb385c633015645ee347f60492afb4a42cf8cf51e66ea22b42947",
+  "additional_target_hits": 0,
+  "comparisons": [
+    {
+      "workshop_id": "2811213079",
+      "url": "https://steamcommunity.com/sharedfiles/filedetails/?id=2811213079",
+      "russian_rows_examined": 220,
+      "selected_target_hits": 0,
+      "warning_count": 0
+    },
+    {
+      "workshop_id": "2569397678",
+      "url": "https://steamcommunity.com/sharedfiles/filedetails/?id=2569397678",
+      "russian_rows_examined": 4967,
+      "selected_target_hits": 0,
+      "warning_count": 0
+    },
+    {
+      "workshop_id": "2140324006",
+      "url": "https://steamcommunity.com/sharedfiles/filedetails/?id=2140324006",
+      "russian_rows_examined": 140,
+      "selected_target_hits": 0,
+      "warning_count": 0
+    }
+  ],
+  "scope": "Recorded current static comparison of these selected targets only; no original/third-party Russian text or private cache paths copied. Separate actual game evidence verifies every declared activation context."
+}

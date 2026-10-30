@@ -1,6 +1,6 @@
 {
   "schema": 1,
-  "checked_at": "2026-10-30T08:21:58.439333+00:00",
+  "checked_at": "2026-10-30T10:54:45.051025+00:00",
   "translation_rows": 1,
   "semantic_review": "English Laying Down Foundations is a descriptive achievement title for 200 gravship substructures; Russian Закладывая основу preserves its meaning. Four acronym/game/film-reference titles are retained rather than automatically treated as missing keys.",
   "independent_human_review": false,
@@ -24,35 +24,21 @@
       "source_relative_root": "1.6/Mods/Odyssey"
     }
   ],
-  "payload_sha256": "735d519c8e99817a451c20890175ff3082adc89f4280e998b2c5324a21f2f1fb",
+  "payload_sha256": "30eb978f526c784f6f155fd93a380bf14767e300f0fd1f556b44abbedbef845f",
   "payload_file_hashes": {
+    "LoadFolders.xml": "4523966d00500dfb3023e67d60ee5ad18e864bec0b8bdc26b35f4b09ba4c779a",
     "About/About.xml": "6044823bc45a8eda0573665d79dc63305c3659cc4229f66aef8ffb366ebe6a91",
     "About/Credits.txt": "03687d6741851f8ad08e63ad17461ebaf683b924323ca6a219d7c0000ee1d9bf",
     "About/License.txt": "fc5966fd3c719ea111e8135aba0e585f4908c2acafd3ae182675c616402a719a",
     "About/Preview.png": "2fc43ba53797c5e44eb34887eae6661b52624a40b007589f1025d7e4402fd97f",
-    "Conditional/ludeon.rimworld.odyssey/Languages/Russian/DefInjected/AchievementsExpanded.AchievementDef/AdditionalRussian.xml": "4d824e6a0927ab5d8ea9bb059a4b83ac83324f1dcc96d8ba8040301bb3e11325",
-    "LoadFolders.xml": "4523966d00500dfb3023e67d60ee5ad18e864bec0b8bdc26b35f4b09ba4c779a"
+    "Languages/Russian/Keyed/ConditionalCompatibility.xml": "61838015f78078d1af4f42d2ed6777bffd30be7c4b4831fedf830cd15b0bcc26",
+    "Conditional/ludeon.rimworld.odyssey/Languages/Russian/DefInjected/AchievementsExpanded.AchievementDef/AdditionalRussian.xml": "4d824e6a0927ab5d8ea9bb059a4b83ac83324f1dcc96d8ba8040301bb3e11325"
   },
+  "revision": "v2_empty_unconditional_language_container",
+  "revision_scope": "Adds one valid zero-key Russian LanguageData container. All original files/one conditional translated title and root gates are byte-identical.",
+  "runtime_fix_source": "Verse.ModContentPack.AnyTranslationsLoaded on current Assembly-CSharp4e61d572... recognizes any file beneath active root/Languages; no dummy key is needed.",
+  "prior_game_evidence_not_reused_for_new_payload": true,
   "game_evidence": "game-test-evidence.json",
-  "game_test_scope": "Actual isolated control/candidate pairs with Odyssey disabled and enabled; one unique active translated title verified, disabled target absent and not injected. No extended gameplay, Workshop-copy subscription test or independent human proofreading claimed.",
-  "game_test_contexts": [
-    {
-      "case_id": "vea1-off",
-      "evidence_sha256": "55ba28b4c7da9da2b8a18e44091de7df0faf222ca27b0eb7d17089083e877051",
-      "active_values_verified": 0,
-      "inactive_targets_verified_unchanged_and_not_injected": 1,
-      "baseline_localization_errors": 38,
-      "candidate_localization_errors": 38,
-      "additional_localization_errors": 0
-    },
-    {
-      "case_id": "vea1-on",
-      "evidence_sha256": "ac321304367ff3d442bf0aff616ea25ab6de58399244709546da06e4172a5115",
-      "active_values_verified": 1,
-      "inactive_targets_verified_unchanged_and_not_injected": 0,
-      "baseline_localization_errors": 98,
-      "candidate_localization_errors": 98,
-      "additional_localization_errors": 0
-    }
-  ]
+  "game_evidence_sha256": "b5c092adee3ebbfdffbf33b8b889c909f5f4b88c0f89ac3b370d27c412d02200",
+  "game_test_scope": "All declared condition combinations passed separate actual English-control/Russian-candidate startup and master-target readback. Active values matched exact sources/owners; inactive targets retained exact control state without candidate injection. Full localization multisets and complete timestamp-stripped global Player.log ERROR records matched within each pair; baselines may differ across contexts. Unique active target union is counted once. No save, extended gameplay, every formatted scenario, Workshop-copy installation or independent human proofreading claimed."
 }

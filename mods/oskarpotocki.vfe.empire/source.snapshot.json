@@ -1,0 +1,118 @@
+{
+  "schema_version": 1,
+  "generated_at": "2026-10-30T10:23:55.272314+00:00",
+  "scope": "Only newly authored missing additions; existing native/community Russian remains separate.",
+  "strings": {
+    "DefInjected|HediffDef|VFEE_CourtStimulant.description": "0347a8b6824506b6905d79f0a403f143f54943fdf2f3a1bbc3e07fb380cf8ce8",
+    "DefInjected|HediffDef|VFEE_CourtStimulant.label": "fd27e080ab37d53580f0ef3bc3554550296d8c5d7c4bbf50e847843d5c0979a4",
+    "Keyed|VFEE.Parade.CalledOffIn": "2005ece99a13ea55f4b35b7b43657ccd2a14b104a4694dde08ea0625424bc09d",
+    "Keyed|VFEE.Parade.CalledOffOn": "4c3a0e8b7fe5672c3c20af9961193a7e3beffe4d6ce16fc87cc2b4552b1d4fc5",
+    "Keyed|VFEE.Parade.EndGame.Ending": "dba1ca86811ed5a7f2de7654676c4d493d1acfbf3455f8a80e2c7a29a1b26c83",
+    "Keyed|VFEE.Parade.EndGame.Intro": "26df26826dbc3e5145c492974491734a088ed591f68370ecbc5878ef39dc5ecc",
+    "Keyed|VFEE.Parade.NoblesArriveIn": "f0dc3abffd959509247c7f9a7dfec046daf3625bf5d9d3b08e989ac213600bf5",
+    "Keyed|VFEE.Parade.NoblesArriveInDesc": "4027c38098db7d2ef36e088ccbb46c4972ee01c8106105facfaa98815d05836b",
+    "Keyed|VFEE.Parade.NoblesArriveOn": "054c8c6df605b773e81c876b5dba4dc899fa2d699ba61eebbe51774d7e6f7698",
+    "Keyed|VFEE.Parade.NoblesWaiting": "53162551b7d51d796588192d7f319111c24cfaa56126b3084dcd14464c30a7cb",
+    "Keyed|VFEE.Parade.NoblesWaitingAwayDesc": "76af2a52d23ddbfe37395492b89b7d300efcfc72f4f0d8740dae24bc7a4b405a",
+    "Keyed|VFEE.Parade.NoblesWaitingThreatDesc": "2edf47110e7b39ecdfbf2d0944af663e7141a5c5259a372db38f3442a0ffc603"
+  },
+  "signatures": {
+    "DefInjected|HediffDef|VFEE_CourtStimulant.description": {
+      "source_hash": "0347a8b6824506b6905d79f0a403f143f54943fdf2f3a1bbc3e07fb380cf8ce8",
+      "tokens": [],
+      "tags": [],
+      "source_empty": false
+    },
+    "DefInjected|HediffDef|VFEE_CourtStimulant.label": {
+      "source_hash": "fd27e080ab37d53580f0ef3bc3554550296d8c5d7c4bbf50e847843d5c0979a4",
+      "tokens": [],
+      "tags": [],
+      "source_empty": false
+    },
+    "Keyed|VFEE.Parade.CalledOffIn": {
+      "source_hash": "2005ece99a13ea55f4b35b7b43657ccd2a14b104a4694dde08ea0625424bc09d",
+      "tokens": [
+        "{0}"
+      ],
+      "tags": [],
+      "source_empty": false
+    },
+    "Keyed|VFEE.Parade.CalledOffOn": {
+      "source_hash": "4c3a0e8b7fe5672c3c20af9961193a7e3beffe4d6ce16fc87cc2b4552b1d4fc5",
+      "tokens": [
+        "{0}"
+      ],
+      "tags": [],
+      "source_empty": false
+    },
+    "Keyed|VFEE.Parade.EndGame.Ending": {
+      "source_hash": "dba1ca86811ed5a7f2de7654676c4d493d1acfbf3455f8a80e2c7a29a1b26c83",
+      "tokens": [
+        "\\n",
+        "\\n",
+        "{EMPEROR_nameFull}",
+        "{STELLARCH_nameDef}",
+        "{STELLARCH_objective}",
+        "{STELLARCH_pronoun}"
+      ],
+      "tags": [],
+      "source_empty": false
+    },
+    "Keyed|VFEE.Parade.EndGame.Intro": {
+      "source_hash": "26df26826dbc3e5145c492974491734a088ed591f68370ecbc5878ef39dc5ecc",
+      "tokens": [
+        "{STELLARCH_nameDef}"
+      ],
+      "tags": [],
+      "source_empty": false
+    },
+    "Keyed|VFEE.Parade.NoblesArriveIn": {
+      "source_hash": "f0dc3abffd959509247c7f9a7dfec046daf3625bf5d9d3b08e989ac213600bf5",
+      "tokens": [
+        "{0}"
+      ],
+      "tags": [],
+      "source_empty": false
+    },
+    "Keyed|VFEE.Parade.NoblesArriveInDesc": {
+      "source_hash": "4027c38098db7d2ef36e088ccbb46c4972ee01c8106105facfaa98815d05836b",
+      "tokens": [
+        "{0}"
+      ],
+      "tags": [],
+      "source_empty": false
+    },
+    "Keyed|VFEE.Parade.NoblesArriveOn": {
+      "source_hash": "054c8c6df605b773e81c876b5dba4dc899fa2d699ba61eebbe51774d7e6f7698",
+      "tokens": [
+        "{0}"
+      ],
+      "tags": [],
+      "source_empty": false
+    },
+    "Keyed|VFEE.Parade.NoblesWaiting": {
+      "source_hash": "53162551b7d51d796588192d7f319111c24cfaa56126b3084dcd14464c30a7cb",
+      "tokens": [],
+      "tags": [],
+      "source_empty": false
+    },
+    "Keyed|VFEE.Parade.NoblesWaitingAwayDesc": {
+      "source_hash": "76af2a52d23ddbfe37395492b89b7d300efcfc72f4f0d8740dae24bc7a4b405a",
+      "tokens": [
+        "{STELLARCH_nameDef}",
+        "{STELLARCH_pronoun}",
+        "{TIME}"
+      ],
+      "tags": [],
+      "source_empty": false
+    },
+    "Keyed|VFEE.Parade.NoblesWaitingThreatDesc": {
+      "source_hash": "2edf47110e7b39ecdfbf2d0944af663e7141a5c5259a372db38f3442a0ffc603",
+      "tokens": [
+        "{TIME}"
+      ],
+      "tags": [],
+      "source_empty": false
+    }
+  }
+}

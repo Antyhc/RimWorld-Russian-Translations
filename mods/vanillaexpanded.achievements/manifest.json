@@ -34,34 +34,41 @@
     "linguistic": "ai_reviewed",
     "source_current": true,
     "in_game": "passed",
-    "checked_at": "2026-10-30T08:21:58.439333+00:00",
-    "source_checked_at": "2026-10-30T08:21:58.439333+00:00",
-    "payload_sha256": "735d519c8e99817a451c20890175ff3082adc89f4280e998b2c5324a21f2f1fb",
+    "checked_at": "2026-10-30T10:54:45.051025+00:00",
+    "source_checked_at": "2026-10-30T10:54:45.051025+00:00",
+    "payload_sha256": "30eb978f526c784f6f155fd93a380bf14767e300f0fd1f556b44abbedbef845f",
     "source_snapshot_sha256": "b0af7d3872a25f8bd4f26b10c1349854145356cd3221cd28e701ddf923c5fc96",
     "evidence": "qa-evidence.json",
     "coverage": "One own Russian descriptive achievement title gated by Odyssey; brand/acronym/quotation names and existing Russian preserved.",
-    "standalone_minimal_game_test": "passed_actual_enabled_and_disabled_contexts",
+    "standalone_minimal_game_test": "passed_actual_all_conditions_and_full_global_ERRORS",
     "game_evidence": "game-test-evidence.json",
     "game_version": "1.7.4990 rev1069",
-    "game_test_scope": "The same exact payload passed original-only/candidate tests with every declared condition enabled and disabled. Enabled values matched English then Russian; disabled targets retained exact control state and received no injection. Error multisets matched within each context; baselines may differ across contexts. No saves, extended gameplay, Workshop-copy installation or independent human proofreading claimed.",
-    "game_test_evidence_sha256": "3075090c7194aff1d41b41789a1f884dcb52c405127894e06d95b59e3a60fd3c",
-    "workshop_installation": "passed_exact_subscribed_bytes",
-    "workshop_game_load": "passed_actual_subscribed_Workshop_root_both_conditional_contexts",
+    "game_test_scope": "All declared condition combinations passed separate actual English-control/Russian-candidate startup and master-target readback. Active values matched exact sources/owners; inactive targets retained exact control state without candidate injection. Full localization multisets and complete timestamp-stripped global Player.log ERROR records matched within each pair; baselines may differ across contexts. Unique active target union is counted once. No save, extended gameplay, every formatted scenario, Workshop-copy installation or independent human proofreading claimed.",
+    "game_test_evidence_sha256": "b5c092adee3ebbfdffbf33b8b889c909f5f4b88c0f89ac3b370d27c412d02200",
+    "workshop_copy_verification": "passed_updated_payload_both_actual_contexts_and_complete_global_logs",
+    "workshop_installation": "passed_exact_subscribed_7files",
+    "workshop_game_load": "passed_actual_updated_Workshop_root_both_contexts",
     "workshop_game_evidence_contexts": [
       {
         "file": "workshop-game-test-off-evidence.json",
-        "sha256": "d600474b7d55c1152c14d09297332a59946986d202e8c99955aa911739a77bc0",
+        "sha256": "fe0c06baa5510e6e1689e335225dc12fa96deb4429e89ded2351586cb1c19aef",
         "active_values_verified": 0,
-        "inactive_targets_verified_unchanged_and_not_injected": 1
+        "inactive_targets_verified_unchanged_and_not_injected": 1,
+        "full_global_log_evidence": "workshop-global-error-off-evidence.json",
+        "full_global_log_evidence_sha256": "78220b7b64ebe35a6b704c4087962e080b361808a75f4eba70454e05d59fc270",
+        "full_global_ERROR_FATAL_multiset_unchanged": true
       },
       {
         "file": "workshop-game-test-on-evidence.json",
-        "sha256": "756db7d568cf0cc56c586ddc4d355aa65ff5e3cccd8dfa1c19a1b989af6937d2",
+        "sha256": "f855d2b0f0cf8282fae0314fd00721914b3ac37e3968dcc9f221216c05ea7a92",
         "active_values_verified": 1,
-        "inactive_targets_verified_unchanged_and_not_injected": 0
+        "inactive_targets_verified_unchanged_and_not_injected": 0,
+        "full_global_log_evidence": "workshop-global-error-on-evidence.json",
+        "full_global_log_evidence_sha256": "1a413abf341e6e3b09326380a8ed7a3cd599278f12dac844fbb86fd02f05e8c9",
+        "full_global_ERROR_FATAL_multiset_unchanged": true
       }
     ],
-    "workshop_game_test_scope": "Fresh subscribed Workshop-root boots with Odyssey enabled and disabled, each compared against its preserved actual English control after exact current-source/context/probe checks; one unique title, no gameplay claim."
+    "workshop_game_test_scope": "Updated item3830022947 actual subscribed root, same reviewed7files; new actual local controls reused only after current-source/context/probe checks. Off target inactive/no injection; on targetRussian. Full localization and complete ERROR/FATAL record multisets unchanged in both contexts; no saves or extended gameplay."
   },
   "publication": {
     "github_url": "https://github.com/Antyhc/RimWorld-Russian-Translations/tree/main/mods/vanillaexpanded.achievements",
@@ -73,11 +80,15 @@
     "workshop_visibility": "public",
     "workshop_submitted_at": "2026-10-30T09:15:53.308392+00:00",
     "anonymous_page_verified": true,
-    "anonymous_page_checked_at": "2026-10-30T10:06:46.001Z",
+    "anonymous_page_checked_at": "2026-10-30T11:18:42.265Z",
     "anonymous_page_evidence": "community/workshop-public-pages-2026-10-30.json",
     "collection_id": "3830036321",
     "collection_member_verified": true,
-    "github_publication_date": "2026-10-30"
+    "github_publication_date": "2026-10-30",
+    "published_payload_sha256": "30eb978f526c784f6f155fd93a380bf14767e300f0fd1f556b44abbedbef845f",
+    "workshop_update_requires_same_item": true,
+    "previous_published_payload_sha256": "735d519c8e99817a451c20890175ff3082adc89f4280e998b2c5324a21f2f1fb",
+    "workshop_update_verified": true
   },
   "integration": {
     "status": "not_sent",
@@ -235,7 +246,7 @@
       "baseline_file": "source.tree.json"
     }
   },
-  "work_stage": "ready_for_publication",
+  "work_stage": "ready_for_existing_item_update",
   "conditional_languages": {
     "version": "1.7",
     "roots": [

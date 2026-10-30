@@ -81,6 +81,30 @@ class ProjectTests(unittest.TestCase):
         del self.mod["rights"]["translation"]["attribution"]
         self.assertIn("translation_rights_unconfirmed", rw.validate_payload(self.folder, self.mod, True)[0])
 
+    def test_one_community_pr_covering_two_mods_is_one_pr_and_two_records(self):
+        self.mod["integration"] = {"status": "open", "pr_url": "https://github.com/community/translations/pull/47"}
+        self.save()
+        other = dict(self.mod, package_id="author.second", translation_package_id="translations.author.second.ru")
+        other["integration"] = dict(self.mod["integration"], pr_url=self.mod["integration"]["pr_url"] + "/")
+        rw.write_json(self.root / "mods/author.second/manifest.json", other)
+        counts = rw.registry(self.root)["counts"]
+        self.assertEqual(counts["translations"], 2)
+        self.assertEqual(counts["pull_requests"], 1)
+        self.assertEqual(counts["pull_request_monitors"], 1)
+        self.assertEqual(counts["integration_records"], 2)
+
+    def test_shared_pr_fetches_one_consistent_snapshot_for_multiple_mod_records(self):
+        self.mod["integration"] = {"status": "open", "pr_url": "https://github.com/community/translations/pull/47", "target_kind": "community_translation"}
+        other = dict(self.mod, package_id="author.second")
+        cache = {}
+        pr = {"state": "open", "merged_at": None, "head": {"sha": "current"}}
+        with patch.object(rw, "fetch_bytes", side_effect=lambda url: json.dumps([] if "/reviews?" in url else pr).encode()) as fetch:
+            first = rw.check_integration(self.mod, cache)
+            second = rw.check_integration(other, cache)
+        self.assertEqual(fetch.call_count, 2)
+        self.assertEqual((first["package_id"], second["package_id"]), ("author.mod", "author.second"))
+        self.assertEqual((first["status"], second["status"]), ("open", "open"))
+
     def test_status_counts_minimal_readback_without_claiming_subscribed_ui_test(self):
         self.mod["qa"].update(in_game="passed", game_evidence="game-test-evidence.json")
         self.save()
@@ -106,6 +130,18 @@ class ProjectTests(unittest.TestCase):
         self.assertIn("96 applied / 2 held", text)
         self.assertIn("assembly guard was preserved", text)
         self.assertNotIn("pending fresh validation", text)
+
+    def test_revoked_context_overrides_the_older_current_game_receipt(self):
+        rw.write_json(self.root / "reports/reviewed-batches-fresh.json", {
+            "current_source_context_revalidated": False,
+            "local_model_review": {"private_runtime_test": {
+                "current_full_profile_freshness": "current_inputs_verified_by_fresh_game_readback",
+            }},
+        })
+        text = rw.status_markdown(rw.registry(self.root), self.root)
+        self.assertIn("results above are historical", text)
+        self.assertIn("launcher blocks a full-profile rerun", text)
+        self.assertNotIn("launcher now passes", text)
 
     def test_status_counts_generic_actual_game_evidence_values(self):
         self.mod["qa"].update(in_game="passed", game_evidence="game-test-evidence.json")
@@ -150,9 +186,73 @@ class ProjectTests(unittest.TestCase):
         self.assertTrue((output / "Conditional/another.mod/Languages/Russian/Keyed/Optional.xml").is_file())
         self.assertEqual(self.mod["qa"]["in_game"], "not_tested")
 
+    def test_pure_conditional_pack_requires_a_valid_keyless_base_container(self):
+        self.conditional_fixture()
+        (self.ru / "Main.xml").unlink()
+        snapshot = {"strings": rw.hashes({"Keyed|Optional": "Extra, {0}!"}), "texts": {"Keyed|Optional": "Extra, {0}!"}}
+        rw.write_json(self.folder / "source.snapshot.json", snapshot)
+        self.mod["qa"]["source_snapshot_sha256"] = rw.hashlib.sha256((self.folder / "source.snapshot.json").read_bytes()).hexdigest()
+        self.mod["qa"]["payload_sha256"] = rw.payload_digest(self.payload)
+        self.save()
+        errors = rw.validate_payload(self.folder, self.mod, True)[0]
+        self.assertIn("conditional_package_missing_unconditional_language_xml", errors)
+        (self.ru / "ConditionalCompatibility.xml").write_text("<LanguageData/>", encoding="utf-8")
+        self.mod["qa"]["payload_sha256"] = rw.payload_digest(self.payload)
+        self.save()
+        errors, _, rows = rw.validate_payload(self.folder, self.mod, True)
+        self.assertEqual(errors, [])
+        self.assertEqual(set(rows), {"Keyed|Optional"})
+
+    def second_conditional_fixture(self, filename):
+        self.conditional_fixture()
+        layout = self.mod["conditional_languages"]
+        layout["roots"].append({"path": "Conditional/second.mod", "if_mod_active": "second.mod", "source_relative_root": "1.7/Mods/Second"})
+        proof = self.folder / layout["evidence"]
+        rw.write_json(proof, {"schema": 1, "package_id": "author.mod", "version": "1.7", "roots": layout["roots"]})
+        layout["evidence_sha256"] = rw.hashlib.sha256(proof.read_bytes()).hexdigest()
+        (self.payload / "LoadFolders.xml").write_text('<loadFolders><v1.7><li>/</li><li IfModActive="another.mod">Conditional/another.mod</li><li IfModActive="second.mod">Conditional/second.mod</li></v1.7></loadFolders>', "utf-8")
+        directory = self.payload / "Conditional/second.mod/Languages/Russian/Keyed"
+        directory.mkdir(parents=True)
+        (directory / filename).write_text("<LanguageData><Third>Другое, {0}!</Third></LanguageData>", "utf-8")
+        texts = rw.read_json(self.folder / "source.snapshot.json")["texts"]
+        texts["Keyed|Third"] = "Other, {0}!"
+        rw.write_json(self.folder / "source.snapshot.json", {"strings": rw.hashes(texts), "texts": texts})
+        self.mod["qa"]["payload_sha256"] = rw.payload_digest(self.payload)
+        self.mod["qa"]["source_snapshot_sha256"] = rw.hashlib.sha256((self.folder / "source.snapshot.json").read_bytes()).hexdigest()
+        self.save()
+        return directory
+
+    def test_disjoint_keys_do_not_allow_colliding_xml_paths_between_active_roots(self):
+        directory = self.second_conditional_fixture("oPTIONAL.XML")
+        for filename, relative in [("oPTIONAL.XML", "keyed/optional.xml"), ("mAIN.XML", "keyed/main.xml")]:
+            with self.subTest(collision=relative):
+                path = next(directory.glob("*.XML"))
+                if path.name != filename:
+                    path.rename(directory / filename)
+                self.mod["qa"]["payload_sha256"] = rw.payload_digest(self.payload)
+                self.save()
+                errors, _, rows = rw.validate_payload(self.folder, self.mod, True)
+                self.assertEqual(set(rows), {"Keyed|Greeting", "Keyed|Optional", "Keyed|Third"})
+                self.assertFalse(any(error.startswith("duplicate_key_across_language_roots:") for error in errors))
+                self.assertIn("duplicate_xml_path_across_language_roots:" + relative, errors)
+                with self.assertRaisesRegex(ValueError, "duplicate_xml_path_across_language_roots"):
+                    rw.stage(self.root, "author.mod", self.root / "dist")
+
+    def test_distinct_xml_paths_stage_disjoint_keys_from_base_and_two_conditions(self):
+        self.second_conditional_fixture("Second.xml")
+        errors, warnings, rows = rw.validate_payload(self.folder, self.mod, True)
+        self.assertEqual(errors, [])
+        self.assertEqual(warnings, [])
+        self.assertEqual(set(rows), {"Keyed|Greeting", "Keyed|Optional", "Keyed|Third"})
+        output = rw.stage(self.root, "author.mod", self.root / "dist")
+        self.assertTrue((output / "Languages/Russian/Keyed/Main.xml").is_file())
+        self.assertTrue((output / "Conditional/another.mod/Languages/Russian/Keyed/Optional.xml").is_file())
+        self.assertTrue((output / "Conditional/second.mod/Languages/Russian/Keyed/Second.xml").is_file())
+
     def test_conditional_only_supplement_needs_no_unconditional_strings(self):
         self.conditional_fixture()
         (self.ru / "Main.xml").unlink()
+        (self.ru / "ConditionalCompatibility.xml").write_text("<LanguageData/>", encoding="utf-8")
         self.mod["qa"]["payload_sha256"] = rw.payload_digest(self.payload)
         errors, _, rows = rw.validate_payload(self.folder, self.mod, True)
         self.assertEqual(errors, [])

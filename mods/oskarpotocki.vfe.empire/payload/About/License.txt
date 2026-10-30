@@ -1,0 +1,8 @@
+Original mod/text: Vanilla Factions Expanded - Empire, by its credited creators.
+Original Workshop: https://steamcommunity.com/sharedfiles/filedetails/?id=2938820380
+Original recorded license: CC BY-NC-ND4.0, https://creativecommons.org/licenses/by-nc-nd/4.0/ . It is not replaced by this notice.
+Separate permission for free independent Russian translation patches, including AI-assisted work:
+https://github.com/Vanilla-Expanded/VanillaExpandedFramework/issues/195#issuecomment-6519584242
+This package contains only Antyhc's independently authored Russian adaptation and original notices/cover. Distribution is free/noncommercial, with original-author credit/source links and no claim of Vanilla Expanded endorsement or affiliation. No broader rights to original code, art or third-party Russian text are granted.
+Russian additions: Copyright(c)2026Antyhc. The recorded author permission governs the adapted text; do not treat the project-wide MIT license as an override of original rights.
+Own typographic cover: Copyright(c)2026Antyhc, MIT. No original mod artwork used.

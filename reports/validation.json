@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-30T10:09:57+00:00",
+  "generated_at": "2026-10-30T11:46:20+00:00",
   "scope": "Static files only; no RimWorld game test is performed.",
   "release_gates": false,
   "mods": [
@@ -734,10 +734,8 @@
     {
       "package_id": "oskarpotocki.vfe.empire",
       "errors": [],
-      "warnings": [
-        "payload_missing"
-      ],
-      "language_entries": 0,
+      "warnings": [],
+      "language_entries": 12,
       "release_eligible": false
     },
     {
@@ -1154,10 +1152,8 @@
     {
       "package_id": "vanillaexpanded.vcooke",
       "errors": [],
-      "warnings": [
-        "payload_missing"
-      ],
-      "language_entries": 0,
+      "warnings": [],
+      "language_entries": 24,
       "release_eligible": false
     },
     {

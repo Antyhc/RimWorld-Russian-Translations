@@ -1,0 +1,20 @@
+Vanilla Factions Expanded - Empire — Russian supplement (12 strings)
+
+Completes Mewn Goddess's main Russian pack: ten messages for noble arrival/waiting, ascent-parade cancellation and ending, plus the court stimulant's label and description. In both actual test launches these 12 fields were English without the supplement and Russian with it. Existing translations are preserved; no third-party Russian text is copied. The VFE - Empire brand title remains English.
+
+Required:
+Original Vanilla Factions Expanded - Empire. Current About.xml credits Oskar Potocki, xrushha, legodude17 and Allie:
+https://steamcommunity.com/sharedfiles/filedetails/?id=2938820380
+Mewn Goddess's main Russian pack:
+https://steamcommunity.com/sharedfiles/filedetails/?id=2942002763
+Royalty DLC, Harmony and Vanilla Expanded Framework, as required by the original.
+
+Load this supplement after the original and main Russian pack. Supported RimWorld version: 1.7. It contains 12 additional strings; the main Russian pack is mandatory.
+
+Testing: actual isolated English-control and Russian-candidate launches on RimWorld 1.7.4990 rev1069. Royalty and the main Russian pack were active in both. All 12 English, then Russian game values were verified: ten owned Keyed entries and two physical effect-definition fields with correct sources. The full localization error multiset stayed unchanged: 71 → 71; zero new errors. This is startup/field-readback testing. The parade itself, colony completion, every formatted-name scenario and subscription installation of the published Workshop copy were not tested by these runs.
+
+New Russian text: Antyhc, 2026; AI-assisted authoring and semantic review with OpenAI Codex. Ascent/stellarch/shuttle terminology follows the main Russian pack. No independent human proofreading claimed.
+
+Free standalone own-text adaptation under the separately recorded Vanilla Expanded author permission:
+https://github.com/Vanilla-Expanded/VanillaExpandedFramework/issues/195#issuecomment-6519584242
+Original CC BY-NC-ND 4.0 metadata remains; the adaptation permission is recorded separately. Retain original credits, links and notices. Commercial redistribution is not granted by this permission. No original code, assemblies/artwork or third-party Russian text included. No Vanilla Expanded endorsement or affiliation claimed. Own typographic cover by Antyhc, MIT.

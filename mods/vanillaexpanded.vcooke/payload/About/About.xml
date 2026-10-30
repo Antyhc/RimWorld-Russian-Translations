@@ -1,0 +1,33 @@
+<?xml version='1.0' encoding='utf-8'?>
+<ModMetaData>
+  <name>Vanilla Cooking Expanded — Russian compatibility completion (Alpha Animals / Genetics)</name>
+  <author>Antyhc (AI-assisted with OpenAI Codex)</author>
+  <packageId>antyhc.russian.vanillaexpanded.vcooke</packageId>
+  <url>https://github.com/Antyhc/RimWorld-Russian-Translations</url>
+  <description>Русское дополнение совместимости Vanilla Cooking Expanded с Alpha Animals и Vanilla Genetics Expanded: 24 подписи и описания 12 процессов изготовления сыра. Шесть строк загружаются при включённом Alpha Animals, ещё 18 — при включённом Vanilla Genetics Expanded. Требуются оригинальный Vanilla Cooking Expanded, его зависимости и основной русский перевод Vanilla Cooking Expanded Russian Language Pack (2914375951). Загружать после них. Содержит только новые собственные строки интеграций; остальные тексты остаются в основном переводе. Подготовлено и вычитано с помощью OpenAI Codex; независимая вычитка человеком и длительная проверка колонии не заявляются.
+
+Russian compatibility completion for Vanilla Cooking Expanded with Alpha Animals and Vanilla Genetics Expanded: 24 captions and descriptions for 12 cheese-making processes. Six strings load with Alpha Animals; another 18 load with Vanilla Genetics Expanded. Requires original Vanilla Cooking Expanded, its dependencies and the main Vanilla Cooking Expanded Russian Language Pack (2914375951). Load after them. Contains only newly authored integration strings; the existing Russian pack supplies all other text. AI-assisted authoring and semantic review by OpenAI Codex; no independent human proofreading or extended colony gameplay test claimed.</description>
+  <supportedVersions>
+    <li>1.7</li>
+  </supportedVersions>
+  <modDependencies>
+    <li>
+      <packageId>vanillaexpanded.vcooke</packageId>
+      <displayName>Vanilla Cooking Expanded</displayName>
+      <steamWorkshopUrl>https://steamcommunity.com/sharedfiles/filedetails/?id=2134308519</steamWorkshopUrl>
+    </li>
+    <li>
+      <packageId>ow.ru.cooking</packageId>
+      <displayName>Vanilla Cooking Expanded Russian Language Pack</displayName>
+      <steamWorkshopUrl>https://steamcommunity.com/sharedfiles/filedetails/?id=2914375951</steamWorkshopUrl>
+    </li>
+  </modDependencies>
+  <loadAfter>
+    <li>vanillaexpanded.vcooke</li>
+    <li>ow.ru.cooking</li>
+    <li>brrainz.harmony</li>
+    <li>oskarpotocki.vanillafactionsexpanded.core</li>
+    <li>sarg.alphaanimals</li>
+    <li>vanillaexpanded.vgeneticse</li>
+  </loadAfter>
+</ModMetaData>

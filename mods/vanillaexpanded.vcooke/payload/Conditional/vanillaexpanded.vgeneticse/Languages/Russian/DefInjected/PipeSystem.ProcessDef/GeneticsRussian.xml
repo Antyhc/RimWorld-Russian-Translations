@@ -1,0 +1,21 @@
+<?xml version='1.0' encoding='utf-8'?>
+<LanguageData>
+  <VCE_BearffaloMilkIntoCheese.description>Перерабатывает 40 ед. молока медвеффало в 25 ед. сыра.</VCE_BearffaloMilkIntoCheese.description>
+  <VCE_BearffaloMilkIntoCheese.label>Сыр из молока медвеффало</VCE_BearffaloMilkIntoCheese.label>
+  <VCE_ChickenffaloMilkIntoCheese.description>Перерабатывает 100 ед. молока куроффало в 25 ед. сыра.</VCE_ChickenffaloMilkIntoCheese.description>
+  <VCE_ChickenffaloMilkIntoCheese.label>Сыр из молока куроффало</VCE_ChickenffaloMilkIntoCheese.label>
+  <VCE_MechaMilkIntoCheese.description>Перерабатывает 50 ед. молока механоидов в 25 ед. сыра.</VCE_MechaMilkIntoCheese.description>
+  <VCE_MechaMilkIntoCheese.label>Сыр из молока механоидов</VCE_MechaMilkIntoCheese.label>
+  <VCE_MuffalobearMilkIntoCheese.description>Перерабатывает 62 ед. молока муффаломедведя в 25 ед. сыра.</VCE_MuffalobearMilkIntoCheese.description>
+  <VCE_MuffalobearMilkIntoCheese.label>Сыр из молока муффаломедведя</VCE_MuffalobearMilkIntoCheese.label>
+  <VCE_MuffalochickenMilkIntoCheese.description>Перерабатывает 50 ед. молока муффалокурицы в 25 ед. сыра.</VCE_MuffalochickenMilkIntoCheese.description>
+  <VCE_MuffalochickenMilkIntoCheese.label>Сыр из молока муффалокурицы</VCE_MuffalochickenMilkIntoCheese.label>
+  <VCE_RatMilkIntoCheese.description>Перерабатывает 40 ед. молока крысоффало в 25 ед. сыра.</VCE_RatMilkIntoCheese.description>
+  <VCE_RatMilkIntoCheese.label>Сыр из молока крысоффало</VCE_RatMilkIntoCheese.label>
+  <VCE_ThrumffaloMilkIntoCheese.description>Перерабатывает 12 ед. молока трумффало в 25 ед. сыра.</VCE_ThrumffaloMilkIntoCheese.description>
+  <VCE_ThrumffaloMilkIntoCheese.label>Сыр из молока трумффало</VCE_ThrumffaloMilkIntoCheese.label>
+  <VCE_WeirdMilkIntoCheese.description>Перерабатывает 62 ед. странного молока в 25 ед. сыра.</VCE_WeirdMilkIntoCheese.description>
+  <VCE_WeirdMilkIntoCheese.label>Сыр из странного молока</VCE_WeirdMilkIntoCheese.label>
+  <VCE_WolffaloMilkIntoCheese.description>Перерабатывает 125 ед. волосатого молока в 25 ед. сыра.</VCE_WolffaloMilkIntoCheese.description>
+  <VCE_WolffaloMilkIntoCheese.label>Сыр из волосатого молока</VCE_WolffaloMilkIntoCheese.label>
+</LanguageData>

@@ -36,9 +36,20 @@
     "workshop_status": "not_published"
   },
   "integration": {
-    "status": "not_sent",
-    "pr_url": null,
-    "contact_url": null
+    "status": "open",
+    "pr_url": "https://github.com/bbradson/Adaptive-Storage-Framework/pull/41",
+    "contact_url": null,
+    "target_kind": "original_mod",
+    "target_repository_url": "https://github.com/bbradson/Adaptive-Storage-Framework",
+    "head_sha": "4d8c34b6362f3a436c73ac942d985195b5435fa5",
+    "submitted_at": "2026-10-30",
+    "last_checked_at": "2026-10-30T11:46:14.225864+00:00",
+    "original_native_accepted": false,
+    "ai_disclosed": true,
+    "fresh_game_test_claimed": false,
+    "merge_conflicts": false,
+    "scope": "42current nativeXMLentries:41Russianwordings+retainedVanillamode name,2XML. Exactremote bytes verified. Static current-source/semantic/token QA only; no freshgame or1.7support or independenthuman proofreading claim.",
+    "evidence": "integration-proposal-evidence.json"
   },
   "original": {
     "author": "Soul, Phaneron, Bradson",

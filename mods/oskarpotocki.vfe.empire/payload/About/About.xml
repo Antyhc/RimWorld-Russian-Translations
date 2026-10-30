@@ -1,0 +1,35 @@
+<?xml version='1.0' encoding='utf-8'?>
+<ModMetaData>
+  <name>VFE Empire — Russian completion</name>
+  <author>Antyhc (AI-assisted with OpenAI Codex)</author>
+  <packageId>antyhc.russian.oskarpotocki.vfe.empire</packageId>
+  <url>https://github.com/Antyhc/RimWorld-Russian-Translations</url>
+  <description>Дополнение к существующему русскому переводу Vanilla Factions Expanded — Empire: 12 отсутствовавших строк о прибытии и ожидании знати, отмене и завершении парада восхождения и придворном стимуляторе. Требуются оригинальный Empire, его зависимости, DLC Royalty и русский пакет Mewn Goddess (2942002763). Загружать после оригинала и русского пакета. Его 83 уже переведённых выбранных поля и английское название бренда сохраняются; чужой русский текст не копируется. Только собственные дополнения с разрешения автора; исходная ND-лицензия остаётся. Подготовка и смысловая вычитка с помощью OpenAI Codex; независимая вычитка человеком не заявляется.
+
+Completion supplement for the existing Vanilla Factions Expanded - Empire Russian pack: 12 missing strings for noble arrival/waiting, ascent-parade cancellation/ending and the court stimulant. Requires original Empire and dependencies, Royalty DLC and Mewn Goddess Russian pack (2942002763). Load after both original and Russian pack. Its 83 covered selected fields and brand title are preserved; no third-party Russian is copied. Only own additions under the recorded author permission; original ND license remains. AI-assisted authoring and semantic review with OpenAI Codex; no independent human proofreading claimed.</description>
+  <supportedVersions>
+    <li>1.7</li>
+  </supportedVersions>
+  <modDependencies>
+    <li>
+      <packageId>oskarpotocki.vfe.empire</packageId>
+      <displayName>Vanilla Factions Expanded - Empire</displayName>
+      <steamWorkshopUrl>https://steamcommunity.com/sharedfiles/filedetails/?id=2938820380</steamWorkshopUrl>
+    </li>
+    <li>
+      <packageId>ludeon.rimworld.royalty</packageId>
+      <displayName>Royalty</displayName>
+    </li>
+    <li>
+      <packageId>mewn.ru.empire</packageId>
+      <displayName>Vanilla Factions Expanded - Empire Russian Language Pack</displayName>
+      <steamWorkshopUrl>https://steamcommunity.com/sharedfiles/filedetails/?id=2942002763</steamWorkshopUrl>
+    </li>
+  </modDependencies>
+  <loadAfter>
+    <li>oskarpotocki.vfe.empire</li>
+    <li>brrainz.harmony</li>
+    <li>oskarpotocki.vanillafactionsexpanded.core</li>
+    <li>mewn.ru.empire</li>
+  </loadAfter>
+</ModMetaData>

@@ -1,0 +1,11 @@
+Original mod: Vanilla Cooking Expanded by Oskar Potocki, Sarg Bjornson, Chowder.
+Source: https://steamcommunity.com/sharedfiles/filedetails/?id=2134308519
+Original work remains CC BY-NC-ND 4.0, https://creativecommons.org/licenses/by-nc-nd/4.0/ .
+Separate author permission for own free Russian translation/adaptation, including disclosed AI assistance: https://github.com/Vanilla-Expanded/VanillaExpandedFramework/issues/195#issuecomment-6519584242
+This permission concerns own translated text. Original artwork, code and third-party Russian are not included; no Vanilla Expanded endorsement or affiliation.
+
+New Russian text copyright (c) 2026 Antyhc, Creative Commons Attribution-NonCommercial-ShareAlike 4.0 (CC BY-NC-SA 4.0).
+https://creativecommons.org/licenses/by-nc-sa/4.0/
+Retain author credits, source/license links and indication of translation changes; noncommercial sharing/adaptation only, same license for adaptations, no additional restrictions.
+
+Own typographic fallback cover copyright (c) 2026 Antyhc, MIT; no original mod artwork used.

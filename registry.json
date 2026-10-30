@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "generated_at": "2026-10-30T10:09:57+00:00",
+  "generated_at": "2026-10-30T11:46:20+00:00",
   "mods": [
     {
       "schema_version": 1,
@@ -215,9 +215,20 @@
         "workshop_status": "not_published"
       },
       "integration": {
-        "status": "not_sent",
-        "pr_url": null,
-        "contact_url": null
+        "status": "open",
+        "pr_url": "https://github.com/bbradson/Adaptive-Storage-Framework/pull/41",
+        "contact_url": null,
+        "target_kind": "original_mod",
+        "target_repository_url": "https://github.com/bbradson/Adaptive-Storage-Framework",
+        "head_sha": "4d8c34b6362f3a436c73ac942d985195b5435fa5",
+        "submitted_at": "2026-10-30",
+        "last_checked_at": "2026-10-30T11:46:14.225864+00:00",
+        "original_native_accepted": false,
+        "ai_disclosed": true,
+        "fresh_game_test_claimed": false,
+        "merge_conflicts": false,
+        "scope": "42current nativeXMLentries:41Russianwordings+retainedVanillamode name,2XML. Exactremote bytes verified. Static current-source/semantic/token QA only; no freshgame or1.7support or independenthuman proofreading claim.",
+        "evidence": "integration-proposal-evidence.json"
       },
       "original": {
         "author": "Soul, Phaneron, Bradson",
@@ -8917,7 +8928,7 @@
         "contact_url": null,
         "target_kind": "community_translation",
         "target_repository_url": "https://github.com/OneCodeUnit/VanillaRussianExpanded",
-        "head_sha": "70fd91bf3a5d56bb39cd3bcbb8aefb040e87df99",
+        "head_sha": "c2a348f7e7cbf66c09f677469738e6e3349721e0",
         "submitted_at": "2026-10-30",
         "last_checked_at": "2026-10-30T10:07:33.421025+00:00",
         "original_native_accepted": false,
@@ -8925,7 +8936,7 @@
         "ai_disclosed": true,
         "fresh_game_test_claimed": false,
         "merge_conflicts": false,
-        "scope": "Nine missing own strings:6GodMode-only terrain labels and3player-facing captions in four XML files; current upstream checked, static QA only. Existing Russian retained."
+        "scope": "9own current missing strings in the shared16-string/7XML community contribution. Static source/XML/semantic checks only; no new game or independent human proofreading claim."
       },
       "original": {
         "author": "Oskar Potocki, XeoNovaDan, Orion, Kikohi, Taranchuk, Sarg Bjornson, Erdelf",
@@ -9439,37 +9450,76 @@
           "status": "confirmed",
           "license": "Author permission for free standalone own-text Russian adaptation",
           "evidence": "https://github.com/Vanilla-Expanded/VanillaExpandedFramework/issues/195#issuecomment-6519584242",
-          "attribution": "Original mod: Vanilla Factions Expanded - Empire by Oskar Potocki, xrushha, legodude17, Allie. Original: https://steamcommunity.com/sharedfiles/filedetails/?id=2938820380. Own Russian adaptation: Antyhc,2026, AI-assisted with OpenAI Codex. Permission: https://github.com/Vanilla-Expanded/VanillaExpandedFramework/issues/195#issuecomment-6519584242. No Vanilla Expanded endorsement or affiliation. No original artwork or third-party Russian text licensed by this reply.",
+          "attribution": "Original mod: Vanilla Factions Expanded - Empire by Oskar Potocki, xrushha, legodude17 and Allie (current About.xml credits).\nOriginal Workshop: https://steamcommunity.com/sharedfiles/filedetails/?id=2938820380\nSpecific translation permission: https://github.com/Vanilla-Expanded/VanillaExpandedFramework/issues/195#issuecomment-6519584242\nOriginal CC BY-NC-ND 4.0 metadata remains unchanged; this is the separately permitted free own-text adaptation. No original artwork or third-party Russian permission is inferred.\nRussian supplement: Antyhc,2026;12 newly authored/reviewed missing fields, AI-assisted with OpenAI Codex. No independent human proofreading, affiliation or Vanilla Expanded endorsement claimed.\nRequired existing Russian pack: https://steamcommunity.com/sharedfiles/filedetails/?id=2942002763 ; its83 covered selected fields and brand label are neither copied nor replaced.\nOnly language XML and own notices/typographic cover are included; no original code, assemblies or artwork. Own typographic cover: Antyhc, MIT.\n",
+          "license_evidence_file": "rights-evidence.json",
+          "required_notice_files": {
+            "About/License.txt": "fb08ba04301996d1b9c76a844ec9e2518f497310130147eee9daa867f2b5bb09",
+            "About/Credits.txt": "50d3c0d4d22250315bc1c622631e282f29bc7bf67392c9213f5760e2e274a243"
+          },
+          "original_license": "CC-BY-NC-ND-4.0",
           "permission_requested": true,
           "permission_request_url": "https://github.com/Vanilla-Expanded/VanillaExpandedFramework/issues/195",
           "permission_request_date": "2026-10-30",
           "permission_received": true,
           "permission_received_date": "2026-10-30",
           "permission_reply_url": "https://github.com/Vanilla-Expanded/VanillaExpandedFramework/issues/195#issuecomment-6519584242",
-          "permission_scope": "newly_authored_standalone_translation_text_only",
-          "original_license": "CC-BY-NC-ND-4.0",
-          "license_evidence_file": "translation-rights-evidence.json"
+          "permission_scope": "newly_authored_standalone_translation_text_only"
         },
         "icon": {
-          "status": "unknown",
-          "license": null,
-          "evidence": null,
-          "attribution": null
+          "status": "confirmed",
+          "kind": "original_typographic_fallback",
+          "license": "MIT",
+          "evidence": "scripts/make_original_cover.py; own typographic design",
+          "attribution": "Own typographic cover by Antyhc; no original mod artwork",
+          "source_sha256": "a8c0657905f34a3b3f7de8d3196c4ea3b20ae0b7175d3bdfd1f8ce25e89030ac",
+          "preview_sha256": "a8c0657905f34a3b3f7de8d3196c4ea3b20ae0b7175d3bdfd1f8ce25e89030ac",
+          "original_mod_art_used": false
         }
       },
       "qa": {
-        "technical": "pending",
-        "linguistic": "pending",
-        "source_current": false,
-        "in_game": "not_tested",
-        "checked_at": "2026-10-28T09:15:27.268425+00:00"
+        "technical": "passed",
+        "linguistic": "ai_reviewed",
+        "source_current": true,
+        "in_game": "passed",
+        "checked_at": "2026-10-30T10:23:55.272314+00:00",
+        "source_checked_at": "2026-10-30T10:23:55.272314+00:00",
+        "payload_sha256": "52411ee1a6873d00746c69d423dfc99da67cadffa5c858439d47f8095e42cc54",
+        "source_snapshot_sha256": "22f7ce83a4ea7412af84610fe570f70e8b3b7d4c5f63904324f86ff89439d20e",
+        "evidence": "qa-evidence.json",
+        "coverage": "Exactly12 own missing entries,10Keyed+2HediffDef;83 selected existing Russian fields and1brand title not copied. Royalty and base Russian required.",
+        "standalone_minimal_game_test": "passed_actual_all_active_v2_with_required_support",
+        "game_evidence": "game-test-evidence.json",
+        "game_version": "1.7.4990 rev1069",
+        "game_test_scope": "Actual isolated original+required-support control and candidate startup/readback. All ordinary payload targets matched English then Russian, with exact physical/Keyed ownership. Additional support packages were present in both runs; full localization error multiset unchanged. No save, extended gameplay, Workshop-copy subscription test or independent human proofreading claimed.",
+        "game_test_evidence_sha256": "34e06a1f1f8e6ccb9e77b38a3e5ee9c94524eecdbe83c5db2c743369e9a6cadc",
+        "workshop_installation": "passed_exact_subscribed_bytes",
+        "workshop_game_load": "passed_actual_subscribed_Workshop_root",
+        "workshop_game_evidence": "workshop-game-test-evidence.json",
+        "workshop_game_evidence_sha256": "91069f67162a43103f977074bf9aec00d0f31100e59ced87f0effcb272b458e4",
+        "workshop_game_test_scope": "Fresh actual load of the subscribed byte-exact Workshop item. Earlier actual English control reused only after exact original source/context, game, selected values and unchanged read-only probe verification. Exact full localization-error multiset compared. The earlier local proof remains historical; no new English-control boot, save or extended gameplay/human proof claimed.",
+        "compatibility_note": "Mandatory base-Russian package2942002763 declares versions through1.6. Its actual load in this1.7.4990test was verified; no certification of the full base translation beyond this checked supplement."
       },
       "publication": {
         "github_url": "https://github.com/Antyhc/RimWorld-Russian-Translations/tree/main/mods/oskarpotocki.vfe.empire",
-        "github_status": "metadata_only",
-        "workshop_url": null,
-        "workshop_id": null,
-        "workshop_status": "not_published"
+        "github_status": "published",
+        "workshop_url": "https://steamcommunity.com/sharedfiles/filedetails/?id=3830050048",
+        "workshop_id": "3830050048",
+        "workshop_status": "published",
+        "release_blockers": [],
+        "workshop_title": "Vanilla Factions Expanded - Empire — Russian supplement (12 strings)",
+        "dependency_verified": true,
+        "required_dlc_apps": [
+          1149640
+        ],
+        "required_dlc_metadata_verified": true,
+        "collection_id": "3830036321",
+        "collection_member_verified": true,
+        "published_at": "2026-10-30T10:32:18.100105+00:00",
+        "anonymous_page_verified": true,
+        "anonymous_page_checked_at": "2026-10-30T10:36:24.293Z",
+        "anonymous_page_evidence": "community/workshop-public-pages-2026-10-30.json",
+        "installation_tested": true,
+        "installation_scope": "Official subscription exact6files; actual subscribed root12values compared against identical preserved real English control; Royalty and required base Russian active."
       },
       "integration": {
         "status": "not_sent",
@@ -9540,7 +9590,15 @@
         "work_stage": "installed_local",
         "saved_translation_store": true
       },
-      "work_stage": "installed_local",
+      "work_stage": "ready_for_publication",
+      "duplicate_translation": {
+        "status": "checked_no_current_equivalent",
+        "checked_at": "2026-10-30T10:23:55.272314+00:00",
+        "scope": "Current official Russian2942002763 was compared by exact targets, actual historical physical paths and conservative alias/base-type holds.83/96 selected own targets already Russian,1brand name intentionally English,12 absent. No third-party Russian copied. All96 current English hashes unchanged.",
+        "candidates": [
+          "https://steamcommunity.com/sharedfiles/filedetails/?id=2942002763"
+        ]
+      },
       "manifest": "mods/oskarpotocki.vfe.empire/manifest.json"
     },
     {
@@ -12402,34 +12460,41 @@
         "linguistic": "ai_reviewed",
         "source_current": true,
         "in_game": "passed",
-        "checked_at": "2026-10-30T08:21:58.439333+00:00",
-        "source_checked_at": "2026-10-30T08:21:58.439333+00:00",
-        "payload_sha256": "735d519c8e99817a451c20890175ff3082adc89f4280e998b2c5324a21f2f1fb",
+        "checked_at": "2026-10-30T10:54:45.051025+00:00",
+        "source_checked_at": "2026-10-30T10:54:45.051025+00:00",
+        "payload_sha256": "30eb978f526c784f6f155fd93a380bf14767e300f0fd1f556b44abbedbef845f",
         "source_snapshot_sha256": "b0af7d3872a25f8bd4f26b10c1349854145356cd3221cd28e701ddf923c5fc96",
         "evidence": "qa-evidence.json",
         "coverage": "One own Russian descriptive achievement title gated by Odyssey; brand/acronym/quotation names and existing Russian preserved.",
-        "standalone_minimal_game_test": "passed_actual_enabled_and_disabled_contexts",
+        "standalone_minimal_game_test": "passed_actual_all_conditions_and_full_global_ERRORS",
         "game_evidence": "game-test-evidence.json",
         "game_version": "1.7.4990 rev1069",
-        "game_test_scope": "The same exact payload passed original-only/candidate tests with every declared condition enabled and disabled. Enabled values matched English then Russian; disabled targets retained exact control state and received no injection. Error multisets matched within each context; baselines may differ across contexts. No saves, extended gameplay, Workshop-copy installation or independent human proofreading claimed.",
-        "game_test_evidence_sha256": "3075090c7194aff1d41b41789a1f884dcb52c405127894e06d95b59e3a60fd3c",
-        "workshop_installation": "passed_exact_subscribed_bytes",
-        "workshop_game_load": "passed_actual_subscribed_Workshop_root_both_conditional_contexts",
+        "game_test_scope": "All declared condition combinations passed separate actual English-control/Russian-candidate startup and master-target readback. Active values matched exact sources/owners; inactive targets retained exact control state without candidate injection. Full localization multisets and complete timestamp-stripped global Player.log ERROR records matched within each pair; baselines may differ across contexts. Unique active target union is counted once. No save, extended gameplay, every formatted scenario, Workshop-copy installation or independent human proofreading claimed.",
+        "game_test_evidence_sha256": "b5c092adee3ebbfdffbf33b8b889c909f5f4b88c0f89ac3b370d27c412d02200",
+        "workshop_copy_verification": "passed_updated_payload_both_actual_contexts_and_complete_global_logs",
+        "workshop_installation": "passed_exact_subscribed_7files",
+        "workshop_game_load": "passed_actual_updated_Workshop_root_both_contexts",
         "workshop_game_evidence_contexts": [
           {
             "file": "workshop-game-test-off-evidence.json",
-            "sha256": "d600474b7d55c1152c14d09297332a59946986d202e8c99955aa911739a77bc0",
+            "sha256": "fe0c06baa5510e6e1689e335225dc12fa96deb4429e89ded2351586cb1c19aef",
             "active_values_verified": 0,
-            "inactive_targets_verified_unchanged_and_not_injected": 1
+            "inactive_targets_verified_unchanged_and_not_injected": 1,
+            "full_global_log_evidence": "workshop-global-error-off-evidence.json",
+            "full_global_log_evidence_sha256": "78220b7b64ebe35a6b704c4087962e080b361808a75f4eba70454e05d59fc270",
+            "full_global_ERROR_FATAL_multiset_unchanged": true
           },
           {
             "file": "workshop-game-test-on-evidence.json",
-            "sha256": "756db7d568cf0cc56c586ddc4d355aa65ff5e3cccd8dfa1c19a1b989af6937d2",
+            "sha256": "f855d2b0f0cf8282fae0314fd00721914b3ac37e3968dcc9f221216c05ea7a92",
             "active_values_verified": 1,
-            "inactive_targets_verified_unchanged_and_not_injected": 0
+            "inactive_targets_verified_unchanged_and_not_injected": 0,
+            "full_global_log_evidence": "workshop-global-error-on-evidence.json",
+            "full_global_log_evidence_sha256": "1a413abf341e6e3b09326380a8ed7a3cd599278f12dac844fbb86fd02f05e8c9",
+            "full_global_ERROR_FATAL_multiset_unchanged": true
           }
         ],
-        "workshop_game_test_scope": "Fresh subscribed Workshop-root boots with Odyssey enabled and disabled, each compared against its preserved actual English control after exact current-source/context/probe checks; one unique title, no gameplay claim."
+        "workshop_game_test_scope": "Updated item3830022947 actual subscribed root, same reviewed7files; new actual local controls reused only after current-source/context/probe checks. Off target inactive/no injection; on targetRussian. Full localization and complete ERROR/FATAL record multisets unchanged in both contexts; no saves or extended gameplay."
       },
       "publication": {
         "github_url": "https://github.com/Antyhc/RimWorld-Russian-Translations/tree/main/mods/vanillaexpanded.achievements",
@@ -12441,11 +12506,15 @@
         "workshop_visibility": "public",
         "workshop_submitted_at": "2026-10-30T09:15:53.308392+00:00",
         "anonymous_page_verified": true,
-        "anonymous_page_checked_at": "2026-10-30T10:06:46.001Z",
+        "anonymous_page_checked_at": "2026-10-30T11:18:42.265Z",
         "anonymous_page_evidence": "community/workshop-public-pages-2026-10-30.json",
         "collection_id": "3830036321",
         "collection_member_verified": true,
-        "github_publication_date": "2026-10-30"
+        "github_publication_date": "2026-10-30",
+        "published_payload_sha256": "30eb978f526c784f6f155fd93a380bf14767e300f0fd1f556b44abbedbef845f",
+        "workshop_update_requires_same_item": true,
+        "previous_published_payload_sha256": "735d519c8e99817a451c20890175ff3082adc89f4280e998b2c5324a21f2f1fb",
+        "workshop_update_verified": true
       },
       "integration": {
         "status": "not_sent",
@@ -12603,7 +12672,7 @@
           "baseline_file": "source.tree.json"
         }
       },
-      "work_stage": "ready_for_publication",
+      "work_stage": "ready_for_existing_item_update",
       "conditional_languages": {
         "version": "1.7",
         "roots": [
@@ -12672,9 +12741,19 @@
         "workshop_status": "not_published"
       },
       "integration": {
-        "status": "not_sent",
-        "pr_url": null,
-        "contact_url": null
+        "status": "open",
+        "pr_url": "https://github.com/OneCodeUnit/VanillaRussianExpanded/pull/47",
+        "contact_url": null,
+        "target_kind": "community_translation",
+        "target_repository_url": "https://github.com/OneCodeUnit/VanillaRussianExpanded",
+        "head_sha": "c2a348f7e7cbf66c09f677469738e6e3349721e0",
+        "submitted_at": "2026-10-30",
+        "original_native_accepted": false,
+        "community_translation_accepted": false,
+        "ai_disclosed": true,
+        "fresh_game_test_claimed": false,
+        "merge_conflicts": false,
+        "scope": "3own current missing strings in the shared16-string/7XML community contribution. Static source/XML/semantic checks only; no new game or independent human proofreading claim."
       },
       "original": {
         "author": "Oskar Potocki, Sarg Bjornson, Sokyran, Taranchuk, Erdelf",
@@ -14979,37 +15058,102 @@
           "status": "confirmed",
           "license": "Author permission for free standalone own-text Russian adaptation",
           "evidence": "https://github.com/Vanilla-Expanded/VanillaExpandedFramework/issues/195#issuecomment-6519584242",
-          "attribution": "Original mod: Vanilla Cooking Expanded by Oskar Potocki, Sarg Bjornson, Chowder. Original: https://steamcommunity.com/sharedfiles/filedetails/?id=2134308519. Own Russian adaptation: Antyhc,2026, AI-assisted with OpenAI Codex. Permission: https://github.com/Vanilla-Expanded/VanillaExpandedFramework/issues/195#issuecomment-6519584242. No Vanilla Expanded endorsement or affiliation. No original artwork or third-party Russian text licensed by this reply.",
+          "attribution": "Original Vanilla Cooking Expanded by Oskar Potocki, Sarg Bjornson, Chowder.\nOriginal: https://steamcommunity.com/sharedfiles/filedetails/?id=2134308519\nTranslation permission: https://github.com/Vanilla-Expanded/VanillaExpandedFramework/issues/195#issuecomment-6519584242\nOriginal ND license retained; separate permission permits the own translated text. New Russian text by Antyhc, 2026, CC BY-NC-SA 4.0.\nChanges: 24 independently authored captions/descriptions for 12 optional cheese processes; actual ingredient DefNames and quantities checked. Ratffalo milk and hairy milk terminology corrected, labels and unit grammar aligned.\nSix Alpha Animals strings and 18 Vanilla Genetics Expanded strings are conditionally loaded. Both optional originals declare RimWorld 1.7.\nExisting main Russian translation by Amortem, OliveWizard and Mewn Goddess remains a separate dependency: https://steamcommunity.com/sharedfiles/filedetails/?id=2914375951 . No text from that translation is redistributed.\nAI assistance: OpenAI Codex drafting and individual source/semantic review; no independent human proofreading claimed.\nOwn typographic cover by Antyhc, MIT. No original code/DLL/art/assets or third-party Russian copied.\nNo endorsement or affiliation with Vanilla Expanded; no extended colony test claimed.\n",
+          "license_evidence_file": "rights-evidence.json",
+          "required_notice_files": {
+            "About/License.txt": "141416e19ea7268b4563dd88c52f49fe501f12f524688ccca930b8e24e40415b",
+            "About/Credits.txt": "0fcd65572bb9c7132832e44ace2c71a4c930e5dbe00f52eafd04557f4994bf45"
+          },
+          "original_license": "CC-BY-NC-ND-4.0",
           "permission_requested": true,
           "permission_request_url": "https://github.com/Vanilla-Expanded/VanillaExpandedFramework/issues/195",
           "permission_request_date": "2026-10-30",
           "permission_received": true,
           "permission_received_date": "2026-10-30",
           "permission_reply_url": "https://github.com/Vanilla-Expanded/VanillaExpandedFramework/issues/195#issuecomment-6519584242",
-          "permission_scope": "newly_authored_standalone_translation_text_only",
-          "original_license": "CC-BY-NC-ND-4.0",
-          "license_evidence_file": "translation-rights-evidence.json"
+          "permission_scope": "newly_authored_standalone_translation_text_only"
         },
         "icon": {
-          "status": "unknown",
-          "license": null,
-          "evidence": null,
-          "attribution": null
+          "status": "confirmed",
+          "kind": "original_typographic_fallback",
+          "license": "MIT",
+          "evidence": "scripts/make_original_cover.py; own typographic design",
+          "attribution": "Own typographic cover by Antyhc; no original mod artwork",
+          "source_sha256": "e67aa959efafa7c021ccf3a25fa1e7b2a18f73074932a7329fd82c8e99aaf940",
+          "preview_sha256": "e67aa959efafa7c021ccf3a25fa1e7b2a18f73074932a7329fd82c8e99aaf940",
+          "original_mod_art_used": false
         }
       },
       "qa": {
-        "technical": "pending",
-        "linguistic": "pending",
-        "source_current": false,
-        "in_game": "not_tested",
-        "checked_at": "2026-10-28T09:15:27.268425+00:00"
+        "technical": "passed",
+        "linguistic": "ai_reviewed",
+        "source_current": true,
+        "in_game": "passed",
+        "checked_at": "2026-10-30T11:01:20.872857+00:00",
+        "source_checked_at": "2026-10-30T10:32:59.334081+00:00",
+        "payload_sha256": "3d983423dcec0aeb1e74c3425e70f76989e4cfbd69063ad45e4c786006686473",
+        "source_snapshot_sha256": "70414cdd00bd53b89bce8ca33ccd5df5deb8f3dae05f5e14e239c1cbf2bb27f2",
+        "evidence": "qa-evidence.json",
+        "coverage": "24 missing integration-only strings:6AlphaAnimals+18Genetics across12cheese processes. No replacement of base Russian; each branch loads only when corresponding original addon is active.",
+        "standalone_minimal_game_test": "passed_actual_all_condition_combinations",
+        "versioned_empty_context_content_marker": {
+          "previous_payload_sha256": "f757fbc21ef63523e10d1e423001fe0d22029d3f327fab39d7132e39409e424e",
+          "new_payload_sha256": "6e14d17827dc967ad0e93f9f852b4f823fac135913455027c2c621781d34bb2e",
+          "only_added_payload_file": "Languages/Russian/Keyed/ContentMarker.xml",
+          "existing7file_hashes_unchanged": true,
+          "translation_keys_added": 0,
+          "translation_keys_changed": 0,
+          "mechanism_evidence_sha256": "f1b9bdfb4f14786e048cb634c578be80eb05e55b4f9fdd2026b2e3c9753a0363",
+          "reason": "Current game AnyTranslationsLoaded recognizes a Languages file as translation content. An empty valid LanguageData marks an empty conditional state without injecting a key; requires new real all4context/globalERROR tests."
+        },
+        "versioned_language_file_layout": {
+          "version": 3,
+          "previous_v1_payload_sha256": "f757fbc21ef63523e10d1e423001fe0d22029d3f327fab39d7132e39409e424e",
+          "previous_v2_payload_sha256": "6e14d17827dc967ad0e93f9f852b4f823fac135913455027c2c621781d34bb2e",
+          "new_payload_sha256": "3d983423dcec0aeb1e74c3425e70f76989e4cfbd69063ad45e4c786006686473",
+          "renamed_language_files": {
+            "Conditional/sarg.alphaanimals/Languages/Russian/DefInjected/PipeSystem.ProcessDef/AdditionalRussian.xml": "Conditional/sarg.alphaanimals/Languages/Russian/DefInjected/PipeSystem.ProcessDef/AlphaAnimalsRussian.xml",
+            "Conditional/vanillaexpanded.vgeneticse/Languages/Russian/DefInjected/PipeSystem.ProcessDef/AdditionalRussian.xml": "Conditional/vanillaexpanded.vgeneticse/Languages/Russian/DefInjected/PipeSystem.ProcessDef/GeneticsRussian.xml"
+          },
+          "every_payload_file_content_hash_unchanged_from_v2": true,
+          "marker_added_since_v1": "Languages/Russian/Keyed/ContentMarker.xml",
+          "marker_translation_keys": 0,
+          "all24_translation_texts_unchanged": true,
+          "reason": "Disjoint conditional keys still shadowed through identical language-relative XML filenames. Unique per-root filenames preserve both active branches; keyless unconditional marker recognizes the empty context as valid language content. Fresh all4context/globalERROR tests required."
+        },
+        "game_evidence": "game-test-evidence.json",
+        "game_version": "1.7.4990 rev1069",
+        "game_test_scope": "All declared condition combinations passed separate actual English-control/Russian-candidate startup and master-target readback. Active values matched exact sources/owners; inactive targets retained exact control state without candidate injection. Full localization multisets and complete timestamp-stripped global Player.log ERROR records matched within each pair; baselines may differ across contexts. Unique active target union is counted once. No save, extended gameplay, every formatted scenario, Workshop-copy installation or independent human proofreading claimed.",
+        "game_test_evidence_sha256": "4629a4b8976d63986db87cf990de51faa0d10aef196c382a97cad0a250430ddb",
+        "full_log_quality": "passed_all4context_full_global_ERROR_FATAL_equality",
+        "whole_base_Russian1_7_certified": false,
+        "base_Russian_version_metadata_note": "Required ow.ru.cooking (2914375951) declares only through 1.6; metadata unchanged. This 24-entry 1.7 startup/readback verification does not certify the whole base translation or colony gameplay.",
+        "workshop_installation": "passed_exact_subscribed_8files",
+        "workshop_game_load": "passed_all_four_actual_Workshop_condition_combinations",
+        "workshop_game_evidence": "workshop-game-test-evidence.json",
+        "workshop_game_evidence_sha256": "8b18101d6dc9878f831a9f4a85bbad86b14481c893ce0bf7da4e4e6610dd51b8",
+        "workshop_game_checked_at": "2026-10-30T11:43:34.458280+00:00",
+        "workshop_game_test_scope": "Four fresh actual subscribed-copy candidate boots with0/6/18/24active strings; unique24targets counted once. Exact earlier actual English controls reused only after source/context/game/probe verification. All inactive targets unchanged/not injected. Complete localization and Player ERROR/FATAL multisets unchanged; no saves, cheese-production cycles or extended gameplay tested."
       },
       "publication": {
         "github_url": "https://github.com/Antyhc/RimWorld-Russian-Translations/tree/main/mods/vanillaexpanded.vcooke",
-        "github_status": "metadata_only",
-        "workshop_url": null,
-        "workshop_id": null,
-        "workshop_status": "not_published"
+        "github_status": "published",
+        "workshop_url": "https://steamcommunity.com/sharedfiles/filedetails/?id=3830078437",
+        "workshop_id": "3830078437",
+        "workshop_status": "published",
+        "release_blockers": [],
+        "workshop_title": "Vanilla Cooking Expanded — Russian integrations (24 strings)",
+        "dependency_verified": true,
+        "required_dlc_apps": [],
+        "required_dlc_metadata_verified": true,
+        "collection_id": "3830036321",
+        "collection_member_verified": true,
+        "published_at": "2026-10-30T11:38:41.213528+00:00",
+        "anonymous_page_verified": true,
+        "anonymous_page_checked_at": "2026-10-30T11:40:06.316Z",
+        "anonymous_page_evidence": "community/workshop-public-pages-2026-10-30.json",
+        "installation_tested": true,
+        "installation_scope": "Official subscription exact8files, all four actual Workshop-root condition combinations verified against unchanged real local controls; required original and base Russian active. Optional Alpha Animals/Genetics are not required Workshop dependencies."
       },
       "integration": {
         "status": "not_sent",
@@ -15150,7 +15294,35 @@
           "baseline_file": "source.tree.json"
         }
       },
-      "work_stage": "installed_local",
+      "work_stage": "ready_for_publication",
+      "conditional_languages": {
+        "version": "1.7",
+        "roots": [
+          {
+            "path": "Conditional/sarg.alphaanimals",
+            "if_mod_active": "sarg.alphaanimals",
+            "source_relative_root": "1.6/Mods/AlphaAnimals"
+          },
+          {
+            "path": "Conditional/vanillaexpanded.vgeneticse",
+            "if_mod_active": "vanillaexpanded.vgeneticse",
+            "source_relative_root": "1.6/Mods/VanillaGeneticsExpanded"
+          }
+        ],
+        "evidence": "source-layout-evidence.json",
+        "evidence_sha256": "ae8979f4def10bb5e14efb96bd27ea0e1e94a80cfd73c200ae842fc3bf78f757"
+      },
+      "duplicate_translation": {
+        "status": "checked_no_current_equivalent",
+        "checked_at": "2026-10-30T10:32:59.334081+00:00",
+        "scope": "Fresh official Cooking RU2914375951 lacks all24; fresh optional cross-providers2811213079/2569397678/2140324006 contain0of24. Own-only text; original Alpha/Genetics nativeRussian0. Existing base Russian preserved.",
+        "candidates": [
+          "https://steamcommunity.com/sharedfiles/filedetails/?id=2914375951",
+          "https://steamcommunity.com/sharedfiles/filedetails/?id=2811213079",
+          "https://steamcommunity.com/sharedfiles/filedetails/?id=2569397678",
+          "https://steamcommunity.com/sharedfiles/filedetails/?id=2140324006"
+        ]
+      },
       "manifest": "mods/vanillaexpanded.vcooke/manifest.json"
     },
     {
@@ -15295,9 +15467,19 @@
         "workshop_status": "not_published"
       },
       "integration": {
-        "status": "not_sent",
-        "pr_url": null,
-        "contact_url": null
+        "status": "open",
+        "pr_url": "https://github.com/OneCodeUnit/VanillaRussianExpanded/pull/47",
+        "contact_url": null,
+        "target_kind": "community_translation",
+        "target_repository_url": "https://github.com/OneCodeUnit/VanillaRussianExpanded",
+        "head_sha": "c2a348f7e7cbf66c09f677469738e6e3349721e0",
+        "submitted_at": "2026-10-30",
+        "original_native_accepted": false,
+        "community_translation_accepted": false,
+        "ai_disclosed": true,
+        "fresh_game_test_claimed": false,
+        "merge_conflicts": false,
+        "scope": "2own current missing strings in the shared16-string/7XML community contribution. Static source/XML/semantic checks only; no new game or independent human proofreading claim."
       },
       "original": {
         "author": "Oskar Potocki, Kikohi, Helixien, Sarg",
@@ -15413,9 +15595,19 @@
         "workshop_status": "not_published"
       },
       "integration": {
-        "status": "not_sent",
-        "pr_url": null,
-        "contact_url": null
+        "status": "open",
+        "pr_url": "https://github.com/OneCodeUnit/VanillaRussianExpanded/pull/47",
+        "contact_url": null,
+        "target_kind": "community_translation",
+        "target_repository_url": "https://github.com/OneCodeUnit/VanillaRussianExpanded",
+        "head_sha": "c2a348f7e7cbf66c09f677469738e6e3349721e0",
+        "submitted_at": "2026-10-30",
+        "original_native_accepted": false,
+        "community_translation_accepted": false,
+        "ai_disclosed": true,
+        "fresh_game_test_claimed": false,
+        "merge_conflicts": false,
+        "scope": "2own current missing strings in the shared16-string/7XML community contribution. Static source/XML/semantic checks only; no new game or independent human proofreading claim."
       },
       "original": {
         "author": "Oskar Potocki, Sarg Bjornson",
@@ -18921,24 +19113,25 @@
     "model_held_tasks": 10,
     "private_model_test_values": 473,
     "store_scope_unverified": 0,
-    "technically_checked": 12,
-    "game_tested": 12,
+    "technically_checked": 14,
+    "game_tested": 14,
     "github_metadata_records": 166,
-    "github_published": 12,
-    "workshop_submitted": 12,
-    "workshop_published": 12,
-    "pull_requests": 5,
+    "github_published": 14,
+    "workshop_submitted": 14,
+    "workshop_published": 14,
+    "pull_requests": 6,
+    "integration_records": 9,
     "accepted": 1,
     "awaiting_rights": 122,
     "needs_update": 13,
-    "freshness_unverified": 154,
+    "freshness_unverified": 152,
     "static_inventory_pass": 129,
     "static_inventory_flagged": 20,
     "static_findings": 49,
     "repository_monitors": 24,
-    "pull_request_monitors": 5,
+    "pull_request_monitors": 6,
     "icon_permission_requests": 2,
-    "workshop_public_pages_verified": 12,
+    "workshop_public_pages_verified": 14,
     "workshop_content_check_pending": 0,
     "workshop_source_monitors": 166
   }

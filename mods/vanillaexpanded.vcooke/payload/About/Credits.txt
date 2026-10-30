@@ -1,0 +1,10 @@
+Original Vanilla Cooking Expanded by Oskar Potocki, Sarg Bjornson, Chowder.
+Original: https://steamcommunity.com/sharedfiles/filedetails/?id=2134308519
+Translation permission: https://github.com/Vanilla-Expanded/VanillaExpandedFramework/issues/195#issuecomment-6519584242
+Original ND license retained; separate permission permits the own translated text. New Russian text by Antyhc, 2026, CC BY-NC-SA 4.0.
+Changes: 24 independently authored captions/descriptions for 12 optional cheese processes; actual ingredient DefNames and quantities checked. Ratffalo milk and hairy milk terminology corrected, labels and unit grammar aligned.
+Six Alpha Animals strings and 18 Vanilla Genetics Expanded strings are conditionally loaded. Both optional originals declare RimWorld 1.7.
+Existing main Russian translation by Amortem, OliveWizard and Mewn Goddess remains a separate dependency: https://steamcommunity.com/sharedfiles/filedetails/?id=2914375951 . No text from that translation is redistributed.
+AI assistance: OpenAI Codex drafting and individual source/semantic review; no independent human proofreading claimed.
+Own typographic cover by Antyhc, MIT. No original code/DLL/art/assets or third-party Russian copied.
+No endorsement or affiliation with Vanilla Expanded; no extended colony test claimed.

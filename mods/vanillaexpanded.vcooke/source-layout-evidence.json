@@ -1,0 +1,190 @@
+{
+  "schema": 1,
+  "package_id": "vanillaexpanded.vcooke",
+  "version": "1.7",
+  "roots": [
+    {
+      "path": "Conditional/sarg.alphaanimals",
+      "if_mod_active": "sarg.alphaanimals",
+      "source_relative_root": "1.6/Mods/AlphaAnimals"
+    },
+    {
+      "path": "Conditional/vanillaexpanded.vgeneticse",
+      "if_mod_active": "vanillaexpanded.vgeneticse",
+      "source_relative_root": "1.6/Mods/VanillaGeneticsExpanded"
+    }
+  ],
+  "original_input_files": {
+    "1.6\\Assemblies\\VanillaCookingExpanded.dll": "71f952f15aa60b1f29a682d084db33b31760beabe1d55b0cdb637e77ec0c0714",
+    "1.6\\Defs\\GraphicsOffsets\\GraphicOffsets.xml": "bd12cccdae55e720e98d8e2fe43023dde48e49b169a387d9d9cded8b6650d2a9",
+    "1.6\\Defs\\HediffDefs\\Hediffs_Global_Misc.xml": "f0d93fd71cf7eb8509e2ebe9a92c86b0686a6ea33174b20a6eb181046a438c8f",
+    "1.6\\Defs\\JoyGiverDefs\\JoyGivers.xml": "5a6fc810d34a3bb30990ada9bdc92bbcbd56881687219bb05c75e742f8e3eae2",
+    "1.6\\Defs\\JoyKindDefs\\JoyKinds.xml": "8ed928fb37919f01afd8b96fb1c34ea717810ac814faa67f22001a72df753b15",
+    "1.6\\Defs\\ProcessDefs\\ProcessDefs.xml": "5ac727964e570023b9cc9933e884dabbec29fc72d401a7c1b47f2d5c538c2694",
+    "1.6\\Defs\\RecipeDefs\\Recipes_Bakes.xml": "10f5f96a9fb53bcf5524ae364cd6680ae4d9cd2b6f1337bac990731ce0519830",
+    "1.6\\Defs\\RecipeDefs\\Recipes_Canning.xml": "30025b722c17b1501245e5b1164710cb1486961a3b9269dcfffc4e226e48a92c",
+    "1.6\\Defs\\RecipeDefs\\Recipes_Condiments.xml": "313d07f1640b6eb68701948dbb043e299ecd5dd8d86e98f717f6ff6d2ca73528",
+    "1.6\\Defs\\RecipeDefs\\Recipes_Desserts.xml": "feb55b707f93e941471a0948f2aeb6396d662e6bd58154ee82366f61f0be9c43",
+    "1.6\\Defs\\RecipeDefs\\Recipes_Frying.xml": "b0141942f9bd8cea4bca917bd8e8386cf71df70c2a7fa57995e2ba1758120788",
+    "1.6\\Defs\\RecipeDefs\\Recipes_Grills.xml": "cc7f7ab836e859cb1d4df33b5fd546282d34b75a910925591a0c4eb8f22ebd8b",
+    "1.6\\Defs\\RecipeDefs\\Recipes_Meals.xml": "3796d7d5b02656dad7473cdbb1d1011a9fc4ceed35f74a6fa5ea6eb53b3e69b2",
+    "1.6\\Defs\\RecipeDefs\\Recipes_Soups.xml": "1189cf988c193d878748a7e3a472025f9e855f3d184a0e9728d3166baa918ab5",
+    "1.6\\Defs\\ResearchProjectDefs\\Research.xml": "349aa3468124b8caa82798e2b69fc690b0b7a1e2ed8e35c598192b514620629d",
+    "1.6\\Defs\\ResearchProjectDefs\\ResearchTabs.xml": "cc720e806a703d46db1b9a9e70f3504bdc7bc9a57554e466352a89849bc46f71",
+    "1.6\\Defs\\StatDefs\\Stats.xml": "9e26e8725bd053332c0b1d0ef3a22e5b3db55e515570cebe591a3907b0692a81",
+    "1.6\\Defs\\ThingCategoryDefs\\ThingCategories.xml": "472e0f47c396149e28eddcd340b943d342e9250c24cd8e0b19f4c1b6f02475a6",
+    "1.6\\Defs\\ThingDefs_Buildings\\Buildings.xml": "fbb55154bae5ddb35e6c593ea6fa91d3c55b69590b59414d8d1292a905ea8a83",
+    "1.6\\Defs\\ThingDefs_Items\\Items_Bakes.xml": "455c99218e20e24b69296637b08ea63034e9cd118f813b189cc01bd0735de479",
+    "1.6\\Defs\\ThingDefs_Items\\Items_CannedFood.xml": "0f10663a41e8e216b160340c1f68d746a1f5118be166c1be9f6b95d8b7fbb35f",
+    "1.6\\Defs\\ThingDefs_Items\\Items_Cheese.xml": "216755cf150812144f1990ed9ea9c8295a71bde67fdbed636ed1c64a8867054f",
+    "1.6\\Defs\\ThingDefs_Items\\Items_Condiments.xml": "c6863f61197a4872f42d1212af3785f05a9aa1e2b7116738a9cf5141d02ce02d",
+    "1.6\\Defs\\ThingDefs_Items\\Items_DeepFried.xml": "b6a76547cb27679146b059b6ba45c5122878fbd5602dc1245b0bb3395e45de84",
+    "1.6\\Defs\\ThingDefs_Items\\Items_Desserts.xml": "9f8bfc29fa9f3ddb24e9fe66f96f65bd6f2f0f4e708eb8ff13053d49518852c1",
+    "1.6\\Defs\\ThingDefs_Items\\Items_Food.xml": "51c1fa2bcb3935b92f344ec31759ba411483c4350bcbc4d2b6324722ce6d35c6",
+    "1.6\\Defs\\ThingDefs_Items\\Items_Grills.xml": "bacacc069e846ac67870ae0629ff2fbea5b9e786e2cc1cfa32240a152fce7e8e",
+    "1.6\\Defs\\ThingDefs_Items\\Items_RawPlant.xml": "41b5ef2faa5fdde4be7c8821a5ca016c77187bcff7fcc7eec7198fc569d46ab7",
+    "1.6\\Defs\\ThingDefs_Items\\Items_Soups.xml": "f9887ee3b64ade2d675a5fac800efe1ff509ef78bafccf449448ace8c75a6132",
+    "1.6\\Defs\\ThingDefs_Plants\\Plants_Cultivated_Farm.xml": "51da33c24c45e9735b53aa9a7914c8b7c271127a7534cdbfcced663e2b6f56db",
+    "1.6\\Defs\\ThoughtDefs\\Thoughts_Memory_Eating.xml": "525035230a9d852fa7841c5c59e4ea001d525d9466e46428a6c80bc5bcbc0f83",
+    "1.6\\Defs\\WorkGiverDefs\\WorkGivers.xml": "85d732f40a7975c816ba74bfed688f3982fb9ce054f3b5d487b1bd897f0260da",
+    "1.6\\Mods\\AlphaAnimals\\Defs\\GraphicOffsets\\GraphicOffsets_AlphaAnimals.xml": "fb7a3efb748c5e909ee2ec3304678f8d7734e4d9f9945c5fe5129073256add03",
+    "1.6\\Mods\\AlphaAnimals\\Defs\\ProcessDefs\\ProcessDefs_AlphaAnimals.xml": "86a7ea3f1dae663b0f14b867ae71e95f82e20cfd9ed407bf926166233860ab66",
+    "1.6\\Mods\\AlphaAnimals\\Patches\\AlphaAnimalsPatch.xml": "63170f6e5480e24ed00948effb830b662e5f6cdc3f7ff30ad7cfd8443ec79531",
+    "1.6\\Mods\\VanillaGeneticsExpanded\\Defs\\GraphicOffsets\\GraphicOffsets_VEGenetics.xml": "274a2eb494a409cbf92e64044ca3f00b25b2ba181832f497c71892307ce2b013",
+    "1.6\\Mods\\VanillaGeneticsExpanded\\Defs\\ProcessDefs\\ProcessDefs_VEGenetics.xml": "5f35d6770be580c5df3b3522bc26f1d32ad41f108befc3b390b29d8082d6fb8a",
+    "1.6\\Mods\\VanillaGeneticsExpanded\\Patches\\VanillaGeneticsExpandedPatch.xml": "07a69da49ec21116694f9b9b27bcc0f64cefe6e790254da1d5bf8859cd6c47a4",
+    "1.6\\Patches\\AteLavishAndFineMealPatch.xml": "ecf6e0f0aebaf970eb0af9662b7f84679fc01c9de2851a06e7f3ac23e36e8358",
+    "1.6\\Patches\\MealsPatch.xml": "77bc9905a5ba39cf35f026b6567a4a7e9a86391f727aa3feb6ebbb26f26bf3a7",
+    "1.6\\Patches\\MerchantPatch.xml": "9ffa0efde03ce92c9946e023bc628f0fa223c59adfe0d9dadafe933d6ceb10c2",
+    "1.6\\Patches\\RimCuisinePatch.xml": "b296478e86920f422e841e910ff982e495a2fb6d225c454ef94f3140893c4ac8",
+    "1.6\\Patches\\Royalty.xml": "441a5681ee1ab8677056cef01998d4aa9c50402aa068f6aa49033dcb56b78eb2",
+    "1.6\\Patches\\SchematicsPatch.xml": "14331d557a89f8daf1d68864f05ff01477a7173a00752c13865db5ea9945f969",
+    "1.6\\Patches\\VanillaFactionsExpandedMedievalPatch.xml": "253d4672895eb806600cdfe7c71c583923fdd613f0e29bc3c4400129c71c838b",
+    "1.6\\Patches\\VGPPatch.xml": "b340213455fec88aee1dd59ae084f67d8efd21122eb4a726f2731fe9755bdcc9",
+    "About\\About.xml": "ac82d065a7dd05b48461638f25b8da0581aa06aaf0476c9388bde0a3b72a9e3d",
+    "Languages\\English\\Keyed\\Misc_Gameplay.xml": "bd0ffa199308aa348c7b3353139e1abfa532ace157e1c3bb229ad08040b1e793",
+    "loadFolders.xml": "eec853c1fa819dc878cb186bd25de71d81c5705d3abb3130b3f3d52ecb5ffbda"
+  },
+  "selected_conditions": [
+    {
+      "target_id": "DefInjected|PipeSystem.ProcessDef|VCE_RatMilkIntoCheese.description",
+      "if_mod_active": "vanillaexpanded.vgeneticse",
+      "source_origin": "1.6\\Mods\\VanillaGeneticsExpanded\\Defs\\ProcessDefs\\ProcessDefs_VEGenetics.xml"
+    },
+    {
+      "target_id": "DefInjected|PipeSystem.ProcessDef|VCE_NightMilkIntoCheese.label",
+      "if_mod_active": "sarg.alphaanimals",
+      "source_origin": "1.6\\Mods\\AlphaAnimals\\Defs\\ProcessDefs\\ProcessDefs_AlphaAnimals.xml"
+    },
+    {
+      "target_id": "DefInjected|PipeSystem.ProcessDef|VCE_WeirdMilkIntoCheese.label",
+      "if_mod_active": "vanillaexpanded.vgeneticse",
+      "source_origin": "1.6\\Mods\\VanillaGeneticsExpanded\\Defs\\ProcessDefs\\ProcessDefs_VEGenetics.xml"
+    },
+    {
+      "target_id": "DefInjected|PipeSystem.ProcessDef|VCE_MechaMilkIntoCheese.description",
+      "if_mod_active": "vanillaexpanded.vgeneticse",
+      "source_origin": "1.6\\Mods\\VanillaGeneticsExpanded\\Defs\\ProcessDefs\\ProcessDefs_VEGenetics.xml"
+    },
+    {
+      "target_id": "DefInjected|PipeSystem.ProcessDef|VCE_NightMilkIntoCheese.description",
+      "if_mod_active": "sarg.alphaanimals",
+      "source_origin": "1.6\\Mods\\AlphaAnimals\\Defs\\ProcessDefs\\ProcessDefs_AlphaAnimals.xml"
+    },
+    {
+      "target_id": "DefInjected|PipeSystem.ProcessDef|VCE_ThrumffaloMilkIntoCheese.description",
+      "if_mod_active": "vanillaexpanded.vgeneticse",
+      "source_origin": "1.6\\Mods\\VanillaGeneticsExpanded\\Defs\\ProcessDefs\\ProcessDefs_VEGenetics.xml"
+    },
+    {
+      "target_id": "DefInjected|PipeSystem.ProcessDef|VCE_BearffaloMilkIntoCheese.description",
+      "if_mod_active": "vanillaexpanded.vgeneticse",
+      "source_origin": "1.6\\Mods\\VanillaGeneticsExpanded\\Defs\\ProcessDefs\\ProcessDefs_VEGenetics.xml"
+    },
+    {
+      "target_id": "DefInjected|PipeSystem.ProcessDef|VCE_WeirdMilkIntoCheese.description",
+      "if_mod_active": "vanillaexpanded.vgeneticse",
+      "source_origin": "1.6\\Mods\\VanillaGeneticsExpanded\\Defs\\ProcessDefs\\ProcessDefs_VEGenetics.xml"
+    },
+    {
+      "target_id": "DefInjected|PipeSystem.ProcessDef|VCE_MuffalobearMilkIntoCheese.label",
+      "if_mod_active": "vanillaexpanded.vgeneticse",
+      "source_origin": "1.6\\Mods\\VanillaGeneticsExpanded\\Defs\\ProcessDefs\\ProcessDefs_VEGenetics.xml"
+    },
+    {
+      "target_id": "DefInjected|PipeSystem.ProcessDef|VCE_MechaMilkIntoCheese.label",
+      "if_mod_active": "vanillaexpanded.vgeneticse",
+      "source_origin": "1.6\\Mods\\VanillaGeneticsExpanded\\Defs\\ProcessDefs\\ProcessDefs_VEGenetics.xml"
+    },
+    {
+      "target_id": "DefInjected|PipeSystem.ProcessDef|VCE_MuffalochickenMilkIntoCheese.label",
+      "if_mod_active": "vanillaexpanded.vgeneticse",
+      "source_origin": "1.6\\Mods\\VanillaGeneticsExpanded\\Defs\\ProcessDefs\\ProcessDefs_VEGenetics.xml"
+    },
+    {
+      "target_id": "DefInjected|PipeSystem.ProcessDef|VCE_GowMilkIntoCheese.label",
+      "if_mod_active": "sarg.alphaanimals",
+      "source_origin": "1.6\\Mods\\AlphaAnimals\\Defs\\ProcessDefs\\ProcessDefs_AlphaAnimals.xml"
+    },
+    {
+      "target_id": "DefInjected|PipeSystem.ProcessDef|VCE_BlueMilkIntoCheese.label",
+      "if_mod_active": "sarg.alphaanimals",
+      "source_origin": "1.6\\Mods\\AlphaAnimals\\Defs\\ProcessDefs\\ProcessDefs_AlphaAnimals.xml"
+    },
+    {
+      "target_id": "DefInjected|PipeSystem.ProcessDef|VCE_WolffaloMilkIntoCheese.description",
+      "if_mod_active": "vanillaexpanded.vgeneticse",
+      "source_origin": "1.6\\Mods\\VanillaGeneticsExpanded\\Defs\\ProcessDefs\\ProcessDefs_VEGenetics.xml"
+    },
+    {
+      "target_id": "DefInjected|PipeSystem.ProcessDef|VCE_BlueMilkIntoCheese.description",
+      "if_mod_active": "sarg.alphaanimals",
+      "source_origin": "1.6\\Mods\\AlphaAnimals\\Defs\\ProcessDefs\\ProcessDefs_AlphaAnimals.xml"
+    },
+    {
+      "target_id": "DefInjected|PipeSystem.ProcessDef|VCE_ChickenffaloMilkIntoCheese.description",
+      "if_mod_active": "vanillaexpanded.vgeneticse",
+      "source_origin": "1.6\\Mods\\VanillaGeneticsExpanded\\Defs\\ProcessDefs\\ProcessDefs_VEGenetics.xml"
+    },
+    {
+      "target_id": "DefInjected|PipeSystem.ProcessDef|VCE_BearffaloMilkIntoCheese.label",
+      "if_mod_active": "vanillaexpanded.vgeneticse",
+      "source_origin": "1.6\\Mods\\VanillaGeneticsExpanded\\Defs\\ProcessDefs\\ProcessDefs_VEGenetics.xml"
+    },
+    {
+      "target_id": "DefInjected|PipeSystem.ProcessDef|VCE_MuffalobearMilkIntoCheese.description",
+      "if_mod_active": "vanillaexpanded.vgeneticse",
+      "source_origin": "1.6\\Mods\\VanillaGeneticsExpanded\\Defs\\ProcessDefs\\ProcessDefs_VEGenetics.xml"
+    },
+    {
+      "target_id": "DefInjected|PipeSystem.ProcessDef|VCE_MuffalochickenMilkIntoCheese.description",
+      "if_mod_active": "vanillaexpanded.vgeneticse",
+      "source_origin": "1.6\\Mods\\VanillaGeneticsExpanded\\Defs\\ProcessDefs\\ProcessDefs_VEGenetics.xml"
+    },
+    {
+      "target_id": "DefInjected|PipeSystem.ProcessDef|VCE_WolffaloMilkIntoCheese.label",
+      "if_mod_active": "vanillaexpanded.vgeneticse",
+      "source_origin": "1.6\\Mods\\VanillaGeneticsExpanded\\Defs\\ProcessDefs\\ProcessDefs_VEGenetics.xml"
+    },
+    {
+      "target_id": "DefInjected|PipeSystem.ProcessDef|VCE_GowMilkIntoCheese.description",
+      "if_mod_active": "sarg.alphaanimals",
+      "source_origin": "1.6\\Mods\\AlphaAnimals\\Defs\\ProcessDefs\\ProcessDefs_AlphaAnimals.xml"
+    },
+    {
+      "target_id": "DefInjected|PipeSystem.ProcessDef|VCE_ThrumffaloMilkIntoCheese.label",
+      "if_mod_active": "vanillaexpanded.vgeneticse",
+      "source_origin": "1.6\\Mods\\VanillaGeneticsExpanded\\Defs\\ProcessDefs\\ProcessDefs_VEGenetics.xml"
+    },
+    {
+      "target_id": "DefInjected|PipeSystem.ProcessDef|VCE_RatMilkIntoCheese.label",
+      "if_mod_active": "vanillaexpanded.vgeneticse",
+      "source_origin": "1.6\\Mods\\VanillaGeneticsExpanded\\Defs\\ProcessDefs\\ProcessDefs_VEGenetics.xml"
+    },
+    {
+      "target_id": "DefInjected|PipeSystem.ProcessDef|VCE_ChickenffaloMilkIntoCheese.label",
+      "if_mod_active": "vanillaexpanded.vgeneticse",
+      "source_origin": "1.6\\Mods\\VanillaGeneticsExpanded\\Defs\\ProcessDefs\\ProcessDefs_VEGenetics.xml"
+    }
+  ]
+}

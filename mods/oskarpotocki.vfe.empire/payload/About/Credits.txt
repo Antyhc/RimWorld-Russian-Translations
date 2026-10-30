@@ -1,0 +1,7 @@
+Original mod: Vanilla Factions Expanded - Empire by Oskar Potocki, xrushha, legodude17 and Allie (current About.xml credits).
+Original Workshop: https://steamcommunity.com/sharedfiles/filedetails/?id=2938820380
+Specific translation permission: https://github.com/Vanilla-Expanded/VanillaExpandedFramework/issues/195#issuecomment-6519584242
+Original CC BY-NC-ND 4.0 metadata remains unchanged; this is the separately permitted free own-text adaptation. No original artwork or third-party Russian permission is inferred.
+Russian supplement: Antyhc,2026;12 newly authored/reviewed missing fields, AI-assisted with OpenAI Codex. No independent human proofreading, affiliation or Vanilla Expanded endorsement claimed.
+Required existing Russian pack: https://steamcommunity.com/sharedfiles/filedetails/?id=2942002763 ; its83 covered selected fields and brand label are neither copied nor replaced.
+Only language XML and own notices/typographic cover are included; no original code, assemblies or artwork. Own typographic cover: Antyhc, MIT.

@@ -147,8 +147,25 @@
       "status": "awaiting_response",
       "ai_disclosed": true,
       "fresh_game_test_claimed": false,
-      "head_sha": "70fd91bf3a5d56bb39cd3bcbb8aefb040e87df99",
-      "scope": "Nine missing own strings:6GodMode-only terrain labels and3player-facing captions in four XML files; current upstream checked, static QA only. Existing Russian retained."
+      "head_sha": "c2a348f7e7cbf66c09f677469738e6e3349721e0",
+      "scope": "16own strings across VEF9,Gravship3,Events2,Landmarks2;7XMLfiles. Existing translations/format/license preserved; AI disclosed; static-only QA, no fresh game/human claim.",
+      "related_package_ids": [
+        "vanillaexpanded.gravship",
+        "vanillaexpanded.vee",
+        "vanillaexpanded.vexploratione"
+      ]
+    },
+    {
+      "package_id": "adaptive.storage.framework",
+      "channel": "github_pull_request",
+      "target_kind": "original_mod",
+      "url": "https://github.com/bbradson/Adaptive-Storage-Framework/pull/41",
+      "date": "2026-10-30",
+      "status": "awaiting_response",
+      "ai_disclosed": true,
+      "fresh_game_test_claimed": false,
+      "head_sha": "4d8c34b6362f3a436c73ac942d985195b5435fa5",
+      "scope": "42native current XMLentries (41Russian+retainedVanilla),2files; static source/semantic QA only, no1.7support or freshgame or independenthuman claim. MIT; no third-partyRussian copied."
     }
   ]
 }

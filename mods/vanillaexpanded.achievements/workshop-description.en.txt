@@ -1,18 +1,17 @@
 Vanilla Achievements Expanded — Russian completion
 
-One descriptive Odyssey achievement title: “Laying Down Foundations” → “Закладывая основу”. This title remained English in the existing Russian pack. Preserved game names, the quotation and the DLC acronym are left intact; no third-party Russian text is copied.
+One descriptive Odyssey title: “Laying Down Foundations” → “Закладывая основу”. This English title in the existing Russian pack is translated separately. No third-party Russian text is copied; preserved game names, the quotation and the DLC acronym remain unchanged.
 
-Original mod by Oskar Potocki, Smash Phil and Sarg Bjornson:
+Original by Oskar Potocki, Smash Phil and Sarg Bjornson:
 https://steamcommunity.com/sharedfiles/filedetails/?id=2288125657
-
-Recommended existing Russian pack by OliveWizard:
+Recommended main Russian pack by OliveWizard:
 https://steamcommunity.com/sharedfiles/filedetails/?id=2289313263
 
-Installation: requires the original mod and its dependencies. Load this supplement after the original. Its string loads only while Odyssey DLC is active; without Odyssey this pack injects no translation. Supported RimWorld version: 1.7.
+Requires the original mod and its dependencies. Load after the original. Supported RimWorld version: 1.7. The string loads only with Odyssey active; without Odyssey the supplement injects no translations and loads correctly.
 
-Testing: actual RimWorld 1.7.4990 rev1069 startup in isolated profiles. With Odyssey, the English control and Russian candidate title were confirmed by reading the game field. Without Odyssey, the definition remained absent and no translation was injected. The same exact payload was used in all four launches. The full localization error multiset was unchanged within each pair: 38 → 38 without Odyssey, 98 → 98 with Odyssey; zero new errors. This supplement does not claim to fix those baseline errors. Extended gameplay and installation of the published Workshop copy through subscription were not tested by these runs.
+The corrected payload passed four actual RimWorld 1.7.4990 rev1069 launches: separate control/candidate pairs with Odyssey enabled and disabled. Enabled: English then Russian game-field value verified. Disabled: the definition remains absent and no translation is injected. Full localization-error multisets were unchanged per pair: 38 → 38 without Odyssey, 98 → 98 with it. Complete global Player.log ERROR/FATAL records: 0 → 0 in both pairs. This is local startup/game-value verification. Extended gameplay, every achievement UI state and subscription installation of the updated Workshop copy were not verified by these runs.
 
-New Russian adaptation by Antyhc, 2026; AI-assisted authoring and semantic review by OpenAI Codex. No independent human proofreading claimed. Adapted text is licensed CC BY-NC-SA 4.0: attribution, noncommercial use and ShareAlike apply. Changes: one descriptive achievement title translated; original code, artwork and other original files are not included.
+New Russian adaptation by Antyhc, 2026; AI-assisted authoring and semantic review with OpenAI Codex. No independent human proofreading claimed. Adapted text is licensed CC BY-NC-SA 4.0: attribution, noncommercial use and ShareAlike apply.
 https://creativecommons.org/licenses/by-nc-sa/4.0/
 
-Original typographic cover by Antyhc; no original mod artwork used.
+Own typographic cover by Antyhc, MIT. No original code or artwork included. No original-author endorsement or affiliation claimed.

@@ -1,23 +1,25 @@
 {
   "name": "RimWorld — Russian Translations Collection",
-  "status": "official_web_created_12_members_private_publication_blocked",
+  "status": "official_web_created_14_members_private_publication_blocked",
   "workshop_id": "3830036321",
   "url": "https://steamcommunity.com/sharedfiles/filedetails/?id=3830036321",
   "published_translation_ids": [
-    "3830000511",
-    "3828883103",
-    "3830035919",
-    "3828790822",
-    "3828790605",
-    "3830014953",
-    "3830009448",
-    "3828790757",
     "3828790442",
+    "3828790605",
+    "3828790757",
+    "3828790822",
+    "3828883103",
+    "3830000511",
+    "3830009448",
+    "3830010549",
+    "3830014953",
     "3830022947",
     "3830032379",
-    "3830010549"
+    "3830035919",
+    "3830050048",
+    "3830078437"
   ],
-  "membership_automation": "Official SteamUGC AddDependency and fresh readback verified12native members in the official web-created collection. Public website publication is not confirmed.",
+  "membership_automation": "Official SteamUGC AddDependency and fresh final readback verified the exact14published items in the web-created collection. Public website publication remains unconfirmed.",
   "website_publication_verified": false,
   "cover": {
     "kind": "original_typographic_fallback",
@@ -25,12 +27,13 @@
     "original_art_used": false,
     "sha256": "1e0d06c154f626c71899277e16cd6c50ccdfb8b5eae7c5a901c72b4fb2ba665b"
   },
-  "website_blocker": "Official web wizard created the collection and uploaded its own preview successfully. All12members and bilingual description are visible to the owner. Publish button does not complete; supported native visibility-only update returns15 AccessDenied with needs_legal=false. Collection remains private(2); no public availability is claimed.",
+  "website_blocker": "Official web wizard created the collection and uploaded its own preview. Owner Publish button does not complete; supported native visibility-only update returned15 AccessDenied with needs_legal=false. Fresh SDK readback confirms exactly14members and private(2) visibility. No public collection availability is claimed.",
   "website_checked_at": "2026-10-30T10:04:54.337145+00:00",
   "legacy_unpublished_native_draft": {
     "workshop_id": "3828791160",
     "website_publication_verified": false,
     "retained_without_deletion": true,
     "superseded_reason": "Native-created draft had incorrect web-collection creation context and failed owner web save; replaced through the official web wizard. No duplicate public collection or translation items created."
-  }
+  },
+  "membership_checked_at": "2026-10-30T11:41:15.790396+00:00"
 }

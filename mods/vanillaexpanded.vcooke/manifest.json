@@ -11,37 +11,102 @@
       "status": "confirmed",
       "license": "Author permission for free standalone own-text Russian adaptation",
       "evidence": "https://github.com/Vanilla-Expanded/VanillaExpandedFramework/issues/195#issuecomment-6519584242",
-      "attribution": "Original mod: Vanilla Cooking Expanded by Oskar Potocki, Sarg Bjornson, Chowder. Original: https://steamcommunity.com/sharedfiles/filedetails/?id=2134308519. Own Russian adaptation: Antyhc,2026, AI-assisted with OpenAI Codex. Permission: https://github.com/Vanilla-Expanded/VanillaExpandedFramework/issues/195#issuecomment-6519584242. No Vanilla Expanded endorsement or affiliation. No original artwork or third-party Russian text licensed by this reply.",
+      "attribution": "Original Vanilla Cooking Expanded by Oskar Potocki, Sarg Bjornson, Chowder.\nOriginal: https://steamcommunity.com/sharedfiles/filedetails/?id=2134308519\nTranslation permission: https://github.com/Vanilla-Expanded/VanillaExpandedFramework/issues/195#issuecomment-6519584242\nOriginal ND license retained; separate permission permits the own translated text. New Russian text by Antyhc, 2026, CC BY-NC-SA 4.0.\nChanges: 24 independently authored captions/descriptions for 12 optional cheese processes; actual ingredient DefNames and quantities checked. Ratffalo milk and hairy milk terminology corrected, labels and unit grammar aligned.\nSix Alpha Animals strings and 18 Vanilla Genetics Expanded strings are conditionally loaded. Both optional originals declare RimWorld 1.7.\nExisting main Russian translation by Amortem, OliveWizard and Mewn Goddess remains a separate dependency: https://steamcommunity.com/sharedfiles/filedetails/?id=2914375951 . No text from that translation is redistributed.\nAI assistance: OpenAI Codex drafting and individual source/semantic review; no independent human proofreading claimed.\nOwn typographic cover by Antyhc, MIT. No original code/DLL/art/assets or third-party Russian copied.\nNo endorsement or affiliation with Vanilla Expanded; no extended colony test claimed.\n",
+      "license_evidence_file": "rights-evidence.json",
+      "required_notice_files": {
+        "About/License.txt": "141416e19ea7268b4563dd88c52f49fe501f12f524688ccca930b8e24e40415b",
+        "About/Credits.txt": "0fcd65572bb9c7132832e44ace2c71a4c930e5dbe00f52eafd04557f4994bf45"
+      },
+      "original_license": "CC-BY-NC-ND-4.0",
       "permission_requested": true,
       "permission_request_url": "https://github.com/Vanilla-Expanded/VanillaExpandedFramework/issues/195",
       "permission_request_date": "2026-10-30",
       "permission_received": true,
       "permission_received_date": "2026-10-30",
       "permission_reply_url": "https://github.com/Vanilla-Expanded/VanillaExpandedFramework/issues/195#issuecomment-6519584242",
-      "permission_scope": "newly_authored_standalone_translation_text_only",
-      "original_license": "CC-BY-NC-ND-4.0",
-      "license_evidence_file": "translation-rights-evidence.json"
+      "permission_scope": "newly_authored_standalone_translation_text_only"
     },
     "icon": {
-      "status": "unknown",
-      "license": null,
-      "evidence": null,
-      "attribution": null
+      "status": "confirmed",
+      "kind": "original_typographic_fallback",
+      "license": "MIT",
+      "evidence": "scripts/make_original_cover.py; own typographic design",
+      "attribution": "Own typographic cover by Antyhc; no original mod artwork",
+      "source_sha256": "e67aa959efafa7c021ccf3a25fa1e7b2a18f73074932a7329fd82c8e99aaf940",
+      "preview_sha256": "e67aa959efafa7c021ccf3a25fa1e7b2a18f73074932a7329fd82c8e99aaf940",
+      "original_mod_art_used": false
     }
   },
   "qa": {
-    "technical": "pending",
-    "linguistic": "pending",
-    "source_current": false,
-    "in_game": "not_tested",
-    "checked_at": "2026-10-28T09:15:27.268425+00:00"
+    "technical": "passed",
+    "linguistic": "ai_reviewed",
+    "source_current": true,
+    "in_game": "passed",
+    "checked_at": "2026-10-30T11:01:20.872857+00:00",
+    "source_checked_at": "2026-10-30T10:32:59.334081+00:00",
+    "payload_sha256": "3d983423dcec0aeb1e74c3425e70f76989e4cfbd69063ad45e4c786006686473",
+    "source_snapshot_sha256": "70414cdd00bd53b89bce8ca33ccd5df5deb8f3dae05f5e14e239c1cbf2bb27f2",
+    "evidence": "qa-evidence.json",
+    "coverage": "24 missing integration-only strings:6AlphaAnimals+18Genetics across12cheese processes. No replacement of base Russian; each branch loads only when corresponding original addon is active.",
+    "standalone_minimal_game_test": "passed_actual_all_condition_combinations",
+    "versioned_empty_context_content_marker": {
+      "previous_payload_sha256": "f757fbc21ef63523e10d1e423001fe0d22029d3f327fab39d7132e39409e424e",
+      "new_payload_sha256": "6e14d17827dc967ad0e93f9f852b4f823fac135913455027c2c621781d34bb2e",
+      "only_added_payload_file": "Languages/Russian/Keyed/ContentMarker.xml",
+      "existing7file_hashes_unchanged": true,
+      "translation_keys_added": 0,
+      "translation_keys_changed": 0,
+      "mechanism_evidence_sha256": "f1b9bdfb4f14786e048cb634c578be80eb05e55b4f9fdd2026b2e3c9753a0363",
+      "reason": "Current game AnyTranslationsLoaded recognizes a Languages file as translation content. An empty valid LanguageData marks an empty conditional state without injecting a key; requires new real all4context/globalERROR tests."
+    },
+    "versioned_language_file_layout": {
+      "version": 3,
+      "previous_v1_payload_sha256": "f757fbc21ef63523e10d1e423001fe0d22029d3f327fab39d7132e39409e424e",
+      "previous_v2_payload_sha256": "6e14d17827dc967ad0e93f9f852b4f823fac135913455027c2c621781d34bb2e",
+      "new_payload_sha256": "3d983423dcec0aeb1e74c3425e70f76989e4cfbd69063ad45e4c786006686473",
+      "renamed_language_files": {
+        "Conditional/sarg.alphaanimals/Languages/Russian/DefInjected/PipeSystem.ProcessDef/AdditionalRussian.xml": "Conditional/sarg.alphaanimals/Languages/Russian/DefInjected/PipeSystem.ProcessDef/AlphaAnimalsRussian.xml",
+        "Conditional/vanillaexpanded.vgeneticse/Languages/Russian/DefInjected/PipeSystem.ProcessDef/AdditionalRussian.xml": "Conditional/vanillaexpanded.vgeneticse/Languages/Russian/DefInjected/PipeSystem.ProcessDef/GeneticsRussian.xml"
+      },
+      "every_payload_file_content_hash_unchanged_from_v2": true,
+      "marker_added_since_v1": "Languages/Russian/Keyed/ContentMarker.xml",
+      "marker_translation_keys": 0,
+      "all24_translation_texts_unchanged": true,
+      "reason": "Disjoint conditional keys still shadowed through identical language-relative XML filenames. Unique per-root filenames preserve both active branches; keyless unconditional marker recognizes the empty context as valid language content. Fresh all4context/globalERROR tests required."
+    },
+    "game_evidence": "game-test-evidence.json",
+    "game_version": "1.7.4990 rev1069",
+    "game_test_scope": "All declared condition combinations passed separate actual English-control/Russian-candidate startup and master-target readback. Active values matched exact sources/owners; inactive targets retained exact control state without candidate injection. Full localization multisets and complete timestamp-stripped global Player.log ERROR records matched within each pair; baselines may differ across contexts. Unique active target union is counted once. No save, extended gameplay, every formatted scenario, Workshop-copy installation or independent human proofreading claimed.",
+    "game_test_evidence_sha256": "4629a4b8976d63986db87cf990de51faa0d10aef196c382a97cad0a250430ddb",
+    "full_log_quality": "passed_all4context_full_global_ERROR_FATAL_equality",
+    "whole_base_Russian1_7_certified": false,
+    "base_Russian_version_metadata_note": "Required ow.ru.cooking (2914375951) declares only through 1.6; metadata unchanged. This 24-entry 1.7 startup/readback verification does not certify the whole base translation or colony gameplay.",
+    "workshop_installation": "passed_exact_subscribed_8files",
+    "workshop_game_load": "passed_all_four_actual_Workshop_condition_combinations",
+    "workshop_game_evidence": "workshop-game-test-evidence.json",
+    "workshop_game_evidence_sha256": "8b18101d6dc9878f831a9f4a85bbad86b14481c893ce0bf7da4e4e6610dd51b8",
+    "workshop_game_checked_at": "2026-10-30T11:43:34.458280+00:00",
+    "workshop_game_test_scope": "Four fresh actual subscribed-copy candidate boots with0/6/18/24active strings; unique24targets counted once. Exact earlier actual English controls reused only after source/context/game/probe verification. All inactive targets unchanged/not injected. Complete localization and Player ERROR/FATAL multisets unchanged; no saves, cheese-production cycles or extended gameplay tested."
   },
   "publication": {
     "github_url": "https://github.com/Antyhc/RimWorld-Russian-Translations/tree/main/mods/vanillaexpanded.vcooke",
-    "github_status": "metadata_only",
-    "workshop_url": null,
-    "workshop_id": null,
-    "workshop_status": "not_published"
+    "github_status": "published",
+    "workshop_url": "https://steamcommunity.com/sharedfiles/filedetails/?id=3830078437",
+    "workshop_id": "3830078437",
+    "workshop_status": "published",
+    "release_blockers": [],
+    "workshop_title": "Vanilla Cooking Expanded — Russian integrations (24 strings)",
+    "dependency_verified": true,
+    "required_dlc_apps": [],
+    "required_dlc_metadata_verified": true,
+    "collection_id": "3830036321",
+    "collection_member_verified": true,
+    "published_at": "2026-10-30T11:38:41.213528+00:00",
+    "anonymous_page_verified": true,
+    "anonymous_page_checked_at": "2026-10-30T11:40:06.316Z",
+    "anonymous_page_evidence": "community/workshop-public-pages-2026-10-30.json",
+    "installation_tested": true,
+    "installation_scope": "Official subscription exact8files, all four actual Workshop-root condition combinations verified against unchanged real local controls; required original and base Russian active. Optional Alpha Animals/Genetics are not required Workshop dependencies."
   },
   "integration": {
     "status": "not_sent",
@@ -182,5 +247,33 @@
       "baseline_file": "source.tree.json"
     }
   },
-  "work_stage": "installed_local"
+  "work_stage": "ready_for_publication",
+  "conditional_languages": {
+    "version": "1.7",
+    "roots": [
+      {
+        "path": "Conditional/sarg.alphaanimals",
+        "if_mod_active": "sarg.alphaanimals",
+        "source_relative_root": "1.6/Mods/AlphaAnimals"
+      },
+      {
+        "path": "Conditional/vanillaexpanded.vgeneticse",
+        "if_mod_active": "vanillaexpanded.vgeneticse",
+        "source_relative_root": "1.6/Mods/VanillaGeneticsExpanded"
+      }
+    ],
+    "evidence": "source-layout-evidence.json",
+    "evidence_sha256": "ae8979f4def10bb5e14efb96bd27ea0e1e94a80cfd73c200ae842fc3bf78f757"
+  },
+  "duplicate_translation": {
+    "status": "checked_no_current_equivalent",
+    "checked_at": "2026-10-30T10:32:59.334081+00:00",
+    "scope": "Fresh official Cooking RU2914375951 lacks all24; fresh optional cross-providers2811213079/2569397678/2140324006 contain0of24. Own-only text; original Alpha/Genetics nativeRussian0. Existing base Russian preserved.",
+    "candidates": [
+      "https://steamcommunity.com/sharedfiles/filedetails/?id=2914375951",
+      "https://steamcommunity.com/sharedfiles/filedetails/?id=2811213079",
+      "https://steamcommunity.com/sharedfiles/filedetails/?id=2569397678",
+      "https://steamcommunity.com/sharedfiles/filedetails/?id=2140324006"
+    ]
+  }
 }

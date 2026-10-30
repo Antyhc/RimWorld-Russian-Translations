@@ -44,9 +44,19 @@
     "workshop_status": "not_published"
   },
   "integration": {
-    "status": "not_sent",
-    "pr_url": null,
-    "contact_url": null
+    "status": "open",
+    "pr_url": "https://github.com/OneCodeUnit/VanillaRussianExpanded/pull/47",
+    "contact_url": null,
+    "target_kind": "community_translation",
+    "target_repository_url": "https://github.com/OneCodeUnit/VanillaRussianExpanded",
+    "head_sha": "c2a348f7e7cbf66c09f677469738e6e3349721e0",
+    "submitted_at": "2026-10-30",
+    "original_native_accepted": false,
+    "community_translation_accepted": false,
+    "ai_disclosed": true,
+    "fresh_game_test_claimed": false,
+    "merge_conflicts": false,
+    "scope": "2own current missing strings in the shared16-string/7XML community contribution. Static source/XML/semantic checks only; no new game or independent human proofreading claim."
   },
   "original": {
     "author": "Oskar Potocki, Kikohi, Helixien, Sarg",

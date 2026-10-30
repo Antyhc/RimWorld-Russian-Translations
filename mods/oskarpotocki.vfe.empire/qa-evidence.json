@@ -1,0 +1,221 @@
+{
+  "schema": 1,
+  "checked_at": "2026-10-30T10:23:55.272314+00:00",
+  "translation_rows": 12,
+  "semantic_review": "Individually reread all12 English/Russian pairs with current parade/court-stimulant sources and the base Russian terminology. Changed8 prior own texts to consistently use восхождение/челнок, avoid gender agreement in state captions and use STELLARCH_objective in accusative context accompanying, instead of the incorrect dative составил objective компанию. Preserved every placeholder and source newline token. Male/female pronoun cases were checked in the ending; full gameplay/independent human review not claimed.",
+  "independent_human_review": false,
+  "game_tested": true,
+  "third_party_russian_copied": false,
+  "current_source_inputs_hash_verified": true,
+  "entries": [
+    {
+      "target_id": "Keyed|VFEE.Parade.EndGame.Intro",
+      "source_id": "Keyed|VFEE.Parade.EndGame.Intro",
+      "source_sha256": "26df26826dbc3e5145c492974491734a088ed591f68370ecbc5878ef39dc5ecc",
+      "text_sha256": "58e978960a28993aa259f59da070b0fee58df8fe9f15ea2087c5916917dd7d61",
+      "source_origin": "Languages/English/Keyed/Misc.xml",
+      "minimal_static_present": true,
+      "origin": {
+        "kind": "new_codex_translation"
+      },
+      "task_id": "357648c6d571db230c1612f3309fd2d568b1b1a57d71d51f21c902ff7eccf4a6",
+      "target_reviewer": "Codex independent reviewer: reviews\\20261027\\linguistic-a.review.json",
+      "historical_runtime_verified_source_unchanged": true,
+      "source_alias_mapping": "exact",
+      "historical_reviewed_text_sha256": "10ae70609a767551faecf00aa484fe5b66cc1f80bb74f2381e355d38036012dc",
+      "fresh_review_change": "Align ascent/shuttle terminology with existing base Russian; preserve grammar placeholders and correct case agreement where applicable."
+    },
+    {
+      "target_id": "Keyed|VFEE.Parade.NoblesArriveOn",
+      "source_id": "Keyed|VFEE.Parade.NoblesArriveOn",
+      "source_sha256": "054c8c6df605b773e81c876b5dba4dc899fa2d699ba61eebbe51774d7e6f7698",
+      "text_sha256": "7f94444be948c8624c71e4ee6c22f0b2a311ca974aa671a8a2cbcd25b661330e",
+      "source_origin": "Languages/English/Keyed/Misc.xml",
+      "minimal_static_present": true,
+      "origin": {
+        "kind": "new_codex_translation"
+      },
+      "task_id": "41375c2e2cc5a9d8973fd093482cb2ba14d68f7957e4b24d7b47eee20fae163b",
+      "target_reviewer": "Codex independent reviewer: reviews\\20261027\\linguistic-a.review.json",
+      "historical_runtime_verified_source_unchanged": true,
+      "source_alias_mapping": "exact",
+      "historical_reviewed_text_sha256": "d2a0361a40c72935d7a184d4ec0998ff3731a38b59aee5acede81bb55a90af89",
+      "fresh_review_change": "Align ascent/shuttle terminology with existing base Russian; preserve grammar placeholders and correct case agreement where applicable."
+    },
+    {
+      "target_id": "Keyed|VFEE.Parade.NoblesArriveInDesc",
+      "source_id": "Keyed|VFEE.Parade.NoblesArriveInDesc",
+      "source_sha256": "4027c38098db7d2ef36e088ccbb46c4972ee01c8106105facfaa98815d05836b",
+      "text_sha256": "03c172a2973c330dee1b0276171b20b59989fae421145978bf2e5afc7c162c8b",
+      "source_origin": "Languages/English/Keyed/Misc.xml",
+      "minimal_static_present": true,
+      "origin": {
+        "kind": "new_codex_translation"
+      },
+      "task_id": "45f81a48d99e39004eb2b58abdb56b0bdee01dfd8ae6c2d3f86bafcb389d148d",
+      "target_reviewer": "Codex independent reviewer: reviews\\20261027\\linguistic-a.review.json",
+      "historical_runtime_verified_source_unchanged": true,
+      "source_alias_mapping": "exact",
+      "historical_reviewed_text_sha256": "1cbd8ec3471ee68e5e8774a112394b7cfb0b8c8642d107d1ed1874ed03e46fde",
+      "fresh_review_change": "Align ascent/shuttle terminology with existing base Russian; preserve grammar placeholders and correct case agreement where applicable."
+    },
+    {
+      "target_id": "Keyed|VFEE.Parade.NoblesArriveIn",
+      "source_id": "Keyed|VFEE.Parade.NoblesArriveIn",
+      "source_sha256": "f0dc3abffd959509247c7f9a7dfec046daf3625bf5d9d3b08e989ac213600bf5",
+      "text_sha256": "82c0820288346d821df512fc2b82c7d8b59a0874b1bd002b63370a0dd9a1f6b3",
+      "source_origin": "Languages/English/Keyed/Misc.xml",
+      "minimal_static_present": true,
+      "origin": {
+        "kind": "new_codex_translation"
+      },
+      "task_id": "5d041d0533558fc499cc62bc9ffba8edc507a6e70b5128be2c355a9c1be3e41d",
+      "target_reviewer": "Codex independent reviewer: reviews\\20261027\\linguistic-a.review.json",
+      "historical_runtime_verified_source_unchanged": true,
+      "source_alias_mapping": "exact"
+    },
+    {
+      "target_id": "Keyed|VFEE.Parade.NoblesWaitingAwayDesc",
+      "source_id": "Keyed|VFEE.Parade.NoblesWaitingAwayDesc",
+      "source_sha256": "76af2a52d23ddbfe37395492b89b7d300efcfc72f4f0d8740dae24bc7a4b405a",
+      "text_sha256": "7ef89f560226d5d9b2ba40cf8275b2abbb3f9fa37a6f08cb4b076c13cd48e6f5",
+      "source_origin": "Languages/English/Keyed/Misc.xml",
+      "minimal_static_present": true,
+      "origin": {
+        "kind": "new_codex_translation"
+      },
+      "task_id": "6fe0086b5e7d3cd1d05ffe7c3d34af93e9e7d3de86ea2a96c2dc26f5604630b9",
+      "target_reviewer": "Codex independent reviewer: reviews\\20261027\\linguistic-a.review.json",
+      "historical_runtime_verified_source_unchanged": true,
+      "source_alias_mapping": "exact",
+      "historical_reviewed_text_sha256": "97b86f8ba5617e6d72b3c8ede43f5f1867f89d1f6407e0051148497033ae8ca0",
+      "fresh_review_change": "Align ascent/shuttle terminology with existing base Russian; preserve grammar placeholders and correct case agreement where applicable."
+    },
+    {
+      "target_id": "Keyed|VFEE.Parade.EndGame.Ending",
+      "source_id": "Keyed|VFEE.Parade.EndGame.Ending",
+      "source_sha256": "dba1ca86811ed5a7f2de7654676c4d493d1acfbf3455f8a80e2c7a29a1b26c83",
+      "text_sha256": "3b1ff1ffae0d5dc52c599c35ae50ada90d789b1aebc488671b6c81112a7004cb",
+      "source_origin": "Languages/English/Keyed/Misc.xml",
+      "minimal_static_present": true,
+      "origin": {
+        "kind": "new_codex_translation"
+      },
+      "task_id": "751de0ff973a44cf3441c20164b3d5859946ea6801e3e201e87ab00a0c5f7ab3",
+      "target_reviewer": "Codex independent reviewer: reviews\\20261027\\linguistic-a.review.json",
+      "historical_runtime_verified_source_unchanged": true,
+      "source_alias_mapping": "exact",
+      "historical_reviewed_text_sha256": "a488f5886266ffffbd8515b189ad8e6b47252da5ba8a03800af991f4ee37a903",
+      "fresh_review_change": "Align ascent/shuttle terminology with existing base Russian; preserve grammar placeholders and correct case agreement where applicable."
+    },
+    {
+      "target_id": "DefInjected|HediffDef|VFEE_CourtStimulant.label",
+      "source_id": "DefInjected|HediffDef|VFEE_CourtStimulant.label",
+      "source_sha256": "fd27e080ab37d53580f0ef3bc3554550296d8c5d7c4bbf50e847843d5c0979a4",
+      "text_sha256": "47b36a9534dd8a5dd5ffabce064860406c3c39bd78cc3a0e792f8d256b524dc1",
+      "source_origin": "1.7/Defs/HediffDefs/Hediffs_Global_Misc.xml",
+      "minimal_static_present": true,
+      "origin": {
+        "kind": "new_codex_translation"
+      },
+      "task_id": "80fe031c9ca96d65329d393f2921d5253b5ea89f4e5d02e4ab22c0b94cc99b4d",
+      "target_reviewer": "Codex independent reviewer: reviews\\20261027\\linguistic-a.review.json",
+      "historical_runtime_verified_source_unchanged": true,
+      "source_alias_mapping": "exact"
+    },
+    {
+      "target_id": "Keyed|VFEE.Parade.CalledOffOn",
+      "source_id": "Keyed|VFEE.Parade.CalledOffOn",
+      "source_sha256": "4c3a0e8b7fe5672c3c20af9961193a7e3beffe4d6ce16fc87cc2b4552b1d4fc5",
+      "text_sha256": "30beac900cc46ca426ad5d8ab5bbb3b583487c228451467c33d754e303d04963",
+      "source_origin": "Languages/English/Keyed/Misc.xml",
+      "minimal_static_present": true,
+      "origin": {
+        "kind": "new_codex_translation"
+      },
+      "task_id": "828d8b1ae03d6ade5e726e688402e85a258e0a545defcceed6d8a108e33153bd",
+      "target_reviewer": "Codex independent reviewer: reviews\\20261027\\linguistic-a.review.json",
+      "historical_runtime_verified_source_unchanged": true,
+      "source_alias_mapping": "exact",
+      "historical_reviewed_text_sha256": "fc7874eecf9b30d913d65eabd88caea2cf4ab3349cd93038a621bdcce9e0717c",
+      "fresh_review_change": "Align ascent/shuttle terminology with existing base Russian; preserve grammar placeholders and correct case agreement where applicable."
+    },
+    {
+      "target_id": "Keyed|VFEE.Parade.NoblesWaiting",
+      "source_id": "Keyed|VFEE.Parade.NoblesWaiting",
+      "source_sha256": "53162551b7d51d796588192d7f319111c24cfaa56126b3084dcd14464c30a7cb",
+      "text_sha256": "2e0d815e682cdf736e6a2f4a61f48651743bd7d97f6ba245b8f2723140c9ffda",
+      "source_origin": "Languages/English/Keyed/Misc.xml",
+      "minimal_static_present": true,
+      "origin": {
+        "kind": "new_codex_translation"
+      },
+      "task_id": "82dd9afdd83d4bf5b181d27106cc95862c069de31a0878135c149322d7b86aa2",
+      "target_reviewer": "Codex independent reviewer: reviews\\20261027\\linguistic-a.review.json",
+      "historical_runtime_verified_source_unchanged": true,
+      "source_alias_mapping": "exact"
+    },
+    {
+      "target_id": "DefInjected|HediffDef|VFEE_CourtStimulant.description",
+      "source_id": "DefInjected|HediffDef|VFEE_CourtStimulant.description",
+      "source_sha256": "0347a8b6824506b6905d79f0a403f143f54943fdf2f3a1bbc3e07fb380cf8ce8",
+      "text_sha256": "555cdf5fdedd4fcb8cec61e7b20f343909376c27f1c9417e6e460544d6967655",
+      "source_origin": "1.7/Defs/HediffDefs/Hediffs_Global_Misc.xml",
+      "minimal_static_present": true,
+      "origin": {
+        "kind": "new_codex_translation"
+      },
+      "task_id": "9b7785f77870ac773647cdc101fe87bb6b9e8d9ae8407d3d88bf8c31bb40dbc3",
+      "target_reviewer": "Codex independent reviewer: reviews\\20261027\\linguistic-b.review.v3.json",
+      "historical_runtime_verified_source_unchanged": true,
+      "source_alias_mapping": "exact"
+    },
+    {
+      "target_id": "Keyed|VFEE.Parade.CalledOffIn",
+      "source_id": "Keyed|VFEE.Parade.CalledOffIn",
+      "source_sha256": "2005ece99a13ea55f4b35b7b43657ccd2a14b104a4694dde08ea0625424bc09d",
+      "text_sha256": "2794977c3a1cf450c2a434e3c680ffa0525f7e3a2ed0a2debbb95633fdc1053b",
+      "source_origin": "Languages/English/Keyed/Misc.xml",
+      "minimal_static_present": true,
+      "origin": {
+        "kind": "new_codex_translation"
+      },
+      "task_id": "b837982c87fe71b4d05fb1f6a8eda1135a04d7ddec480536132975f847cf6030",
+      "target_reviewer": "Codex independent reviewer: reviews\\20261027\\linguistic-b.review.v3.json",
+      "historical_runtime_verified_source_unchanged": true,
+      "source_alias_mapping": "exact",
+      "historical_reviewed_text_sha256": "64ee3deff279c4d1b7c7b738783439cb16f7072b10c182537cf270869768a560",
+      "fresh_review_change": "Align ascent/shuttle terminology with existing base Russian; preserve grammar placeholders and correct case agreement where applicable."
+    },
+    {
+      "target_id": "Keyed|VFEE.Parade.NoblesWaitingThreatDesc",
+      "source_id": "Keyed|VFEE.Parade.NoblesWaitingThreatDesc",
+      "source_sha256": "2edf47110e7b39ecdfbf2d0944af663e7141a5c5259a372db38f3442a0ffc603",
+      "text_sha256": "f537fce77eaf01254bdd479f5da423290770c2eee4499e5032c4a559f49fbf9f",
+      "source_origin": "Languages/English/Keyed/Misc.xml",
+      "minimal_static_present": true,
+      "origin": {
+        "kind": "new_codex_translation"
+      },
+      "task_id": "fab43e8eda7cb2279187910799fee75426d02f76a0ab935657a8a327ac7d6490",
+      "target_reviewer": "Codex independent reviewer: reviews\\20261027\\linguistic-root-tail.review.json",
+      "historical_runtime_verified_source_unchanged": true,
+      "source_alias_mapping": "exact",
+      "historical_reviewed_text_sha256": "019171d2b708f337c783af3baef582d45342e0db066fb0e464b9783c8ede8862",
+      "fresh_review_change": "Align ascent/shuttle terminology with existing base Russian; preserve grammar placeholders and correct case agreement where applicable."
+    }
+  ],
+  "payload_sha256": "52411ee1a6873d00746c69d423dfc99da67cadffa5c858439d47f8095e42cc54",
+  "payload_file_hashes": {
+    "About/About.xml": "925009a630a4d58ff644da1e8203de0f946c873cdc587c0148e2b84853abad19",
+    "About/Credits.txt": "50d3c0d4d22250315bc1c622631e282f29bc7bf67392c9213f5760e2e274a243",
+    "About/License.txt": "fb08ba04301996d1b9c76a844ec9e2518f497310130147eee9daa867f2b5bb09",
+    "About/Preview.png": "a8c0657905f34a3b3f7de8d3196c4ea3b20ae0b7175d3bdfd1f8ce25e89030ac",
+    "Languages/Russian/DefInjected/HediffDef/AdditionalRussian.xml": "0c4e73a2931265abe1a7cebb4b5d45a40b9a8d997fb748f2fefe56a15e17bf1d",
+    "Languages/Russian/Keyed/AdditionalRussian.xml": "277b6a39d73d69c77703cfcd1e92ccc37275b425998ea24507836d8832fc5e52"
+  },
+  "original_author_verified_from_current_About": "Oskar Potocki, xrushha, legodude17, Allie",
+  "game_evidence": "game-test-evidence.json",
+  "game_evidence_sha256": "34e06a1f1f8e6ccb9e77b38a3e5ee9c94524eecdbe83c5db2c743369e9a6cadc",
+  "game_test_scope": "Actual control/candidate with Royalty and required baseRU both active;12English→12ownRussian,71→71full localization error multiset,0new. No parade gameplay, colony completion, every formatted-name scenario, Workshop-copy install or human-proofreading claim."
+}

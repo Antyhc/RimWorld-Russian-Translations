@@ -1,0 +1,622 @@
+{
+  "schema": 1,
+  "checked_at": "2026-10-30T10:32:59.334081+00:00",
+  "translation_rows": 24,
+  "semantic_review": "All24English/Russian pairs reread against actual ingredient ThingDefs and12input/output counts.20entries revised for mass-noun unit grammar, consistent labels, ratffalo-vs-rat and hairy-milk source semantics. No independent human proofreading claimed. Actual game validation is recorded separately below.",
+  "independent_human_review": false,
+  "game_tested": true,
+  "third_party_russian_copied": false,
+  "current_source_inputs_hash_verified": true,
+  "entries": [
+    {
+      "target_id": "DefInjected|PipeSystem.ProcessDef|VCE_RatMilkIntoCheese.description",
+      "source_id": "DefInjected|PipeSystem.ProcessDef|VCE_RatMilkIntoCheese.description",
+      "source_sha256": "37ef46885b5d95bdab9e9f96346fedd7d693791845127e08a90487f6872ff821",
+      "text_sha256": "cd38c4d862701f72a81149de42367029fc2ca78bac742cbe555b99cd6ce47468",
+      "source_origin": "1.6\\Mods\\VanillaGeneticsExpanded\\Defs\\ProcessDefs\\ProcessDefs_VEGenetics.xml",
+      "minimal_static_present": false,
+      "source_context": "required_Cooking_with_optional_vanillaexpanded.vgeneticse",
+      "source_binding": "direct",
+      "source_provenance": "new_codex_translation_independent_review_and_actual_candidate_test",
+      "original_task_provenance": {
+        "task_id": "10cfe4fb0be2e4238465fec64cb5136b3039bc1e9114aeac8fb7203d46dbb82c",
+        "package_id": "vanillaexpanded.vcooke",
+        "target_id": "DefInjected|PipeSystem.ProcessDef|VCE_RatMilkIntoCheese.description",
+        "origin": {
+          "kind": "new_codex_translation"
+        },
+        "reviewer": "Codex independent reviewer: reviews\\20261027\\linguistic-b.review.v3.json"
+      },
+      "fresh_semantic_review": "Read current English + actual recipe inputThing/countNeeded/outputcount. Rat is ratffalo milk; Wolffalo input is hairy milk; labels unified and mass-noun quantities supplied with units. No independent human proofreading.",
+      "if_mod_active": "vanillaexpanded.vgeneticse"
+    },
+    {
+      "target_id": "DefInjected|PipeSystem.ProcessDef|VCE_NightMilkIntoCheese.label",
+      "source_id": "DefInjected|PipeSystem.ProcessDef|VCE_NightMilkIntoCheese.label",
+      "source_sha256": "4b3cda0a3fe80f48392dd4268664aff5e1084b28a600b13f3c0b6d34f3cf058e",
+      "text_sha256": "aa64d45d7cb03372b4d5bfa669da6d2cea6dd1517aa03d55980c197b0e063bf8",
+      "source_origin": "1.6\\Mods\\AlphaAnimals\\Defs\\ProcessDefs\\ProcessDefs_AlphaAnimals.xml",
+      "minimal_static_present": false,
+      "source_context": "required_Cooking_with_optional_sarg.alphaanimals",
+      "source_binding": "direct",
+      "source_provenance": "new_codex_translation_independent_review_and_actual_candidate_test",
+      "original_task_provenance": {
+        "task_id": "10f2fcb4c5e581cebaaa41e820930cd1c53ab4670742b37e8171e96fed50be3f",
+        "package_id": "vanillaexpanded.vcooke",
+        "target_id": "DefInjected|PipeSystem.ProcessDef|VCE_NightMilkIntoCheese.label",
+        "origin": {
+          "kind": "new_codex_translation"
+        },
+        "reviewer": "Codex independent reviewer: reviews\\20261027\\linguistic-b.review.v3.json"
+      },
+      "fresh_semantic_review": "Read current English + actual recipe inputThing/countNeeded/outputcount. Rat is ratffalo milk; Wolffalo input is hairy milk; labels unified and mass-noun quantities supplied with units. No independent human proofreading.",
+      "if_mod_active": "sarg.alphaanimals"
+    },
+    {
+      "target_id": "DefInjected|PipeSystem.ProcessDef|VCE_WeirdMilkIntoCheese.label",
+      "source_id": "DefInjected|PipeSystem.ProcessDef|VCE_WeirdMilkIntoCheese.label",
+      "source_sha256": "f3324e8cc7255949b30865bb51734746445cf795583ea59d4142c25ec6df2f10",
+      "text_sha256": "5faf1578d6787be188d79422bc2b203d8638980ff9af577a008e16ed55dd1944",
+      "source_origin": "1.6\\Mods\\VanillaGeneticsExpanded\\Defs\\ProcessDefs\\ProcessDefs_VEGenetics.xml",
+      "minimal_static_present": false,
+      "source_context": "required_Cooking_with_optional_vanillaexpanded.vgeneticse",
+      "source_binding": "direct",
+      "source_provenance": "new_codex_translation_independent_review_and_actual_candidate_test",
+      "original_task_provenance": {
+        "task_id": "126eaa10e2c763216391e8a02fa4e1e7d63a752eb099e5538ea252c55a4bdd61",
+        "package_id": "vanillaexpanded.vcooke",
+        "target_id": "DefInjected|PipeSystem.ProcessDef|VCE_WeirdMilkIntoCheese.label",
+        "origin": {
+          "kind": "new_codex_translation"
+        },
+        "reviewer": "Codex independent reviewer: reviews\\20261027\\linguistic-b.review.v3.json"
+      },
+      "fresh_semantic_review": "Read current English + actual recipe inputThing/countNeeded/outputcount. Rat is ratffalo milk; Wolffalo input is hairy milk; labels unified and mass-noun quantities supplied with units. No independent human proofreading.",
+      "if_mod_active": "vanillaexpanded.vgeneticse"
+    },
+    {
+      "target_id": "DefInjected|PipeSystem.ProcessDef|VCE_MechaMilkIntoCheese.description",
+      "source_id": "DefInjected|PipeSystem.ProcessDef|VCE_MechaMilkIntoCheese.description",
+      "source_sha256": "ca62b169d7bee187dd79f7b8d7a4f9def6407daee42d212a28b9888548b06de0",
+      "text_sha256": "6646b8197817adeaf308179e6649eb457a561b61d80a9417e696b5193cd201ca",
+      "source_origin": "1.6\\Mods\\VanillaGeneticsExpanded\\Defs\\ProcessDefs\\ProcessDefs_VEGenetics.xml",
+      "minimal_static_present": false,
+      "source_context": "required_Cooking_with_optional_vanillaexpanded.vgeneticse",
+      "source_binding": "direct",
+      "source_provenance": "new_codex_translation_independent_review_and_actual_candidate_test",
+      "original_task_provenance": {
+        "task_id": "15f9cf95e25c78ddff91acdd07b5cbb8454d058a2232e36b7d411bbc6e1e0875",
+        "package_id": "vanillaexpanded.vcooke",
+        "target_id": "DefInjected|PipeSystem.ProcessDef|VCE_MechaMilkIntoCheese.description",
+        "origin": {
+          "kind": "new_codex_translation"
+        },
+        "reviewer": "Codex independent reviewer: reviews\\20261027\\linguistic-b.review.v3.json"
+      },
+      "fresh_semantic_review": "Read current English + actual recipe inputThing/countNeeded/outputcount. Rat is ratffalo milk; Wolffalo input is hairy milk; labels unified and mass-noun quantities supplied with units. No independent human proofreading.",
+      "if_mod_active": "vanillaexpanded.vgeneticse"
+    },
+    {
+      "target_id": "DefInjected|PipeSystem.ProcessDef|VCE_NightMilkIntoCheese.description",
+      "source_id": "DefInjected|PipeSystem.ProcessDef|VCE_NightMilkIntoCheese.description",
+      "source_sha256": "edbd2a281b53f4d6bbccbbbb998f38f1a94c741bdd99373fda869d2073207c65",
+      "text_sha256": "1fb3fa406e65c3aab73ba24262f919edb0c9d24cb7eb2affc808511a7bc13aa3",
+      "source_origin": "1.6\\Mods\\AlphaAnimals\\Defs\\ProcessDefs\\ProcessDefs_AlphaAnimals.xml",
+      "minimal_static_present": false,
+      "source_context": "required_Cooking_with_optional_sarg.alphaanimals",
+      "source_binding": "direct",
+      "source_provenance": "new_codex_translation_independent_review_and_actual_candidate_test",
+      "original_task_provenance": {
+        "task_id": "1af0b812d0277af2aca8615989956cf46df546d7bfaedd6c1763a7b057b7a3d9",
+        "package_id": "vanillaexpanded.vcooke",
+        "target_id": "DefInjected|PipeSystem.ProcessDef|VCE_NightMilkIntoCheese.description",
+        "origin": {
+          "kind": "new_codex_translation"
+        },
+        "reviewer": "Codex independent reviewer: reviews\\20261027\\linguistic-b.review.v3.json"
+      },
+      "fresh_semantic_review": "Read current English + actual recipe inputThing/countNeeded/outputcount. Rat is ratffalo milk; Wolffalo input is hairy milk; labels unified and mass-noun quantities supplied with units. No independent human proofreading.",
+      "if_mod_active": "sarg.alphaanimals"
+    },
+    {
+      "target_id": "DefInjected|PipeSystem.ProcessDef|VCE_ThrumffaloMilkIntoCheese.description",
+      "source_id": "DefInjected|PipeSystem.ProcessDef|VCE_ThrumffaloMilkIntoCheese.description",
+      "source_sha256": "912f9b58929bed93e9131c873476cce2cce04661a89e44bdbfb6e1a8d87a323d",
+      "text_sha256": "e8c66dd18dcbd0ee42d076f3f4db8a0aaa95471fcdc5e36c8f7a5966bca1fb85",
+      "source_origin": "1.6\\Mods\\VanillaGeneticsExpanded\\Defs\\ProcessDefs\\ProcessDefs_VEGenetics.xml",
+      "minimal_static_present": false,
+      "source_context": "required_Cooking_with_optional_vanillaexpanded.vgeneticse",
+      "source_binding": "direct",
+      "source_provenance": "new_codex_translation_independent_review_and_actual_candidate_test",
+      "original_task_provenance": {
+        "task_id": "2287ebbce823aa58fef3829a4ca998af2ec78d0f60e3e51a516034c93a4c09e8",
+        "package_id": "vanillaexpanded.vcooke",
+        "target_id": "DefInjected|PipeSystem.ProcessDef|VCE_ThrumffaloMilkIntoCheese.description",
+        "origin": {
+          "kind": "new_codex_translation"
+        },
+        "reviewer": "Codex independent reviewer: reviews\\20261027\\linguistic-b.review.v3.json"
+      },
+      "fresh_semantic_review": "Read current English + actual recipe inputThing/countNeeded/outputcount. Rat is ratffalo milk; Wolffalo input is hairy milk; labels unified and mass-noun quantities supplied with units. No independent human proofreading.",
+      "if_mod_active": "vanillaexpanded.vgeneticse"
+    },
+    {
+      "target_id": "DefInjected|PipeSystem.ProcessDef|VCE_BearffaloMilkIntoCheese.description",
+      "source_id": "DefInjected|PipeSystem.ProcessDef|VCE_BearffaloMilkIntoCheese.description",
+      "source_sha256": "abc770affe2d5475fdc0f09edbbeb3222bc3098382b88fcd6b897fae8899dba1",
+      "text_sha256": "df014580f7bc0715bb49a19bb1c74e1ec7882155f78a5b5cf0a20c8b1acc74e6",
+      "source_origin": "1.6\\Mods\\VanillaGeneticsExpanded\\Defs\\ProcessDefs\\ProcessDefs_VEGenetics.xml",
+      "minimal_static_present": false,
+      "source_context": "required_Cooking_with_optional_vanillaexpanded.vgeneticse",
+      "source_binding": "direct",
+      "source_provenance": "new_codex_translation_independent_review_and_actual_candidate_test",
+      "original_task_provenance": {
+        "task_id": "3c21a9ff56c6209f73e70192a4eb6197817c78914c6fa310af96222831e6bdc0",
+        "package_id": "vanillaexpanded.vcooke",
+        "target_id": "DefInjected|PipeSystem.ProcessDef|VCE_BearffaloMilkIntoCheese.description",
+        "origin": {
+          "kind": "new_codex_translation"
+        },
+        "reviewer": "Codex independent reviewer: reviews\\20261027\\linguistic-b.review.v3.json"
+      },
+      "fresh_semantic_review": "Read current English + actual recipe inputThing/countNeeded/outputcount. Rat is ratffalo milk; Wolffalo input is hairy milk; labels unified and mass-noun quantities supplied with units. No independent human proofreading.",
+      "if_mod_active": "vanillaexpanded.vgeneticse"
+    },
+    {
+      "target_id": "DefInjected|PipeSystem.ProcessDef|VCE_WeirdMilkIntoCheese.description",
+      "source_id": "DefInjected|PipeSystem.ProcessDef|VCE_WeirdMilkIntoCheese.description",
+      "source_sha256": "c447aa581b258070f87564761803ea2faadf91da9344dc82e7544c0a307090cb",
+      "text_sha256": "272234705fb5d005ec5ac7e86a6ce603d2acda64e9241f284c0e55ea82f6489a",
+      "source_origin": "1.6\\Mods\\VanillaGeneticsExpanded\\Defs\\ProcessDefs\\ProcessDefs_VEGenetics.xml",
+      "minimal_static_present": false,
+      "source_context": "required_Cooking_with_optional_vanillaexpanded.vgeneticse",
+      "source_binding": "direct",
+      "source_provenance": "new_codex_translation_independent_review_and_actual_candidate_test",
+      "original_task_provenance": {
+        "task_id": "3e6e1959972a34c33af2fd65e4d4e01a9dc3f9be9eec3f5782d9c70b4bfd33b9",
+        "package_id": "vanillaexpanded.vcooke",
+        "target_id": "DefInjected|PipeSystem.ProcessDef|VCE_WeirdMilkIntoCheese.description",
+        "origin": {
+          "kind": "new_codex_translation"
+        },
+        "reviewer": "Codex independent reviewer: reviews\\20261027\\linguistic-b.review.v3.json"
+      },
+      "fresh_semantic_review": "Read current English + actual recipe inputThing/countNeeded/outputcount. Rat is ratffalo milk; Wolffalo input is hairy milk; labels unified and mass-noun quantities supplied with units. No independent human proofreading.",
+      "if_mod_active": "vanillaexpanded.vgeneticse"
+    },
+    {
+      "target_id": "DefInjected|PipeSystem.ProcessDef|VCE_MuffalobearMilkIntoCheese.label",
+      "source_id": "DefInjected|PipeSystem.ProcessDef|VCE_MuffalobearMilkIntoCheese.label",
+      "source_sha256": "8f754591b3277e7ac90e0a66ca1efea6aa08f99b713df44a101c9c6492cdb21a",
+      "text_sha256": "8849bc58259a150ca34345a1c7eb8fe3489fa7a1f159679fc41aef4806e5d0ef",
+      "source_origin": "1.6\\Mods\\VanillaGeneticsExpanded\\Defs\\ProcessDefs\\ProcessDefs_VEGenetics.xml",
+      "minimal_static_present": false,
+      "source_context": "required_Cooking_with_optional_vanillaexpanded.vgeneticse",
+      "source_binding": "direct",
+      "source_provenance": "new_codex_translation_independent_review_and_actual_candidate_test",
+      "original_task_provenance": {
+        "task_id": "4c78cb44682074c357f52683304e340cdd352a11935ce9d0d8c6ed1e9bda431f",
+        "package_id": "vanillaexpanded.vcooke",
+        "target_id": "DefInjected|PipeSystem.ProcessDef|VCE_MuffalobearMilkIntoCheese.label",
+        "origin": {
+          "kind": "new_codex_translation"
+        },
+        "reviewer": "Codex independent reviewer: reviews\\20261027\\linguistic-b.review.v3.json"
+      },
+      "fresh_semantic_review": "Read current English + actual recipe inputThing/countNeeded/outputcount. Rat is ratffalo milk; Wolffalo input is hairy milk; labels unified and mass-noun quantities supplied with units. No independent human proofreading.",
+      "if_mod_active": "vanillaexpanded.vgeneticse"
+    },
+    {
+      "target_id": "DefInjected|PipeSystem.ProcessDef|VCE_MechaMilkIntoCheese.label",
+      "source_id": "DefInjected|PipeSystem.ProcessDef|VCE_MechaMilkIntoCheese.label",
+      "source_sha256": "bb41737d14b7eddd2990fc98c63ad2026409f7d7c406256ea31dcb84d2657d5a",
+      "text_sha256": "b19897209ee347df12e0bcd40df76eded60de76d941140901e53c7878eed3a68",
+      "source_origin": "1.6\\Mods\\VanillaGeneticsExpanded\\Defs\\ProcessDefs\\ProcessDefs_VEGenetics.xml",
+      "minimal_static_present": false,
+      "source_context": "required_Cooking_with_optional_vanillaexpanded.vgeneticse",
+      "source_binding": "direct",
+      "source_provenance": "new_codex_translation_independent_review_and_actual_candidate_test",
+      "original_task_provenance": {
+        "task_id": "5ad712ab3601c1b9b0105509e448f53a195e9980661ddb95bfe36221557579f1",
+        "package_id": "vanillaexpanded.vcooke",
+        "target_id": "DefInjected|PipeSystem.ProcessDef|VCE_MechaMilkIntoCheese.label",
+        "origin": {
+          "kind": "new_codex_translation"
+        },
+        "reviewer": "Codex independent reviewer: reviews\\20261027\\linguistic-b.review.v3.json"
+      },
+      "fresh_semantic_review": "Read current English + actual recipe inputThing/countNeeded/outputcount. Rat is ratffalo milk; Wolffalo input is hairy milk; labels unified and mass-noun quantities supplied with units. No independent human proofreading.",
+      "if_mod_active": "vanillaexpanded.vgeneticse"
+    },
+    {
+      "target_id": "DefInjected|PipeSystem.ProcessDef|VCE_MuffalochickenMilkIntoCheese.label",
+      "source_id": "DefInjected|PipeSystem.ProcessDef|VCE_MuffalochickenMilkIntoCheese.label",
+      "source_sha256": "82ba3bffabf1fb56842bcfeaacf649936a70f1d2e8248acc4b17ce1eb996070b",
+      "text_sha256": "07c59814d740bc73bf28d0a92e9255718febd1167e5e975b26a827cee3976b5b",
+      "source_origin": "1.6\\Mods\\VanillaGeneticsExpanded\\Defs\\ProcessDefs\\ProcessDefs_VEGenetics.xml",
+      "minimal_static_present": false,
+      "source_context": "required_Cooking_with_optional_vanillaexpanded.vgeneticse",
+      "source_binding": "direct",
+      "source_provenance": "new_codex_translation_independent_review_and_actual_candidate_test",
+      "original_task_provenance": {
+        "task_id": "5bdbe5dfb70d71e01d37d2593160dc42df157f11dca1c46734073f9e90f67736",
+        "package_id": "vanillaexpanded.vcooke",
+        "target_id": "DefInjected|PipeSystem.ProcessDef|VCE_MuffalochickenMilkIntoCheese.label",
+        "origin": {
+          "kind": "new_codex_translation"
+        },
+        "reviewer": "Codex independent reviewer: reviews\\20261027\\linguistic-b.review.v3.json"
+      },
+      "fresh_semantic_review": "Read current English + actual recipe inputThing/countNeeded/outputcount. Rat is ratffalo milk; Wolffalo input is hairy milk; labels unified and mass-noun quantities supplied with units. No independent human proofreading.",
+      "if_mod_active": "vanillaexpanded.vgeneticse"
+    },
+    {
+      "target_id": "DefInjected|PipeSystem.ProcessDef|VCE_GowMilkIntoCheese.label",
+      "source_id": "DefInjected|PipeSystem.ProcessDef|VCE_GowMilkIntoCheese.label",
+      "source_sha256": "2be6925f7dae58bcf6738e97eab3fc85edfde22f755cf0cb00e76dd3b40d1577",
+      "text_sha256": "7efafc52f79954817f5a3d3ff0f416684159c53cc4a1abd441b50ba48bb14adf",
+      "source_origin": "1.6\\Mods\\AlphaAnimals\\Defs\\ProcessDefs\\ProcessDefs_AlphaAnimals.xml",
+      "minimal_static_present": false,
+      "source_context": "required_Cooking_with_optional_sarg.alphaanimals",
+      "source_binding": "direct",
+      "source_provenance": "new_codex_translation_independent_review_and_actual_candidate_test",
+      "original_task_provenance": {
+        "task_id": "6d086cf634d3c54981a52bec1ec13204213103b765e1efc444b37e8edb94baab",
+        "package_id": "vanillaexpanded.vcooke",
+        "target_id": "DefInjected|PipeSystem.ProcessDef|VCE_GowMilkIntoCheese.label",
+        "origin": {
+          "kind": "new_codex_translation"
+        },
+        "reviewer": "Codex independent reviewer: reviews\\20261027\\linguistic-a.review.json"
+      },
+      "fresh_semantic_review": "Read current English + actual recipe inputThing/countNeeded/outputcount. Rat is ratffalo milk; Wolffalo input is hairy milk; labels unified and mass-noun quantities supplied with units. No independent human proofreading.",
+      "if_mod_active": "sarg.alphaanimals"
+    },
+    {
+      "target_id": "DefInjected|PipeSystem.ProcessDef|VCE_BlueMilkIntoCheese.label",
+      "source_id": "DefInjected|PipeSystem.ProcessDef|VCE_BlueMilkIntoCheese.label",
+      "source_sha256": "c4459affb74814f9f93f4bd45a7ac5f10af547a01a9534a825170e6b982e7dcb",
+      "text_sha256": "8ad9d0acb23dd015979d8e83d775caa3007b6b8a19177753f41b492d392f09e4",
+      "source_origin": "1.6\\Mods\\AlphaAnimals\\Defs\\ProcessDefs\\ProcessDefs_AlphaAnimals.xml",
+      "minimal_static_present": false,
+      "source_context": "required_Cooking_with_optional_sarg.alphaanimals",
+      "source_binding": "direct",
+      "source_provenance": "new_codex_translation_independent_review_and_actual_candidate_test",
+      "original_task_provenance": {
+        "task_id": "7fac37a2828b1f868d86e789217f1c36931453c5f3a9f74386fc80fb7a8f662f",
+        "package_id": "vanillaexpanded.vcooke",
+        "target_id": "DefInjected|PipeSystem.ProcessDef|VCE_BlueMilkIntoCheese.label",
+        "origin": {
+          "kind": "new_codex_translation"
+        },
+        "reviewer": "Codex independent reviewer: reviews\\20261027\\linguistic-a.review.json"
+      },
+      "fresh_semantic_review": "Read current English + actual recipe inputThing/countNeeded/outputcount. Rat is ratffalo milk; Wolffalo input is hairy milk; labels unified and mass-noun quantities supplied with units. No independent human proofreading.",
+      "if_mod_active": "sarg.alphaanimals"
+    },
+    {
+      "target_id": "DefInjected|PipeSystem.ProcessDef|VCE_WolffaloMilkIntoCheese.description",
+      "source_id": "DefInjected|PipeSystem.ProcessDef|VCE_WolffaloMilkIntoCheese.description",
+      "source_sha256": "c8e446e4bc627575002d18cbf50836129e9674ec3cd6267a2eaf0c1369101408",
+      "text_sha256": "673e344ee14b9c04022ab8607f4b73709d67dae5dd3520d9a7d8d0c951a5f5ca",
+      "source_origin": "1.6\\Mods\\VanillaGeneticsExpanded\\Defs\\ProcessDefs\\ProcessDefs_VEGenetics.xml",
+      "minimal_static_present": false,
+      "source_context": "required_Cooking_with_optional_vanillaexpanded.vgeneticse",
+      "source_binding": "direct",
+      "source_provenance": "new_codex_translation_independent_review_and_actual_candidate_test",
+      "original_task_provenance": {
+        "task_id": "8196fd75243d04c555045654e2ae70f1b80cb51908ae5a9d16c5d7026e4c7a5f",
+        "package_id": "vanillaexpanded.vcooke",
+        "target_id": "DefInjected|PipeSystem.ProcessDef|VCE_WolffaloMilkIntoCheese.description",
+        "origin": {
+          "kind": "new_codex_translation"
+        },
+        "reviewer": "Codex independent reviewer: reviews\\20261027\\linguistic-a.review.json"
+      },
+      "fresh_semantic_review": "Read current English + actual recipe inputThing/countNeeded/outputcount. Rat is ratffalo milk; Wolffalo input is hairy milk; labels unified and mass-noun quantities supplied with units. No independent human proofreading.",
+      "if_mod_active": "vanillaexpanded.vgeneticse"
+    },
+    {
+      "target_id": "DefInjected|PipeSystem.ProcessDef|VCE_BlueMilkIntoCheese.description",
+      "source_id": "DefInjected|PipeSystem.ProcessDef|VCE_BlueMilkIntoCheese.description",
+      "source_sha256": "2e6ddfd0db89a69bd1453de54da87da299f8875e2375bf6df0f39d95f583cb2d",
+      "text_sha256": "dcdecad08e763ce2dff2a39e3dfc808f6f24a469c9340c0579d98b739c7033e2",
+      "source_origin": "1.6\\Mods\\AlphaAnimals\\Defs\\ProcessDefs\\ProcessDefs_AlphaAnimals.xml",
+      "minimal_static_present": false,
+      "source_context": "required_Cooking_with_optional_sarg.alphaanimals",
+      "source_binding": "direct",
+      "source_provenance": "new_codex_translation_independent_review_and_actual_candidate_test",
+      "original_task_provenance": {
+        "task_id": "876630f23e7995445a8dce46691c32e725d822de0a05b53f6a11ee2e8983c98b",
+        "package_id": "vanillaexpanded.vcooke",
+        "target_id": "DefInjected|PipeSystem.ProcessDef|VCE_BlueMilkIntoCheese.description",
+        "origin": {
+          "kind": "new_codex_translation"
+        },
+        "reviewer": "Codex independent reviewer: reviews\\20261027\\linguistic-a.review.json"
+      },
+      "fresh_semantic_review": "Read current English + actual recipe inputThing/countNeeded/outputcount. Rat is ratffalo milk; Wolffalo input is hairy milk; labels unified and mass-noun quantities supplied with units. No independent human proofreading.",
+      "if_mod_active": "sarg.alphaanimals"
+    },
+    {
+      "target_id": "DefInjected|PipeSystem.ProcessDef|VCE_ChickenffaloMilkIntoCheese.description",
+      "source_id": "DefInjected|PipeSystem.ProcessDef|VCE_ChickenffaloMilkIntoCheese.description",
+      "source_sha256": "dfb6849945cb5fb83b201716664caef883874e19a86aa0477b4c2e7909d6eb43",
+      "text_sha256": "35ca1eba91db74e1486abf6005ed2e5bf02d97665077611eeb9114864887ac64",
+      "source_origin": "1.6\\Mods\\VanillaGeneticsExpanded\\Defs\\ProcessDefs\\ProcessDefs_VEGenetics.xml",
+      "minimal_static_present": false,
+      "source_context": "required_Cooking_with_optional_vanillaexpanded.vgeneticse",
+      "source_binding": "direct",
+      "source_provenance": "new_codex_translation_independent_review_and_actual_candidate_test",
+      "original_task_provenance": {
+        "task_id": "8832dd21acb1d92c8c8341fead425d14d050f6601ecf0aa1f7c60711add78c84",
+        "package_id": "vanillaexpanded.vcooke",
+        "target_id": "DefInjected|PipeSystem.ProcessDef|VCE_ChickenffaloMilkIntoCheese.description",
+        "origin": {
+          "kind": "new_codex_translation"
+        },
+        "reviewer": "Codex independent reviewer: reviews\\20261027\\linguistic-a.review.json"
+      },
+      "fresh_semantic_review": "Read current English + actual recipe inputThing/countNeeded/outputcount. Rat is ratffalo milk; Wolffalo input is hairy milk; labels unified and mass-noun quantities supplied with units. No independent human proofreading.",
+      "if_mod_active": "vanillaexpanded.vgeneticse"
+    },
+    {
+      "target_id": "DefInjected|PipeSystem.ProcessDef|VCE_BearffaloMilkIntoCheese.label",
+      "source_id": "DefInjected|PipeSystem.ProcessDef|VCE_BearffaloMilkIntoCheese.label",
+      "source_sha256": "3c231f560a693d23d0d9ea135d9abda799f0bed51de1bdd5072989772b39f558",
+      "text_sha256": "d7bd28c9b16a867aeb47e7ecc47a78985b8a52444b7bf3020ab67c2bf8209cf3",
+      "source_origin": "1.6\\Mods\\VanillaGeneticsExpanded\\Defs\\ProcessDefs\\ProcessDefs_VEGenetics.xml",
+      "minimal_static_present": false,
+      "source_context": "required_Cooking_with_optional_vanillaexpanded.vgeneticse",
+      "source_binding": "direct",
+      "source_provenance": "new_codex_translation_independent_review_and_actual_candidate_test",
+      "original_task_provenance": {
+        "task_id": "8d53d34324fdf2dec61d5874463c8eb334cc47a5fa274b1d56a983212f2c2bc7",
+        "package_id": "vanillaexpanded.vcooke",
+        "target_id": "DefInjected|PipeSystem.ProcessDef|VCE_BearffaloMilkIntoCheese.label",
+        "origin": {
+          "kind": "new_codex_translation"
+        },
+        "reviewer": "Codex independent reviewer: reviews\\20261027\\linguistic-a.review.json"
+      },
+      "fresh_semantic_review": "Read current English + actual recipe inputThing/countNeeded/outputcount. Rat is ratffalo milk; Wolffalo input is hairy milk; labels unified and mass-noun quantities supplied with units. No independent human proofreading.",
+      "if_mod_active": "vanillaexpanded.vgeneticse"
+    },
+    {
+      "target_id": "DefInjected|PipeSystem.ProcessDef|VCE_MuffalobearMilkIntoCheese.description",
+      "source_id": "DefInjected|PipeSystem.ProcessDef|VCE_MuffalobearMilkIntoCheese.description",
+      "source_sha256": "435b05f4a20b32f1745f2bbdf858928f6091096dbbe598f2c64969e22b846d91",
+      "text_sha256": "6caa781c69a5b5fb02469f4d292374aecbe9178107359a79d72540fa91da6286",
+      "source_origin": "1.6\\Mods\\VanillaGeneticsExpanded\\Defs\\ProcessDefs\\ProcessDefs_VEGenetics.xml",
+      "minimal_static_present": false,
+      "source_context": "required_Cooking_with_optional_vanillaexpanded.vgeneticse",
+      "source_binding": "direct",
+      "source_provenance": "new_codex_translation_independent_review_and_actual_candidate_test",
+      "original_task_provenance": {
+        "task_id": "8e42e20a1b69cc8f13f746f9f410fea2ccb8365abcadc9382134e162c98f8303",
+        "package_id": "vanillaexpanded.vcooke",
+        "target_id": "DefInjected|PipeSystem.ProcessDef|VCE_MuffalobearMilkIntoCheese.description",
+        "origin": {
+          "kind": "new_codex_translation"
+        },
+        "reviewer": "Codex independent reviewer: reviews\\20261027\\linguistic-a.review.json"
+      },
+      "fresh_semantic_review": "Read current English + actual recipe inputThing/countNeeded/outputcount. Rat is ratffalo milk; Wolffalo input is hairy milk; labels unified and mass-noun quantities supplied with units. No independent human proofreading.",
+      "if_mod_active": "vanillaexpanded.vgeneticse"
+    },
+    {
+      "target_id": "DefInjected|PipeSystem.ProcessDef|VCE_MuffalochickenMilkIntoCheese.description",
+      "source_id": "DefInjected|PipeSystem.ProcessDef|VCE_MuffalochickenMilkIntoCheese.description",
+      "source_sha256": "a2389350b74be86d57de5d5e2cac391b31e5280bec5c687d5cb48d91ba928456",
+      "text_sha256": "61b5294d3f7d300566edefdc888931430e4aae1ff838dbcaf6d9a8d498e72d3d",
+      "source_origin": "1.6\\Mods\\VanillaGeneticsExpanded\\Defs\\ProcessDefs\\ProcessDefs_VEGenetics.xml",
+      "minimal_static_present": false,
+      "source_context": "required_Cooking_with_optional_vanillaexpanded.vgeneticse",
+      "source_binding": "direct",
+      "source_provenance": "new_codex_translation_independent_review_and_actual_candidate_test",
+      "original_task_provenance": {
+        "task_id": "8ef07a853372519a9bac8e6e49eeb7014ea3db9560d4f09d86daaf383f4f0670",
+        "package_id": "vanillaexpanded.vcooke",
+        "target_id": "DefInjected|PipeSystem.ProcessDef|VCE_MuffalochickenMilkIntoCheese.description",
+        "origin": {
+          "kind": "new_codex_translation"
+        },
+        "reviewer": "Codex independent reviewer: reviews\\20261027\\linguistic-a.review.json"
+      },
+      "fresh_semantic_review": "Read current English + actual recipe inputThing/countNeeded/outputcount. Rat is ratffalo milk; Wolffalo input is hairy milk; labels unified and mass-noun quantities supplied with units. No independent human proofreading.",
+      "if_mod_active": "vanillaexpanded.vgeneticse"
+    },
+    {
+      "target_id": "DefInjected|PipeSystem.ProcessDef|VCE_WolffaloMilkIntoCheese.label",
+      "source_id": "DefInjected|PipeSystem.ProcessDef|VCE_WolffaloMilkIntoCheese.label",
+      "source_sha256": "46ab10d261e896ee6311e83f0aa1b4e4d8bdb43cc1b1485feda61c2dcab86259",
+      "text_sha256": "2892ea83968020d5b57ca2a92cb237ef11bc7d3012864ae609b5d077a834d0c6",
+      "source_origin": "1.6\\Mods\\VanillaGeneticsExpanded\\Defs\\ProcessDefs\\ProcessDefs_VEGenetics.xml",
+      "minimal_static_present": false,
+      "source_context": "required_Cooking_with_optional_vanillaexpanded.vgeneticse",
+      "source_binding": "direct",
+      "source_provenance": "new_codex_translation_independent_review_and_actual_candidate_test",
+      "original_task_provenance": {
+        "task_id": "a3ad8e7b96e100e157010585d6a84f6cbb48afa8e541a7cc299a34645022479b",
+        "package_id": "vanillaexpanded.vcooke",
+        "target_id": "DefInjected|PipeSystem.ProcessDef|VCE_WolffaloMilkIntoCheese.label",
+        "origin": {
+          "kind": "new_codex_translation"
+        },
+        "reviewer": "Codex independent reviewer: reviews\\20261027\\linguistic-a.review.json"
+      },
+      "fresh_semantic_review": "Read current English + actual recipe inputThing/countNeeded/outputcount. Rat is ratffalo milk; Wolffalo input is hairy milk; labels unified and mass-noun quantities supplied with units. No independent human proofreading.",
+      "if_mod_active": "vanillaexpanded.vgeneticse"
+    },
+    {
+      "target_id": "DefInjected|PipeSystem.ProcessDef|VCE_GowMilkIntoCheese.description",
+      "source_id": "DefInjected|PipeSystem.ProcessDef|VCE_GowMilkIntoCheese.description",
+      "source_sha256": "4db073eb9eb6b7df873deb67ab787b55eec34bb18322f47ac752ab416f6c37d4",
+      "text_sha256": "8712ddd0cde5099565e64906f33ccc61b3c6877914e96ad81100674065f5ed63",
+      "source_origin": "1.6\\Mods\\AlphaAnimals\\Defs\\ProcessDefs\\ProcessDefs_AlphaAnimals.xml",
+      "minimal_static_present": false,
+      "source_context": "required_Cooking_with_optional_sarg.alphaanimals",
+      "source_binding": "direct",
+      "source_provenance": "new_codex_translation_independent_review_and_actual_candidate_test",
+      "original_task_provenance": {
+        "task_id": "af2cfede4ef1d6152b93f571be3ebd921bf6455e55debda61bbf1f781114eae0",
+        "package_id": "vanillaexpanded.vcooke",
+        "target_id": "DefInjected|PipeSystem.ProcessDef|VCE_GowMilkIntoCheese.description",
+        "origin": {
+          "kind": "new_codex_translation"
+        },
+        "reviewer": "Codex independent reviewer: reviews\\20261027\\linguistic-root-tail.review.json"
+      },
+      "fresh_semantic_review": "Read current English + actual recipe inputThing/countNeeded/outputcount. Rat is ratffalo milk; Wolffalo input is hairy milk; labels unified and mass-noun quantities supplied with units. No independent human proofreading.",
+      "if_mod_active": "sarg.alphaanimals"
+    },
+    {
+      "target_id": "DefInjected|PipeSystem.ProcessDef|VCE_ThrumffaloMilkIntoCheese.label",
+      "source_id": "DefInjected|PipeSystem.ProcessDef|VCE_ThrumffaloMilkIntoCheese.label",
+      "source_sha256": "80d69222ba5b577181a5f9798200b5c47cda3903af162eb52c648b6d2356f4a5",
+      "text_sha256": "5ea88a17eb69249a6b11de9c5816d61ead8cce5bf2292a7d088f92fad3fc97cd",
+      "source_origin": "1.6\\Mods\\VanillaGeneticsExpanded\\Defs\\ProcessDefs\\ProcessDefs_VEGenetics.xml",
+      "minimal_static_present": false,
+      "source_context": "required_Cooking_with_optional_vanillaexpanded.vgeneticse",
+      "source_binding": "direct",
+      "source_provenance": "new_codex_translation_independent_review_and_actual_candidate_test",
+      "original_task_provenance": {
+        "task_id": "d5f1eec692e067b93ad4bce98faff9e3cc5e24d4ffab59010cfaad989f491a34",
+        "package_id": "vanillaexpanded.vcooke",
+        "target_id": "DefInjected|PipeSystem.ProcessDef|VCE_ThrumffaloMilkIntoCheese.label",
+        "origin": {
+          "kind": "new_codex_translation"
+        },
+        "reviewer": "Codex independent reviewer: reviews\\20261027\\linguistic-root-tail.review.json"
+      },
+      "fresh_semantic_review": "Read current English + actual recipe inputThing/countNeeded/outputcount. Rat is ratffalo milk; Wolffalo input is hairy milk; labels unified and mass-noun quantities supplied with units. No independent human proofreading.",
+      "if_mod_active": "vanillaexpanded.vgeneticse"
+    },
+    {
+      "target_id": "DefInjected|PipeSystem.ProcessDef|VCE_RatMilkIntoCheese.label",
+      "source_id": "DefInjected|PipeSystem.ProcessDef|VCE_RatMilkIntoCheese.label",
+      "source_sha256": "68eb895f3c55fd913115a31457d9c5307ba2688fd9cdff8ea7a9549b07ca9c02",
+      "text_sha256": "4f55c447328e635c06a8e959abeaafcbc3040e3c0c040a2430727239d1ed741c",
+      "source_origin": "1.6\\Mods\\VanillaGeneticsExpanded\\Defs\\ProcessDefs\\ProcessDefs_VEGenetics.xml",
+      "minimal_static_present": false,
+      "source_context": "required_Cooking_with_optional_vanillaexpanded.vgeneticse",
+      "source_binding": "direct",
+      "source_provenance": "new_codex_translation_independent_review_and_actual_candidate_test",
+      "original_task_provenance": {
+        "task_id": "f5aa1f2f1cad47639ef6954f23e0715721af3c82fc4f9f48d2c607b83b465a8a",
+        "package_id": "vanillaexpanded.vcooke",
+        "target_id": "DefInjected|PipeSystem.ProcessDef|VCE_RatMilkIntoCheese.label",
+        "origin": {
+          "kind": "new_codex_translation"
+        },
+        "reviewer": "Codex independent reviewer: reviews\\20261027\\linguistic-b.review.v3.json"
+      },
+      "fresh_semantic_review": "Read current English + actual recipe inputThing/countNeeded/outputcount. Rat is ratffalo milk; Wolffalo input is hairy milk; labels unified and mass-noun quantities supplied with units. No independent human proofreading.",
+      "if_mod_active": "vanillaexpanded.vgeneticse"
+    },
+    {
+      "target_id": "DefInjected|PipeSystem.ProcessDef|VCE_ChickenffaloMilkIntoCheese.label",
+      "source_id": "DefInjected|PipeSystem.ProcessDef|VCE_ChickenffaloMilkIntoCheese.label",
+      "source_sha256": "ca27e0668248b8dd679e322e3e29f8466af655102135430688b9e062e152583e",
+      "text_sha256": "ba1624cda09e5e61c776de0d45ecb8fbf5a36c437cdb74f8bdae8f47619f2b97",
+      "source_origin": "1.6\\Mods\\VanillaGeneticsExpanded\\Defs\\ProcessDefs\\ProcessDefs_VEGenetics.xml",
+      "minimal_static_present": false,
+      "source_context": "required_Cooking_with_optional_vanillaexpanded.vgeneticse",
+      "source_binding": "direct",
+      "source_provenance": "new_codex_translation_independent_review_and_actual_candidate_test",
+      "original_task_provenance": {
+        "task_id": "f6dba610806172e88ccc0fd4e2d0f3e1f0d3d60ce9155a0aa7a7b67a22c067f4",
+        "package_id": "vanillaexpanded.vcooke",
+        "target_id": "DefInjected|PipeSystem.ProcessDef|VCE_ChickenffaloMilkIntoCheese.label",
+        "origin": {
+          "kind": "new_codex_translation"
+        },
+        "reviewer": "Codex independent reviewer: reviews\\20261027\\linguistic-b.review.v3.json"
+      },
+      "fresh_semantic_review": "Read current English + actual recipe inputThing/countNeeded/outputcount. Rat is ratffalo milk; Wolffalo input is hairy milk; labels unified and mass-noun quantities supplied with units. No independent human proofreading.",
+      "if_mod_active": "vanillaexpanded.vgeneticse"
+    }
+  ],
+  "payload_sha256": "3d983423dcec0aeb1e74c3425e70f76989e4cfbd69063ad45e4c786006686473",
+  "payload_file_hashes": {
+    "About/About.xml": "f27c4b8ed7d4a222375343d4f6f70cd9965ff1921796ba8dc23bacce2b8a6a23",
+    "About/Credits.txt": "0fcd65572bb9c7132832e44ace2c71a4c930e5dbe00f52eafd04557f4994bf45",
+    "About/License.txt": "141416e19ea7268b4563dd88c52f49fe501f12f524688ccca930b8e24e40415b",
+    "About/Preview.png": "e67aa959efafa7c021ccf3a25fa1e7b2a18f73074932a7329fd82c8e99aaf940",
+    "Conditional/sarg.alphaanimals/Languages/Russian/DefInjected/PipeSystem.ProcessDef/AlphaAnimalsRussian.xml": "64b568c05e526c462bb9f8c59195320e6103540d87e865c90a12fa49f403ee48",
+    "Conditional/vanillaexpanded.vgeneticse/Languages/Russian/DefInjected/PipeSystem.ProcessDef/GeneticsRussian.xml": "1daebc09501c34beb010ec1603216d0105bd4cbc7378f57c904d338f51fd0bda",
+    "Languages/Russian/Keyed/ContentMarker.xml": "2d5bb8b5ae268a96302d6917ee31af8ec11b6544db48a5a1c233fa80a20c22ea",
+    "LoadFolders.xml": "ffa31ab38f31f6e372a7e08966891e53b006d2e0edad347d96b2461c1a1dda75"
+  },
+  "conditional_contexts_required": [
+    "00neither",
+    "10AlphaOnly",
+    "01GeneticsOnly",
+    "11Both"
+  ],
+  "whole_base_Russian1_7_certified": false,
+  "versioned_empty_context_content_marker": {
+    "previous_payload_sha256": "f757fbc21ef63523e10d1e423001fe0d22029d3f327fab39d7132e39409e424e",
+    "new_payload_sha256": "6e14d17827dc967ad0e93f9f852b4f823fac135913455027c2c621781d34bb2e",
+    "only_added_payload_file": "Languages/Russian/Keyed/ContentMarker.xml",
+    "existing7file_hashes_unchanged": true,
+    "translation_keys_added": 0,
+    "translation_keys_changed": 0,
+    "mechanism_evidence_sha256": "f1b9bdfb4f14786e048cb634c578be80eb05e55b4f9fdd2026b2e3c9753a0363",
+    "reason": "Current game AnyTranslationsLoaded recognizes a Languages file as translation content. An empty valid LanguageData marks an empty conditional state without injecting a key; requires new real all4context/globalERROR tests."
+  },
+  "versioned_language_file_layout": {
+    "version": 3,
+    "previous_v1_payload_sha256": "f757fbc21ef63523e10d1e423001fe0d22029d3f327fab39d7132e39409e424e",
+    "previous_v2_payload_sha256": "6e14d17827dc967ad0e93f9f852b4f823fac135913455027c2c621781d34bb2e",
+    "new_payload_sha256": "3d983423dcec0aeb1e74c3425e70f76989e4cfbd69063ad45e4c786006686473",
+    "renamed_language_files": {
+      "Conditional/sarg.alphaanimals/Languages/Russian/DefInjected/PipeSystem.ProcessDef/AdditionalRussian.xml": "Conditional/sarg.alphaanimals/Languages/Russian/DefInjected/PipeSystem.ProcessDef/AlphaAnimalsRussian.xml",
+      "Conditional/vanillaexpanded.vgeneticse/Languages/Russian/DefInjected/PipeSystem.ProcessDef/AdditionalRussian.xml": "Conditional/vanillaexpanded.vgeneticse/Languages/Russian/DefInjected/PipeSystem.ProcessDef/GeneticsRussian.xml"
+    },
+    "every_payload_file_content_hash_unchanged_from_v2": true,
+    "marker_added_since_v1": "Languages/Russian/Keyed/ContentMarker.xml",
+    "marker_translation_keys": 0,
+    "all24_translation_texts_unchanged": true,
+    "reason": "Disjoint conditional keys still shadowed through identical language-relative XML filenames. Unique per-root filenames preserve both active branches; keyless unconditional marker recognizes the empty context as valid language content. Fresh all4context/globalERROR tests required."
+  },
+  "game_evidence": "game-test-evidence.json",
+  "game_evidence_sha256": "4629a4b8976d63986db87cf990de51faa0d10aef196c382a97cad0a250430ddb",
+  "game_test_scope": "All declared condition combinations passed separate actual English-control/Russian-candidate startup and master-target readback. Active values matched exact sources/owners; inactive targets retained exact control state without candidate injection. Full localization multisets and complete timestamp-stripped global Player.log ERROR records matched within each pair; baselines may differ across contexts. Unique active target union is counted once. No save, extended gameplay, every formatted scenario, Workshop-copy installation or independent human proofreading claimed.",
+  "game_test_contexts": [
+    {
+      "case_id": "cooking24v3-none",
+      "active_values_verified": 0,
+      "inactive_targets_verified": 24,
+      "baseline_localization_errors": 46,
+      "candidate_localization_errors": 46,
+      "additional_localization_errors": 0
+    },
+    {
+      "case_id": "cooking24v3-alpha",
+      "active_values_verified": 6,
+      "inactive_targets_verified": 18,
+      "baseline_localization_errors": 46,
+      "candidate_localization_errors": 46,
+      "additional_localization_errors": 0
+    },
+    {
+      "case_id": "cooking24v3-genetics",
+      "active_values_verified": 18,
+      "inactive_targets_verified": 6,
+      "baseline_localization_errors": 70,
+      "candidate_localization_errors": 70,
+      "additional_localization_errors": 0
+    },
+    {
+      "case_id": "cooking24v3-both",
+      "active_values_verified": 24,
+      "inactive_targets_verified": 0,
+      "baseline_localization_errors": 70,
+      "candidate_localization_errors": 70,
+      "additional_localization_errors": 0
+    }
+  ],
+  "cross_provider_comparison_evidence": "cross-provider-comparison-evidence.json",
+  "cross_provider_comparison_evidence_sha256": "a493a0f06c2a2a137766fd996ab7cb6b966f0c3db1c289182aadd3d791b6e8be"
+}

@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+  <!-- This supplement contains only optional integrations. The empty dictionary keeps
+       the translation package recognizable when its integration is inactive.
+       It defines no unconditional keys and changes no game text. -->
+</LanguageData>
