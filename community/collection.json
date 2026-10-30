@@ -8,9 +8,13 @@
     "3828790605",
     "3828790757",
     "3828790822",
-    "3828883103"
+    "3828883103",
+    "3830000511",
+    "3830009448",
+    "3830010549",
+    "3830014953"
   ],
-  "membership_automation": "Private operator publisher invokes official SteamUGC AddDependency and verifies membership after upload; five existing members verified, including the new Mechanoid Upgrades item. Website collection publication is a separate pending step.",
+  "membership_automation": "Official SteamUGC AddDependency and fresh readback verified9native members. Website collection publication remains separately unverified.",
   "website_publication_verified": false,
   "cover": {
     "kind": "original_typographic_fallback",

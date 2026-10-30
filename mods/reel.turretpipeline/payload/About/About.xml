@@ -1,0 +1,25 @@
+<?xml version='1.0' encoding='utf-8'?>
+<ModMetaData>
+  <name>Reel's Turret Pipeline — Russian translation</name>
+  <author>Antyhc (AI-assisted with OpenAI Codex)</author>
+  <packageId>antyhc.russian.reel.turretpipeline</packageId>
+  <url>https://github.com/Antyhc/RimWorld-Russian-Translations</url>
+  <description>Русский перевод основной части Reel’s Turret Pipeline: 21 строка боеприпасов, трубопроводов и распределителей. Четыре строки дополнительной интеграции Vanilla Furniture Expanded — Factory в этот выпуск не входят. Требуется оригинальный Reel’s Turret Pipeline, Harmony и Vanilla Expanded Framework. Загружать после оригинала. Перевод подготовлен и вычитан с помощью OpenAI Codex; независимая вычитка человеком не заявляется.
+
+Russian translation for the core of Reel’s Turret Pipeline: 21 ammunition, pipe-network and distributor entries. Four optional Vanilla Furniture Expanded — Factory integration entries are not included. Requires original Reel’s Turret Pipeline, Harmony and Vanilla Expanded Framework. Load after the original. AI-assisted authoring and semantic review by OpenAI Codex; no independent human proofreading claimed.</description>
+  <supportedVersions>
+    <li>1.7</li>
+  </supportedVersions>
+  <modDependencies>
+    <li>
+      <packageId>reel.turretpipeline</packageId>
+      <displayName>Reel's Turret Pipeline</displayName>
+      <steamWorkshopUrl>https://steamcommunity.com/sharedfiles/filedetails/?id=3424132769</steamWorkshopUrl>
+    </li>
+  </modDependencies>
+  <loadAfter>
+    <li>reel.turretpipeline</li>
+    <li>brrainz.harmony</li>
+    <li>oskarpotocki.vanillafactionsexpanded.core</li>
+  </loadAfter>
+</ModMetaData>

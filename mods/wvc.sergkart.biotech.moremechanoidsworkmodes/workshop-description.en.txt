@@ -1,0 +1,11 @@
+Russian completion for WVC — Work Modes by Sergkart: 23 Russian entries for the work tab, mechanoid hangar, charging, shutdown, auto-repair and behavior guide. These comprise 22 absent keys and one group-assignment message previously left in English.
+
+Requires original WVC — Work Modes and Biotech DLC. Load after the original. Recommended alongside the existing Russian pack; its 100 covered selected batch keys are neither copied nor replaced. Compatibility: RimWorld 1.7; tested on 1.7.4990 rev1069.
+
+An isolated Core, Biotech, Harmony and original-mod profile verified all 23 English control and 23 Russian values: 17 Keyed and 6 DefInjected. No other DLC was active. The same 6 baseline localization errors occurred without the supplement; no additional errors. This is startup/field-readback testing, with no saves opened or extended gameplay. Workshop installation is checked separately.
+
+Original author: Sergkart (WVCSergkart). Original text and own Russian additions are distributed under MIT, retaining the original notice. New translations by Antyhc; AI-assisted authoring and semantic review by OpenAI Codex. No independent human proofreading claimed. Only new language strings, metadata, notices and an original typographic cover are included; no third-party Russian, code or artwork is redistributed.
+
+Original: https://steamcommunity.com/sharedfiles/filedetails/?id=2888380373
+Existing Russian pack: https://steamcommunity.com/sharedfiles/filedetails/?id=3226197754
+Project: https://github.com/Antyhc/RimWorld-Russian-Translations

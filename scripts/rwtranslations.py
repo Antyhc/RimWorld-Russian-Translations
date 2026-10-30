@@ -207,6 +207,112 @@ def confirmed_rights(manifest, material):
     return rights.get("status") == "confirmed" and all(rights.get(key) for key in ("license", "evidence", "attribution"))
 
 
+def conditional_language_roots(folder, manifest):
+    """Validate the opt-in, evidence-bound 1.7 language-only LoadFolders layout.
+
+    All declared roots are read for static QA. The real game still decides which
+    single-mod conditions are active; a successful audit is not a runtime test.
+    An ordinary manifest gains no new allowed paths or loader XML.
+    """
+    folder = Path(folder)
+    layout = manifest.get("conditional_languages")
+    if layout is None:
+        return [], []
+    errors = []
+    if not isinstance(layout, dict) or set(layout) != {"version", "roots", "evidence", "evidence_sha256"}:
+        return [], ["conditional_language_layout_invalid"]
+    if layout.get("version") != "1.7" or manifest.get("supported_versions") != ["1.7"]:
+        errors.append("conditional_language_version_unsupported")
+    declared = layout.get("roots")
+    if not isinstance(declared, list) or not declared or len(declared) > 64:
+        return [], sorted(set(errors + ["conditional_language_roots_invalid"]))
+    roots, conditions = [], set()
+    normalized = []
+    for item in declared:
+        if not isinstance(item, dict) or set(item) != {"path", "if_mod_active", "source_relative_root"}:
+            errors.append("conditional_language_root_invalid")
+            continue
+        condition = item.get("if_mod_active")
+        path = item.get("path")
+        original = item.get("source_relative_root")
+        if (not isinstance(condition, str) or not PACKAGE_ID.fullmatch(condition)
+                or condition != condition.lower() or path != "Conditional/" + condition):
+            errors.append("conditional_language_path_or_condition_invalid")
+            continue
+        if (not isinstance(original, str) or not original or "\\" in original or ":" in original
+                or original.startswith("/") or any(part in ("", ".", "..") for part in original.split("/"))):
+            errors.append("conditional_language_source_path_invalid")
+            continue
+        if condition in conditions:
+            errors.append("conditional_language_condition_duplicate:" + condition)
+            continue
+        conditions.add(condition)
+        roots.append(path)
+        normalized.append(item)
+    evidence = layout.get("evidence")
+    digest = layout.get("evidence_sha256")
+    if (not isinstance(evidence, str) or not re.fullmatch(r"[A-Za-z0-9][A-Za-z0-9_.-]*\.json", evidence)
+            or not isinstance(digest, str) or not re.fullmatch(r"[0-9a-f]{64}", digest)):
+        errors.append("conditional_language_evidence_invalid")
+    else:
+        try:
+            evidence_path = within(folder / evidence, folder)
+            if hashlib.sha256(evidence_path.read_bytes()).hexdigest() != digest:
+                raise ValueError("Evidence digest changed")
+            proof = read_json(evidence_path)
+            if (proof.get("schema") != 1 or proof.get("package_id") != manifest.get("package_id")
+                    or proof.get("version") != "1.7" or proof.get("roots") != declared):
+                raise ValueError("Evidence does not bind this exact source layout")
+        except (OSError, ValueError, TypeError, AttributeError):
+            errors.append("conditional_language_evidence_missing_or_changed")
+    loader_path = folder / "payload/LoadFolders.xml"
+    try:
+        loader = safe_xml(loader_path)
+        if loader.tag != "loadFolders" or loader.attrib or len(loader) != 1 or (loader.text or "").strip():
+            raise ValueError("Only one exact version section is allowed")
+        section = loader[0]
+        if section.tag != "v1.7" or section.attrib or (section.text or "").strip() or (section.tail or "").strip():
+            raise ValueError("Only v1.7 is allowed")
+        expected = [("/", {})] + [(item["path"], {"IfModActive": item["if_mod_active"]}) for item in normalized]
+        actual = []
+        for node in section:
+            if node.tag != "li" or list(node) or (node.tail or "").strip():
+                raise ValueError("Only plain list nodes are allowed")
+            actual.append(((node.text or "").strip(), node.attrib))
+        if actual != expected:
+            raise ValueError("Loader conditions or order differ from the reviewed layout")
+    except (OSError, ET.ParseError, ValueError):
+        errors.append("conditional_loadfolders_missing_or_invalid")
+    # Fail closed: malformed metadata must never expand the physical-file allowlist.
+    return (roots if not errors else []), sorted(set(errors))
+
+
+def extract_payload_language(folder, manifest, conditional_roots=None):
+    """Merge only validated Russian roots, rejecting cross-root key collisions."""
+    folder = Path(folder)
+    errors = []
+    if conditional_roots is None:
+        conditional_roots, errors = conditional_language_roots(folder, manifest)
+    payload = folder / "payload"
+    root_language = payload / "Languages/Russian"
+    language_roots = [(".", root_language)]
+    if manifest.get("conditional_languages") is not None and not root_language.is_dir():
+        language_roots = []  # A conditional-only supplement has no unconditional strings.
+    language_roots += [(rel, payload / rel / "Languages/Russian") for rel in conditional_roots]
+    rows = {}
+    for label, directory in language_roots:
+        current, problems = extract_language(directory)
+        errors.extend(problems)
+        if label != "." and not current:
+            errors.append("conditional_language_empty:" + label)
+        for key, value in current.items():
+            if key in rows:
+                errors.append("duplicate_key_across_language_roots:" + key)
+            else:
+                rows[key] = value
+    return rows, sorted(set(errors))
+
+
 def validate_payload(folder, manifest, release=False):
     folder = Path(folder)
     errors, warnings = [], []
@@ -214,12 +320,18 @@ def validate_payload(folder, manifest, release=False):
     if not payload.is_dir():
         return ["payload_missing"], warnings, {}
     within(payload, folder)
+    conditional_roots, layout_errors = conditional_language_roots(folder, manifest)
+    errors.extend(layout_errors)
+    language_prefixes = ["Languages/Russian/"] + [root + "/Languages/Russian/" for root in conditional_roots]
     for path in sorted(payload.rglob("*")):
         within(path, payload)
         if not path.is_file():
             continue
         rel = path.relative_to(payload).as_posix()
-        allowed = rel == "About/About.xml" or rel in NOTICE_FILES or rel.startswith("Languages/Russian/") and path.suffix.lower() in (".xml", ".txt")
+        allowed = (rel == "About/About.xml" or rel in NOTICE_FILES
+                   or any(rel.startswith(prefix) for prefix in language_prefixes) and path.suffix.lower() in (".xml", ".txt"))
+        if rel == "LoadFolders.xml":
+            allowed = bool(conditional_roots) and not layout_errors
         if rel in NOTICE_FILES:
             try:
                 content = path.read_bytes()
@@ -267,7 +379,7 @@ def validate_payload(folder, manifest, release=False):
                 errors.append("supported_versions_not_confirmed")
         except (ET.ParseError, ValueError, KeyError) as ex:
             errors.append(f"about_invalid:{ex}")
-    rows, language_errors = extract_language(payload / "Languages" / "Russian")
+    rows, language_errors = extract_payload_language(folder, manifest, conditional_roots)
     errors.extend(language_errors)
     if not rows:
         errors.append("translation_empty")
@@ -426,7 +538,7 @@ def status_markdown(reg, root=None):
         if path and path.is_file() and mod.get("qa", {}).get("in_game") == "passed":
             tested.append(read_json(path))
     if tested:
-        values = sum(x.get("matched_entries", x.get("russian_candidate_matches", 0)) for x in tested)
+        values = sum(x.get("matched_entries", x.get("russian_candidate_matches", x.get("values_verified", 0))) for x in tested)
         versions = ", ".join(sorted({x.get("game_version", "unspecified") for x in tested}))
         lines += ["", f"Game QA: {values} expected Russian values loaded across the recorded isolated RimWorld {versions} checks. Each linked evidence file records its own baseline errors, Workshop-copy verification and UI inspection scope. Personal configuration hashes were unchanged. This is load/readback testing, **not a colony playthrough or extended gameplay test**. No independent human proofreading is claimed."]
     batch_reports = sorted((root / "reports").glob("reviewed-batches*.json"))
@@ -472,7 +584,7 @@ def prepare_update(folder, language_directory, output):
         raise ValueError("; ".join(errors))
     after = hashes(rows)
     changes = delta(before, after)
-    russian, ru_errors = extract_language(folder / "payload" / "Languages" / "Russian")
+    russian, ru_errors = extract_payload_language(folder, read_json(folder / "manifest.json"))
     queue = [{"key": key, "source": rows[key], "previous_translation": russian.get(key), "proposed_translation": None, "status": "needs_translation" if key in changes["added"] else "source_changed_needs_review"} for key in changes["added"] + changes["changed"]]
     write_json(output, {"generated_at": utcnow(), "delta": changes, "queue": queue, "removed_translation_keys": [key for key in changes["removed"] if key in russian], "existing_translation_errors": ru_errors, "translations_modified": False, "publication_allowed": False})
     return changes
@@ -604,7 +716,7 @@ def check_integration(mod):
     try:
         pr = json.loads(fetch_bytes(api))
         if pr.get("merged_at"):
-            status = "accepted"
+            status = "accepted_into_community_translation" if integration.get("target_kind") == "community_translation" else "accepted"
         elif pr.get("state") == "closed":
             status = "closed_unmerged"
         elif pr.get("state") == "open":
@@ -623,7 +735,7 @@ def check_integration(mod):
             status = "changes_requested" if "CHANGES_REQUESTED" in decisive.values() else "open"
         else:
             raise ValueError("Unexpected pull request state")
-        action_required = status in ("accepted", "closed_unmerged", "changes_requested") and integration.get("status") != status
+        action_required = status in ("accepted", "accepted_into_community_translation", "closed_unmerged", "changes_requested") and integration.get("status") != status
         return {"package_id": mod["package_id"], "pr_url": url, "status": status, "recorded_status": integration.get("status"), "action_required": action_required, "head_sha": pr.get("head", {}).get("sha"), "merged_at": pr.get("merged_at")}
     except Exception as ex:
         return {"package_id": mod["package_id"], "pr_url": url, "status": "error", "action_required": True, "error": str(ex)}

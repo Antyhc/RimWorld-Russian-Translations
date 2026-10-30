@@ -1,0 +1,54 @@
+{
+  "schema": 1,
+  "checked_at": "2026-10-30T08:20:25.673747+00:00",
+  "translation_rows": 2,
+  "semantic_review": "Both English/Russian pairs reread against actual fridge ThingDef and description: powered freezing, beauty, six storage stacks, accepted categories and color/newline formatting preserved. Existing good Russian unchanged.",
+  "independent_human_review": false,
+  "game_tested": true,
+  "third_party_russian_copied": false,
+  "current_source_inputs_hash_verified": true,
+  "entries": [
+    {
+      "target_id": "DefInjected|ThingDef|ReelStorageFridge.label",
+      "source_id": "DefInjected|ThingDef|ReelStorageFridge.label",
+      "source_sha256": "997bc249599b74191aa0ee6851d0945e291fd2c543898427d59c279438edd40c",
+      "text_sha256": "d78ae1e865f440d564f68b7e04f524f3594be5aae544224cc93a7d6e35ab46b7",
+      "source_origin": "1.6/Mods/VanillaExpanded/VEProps/Defs/No longer used/Fridge/Fridge_ThingDef.xml",
+      "minimal_static_present": true,
+      "task_id": "36eda828927a2d8ab59f5922eca4387a925d32e57db7e01a3d1b8fa5f563a241",
+      "origin": {
+        "kind": "new_codex_translation"
+      },
+      "target_reviewer": "Codex independent reviewer: reviews\\20261027\\linguistic-a.review.json",
+      "if_mod_active": null,
+      "source_relative_root": "1.6/Mods/VanillaExpanded/VEProps"
+    },
+    {
+      "target_id": "DefInjected|ThingDef|ReelStorageFridge.description",
+      "source_id": "DefInjected|ThingDef|ReelStorageFridge.description",
+      "source_sha256": "c2aa53c0e8b851277b1dcb4a972e45318ed07f516b180036bbab184ceef57087",
+      "text_sha256": "ce45fd457d822e2aaad96c2a25c28dc9ef965cf1c5c23eea857441e3496f8162",
+      "source_origin": "1.6/Mods/VanillaExpanded/VEProps/Defs/No longer used/Fridge/Fridge_ThingDef.xml",
+      "minimal_static_present": true,
+      "task_id": "fa0c5d7963b0bbfcd658c0f3aedb4e23259381c59a59fa800e7bf86d07185970",
+      "origin": {
+        "kind": "new_codex_translation"
+      },
+      "target_reviewer": "Codex independent reviewer: reviews\\20261027\\linguistic-b.review.v3.json",
+      "if_mod_active": null,
+      "source_relative_root": "1.6/Mods/VanillaExpanded/VEProps"
+    }
+  ],
+  "payload_sha256": "a436799853b1735d6cd5c5bd0a91149b47ec501b2c569adbd7400f97a0c48452",
+  "payload_file_hashes": {
+    "About/About.xml": "200fde25cb7e5ff4d7b0e894833e728be1d3b99ad78c5e62c2eaf340641a4553",
+    "About/Credits.txt": "a2c8625938959cc2cf79870075cadb09256f1f22a99b3b6f1394d0416236d739",
+    "About/License.txt": "00e747a335d145dfe33e86acc8398034a1515f8b8dee68192babffffa970bef3",
+    "About/Preview.png": "f77a791dfdaff5f1679988ab3f5488e64c9358cd6cc002dd7ebe377284672391",
+    "Languages/Russian/DefInjected/ThingDef/AdditionalRussian.xml": "cada0238c05c2e5b21d94dcd8081896fb88edeb59b23f802873a21950d3f367e"
+  },
+  "game_test_evidence": "game-test-evidence.json",
+  "game_test_evidence_sha256": "273713d279313a74dc98ee24f125a06ae5c8a3aebfe6e82b17af7bb0484eeccf",
+  "game_test_scope": "Actual isolated startup and physical language-value readback, exact active dependencies/DLC and source/payload/probe hashes; no save, extended gameplay or independent human proofreading claim.",
+  "known_dependency_version_warning": "Adaptive Storage Framework currently declares supported versions only through1.6. This exact dependency-complete translation startup/readback passed RimWorld1.7.4990; broad dependency gameplay compatibility is not claimed."
+}

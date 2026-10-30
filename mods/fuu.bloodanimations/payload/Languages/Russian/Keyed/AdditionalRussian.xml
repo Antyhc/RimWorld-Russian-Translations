@@ -1,0 +1,6 @@
+<?xml version='1.0' encoding='utf-8'?>
+<LanguageData>
+  <BloodAnimations_DebrisMultiplier>Количество частиц обломков (разлетаются при повреждении сооружений)</BloodAnimations_DebrisMultiplier>
+  <BloodAnimations_GroundImpactToggle>Частицы при попадании в землю (пули, попавшие в землю, поднимают комья грязи)</BloodAnimations_GroundImpactToggle>
+  <BloodAnimations_Title>Анимации крови</BloodAnimations_Title>
+</LanguageData>

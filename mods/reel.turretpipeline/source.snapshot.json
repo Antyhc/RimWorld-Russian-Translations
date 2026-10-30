@@ -1,0 +1,156 @@
+{
+  "schema_version": 1,
+  "generated_at": "2026-10-30T07:52:08.532147+00:00",
+  "scope": "Twenty-one core entries. Four ProcessDef entries exist only in optional VFE Factory integration and are held outside this minimal-context candidate.",
+  "strings": {
+    "DefInjected|DesignationCategoryDef|VCHE_PipeNetworks.label": "7364e0c2624efd9b131ce3a760379b09c4bad1267ee19f39239ef1bae4f1516d",
+    "DefInjected|RecipeDef|Make_TurretAmmo.description": "b3a432e51fe4d43584608c0e732791e63a3497a31e980e542c7052ccb59f5e96",
+    "DefInjected|RecipeDef|Make_TurretAmmo.jobString": "80858eec2bb6217fbf6b4a6e5429739d62df54d3f8b1df7a76f0aa79169cbad9",
+    "DefInjected|RecipeDef|Make_TurretAmmo.label": "5a302004be8b98332ce26da7a2eff7e902498da675fabed7f2f8950ad87123f1",
+    "DefInjected|RecipeDef|Make_TurretAmmoBulk.description": "b3a432e51fe4d43584608c0e732791e63a3497a31e980e542c7052ccb59f5e96",
+    "DefInjected|RecipeDef|Make_TurretAmmoBulk.jobString": "ec16d0dd1e42c962cbbd9ad48dc67260fca1081e2c3d90075da1461dd320f55f",
+    "DefInjected|RecipeDef|Make_TurretAmmoBulk.label": "6b51cbd8ec247a417efe6fb3a3c9cc7676f171f7956770c71e120ccb93c03a19",
+    "DefInjected|ThingDef|REEL_AmmoTank.description": "da51ec24af8892b5d380b10bdb875e49179d58e270afc57021727d911e06a921",
+    "DefInjected|ThingDef|REEL_AmmoTank.label": "c816aa9fd60376eb3a526ad090167b8ee1c9d367af76d4afb3e5e27a9ac1651d",
+    "DefInjected|ThingDef|ReelTurretAmmo.description": "7f038060ef09398b6d4d09ad802e9ca03a287a18c709b225447baffb2e50cff0",
+    "DefInjected|ThingDef|ReelTurretAmmo.label": "1149aeef8cbeb299b9a43ede0a7db44abb3d930d6f9ae36ad7fe720341ac153e",
+    "DefInjected|ThingDef|Reel_AmmoDrain.description": "f45f0517c64f281dca1290909925a82c5acf0f0c87f448328bc43b092af671a4",
+    "DefInjected|ThingDef|Reel_AmmoDrain.label": "1fcd38a447d52221700efd3a15cdd6e88658700835d817afb075bb3cffabeb7e",
+    "DefInjected|ThingDef|Reel_AmmoOutput.description": "0ea48822f1fd6c0285322f2ba7ef20059ab659ceea0413c19cf72adf3526fcba",
+    "DefInjected|ThingDef|Reel_AmmoOutput.label": "9f9bd4d2fb1f958bb336d48f480c23e2d888a07ca44b3d6c72d4f816376aa00f",
+    "DefInjected|ThingDef|Reel_AmmoPipe.description": "8d8c469547453a71241d1c9c98a2e7f8efd9d78521c9fb8515f089a42ee91fe9",
+    "DefInjected|ThingDef|Reel_AmmoPipe.label": "a7fd17399a30949daf2c04f000e51527aff4d8f2d47b7be48038d37e5adcdde5",
+    "DefInjected|ThingDef|Reel_SubAmmoPipe.description": "1bbb3831ae0f4a979d8f0a79c4b8087166fc816cddb65c073a7055aa51f1f77c",
+    "DefInjected|ThingDef|Reel_SubAmmoPipe.label": "bc640ce24ecb016fbae6495a6e4c720e94cc18859e8f864592827b8e3c44427d",
+    "Keyed|REEL_ExtractAmmo": "e618b393bf223ad240fbd88d1a5b4b48a673533993ade6bf26fe4365d14995cf",
+    "Keyed|REEL_ExtractAmmoDesc": "738f91cd57462998a66bd246f8fe0efa7e0ce32d93eb1db9a47b56a84771b617"
+  },
+  "signatures": {
+    "DefInjected|DesignationCategoryDef|VCHE_PipeNetworks.label": {
+      "source_hash": "7364e0c2624efd9b131ce3a760379b09c4bad1267ee19f39239ef1bae4f1516d",
+      "tokens": [],
+      "tags": [],
+      "source_empty": false
+    },
+    "DefInjected|RecipeDef|Make_TurretAmmo.description": {
+      "source_hash": "b3a432e51fe4d43584608c0e732791e63a3497a31e980e542c7052ccb59f5e96",
+      "tokens": [],
+      "tags": [],
+      "source_empty": false
+    },
+    "DefInjected|RecipeDef|Make_TurretAmmo.jobString": {
+      "source_hash": "80858eec2bb6217fbf6b4a6e5429739d62df54d3f8b1df7a76f0aa79169cbad9",
+      "tokens": [],
+      "tags": [],
+      "source_empty": false
+    },
+    "DefInjected|RecipeDef|Make_TurretAmmo.label": {
+      "source_hash": "5a302004be8b98332ce26da7a2eff7e902498da675fabed7f2f8950ad87123f1",
+      "tokens": [],
+      "tags": [],
+      "source_empty": false
+    },
+    "DefInjected|RecipeDef|Make_TurretAmmoBulk.description": {
+      "source_hash": "b3a432e51fe4d43584608c0e732791e63a3497a31e980e542c7052ccb59f5e96",
+      "tokens": [],
+      "tags": [],
+      "source_empty": false
+    },
+    "DefInjected|RecipeDef|Make_TurretAmmoBulk.jobString": {
+      "source_hash": "ec16d0dd1e42c962cbbd9ad48dc67260fca1081e2c3d90075da1461dd320f55f",
+      "tokens": [],
+      "tags": [],
+      "source_empty": false
+    },
+    "DefInjected|RecipeDef|Make_TurretAmmoBulk.label": {
+      "source_hash": "6b51cbd8ec247a417efe6fb3a3c9cc7676f171f7956770c71e120ccb93c03a19",
+      "tokens": [],
+      "tags": [],
+      "source_empty": false
+    },
+    "DefInjected|ThingDef|REEL_AmmoTank.description": {
+      "source_hash": "da51ec24af8892b5d380b10bdb875e49179d58e270afc57021727d911e06a921",
+      "tokens": [],
+      "tags": [],
+      "source_empty": false
+    },
+    "DefInjected|ThingDef|REEL_AmmoTank.label": {
+      "source_hash": "c816aa9fd60376eb3a526ad090167b8ee1c9d367af76d4afb3e5e27a9ac1651d",
+      "tokens": [],
+      "tags": [],
+      "source_empty": false
+    },
+    "DefInjected|ThingDef|ReelTurretAmmo.description": {
+      "source_hash": "7f038060ef09398b6d4d09ad802e9ca03a287a18c709b225447baffb2e50cff0",
+      "tokens": [],
+      "tags": [],
+      "source_empty": false
+    },
+    "DefInjected|ThingDef|ReelTurretAmmo.label": {
+      "source_hash": "1149aeef8cbeb299b9a43ede0a7db44abb3d930d6f9ae36ad7fe720341ac153e",
+      "tokens": [],
+      "tags": [],
+      "source_empty": false
+    },
+    "DefInjected|ThingDef|Reel_AmmoDrain.description": {
+      "source_hash": "f45f0517c64f281dca1290909925a82c5acf0f0c87f448328bc43b092af671a4",
+      "tokens": [],
+      "tags": [],
+      "source_empty": false
+    },
+    "DefInjected|ThingDef|Reel_AmmoDrain.label": {
+      "source_hash": "1fcd38a447d52221700efd3a15cdd6e88658700835d817afb075bb3cffabeb7e",
+      "tokens": [],
+      "tags": [],
+      "source_empty": false
+    },
+    "DefInjected|ThingDef|Reel_AmmoOutput.description": {
+      "source_hash": "0ea48822f1fd6c0285322f2ba7ef20059ab659ceea0413c19cf72adf3526fcba",
+      "tokens": [],
+      "tags": [],
+      "source_empty": false
+    },
+    "DefInjected|ThingDef|Reel_AmmoOutput.label": {
+      "source_hash": "9f9bd4d2fb1f958bb336d48f480c23e2d888a07ca44b3d6c72d4f816376aa00f",
+      "tokens": [],
+      "tags": [],
+      "source_empty": false
+    },
+    "DefInjected|ThingDef|Reel_AmmoPipe.description": {
+      "source_hash": "8d8c469547453a71241d1c9c98a2e7f8efd9d78521c9fb8515f089a42ee91fe9",
+      "tokens": [],
+      "tags": [],
+      "source_empty": false
+    },
+    "DefInjected|ThingDef|Reel_AmmoPipe.label": {
+      "source_hash": "a7fd17399a30949daf2c04f000e51527aff4d8f2d47b7be48038d37e5adcdde5",
+      "tokens": [],
+      "tags": [],
+      "source_empty": false
+    },
+    "DefInjected|ThingDef|Reel_SubAmmoPipe.description": {
+      "source_hash": "1bbb3831ae0f4a979d8f0a79c4b8087166fc816cddb65c073a7055aa51f1f77c",
+      "tokens": [],
+      "tags": [],
+      "source_empty": false
+    },
+    "DefInjected|ThingDef|Reel_SubAmmoPipe.label": {
+      "source_hash": "bc640ce24ecb016fbae6495a6e4c720e94cc18859e8f864592827b8e3c44427d",
+      "tokens": [],
+      "tags": [],
+      "source_empty": false
+    },
+    "Keyed|REEL_ExtractAmmo": {
+      "source_hash": "e618b393bf223ad240fbd88d1a5b4b48a673533993ade6bf26fe4365d14995cf",
+      "tokens": [],
+      "tags": [],
+      "source_empty": false
+    },
+    "Keyed|REEL_ExtractAmmoDesc": {
+      "source_hash": "738f91cd57462998a66bd246f8fe0efa7e0ce32d93eb1db9a47b56a84771b617",
+      "tokens": [],
+      "tags": [],
+      "source_empty": false
+    }
+  }
+}

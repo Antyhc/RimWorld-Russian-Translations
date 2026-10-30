@@ -1,0 +1,137 @@
+{
+  "schema": 1,
+  "checked_at": "2026-10-30T07:40:27.821011+00:00",
+  "counts": {
+    "checked": 4,
+    "open": 2,
+    "merged_original_mod": 1,
+    "merged_community_translation": 1,
+    "human_change_requests": 0,
+    "open_conflicts": 0
+  },
+  "permissions": {
+    "aoba": {
+      "url": "https://github.com/AobaKuma/MechsuitFramework/issues/34",
+      "state": "open",
+      "comments": 0,
+      "permission_received": false,
+      "related_packages": [
+        "aoba.exosuit.framework",
+        "aoba.deadmanswitch.core",
+        "aoba.deadmanswitch.mobiledragoon",
+        "aoba.fortress.industrial",
+        "aoba.fortress.industrial.citadel"
+      ]
+    },
+    "original_covers": [
+      {
+        "package_id": "merthsoft.designatorshapes",
+        "status": "awaiting_response",
+        "permission_received": false
+      },
+      {
+        "package_id": "unon.noburnmetal",
+        "status": "not_granted_author_reply_addresses_upstream_integration_only",
+        "permission_received": false,
+        "reply_url": "https://github.com/Nonunon/NoBurnMetal/pull/1#issuecomment-6507134798"
+      }
+    ],
+    "no_new_distribution_permissions_obtained": true
+  },
+  "steam_public_page_checks": {
+    "method": "web open",
+    "ids": [
+      "2363339448",
+      "1923990111"
+    ],
+    "result": "HTTP429 Too Many Requests",
+    "retried": false,
+    "visibility_or_server_currentness_not_inferred": true
+  },
+  "next_actions": [
+    "Record NoBurn native acceptance and ReGrowth community acceptance separately.",
+    "For existing NoBurn own Workshop item3828790442, verify Steam current server distribution and then add deprecation/integrated-upstream guidance; no new item or automatic deletion.",
+    "No changes requested for Shapes/YART, and no repeated permission follow-up after only two days.",
+    "Do not mark AOBA text or original-cover permissions confirmed.",
+    "No ReGrowth standalone Workshop release needed for this accepted single-description contribution."
+  ],
+  "evidence_sha256": {
+    "github-evidence.private.json": "0c726c9e767b90ac7ef4b65616d847e7ae1def47c1e046f85f7870d167407257",
+    "noburn-key-comparison.json": "c926fa06b216ab21ffd91f2ef06fa26a0d39137861d3b3c1a6b8c1514c9464ea",
+    "regrowth-accepted-variant.json": "df77fca9c7b287ce61d1864c762dbee5184695dc4a6be05141b86a795ba1a7e8",
+    "regrowth-steam-distribution.json": "03d2d40457c9e01e9021e5f8288fc384607aa35bff231d596cd586a7ea2a0b17"
+  },
+  "pull_requests": [
+    {
+      "repo": "merthsoft/designator-shapes",
+      "number": 15,
+      "url": "https://github.com/merthsoft/designator-shapes/pull/15",
+      "state": "open",
+      "merged": false,
+      "head": "cf5d3cc0f4f958c1558101d0be8ee0e3edd0c1b1",
+      "merge_commit": "662541ed105ea4a8272216218fbf736292cb7845",
+      "merged_at": null,
+      "human_comment_count": 0,
+      "bot_comment_count": 0,
+      "review_changes_requested": false,
+      "merge_conflicts": false,
+      "original_native_accepted": false,
+      "community_translation_accepted": false
+    },
+    {
+      "repo": "Nonunon/NoBurnMetal",
+      "number": 1,
+      "url": "https://github.com/Nonunon/NoBurnMetal/pull/1",
+      "state": "closed",
+      "merged": true,
+      "head": "032a0aa1dd34477f1bd49ce7c964aaf2cc2dccb3",
+      "merge_commit": "0f1423173edfa007c0f85a03336b7e628f48c391",
+      "merged_at": "2026-10-29T19:36:32Z",
+      "human_comment_count": 1,
+      "bot_comment_count": 0,
+      "review_changes_requested": false,
+      "merge_conflicts": null,
+      "original_native_accepted": true,
+      "community_translation_accepted": false
+    },
+    {
+      "repo": "csh1668/YetAnotherResearchTree",
+      "number": 6,
+      "url": "https://github.com/csh1668/YetAnotherResearchTree/pull/6",
+      "state": "open",
+      "merged": false,
+      "head": "79d41e0f5f1356d122141050bed1d90035ab90e7",
+      "merge_commit": "ffe94b5da233b7dcdbd433bbd9b8e9cf417a7143",
+      "merged_at": null,
+      "human_comment_count": 0,
+      "bot_comment_count": 1,
+      "review_changes_requested": false,
+      "merge_conflicts": false,
+      "original_native_accepted": false,
+      "community_translation_accepted": false
+    },
+    {
+      "repo": "OneCodeUnit/VanillaRussianExpanded",
+      "number": 46,
+      "url": "https://github.com/OneCodeUnit/VanillaRussianExpanded/pull/46",
+      "state": "closed",
+      "merged": true,
+      "head": "95a43b772322e8e1410014a6503a86d657088a3d",
+      "merge_commit": "00d88eb3815e3a2c001f9b8fea698fbfc1ab61b5",
+      "merged_at": "2026-10-28T15:26:12Z",
+      "human_comment_count": 0,
+      "bot_comment_count": 0,
+      "review_changes_requested": false,
+      "merge_conflicts": null,
+      "original_native_accepted": false,
+      "community_translation_accepted": true
+    }
+  ],
+  "NoBurn_GitHub_Russian_matches_own_19_values": true,
+  "NoBurn_installed_original_matches_own_19_values_and_bytes": true,
+  "Steam_server_currentness_not_verified_by_this_audit": true,
+  "ReGrowth_accepted_key": "RG_Plant_Nightguide.description",
+  "ReGrowth_community_Workshop_distribution_verified": true,
+  "ReGrowth_community_Workshop_language_file_sha256": "854743505885986a8a9ddcdee6c4123f1779e143882a758de3424756946c832f",
+  "ReGrowth_workshop_game_compatibility_not_tested": true
+}

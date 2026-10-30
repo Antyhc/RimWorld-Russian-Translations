@@ -24,7 +24,7 @@
       "channel": "github_pull_request",
       "url": "https://github.com/Nonunon/NoBurnMetal/pull/1",
       "date": "2026-10-28",
-      "status": "awaiting_response",
+      "status": "accepted_original_mod",
       "ai_disclosed": true,
       "fresh_game_test_claimed": true,
       "head_sha": "032a0aa1dd34477f1bd49ce7c964aaf2cc2dccb3",
@@ -35,7 +35,8 @@
         "workshop_install_tested": true,
         "gameplay_tested": false,
         "independent_human_proofreading": false
-      }
+      },
+      "merged_at": "2026-10-29T19:36:32Z"
     },
     {
       "package_id": "seohyeon.yart",
@@ -61,7 +62,7 @@
       "url": "https://github.com/OneCodeUnit/VanillaRussianExpanded/pull/46",
       "target_kind": "community_translation",
       "date": "2026-10-28",
-      "status": "awaiting_response",
+      "status": "accepted_community_translation",
       "ai_disclosed": true,
       "fresh_game_test_claimed": true,
       "head_sha": "256ce8f6cc06c909bf24be1f73ad8b505a8f1b34",
@@ -73,7 +74,8 @@
         "workshop_install_tested": false,
         "gameplay_tested": false,
         "independent_human_proofreading": false
-      }
+      },
+      "merged_at": "2026-10-28T15:26:12Z"
     },
     {
       "package_id": "aoba.exosuit.framework",
@@ -97,6 +99,41 @@
         "scope": "Selected text loaded and physically read in isolated captured profile; no colony playthrough; later source changes require retest",
         "gameplay_tested": false
       }
+    },
+    {
+      "package_id": "oskarpotocki.vanillafactionsexpanded.core",
+      "related_package_ids": [
+        "oskarpotocki.vanillavehiclesexpandedtier3",
+        "oskarpotocki.vanillavehiclesexpandedupgrades",
+        "oskarpotocki.vfe.empire",
+        "oskarpotocki.vfe.insectoid2",
+        "oskarpotocki.vfe.medieval2",
+        "vanillaexpanded.gravship",
+        "vanillaexpanded.gravship2",
+        "vanillaexpanded.vaeaccessories",
+        "vanillaexpanded.vanillasocialinteractionsexpanded",
+        "vanillaexpanded.vanillatradingexpanded",
+        "vanillaexpanded.vappe",
+        "vanillaexpanded.varme",
+        "vanillaexpanded.vbookse",
+        "vanillaexpanded.vbrewe",
+        "vanillaexpanded.vcooke",
+        "vanillaexpanded.vee",
+        "vanillaexpanded.vexploratione",
+        "vanillaexpanded.vfecore",
+        "vanillaexpanded.vfesecurity",
+        "vanillaquestsexpanded.ancients",
+        "vanillaquestsexpanded.generator",
+        "ve.vanillachristmasexpanded"
+      ],
+      "channel": "github_issue",
+      "target_kind": "translation_distribution_permission",
+      "url": "https://github.com/Vanilla-Expanded/VanillaExpandedFramework/issues/195",
+      "date": "2026-10-30",
+      "status": "awaiting_response",
+      "ai_disclosed": true,
+      "rights_granted": false,
+      "scope": "One consolidated request for23named current-ND mods; exact coauthor/mod/conditions scope requested. Existing separate-translation precedents are not treated as a blanket license."
     }
   ]
 }

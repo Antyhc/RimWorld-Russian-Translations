@@ -8,10 +8,13 @@
   ],
   "rights": {
     "translation": {
-      "status": "unknown",
-      "license": null,
-      "evidence": null,
-      "attribution": null
+      "status": "confirmed",
+      "license": "CC-BY-NC-SA-4.0",
+      "evidence": "https://steamcommunity.com/sharedfiles/filedetails/?id=2608762624",
+      "attribution": "Original: Vanilla Furniture Expanded - Architect by Oskar Potocki, xrushha, legodude17, ISOREX. https://steamcommunity.com/sharedfiles/filedetails/?id=2608762624. Conditions: Noncommercial release only. Credit original authors/source; identify translation/adaptation changes and AI assistance; retain license URI and supplied notices; no extra restrictions. Adapted translation must be CC-BY-NC-SA-4.0 (ShareAlike).",
+      "license_evidence_file": "translation-rights-evidence.json",
+      "grant_checked_at": "2026-10-30T07:47:15.136484+00:00",
+      "grant_scope": "Text-only own translation subject to the recorded license/conditions; does not grant original artwork or third-party Russian rights."
     },
     "icon": {
       "status": "unknown",

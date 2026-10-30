@@ -8,10 +8,13 @@
   ],
   "rights": {
     "translation": {
-      "status": "unknown",
-      "license": null,
-      "evidence": null,
-      "attribution": null
+      "status": "confirmed",
+      "license": "CC-BY-NC-4.0",
+      "evidence": "https://steamcommunity.com/sharedfiles/filedetails/?id=3646291383",
+      "attribution": "Original: World Domination by TSA. https://steamcommunity.com/sharedfiles/filedetails/?id=3646291383. Conditions: Noncommercial release only. Credit original authors/source; identify translation/adaptation changes and AI assistance; retain license URI and supplied notices; no extra restrictions. Use CC-BY-NC-4.0 for translation to keep licensing clear.",
+      "license_evidence_file": "translation-rights-evidence.json",
+      "grant_checked_at": "2026-10-30T07:47:15.139157+00:00",
+      "grant_scope": "Text-only own translation subject to the recorded license/conditions; does not grant original artwork or third-party Russian rights."
     },
     "icon": {
       "status": "unknown",
@@ -32,7 +35,10 @@
     "github_status": "metadata_only",
     "workshop_url": null,
     "workshop_id": null,
-    "workshop_status": "not_published"
+    "workshop_status": "not_published",
+    "release_blockers": [
+      "Existing current Russian translation covers all prepared own keys; independent duplicate release held."
+    ]
   },
   "integration": {
     "status": "not_sent",
@@ -126,5 +132,12 @@
       "baseline_file": "source.tree.json"
     }
   },
-  "work_stage": "installed_local"
+  "work_stage": "covered_by_existing_translation",
+  "duplicate_translation": {
+    "status": "existing_translation_covers_prepared_scope",
+    "checked_at": "2026-10-30T08:42:11.342678+00:00",
+    "preferred_existing_translation": "https://steamcommunity.com/sharedfiles/filedetails/?id=3681789715",
+    "covered_prepared_own_keys": 297,
+    "scope": "Current official downloaded Russian translation covers every prepared own key; no independent duplicate page is needed. Existing Russian is not copied into a new payload."
+  }
 }

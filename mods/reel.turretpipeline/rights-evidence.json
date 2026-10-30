@@ -1,0 +1,21 @@
+{
+  "schema": 1,
+  "checked_at": "2026-10-30T07:47:15.135135+00:00",
+  "package_id": "reel.turretpipeline",
+  "workshop_id": "3424132769",
+  "original_author": "Reel",
+  "original_workshop_url": "https://steamcommunity.com/sharedfiles/filedetails/?id=3424132769",
+  "translation_rights": "confirmed_under_recorded_conditions",
+  "license": "custom-translation-permission",
+  "public_evidence_url": "https://steamcommunity.com/sharedfiles/filedetails/?id=3424132769",
+  "official_public_api": "https://api.steampowered.com/ISteamRemoteStorage/GetPublishedFileDetails/v1/",
+  "official_description_sha256": "faf622cbd807e93205cfa0b0a39612618a7af132544425a3a34c2bd13d0cf4f0",
+  "official_description_updated_unix": 1791852487,
+  "exact_permission_or_license_marker": "Translation mods are allowed, as long as you credit & link back to the original mod.",
+  "conditions": "Credit Reel and link exact original; no original artwork/code redistributed, own cover.",
+  "legalcode_url": null,
+  "own_stored_reviewed_values": 25,
+  "existing_third_party_candidates": [],
+  "release_status": "Rights only. Requires own-provenance selection, current source and duplicate coverage, semantic review if stale, actual standalone test. No existing community text automatically included.",
+  "public_file_changed": false
+}

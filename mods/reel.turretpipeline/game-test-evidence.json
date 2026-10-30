@@ -1,0 +1,33 @@
+{
+  "schema": 1,
+  "status": "actual_minimal_control_and_candidate_verified",
+  "checked_at": "2026-10-30T08:27:21.481294+00:00",
+  "case_id": "reelturret21",
+  "package_id": "reel.turretpipeline",
+  "translation_package_id": "antyhc.russian.reel.turretpipeline",
+  "game_version": "1.7.4990 rev1069",
+  "payload_sha256": "71ebc691458ae417f8802f8b5dc6096c74ce68592bfa5c4b1e614262b5319233",
+  "values_verified": 21,
+  "english_control_values_verified": 21,
+  "baseline_localization_errors": 38,
+  "candidate_localization_errors": 38,
+  "additional_localization_errors": 0,
+  "exact_error_multiset_unchanged": true,
+  "candidate_root_verified": true,
+  "keyed_owner_verified": true,
+  "source_inputs_unchanged": true,
+  "control_capture_sha256": "23f9806f3563a38ed3f0aa5fa80cfc5c98beae1b9e081382eb1d3e9e4e305857",
+  "candidate_capture_sha256": "6af2e8c88f6c116b19b498ff08fee1ddf182853cbfd6946339670ed7b2cd8fef",
+  "request_sha256": "e19d111f4176350d657cfd6da634fb9850f3688e1b4be25da7bad90b55208659",
+  "probe_dll_sha256": "01359af068f9b58b29c4f7b61c35742b88cf4c7881ba2e09a7cf277a6b90d7a8",
+  "active_packages": [
+    "brrainz.harmony",
+    "ludeon.rimworld",
+    "oskarpotocki.vanillafactionsexpanded.core",
+    "reel.turretpipeline",
+    "antyhc.russian.reel.turretpipeline",
+    "publicationqa.session4.reelturret21"
+  ],
+  "gameplay_tested": false,
+  "scope": "Actual isolated startup and physical language-value readback, exact active dependencies/DLC and source/payload/probe hashes; no save, extended gameplay or independent human proofreading claim."
+}

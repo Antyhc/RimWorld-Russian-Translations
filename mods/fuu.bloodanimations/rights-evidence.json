@@ -1,0 +1,20 @@
+{
+  "schema": 1,
+  "checked_at": "2026-10-30 07:41:02 UTC",
+  "package_id": "fuu.bloodanimations",
+  "workshop_id": "3228047321",
+  "workshop_url": "https://steamcommunity.com/sharedfiles/filedetails/?id=3228047321",
+  "license": "MIT",
+  "public_license_url": "https://github.com/tenguin/Rimworld_BloodAnimations/blob/main/LICENSE",
+  "public_license_blob_sha": "be1b9737403980876c1be1c3ea93d8bf0607e0ea",
+  "public_license_text": "MIT License\n\nCopyright (c) 2024-present Daniel Yeung\n\nPermission is hereby granted, free of charge, to any person obtaining a copy\nof this software and associated documentation files (the \"Software\"), to deal\nin the Software without restriction, including without limitation the rights\nto use, copy, modify, merge, publish, distribute, sublicense, and/or sell\ncopies of the Software, and to permit persons to whom the Software is\nfurnished to do so, subject to the following conditions:\n\nThe above copyright notice and this permission notice shall be included in all\ncopies or substantial portions of the Software.\n\nTHE SOFTWARE IS PROVIDED \"AS IS\", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR\nIMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,\nFITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE\nAUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER\nLIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,\nOUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE\nSOFTWARE.\n",
+  "source_repo": "tenguin/Rimworld_BloodAnimations",
+  "local_license_relative_path": "LICENSE",
+  "redistribution_condition": "Preserve exact MIT copyright and permission notice; credit original author. Our new translation text may be separately MIT licensed. No original artwork/code/DLLs included. Own fallback cover.",
+  "own_previously_reviewed_values": 15,
+  "duplicate_candidates": [],
+  "release_status": "rights_candidate_only_requires_current_source_QA_duplicate_coverage_and_actual_standalone_test",
+  "binding": "Existing registry original repository bound by earlier remote About/package verification; license freshly read through GitHub connector.",
+  "scope": "Only three newly authored Russian Keyed additions; no original art or third-party Russian.",
+  "included_license_sha256": "726eafd2e45a5edbdec604b6010e1da838634d15bcc35ef1735b453baea9f874"
+}

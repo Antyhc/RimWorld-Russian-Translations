@@ -1,0 +1,30 @@
+{
+  "schema_version": 1,
+  "generated_at": "2026-10-30T07:46:49.603742+00:00",
+  "scope": "Exactly three own missing Keyed strings; not a full replacement for existing Russian.",
+  "strings": {
+    "Keyed|BloodAnimations_DebrisMultiplier": "60285c3ba6c805c92cc357aeb7a2c343acedf0f7f3fce0c3325f780defe4ffbf",
+    "Keyed|BloodAnimations_GroundImpactToggle": "8f8e92aa8421b7e7522f67c52503bd2990ad5cb708d9e5d4e6c6b5303e1e3d42",
+    "Keyed|BloodAnimations_Title": "002370cfab1a7752b6ce08c5bbf4a5884efc5927e34323d20284d9503500aac8"
+  },
+  "signatures": {
+    "Keyed|BloodAnimations_DebrisMultiplier": {
+      "source_hash": "60285c3ba6c805c92cc357aeb7a2c343acedf0f7f3fce0c3325f780defe4ffbf",
+      "tokens": [],
+      "tags": [],
+      "source_empty": false
+    },
+    "Keyed|BloodAnimations_GroundImpactToggle": {
+      "source_hash": "8f8e92aa8421b7e7522f67c52503bd2990ad5cb708d9e5d4e6c6b5303e1e3d42",
+      "tokens": [],
+      "tags": [],
+      "source_empty": false
+    },
+    "Keyed|BloodAnimations_Title": {
+      "source_hash": "002370cfab1a7752b6ce08c5bbf4a5884efc5927e34323d20284d9503500aac8",
+      "tokens": [],
+      "tags": [],
+      "source_empty": false
+    }
+  }
+}

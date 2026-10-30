@@ -1,0 +1,24 @@
+<?xml version='1.0' encoding='utf-8'?>
+<ModMetaData>
+  <name>REEL Expanded Storage — Russian completion</name>
+  <author>Antyhc (AI-assisted with OpenAI Codex)</author>
+  <packageId>antyhc.russian.reel.expanded.storage</packageId>
+  <url>https://github.com/Antyhc/RimWorld-Russian-Translations</url>
+  <description>Дополнение русского перевода REEL Expanded Storage от Reel: отсутствующие название и описание холодильника. Требуется оригинальный мод и его обязательные зависимости Adaptive Storage Framework и Vanilla Furniture Expanded — Props and Decor. Загружать после оригинала. Рекомендуется вместе с существующим русификатором: его 44 совпадающих ключа из проверенной партии не копируются и не заменяются. Содержит только собственные новые переводы, подготовленные и вычитанные с помощью OpenAI Codex. Независимая вычитка человеком и длительное прохождение не заявляются.
+
+Russian completion for REEL Expanded Storage by Reel: the missing fridge name and description. Requires the original mod and its mandatory dependencies Adaptive Storage Framework and Vanilla Furniture Expanded — Props and Decor. Load after the original. Recommended alongside the existing Russian pack; its 44 covered selected batch keys are neither copied nor replaced. Contains only newly authored translations, AI-assisted and semantically reviewed by OpenAI Codex. No independent human proofreading or extended gameplay test claimed.</description>
+  <supportedVersions>
+    <li>1.7</li>
+  </supportedVersions>
+  <modDependencies>
+    <li>
+      <packageId>reel.expanded.storage</packageId>
+      <displayName>Reel's Expanded Storage</displayName>
+      <steamWorkshopUrl>https://steamcommunity.com/sharedfiles/filedetails/?id=3237638097</steamWorkshopUrl>
+    </li>
+  </modDependencies>
+  <loadAfter>
+    <li>reel.expanded.storage</li>
+    <li>fzfking.reelexpandedstorage.ru</li>
+  </loadAfter>
+</ModMetaData>

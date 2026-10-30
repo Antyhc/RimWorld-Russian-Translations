@@ -1,0 +1,33 @@
+{
+  "schema_version": 1,
+  "generated_at": "2026-10-30T08:20:25.673747+00:00",
+  "scope": "Only newly authored missing additions; existing native/community Russian remains separate.",
+  "strings": {
+    "DefInjected|ThingDef|ReelStorageFridge.description": "c2aa53c0e8b851277b1dcb4a972e45318ed07f516b180036bbab184ceef57087",
+    "DefInjected|ThingDef|ReelStorageFridge.label": "997bc249599b74191aa0ee6851d0945e291fd2c543898427d59c279438edd40c"
+  },
+  "signatures": {
+    "DefInjected|ThingDef|ReelStorageFridge.description": {
+      "source_hash": "c2aa53c0e8b851277b1dcb4a972e45318ed07f516b180036bbab184ceef57087",
+      "tokens": [
+        "\\n",
+        "\\n",
+        "\\n",
+        "\\n"
+      ],
+      "tags": [
+        "</color>",
+        "</color>",
+        "<color=#0094FF>",
+        "<color=#E5E54C>"
+      ],
+      "source_empty": false
+    },
+    "DefInjected|ThingDef|ReelStorageFridge.label": {
+      "source_hash": "997bc249599b74191aa0ee6851d0945e291fd2c543898427d59c279438edd40c",
+      "tokens": [],
+      "tags": [],
+      "source_empty": false
+    }
+  }
+}

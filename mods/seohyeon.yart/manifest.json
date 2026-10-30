@@ -58,11 +58,20 @@
     "installation_tested": true
   },
   "integration": {
-    "status": "pr_submitted",
+    "status": "open",
     "pr_url": "https://github.com/csh1668/YetAnotherResearchTree/pull/6",
     "contact_url": null,
     "submitted_at": "2026-10-28T11:07:17.827154+00:00",
-    "head_sha": "79d41e0f5f1356d122141050bed1d90035ab90e7"
+    "head_sha": "79d41e0f5f1356d122141050bed1d90035ab90e7",
+    "last_checked_at": "2026-10-30T07:40:27.821011+00:00",
+    "merged": false,
+    "merged_at": null,
+    "merge_commit": null,
+    "original_native_accepted": false,
+    "community_translation_accepted": false,
+    "review_changes_requested": false,
+    "merge_conflicts": false,
+    "response_evidence": "community/author-responses-2026-10-30.json"
   },
   "original": {
     "author": "SeoHyeon",

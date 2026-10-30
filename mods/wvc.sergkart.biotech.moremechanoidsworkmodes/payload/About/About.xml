@@ -1,0 +1,28 @@
+<?xml version='1.0' encoding='utf-8'?>
+<ModMetaData>
+  <name>WVC Work Modes — Russian completion</name>
+  <author>Antyhc (AI-assisted with OpenAI Codex)</author>
+  <packageId>antyhc.russian.wvc.sergkart.biotech.moremechanoidsworkmodes</packageId>
+  <url>https://github.com/Antyhc/RimWorld-Russian-Translations</url>
+  <description>Дополнение русского перевода WVC — Work Modes от Sergkart: 23 отсутствующие строки вкладки работ, ангара механоидов, зарядки, отключения, авторемонта и справки о поведении. Требуется оригинальный WVC — Work Modes и DLC Biotech; загружать после оригинала. Рекомендуется использовать вместе с существующим русификатором: его 100 совпадающих ключей не копируются и не заменяются. Только собственные новые переводы; подготовка и смысловая вычитка — OpenAI Codex. Независимая вычитка человеком и длительное прохождение не заявляются.
+
+Russian completion for WVC — Work Modes by Sergkart: 23 missing entries for the work tab, mechanoid hangar, charging, shutdown, auto-repair and behavior guide. Requires original WVC — Work Modes and Biotech DLC; load after the original. Recommended alongside the existing Russian pack; its 100 covered selected keys are neither copied nor replaced. Contains only newly authored Russian; AI-assisted authoring and semantic review by OpenAI Codex. No independent human proofreading or extended gameplay test claimed.</description>
+  <supportedVersions>
+    <li>1.7</li>
+  </supportedVersions>
+  <modDependencies>
+    <li>
+      <packageId>wvc.sergkart.biotech.moremechanoidsworkmodes</packageId>
+      <displayName>WVC - Work Modes</displayName>
+      <steamWorkshopUrl>https://steamcommunity.com/sharedfiles/filedetails/?id=2888380373</steamWorkshopUrl>
+    </li>
+    <li>
+      <packageId>ludeon.rimworld.biotech</packageId>
+      <displayName>Biotech</displayName>
+    </li>
+  </modDependencies>
+  <loadAfter>
+    <li>wvc.sergkart.biotech.moremechanoidsworkmodes</li>
+    <li>wvc.workmodes.russian</li>
+  </loadAfter>
+</ModMetaData>

@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "generated_at": "2026-10-28T14:22:06+00:00",
+  "generated_at": "2026-10-30T09:02:08+00:00",
   "mods": [
     {
       "schema_version": 1,
@@ -185,10 +185,13 @@
       "supported_versions": [],
       "rights": {
         "translation": {
-          "status": "unknown",
-          "license": null,
-          "evidence": null,
-          "attribution": null
+          "status": "confirmed",
+          "license": "MIT",
+          "evidence": "https://github.com/bbradson/Adaptive-Storage-Framework/blob/main/LICENSE",
+          "attribution": "Original: Adaptive Storage Framework by Soul, Phaneron, Bradson. https://steamcommunity.com/sharedfiles/filedetails/?id=3033901359. Conditions: Preserve exact MIT copyright and permission notice; credit original author. Our new translation text may be separately MIT licensed. No original artwork/code/DLLs included. Own fallback cover.",
+          "license_evidence_file": "translation-rights-evidence.json",
+          "grant_checked_at": "2026-10-30 07:41:02 UTC",
+          "grant_scope": "Text-only own translation subject to the recorded license/conditions; does not grant original artwork or third-party Russian rights."
         },
         "icon": {
           "status": "unknown",
@@ -3816,10 +3819,13 @@
       },
       "rights": {
         "translation": {
-          "status": "unknown",
-          "license": null,
-          "evidence": null,
-          "attribution": null
+          "status": "confirmed",
+          "license": "MIT",
+          "evidence": "https://github.com/erdelf/AlienRaces/blob/master/license.md",
+          "attribution": "Original: Humanoid Alien Races by erdelf. https://steamcommunity.com/sharedfiles/filedetails/?id=839005762. Conditions: Preserve exact MIT copyright and permission notice; credit original author. Our new translation text may be separately MIT licensed. No original artwork/code/DLLs included. Own fallback cover.",
+          "license_evidence_file": "translation-rights-evidence.json",
+          "grant_checked_at": "2026-10-30 07:41:02 UTC",
+          "grant_scope": "Text-only own translation subject to the recorded license/conditions; does not grant original artwork or third-party Russian rights."
         },
         "icon": {
           "status": "unknown",
@@ -4598,31 +4604,61 @@
       ],
       "rights": {
         "translation": {
-          "status": "unknown",
-          "license": null,
-          "evidence": null,
-          "attribution": null
+          "status": "confirmed",
+          "license": "MIT",
+          "evidence": "https://github.com/tenguin/Rimworld_BloodAnimations/blob/main/LICENSE",
+          "attribution": "Original mod: Blood Animations by Fuu Chan (Daniel Yeung).\nOriginal Workshop: https://steamcommunity.com/sharedfiles/filedetails/?id=3228047321\nMIT permission: Copyright (c) 2024-present Daniel Yeung; complete notice in License.txt.\nNew Russian additions: Antyhc, 2026; AI-assisted authoring/review by OpenAI Codex; MIT.\nOnly three missing Keyed strings are included. No existing/third-party Russian, original code, artwork, assemblies, textures or audio are redistributed.\nExisting Russian translation: https://steamcommunity.com/sharedfiles/filedetails/?id=3278851736\nOriginal typographic cover by Antyhc; no original mod artwork used.\nNo independent human proofreading or long-gameplay test is claimed.\n",
+          "license_evidence_file": "rights-evidence.json",
+          "required_notice_files": {
+            "About/License.txt": "726eafd2e45a5edbdec604b6010e1da838634d15bcc35ef1735b453baea9f874",
+            "About/Credits.txt": "88455e8f4019525cff2d9bfb225526d52e5a2950bfed8b9113d872c2aceb12d0"
+          }
         },
         "icon": {
-          "status": "unknown",
-          "license": null,
-          "evidence": null,
-          "attribution": null
+          "status": "confirmed",
+          "kind": "original_typographic_fallback",
+          "license": "MIT",
+          "evidence": "scripts/make_original_cover.py; own typographic design",
+          "attribution": "Original typographic cover by Antyhc; no original mod art",
+          "source_sha256": "80cbdbe8cab0d7a844d5f9dcfbcdd6954788e7b81080800a572f7d7be25491cb",
+          "preview_sha256": "80cbdbe8cab0d7a844d5f9dcfbcdd6954788e7b81080800a572f7d7be25491cb",
+          "original_mod_art_used": false
         }
       },
       "qa": {
-        "technical": "pending",
-        "linguistic": "pending",
-        "source_current": false,
-        "in_game": "not_tested",
-        "checked_at": "2026-10-28T09:15:27.268425+00:00"
+        "technical": "passed",
+        "linguistic": "ai_reviewed",
+        "source_current": true,
+        "in_game": "passed",
+        "checked_at": "2026-10-30T07:46:49.603742+00:00",
+        "source_checked_at": "2026-10-30T07:46:49.603742+00:00",
+        "payload_sha256": "3b716cfe20ed3771949360812d03c028328f6202cf61921b5edffd4ac98ed719",
+        "source_snapshot_sha256": "e4f714265a8890807920baadcd9514ec85d36a6ffc70cafc9ca581ce8635cd03",
+        "evidence": "qa-evidence.json",
+        "coverage": "Two absent Keyed settings captions plus an own Russian rendition of the existing English settings heading; not three absent keys.",
+        "standalone_minimal_game_test": "passed_actual_control_and_candidate",
+        "game_evidence": "game-test-evidence.json",
+        "game_version": "1.7.4990 rev1069",
+        "game_test_scope": "Actual isolated startup and physical language-value readback, exact active dependencies/DLC and source/payload/probe hashes; no save, extended gameplay or independent human proofreading claim.",
+        "game_test_evidence_sha256": "c46e037f9a1f544a2b90f2c79efe25b0e293e2bc478d9a03d926abf253b32bf2",
+        "ui_inspected": true,
+        "ui_scope": "Russian settings title and both captions visually inspected in actual candidate profile; remaining captions are English without the separately linked primary Russian pack."
       },
       "publication": {
         "github_url": "https://github.com/Antyhc/RimWorld-Russian-Translations/tree/main/mods/fuu.bloodanimations",
-        "github_status": "metadata_only",
-        "workshop_url": null,
-        "workshop_id": null,
-        "workshop_status": "not_published"
+        "github_status": "prepared_not_published",
+        "workshop_url": "https://steamcommunity.com/sharedfiles/filedetails/?id=3830000511",
+        "workshop_id": "3830000511",
+        "workshop_status": "published",
+        "release_blockers": [],
+        "anonymous_page_verified": true,
+        "dependency_verified": true,
+        "collection_id": "3828791160",
+        "collection_member_verified": true,
+        "published_at": "2026-10-30T08:01:16.777189+00:00",
+        "anonymous_page_checked_at": "2026-10-30T08:37:15.638595+00:00",
+        "installation_tested": true,
+        "installation_scope": "Official Steam subscription/download and exact recursive payload byte comparison; actual Workshop-root game loading is separate."
       },
       "integration": {
         "status": "not_sent",
@@ -4684,13 +4720,16 @@
         "saved_translation_store": true
       },
       "duplicate_translation": {
-        "status": "standalone_not_cleared",
+        "status": "checked_no_current_equivalent",
+        "checked_at": "2026-10-30T07:46:49.603742+00:00",
         "candidates": [
           "https://steamcommunity.com/sharedfiles/filedetails/?id=3278851736"
         ],
-        "reason": "Existing Russian pack found; current coverage not yet evaluated. Official GitHub older than current Workshop1.7."
+        "scope": "Existing3278851736 already supplies12selectedkeys including an English brand heading. This patch adds2absentcaptions and optionally localizes that heading; no existing Russian text is copied.",
+        "absent_keys": 2,
+        "localized_heading_variant": 1
       },
-      "work_stage": "installed_local",
+      "work_stage": "ready_for_publication",
       "manifest": "mods/fuu.bloodanimations/manifest.json"
     },
     {
@@ -5678,10 +5717,13 @@
       ],
       "rights": {
         "translation": {
-          "status": "unknown",
-          "license": null,
-          "evidence": null,
-          "attribution": null
+          "status": "confirmed",
+          "license": "MIT",
+          "evidence": "https://github.com/ilyvion/loading-progress/blob/main/LICENSE.MIT",
+          "attribution": "Original: Loading Progress by ilyvion. https://steamcommunity.com/sharedfiles/filedetails/?id=3535481557. Conditions: Preserve exact MIT copyright/permission notice, original author attribution and original-mod dependency. Own original cover. Upstream explicitly invites Languages-only separate translation mods. Do not redistribute the original mod or its code/art. Original uses custom early-startup language loader, so a fresh test must exercise that actual loader/UI rather than only ordinary game Keyed.",
+          "license_evidence_file": "translation-rights-evidence.json",
+          "grant_checked_at": null,
+          "grant_scope": "Text-only own translation subject to the recorded license/conditions; does not grant original artwork or third-party Russian rights."
         },
         "icon": {
           "status": "unknown",
@@ -7200,10 +7242,13 @@
       "supported_versions": [],
       "rights": {
         "translation": {
-          "status": "unknown",
-          "license": null,
-          "evidence": null,
-          "attribution": null
+          "status": "confirmed",
+          "license": "MIT",
+          "evidence": "https://github.com/Mehni/PickUpAndHaul/blob/master/LICENSE",
+          "attribution": "Original: Pick Up And Haul by Mehni. https://steamcommunity.com/sharedfiles/filedetails/?id=1279012058. Conditions: Preserve exact MIT copyright and permission notice; credit original author. Our new translation text may be separately MIT licensed. No original artwork/code/DLLs included. Own fallback cover.",
+          "license_evidence_file": "translation-rights-evidence.json",
+          "grant_checked_at": "2026-10-30 07:41:02 UTC",
+          "grant_scope": "Text-only own translation subject to the recorded license/conditions; does not grant original artwork or third-party Russian rights."
         },
         "icon": {
           "status": "unknown",
@@ -7745,14 +7790,16 @@
         "github_status": "published",
         "workshop_url": "https://steamcommunity.com/sharedfiles/filedetails/?id=3828790822",
         "workshop_id": "3828790822",
-        "workshop_status": "submitted_public_automatic_content_check",
+        "workshop_status": "published",
         "dependency_verified": true,
-        "anonymous_page_verified": false,
+        "anonymous_page_verified": true,
         "published_at": "2026-10-28T10:42:32.878108+00:00",
         "collection_id": "3828791160",
         "collection_member_verified": true,
         "installation_tested": true,
-        "availability_reason": "Owner Steam page explicitly reports temporary hiding during automated content inspection"
+        "anonymous_page_checked_at": "2026-10-30T07:51:45.177930+00:00",
+        "automatic_content_check_completed": true,
+        "availability_evidence": "Unauthenticated Steam browser page exposes expected title, subscription action, bilingual7-entry description and original dependency; login link visible."
       },
       "integration": {
         "status": "not_sent",
@@ -7897,11 +7944,20 @@
         "installation_tested": true
       },
       "integration": {
-        "status": "pr_submitted",
+        "status": "open",
         "pr_url": "https://github.com/merthsoft/designator-shapes/pull/15",
         "contact_url": null,
         "submitted_at": "2026-10-28",
-        "head_sha": "cf5d3cc0f4f958c1558101d0be8ee0e3edd0c1b1"
+        "head_sha": "cf5d3cc0f4f958c1558101d0be8ee0e3edd0c1b1",
+        "last_checked_at": "2026-10-30T07:40:27.821011+00:00",
+        "merged": false,
+        "merged_at": null,
+        "merge_commit": null,
+        "original_native_accepted": false,
+        "community_translation_accepted": false,
+        "review_changes_requested": false,
+        "merge_conflicts": false,
+        "response_evidence": "community/author-responses-2026-10-30.json"
       },
       "original": {
         "author": "merthsoft",
@@ -8084,10 +8140,13 @@
       "supported_versions": [],
       "rights": {
         "translation": {
-          "status": "unknown",
-          "license": null,
-          "evidence": null,
-          "attribution": null
+          "status": "confirmed",
+          "license": "MIT",
+          "evidence": "https://github.com/emipa606/ShowMeYourHands/blob/main/LICENSE.md",
+          "attribution": "Original: Show Me Your Hands by Mlie. https://steamcommunity.com/sharedfiles/filedetails/?id=2475965842. Conditions: Preserve exact MIT copyright and permission notice; credit original author. Our new translation text may be separately MIT licensed. No original artwork/code/DLLs included. Own fallback cover.",
+          "license_evidence_file": "translation-rights-evidence.json",
+          "grant_checked_at": "2026-10-30 07:41:02 UTC",
+          "grant_scope": "Text-only own translation subject to the recorded license/conditions; does not grant original artwork or third-party Russian rights."
         },
         "icon": {
           "status": "unknown",
@@ -8758,7 +8817,11 @@
           "status": "unknown",
           "license": null,
           "evidence": null,
-          "attribution": null
+          "attribution": null,
+          "permission_requested": true,
+          "permission_request_url": "https://github.com/Vanilla-Expanded/VanillaExpandedFramework/issues/195",
+          "permission_request_date": "2026-10-30",
+          "permission_received": false
         },
         "icon": {
           "status": "unknown",
@@ -9062,7 +9125,11 @@
           "status": "unknown",
           "license": null,
           "evidence": null,
-          "attribution": null
+          "attribution": null,
+          "permission_requested": true,
+          "permission_request_url": "https://github.com/Vanilla-Expanded/VanillaExpandedFramework/issues/195",
+          "permission_request_date": "2026-10-30",
+          "permission_received": false
         },
         "icon": {
           "status": "unknown",
@@ -9171,7 +9238,11 @@
           "status": "unknown",
           "license": null,
           "evidence": null,
-          "attribution": null
+          "attribution": null,
+          "permission_requested": true,
+          "permission_request_url": "https://github.com/Vanilla-Expanded/VanillaExpandedFramework/issues/195",
+          "permission_request_date": "2026-10-30",
+          "permission_received": false
         },
         "icon": {
           "status": "unknown",
@@ -9280,7 +9351,11 @@
           "status": "unknown",
           "license": null,
           "evidence": null,
-          "attribution": null
+          "attribution": null,
+          "permission_requested": true,
+          "permission_request_url": "https://github.com/Vanilla-Expanded/VanillaExpandedFramework/issues/195",
+          "permission_request_date": "2026-10-30",
+          "permission_received": false
         },
         "icon": {
           "status": "unknown",
@@ -9388,7 +9463,11 @@
           "status": "unknown",
           "license": null,
           "evidence": null,
-          "attribution": null
+          "attribution": null,
+          "permission_requested": true,
+          "permission_request_url": "https://github.com/Vanilla-Expanded/VanillaExpandedFramework/issues/195",
+          "permission_request_date": "2026-10-30",
+          "permission_received": false
         },
         "icon": {
           "status": "unknown",
@@ -9499,7 +9578,11 @@
           "status": "unknown",
           "license": null,
           "evidence": null,
-          "attribution": null
+          "attribution": null,
+          "permission_requested": true,
+          "permission_request_url": "https://github.com/Vanilla-Expanded/VanillaExpandedFramework/issues/195",
+          "permission_request_date": "2026-10-30",
+          "permission_received": false
         },
         "icon": {
           "status": "unknown",
@@ -10161,31 +10244,56 @@
       ],
       "rights": {
         "translation": {
-          "status": "unknown",
-          "license": null,
-          "evidence": null,
-          "attribution": null
+          "status": "confirmed",
+          "license": "custom-translation-permission",
+          "evidence": "https://steamcommunity.com/sharedfiles/filedetails/?id=3237638097",
+          "attribution": "Original mod: REEL Expanded Storage by Reel.\nOriginal Workshop: https://steamcommunity.com/sharedfiles/filedetails/?id=3237638097\nOriginal permission: Translation mods are allowed, as long as you credit & link back to the original mod.\nOnly two newly authored Russian additions are included; no original code, art, assemblies, textures, audio or existing Russian redistributed.\nRussian additions: Antyhc,2026; AI-assisted authoring and semantic review by OpenAI Codex. Own Russian additions offered under MIT; original mod rights retained.\nExisting Russian translation: https://steamcommunity.com/sharedfiles/filedetails/?id=3239574222\nOriginal typographic cover by Antyhc; no original artwork used.\nNo independent human proofreading or extended gameplay test claimed.\n",
+          "license_evidence_file": "rights-evidence.json",
+          "required_notice_files": {
+            "About/License.txt": "00e747a335d145dfe33e86acc8398034a1515f8b8dee68192babffffa970bef3",
+            "About/Credits.txt": "a2c8625938959cc2cf79870075cadb09256f1f22a99b3b6f1394d0416236d739"
+          }
         },
         "icon": {
-          "status": "unknown",
-          "license": null,
-          "evidence": null,
-          "attribution": null
+          "status": "confirmed",
+          "kind": "original_typographic_fallback",
+          "license": "MIT",
+          "evidence": "scripts/make_original_cover.py; own typographic design",
+          "attribution": "Own typographic cover by Antyhc; no original mod artwork",
+          "source_sha256": "f77a791dfdaff5f1679988ab3f5488e64c9358cd6cc002dd7ebe377284672391",
+          "preview_sha256": "f77a791dfdaff5f1679988ab3f5488e64c9358cd6cc002dd7ebe377284672391",
+          "original_mod_art_used": false
         }
       },
       "qa": {
-        "technical": "pending",
-        "linguistic": "pending",
-        "source_current": false,
-        "in_game": "not_tested",
-        "checked_at": "2026-10-28T09:15:27.268425+00:00"
+        "technical": "passed",
+        "linguistic": "ai_reviewed",
+        "source_current": true,
+        "in_game": "passed",
+        "checked_at": "2026-10-30T08:20:25.673747+00:00",
+        "source_checked_at": "2026-10-30T08:20:25.673747+00:00",
+        "payload_sha256": "a436799853b1735d6cd5c5bd0a91149b47ec501b2c569adbd7400f97a0c48452",
+        "source_snapshot_sha256": "c0b05c214675f515c8c13bad89555ee84ed8ae2f63896370bf802c11b781eb89",
+        "evidence": "qa-evidence.json",
+        "coverage": "Two own missing fridge name/description entries; all44 other selected batch keys covered by existing Russian remain separate.",
+        "standalone_minimal_game_test": "passed_actual_control_and_candidate",
+        "known_dependency_version_warning": "Adaptive Storage Framework currently declares supported versions only through1.6. This exact dependency-complete translation startup/readback passed RimWorld1.7.4990; broad dependency gameplay compatibility is not claimed.",
+        "game_evidence": "game-test-evidence.json",
+        "game_version": "1.7.4990 rev1069",
+        "game_test_scope": "Actual isolated startup and physical language-value readback, exact active dependencies/DLC and source/payload/probe hashes; no save, extended gameplay or independent human proofreading claim.",
+        "game_test_evidence_sha256": "273713d279313a74dc98ee24f125a06ae5c8a3aebfe6e82b17af7bb0484eeccf"
       },
       "publication": {
         "github_url": "https://github.com/Antyhc/RimWorld-Russian-Translations/tree/main/mods/reel.expanded.storage",
-        "github_status": "metadata_only",
-        "workshop_url": null,
-        "workshop_id": null,
-        "workshop_status": "not_published"
+        "github_status": "prepared_not_published",
+        "workshop_url": "https://steamcommunity.com/sharedfiles/filedetails/?id=3830014953",
+        "workshop_id": "3830014953",
+        "workshop_status": "submitted_public_page_unverified",
+        "release_blockers": [],
+        "dependency_verified": true,
+        "collection_id": "3828791160",
+        "collection_member_verified": true,
+        "published_at": "2026-10-30T08:49:02.799414+00:00"
       },
       "integration": {
         "status": "not_sent",
@@ -10247,7 +10355,15 @@
         "work_stage": "installed_local",
         "saved_translation_store": true
       },
-      "work_stage": "installed_local",
+      "work_stage": "ready_for_publication",
+      "duplicate_translation": {
+        "status": "checked_no_current_equivalent",
+        "checked_at": "2026-10-30T08:20:25.673747+00:00",
+        "scope": "Current official cached Russian3239574222 has86rows andcovers44/46 own QA targets. Only2missing fridge entries are included. Original About requires Props and Decor, whose content root defines these selectedDefs.",
+        "candidates": [
+          "https://steamcommunity.com/sharedfiles/filedetails/?id=3239574222"
+        ]
+      },
       "manifest": "mods/reel.expanded.storage/manifest.json"
     },
     {
@@ -10260,31 +10376,59 @@
       ],
       "rights": {
         "translation": {
-          "status": "unknown",
-          "license": null,
-          "evidence": null,
-          "attribution": null
+          "status": "confirmed",
+          "license": "custom-translation-permission",
+          "evidence": "https://steamcommunity.com/sharedfiles/filedetails/?id=3424132769",
+          "attribution": "Original mod: Reel's Turret Pipeline by Reel.\nOriginal Workshop: https://steamcommunity.com/sharedfiles/filedetails/?id=3424132769\nOriginal text permission: custom-translation-permission; evidence: https://steamcommunity.com/sharedfiles/filedetails/?id=3424132769\nOriginal grant: Translation mods are allowed, as long as you credit & link back to the original mod.\nRussian additions: Antyhc, 2026; own translations, AI-assisted authoring/review by OpenAI Codex; MIT.\nTwenty-one core entries. Four ProcessDef entries exist only in optional VFE Factory integration and are held outside this minimal-context candidate.\nNo original or third-party Russian, code, assemblies, artwork, textures or audio are redistributed.\nOriginal typographic fallback cover by Antyhc; original mod art is not used.\nNo independent human proofreading or long-gameplay testing claimed.\n",
+          "license_evidence_file": "rights-evidence.json",
+          "required_notice_files": {
+            "About/License.txt": "b3d34550850edbd99e206cf59890e119b117bc2d259806c9bc2ed27fe82eefe4",
+            "About/Credits.txt": "6e808c9c954ffd2fcff495c8389e90de87cb707ce6cc771520a1cee9e43df310"
+          }
         },
         "icon": {
-          "status": "unknown",
-          "license": null,
-          "evidence": null,
-          "attribution": null
+          "status": "confirmed",
+          "kind": "original_typographic_fallback",
+          "license": "MIT",
+          "evidence": "scripts/make_original_cover.py; own typographic design",
+          "attribution": "Original typographic cover by Antyhc; no original mod artwork",
+          "source_sha256": "07ee281c24a4e4c58dd9ba95ef49ff3de6c7639a458ba705d1e4bc73f3060b6a",
+          "preview_sha256": "07ee281c24a4e4c58dd9ba95ef49ff3de6c7639a458ba705d1e4bc73f3060b6a",
+          "original_mod_art_used": false
         }
       },
       "qa": {
-        "technical": "pending",
-        "linguistic": "pending",
-        "source_current": false,
-        "in_game": "not_tested",
-        "checked_at": "2026-10-28T09:15:27.268425+00:00"
+        "technical": "passed",
+        "linguistic": "ai_reviewed",
+        "source_current": true,
+        "in_game": "passed",
+        "checked_at": "2026-10-30T07:52:08.532147+00:00",
+        "source_checked_at": "2026-10-30T07:52:08.532147+00:00",
+        "payload_sha256": "71ebc691458ae417f8802f8b5dc6096c74ce68592bfa5c4b1e614262b5319233",
+        "source_snapshot_sha256": "46cfded29039157ec32cedbf9cf7735951b9560cfb98f73971c64d7060badaa1",
+        "evidence": "qa-evidence.json",
+        "coverage": "Twenty-one core entries. Four ProcessDef entries exist only in optional VFE Factory integration and are held outside this minimal-context candidate.",
+        "standalone_minimal_game_test": "passed_actual_control_and_candidate",
+        "game_evidence": "game-test-evidence.json",
+        "game_version": "1.7.4990 rev1069",
+        "game_test_scope": "Actual isolated startup and physical language-value readback, exact active dependencies/DLC and source/payload/probe hashes; no save, extended gameplay or independent human proofreading claim.",
+        "game_test_evidence_sha256": "69c17159a1dd2bdd988f5070b682af7b326becbe92ace5c0a938bd97358f8ad5"
       },
       "publication": {
         "github_url": "https://github.com/Antyhc/RimWorld-Russian-Translations/tree/main/mods/reel.turretpipeline",
-        "github_status": "metadata_only",
-        "workshop_url": null,
-        "workshop_id": null,
-        "workshop_status": "not_published"
+        "github_status": "prepared_not_published",
+        "workshop_url": "https://steamcommunity.com/sharedfiles/filedetails/?id=3830009448",
+        "workshop_id": "3830009448",
+        "workshop_status": "published",
+        "release_blockers": [],
+        "anonymous_page_verified": true,
+        "dependency_verified": true,
+        "collection_id": "3828791160",
+        "collection_member_verified": true,
+        "published_at": "2026-10-30T08:30:15.669602+00:00",
+        "anonymous_page_checked_at": "2026-10-30T08:40:10.419654+00:00",
+        "installation_tested": true,
+        "installation_scope": "Official Steam subscription/download and exact recursive payload byte comparison; actual Workshop-root game loading is separate."
       },
       "integration": {
         "status": "not_sent",
@@ -10332,7 +10476,13 @@
         "work_stage": "installed_local",
         "saved_translation_store": true
       },
-      "work_stage": "installed_local",
+      "work_stage": "ready_for_publication",
+      "duplicate_translation": {
+        "status": "checked_no_current_equivalent",
+        "checked_at": "2026-10-30T07:52:08.532147+00:00",
+        "candidates": [],
+        "scope": "Focused current exact-original/title plus Russian discovery found no equivalent for this21-entry core release; original native Russian absent. This is scoped discovery, not exhaustive Workshop proof."
+      },
       "manifest": "mods/reel.turretpipeline/manifest.json"
     },
     {
@@ -10372,14 +10522,23 @@
         "workshop_status": "not_published"
       },
       "integration": {
-        "status": "pr_submitted",
+        "status": "accepted_into_community_translation",
         "pr_url": "https://github.com/OneCodeUnit/VanillaRussianExpanded/pull/46",
         "contact_url": null,
         "target_kind": "community_translation",
         "target_repository_url": "https://github.com/OneCodeUnit/VanillaRussianExpanded",
-        "head_sha": "256ce8f6cc06c909bf24be1f73ad8b505a8f1b34",
+        "head_sha": "95a43b772322e8e1410014a6503a86d657088a3d",
         "submitted_at": "2026-10-28T13:16:47Z",
-        "original_native_accepted": false
+        "original_native_accepted": false,
+        "last_checked_at": "2026-10-30T07:40:27.821011+00:00",
+        "merged": true,
+        "merged_at": "2026-10-28T15:26:12Z",
+        "merge_commit": "00d88eb3815e3a2c001f9b8fea698fbfc1ab61b5",
+        "community_translation_accepted": true,
+        "review_changes_requested": false,
+        "merge_conflicts": null,
+        "response_evidence": "community/author-responses-2026-10-30.json",
+        "accepted_terminology": "Maintainer revised the description to use светолес; accepted variant retained in provenance."
       },
       "original": {
         "author": "Helixien",
@@ -10820,10 +10979,13 @@
       ],
       "rights": {
         "translation": {
-          "status": "unknown",
-          "license": null,
-          "evidence": null,
-          "attribution": null
+          "status": "confirmed",
+          "license": "MIT",
+          "evidence": "https://steamcommunity.com/sharedfiles/filedetails/?id=1504723424",
+          "attribution": "Original: Smart Speed by Sarg. https://steamcommunity.com/sharedfiles/filedetails/?id=1504723424. Conditions: Preserve MIT permission and copyright notices if supplied; credit Sarg Bjornson and original item. No original art/code, own cover. Newly authored translation may use MIT.",
+          "license_evidence_file": "translation-rights-evidence.json",
+          "grant_checked_at": "2026-10-30T07:47:15.135586+00:00",
+          "grant_scope": "Text-only own translation subject to the recorded license/conditions; does not grant original artwork or third-party Russian rights."
         },
         "icon": {
           "status": "unknown",
@@ -10844,7 +11006,10 @@
         "github_status": "metadata_only",
         "workshop_url": null,
         "workshop_id": null,
-        "workshop_status": "not_published"
+        "workshop_status": "not_published",
+        "release_blockers": [
+          "Existing current Russian translation covers all prepared own keys; independent duplicate release held."
+        ]
       },
       "integration": {
         "status": "not_sent",
@@ -10890,7 +11055,14 @@
         "work_stage": "installed_local",
         "saved_translation_store": true
       },
-      "work_stage": "installed_local",
+      "work_stage": "covered_by_existing_translation",
+      "duplicate_translation": {
+        "status": "existing_translation_covers_prepared_scope",
+        "checked_at": "2026-10-30T08:42:11.342678+00:00",
+        "preferred_existing_translation": "https://steamcommunity.com/sharedfiles/filedetails/?id=3530087899",
+        "covered_prepared_own_keys": 16,
+        "scope": "Current official downloaded Russian translation covers every prepared own key; no independent duplicate page is needed. Existing Russian is not copied into a new payload."
+      },
       "manifest": "mods/sarg.smartspeed/manifest.json"
     },
     {
@@ -11285,11 +11457,20 @@
         "installation_tested": true
       },
       "integration": {
-        "status": "pr_submitted",
+        "status": "open",
         "pr_url": "https://github.com/csh1668/YetAnotherResearchTree/pull/6",
         "contact_url": null,
         "submitted_at": "2026-10-28T11:07:17.827154+00:00",
-        "head_sha": "79d41e0f5f1356d122141050bed1d90035ab90e7"
+        "head_sha": "79d41e0f5f1356d122141050bed1d90035ab90e7",
+        "last_checked_at": "2026-10-30T07:40:27.821011+00:00",
+        "merged": false,
+        "merged_at": null,
+        "merge_commit": null,
+        "original_native_accepted": false,
+        "community_translation_accepted": false,
+        "review_changes_requested": false,
+        "merge_conflicts": false,
+        "response_evidence": "community/author-responses-2026-10-30.json"
       },
       "original": {
         "author": "SeoHyeon",
@@ -11764,10 +11945,13 @@
       ],
       "rights": {
         "translation": {
-          "status": "unknown",
-          "license": null,
-          "evidence": null,
-          "attribution": null
+          "status": "confirmed",
+          "license": "CC-BY-NC-4.0",
+          "evidence": "https://steamcommunity.com/sharedfiles/filedetails/?id=3646291383",
+          "attribution": "Original: World Domination by TSA. https://steamcommunity.com/sharedfiles/filedetails/?id=3646291383. Conditions: Noncommercial release only. Credit original authors/source; identify translation/adaptation changes and AI assistance; retain license URI and supplied notices; no extra restrictions. Use CC-BY-NC-4.0 for translation to keep licensing clear.",
+          "license_evidence_file": "translation-rights-evidence.json",
+          "grant_checked_at": "2026-10-30T07:47:15.139157+00:00",
+          "grant_scope": "Text-only own translation subject to the recorded license/conditions; does not grant original artwork or third-party Russian rights."
         },
         "icon": {
           "status": "unknown",
@@ -11788,7 +11972,10 @@
         "github_status": "metadata_only",
         "workshop_url": null,
         "workshop_id": null,
-        "workshop_status": "not_published"
+        "workshop_status": "not_published",
+        "release_blockers": [
+          "Existing current Russian translation covers all prepared own keys; independent duplicate release held."
+        ]
       },
       "integration": {
         "status": "not_sent",
@@ -11882,7 +12069,14 @@
           "baseline_file": "source.tree.json"
         }
       },
-      "work_stage": "installed_local",
+      "work_stage": "covered_by_existing_translation",
+      "duplicate_translation": {
+        "status": "existing_translation_covers_prepared_scope",
+        "checked_at": "2026-10-30T08:42:11.342678+00:00",
+        "preferred_existing_translation": "https://steamcommunity.com/sharedfiles/filedetails/?id=3681789715",
+        "covered_prepared_own_keys": 297,
+        "scope": "Current official downloaded Russian translation covers every prepared own key; no independent duplicate page is needed. Existing Russian is not copied into a new payload."
+      },
       "manifest": "mods/tsa.worlddomination/manifest.json"
     },
     {
@@ -11936,22 +12130,36 @@
         "github_status": "published",
         "workshop_url": "https://steamcommunity.com/sharedfiles/filedetails/?id=3828790442",
         "workshop_id": "3828790442",
-        "workshop_status": "published",
+        "workshop_status": "published_integrated_upstream",
         "dependency_verified": true,
         "anonymous_page_verified": true,
         "published_at": "2026-10-28T10:41:35.907741+00:00",
         "collection_id": "3828791160",
         "collection_member_verified": true,
-        "installation_tested": true
+        "installation_tested": true,
+        "standalone_needed": false,
+        "upstream_integration_confirmed": true,
+        "deprecation_guidance_pending": false,
+        "deprecation_guidance_verified": true,
+        "deprecation_guidance_checked_at": "2026-10-30T08:37:15.638595+00:00"
       },
       "integration": {
-        "status": "pr_submitted",
+        "status": "accepted",
         "pr_url": "https://github.com/Nonunon/NoBurnMetal/pull/1",
         "contact_url": null,
         "submitted_at": "2026-10-28",
         "head_sha": "032a0aa1dd34477f1bd49ce7c964aaf2cc2dccb3",
         "last_update": "2026-10-28",
-        "update_reason": "Actual1.7UIbuttonfitfix"
+        "update_reason": "Actual1.7UIbuttonfitfix",
+        "last_checked_at": "2026-10-30T07:40:27.821011+00:00",
+        "merged": true,
+        "merged_at": "2026-10-29T19:36:32Z",
+        "merge_commit": "0f1423173edfa007c0f85a03336b7e628f48c391",
+        "original_native_accepted": true,
+        "community_translation_accepted": false,
+        "review_changes_requested": false,
+        "merge_conflicts": null,
+        "response_evidence": "community/author-responses-2026-10-30.json"
       },
       "original": {
         "author": "Unon",
@@ -12007,8 +12215,8 @@
         "saved_translation_store": true
       },
       "duplicate_translation": {
-        "status": "checked_no_current_equivalent",
-        "scope": "Current original has no Russian; targeted Workshop discovery found no equivalent standalone.19settingskeys independentlyauthored;6brandlabels intentionallynotcopied.",
+        "status": "now_covered_by_original",
+        "scope": "All19 own Russian keys/values are now identical in the merged official GitHub and current installed original Workshop1923990111. Existing own page retained; no duplicate created.",
         "checked_at": "2026-10-28T10:33:04.486040+00:00"
       },
       "monitor": {
@@ -12029,7 +12237,7 @@
         "requested_at": "2026-10-28",
         "permission_received": false
       },
-      "work_stage": "installed_local",
+      "work_stage": "integrated_upstream",
       "manifest": "mods/unon.noburnmetal/manifest.json"
     },
     {
@@ -12042,10 +12250,13 @@
       ],
       "rights": {
         "translation": {
-          "status": "unknown",
-          "license": null,
-          "evidence": null,
-          "attribution": null
+          "status": "confirmed",
+          "license": "CC-BY-NC-SA-4.0",
+          "evidence": "https://steamcommunity.com/sharedfiles/filedetails/?id=2288125657",
+          "attribution": "Original: Vanilla Achievements Expanded by Oskar Potocki, Smash Phil, Sarg Bjornson. https://steamcommunity.com/sharedfiles/filedetails/?id=2288125657. Conditions: Credit all original creators and source link; state translation/adaptation changes and AI assistance; distribute adapted translation under CC-BY-NC-SA-4.0 with license URI and notices; no commercial use; no additional restrictions. Own fallback artwork, no copied assets/code. Existing third-party Russian requires its own provenance/license.",
+          "license_evidence_file": "translation-rights-evidence.json",
+          "grant_checked_at": "2026-10-30T07:42:41.539337+00:00",
+          "grant_scope": "Text-only own translation subject to the recorded license/conditions; does not grant original artwork or third-party Russian rights."
         },
         "icon": {
           "status": "unknown",
@@ -12240,7 +12451,11 @@
           "status": "unknown",
           "license": null,
           "evidence": null,
-          "attribution": null
+          "attribution": null,
+          "permission_requested": true,
+          "permission_request_url": "https://github.com/Vanilla-Expanded/VanillaExpandedFramework/issues/195",
+          "permission_request_date": "2026-10-30",
+          "permission_received": false
         },
         "icon": {
           "status": "unknown",
@@ -12410,7 +12625,11 @@
           "status": "unknown",
           "license": null,
           "evidence": null,
-          "attribution": null
+          "attribution": null,
+          "permission_requested": true,
+          "permission_request_url": "https://github.com/Vanilla-Expanded/VanillaExpandedFramework/issues/195",
+          "permission_request_date": "2026-10-30",
+          "permission_received": false
         },
         "icon": {
           "status": "unknown",
@@ -12802,10 +13021,13 @@
       ],
       "rights": {
         "translation": {
-          "status": "unknown",
-          "license": null,
-          "evidence": null,
-          "attribution": null
+          "status": "confirmed",
+          "license": "CC-BY-NC-SA-4.0",
+          "evidence": "https://steamcommunity.com/sharedfiles/filedetails/?id=3400246558",
+          "attribution": "Original: Vanilla Skills Expanded by legodude17, Oskar Potocki, Sarg Bjornson. https://steamcommunity.com/sharedfiles/filedetails/?id=3400246558. Conditions: Noncommercial release only. Credit original authors/source; identify translation/adaptation changes and AI assistance; retain license URI and supplied notices; no extra restrictions. Adapted translation must be CC-BY-NC-SA-4.0 (ShareAlike).",
+          "license_evidence_file": "translation-rights-evidence.json",
+          "grant_checked_at": "2026-10-30T07:47:15.135915+00:00",
+          "grant_scope": "Text-only own translation subject to the recorded license/conditions; does not grant original artwork or third-party Russian rights."
         },
         "icon": {
           "status": "unknown",
@@ -13009,7 +13231,11 @@
           "status": "unknown",
           "license": null,
           "evidence": null,
-          "attribution": null
+          "attribution": null,
+          "permission_requested": true,
+          "permission_request_url": "https://github.com/Vanilla-Expanded/VanillaExpandedFramework/issues/195",
+          "permission_request_date": "2026-10-30",
+          "permission_received": false
         },
         "icon": {
           "status": "unknown",
@@ -13228,10 +13454,13 @@
       ],
       "rights": {
         "translation": {
-          "status": "unknown",
-          "license": null,
-          "evidence": null,
-          "attribution": null
+          "status": "confirmed",
+          "license": "CC-BY-NC-SA-4.0",
+          "evidence": "https://steamcommunity.com/sharedfiles/filedetails/?id=2861806869",
+          "attribution": "Original: Vanilla Backstories Expanded by Oskar Potocki, Legodude17. https://steamcommunity.com/sharedfiles/filedetails/?id=2861806869. Conditions: Credit all original creators and source link; state translation/adaptation changes and AI assistance; distribute adapted translation under CC-BY-NC-SA-4.0 with license URI and notices; no commercial use; no additional restrictions. Own fallback artwork, no copied assets/code. Existing third-party Russian requires its own provenance/license.",
+          "license_evidence_file": "translation-rights-evidence.json",
+          "grant_checked_at": "2026-10-30T07:42:41.539681+00:00",
+          "grant_scope": "Text-only own translation subject to the recorded license/conditions; does not grant original artwork or third-party Russian rights."
         },
         "icon": {
           "status": "unknown",
@@ -13252,7 +13481,10 @@
         "github_status": "metadata_only",
         "workshop_url": null,
         "workshop_id": null,
-        "workshop_status": "not_published"
+        "workshop_status": "not_published",
+        "release_blockers": [
+          "Existing current Russian translation covers all prepared own keys; independent duplicate release held."
+        ]
       },
       "integration": {
         "status": "not_sent",
@@ -13324,7 +13556,14 @@
         "work_stage": "installed_local",
         "saved_translation_store": true
       },
-      "work_stage": "installed_local",
+      "work_stage": "covered_by_existing_translation",
+      "duplicate_translation": {
+        "status": "existing_translation_covers_prepared_scope",
+        "checked_at": "2026-10-30T08:42:11.342678+00:00",
+        "preferred_existing_translation": "https://steamcommunity.com/sharedfiles/filedetails/?id=2869759953",
+        "covered_prepared_own_keys": 171,
+        "scope": "Current official downloaded Russian translation covers every prepared own key; no independent duplicate page is needed. Existing Russian is not copied into a new payload."
+      },
       "manifest": "mods/vanillaexpanded.vanillabackstoriesexpanded/manifest.json"
     },
     {
@@ -13434,7 +13673,11 @@
           "status": "unknown",
           "license": null,
           "evidence": null,
-          "attribution": null
+          "attribution": null,
+          "permission_requested": true,
+          "permission_request_url": "https://github.com/Vanilla-Expanded/VanillaExpandedFramework/issues/195",
+          "permission_request_date": "2026-10-30",
+          "permission_received": false
         },
         "icon": {
           "status": "unknown",
@@ -13540,7 +13783,11 @@
           "status": "unknown",
           "license": null,
           "evidence": null,
-          "attribution": null
+          "attribution": null,
+          "permission_requested": true,
+          "permission_request_url": "https://github.com/Vanilla-Expanded/VanillaExpandedFramework/issues/195",
+          "permission_request_date": "2026-10-30",
+          "permission_received": false
         },
         "icon": {
           "status": "unknown",
@@ -13643,10 +13890,13 @@
       ],
       "rights": {
         "translation": {
-          "status": "unknown",
-          "license": null,
-          "evidence": null,
-          "attribution": null
+          "status": "confirmed",
+          "license": "CC-BY-NC-SA-4.0",
+          "evidence": "https://steamcommunity.com/sharedfiles/filedetails/?id=2296404655",
+          "attribution": "Original: Vanilla Traits Expanded by Oskar Potocki, Taranchuk, Chowder. https://steamcommunity.com/sharedfiles/filedetails/?id=2296404655. Conditions: Noncommercial release only. Credit original authors/source; identify translation/adaptation changes and AI assistance; retain license URI and supplied notices; no extra restrictions. Adapted translation must be CC-BY-NC-SA-4.0 (ShareAlike).",
+          "license_evidence_file": "translation-rights-evidence.json",
+          "grant_checked_at": "2026-10-30T07:47:15.136190+00:00",
+          "grant_scope": "Text-only own translation subject to the recorded license/conditions; does not grant original artwork or third-party Russian rights."
         },
         "icon": {
           "status": "unknown",
@@ -13750,7 +14000,11 @@
           "status": "unknown",
           "license": null,
           "evidence": null,
-          "attribution": null
+          "attribution": null,
+          "permission_requested": true,
+          "permission_request_url": "https://github.com/Vanilla-Expanded/VanillaExpandedFramework/issues/195",
+          "permission_request_date": "2026-10-30",
+          "permission_received": false
         },
         "icon": {
           "status": "unknown",
@@ -13867,7 +14121,11 @@
           "status": "unknown",
           "license": null,
           "evidence": null,
-          "attribution": null
+          "attribution": null,
+          "permission_requested": true,
+          "permission_request_url": "https://github.com/Vanilla-Expanded/VanillaExpandedFramework/issues/195",
+          "permission_request_date": "2026-10-30",
+          "permission_received": false
         },
         "icon": {
           "status": "unknown",
@@ -13992,7 +14250,11 @@
           "status": "unknown",
           "license": null,
           "evidence": null,
-          "attribution": null
+          "attribution": null,
+          "permission_requested": true,
+          "permission_request_url": "https://github.com/Vanilla-Expanded/VanillaExpandedFramework/issues/195",
+          "permission_request_date": "2026-10-30",
+          "permission_received": false
         },
         "icon": {
           "status": "unknown",
@@ -14109,7 +14371,11 @@
           "status": "unknown",
           "license": null,
           "evidence": null,
-          "attribution": null
+          "attribution": null,
+          "permission_requested": true,
+          "permission_request_url": "https://github.com/Vanilla-Expanded/VanillaExpandedFramework/issues/195",
+          "permission_request_date": "2026-10-30",
+          "permission_received": false
         },
         "icon": {
           "status": "unknown",
@@ -14441,7 +14707,11 @@
           "status": "unknown",
           "license": null,
           "evidence": null,
-          "attribution": null
+          "attribution": null,
+          "permission_requested": true,
+          "permission_request_url": "https://github.com/Vanilla-Expanded/VanillaExpandedFramework/issues/195",
+          "permission_request_date": "2026-10-30",
+          "permission_received": false
         },
         "icon": {
           "status": "unknown",
@@ -14715,7 +14985,11 @@
           "status": "unknown",
           "license": null,
           "evidence": null,
-          "attribution": null
+          "attribution": null,
+          "permission_requested": true,
+          "permission_request_url": "https://github.com/Vanilla-Expanded/VanillaExpandedFramework/issues/195",
+          "permission_request_date": "2026-10-30",
+          "permission_received": false
         },
         "icon": {
           "status": "unknown",
@@ -14824,7 +15098,11 @@
           "status": "unknown",
           "license": null,
           "evidence": null,
-          "attribution": null
+          "attribution": null,
+          "permission_requested": true,
+          "permission_request_url": "https://github.com/Vanilla-Expanded/VanillaExpandedFramework/issues/195",
+          "permission_request_date": "2026-10-30",
+          "permission_received": false
         },
         "icon": {
           "status": "unknown",
@@ -14926,10 +15204,13 @@
       ],
       "rights": {
         "translation": {
-          "status": "unknown",
-          "license": null,
-          "evidence": null,
-          "attribution": null
+          "status": "confirmed",
+          "license": "CC-BY-NC-SA-4.0",
+          "evidence": "https://steamcommunity.com/sharedfiles/filedetails/?id=2608762624",
+          "attribution": "Original: Vanilla Furniture Expanded - Architect by Oskar Potocki, xrushha, legodude17, ISOREX. https://steamcommunity.com/sharedfiles/filedetails/?id=2608762624. Conditions: Noncommercial release only. Credit original authors/source; identify translation/adaptation changes and AI assistance; retain license URI and supplied notices; no extra restrictions. Adapted translation must be CC-BY-NC-SA-4.0 (ShareAlike).",
+          "license_evidence_file": "translation-rights-evidence.json",
+          "grant_checked_at": "2026-10-30T07:47:15.136484+00:00",
+          "grant_scope": "Text-only own translation subject to the recorded license/conditions; does not grant original artwork or third-party Russian rights."
         },
         "icon": {
           "status": "unknown",
@@ -15133,7 +15414,11 @@
           "status": "unknown",
           "license": null,
           "evidence": null,
-          "attribution": null
+          "attribution": null,
+          "permission_requested": true,
+          "permission_request_url": "https://github.com/Vanilla-Expanded/VanillaExpandedFramework/issues/195",
+          "permission_request_date": "2026-10-30",
+          "permission_received": false
         },
         "icon": {
           "status": "unknown",
@@ -15891,7 +16176,11 @@
           "status": "unknown",
           "license": null,
           "evidence": null,
-          "attribution": null
+          "attribution": null,
+          "permission_requested": true,
+          "permission_request_url": "https://github.com/Vanilla-Expanded/VanillaExpandedFramework/issues/195",
+          "permission_request_date": "2026-10-30",
+          "permission_received": false
         },
         "icon": {
           "status": "unknown",
@@ -17230,7 +17519,11 @@
           "status": "unknown",
           "license": null,
           "evidence": null,
-          "attribution": null
+          "attribution": null,
+          "permission_requested": true,
+          "permission_request_url": "https://github.com/Vanilla-Expanded/VanillaExpandedFramework/issues/195",
+          "permission_request_date": "2026-10-30",
+          "permission_received": false
         },
         "icon": {
           "status": "unknown",
@@ -17339,7 +17632,11 @@
           "status": "unknown",
           "license": null,
           "evidence": null,
-          "attribution": null
+          "attribution": null,
+          "permission_requested": true,
+          "permission_request_url": "https://github.com/Vanilla-Expanded/VanillaExpandedFramework/issues/195",
+          "permission_request_date": "2026-10-30",
+          "permission_received": false
         },
         "icon": {
           "status": "unknown",
@@ -17546,7 +17843,11 @@
           "status": "unknown",
           "license": null,
           "evidence": null,
-          "attribution": null
+          "attribution": null,
+          "permission_requested": true,
+          "permission_request_url": "https://github.com/Vanilla-Expanded/VanillaExpandedFramework/issues/195",
+          "permission_request_date": "2026-10-30",
+          "permission_received": false
         },
         "icon": {
           "status": "unknown",
@@ -17922,38 +18223,68 @@
       },
       "rights": {
         "translation": {
-          "status": "unknown",
-          "license": null,
-          "evidence": null,
-          "attribution": null
+          "status": "confirmed",
+          "license": "MIT",
+          "evidence": "https://github.com/WVCSergkart/MoreMechanoidsWorkModes/blob/main/LICENSE",
+          "attribution": "Original mod: WVC — Work Modes by Sergkart (WVCSergkart).\nOriginal Workshop: https://steamcommunity.com/sharedfiles/filedetails/?id=2888380373\nOriginal text: MIT, Copyright (c) 2023 WVCSergkart; complete notice retained in License.txt.\nRussian additions: Antyhc,2026; AI-assisted authoring and semantic review by OpenAI Codex, MIT.\nOnly 23 own missing entries; no original code, assemblies, art, textures, audio or existing/third-party Russian redistributed.\nExisting Russian pack: https://steamcommunity.com/sharedfiles/filedetails/?id=3226197754\nOriginal typographic cover by Antyhc, no original mod artwork.\nNo independent human proofreading or long-gameplay test claimed.\n",
+          "license_evidence_file": "rights-evidence.json",
+          "required_notice_files": {
+            "About/License.txt": "502a81324413850bbda333f818fa0b4e4a2cb0db4e8f25037b21fea941cdae64",
+            "About/Credits.txt": "f6199396c062d519536174fa78cc7d0cefe9105318ebb0fc2c66ea9edc4b3101"
+          }
         },
         "icon": {
-          "status": "unknown",
-          "license": null,
-          "evidence": null,
-          "attribution": null
+          "status": "confirmed",
+          "kind": "original_typographic_fallback",
+          "license": "MIT",
+          "evidence": "scripts/make_original_cover.py; own typographic design",
+          "attribution": "Own typographic cover by Antyhc; no original mod artwork",
+          "source_sha256": "068c0f95c0d0719ae3a52609fbc5315a92befe45cbc23027e94601a7ecac9af9",
+          "preview_sha256": "068c0f95c0d0719ae3a52609fbc5315a92befe45cbc23027e94601a7ecac9af9",
+          "original_mod_art_used": false
         }
       },
       "qa": {
-        "technical": "pending",
-        "linguistic": "pending",
-        "source_current": false,
-        "in_game": "not_tested",
-        "checked_at": "2026-10-28T10:30:30.068317+00:00"
+        "technical": "passed",
+        "linguistic": "ai_reviewed",
+        "source_current": true,
+        "in_game": "passed",
+        "checked_at": "2026-10-30T07:56:12.536423+00:00",
+        "source_checked_at": "2026-10-30T07:56:12.536423+00:00",
+        "payload_sha256": "1d9229cf7a94745aa2e288c18b280265f1a76983cf3a2ea8e0bdec2d44c7046b",
+        "source_snapshot_sha256": "ad74d0bb4d2554698fd64c029b3102e11f11caa0f3483d7c76778575492ab2dc",
+        "evidence": "qa-evidence.json",
+        "coverage": "23 own missing entries,17Keyed+6DefInjected; no existing Russian duplicated.",
+        "standalone_minimal_game_test": "passed_actual_control_and_candidate",
+        "game_evidence": "game-test-evidence.json",
+        "game_version": "1.7.4990 rev1069",
+        "game_test_scope": "Actual isolated startup and physical language-value readback, exact active dependencies/DLC and source/payload/probe hashes; no save, extended gameplay or independent human proofreading claim.",
+        "game_test_evidence_sha256": "89ec4280c8de86075455e729c1bfe877123fdf7244d6c824e87a21248e8c7622"
       },
       "publication": {
         "github_url": "https://github.com/Antyhc/RimWorld-Russian-Translations/tree/main/mods/wvc.sergkart.biotech.moremechanoidsworkmodes",
-        "github_status": "metadata_only",
-        "workshop_url": null,
-        "workshop_id": null,
-        "workshop_status": "not_published"
+        "github_status": "prepared_not_published",
+        "workshop_url": "https://steamcommunity.com/sharedfiles/filedetails/?id=3830010549",
+        "workshop_id": "3830010549",
+        "workshop_status": "published",
+        "release_blockers": [],
+        "anonymous_page_verified": true,
+        "dependency_verified": true,
+        "collection_id": "3828791160",
+        "collection_member_verified": true,
+        "published_at": "2026-10-30T08:34:09.336773+00:00",
+        "anonymous_page_checked_at": "2026-10-30T08:40:10.419654+00:00",
+        "dlc_dependency_app_id": "1826140",
+        "dlc_dependency_verified": true,
+        "installation_tested": true,
+        "installation_scope": "Official Steam subscription/download and exact recursive payload byte comparison; actual Workshop-root game loading is separate."
       },
       "integration": {
         "status": "not_sent",
         "pr_url": null,
         "contact_url": null
       },
-      "work_stage": "reviewed_uninstalled",
+      "work_stage": "ready_for_publication",
       "inventory": {
         "saved_records": 0,
         "historical_approved_records": 0,
@@ -17994,6 +18325,14 @@
           "new_files_outside_saved_source_inventory_checked": false
         },
         "saved_translation_store": false
+      },
+      "duplicate_translation": {
+        "status": "checked_no_current_equivalent",
+        "checked_at": "2026-10-30T07:56:12.536423+00:00",
+        "scope": "Current official cached Russian3226197754 has118rows, covering100/123 selected own targets. This supplement contains22 absent keys and one existing untranslated English assignment message. No third-party Russian copied; no claim that all23keys were absent.",
+        "candidates": [
+          "https://steamcommunity.com/sharedfiles/filedetails/?id=3226197754"
+        ]
       },
       "manifest": "mods/wvc.sergkart.biotech.moremechanoidsworkmodes/manifest.json"
     },
@@ -18263,25 +18602,25 @@
     "model_held_tasks": 10,
     "private_model_test_values": 473,
     "store_scope_unverified": 0,
-    "technically_checked": 5,
-    "game_tested": 5,
+    "technically_checked": 9,
+    "game_tested": 9,
     "github_metadata_records": 166,
     "github_published": 5,
-    "workshop_submitted": 5,
-    "workshop_published": 4,
+    "workshop_submitted": 9,
+    "workshop_published": 8,
     "pull_requests": 4,
-    "accepted": 0,
-    "awaiting_rights": 161,
+    "accepted": 1,
+    "awaiting_rights": 145,
     "needs_update": 13,
-    "freshness_unverified": 161,
+    "freshness_unverified": 157,
     "static_inventory_pass": 129,
     "static_inventory_flagged": 20,
     "static_findings": 49,
     "repository_monitors": 24,
     "pull_request_monitors": 4,
     "icon_permission_requests": 2,
-    "workshop_public_pages_verified": 4,
-    "workshop_content_check_pending": 1,
+    "workshop_public_pages_verified": 8,
+    "workshop_content_check_pending": 0,
     "workshop_source_monitors": 166
   }
 }

@@ -8,10 +8,13 @@
   ],
   "rights": {
     "translation": {
-      "status": "unknown",
-      "license": null,
-      "evidence": null,
-      "attribution": null
+      "status": "confirmed",
+      "license": "MIT",
+      "evidence": "https://github.com/ilyvion/loading-progress/blob/main/LICENSE.MIT",
+      "attribution": "Original: Loading Progress by ilyvion. https://steamcommunity.com/sharedfiles/filedetails/?id=3535481557. Conditions: Preserve exact MIT copyright/permission notice, original author attribution and original-mod dependency. Own original cover. Upstream explicitly invites Languages-only separate translation mods. Do not redistribute the original mod or its code/art. Original uses custom early-startup language loader, so a fresh test must exercise that actual loader/UI rather than only ordinary game Keyed.",
+      "license_evidence_file": "translation-rights-evidence.json",
+      "grant_checked_at": null,
+      "grant_scope": "Text-only own translation subject to the recorded license/conditions; does not grant original artwork or third-party Russian rights."
     },
     "icon": {
       "status": "unknown",

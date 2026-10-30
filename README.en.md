@@ -6,15 +6,19 @@ Russian localization maintenance for RimWorld mods. We contribute translations
 upstream and release standalone packs with confirmed rights after checking
 current sources and existing Russian translations.
 
-First releases for **RimWorld 1.7**:
+Releases for **RimWorld 1.7**, as checked on30October2026:
 
 | Translation | Translated entries | Availability |
 |---|---:|---|
-| [No Burn Metal](https://steamcommunity.com/sharedfiles/filedetails/?id=3828790442) | 19 | Public page verified anonymously |
+| [No Burn Metal](https://steamcommunity.com/sharedfiles/filedetails/?id=3828790442) | 19 | Included in original; separate pack no longer needed for new installs |
 | [Designator Shapes](https://steamcommunity.com/sharedfiles/filedetails/?id=3828790605) | 208 | Public page verified anonymously |
 | [Yet Another Research Tree](https://steamcommunity.com/sharedfiles/filedetails/?id=3828790757) | 30 | Public page verified anonymously |
-| [Smart Medicine — Continued](https://steamcommunity.com/sharedfiles/filedetails/?id=3828790822) | 7 | Submitted; Steam automatic content inspection pending |
+| [Smart Medicine — Continued](https://steamcommunity.com/sharedfiles/filedetails/?id=3828790822) | 7 | Public page verified anonymously |
 | [Mechanoid Upgrades](https://steamcommunity.com/sharedfiles/filedetails/?id=3828883103) | 108 | Public page verified anonymously |
+| [Blood Animations](https://steamcommunity.com/sharedfiles/filedetails/?id=3830000511) | 3 | Public: 2 absent captions plus a localized settings heading |
+| [Reel’s Turret Pipeline](https://steamcommunity.com/sharedfiles/filedetails/?id=3830009448) | 21 | Public; core only, 4 optional Factory entries excluded |
+| [WVC Work Modes](https://steamcommunity.com/sharedfiles/filedetails/?id=3830010549) | 23 | Public; requires Biotech |
+| [Reel’s Expanded Storage](https://steamcommunity.com/sharedfiles/filedetails/?id=3830014953) | 2 | Steam creation confirmed; website access checked separately |
 
 YART and Smart Medicine fill missing strings while preserving their 79 and 48
 bundled Russian entries. All four subscribed Workshop copies were loaded in an
@@ -32,7 +36,7 @@ with no additional localization errors. Biotech was
 also added and verified as required DLC metadata on Workshop.
 
 The [collection](https://steamcommunity.com/sharedfiles/filedetails/?id=3828791160)
-has been created through Steam API with five members, but website publication
+has been created through Steam API with nine members, but website publication
 is blocked by Steam error 15, “Access denied”, when the owner saves its title
 and description. Use the direct item links above.
 
@@ -47,7 +51,7 @@ Open upstream contributions: [Designator Shapes](https://github.com/merthsoft/de
 [YART](https://github.com/csh1668/YetAnotherResearchTree/pull/6). A ReGrowth addition was
 submitted to [Vanilla Russian Expanded #46](https://github.com/OneCodeUnit/VanillaRussianExpanded/pull/46),
 a community translation repository; original-native acceptance is not claimed.
-Author responses are pending; none has been accepted yet.
+No Burn Metal was merged into the original and is already distributed through Steam; new installations no longer need its separate pack. ReGrowth was merged into the community translation and is present in that Workshop copy. Shapes and YART remain open without requested changes. [Verified responses](community/author-responses-2026-10-30.json).
 
 Separately from public releases, 42 managed private packs passed a 3474-value
 load check. Codex individually reviewed all 616 local-model drafts: 291 unchanged,
@@ -80,7 +84,7 @@ A registry folder without `payload/` is not an installable mod.
 
 Original authors, links and license evidence are tracked per mod and in each
 package. Original assemblies, textures and game assets are not redistributed.
-The four previews are original typographic designs with a consistent `RUSSIAN`
+The previews are original typographic designs with a consistent `RUSSIAN`
 caption. They use no original mod artwork; permission requests for original
 previews remain separate. Other translations with unconfirmed distribution
 rights are held from publication.
@@ -108,3 +112,5 @@ See [maintenance](docs/MAINTENANCE.md), [publishing](docs/PUBLISHING.md), and
 [QA limits](docs/QA.md). Report translation problems through
 [Issues](https://github.com/Antyhc/RimWorld-Russian-Translations/issues) with the
 mod name, game version, key/screenshot and expected wording.
+
+30October: four new packages passed their own English-control/Russian game loads,49values with no additional localization errors. Three were subscribed/downloaded through Steam with21exact files; installation and actual Workshop-copy game loading are separate checks. [Vanilla Expanded request #195](https://github.com/Vanilla-Expanded/VanillaExpandedFramework/issues/195) is pending and grants no rights. Backstories, Smart Speed and World Domination are held as equivalent existing Russian packs cover all prepared entries.

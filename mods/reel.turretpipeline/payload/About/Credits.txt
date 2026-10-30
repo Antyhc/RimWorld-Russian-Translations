@@ -1,0 +1,9 @@
+Original mod: Reel's Turret Pipeline by Reel.
+Original Workshop: https://steamcommunity.com/sharedfiles/filedetails/?id=3424132769
+Original text permission: custom-translation-permission; evidence: https://steamcommunity.com/sharedfiles/filedetails/?id=3424132769
+Original grant: Translation mods are allowed, as long as you credit & link back to the original mod.
+Russian additions: Antyhc, 2026; own translations, AI-assisted authoring/review by OpenAI Codex; MIT.
+Twenty-one core entries. Four ProcessDef entries exist only in optional VFE Factory integration and are held outside this minimal-context candidate.
+No original or third-party Russian, code, assemblies, artwork, textures or audio are redistributed.
+Original typographic fallback cover by Antyhc; original mod art is not used.
+No independent human proofreading or long-gameplay testing claimed.

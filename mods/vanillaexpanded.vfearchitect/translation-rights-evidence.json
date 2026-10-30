@@ -1,0 +1,30 @@
+{
+  "schema": 1,
+  "checked_at": "2026-10-30T07:47:15.136484+00:00",
+  "package_id": "vanillaexpanded.vfearchitect",
+  "workshop_id": "2608762624",
+  "original_author": "Oskar Potocki, xrushha, legodude17, ISOREX",
+  "original_workshop_url": "https://steamcommunity.com/sharedfiles/filedetails/?id=2608762624",
+  "translation_rights": "confirmed_under_recorded_conditions",
+  "license": "CC-BY-NC-SA-4.0",
+  "public_evidence_url": "https://steamcommunity.com/sharedfiles/filedetails/?id=2608762624",
+  "official_public_api": "https://api.steampowered.com/ISteamRemoteStorage/GetPublishedFileDetails/v1/",
+  "official_description_sha256": "939d1f580417cce52b8613558a3b61baf21337838ac585b08ff62df885e4f809",
+  "official_description_updated_unix": 1791980184,
+  "exact_permission_or_license_marker": "https://creativecommons.org/licenses/by-nc-sa/4.0/",
+  "conditions": "Noncommercial release only. Credit original authors/source; identify translation/adaptation changes and AI assistance; retain license URI and supplied notices; no extra restrictions. Adapted translation must be CC-BY-NC-SA-4.0 (ShareAlike).",
+  "legalcode_url": "https://creativecommons.org/licenses/by-nc-sa/4.0/legalcode.en",
+  "own_stored_reviewed_values": 1,
+  "existing_third_party_candidates": [
+    {
+      "name": "Vanilla Furniture Expanded Russian Language Pack",
+      "package_id": "ow.ru.furniture",
+      "author": "Mewn Goddess, OliveWizard",
+      "workshop_id": "2927850179",
+      "workshop_url": "https://steamcommunity.com/sharedfiles/filedetails/?id=2927850179",
+      "license": "CC-BY-NC-SA-4.0"
+    }
+  ],
+  "release_status": "Rights only. Requires own-provenance selection, current source and duplicate coverage, semantic review if stale, actual standalone test. No existing community text automatically included.",
+  "public_file_changed": false
+}

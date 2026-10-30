@@ -107,9 +107,124 @@ class ProjectTests(unittest.TestCase):
         self.assertIn("assembly guard was preserved", text)
         self.assertNotIn("pending fresh validation", text)
 
+    def test_status_counts_generic_actual_game_evidence_values(self):
+        self.mod["qa"].update(in_game="passed", game_evidence="game-test-evidence.json")
+        self.save()
+        rw.write_json(self.folder / "game-test-evidence.json", {
+            "game_version": "1.7.4990", "values_verified": 21,
+            "additional_localization_errors": 0, "gameplay_tested": False,
+        })
+        text = rw.status_markdown(rw.registry(self.root), self.root)
+        self.assertIn("21 expected Russian values", text)
+        self.assertNotIn("subscribed Workshop copies were also loaded", text)
+
     def test_binary_is_forbidden_even_with_approved_manifest(self):
         (self.payload / "Original.dll").write_bytes(b"MZ")
         self.assertIn("forbidden_payload_file:Original.dll", rw.validate_payload(self.folder, self.mod, True)[0])
+
+    def conditional_fixture(self, key="Optional", value="Дополнение, {0}!"):
+        roots = [{"path": "Conditional/another.mod", "if_mod_active": "another.mod", "source_relative_root": "1.7/Mods/Another"}]
+        proof = self.folder / "source-layout-evidence.json"
+        rw.write_json(proof, {"schema": 1, "package_id": "author.mod", "version": "1.7", "roots": roots})
+        self.mod["conditional_languages"] = {"version": "1.7", "roots": roots,
+            "evidence": proof.name, "evidence_sha256": rw.hashlib.sha256(proof.read_bytes()).hexdigest()}
+        (self.payload / "LoadFolders.xml").write_text('<loadFolders><v1.7><li>/</li><li IfModActive="another.mod">Conditional/another.mod</li></v1.7></loadFolders>', "utf-8")
+        directory = self.payload / "Conditional/another.mod/Languages/Russian/Keyed"
+        directory.mkdir(parents=True)
+        (directory / "Optional.xml").write_text(f"<LanguageData><{key}>{value}</{key}></LanguageData>", "utf-8")
+        rw.write_json(self.folder / "source.snapshot.json", {"strings": rw.hashes({"Keyed|Greeting": "Hello, {0}!", "Keyed|Optional": "Extra, {0}!"}),
+            "texts": {"Keyed|Greeting": "Hello, {0}!", "Keyed|Optional": "Extra, {0}!"}})
+        self.mod["qa"]["payload_sha256"] = rw.payload_digest(self.payload)
+        self.mod["qa"]["source_snapshot_sha256"] = rw.hashlib.sha256((self.folder / "source.snapshot.json").read_bytes()).hexdigest()
+        self.save()
+        return directory
+
+    def test_conditional_language_stages_both_reviewed_roots_without_runtime_claim(self):
+        self.conditional_fixture()
+        errors, warnings, rows = rw.validate_payload(self.folder, self.mod, True)
+        self.assertEqual(errors, [])
+        self.assertEqual(warnings, [])
+        self.assertEqual(set(rows), {"Keyed|Greeting", "Keyed|Optional"})
+        output = rw.stage(self.root, "author.mod", self.root / "dist")
+        self.assertTrue((output / "LoadFolders.xml").is_file())
+        self.assertTrue((output / "Conditional/another.mod/Languages/Russian/Keyed/Optional.xml").is_file())
+        self.assertEqual(self.mod["qa"]["in_game"], "not_tested")
+
+    def test_conditional_only_supplement_needs_no_unconditional_strings(self):
+        self.conditional_fixture()
+        (self.ru / "Main.xml").unlink()
+        self.mod["qa"]["payload_sha256"] = rw.payload_digest(self.payload)
+        errors, _, rows = rw.validate_payload(self.folder, self.mod, True)
+        self.assertEqual(errors, [])
+        self.assertEqual(set(rows), {"Keyed|Optional"})
+
+    def test_conditional_layout_does_not_expand_ordinary_manifest_allowlist(self):
+        self.conditional_fixture()
+        del self.mod["conditional_languages"]
+        errors = rw.validate_payload(self.folder, self.mod)[0]
+        self.assertIn("forbidden_payload_file:LoadFolders.xml", errors)
+        self.assertIn("forbidden_payload_file:Conditional/another.mod/Languages/Russian/Keyed/Optional.xml", errors)
+
+    def test_conditional_layout_traversal_cannot_expand_allowlist(self):
+        self.conditional_fixture()
+        self.mod["conditional_languages"]["roots"][0]["path"] = "Conditional/../another.mod"
+        errors = rw.validate_payload(self.folder, self.mod)[0]
+        self.assertIn("conditional_language_path_or_condition_invalid", errors)
+        self.assertIn("forbidden_payload_file:LoadFolders.xml", errors)
+
+    def test_conditional_layout_requires_same_pinned_source_evidence(self):
+        self.conditional_fixture()
+        rw.write_json(self.folder / "source-layout-evidence.json", {"schema": 1, "package_id": "wrong.mod"})
+        self.assertIn("conditional_language_evidence_missing_or_changed", rw.validate_payload(self.folder, self.mod)[0])
+
+    def test_conditional_evidence_cannot_reference_an_outside_json(self):
+        self.conditional_fixture()
+        self.mod["conditional_languages"]["evidence"] = "../private.json"
+        self.assertIn("conditional_language_evidence_invalid", rw.validate_payload(self.folder, self.mod)[0])
+
+    def test_conditional_unknown_condition_is_rejected_instead_of_ignored(self):
+        self.conditional_fixture()
+        p = self.payload / "LoadFolders.xml"
+        p.write_text(p.read_text("utf-8").replace("IfModActive=", "IfModActiveAny="), "utf-8")
+        errors = rw.validate_payload(self.folder, self.mod)[0]
+        self.assertIn("conditional_loadfolders_missing_or_invalid", errors)
+        self.assertIn("forbidden_payload_file:LoadFolders.xml", errors)
+
+    def test_conditional_extra_version_section_is_rejected(self):
+        self.conditional_fixture()
+        p = self.payload / "LoadFolders.xml"
+        p.write_text(p.read_text("utf-8").replace("</loadFolders>", "<default><li>/</li></default></loadFolders>"), "utf-8")
+        self.assertIn("conditional_loadfolders_missing_or_invalid", rw.validate_payload(self.folder, self.mod)[0])
+
+    def test_conditional_loader_cannot_name_a_different_dependency(self):
+        self.conditional_fixture()
+        p = self.payload / "LoadFolders.xml"
+        p.write_text(p.read_text("utf-8").replace('IfModActive="another.mod"', 'IfModActive="unknown.mod"'), "utf-8")
+        self.assertIn("conditional_loadfolders_missing_or_invalid", rw.validate_payload(self.folder, self.mod)[0])
+
+    def test_conditional_cross_root_collision_is_rejected_even_for_equal_text(self):
+        self.conditional_fixture(key="Greeting", value="Привет, {0}!")
+        self.assertIn("duplicate_key_across_language_roots:Keyed|Greeting", rw.validate_payload(self.folder, self.mod)[0])
+
+    def test_conditional_roots_never_allow_original_defs_or_assemblies(self):
+        self.conditional_fixture()
+        p = self.payload / "Conditional/another.mod/Assemblies"
+        p.mkdir()
+        (p / "Original.dll").write_bytes(b"MZ")
+        p = self.payload / "Conditional/another.mod/Defs"
+        p.mkdir()
+        (p / "Original.xml").write_text("<Defs />", "utf-8")
+        errors = rw.validate_payload(self.folder, self.mod)[0]
+        self.assertIn("forbidden_payload_file:Conditional/another.mod/Assemblies/Original.dll", errors)
+        self.assertIn("forbidden_payload_file:Conditional/another.mod/Defs/Original.xml", errors)
+
+    def test_conditional_source_placeholder_checks_are_not_skipped(self):
+        self.conditional_fixture(value="Утерянный аргумент")
+        self.assertIn("placeholder_mismatch:Keyed|Optional", rw.validate_payload(self.folder, self.mod, True)[0])
+
+    def test_conditional_unknown_source_is_not_release_ready(self):
+        self.conditional_fixture(key="Unbound")
+        self.assertIn("source_signature_missing_or_unbound:Keyed|Unbound", rw.validate_payload(self.folder, self.mod, True)[0])
 
     def test_unlicensed_preview_forbidden(self):
         (self.payload / "About" / "Preview.png").write_bytes(b"image")
@@ -308,6 +423,23 @@ class ProjectTests(unittest.TestCase):
         with patch.object(rw, "fetch_bytes", return_value=b'{"state":"closed","merged_at":"2026-10-28T00:00:00Z"}'):
             result = rw.check_integration(self.mod)
         self.assertFalse(result["action_required"])
+
+    def test_community_translation_merge_stays_distinct_and_acknowledged(self):
+        self.mod["integration"] = {"pr_url": "https://github.com/author/community/pull/7",
+            "target_kind": "community_translation", "status": "accepted_into_community_translation",
+            "original_native_accepted": False}
+        self.save()
+        merged = b'{"state":"closed","merged_at":"2026-10-30T00:00:00Z"}'
+        with patch.object(rw, "fetch_bytes", return_value=merged):
+            result = rw.check_integration(self.mod)
+        self.assertEqual(result["status"], "accepted_into_community_translation")
+        self.assertFalse(result["action_required"])
+        self.assertFalse(self.mod["integration"]["original_native_accepted"])
+        self.assertEqual(rw.registry(self.root)["counts"]["accepted"], 0)
+        self.mod["integration"]["status"] = "pr_submitted"
+        with patch.object(rw, "fetch_bytes", return_value=merged):
+            result = rw.check_integration(self.mod)
+        self.assertTrue(result["action_required"])
 
     def test_redirect_never_sends_api_token_to_raw_content(self):
         request = rw.urllib.request.Request("https://api.github.com/repos/author/mod", headers={"Authorization": "Bearer never-write-real-token"})

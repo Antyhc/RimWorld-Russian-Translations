@@ -1,0 +1,8 @@
+Original mod: REEL Expanded Storage by Reel.
+Original Workshop: https://steamcommunity.com/sharedfiles/filedetails/?id=3237638097
+Original permission: Translation mods are allowed, as long as you credit & link back to the original mod.
+Only two newly authored Russian additions are included; no original code, art, assemblies, textures, audio or existing Russian redistributed.
+Russian additions: Antyhc,2026; AI-assisted authoring and semantic review by OpenAI Codex. Own Russian additions offered under MIT; original mod rights retained.
+Existing Russian translation: https://steamcommunity.com/sharedfiles/filedetails/?id=3239574222
+Original typographic cover by Antyhc; no original artwork used.
+No independent human proofreading or extended gameplay test claimed.

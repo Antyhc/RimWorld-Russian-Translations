@@ -1,0 +1,5 @@
+Russian completion for Blood Animations by Fuu Chan: two missing settings captions for debris and ground impacts, plus a Russian rendition of the existing English settings-window heading. Contains only newly authored translations. Recommended alongside the existing Russian pack; existing Russian text is neither copied nor replaced; its English settings heading is intentionally localized. Requires original Blood Animations and Harmony; load after the original. AI-assisted authoring and semantic review by OpenAI Codex; no independent human proofreading claimed.
+
+https://steamcommunity.com/sharedfiles/filedetails/?id=3228047321
+https://steamcommunity.com/sharedfiles/filedetails/?id=3278851736
+Tested in an isolated minimal RimWorld 1.7.4990 rev1069 profile: 3/3 English control and Russian values verified, with the existing 38 localization errors unchanged. The Russian settings title and both added captions were visually inspected. Use the linked existing Russian pack for the remaining settings. No save or extended gameplay test performed.

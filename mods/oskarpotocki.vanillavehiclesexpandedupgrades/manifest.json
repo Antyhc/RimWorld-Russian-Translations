@@ -11,7 +11,11 @@
       "status": "unknown",
       "license": null,
       "evidence": null,
-      "attribution": null
+      "attribution": null,
+      "permission_requested": true,
+      "permission_request_url": "https://github.com/Vanilla-Expanded/VanillaExpandedFramework/issues/195",
+      "permission_request_date": "2026-10-30",
+      "permission_received": false
     },
     "icon": {
       "status": "unknown",

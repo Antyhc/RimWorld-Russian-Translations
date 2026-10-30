@@ -1,0 +1,10 @@
+Russian translation for the core of Reel’s Turret Pipeline by Reel: 21 ammunition, pipe-network and distributor entries. Four optional Vanilla Furniture Expanded — Factory integration entries are not included.
+
+Requires original Reel’s Turret Pipeline, Harmony and Vanilla Expanded Framework. Load after the original. Compatibility: RimWorld 1.7; tested on 1.7.4990 rev1069.
+
+An isolated minimal profile verified all 21 English control and 21 Russian values. The same 38 baseline localization errors also occurred without this translation; their exact multiset was unchanged. No additional localization errors. This is startup/field-readback testing, with no saves opened or extended gameplay. Workshop installation is checked separately.
+
+Original author: Reel. The original explicitly permits translation mods with credit and a source link. Only newly authored translations, metadata, notices and an original typographic cover are included; no original artwork, code, DLLs or third-party Russian is redistributed. Own Russian additions: Antyhc, MIT. AI-assisted authoring and semantic review by OpenAI Codex; no independent human proofreading claimed.
+
+Original: https://steamcommunity.com/sharedfiles/filedetails/?id=3424132769
+Project and feedback: https://github.com/Antyhc/RimWorld-Russian-Translations

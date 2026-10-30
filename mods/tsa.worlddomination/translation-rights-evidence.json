@@ -1,0 +1,21 @@
+{
+  "schema": 1,
+  "checked_at": "2026-10-30T07:47:15.139157+00:00",
+  "package_id": "tsa.worlddomination",
+  "workshop_id": "3646291383",
+  "original_author": "TSA",
+  "original_workshop_url": "https://steamcommunity.com/sharedfiles/filedetails/?id=3646291383",
+  "translation_rights": "confirmed_under_recorded_conditions",
+  "license": "CC-BY-NC-4.0",
+  "public_evidence_url": "https://steamcommunity.com/sharedfiles/filedetails/?id=3646291383",
+  "official_public_api": "https://api.steampowered.com/ISteamRemoteStorage/GetPublishedFileDetails/v1/",
+  "official_description_sha256": "1796d74da7de7dc2618571fd444347497a61265823722b6f8bd47962b669491d",
+  "official_description_updated_unix": 1792141719,
+  "exact_permission_or_license_marker": "Creative Commons Attribution-NonCommercial (CC BY-NC 4.0)",
+  "conditions": "Noncommercial release only. Credit original authors/source; identify translation/adaptation changes and AI assistance; retain license URI and supplied notices; no extra restrictions. Use CC-BY-NC-4.0 for translation to keep licensing clear.",
+  "legalcode_url": "https://creativecommons.org/licenses/by-nc/4.0/legalcode.en",
+  "own_stored_reviewed_values": 297,
+  "existing_third_party_candidates": [],
+  "release_status": "Rights only. Requires own-provenance selection, current source and duplicate coverage, semantic review if stale, actual standalone test. No existing community text automatically included.",
+  "public_file_changed": false
+}

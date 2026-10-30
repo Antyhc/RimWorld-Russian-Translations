@@ -8,31 +8,56 @@
   ],
   "rights": {
     "translation": {
-      "status": "unknown",
-      "license": null,
-      "evidence": null,
-      "attribution": null
+      "status": "confirmed",
+      "license": "custom-translation-permission",
+      "evidence": "https://steamcommunity.com/sharedfiles/filedetails/?id=3237638097",
+      "attribution": "Original mod: REEL Expanded Storage by Reel.\nOriginal Workshop: https://steamcommunity.com/sharedfiles/filedetails/?id=3237638097\nOriginal permission: Translation mods are allowed, as long as you credit & link back to the original mod.\nOnly two newly authored Russian additions are included; no original code, art, assemblies, textures, audio or existing Russian redistributed.\nRussian additions: Antyhc,2026; AI-assisted authoring and semantic review by OpenAI Codex. Own Russian additions offered under MIT; original mod rights retained.\nExisting Russian translation: https://steamcommunity.com/sharedfiles/filedetails/?id=3239574222\nOriginal typographic cover by Antyhc; no original artwork used.\nNo independent human proofreading or extended gameplay test claimed.\n",
+      "license_evidence_file": "rights-evidence.json",
+      "required_notice_files": {
+        "About/License.txt": "00e747a335d145dfe33e86acc8398034a1515f8b8dee68192babffffa970bef3",
+        "About/Credits.txt": "a2c8625938959cc2cf79870075cadb09256f1f22a99b3b6f1394d0416236d739"
+      }
     },
     "icon": {
-      "status": "unknown",
-      "license": null,
-      "evidence": null,
-      "attribution": null
+      "status": "confirmed",
+      "kind": "original_typographic_fallback",
+      "license": "MIT",
+      "evidence": "scripts/make_original_cover.py; own typographic design",
+      "attribution": "Own typographic cover by Antyhc; no original mod artwork",
+      "source_sha256": "f77a791dfdaff5f1679988ab3f5488e64c9358cd6cc002dd7ebe377284672391",
+      "preview_sha256": "f77a791dfdaff5f1679988ab3f5488e64c9358cd6cc002dd7ebe377284672391",
+      "original_mod_art_used": false
     }
   },
   "qa": {
-    "technical": "pending",
-    "linguistic": "pending",
-    "source_current": false,
-    "in_game": "not_tested",
-    "checked_at": "2026-10-28T09:15:27.268425+00:00"
+    "technical": "passed",
+    "linguistic": "ai_reviewed",
+    "source_current": true,
+    "in_game": "passed",
+    "checked_at": "2026-10-30T08:20:25.673747+00:00",
+    "source_checked_at": "2026-10-30T08:20:25.673747+00:00",
+    "payload_sha256": "a436799853b1735d6cd5c5bd0a91149b47ec501b2c569adbd7400f97a0c48452",
+    "source_snapshot_sha256": "c0b05c214675f515c8c13bad89555ee84ed8ae2f63896370bf802c11b781eb89",
+    "evidence": "qa-evidence.json",
+    "coverage": "Two own missing fridge name/description entries; all44 other selected batch keys covered by existing Russian remain separate.",
+    "standalone_minimal_game_test": "passed_actual_control_and_candidate",
+    "known_dependency_version_warning": "Adaptive Storage Framework currently declares supported versions only through1.6. This exact dependency-complete translation startup/readback passed RimWorld1.7.4990; broad dependency gameplay compatibility is not claimed.",
+    "game_evidence": "game-test-evidence.json",
+    "game_version": "1.7.4990 rev1069",
+    "game_test_scope": "Actual isolated startup and physical language-value readback, exact active dependencies/DLC and source/payload/probe hashes; no save, extended gameplay or independent human proofreading claim.",
+    "game_test_evidence_sha256": "273713d279313a74dc98ee24f125a06ae5c8a3aebfe6e82b17af7bb0484eeccf"
   },
   "publication": {
     "github_url": "https://github.com/Antyhc/RimWorld-Russian-Translations/tree/main/mods/reel.expanded.storage",
-    "github_status": "metadata_only",
-    "workshop_url": null,
-    "workshop_id": null,
-    "workshop_status": "not_published"
+    "github_status": "prepared_not_published",
+    "workshop_url": "https://steamcommunity.com/sharedfiles/filedetails/?id=3830014953",
+    "workshop_id": "3830014953",
+    "workshop_status": "submitted_public_page_unverified",
+    "release_blockers": [],
+    "dependency_verified": true,
+    "collection_id": "3828791160",
+    "collection_member_verified": true,
+    "published_at": "2026-10-30T08:49:02.799414+00:00"
   },
   "integration": {
     "status": "not_sent",
@@ -94,5 +119,13 @@
     "work_stage": "installed_local",
     "saved_translation_store": true
   },
-  "work_stage": "installed_local"
+  "work_stage": "ready_for_publication",
+  "duplicate_translation": {
+    "status": "checked_no_current_equivalent",
+    "checked_at": "2026-10-30T08:20:25.673747+00:00",
+    "scope": "Current official cached Russian3239574222 has86rows andcovers44/46 own QA targets. Only2missing fridge entries are included. Original About requires Props and Decor, whose content root defines these selectedDefs.",
+    "candidates": [
+      "https://steamcommunity.com/sharedfiles/filedetails/?id=3239574222"
+    ]
+  }
 }

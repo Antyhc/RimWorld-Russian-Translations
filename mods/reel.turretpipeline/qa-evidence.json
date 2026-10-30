@@ -1,0 +1,64 @@
+{
+  "schema": 1,
+  "checked_at": "2026-10-30T07:52:08.532147+00:00",
+  "translation_rows": 21,
+  "semantic_review": "All English/Russian pairs individually reread against settings/recipe/pipe network context. Existing correct text retained; placeholders, tags and numeric values preserved.",
+  "independent_human_review": false,
+  "game_tested": true,
+  "native_russian_preserved": true,
+  "third_party_russian_copied": false,
+  "held_optional_targets": [
+    {
+      "key": "DefInjected|PipeSystem.ProcessDef|Reel_MakeTurretAmmo.description",
+      "reason": "missing_source"
+    },
+    {
+      "key": "DefInjected|PipeSystem.ProcessDef|Reel_MakeTurretAmmo.label",
+      "reason": "missing_source"
+    },
+    {
+      "key": "DefInjected|PipeSystem.ProcessDef|Reel_MakeTurretAmmoBulk.description",
+      "reason": "missing_source"
+    },
+    {
+      "key": "DefInjected|PipeSystem.ProcessDef|Reel_MakeTurretAmmoBulk.label",
+      "reason": "missing_source"
+    }
+  ],
+  "payload_sha256": "71ebc691458ae417f8802f8b5dc6096c74ce68592bfa5c4b1e614262b5319233",
+  "payload_file_hashes": {
+    "About/About.xml": "16bdd6f1989c0c8ce24a95ebb4e3f461bdb05581d6ecc8f7538c3f5210431224",
+    "About/Credits.txt": "6e808c9c954ffd2fcff495c8389e90de87cb707ce6cc771520a1cee9e43df310",
+    "About/License.txt": "b3d34550850edbd99e206cf59890e119b117bc2d259806c9bc2ed27fe82eefe4",
+    "About/Preview.png": "07ee281c24a4e4c58dd9ba95ef49ff3de6c7639a458ba705d1e4bc73f3060b6a",
+    "Languages/Russian/DefInjected/DesignationCategoryDef/AdditionalRussian.xml": "1e295b5c5f4b7bcae651163b121f058693471f10bed14e78195e75b0afc4efd8",
+    "Languages/Russian/DefInjected/RecipeDef/AdditionalRussian.xml": "1db8f43488f6135728ef8bd99c927962db0eff14124af39509ae636c48f7d004",
+    "Languages/Russian/DefInjected/ThingDef/AdditionalRussian.xml": "927c961e6d8a0d1e4b861fefd05bead3aa68d5271b0ef9fc0b469c388c3ff5d1",
+    "Languages/Russian/Keyed/AdditionalRussian.xml": "89d1c98618949a54dafa1f9cae7ff0986eb72f973cb8dd9a0be13b87cc7c91e6"
+  },
+  "current_source_input_hashes": {
+    "1.6\\Defs\\Designation.xml": "e8e0ddd9acfa911fbc5fb05fde8cf924b25134da85da7c463de904cd58ae16de",
+    "1.6\\Defs\\Items_Ammunition.xml": "a04ec376bfd4194b30527fb9305a595784729194ccf9d583864d8413954cd5f9",
+    "1.6\\Defs\\NetDefs\\AmmunitionNet.xml": "9bf61cf072aa94bb77ca5223043bbbdc135dd17188573a3ce22b3643b757b337",
+    "1.6\\Defs\\Recipes_Ammunition.xml": "3f7b82c73c321cfa3564bdad705c8d31762c920343191085eba524360137381c",
+    "1.6\\Patches\\Giant autocannon turret.xml": "298093b1fad1be44e8ab6f057f084042ecea06706be24a8ee4de7adadfa25e7a",
+    "1.6\\Patches\\Giant uranium turret.xml": "1afe05d83f971c438b68874aaafeefb27f7bdb07d875aaa65a81febe451d284d",
+    "1.6\\Patches\\Rimeffect Renegade.xml": "f829780734fc5a32c62419d668c249f74dddd972cdf776f08aebe9e48a2f8df0",
+    "1.6\\Patches\\Rimeffect.xml": "51b07a6298c55ba7eadc80807e182f00a42e679462e3884da0e5e4b1deff3fa3",
+    "1.6\\Patches\\Smxrez Hidden.xml": "981c12de35f04b8f40a5c0480b9193045b54a0c19f434667d3cfad073c66abfe",
+    "1.6\\Patches\\Vanilla.xml": "2381814d3c085c159fea7f7db8325a548b110bc5c3a51fcd0ec595faa49426a5",
+    "1.6\\Patches\\VE Gravships 2.xml": "81f6c11bfb632ccb0cd3638de60b5c4b262bc66e81d9c91fb82d72230cf11148",
+    "1.6\\Patches\\VE Gravships.xml": "7cec5a13b7308f28fcecc370abebc2074e2032d546ec87a09b7bad0cb09c67b6",
+    "1.6\\Patches\\VFE Ancients.xml": "71c6e17a0e29c3679c14cfcc6b9144e471afd91faf279fa190c1ec7a8abd7d66",
+    "1.6\\Patches\\VFE Nonlethal.xml": "1e9979fde7750f26a0f0bfd21b270d37951ba58107469c694bd109e2b52aaef9",
+    "1.6\\Patches\\VFE Security DLC.xml": "09c48a76ede49a32645116c8948d09fec18336fdadaf57f16828aa97ae5bc290",
+    "1.6\\Patches\\VFE Security.xml": "483f5b689cc52477460aece2b43370fe1ea1f773b37bfe8605be7c873fb21284",
+    "About\\About.xml": "8afb1e28a1e992881891772f0744b4e43dc681bbf91cf062cc10422c230bee7f",
+    "Languages\\English\\Keyed\\Keys.xml": "ef8a28109f3a0d895f159479e4e3f2457bc79570bcea1fc55f3bec937e74ebe9",
+    "LoadFolders.xml": "c8239e0fd72d2380a1f9b7e0de47c79e436bc801998bb7630720a819655802b3"
+  },
+  "game_test_evidence": "game-test-evidence.json",
+  "game_test_evidence_sha256": "69c17159a1dd2bdd988f5070b682af7b326becbe92ace5c0a938bd97358f8ad5",
+  "game_test_scope": "Actual isolated startup and physical language-value readback, exact active dependencies/DLC and source/payload/probe hashes; no save, extended gameplay or independent human proofreading claim.",
+  "historical_test_claim_replaced_by_current_exact_pair": true
+}

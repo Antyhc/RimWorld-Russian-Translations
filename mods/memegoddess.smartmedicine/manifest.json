@@ -49,14 +49,16 @@
     "github_status": "published",
     "workshop_url": "https://steamcommunity.com/sharedfiles/filedetails/?id=3828790822",
     "workshop_id": "3828790822",
-    "workshop_status": "submitted_public_automatic_content_check",
+    "workshop_status": "published",
     "dependency_verified": true,
-    "anonymous_page_verified": false,
+    "anonymous_page_verified": true,
     "published_at": "2026-10-28T10:42:32.878108+00:00",
     "collection_id": "3828791160",
     "collection_member_verified": true,
     "installation_tested": true,
-    "availability_reason": "Owner Steam page explicitly reports temporary hiding during automated content inspection"
+    "anonymous_page_checked_at": "2026-10-30T07:51:45.177930+00:00",
+    "automatic_content_check_completed": true,
+    "availability_evidence": "Unauthenticated Steam browser page exposes expected title, subscription action, bilingual7-entry description and original dependency; login link visible."
   },
   "integration": {
     "status": "not_sent",

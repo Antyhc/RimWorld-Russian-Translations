@@ -1,0 +1,21 @@
+{
+  "schema": 1,
+  "package_id": "ilyvion.loadingprogress",
+  "workshop_id": "3535481557",
+  "translation_rights": "confirmed_under_recorded_conditions",
+  "license": "MIT",
+  "license_choice": "Upstream is Apache-2.0 OR MIT; this translation uses the MIT alternative.",
+  "public_license_url": "https://github.com/ilyvion/loading-progress/blob/main/LICENSE.MIT",
+  "public_license_blob_sha": "bedd50ec9b1ed36243182c66ea888b58c679b730",
+  "public_license_text": "Copyright (c) 2025 Alexander Krivács Schrøder\n\nPermission is hereby granted, free of charge, to any person obtaining a copy\nof this software and associated documentation files (the \"Software\"), to deal\nin the Software without restriction, including without limitation the rights\nto use, copy, modify, merge, publish, distribute, sublicense, and/or sell\ncopies of the Software, and to permit persons to whom the Software is\nfurnished to do so, subject to the following conditions:\n\nThe above copyright notice and this permission notice shall be included in all\ncopies or substantial portions of the Software.\n\nTHE SOFTWARE IS PROVIDED \"AS IS\", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR\nIMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,\nFITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE\nAUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER\nLIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,\nOUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE\nSOFTWARE.\n",
+  "public_license_declaration_url": "https://github.com/ilyvion/loading-progress/blob/main/LICENSE",
+  "public_about_url": "https://github.com/ilyvion/loading-progress/blob/main/About/About.xml",
+  "public_about_blob_sha": "7558f97a8f1e7b45f33d8df7cadad139844d8689",
+  "original_workshop_url": "https://steamcommunity.com/sharedfiles/filedetails/?id=3535481557",
+  "original_author": "ilyvion (Alexander Krivács Schrøder)",
+  "own_stored_reviewed_values": 270,
+  "unlicensed_community_values_excluded": 129,
+  "conditions": "Preserve exact MIT copyright/permission notice, original author attribution and original-mod dependency. Own original cover. Upstream explicitly invites Languages-only separate translation mods. Do not redistribute the original mod or its code/art. Original uses custom early-startup language loader, so a fresh test must exercise that actual loader/UI rather than only ordinary game Keyed.",
+  "release_status": "Rights cleared only; direct current-source/duplicate comparison, own-only selection and actual early-loading UI test required.",
+  "public_file_changed": false
+}

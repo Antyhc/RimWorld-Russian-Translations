@@ -58,11 +58,20 @@
     "installation_tested": true
   },
   "integration": {
-    "status": "pr_submitted",
+    "status": "open",
     "pr_url": "https://github.com/merthsoft/designator-shapes/pull/15",
     "contact_url": null,
     "submitted_at": "2026-10-28",
-    "head_sha": "cf5d3cc0f4f958c1558101d0be8ee0e3edd0c1b1"
+    "head_sha": "cf5d3cc0f4f958c1558101d0be8ee0e3edd0c1b1",
+    "last_checked_at": "2026-10-30T07:40:27.821011+00:00",
+    "merged": false,
+    "merged_at": null,
+    "merge_commit": null,
+    "original_native_accepted": false,
+    "community_translation_accepted": false,
+    "review_changes_requested": false,
+    "merge_conflicts": false,
+    "response_evidence": "community/author-responses-2026-10-30.json"
   },
   "original": {
     "author": "merthsoft",

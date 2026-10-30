@@ -1,0 +1,25 @@
+<?xml version='1.0' encoding='utf-8'?>
+<ModMetaData>
+  <name>Blood Animations — Russian completion</name>
+  <author>Antyhc (AI-assisted with OpenAI Codex)</author>
+  <packageId>antyhc.russian.fuu.bloodanimations</packageId>
+  <url>https://github.com/Antyhc/RimWorld-Russian-Translations</url>
+  <description>Дополнение русского перевода Blood Animations от Fuu Chan: три отсутствующие подписи для количества обломков, попаданий в землю и названия окна настроек. Содержит только собственные новые переводы. Рекомендуется использовать вместе с существующим русификатором: его 12 совпадающих ключей не копируются и не заменяются. Требуется оригинальный Blood Animations и Harmony; загружать после оригинала. Подготовлено и вычитано с помощью OpenAI Codex; независимая вычитка человеком не заявляется.
+
+Russian completion for Blood Animations by Fuu Chan: three missing settings captions for debris, ground impacts and the settings-window title. Contains only newly authored translations. Recommended alongside the existing Russian pack; its 12 covered selected keys are neither copied nor replaced. Requires original Blood Animations and Harmony; load after the original. AI-assisted authoring and semantic review by OpenAI Codex; no independent human proofreading claimed.</description>
+  <supportedVersions>
+    <li>1.7</li>
+  </supportedVersions>
+  <modDependencies>
+    <li>
+      <packageId>fuu.bloodanimations</packageId>
+      <displayName>Blood Animations</displayName>
+      <steamWorkshopUrl>https://steamcommunity.com/sharedfiles/filedetails/?id=3228047321</steamWorkshopUrl>
+    </li>
+  </modDependencies>
+  <loadAfter>
+    <li>fuu.bloodanimations</li>
+    <li>brrainz.harmony</li>
+    <li>am.rus.bloodanimations</li>
+  </loadAfter>
+</ModMetaData>

@@ -1,0 +1,30 @@
+{
+  "schema": 1,
+  "checked_at": "2026-10-30T07:47:15.135915+00:00",
+  "package_id": "vanillaexpanded.skills",
+  "workshop_id": "3400246558",
+  "original_author": "legodude17, Oskar Potocki, Sarg Bjornson",
+  "original_workshop_url": "https://steamcommunity.com/sharedfiles/filedetails/?id=3400246558",
+  "translation_rights": "confirmed_under_recorded_conditions",
+  "license": "CC-BY-NC-SA-4.0",
+  "public_evidence_url": "https://steamcommunity.com/sharedfiles/filedetails/?id=3400246558",
+  "official_public_api": "https://api.steampowered.com/ISteamRemoteStorage/GetPublishedFileDetails/v1/",
+  "official_description_sha256": "127519dfe75b0a141634ecdabfedf661ad77d3b8f554668c78944202f37b2ec5",
+  "official_description_updated_unix": 1791981491,
+  "exact_permission_or_license_marker": "https://creativecommons.org/licenses/by-nc-sa/4.0/",
+  "conditions": "Noncommercial release only. Credit original authors/source; identify translation/adaptation changes and AI assistance; retain license URI and supplied notices; no extra restrictions. Adapted translation must be CC-BY-NC-SA-4.0 (ShareAlike).",
+  "legalcode_url": "https://creativecommons.org/licenses/by-nc-sa/4.0/legalcode.en",
+  "own_stored_reviewed_values": 8,
+  "existing_third_party_candidates": [
+    {
+      "name": "Vanilla Skills Expanded Russian Language Pack",
+      "package_id": "ow.ru.skills",
+      "author": "OliveWizard",
+      "workshop_id": "3215507769",
+      "workshop_url": "https://steamcommunity.com/sharedfiles/filedetails/?id=3215507769",
+      "license": "CC-BY-NC-SA-4.0"
+    }
+  ],
+  "release_status": "Rights only. Requires own-provenance selection, current source and duplicate coverage, semantic review if stale, actual standalone test. No existing community text automatically included.",
+  "public_file_changed": false
+}

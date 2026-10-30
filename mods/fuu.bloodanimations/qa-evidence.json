@@ -1,0 +1,55 @@
+{
+  "schema": 1,
+  "checked_at": "2026-10-30T07:46:49.603742+00:00",
+  "translation_rows": 3,
+  "semantic_review": "All selected English/Russian pairs and settings context individually reread; debris is structural impact particles, ground impact is bullet-hit dirt; title is UI heading.",
+  "independent_human_review": false,
+  "game_tested": false,
+  "native_russian_preserved": true,
+  "third_party_russian_copied": false,
+  "comparison_selected_keys_covered": 12,
+  "comparison_file_fingerprint": "479febe8cec568d104811212e180a33308704b222d1ca94877bfd5f958780ee3",
+  "current_source_input_hashes": {
+    "1.7\\Assemblies\\BloodAnimations.dll": "4c7912fe2629c4c6375aaf80db896c31e93755c10eaf4301d8140d7220c0da15",
+    "About\\About.xml": "a4812d9bb501d30d68099eeea5a400e51e0993ce109ec1d6ddc7ca6d1376c820",
+    "Common\\Defs\\FilthDefs\\FilthDefs.xml": "280914520d025ae7e9adc462aeafc2bb4826612b1dec76a9afb3df5475e2e397",
+    "Common\\Defs\\FleckDefs\\BulletCasingDefs.xml": "cfe1cd07afbf32c64990fb0d5f6a402873abad0ad030fb98ab697071cc9e465f",
+    "Common\\Defs\\FleckDefs\\ParticleDefs.xml": "402a5445b55250b36b0abe02016299afb67535104f7c682a6da742660d60450e",
+    "Common\\Languages\\English\\Keyed\\TranslationKeys.xml": "5ba0bb4828ab4ebdd99a96f090794349fb80cb3f0a332497b85706e27fd33a56",
+    "Common\\Patches\\FleshbeastPatches.xml": "78742098242c810893a9893682849e3b44782987f469b41e8c3a844222856c30"
+  },
+  "entries": [
+    {
+      "target_id": "Keyed|BloodAnimations_DebrisMultiplier",
+      "source_id": "Keyed|BloodAnimations_DebrisMultiplier",
+      "source_sha256": "60285c3ba6c805c92cc357aeb7a2c343acedf0f7f3fce0c3325f780defe4ffbf",
+      "text_sha256": "8b88421123dee432d3970a184e2d4b5ab8ce1c1378743901d37240c2cfdafad0",
+      "minimal_static_present": true,
+      "origin": "new_contextual_translation"
+    },
+    {
+      "target_id": "Keyed|BloodAnimations_GroundImpactToggle",
+      "source_id": "Keyed|BloodAnimations_GroundImpactToggle",
+      "source_sha256": "8f8e92aa8421b7e7522f67c52503bd2990ad5cb708d9e5d4e6c6b5303e1e3d42",
+      "text_sha256": "b814fe50cf19d0912c1f8ebe3d3487120105f73cb14d1733f82113feff82f1d6",
+      "minimal_static_present": true,
+      "origin": "new_contextual_translation"
+    },
+    {
+      "target_id": "Keyed|BloodAnimations_Title",
+      "source_id": "Keyed|BloodAnimations_Title",
+      "source_sha256": "002370cfab1a7752b6ce08c5bbf4a5884efc5927e34323d20284d9503500aac8",
+      "text_sha256": "d2bc7f8c9a8155e7428ddb1bbf0d08a4bb625b9bd4a37785011d5399e6b3903b",
+      "minimal_static_present": true,
+      "origin": "new_contextual_translation"
+    }
+  ],
+  "payload_sha256": "3b716cfe20ed3771949360812d03c028328f6202cf61921b5edffd4ac98ed719",
+  "payload_file_hashes": {
+    "About/About.xml": "29a5df872408ddc245c19952989bd46e2733cc01e719b4f9bf344b2412ce0717",
+    "About/Credits.txt": "88455e8f4019525cff2d9bfb225526d52e5a2950bfed8b9113d872c2aceb12d0",
+    "About/License.txt": "726eafd2e45a5edbdec604b6010e1da838634d15bcc35ef1735b453baea9f874",
+    "About/Preview.png": "80cbdbe8cab0d7a844d5f9dcfbcdd6954788e7b81080800a572f7d7be25491cb",
+    "Languages/Russian/Keyed/AdditionalRussian.xml": "ec2ab61a57fc4eb4d10c06a9058817b69074f1ff0ea8e9e167b522c590a8e856"
+  }
+}

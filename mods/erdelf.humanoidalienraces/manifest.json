@@ -30,10 +30,13 @@
   },
   "rights": {
     "translation": {
-      "status": "unknown",
-      "license": null,
-      "evidence": null,
-      "attribution": null
+      "status": "confirmed",
+      "license": "MIT",
+      "evidence": "https://github.com/erdelf/AlienRaces/blob/master/license.md",
+      "attribution": "Original: Humanoid Alien Races by erdelf. https://steamcommunity.com/sharedfiles/filedetails/?id=839005762. Conditions: Preserve exact MIT copyright and permission notice; credit original author. Our new translation text may be separately MIT licensed. No original artwork/code/DLLs included. Own fallback cover.",
+      "license_evidence_file": "translation-rights-evidence.json",
+      "grant_checked_at": "2026-10-30 07:41:02 UTC",
+      "grant_scope": "Text-only own translation subject to the recorded license/conditions; does not grant original artwork or third-party Russian rights."
     },
     "icon": {
       "status": "unknown",

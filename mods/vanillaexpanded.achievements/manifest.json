@@ -8,10 +8,13 @@
   ],
   "rights": {
     "translation": {
-      "status": "unknown",
-      "license": null,
-      "evidence": null,
-      "attribution": null
+      "status": "confirmed",
+      "license": "CC-BY-NC-SA-4.0",
+      "evidence": "https://steamcommunity.com/sharedfiles/filedetails/?id=2288125657",
+      "attribution": "Original: Vanilla Achievements Expanded by Oskar Potocki, Smash Phil, Sarg Bjornson. https://steamcommunity.com/sharedfiles/filedetails/?id=2288125657. Conditions: Credit all original creators and source link; state translation/adaptation changes and AI assistance; distribute adapted translation under CC-BY-NC-SA-4.0 with license URI and notices; no commercial use; no additional restrictions. Own fallback artwork, no copied assets/code. Existing third-party Russian requires its own provenance/license.",
+      "license_evidence_file": "translation-rights-evidence.json",
+      "grant_checked_at": "2026-10-30T07:42:41.539337+00:00",
+      "grant_scope": "Text-only own translation subject to the recorded license/conditions; does not grant original artwork or third-party Russian rights."
     },
     "icon": {
       "status": "unknown",

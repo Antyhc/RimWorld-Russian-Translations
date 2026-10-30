@@ -1,0 +1,22 @@
+{
+  "schema": 1,
+  "checked_at": "2026-10-30T07:42:41.538655+00:00",
+  "package_id": "reel.expanded.storage",
+  "workshop_id": "3237638097",
+  "original_author": "Reel",
+  "original_workshop_url": "https://steamcommunity.com/sharedfiles/filedetails/?id=3237638097",
+  "translation_rights": "confirmed_under_recorded_conditions",
+  "license": "custom-translation-permission",
+  "public_evidence_url": "https://steamcommunity.com/sharedfiles/filedetails/?id=3237638097",
+  "official_public_api": "https://api.steampowered.com/ISteamRemoteStorage/GetPublishedFileDetails/v1/",
+  "official_description_sha256": "c1ba67d0db0d38b37f2a3e59efd6c2a81d4671e8c617a29431dc26fa96137985",
+  "official_description_updated_unix": 1791852533,
+  "exact_permission_or_license_marker": "Translation mods are allowed, as long as you credit & link back to the original mod.",
+  "conditions": "Text-only independent translation; credit Reel and link exact original Workshop item. No original art/code/assets; own fallback cover. Own translation copyright/license stated separately.",
+  "legalcode_url": null,
+  "own_reviewed_QA_keys": 46,
+  "native_russian_in_existing_snapshot": 0,
+  "existing_third_party_candidates": [],
+  "release_status": "Rights cleared only; new independent payload requires current-source comparison, duplicate coverage check and minimal actual game testing. Prior42 proof alone does not approve new standalone.",
+  "public_file_changed": false
+}

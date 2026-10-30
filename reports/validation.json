@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-28T14:22:06+00:00",
+  "generated_at": "2026-10-30T09:02:09+00:00",
   "scope": "Static files only; no RimWorld game test is performed.",
   "release_gates": false,
   "mods": [
@@ -357,10 +357,8 @@
     {
       "package_id": "fuu.bloodanimations",
       "errors": [],
-      "warnings": [
-        "payload_missing"
-      ],
-      "language_entries": 0,
+      "warnings": [],
+      "language_entries": 3,
       "release_eligible": false
     },
     {
@@ -819,19 +817,15 @@
     {
       "package_id": "reel.expanded.storage",
       "errors": [],
-      "warnings": [
-        "payload_missing"
-      ],
-      "language_entries": 0,
+      "warnings": [],
+      "language_entries": 2,
       "release_eligible": false
     },
     {
       "package_id": "reel.turretpipeline",
       "errors": [],
-      "warnings": [
-        "payload_missing"
-      ],
-      "language_entries": 0,
+      "warnings": [],
+      "language_entries": 21,
       "release_eligible": false
     },
     {
@@ -1454,10 +1448,8 @@
     {
       "package_id": "wvc.sergkart.biotech.moremechanoidsworkmodes",
       "errors": [],
-      "warnings": [
-        "payload_missing"
-      ],
-      "language_entries": 0,
+      "warnings": [],
+      "language_entries": 23,
       "release_eligible": false
     },
     {

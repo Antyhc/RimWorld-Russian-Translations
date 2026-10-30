@@ -1,0 +1,9 @@
+<?xml version='1.0' encoding='utf-8'?>
+<LanguageData>
+  <Make_TurretAmmo.description>Специальные боеприпасы для автоматических турелей. Этот жизненно важный ресурс можно загружать прямо в турели или подавать по системе трубопроводов, обеспечивая надёжную оборону колонии. Без боеприпасов даже самые совершенные турели превращаются в бесполезные груды металла.</Make_TurretAmmo.description>
+  <Make_TurretAmmo.jobString>Изготавливает боеприпасы для турелей.</Make_TurretAmmo.jobString>
+  <Make_TurretAmmo.label>изготовить боеприпасы для турелей</Make_TurretAmmo.label>
+  <Make_TurretAmmoBulk.description>Специальные боеприпасы для автоматических турелей. Этот жизненно важный ресурс можно загружать прямо в турели или подавать по системе трубопроводов, обеспечивая надёжную оборону колонии. Без боеприпасов даже самые совершенные турели превращаются в бесполезные груды металла.</Make_TurretAmmoBulk.description>
+  <Make_TurretAmmoBulk.jobString>Изготавливает боеприпасы.</Make_TurretAmmoBulk.jobString>
+  <Make_TurretAmmoBulk.label>изготовить боеприпасы для турелей x10</Make_TurretAmmoBulk.label>
+</LanguageData>

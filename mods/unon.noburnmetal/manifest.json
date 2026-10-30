@@ -49,22 +49,36 @@
     "github_status": "published",
     "workshop_url": "https://steamcommunity.com/sharedfiles/filedetails/?id=3828790442",
     "workshop_id": "3828790442",
-    "workshop_status": "published",
+    "workshop_status": "published_integrated_upstream",
     "dependency_verified": true,
     "anonymous_page_verified": true,
     "published_at": "2026-10-28T10:41:35.907741+00:00",
     "collection_id": "3828791160",
     "collection_member_verified": true,
-    "installation_tested": true
+    "installation_tested": true,
+    "standalone_needed": false,
+    "upstream_integration_confirmed": true,
+    "deprecation_guidance_pending": false,
+    "deprecation_guidance_verified": true,
+    "deprecation_guidance_checked_at": "2026-10-30T08:37:15.638595+00:00"
   },
   "integration": {
-    "status": "pr_submitted",
+    "status": "accepted",
     "pr_url": "https://github.com/Nonunon/NoBurnMetal/pull/1",
     "contact_url": null,
     "submitted_at": "2026-10-28",
     "head_sha": "032a0aa1dd34477f1bd49ce7c964aaf2cc2dccb3",
     "last_update": "2026-10-28",
-    "update_reason": "Actual1.7UIbuttonfitfix"
+    "update_reason": "Actual1.7UIbuttonfitfix",
+    "last_checked_at": "2026-10-30T07:40:27.821011+00:00",
+    "merged": true,
+    "merged_at": "2026-10-29T19:36:32Z",
+    "merge_commit": "0f1423173edfa007c0f85a03336b7e628f48c391",
+    "original_native_accepted": true,
+    "community_translation_accepted": false,
+    "review_changes_requested": false,
+    "merge_conflicts": null,
+    "response_evidence": "community/author-responses-2026-10-30.json"
   },
   "original": {
     "author": "Unon",
@@ -120,8 +134,8 @@
     "saved_translation_store": true
   },
   "duplicate_translation": {
-    "status": "checked_no_current_equivalent",
-    "scope": "Current original has no Russian; targeted Workshop discovery found no equivalent standalone.19settingskeys independentlyauthored;6brandlabels intentionallynotcopied.",
+    "status": "now_covered_by_original",
+    "scope": "All19 own Russian keys/values are now identical in the merged official GitHub and current installed original Workshop1923990111. Existing own page retained; no duplicate created.",
     "checked_at": "2026-10-28T10:33:04.486040+00:00"
   },
   "monitor": {
@@ -142,5 +156,5 @@
     "requested_at": "2026-10-28",
     "permission_received": false
   },
-  "work_stage": "installed_local"
+  "work_stage": "integrated_upstream"
 }

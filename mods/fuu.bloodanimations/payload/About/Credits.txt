@@ -1,0 +1,8 @@
+Original mod: Blood Animations by Fuu Chan (Daniel Yeung).
+Original Workshop: https://steamcommunity.com/sharedfiles/filedetails/?id=3228047321
+MIT permission: Copyright (c) 2024-present Daniel Yeung; complete notice in License.txt.
+New Russian additions: Antyhc, 2026; AI-assisted authoring/review by OpenAI Codex; MIT.
+Only three missing Keyed strings are included. No existing/third-party Russian, original code, artwork, assemblies, textures or audio are redistributed.
+Existing Russian translation: https://steamcommunity.com/sharedfiles/filedetails/?id=3278851736
+Original typographic cover by Antyhc; no original mod artwork used.
+No independent human proofreading or long-gameplay test is claimed.

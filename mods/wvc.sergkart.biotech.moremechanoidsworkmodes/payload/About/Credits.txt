@@ -1,0 +1,8 @@
+Original mod: WVC — Work Modes by Sergkart (WVCSergkart).
+Original Workshop: https://steamcommunity.com/sharedfiles/filedetails/?id=2888380373
+Original text: MIT, Copyright (c) 2023 WVCSergkart; complete notice retained in License.txt.
+Russian additions: Antyhc,2026; AI-assisted authoring and semantic review by OpenAI Codex, MIT.
+Only 23 own missing entries; no original code, assemblies, art, textures, audio or existing/third-party Russian redistributed.
+Existing Russian pack: https://steamcommunity.com/sharedfiles/filedetails/?id=3226197754
+Original typographic cover by Antyhc, no original mod artwork.
+No independent human proofreading or long-gameplay test claimed.

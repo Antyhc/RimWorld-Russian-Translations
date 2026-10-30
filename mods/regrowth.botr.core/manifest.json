@@ -35,14 +35,23 @@
     "workshop_status": "not_published"
   },
   "integration": {
-    "status": "pr_submitted",
+    "status": "accepted_into_community_translation",
     "pr_url": "https://github.com/OneCodeUnit/VanillaRussianExpanded/pull/46",
     "contact_url": null,
     "target_kind": "community_translation",
     "target_repository_url": "https://github.com/OneCodeUnit/VanillaRussianExpanded",
-    "head_sha": "256ce8f6cc06c909bf24be1f73ad8b505a8f1b34",
+    "head_sha": "95a43b772322e8e1410014a6503a86d657088a3d",
     "submitted_at": "2026-10-28T13:16:47Z",
-    "original_native_accepted": false
+    "original_native_accepted": false,
+    "last_checked_at": "2026-10-30T07:40:27.821011+00:00",
+    "merged": true,
+    "merged_at": "2026-10-28T15:26:12Z",
+    "merge_commit": "00d88eb3815e3a2c001f9b8fea698fbfc1ab61b5",
+    "community_translation_accepted": true,
+    "review_changes_requested": false,
+    "merge_conflicts": null,
+    "response_evidence": "community/author-responses-2026-10-30.json",
+    "accepted_terminology": "Maintainer revised the description to use светолес; accepted variant retained in provenance."
   },
   "original": {
     "author": "Helixien",

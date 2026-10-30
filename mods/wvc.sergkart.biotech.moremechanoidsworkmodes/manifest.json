@@ -25,38 +25,68 @@
   },
   "rights": {
     "translation": {
-      "status": "unknown",
-      "license": null,
-      "evidence": null,
-      "attribution": null
+      "status": "confirmed",
+      "license": "MIT",
+      "evidence": "https://github.com/WVCSergkart/MoreMechanoidsWorkModes/blob/main/LICENSE",
+      "attribution": "Original mod: WVC — Work Modes by Sergkart (WVCSergkart).\nOriginal Workshop: https://steamcommunity.com/sharedfiles/filedetails/?id=2888380373\nOriginal text: MIT, Copyright (c) 2023 WVCSergkart; complete notice retained in License.txt.\nRussian additions: Antyhc,2026; AI-assisted authoring and semantic review by OpenAI Codex, MIT.\nOnly 23 own missing entries; no original code, assemblies, art, textures, audio or existing/third-party Russian redistributed.\nExisting Russian pack: https://steamcommunity.com/sharedfiles/filedetails/?id=3226197754\nOriginal typographic cover by Antyhc, no original mod artwork.\nNo independent human proofreading or long-gameplay test claimed.\n",
+      "license_evidence_file": "rights-evidence.json",
+      "required_notice_files": {
+        "About/License.txt": "502a81324413850bbda333f818fa0b4e4a2cb0db4e8f25037b21fea941cdae64",
+        "About/Credits.txt": "f6199396c062d519536174fa78cc7d0cefe9105318ebb0fc2c66ea9edc4b3101"
+      }
     },
     "icon": {
-      "status": "unknown",
-      "license": null,
-      "evidence": null,
-      "attribution": null
+      "status": "confirmed",
+      "kind": "original_typographic_fallback",
+      "license": "MIT",
+      "evidence": "scripts/make_original_cover.py; own typographic design",
+      "attribution": "Own typographic cover by Antyhc; no original mod artwork",
+      "source_sha256": "068c0f95c0d0719ae3a52609fbc5315a92befe45cbc23027e94601a7ecac9af9",
+      "preview_sha256": "068c0f95c0d0719ae3a52609fbc5315a92befe45cbc23027e94601a7ecac9af9",
+      "original_mod_art_used": false
     }
   },
   "qa": {
-    "technical": "pending",
-    "linguistic": "pending",
-    "source_current": false,
-    "in_game": "not_tested",
-    "checked_at": "2026-10-28T10:30:30.068317+00:00"
+    "technical": "passed",
+    "linguistic": "ai_reviewed",
+    "source_current": true,
+    "in_game": "passed",
+    "checked_at": "2026-10-30T07:56:12.536423+00:00",
+    "source_checked_at": "2026-10-30T07:56:12.536423+00:00",
+    "payload_sha256": "1d9229cf7a94745aa2e288c18b280265f1a76983cf3a2ea8e0bdec2d44c7046b",
+    "source_snapshot_sha256": "ad74d0bb4d2554698fd64c029b3102e11f11caa0f3483d7c76778575492ab2dc",
+    "evidence": "qa-evidence.json",
+    "coverage": "23 own missing entries,17Keyed+6DefInjected; no existing Russian duplicated.",
+    "standalone_minimal_game_test": "passed_actual_control_and_candidate",
+    "game_evidence": "game-test-evidence.json",
+    "game_version": "1.7.4990 rev1069",
+    "game_test_scope": "Actual isolated startup and physical language-value readback, exact active dependencies/DLC and source/payload/probe hashes; no save, extended gameplay or independent human proofreading claim.",
+    "game_test_evidence_sha256": "89ec4280c8de86075455e729c1bfe877123fdf7244d6c824e87a21248e8c7622"
   },
   "publication": {
     "github_url": "https://github.com/Antyhc/RimWorld-Russian-Translations/tree/main/mods/wvc.sergkart.biotech.moremechanoidsworkmodes",
-    "github_status": "metadata_only",
-    "workshop_url": null,
-    "workshop_id": null,
-    "workshop_status": "not_published"
+    "github_status": "prepared_not_published",
+    "workshop_url": "https://steamcommunity.com/sharedfiles/filedetails/?id=3830010549",
+    "workshop_id": "3830010549",
+    "workshop_status": "published",
+    "release_blockers": [],
+    "anonymous_page_verified": true,
+    "dependency_verified": true,
+    "collection_id": "3828791160",
+    "collection_member_verified": true,
+    "published_at": "2026-10-30T08:34:09.336773+00:00",
+    "anonymous_page_checked_at": "2026-10-30T08:40:10.419654+00:00",
+    "dlc_dependency_app_id": "1826140",
+    "dlc_dependency_verified": true,
+    "installation_tested": true,
+    "installation_scope": "Official Steam subscription/download and exact recursive payload byte comparison; actual Workshop-root game loading is separate."
   },
   "integration": {
     "status": "not_sent",
     "pr_url": null,
     "contact_url": null
   },
-  "work_stage": "reviewed_uninstalled",
+  "work_stage": "ready_for_publication",
   "inventory": {
     "saved_records": 0,
     "historical_approved_records": 0,
@@ -97,5 +127,13 @@
       "new_files_outside_saved_source_inventory_checked": false
     },
     "saved_translation_store": false
+  },
+  "duplicate_translation": {
+    "status": "checked_no_current_equivalent",
+    "checked_at": "2026-10-30T07:56:12.536423+00:00",
+    "scope": "Current official cached Russian3226197754 has118rows, covering100/123 selected own targets. This supplement contains22 absent keys and one existing untranslated English assignment message. No third-party Russian copied; no claim that all23keys were absent.",
+    "candidates": [
+      "https://steamcommunity.com/sharedfiles/filedetails/?id=3226197754"
+    ]
   }
 }

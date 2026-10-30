@@ -8,31 +8,59 @@
   ],
   "rights": {
     "translation": {
-      "status": "unknown",
-      "license": null,
-      "evidence": null,
-      "attribution": null
+      "status": "confirmed",
+      "license": "custom-translation-permission",
+      "evidence": "https://steamcommunity.com/sharedfiles/filedetails/?id=3424132769",
+      "attribution": "Original mod: Reel's Turret Pipeline by Reel.\nOriginal Workshop: https://steamcommunity.com/sharedfiles/filedetails/?id=3424132769\nOriginal text permission: custom-translation-permission; evidence: https://steamcommunity.com/sharedfiles/filedetails/?id=3424132769\nOriginal grant: Translation mods are allowed, as long as you credit & link back to the original mod.\nRussian additions: Antyhc, 2026; own translations, AI-assisted authoring/review by OpenAI Codex; MIT.\nTwenty-one core entries. Four ProcessDef entries exist only in optional VFE Factory integration and are held outside this minimal-context candidate.\nNo original or third-party Russian, code, assemblies, artwork, textures or audio are redistributed.\nOriginal typographic fallback cover by Antyhc; original mod art is not used.\nNo independent human proofreading or long-gameplay testing claimed.\n",
+      "license_evidence_file": "rights-evidence.json",
+      "required_notice_files": {
+        "About/License.txt": "b3d34550850edbd99e206cf59890e119b117bc2d259806c9bc2ed27fe82eefe4",
+        "About/Credits.txt": "6e808c9c954ffd2fcff495c8389e90de87cb707ce6cc771520a1cee9e43df310"
+      }
     },
     "icon": {
-      "status": "unknown",
-      "license": null,
-      "evidence": null,
-      "attribution": null
+      "status": "confirmed",
+      "kind": "original_typographic_fallback",
+      "license": "MIT",
+      "evidence": "scripts/make_original_cover.py; own typographic design",
+      "attribution": "Original typographic cover by Antyhc; no original mod artwork",
+      "source_sha256": "07ee281c24a4e4c58dd9ba95ef49ff3de6c7639a458ba705d1e4bc73f3060b6a",
+      "preview_sha256": "07ee281c24a4e4c58dd9ba95ef49ff3de6c7639a458ba705d1e4bc73f3060b6a",
+      "original_mod_art_used": false
     }
   },
   "qa": {
-    "technical": "pending",
-    "linguistic": "pending",
-    "source_current": false,
-    "in_game": "not_tested",
-    "checked_at": "2026-10-28T09:15:27.268425+00:00"
+    "technical": "passed",
+    "linguistic": "ai_reviewed",
+    "source_current": true,
+    "in_game": "passed",
+    "checked_at": "2026-10-30T07:52:08.532147+00:00",
+    "source_checked_at": "2026-10-30T07:52:08.532147+00:00",
+    "payload_sha256": "71ebc691458ae417f8802f8b5dc6096c74ce68592bfa5c4b1e614262b5319233",
+    "source_snapshot_sha256": "46cfded29039157ec32cedbf9cf7735951b9560cfb98f73971c64d7060badaa1",
+    "evidence": "qa-evidence.json",
+    "coverage": "Twenty-one core entries. Four ProcessDef entries exist only in optional VFE Factory integration and are held outside this minimal-context candidate.",
+    "standalone_minimal_game_test": "passed_actual_control_and_candidate",
+    "game_evidence": "game-test-evidence.json",
+    "game_version": "1.7.4990 rev1069",
+    "game_test_scope": "Actual isolated startup and physical language-value readback, exact active dependencies/DLC and source/payload/probe hashes; no save, extended gameplay or independent human proofreading claim.",
+    "game_test_evidence_sha256": "69c17159a1dd2bdd988f5070b682af7b326becbe92ace5c0a938bd97358f8ad5"
   },
   "publication": {
     "github_url": "https://github.com/Antyhc/RimWorld-Russian-Translations/tree/main/mods/reel.turretpipeline",
-    "github_status": "metadata_only",
-    "workshop_url": null,
-    "workshop_id": null,
-    "workshop_status": "not_published"
+    "github_status": "prepared_not_published",
+    "workshop_url": "https://steamcommunity.com/sharedfiles/filedetails/?id=3830009448",
+    "workshop_id": "3830009448",
+    "workshop_status": "published",
+    "release_blockers": [],
+    "anonymous_page_verified": true,
+    "dependency_verified": true,
+    "collection_id": "3828791160",
+    "collection_member_verified": true,
+    "published_at": "2026-10-30T08:30:15.669602+00:00",
+    "anonymous_page_checked_at": "2026-10-30T08:40:10.419654+00:00",
+    "installation_tested": true,
+    "installation_scope": "Official Steam subscription/download and exact recursive payload byte comparison; actual Workshop-root game loading is separate."
   },
   "integration": {
     "status": "not_sent",
@@ -80,5 +108,11 @@
     "work_stage": "installed_local",
     "saved_translation_store": true
   },
-  "work_stage": "installed_local"
+  "work_stage": "ready_for_publication",
+  "duplicate_translation": {
+    "status": "checked_no_current_equivalent",
+    "checked_at": "2026-10-30T07:52:08.532147+00:00",
+    "candidates": [],
+    "scope": "Focused current exact-original/title plus Russian discovery found no equivalent for this21-entry core release; original native Russian absent. This is scoped discovery, not exhaustive Workshop proof."
+  }
 }

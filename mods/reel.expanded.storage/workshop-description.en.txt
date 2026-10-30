@@ -1,0 +1,11 @@
+Russian completion for REEL Expanded Storage by Reel: the missing fridge name and description. Only two newly authored language entries; 44 other selected batch keys are already covered by the existing Russian pack and are not included.
+
+Requires original REEL Expanded Storage and its mandatory dependencies Adaptive Storage Framework and Vanilla Furniture Expanded — Props and Decor. Load after the original. Recommended alongside the existing Russian pack. Translation compatibility: RimWorld 1.7; tested on 1.7.4990 rev1069.
+
+An isolated profile with the actual mandatory dependencies verified both English control and both Russian values, their original owner and physical field path. The same 38 baseline localization errors occurred without the translation; no additional errors. Adaptive Storage Framework currently declares versions only through 1.6. This verifies translation startup/readback on the stated build, not broad gameplay compatibility of that dependency. No saves were opened; extended gameplay and this copy’s Workshop installation have not been checked separately.
+
+Original author: Reel. The original explicitly permits translation mods with credit and a source link. Own Russian additions: Antyhc, MIT; AI-assisted authoring and semantic review by OpenAI Codex. No independent human proofreading claimed. No original code, DLLs, artwork or third-party Russian is included. The cover is an original typographic design.
+
+Original: https://steamcommunity.com/sharedfiles/filedetails/?id=3237638097
+Existing Russian pack: https://steamcommunity.com/sharedfiles/filedetails/?id=3239574222
+Project: https://github.com/Antyhc/RimWorld-Russian-Translations

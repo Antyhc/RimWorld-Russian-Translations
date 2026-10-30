@@ -1,0 +1,31 @@
+{
+  "schema": 1,
+  "checked_at": "2026-10-30T07:42:41.539681+00:00",
+  "package_id": "vanillaexpanded.vanillabackstoriesexpanded",
+  "workshop_id": "2861806869",
+  "original_author": "Oskar Potocki, Legodude17",
+  "original_workshop_url": "https://steamcommunity.com/sharedfiles/filedetails/?id=2861806869",
+  "translation_rights": "confirmed_under_recorded_conditions",
+  "license": "CC-BY-NC-SA-4.0",
+  "public_evidence_url": "https://steamcommunity.com/sharedfiles/filedetails/?id=2861806869",
+  "official_public_api": "https://api.steampowered.com/ISteamRemoteStorage/GetPublishedFileDetails/v1/",
+  "official_description_sha256": "bd6134ddfea8681648aed8fbaf34322351e6cc1933785c22508da949fb57a7ac",
+  "official_description_updated_unix": 1791979091,
+  "exact_permission_or_license_marker": "(CC BY-NC-SA 4.0)",
+  "conditions": "Credit all original creators and source link; state translation/adaptation changes and AI assistance; distribute adapted translation under CC-BY-NC-SA-4.0 with license URI and notices; no commercial use; no additional restrictions. Own fallback artwork, no copied assets/code. Existing third-party Russian requires its own provenance/license.",
+  "legalcode_url": "https://creativecommons.org/licenses/by-nc-sa/4.0/legalcode.en",
+  "own_reviewed_QA_keys": 171,
+  "native_russian_in_existing_snapshot": 0,
+  "existing_third_party_candidates": [
+    {
+      "name": "Vanilla Backstories Expanded Russian Language Pack",
+      "package_id": "ow.ru.backstories",
+      "author": "OliveWizard, Amortem, Hart ty",
+      "workshop_id": "2869759953",
+      "workshop_url": "https://steamcommunity.com/sharedfiles/filedetails/?id=2869759953",
+      "license": "CC-BY-NC-SA-4.0"
+    }
+  ],
+  "release_status": "Rights cleared only; new independent payload requires current-source comparison, duplicate coverage check and minimal actual game testing. Prior42 proof alone does not approve new standalone.",
+  "public_file_changed": false
+}

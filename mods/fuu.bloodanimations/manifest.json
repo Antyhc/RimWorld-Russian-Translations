@@ -8,31 +8,61 @@
   ],
   "rights": {
     "translation": {
-      "status": "unknown",
-      "license": null,
-      "evidence": null,
-      "attribution": null
+      "status": "confirmed",
+      "license": "MIT",
+      "evidence": "https://github.com/tenguin/Rimworld_BloodAnimations/blob/main/LICENSE",
+      "attribution": "Original mod: Blood Animations by Fuu Chan (Daniel Yeung).\nOriginal Workshop: https://steamcommunity.com/sharedfiles/filedetails/?id=3228047321\nMIT permission: Copyright (c) 2024-present Daniel Yeung; complete notice in License.txt.\nNew Russian additions: Antyhc, 2026; AI-assisted authoring/review by OpenAI Codex; MIT.\nOnly three missing Keyed strings are included. No existing/third-party Russian, original code, artwork, assemblies, textures or audio are redistributed.\nExisting Russian translation: https://steamcommunity.com/sharedfiles/filedetails/?id=3278851736\nOriginal typographic cover by Antyhc; no original mod artwork used.\nNo independent human proofreading or long-gameplay test is claimed.\n",
+      "license_evidence_file": "rights-evidence.json",
+      "required_notice_files": {
+        "About/License.txt": "726eafd2e45a5edbdec604b6010e1da838634d15bcc35ef1735b453baea9f874",
+        "About/Credits.txt": "88455e8f4019525cff2d9bfb225526d52e5a2950bfed8b9113d872c2aceb12d0"
+      }
     },
     "icon": {
-      "status": "unknown",
-      "license": null,
-      "evidence": null,
-      "attribution": null
+      "status": "confirmed",
+      "kind": "original_typographic_fallback",
+      "license": "MIT",
+      "evidence": "scripts/make_original_cover.py; own typographic design",
+      "attribution": "Original typographic cover by Antyhc; no original mod art",
+      "source_sha256": "80cbdbe8cab0d7a844d5f9dcfbcdd6954788e7b81080800a572f7d7be25491cb",
+      "preview_sha256": "80cbdbe8cab0d7a844d5f9dcfbcdd6954788e7b81080800a572f7d7be25491cb",
+      "original_mod_art_used": false
     }
   },
   "qa": {
-    "technical": "pending",
-    "linguistic": "pending",
-    "source_current": false,
-    "in_game": "not_tested",
-    "checked_at": "2026-10-28T09:15:27.268425+00:00"
+    "technical": "passed",
+    "linguistic": "ai_reviewed",
+    "source_current": true,
+    "in_game": "passed",
+    "checked_at": "2026-10-30T07:46:49.603742+00:00",
+    "source_checked_at": "2026-10-30T07:46:49.603742+00:00",
+    "payload_sha256": "3b716cfe20ed3771949360812d03c028328f6202cf61921b5edffd4ac98ed719",
+    "source_snapshot_sha256": "e4f714265a8890807920baadcd9514ec85d36a6ffc70cafc9ca581ce8635cd03",
+    "evidence": "qa-evidence.json",
+    "coverage": "Two absent Keyed settings captions plus an own Russian rendition of the existing English settings heading; not three absent keys.",
+    "standalone_minimal_game_test": "passed_actual_control_and_candidate",
+    "game_evidence": "game-test-evidence.json",
+    "game_version": "1.7.4990 rev1069",
+    "game_test_scope": "Actual isolated startup and physical language-value readback, exact active dependencies/DLC and source/payload/probe hashes; no save, extended gameplay or independent human proofreading claim.",
+    "game_test_evidence_sha256": "c46e037f9a1f544a2b90f2c79efe25b0e293e2bc478d9a03d926abf253b32bf2",
+    "ui_inspected": true,
+    "ui_scope": "Russian settings title and both captions visually inspected in actual candidate profile; remaining captions are English without the separately linked primary Russian pack."
   },
   "publication": {
     "github_url": "https://github.com/Antyhc/RimWorld-Russian-Translations/tree/main/mods/fuu.bloodanimations",
-    "github_status": "metadata_only",
-    "workshop_url": null,
-    "workshop_id": null,
-    "workshop_status": "not_published"
+    "github_status": "prepared_not_published",
+    "workshop_url": "https://steamcommunity.com/sharedfiles/filedetails/?id=3830000511",
+    "workshop_id": "3830000511",
+    "workshop_status": "published",
+    "release_blockers": [],
+    "anonymous_page_verified": true,
+    "dependency_verified": true,
+    "collection_id": "3828791160",
+    "collection_member_verified": true,
+    "published_at": "2026-10-30T08:01:16.777189+00:00",
+    "anonymous_page_checked_at": "2026-10-30T08:37:15.638595+00:00",
+    "installation_tested": true,
+    "installation_scope": "Official Steam subscription/download and exact recursive payload byte comparison; actual Workshop-root game loading is separate."
   },
   "integration": {
     "status": "not_sent",
@@ -94,11 +124,14 @@
     "saved_translation_store": true
   },
   "duplicate_translation": {
-    "status": "standalone_not_cleared",
+    "status": "checked_no_current_equivalent",
+    "checked_at": "2026-10-30T07:46:49.603742+00:00",
     "candidates": [
       "https://steamcommunity.com/sharedfiles/filedetails/?id=3278851736"
     ],
-    "reason": "Existing Russian pack found; current coverage not yet evaluated. Official GitHub older than current Workshop1.7."
+    "scope": "Existing3278851736 already supplies12selectedkeys including an English brand heading. This patch adds2absentcaptions and optionally localizes that heading; no existing Russian text is copied.",
+    "absent_keys": 2,
+    "localized_heading_variant": 1
   },
-  "work_stage": "installed_local"
+  "work_stage": "ready_for_publication"
 }

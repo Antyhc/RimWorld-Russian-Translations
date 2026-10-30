@@ -1,0 +1,32 @@
+{
+  "schema": 1,
+  "status": "actual_minimal_control_and_candidate_verified",
+  "checked_at": "2026-10-30T07:53:32.137975+00:00",
+  "case_id": "fuu3",
+  "package_id": "fuu.bloodanimations",
+  "translation_package_id": "antyhc.russian.fuu.bloodanimations",
+  "game_version": "1.7.4990 rev1069",
+  "payload_sha256": "3b716cfe20ed3771949360812d03c028328f6202cf61921b5edffd4ac98ed719",
+  "values_verified": 3,
+  "english_control_values_verified": 3,
+  "baseline_localization_errors": 38,
+  "candidate_localization_errors": 38,
+  "additional_localization_errors": 0,
+  "exact_error_multiset_unchanged": true,
+  "candidate_root_verified": true,
+  "keyed_owner_verified": true,
+  "source_inputs_unchanged": true,
+  "control_capture_sha256": "06297218eb6eeef3bb14fbbce9ed4660025f8f9339c6e3bee3cdcbdde0ec0823",
+  "candidate_capture_sha256": "e31564e1c15ceb1a125892ce3d1283a7249a0cfead01b043ab047fe9fe0d4b2a",
+  "request_sha256": "b39449ea4a19ba8b7372f4d18750f443fa77b694bcd9e95a85e97eac62d5b9d0",
+  "probe_dll_sha256": "01359af068f9b58b29c4f7b61c35742b88cf4c7881ba2e09a7cf277a6b90d7a8",
+  "active_packages": [
+    "brrainz.harmony",
+    "ludeon.rimworld",
+    "fuu.bloodanimations",
+    "antyhc.russian.fuu.bloodanimations",
+    "publicationqa.session4.fuu3"
+  ],
+  "gameplay_tested": false,
+  "scope": "Actual isolated startup and physical language-value readback, exact active dependencies/DLC and source/payload/probe hashes; no save, extended gameplay or independent human proofreading claim."
+}
