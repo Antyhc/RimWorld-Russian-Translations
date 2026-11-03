@@ -2,11 +2,11 @@
 
 Generated from `mods/*/manifest.json` by `python scripts/rwtranslations.py registry`.
 
-Last inventory generation (UTC): 2026-10-30T11:46:20+00:00
+Last inventory generation (UTC): 2026-11-03T17:31:56+00:00
 
 The registry tracks **166 mods**: 156 saved-store records and 10 additional draft/review metadata records; 0 records have unverified store scope. Saved stores can also contain unfinished drafts. Original and translation package IDs are separate namespaces. Discovery has no fixed mod limit.
 
-Steam has confirmed 14 item submissions: **14 pages verified anonymously**, 0 awaiting automatic content inspection. A submitted item ID or public API visibility flag alone does not prove public page access.
+Steam has confirmed 14 item submissions: **13 pages verified anonymously**, 0 awaiting automatic content inspection. A submitted item ID or public API visibility flag alone does not prove public page access.
 
 | Workshop translation | Website state | Game QA evidence |
 |---|---|---|
@@ -22,7 +22,7 @@ Steam has confirmed 14 item submissions: **14 pages verified anonymously**, 0 aw
 | [No Burn Metal](https://steamcommunity.com/sharedfiles/filedetails/?id=3828790442) | public; anonymous page verified | [passed](mods/unon.noburnmetal/game-test-evidence.json) |
 | [Vanilla Achievements Expanded](https://steamcommunity.com/sharedfiles/filedetails/?id=3830022947) | public; anonymous page verified | [passed](mods/vanillaexpanded.achievements/game-test-evidence.json) |
 | [Vanilla Traits Expanded](https://steamcommunity.com/sharedfiles/filedetails/?id=3830032379) | public; anonymous page verified | [passed](mods/vanillaexpanded.vanillatraitsexpanded/game-test-evidence.json) |
-| [Vanilla Cooking Expanded](https://steamcommunity.com/sharedfiles/filedetails/?id=3830078437) | public; anonymous page verified | [passed](mods/vanillaexpanded.vcooke/game-test-evidence.json) |
+| [Vanilla Cooking Expanded](https://steamcommunity.com/sharedfiles/filedetails/?id=3830078437) | previously_published_currently_unavailable | [passed](mods/vanillaexpanded.vcooke/game-test-evidence.json) |
 | [WVC - Work Modes](https://steamcommunity.com/sharedfiles/filedetails/?id=3830010549) | public; anonymous page verified | [passed](mods/wvc.sergkart.biotech.moremechanoidsworkmodes/game-test-evidence.json) |
 
 Game QA: 859 expected Russian values loaded across the recorded isolated RimWorld 1.7.4990 rev1069 checks. Each linked evidence file records its own baseline errors, Workshop-copy verification and UI inspection scope. Personal configuration hashes were unchanged. This is load/readback testing, **not a colony playthrough or extended gameplay test**. No independent human proofreading is claimed.
@@ -33,12 +33,13 @@ The private batch results above are historical. Current source-context validatio
 
 [Workshop collection](https://steamcommunity.com/sharedfiles/filedetails/?id=3830036321): **native item and membership created; website publication pending**. Membership uses native SteamUGC AddDependency with postcondition verification; website publication is a separate step.
 
-Official web wizard created the collection and uploaded its own preview. Owner Publish button does not complete; supported native visibility-only update returned15 AccessDenied with needs_legal=false. Fresh SDK readback confirms exactly14members and private(2) visibility. No public collection availability is claimed.
+Steam returned AccessDenied on the 30 October visibility update. On 3 November the owner SDK still reported private visibility (2).
 
 Integration proposals:
 
 - [Adaptive Storage Framework](https://github.com/bbradson/Adaptive-Storage-Framework/pull/41): open.
-- [Designator Shapes](https://github.com/merthsoft/designator-shapes/pull/15): open.
+- [Loading Progress](https://github.com/ilyvion/loading-progress/pull/13): open (README link to an independently published translation).
+- [Designator Shapes](https://github.com/merthsoft/designator-shapes/pull/15): accepted.
 - [Vanilla Expanded Framework](https://github.com/OneCodeUnit/VanillaRussianExpanded/pull/47): open (community translation repository; original-native acceptance not claimed).
 - [ReGrowth 2](https://github.com/OneCodeUnit/VanillaRussianExpanded/pull/46): accepted_into_community_translation (community translation repository; original-native acceptance not claimed).
 - [Yet Another Research Tree (YART)](https://github.com/csh1668/YetAnotherResearchTree/pull/6): open.
@@ -65,10 +66,10 @@ The 13 source-drift packages were refreshed. Targeted repairs added 20 strings, 
 | github_metadata_records | 166 |
 | github_published | 14 |
 | workshop_submitted | 14 |
-| workshop_published | 14 |
-| pull_requests | 6 |
-| integration_records | 9 |
-| accepted | 1 |
+| workshop_published | 13 |
+| pull_requests | 7 |
+| integration_records | 10 |
+| accepted | 2 |
 | awaiting_rights | 122 |
 | needs_update | 13 |
 | freshness_unverified | 152 |
@@ -76,9 +77,9 @@ The 13 source-drift packages were refreshed. Targeted repairs added 20 strings, 
 | static_inventory_flagged | 20 |
 | static_findings | 49 |
 | repository_monitors | 24 |
-| pull_request_monitors | 6 |
+| pull_request_monitors | 7 |
 | icon_permission_requests | 2 |
-| workshop_public_pages_verified | 14 |
+| workshop_public_pages_verified | 13 |
 | workshop_content_check_pending | 0 |
 | workshop_source_monitors | 166 |
 

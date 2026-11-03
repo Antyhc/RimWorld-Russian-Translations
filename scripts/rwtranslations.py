@@ -587,6 +587,8 @@ def status_markdown(reg, root=None):
         integration = mod.get("integration", {})
         if integration.get("pr_url"):
             target = " (community translation repository; original-native acceptance not claimed)" if integration.get("target_kind") == "community_translation" else ""
+            if integration.get("target_kind") == "translation_listing":
+                target = " (README link to an independently published translation)"
             lines.append(f"- [{mod.get('name', mod['package_id'])}]({integration['pr_url']}): {integration.get('status', 'unknown')}{target}.")
     lines += ["", "Current pilot covers are original typographic fallback designs. Original-art permission requests remain separate and do not block these covers. Other records with unconfirmed translation rights are held from distribution.", "",
               "The 13 source-drift packages were refreshed. Targeted repairs added 20 strings, updated seven Russian texts and preserved 15 correct translations with new source hashes across five packages. These repairs have no new in-game test. Large outstanding deltas and stale custom-field proofs remain under review; historical static findings are not a count of broken translations.", "", "| Metric | Count |", "|---|---:|"]
@@ -742,7 +744,10 @@ def check_integration(mod, cache=None):
     try:
         pr = fetch_json(api)
         if pr.get("merged_at"):
-            status = "accepted_into_community_translation" if integration.get("target_kind") == "community_translation" else "accepted"
+            status = {
+                "community_translation": "accepted_into_community_translation",
+                "translation_listing": "listed_in_readme",
+            }.get(integration.get("target_kind"), "accepted")
         elif pr.get("state") == "closed":
             status = "closed_unmerged"
         elif pr.get("state") == "open":
@@ -761,7 +766,7 @@ def check_integration(mod, cache=None):
             status = "changes_requested" if "CHANGES_REQUESTED" in decisive.values() else "open"
         else:
             raise ValueError("Unexpected pull request state")
-        action_required = status in ("accepted", "accepted_into_community_translation", "closed_unmerged", "changes_requested") and integration.get("status") != status
+        action_required = status in ("accepted", "accepted_into_community_translation", "listed_in_readme", "closed_unmerged", "changes_requested") and integration.get("status") != status
         return {"package_id": mod["package_id"], "pr_url": url, "status": status, "recorded_status": integration.get("status"), "action_required": action_required, "head_sha": pr.get("head", {}).get("sha"), "merged_at": pr.get("merged_at")}
     except Exception as ex:
         return {"package_id": mod["package_id"], "pr_url": url, "status": "error", "action_required": True, "error": str(ex)}

@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "generated_at": "2026-10-30T11:46:20+00:00",
+  "generated_at": "2026-11-03T17:31:56+00:00",
   "mods": [
     {
       "schema_version": 1,
@@ -5809,9 +5809,16 @@
         "github_publication_date": "2026-10-30"
       },
       "integration": {
-        "status": "not_sent",
-        "pr_url": null,
-        "contact_url": null
+        "status": "open",
+        "pr_url": "https://github.com/ilyvion/loading-progress/pull/13",
+        "contact_url": null,
+        "target_kind": "translation_listing",
+        "head_sha": "d439056c9528cf014553b7b423e00aa01d11d17a",
+        "submitted_at": "2026-11-03",
+        "last_checked_at": "2026-11-03T17:29:58.128030+00:00",
+        "scope": "Link to the existing 399-entry Russian Workshop pack in the author's README list of standalone translations.",
+        "native_xml_submitted": false,
+        "original_native_accepted": false
       },
       "original": {
         "author": "ilyvion",
@@ -8014,23 +8021,28 @@
         "collection_member_verified": true,
         "installation_tested": true,
         "anonymous_page_checked_at": "2026-10-30T10:06:36.342Z",
-        "anonymous_page_evidence": "community/workshop-public-pages-2026-10-30.json"
+        "anonymous_page_evidence": "community/workshop-public-pages-2026-10-30.json",
+        "upstream_integration_confirmed": true,
+        "standalone_needed": false,
+        "deprecation_guidance_pending": false,
+        "deprecation_guidance_verified": true,
+        "deprecation_guidance_checked_at": "2026-11-03T17:31:43.215055+00:00"
       },
       "integration": {
-        "status": "open",
+        "status": "accepted",
         "pr_url": "https://github.com/merthsoft/designator-shapes/pull/15",
         "contact_url": null,
         "submitted_at": "2026-10-28",
         "head_sha": "cf5d3cc0f4f958c1558101d0be8ee0e3edd0c1b1",
-        "last_checked_at": "2026-10-30T07:40:27.821011+00:00",
-        "merged": false,
-        "merged_at": null,
-        "merge_commit": null,
-        "original_native_accepted": false,
+        "last_checked_at": "2026-11-03T17:29:24+00:00",
+        "merged": true,
+        "merged_at": "2026-11-02T09:12:06Z",
+        "merge_commit": "89f28937cec032270459cdf75737e633e664aaf6",
+        "original_native_accepted": true,
         "community_translation_accepted": false,
         "review_changes_requested": false,
-        "merge_conflicts": false,
-        "response_evidence": "community/author-responses-2026-10-30.json"
+        "merge_conflicts": null,
+        "response_evidence": "community/release-status-2026-11-03.json"
       },
       "original": {
         "author": "merthsoft",
@@ -8091,14 +8103,10 @@
         "saved_translation_store": true
       },
       "duplicate_translation": {
-        "status": "checked_no_current_equivalent",
-        "scope": "Direct downloaded comparison of3128857702:88of208keys overlap;120currentkeys missing. Independent original-authored translation, no third-party text copied.",
-        "candidates": [
-          "https://steamcommunity.com/sharedfiles/filedetails/?id=3128857702"
-        ],
-        "checked_at": "2026-10-28T10:33:04.486040+00:00",
-        "existing_pack_current_key_coverage": 88,
-        "current_keys_missing": 120
+        "status": "now_covered_by_original",
+        "scope": "The original Steam distribution includes all 208 contributed Russian keys and values.",
+        "checked_at": "2026-11-03T17:29:24+00:00",
+        "evidence": "community/release-status-2026-11-03.json"
       },
       "monitor": {
         "github_tree": {
@@ -8108,15 +8116,17 @@
         }
       },
       "original_art_permission_request": {
-        "status": "unknown",
+        "status": "granted_for_requested_preview_use",
         "license": null,
-        "evidence": null,
-        "attribution": null,
-        "reason": "No original artwork redistributed; separate consent is required for third-party Workshop cover art",
+        "evidence": "https://github.com/merthsoft/designator-shapes/pull/15#issuecomment-6562621425",
+        "attribution": "Preserve original art credit to Halno.",
+        "reason": "merthsoft approved the specific preview use requested in PR 15.",
         "permission_requested": true,
         "request_url": "https://github.com/merthsoft/designator-shapes/pull/15",
         "requested_at": "2026-10-28",
-        "permission_received": false
+        "permission_received": true,
+        "scope": "Existing Designator Shapes Workshop preview with only a readable RUSSIAN word at the bottom, for a free standalone Shapes translation. Keep the original art and credits.",
+        "granted_at": "2026-11-01T19:15:26Z"
       },
       "work_stage": "installed_local",
       "manifest": "mods/merthsoft.designatorshapes/manifest.json"
@@ -15140,7 +15150,7 @@
         "github_status": "published",
         "workshop_url": "https://steamcommunity.com/sharedfiles/filedetails/?id=3830078437",
         "workshop_id": "3830078437",
-        "workshop_status": "published",
+        "workshop_status": "previously_published_currently_unavailable",
         "release_blockers": [],
         "workshop_title": "Vanilla Cooking Expanded — Russian integrations (24 strings)",
         "dependency_verified": true,
@@ -15149,11 +15159,14 @@
         "collection_id": "3830036321",
         "collection_member_verified": true,
         "published_at": "2026-10-30T11:38:41.213528+00:00",
-        "anonymous_page_verified": true,
-        "anonymous_page_checked_at": "2026-10-30T11:40:06.316Z",
-        "anonymous_page_evidence": "community/workshop-public-pages-2026-10-30.json",
+        "anonymous_page_verified": false,
+        "anonymous_page_checked_at": "2026-11-03T17:29:24+00:00",
+        "anonymous_page_evidence": "community/release-status-2026-11-03.json",
         "installation_tested": true,
-        "installation_scope": "Official subscription exact8files, all four actual Workshop-root condition combinations verified against unchanged real local controls; required original and base Russian active. Optional Alpha Animals/Genetics are not required Workshop dependencies."
+        "installation_scope": "Official subscription exact8files, all four actual Workshop-root condition combinations verified against unchanged real local controls; required original and base Russian active. Optional Alpha Animals/Genetics are not required Workshop dependencies.",
+        "previous_public_page_evidence": "community/workshop-public-pages-2026-10-30.json",
+        "previous_public_page_checked_at": "2026-10-30T11:40:06.316Z",
+        "current_steam_result": 9
       },
       "integration": {
         "status": "not_sent",
@@ -19118,10 +19131,10 @@
     "github_metadata_records": 166,
     "github_published": 14,
     "workshop_submitted": 14,
-    "workshop_published": 14,
-    "pull_requests": 6,
-    "integration_records": 9,
-    "accepted": 1,
+    "workshop_published": 13,
+    "pull_requests": 7,
+    "integration_records": 10,
+    "accepted": 2,
     "awaiting_rights": 122,
     "needs_update": 13,
     "freshness_unverified": 152,
@@ -19129,9 +19142,9 @@
     "static_inventory_flagged": 20,
     "static_findings": 49,
     "repository_monitors": 24,
-    "pull_request_monitors": 6,
+    "pull_request_monitors": 7,
     "icon_permission_requests": 2,
-    "workshop_public_pages_verified": 14,
+    "workshop_public_pages_verified": 13,
     "workshop_content_check_pending": 0,
     "workshop_source_monitors": 166
   }

@@ -93,7 +93,7 @@
     "github_status": "published",
     "workshop_url": "https://steamcommunity.com/sharedfiles/filedetails/?id=3830078437",
     "workshop_id": "3830078437",
-    "workshop_status": "published",
+    "workshop_status": "previously_published_currently_unavailable",
     "release_blockers": [],
     "workshop_title": "Vanilla Cooking Expanded — Russian integrations (24 strings)",
     "dependency_verified": true,
@@ -102,11 +102,14 @@
     "collection_id": "3830036321",
     "collection_member_verified": true,
     "published_at": "2026-10-30T11:38:41.213528+00:00",
-    "anonymous_page_verified": true,
-    "anonymous_page_checked_at": "2026-10-30T11:40:06.316Z",
-    "anonymous_page_evidence": "community/workshop-public-pages-2026-10-30.json",
+    "anonymous_page_verified": false,
+    "anonymous_page_checked_at": "2026-11-03T17:29:24+00:00",
+    "anonymous_page_evidence": "community/release-status-2026-11-03.json",
     "installation_tested": true,
-    "installation_scope": "Official subscription exact8files, all four actual Workshop-root condition combinations verified against unchanged real local controls; required original and base Russian active. Optional Alpha Animals/Genetics are not required Workshop dependencies."
+    "installation_scope": "Official subscription exact8files, all four actual Workshop-root condition combinations verified against unchanged real local controls; required original and base Russian active. Optional Alpha Animals/Genetics are not required Workshop dependencies.",
+    "previous_public_page_evidence": "community/workshop-public-pages-2026-10-30.json",
+    "previous_public_page_checked_at": "2026-10-30T11:40:06.316Z",
+    "current_steam_result": 9
   },
   "integration": {
     "status": "not_sent",

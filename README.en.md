@@ -6,7 +6,9 @@ Russian localization maintenance for RimWorld mods: missing text, upstream
 contributions and standalone packs with confirmed distribution rights.
 A registry record alone is not an installable release.
 
-14 public releases for **RimWorld 1.7**, checked 30 October 2026:
+As of 3 November 2026, **13 of 14** previously published RimWorld 1.7 packs are available on Steam. [Steam catalogue check](community/release-status-2026-11-03.json)
+
+Six of the 42 mods tested in the private profile on 28 October received standalone releases. Five of those six are currently available. Four pull requests offered Russian files to original projects, and two offered files to community translators. A separate pull request asks the Loading Progress author to list the published pack in the README. [Outreach log](community/outreach.json) · [Loading Progress #13](https://github.com/ilyvion/loading-progress/pull/13)
 
 | Mod | Package entries | Steam Workshop |
 |---|---:|---|
@@ -15,7 +17,7 @@ A registry record alone is not an installable release.
 | [Mechanoid Upgrades](https://steamcommunity.com/sharedfiles/filedetails/?id=3828883103) | 108 | Public |
 | [Vanilla Factions Expanded - Empire](https://steamcommunity.com/sharedfiles/filedetails/?id=3830050048) | 12 | Public |
 | [Smart Medicine - Continued](https://steamcommunity.com/sharedfiles/filedetails/?id=3828790822) | 7 | Public |
-| [Designator Shapes](https://steamcommunity.com/sharedfiles/filedetails/?id=3828790605) | 208 | Public |
+| [Designator Shapes](https://steamcommunity.com/sharedfiles/filedetails/?id=3828790605) | 208 | Public. The original includes all 208 entries |
 | [Reel's Expanded Storage](https://steamcommunity.com/sharedfiles/filedetails/?id=3830014953) | 2 | Public |
 | [Reel's Turret Pipeline](https://steamcommunity.com/sharedfiles/filedetails/?id=3830009448) | 21 | Public |
 | [Yet Another Research Tree (YART)](https://steamcommunity.com/sharedfiles/filedetails/?id=3828790757) | 30 | Public |
@@ -23,7 +25,7 @@ A registry record alone is not an installable release.
 | [Vanilla Achievements Expanded](https://steamcommunity.com/sharedfiles/filedetails/?id=3830022947) | 1 | Public |
 | [Vanilla Traits Expanded](https://steamcommunity.com/sharedfiles/filedetails/?id=3830032379) | 2 | Public |
 | [WVC - Work Modes](https://steamcommunity.com/sharedfiles/filedetails/?id=3830010549) | 23 | Public |
-| [Vanilla Cooking Expanded](https://steamcommunity.com/sharedfiles/filedetails/?id=3830078437) | 24 | Public |
+| [Vanilla Cooking Expanded](https://steamcommunity.com/sharedfiles/filedetails/?id=3830078437) | 24 | Previously published, currently unavailable on Steam. [Translation files](mods/vanillaexpanded.vcooke/payload/) |
 
 Nine new releases on 30 October: Blood Animations, Turret Pipeline, WVC Work Modes,
 REEL Storage, Achievements, Traits, Loading Progress, Empire and Cooking. All 487 unique values passed actual isolated English
@@ -78,9 +80,8 @@ not disable other mods automatically.
 No Burn Metal Russian was accepted into the original; all 19 entries are already
 present in its current Workshop distribution. The old separate page remains with
 guidance. ReGrowth was accepted into [community translation PR46](https://github.com/OneCodeUnit/VanillaRussianExpanded/pull/46)
-and the accepted variant is in its Workshop copy. [Shapes15](https://github.com/merthsoft/designator-shapes/pull/15)
-and [YART6](https://github.com/csh1668/YetAnotherResearchTree/pull/6) remain open,
-conflict-free, with no human change requests. [Verified replies](community/author-responses-2026-10-30.json).
+and the accepted variant is in its Workshop copy. On 2 November merthsoft merged the Designator Shapes translation and released the update on Steam. All 208 entries match the Russian text in the current original. New installations only need the original mod. [Merged PR](https://github.com/merthsoft/designator-shapes/pull/15) · [Original on Steam](https://steamcommunity.com/sharedfiles/filedetails/?id=1235181370)
+YART remains open with no change requests from the author. [YART #6](https://github.com/csh1668/YetAnotherResearchTree/pull/6)
 Sixteen strings for VEF, Gravship Chapter 1, Events and Landmarks were offered to existing community translations in
 [PR47](https://github.com/OneCodeUnit/VanillaRussianExpanded/pull/47); this
 contribution has static QA, with no new game-test claim.
@@ -91,7 +92,7 @@ compatibility certification is claimed.
 
 [Collection 3830036321](https://steamcommunity.com/sharedfiles/filedetails/?id=3830036321)
 was created through the official web wizard with our cover, bilingual description
-and 14 members verified through the official Steam API. It remains private: the Publish button does not complete,
+and 14 member IDs verified through the Steam API, including the unavailable Cooking item. It remains private: the Publish button does not complete,
 and native visibility-only submission returns 15 AccessDenied. Public availability
 is not claimed; use direct item links above. Earlier failed native draft 3828791160
 is retained and superseded.

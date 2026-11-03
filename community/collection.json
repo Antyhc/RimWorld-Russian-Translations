@@ -19,7 +19,7 @@
     "3830050048",
     "3830078437"
   ],
-  "membership_automation": "Official SteamUGC AddDependency and fresh final readback verified the exact14published items in the web-created collection. Public website publication remains unconfirmed.",
+  "membership_automation": "SteamUGC AddDependency added the recorded releases. A 3 November owner SDK readback confirmed all 14 member IDs. The Cooking item is currently unavailable.",
   "website_publication_verified": false,
   "cover": {
     "kind": "original_typographic_fallback",
@@ -27,7 +27,7 @@
     "original_art_used": false,
     "sha256": "1e0d06c154f626c71899277e16cd6c50ccdfb8b5eae7c5a901c72b4fb2ba665b"
   },
-  "website_blocker": "Official web wizard created the collection and uploaded its own preview. Owner Publish button does not complete; supported native visibility-only update returned15 AccessDenied with needs_legal=false. Fresh SDK readback confirms exactly14members and private(2) visibility. No public collection availability is claimed.",
+  "website_blocker": "Steam returned AccessDenied on the 30 October visibility update. On 3 November the owner SDK still reported private visibility (2).",
   "website_checked_at": "2026-10-30T10:04:54.337145+00:00",
   "legacy_unpublished_native_draft": {
     "workshop_id": "3828791160",
@@ -35,5 +35,9 @@
     "retained_without_deletion": true,
     "superseded_reason": "Native-created draft had incorrect web-collection creation context and failed owner web save; replaced through the official web wizard. No duplicate public collection or translation items created."
   },
-  "membership_checked_at": "2026-10-30T11:41:15.790396+00:00"
+  "membership_checked_at": "2026-11-03T17:29:24+00:00",
+  "membership_evidence": "community/release-status-2026-11-03.json",
+  "currently_unavailable_member_ids": [
+    "3830078437"
+  ]
 }

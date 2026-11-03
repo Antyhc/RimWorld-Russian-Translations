@@ -1,0 +1,67 @@
+{
+  "checked_at": "2026-11-03T17:29:24+00:00",
+  "owner_rimworld_workshop": {
+    "method": "Public Steam item metadata for the recorded IDs, plus the complete owner catalogue and collection details from SteamUGC.",
+    "recorded_translation_items": 14,
+    "current_public_translation_ids": [
+      "3828790442",
+      "3828790605",
+      "3828790757",
+      "3828790822",
+      "3828883103",
+      "3830000511",
+      "3830009448",
+      "3830010549",
+      "3830014953",
+      "3830022947",
+      "3830032379",
+      "3830035919",
+      "3830050048"
+    ],
+    "owner_query_results": {
+      "translation_items": 13,
+      "collection_items": 2,
+      "total": 15
+    },
+    "unavailable_id": "3830078437",
+    "public_details_result": 9,
+    "public_details_result_name": "FileNotFound",
+    "replacement_cooking_id_found": false,
+    "reason_item_is_unavailable": "unknown",
+    "collection": {
+      "id": "3830036321",
+      "visibility": 2,
+      "member_ids": [
+        "3828790442",
+        "3828790605",
+        "3828790757",
+        "3828790822",
+        "3828883103",
+        "3830000511",
+        "3830009448",
+        "3830010549",
+        "3830014953",
+        "3830022947",
+        "3830032379",
+        "3830035919",
+        "3830050048",
+        "3830078437"
+      ]
+    }
+  },
+  "designator_shapes": {
+    "pr": "https://github.com/merthsoft/designator-shapes/pull/15",
+    "merged_at": "2026-11-02T09:12:06Z",
+    "merge_commit": "89f28937cec032270459cdf75737e633e664aaf6",
+    "author_release_confirmation": "https://github.com/merthsoft/designator-shapes/pull/15#issuecomment-6573639130",
+    "contributor_personal_review_statement": "https://github.com/merthsoft/designator-shapes/pull/15#issuecomment-6572082725",
+    "requested_preview_use_granted": "https://github.com/merthsoft/designator-shapes/pull/15#issuecomment-6562621425",
+    "steam_original": "https://steamcommunity.com/sharedfiles/filedetails/?id=1235181370",
+    "steam_updated_at": "2026-11-02T09:26:21Z",
+    "steam_content_handle": "2993175551206071398",
+    "local_installed_manifest_matches_public_content_handle_and_update_time": true,
+    "matching_russian_key_value_pairs": 208,
+    "current_check": "Compared the installed current original with the contributed Russian XML. Five files covered 62+2 Keyed, 11 DrawStyles, 108 Shapes and 25 OverlayGroups.",
+    "fresh_game_test": false
+  }
+}

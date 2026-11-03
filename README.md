@@ -6,7 +6,9 @@
 предложение переводов авторам и отдельные пакеты с подтверждёнными правами.
 Запись в реестре сама по себе не является готовым русификатором.
 
-14 публичных выпусков для **RimWorld 1.7**, проверено 30 октября 2026 года:
+На 3 ноября 2026 года в Steam доступны **13 из 14** ранее опубликованных пакетов для RimWorld 1.7. [Проверка каталога Steam](community/release-status-2026-11-03.json)
+
+Из 42 модов, переводы для которых проверяли в отдельном профиле 28 октября, шесть получили самостоятельные публикации. Сейчас доступны пять из этих шести. Для включения русских файлов отправлено четыре PR в оригинальные проекты и два в репозиторий переводчиков. Ещё один PR предлагает автору Loading Progress добавить ссылку на отдельный пакет в список переводов. [Журнал обращений](community/outreach.json) · [Loading Progress #13](https://github.com/ilyvion/loading-progress/pull/13)
 
 | Модификация | Строк в пакете | Steam Workshop |
 |---|---:|---|
@@ -15,7 +17,7 @@
 | [Mechanoid Upgrades](https://steamcommunity.com/sharedfiles/filedetails/?id=3828883103) | 108 | Публичен |
 | [Vanilla Factions Expanded - Empire](https://steamcommunity.com/sharedfiles/filedetails/?id=3830050048) | 12 | Публичен |
 | [Smart Medicine - Continued](https://steamcommunity.com/sharedfiles/filedetails/?id=3828790822) | 7 | Публичен |
-| [Designator Shapes](https://steamcommunity.com/sharedfiles/filedetails/?id=3828790605) | 208 | Публичен |
+| [Designator Shapes](https://steamcommunity.com/sharedfiles/filedetails/?id=3828790605) | 208 | Публичен. Все 208 строк уже входят в оригинал |
 | [Reel's Expanded Storage](https://steamcommunity.com/sharedfiles/filedetails/?id=3830014953) | 2 | Публичен |
 | [Reel's Turret Pipeline](https://steamcommunity.com/sharedfiles/filedetails/?id=3830009448) | 21 | Публичен |
 | [Yet Another Research Tree (YART)](https://steamcommunity.com/sharedfiles/filedetails/?id=3828790757) | 30 | Публичен |
@@ -23,7 +25,7 @@
 | [Vanilla Achievements Expanded](https://steamcommunity.com/sharedfiles/filedetails/?id=3830022947) | 1 | Публичен |
 | [Vanilla Traits Expanded](https://steamcommunity.com/sharedfiles/filedetails/?id=3830032379) | 2 | Публичен |
 | [WVC - Work Modes](https://steamcommunity.com/sharedfiles/filedetails/?id=3830010549) | 23 | Публичен |
-| [Vanilla Cooking Expanded](https://steamcommunity.com/sharedfiles/filedetails/?id=3830078437) | 24 | Публичен |
+| [Vanilla Cooking Expanded](https://steamcommunity.com/sharedfiles/filedetails/?id=3830078437) | 24 | Ранее опубликован. Сейчас недоступен в Steam. [Файлы перевода](mods/vanillaexpanded.vcooke/payload/) |
 
 Девять новых выпусков 30 октября: Blood Animations, Turret Pipeline, WVC Work Modes,
 REEL Storage, Achievements, Traits, Loading Progress, Empire и Cooking. В отдельных запусках
@@ -80,9 +82,8 @@ No Burn Metal принят в оригинал: все 19 строк уже по
 Workshop-пакете. Старая отдельная страница сохранена с пояснением.
 ReGrowth принят в [Vanilla Russian Expanded#46](https://github.com/OneCodeUnit/VanillaRussianExpanded/pull/46),
 и согласованный вариант уже найден в Workshop-переводе сообщества.
-[Shapes#15](https://github.com/merthsoft/designator-shapes/pull/15) и
-[YART#6](https://github.com/csh1668/YetAnotherResearchTree/pull/6) открыты без
-конфликтов и запросов исправлений. [Ответы и принятие](community/author-responses-2026-10-30.json).
+2 ноября merthsoft принял перевод Designator Shapes и опубликовал обновление в Steam. Все 208 строк совпали с русскими строками в текущем оригинале. Для новой установки достаточно самого мода. [Принятый PR](https://github.com/merthsoft/designator-shapes/pull/15) · [Оригинал в Steam](https://steamcommunity.com/sharedfiles/filedetails/?id=1235181370)
+YART остаётся открытым, запросов исправлений от автора нет. [YART #6](https://github.com/csh1668/YetAnotherResearchTree/pull/6)
 Ещё 16 строк VEF, Gravship Chapter 1, Events и Landmarks предложены существующим переводам сообщества
 в [PR47](https://github.com/OneCodeUnit/VanillaRussianExpanded/pull/47);
 проверка этого вклада статическая, новый игровой тест не заявляется.
@@ -94,7 +95,7 @@ PR открыт; выполнена статическая смысловая п
 
 [Коллекция 3830036321](https://steamcommunity.com/sharedfiles/filedetails/?id=3830036321)
 создана официальным веб-мастером: собственная обложка, двуязычное описание,
-14 участников подтверждены официальным Steam API. Она остаётся закрытой: кнопка публикации
+Steam API подтвердил 14 ссылок в коллекции, включая недоступный Cooking. Она остаётся закрытой: кнопка публикации
 не завершает действие, а Steam API возвращает 15 «Доступ запрещён». Публичная доступность не заявляется;
 используйте прямые ссылки на моды выше. Ранний неудачный нативный черновик
 3828791160 сохранён и больше не является текущей коллекцией.
