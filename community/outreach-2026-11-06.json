@@ -213,6 +213,26 @@
     },
     {
       "date": "2026-11-06",
+      "url": "https://github.com/emipa606/ShowMeYourHands/pull/12",
+      "repository": "emipa606/ShowMeYourHands",
+      "number": 12,
+      "state": "open",
+      "head_sha": "45edd53382397aa5cdd02b0ea984911979c21ee9",
+      "base_sha": "cef425c47a9a8ca04499c5c9da6f79ef03a03b23",
+      "package_ids": [
+        "mlie.showmeyourhands"
+      ],
+      "key_count": 3,
+      "files": [
+        "Languages/Russian/Keyed/Mod_Settings.xml"
+      ],
+      "body_readback_equal": true,
+      "kind": "upstream_translation_pr",
+      "fresh_game_test_claimed": false,
+      "ai_disclosed": true
+    },
+    {
+      "date": "2026-11-06",
       "repository": "RedMattis/Better-Gene-Inheritance",
       "url": "https://github.com/RedMattis/Better-Gene-Inheritance/issues/1",
       "number": 1,
@@ -262,6 +282,39 @@
       "contact_body_sha256": "14f268607aba98cdd7aeeee2a756dec420c76b7547b52402435177b9c37a3193",
       "action": "translation_offer_and_permission_request",
       "rights_granted": false
+    },
+    {
+      "date": "2026-11-06",
+      "repository": "ekremyk2/Mine",
+      "url": "https://github.com/ekremyk2/Mine/issues/4",
+      "number": 4,
+      "state": "open",
+      "package_ids": [
+        "cain.mineshaft"
+      ],
+      "body_readback_equal": true,
+      "kind": "translation_offer",
+      "ai_disclosed": true,
+      "created_at": "2026-11-06T17:54:12Z",
+      "contact_body_sha256": "c0dcb21c803eb5a532f11453f59ceec8a166940abbcc1ea4965521f717a31b52",
+      "action": "translation_offer_source_location_question"
+    },
+    {
+      "date": "2026-11-06",
+      "repository": "TheMiggiestMig/MigCorp-Skiptech",
+      "url": "https://github.com/TheMiggiestMig/MigCorp-Skiptech/pull/1#issuecomment-6691665595",
+      "number": 1,
+      "state": "open",
+      "package_ids": [
+        "migcorp.skiptech"
+      ],
+      "body_readback_equal": true,
+      "kind": "translation_offer",
+      "ai_disclosed": true,
+      "created_at": "2026-11-06T17:55:34Z",
+      "contact_body_sha256": "3b6b7e1327bf7ddd6ba8a06fc10439c1b38d4b4830088bd4bf55be82c7064384",
+      "action": "offer_additional_own_keys_in_existing_russian_pr",
+      "comment_id": 6691665595
     },
     {
       "date": "2026-11-06",

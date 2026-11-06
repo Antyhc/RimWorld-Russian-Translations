@@ -1,0 +1,489 @@
+{
+  "schema": 1,
+  "checked_from_utc": "2026-11-06 18:01:57 UTC",
+  "checked_through_utc": "2026-11-06 18:03:50 UTC",
+  "source": "Authenticated GitHub connector: PR metadata plus all discussion/inline/review comments; issue metadata and comments.",
+  "scope": "Read-only refresh of all 18 unique project PRs plus 12 deduplicated permission/offer conversations. The external MigCorp PR is a contact thread, not one of our submitted PRs.",
+  "summary": {
+    "unique_project_prs": 18,
+    "open_prs": 14,
+    "open_prs_reported_mergeable": 14,
+    "previously_merged_prs": 4,
+    "new_merges_since_prior_check": 0,
+    "open_merge_conflicts_observed": 0,
+    "pending_human_change_requests": 0,
+    "new_author_permission_or_offer_replies": 0,
+    "permission_offer_conversations": 12
+  },
+  "notes": [
+    "No Burn Metal and Designator Shapes are the two accepted native integrations already verified in current Steam originals.",
+    "Loading Progress accepted a README link to the separate translation; its bot review does not establish language-file integration.",
+    "ReGrowth PR46 was accepted in a community translation repository; original-native acceptance is not claimed.",
+    "YART has only the previously recorded CodeRabbit bot comment. It is not a human review or acceptance.",
+    "Designator Shapes' historical human-review request was followed by the account owner's reply and maintainer merge. This refresh does not claim the AI performed independent human proofreading.",
+    "Vanilla Expanded issue195 has the same previously recorded author permission; no new permission scope is inferred.",
+    "Only safe comment URLs, public login names and timestamps are exported. Raw email quotations, notification links, bot advertising and comment HTML are excluded.",
+    "No outbound messages, PR edits, account changes or game-QA changes were performed during this refresh."
+  ],
+  "pull_requests": [
+    {
+      "url": "https://github.com/15adhami/XmlExtensions/pull/26",
+      "repository": "15adhami/XmlExtensions",
+      "number": 26,
+      "state": "open",
+      "merged": false,
+      "mergeable": true,
+      "head_sha": "250e6c59793dcc092d31fa4e1271e5ba816681c4",
+      "base_sha": "98dda5530448bec78ea623f01896131da5b66761",
+      "updated_at": "2026-11-06T17:10:57Z",
+      "merged_at": null,
+      "acceptance_type": "not_accepted",
+      "comments": [],
+      "human_change_request_pending": false
+    },
+    {
+      "url": "https://github.com/Ilarion33/BulkLoadForTransporters/pull/1",
+      "repository": "Ilarion33/BulkLoadForTransporters",
+      "number": 1,
+      "state": "open",
+      "merged": false,
+      "mergeable": true,
+      "head_sha": "1ae9fd59ff1f3d705f12a83cd827cd7a65970f8e",
+      "base_sha": "58b21418054316a28227154b1a3cd9074d06bd37",
+      "updated_at": "2026-11-06T17:07:51Z",
+      "merged_at": null,
+      "acceptance_type": "not_accepted",
+      "comments": [],
+      "human_change_request_pending": false
+    },
+    {
+      "url": "https://github.com/Mehni/PickUpAndHaul/pull/72",
+      "repository": "Mehni/PickUpAndHaul",
+      "number": 72,
+      "state": "open",
+      "merged": false,
+      "mergeable": true,
+      "head_sha": "674fad7aeed3df99c9312eccd8e32a6a405b8d50",
+      "base_sha": "09f1fac96e70cc2a93d647615a5abd37734a3eba",
+      "updated_at": "2026-11-06T17:17:03Z",
+      "merged_at": null,
+      "acceptance_type": "not_accepted",
+      "comments": [],
+      "human_change_request_pending": false
+    },
+    {
+      "url": "https://github.com/MemeGoddess/RimWorld-SmartMedicine/pull/24",
+      "repository": "MemeGoddess/RimWorld-SmartMedicine",
+      "number": 24,
+      "state": "open",
+      "merged": false,
+      "mergeable": true,
+      "head_sha": "6cefa204c32dfc7e6b5c53bdc5ead93b1c238f8c",
+      "base_sha": "0410071ef1ddc23bea7115da9787b7e817fe18b0",
+      "updated_at": "2026-11-06T17:00:23Z",
+      "merged_at": null,
+      "acceptance_type": "not_accepted",
+      "comments": [],
+      "human_change_request_pending": false
+    },
+    {
+      "url": "https://github.com/Nonunon/NoBurnMetal/pull/1",
+      "repository": "Nonunon/NoBurnMetal",
+      "number": 1,
+      "state": "closed",
+      "merged": true,
+      "mergeable": false,
+      "head_sha": "032a0aa1dd34477f1bd49ce7c964aaf2cc2dccb3",
+      "base_sha": "8df3fca3cd349657688160e3d73d6ebd91125a04",
+      "updated_at": "2026-10-29T20:07:32Z",
+      "merged_at": "2026-10-29T19:36:32Z",
+      "acceptance_type": "original_native_translation_already_verified",
+      "comments": [
+        {
+          "url": "https://github.com/Nonunon/NoBurnMetal/pull/1#issuecomment-6507134798",
+          "author": "Nonunon",
+          "is_bot": false,
+          "created_at": "2026-10-29T20:07:31Z"
+        }
+      ],
+      "human_change_request_pending": false
+    },
+    {
+      "url": "https://github.com/OneCodeUnit/VanillaRussianExpanded/pull/46",
+      "repository": "OneCodeUnit/VanillaRussianExpanded",
+      "number": 46,
+      "state": "closed",
+      "merged": true,
+      "mergeable": false,
+      "head_sha": "95a43b772322e8e1410014a6503a86d657088a3d",
+      "base_sha": "76595bfcaf488aea8bd0ac94f9abf0e522052880",
+      "updated_at": "2026-10-28T15:26:12Z",
+      "merged_at": "2026-10-28T15:26:12Z",
+      "acceptance_type": "community_translation_acceptance_not_original_native",
+      "comments": [],
+      "human_change_request_pending": false
+    },
+    {
+      "url": "https://github.com/OneCodeUnit/VanillaRussianExpanded/pull/47",
+      "repository": "OneCodeUnit/VanillaRussianExpanded",
+      "number": 47,
+      "state": "open",
+      "merged": false,
+      "mergeable": true,
+      "head_sha": "c2a348f7e7cbf66c09f677469738e6e3349721e0",
+      "base_sha": "2df94919cf11304007827862fa967c19b1858857",
+      "updated_at": "2026-10-30T10:50:36Z",
+      "merged_at": null,
+      "acceptance_type": "not_accepted",
+      "comments": [],
+      "human_change_request_pending": false
+    },
+    {
+      "url": "https://github.com/WVCSergkart/MoreMechanoidsWorkModes/pull/8",
+      "repository": "WVCSergkart/MoreMechanoidsWorkModes",
+      "number": 8,
+      "state": "open",
+      "merged": false,
+      "mergeable": true,
+      "head_sha": "dd820d445b9beb2307555bd9628f6b19bc1d26ab",
+      "base_sha": "029318e3992206749d878c3020ccaf0418442b0e",
+      "updated_at": "2026-11-06T16:59:02Z",
+      "merged_at": null,
+      "acceptance_type": "not_accepted",
+      "comments": [],
+      "human_change_request_pending": false
+    },
+    {
+      "url": "https://github.com/Zeracronius/DynamicTradeInterface/pull/79",
+      "repository": "Zeracronius/DynamicTradeInterface",
+      "number": 79,
+      "state": "open",
+      "merged": false,
+      "mergeable": true,
+      "head_sha": "1be2bab4e573295a4830ee7f296046c2e9263ae7",
+      "base_sha": "da1b0f67db567fd2d1dcb23511980a906943fc1a",
+      "updated_at": "2026-11-06T17:14:57Z",
+      "merged_at": null,
+      "acceptance_type": "not_accepted",
+      "comments": [],
+      "human_change_request_pending": false
+    },
+    {
+      "url": "https://github.com/bbradson/Adaptive-Storage-Framework/pull/41",
+      "repository": "bbradson/Adaptive-Storage-Framework",
+      "number": 41,
+      "state": "open",
+      "merged": false,
+      "mergeable": true,
+      "head_sha": "4d8c34b6362f3a436c73ac942d985195b5435fa5",
+      "base_sha": "31ee88b46651cfbe37da3f89620bc0b907165cc0",
+      "updated_at": "2026-10-30T11:45:04Z",
+      "merged_at": null,
+      "acceptance_type": "not_accepted",
+      "comments": [],
+      "human_change_request_pending": false
+    },
+    {
+      "url": "https://github.com/csh1668/YetAnotherResearchTree/pull/6",
+      "repository": "csh1668/YetAnotherResearchTree",
+      "number": 6,
+      "state": "open",
+      "merged": false,
+      "mergeable": true,
+      "head_sha": "79d41e0f5f1356d122141050bed1d90035ab90e7",
+      "base_sha": "6daf17cd978f412853fcca49999504652fb59d6d",
+      "updated_at": "2026-10-28T11:07:30Z",
+      "merged_at": null,
+      "acceptance_type": "not_accepted",
+      "comments": [
+        {
+          "url": "https://github.com/csh1668/YetAnotherResearchTree/pull/6#issuecomment-6467394191",
+          "author": "coderabbitai[bot]",
+          "is_bot": true,
+          "created_at": "2026-10-28T11:07:30Z"
+        }
+      ],
+      "human_change_request_pending": false
+    },
+    {
+      "url": "https://github.com/emipa606/ShowMeYourHands/pull/12",
+      "repository": "emipa606/ShowMeYourHands",
+      "number": 12,
+      "state": "open",
+      "merged": false,
+      "mergeable": true,
+      "head_sha": "45edd53382397aa5cdd02b0ea984911979c21ee9",
+      "base_sha": "cef425c47a9a8ca04499c5c9da6f79ef03a03b23",
+      "updated_at": "2026-11-06T17:58:14Z",
+      "merged_at": null,
+      "acceptance_type": "not_accepted",
+      "comments": [],
+      "human_change_request_pending": false
+    },
+    {
+      "url": "https://github.com/ilyvion/loading-progress/pull/13",
+      "repository": "ilyvion/loading-progress",
+      "number": 13,
+      "state": "closed",
+      "merged": true,
+      "mergeable": false,
+      "head_sha": "d439056c9528cf014553b7b423e00aa01d11d17a",
+      "base_sha": "a0247cad66bebd00de6526f0fe4a519f4bc6228a",
+      "updated_at": "2026-11-05T06:39:55Z",
+      "merged_at": "2026-11-05T06:39:55Z",
+      "acceptance_type": "readme_translation_listing_not_language_files",
+      "comments": [
+        {
+          "url": "https://github.com/ilyvion/loading-progress/pull/13#issuecomment-6610938058",
+          "author": "chatgpt-codex-connector[bot]",
+          "is_bot": true,
+          "created_at": "2026-11-03T17:29:28Z"
+        }
+      ],
+      "human_change_request_pending": false
+    },
+    {
+      "url": "https://github.com/m00nl1ght-dev/MapPreview/pull/23",
+      "repository": "m00nl1ght-dev/MapPreview",
+      "number": 23,
+      "state": "open",
+      "merged": false,
+      "mergeable": true,
+      "head_sha": "1049cd4ea02546a7af3eab3e13ee8784a8af20ed",
+      "base_sha": "8bedaa489a5ea4240749704517df0f0daaa00711",
+      "updated_at": "2026-11-06T17:05:06Z",
+      "merged_at": null,
+      "acceptance_type": "not_accepted",
+      "comments": [],
+      "human_change_request_pending": false
+    },
+    {
+      "url": "https://github.com/merthsoft/designator-shapes/pull/15",
+      "repository": "merthsoft/designator-shapes",
+      "number": 15,
+      "state": "closed",
+      "merged": true,
+      "mergeable": false,
+      "head_sha": "cf5d3cc0f4f958c1558101d0be8ee0e3edd0c1b1",
+      "base_sha": "401ef576a91957a50e668904a3c5efbedb11eac3",
+      "updated_at": "2026-11-02T10:01:55Z",
+      "merged_at": "2026-11-02T09:12:06Z",
+      "acceptance_type": "original_native_translation_already_verified",
+      "comments": [
+        {
+          "url": "https://github.com/merthsoft/designator-shapes/pull/15#issuecomment-6562621425",
+          "author": "merthsoft",
+          "is_bot": false,
+          "created_at": "2026-11-01T19:15:26Z"
+        },
+        {
+          "url": "https://github.com/merthsoft/designator-shapes/pull/15#issuecomment-6572082725",
+          "author": "Antyhc",
+          "is_bot": false,
+          "created_at": "2026-11-02T08:00:37Z"
+        },
+        {
+          "url": "https://github.com/merthsoft/designator-shapes/pull/15#issuecomment-6573338647",
+          "author": "merthsoft",
+          "is_bot": false,
+          "created_at": "2026-11-02T09:12:15Z"
+        },
+        {
+          "url": "https://github.com/merthsoft/designator-shapes/pull/15#issuecomment-6573639130",
+          "author": "merthsoft",
+          "is_bot": false,
+          "created_at": "2026-11-02T09:27:38Z"
+        }
+      ],
+      "human_change_request_pending": false
+    },
+    {
+      "url": "https://github.com/realloon/CustomizeWeapon/pull/10",
+      "repository": "realloon/CustomizeWeapon",
+      "number": 10,
+      "state": "open",
+      "merged": false,
+      "mergeable": true,
+      "head_sha": "dec6b152d7974d554ad29a4490c940827106adce",
+      "base_sha": "d5e41881b0b79c7ae74ee7361e3e6fa462323562",
+      "updated_at": "2026-11-06T17:47:30Z",
+      "merged_at": null,
+      "acceptance_type": "not_accepted",
+      "comments": [],
+      "human_change_request_pending": false
+    },
+    {
+      "url": "https://github.com/tenguin/Rimworld_BloodAnimations/pull/3",
+      "repository": "tenguin/Rimworld_BloodAnimations",
+      "number": 3,
+      "state": "open",
+      "merged": false,
+      "mergeable": true,
+      "head_sha": "2a3aef9365e8fdc29eae4e7e30f00c1fd523c541",
+      "base_sha": "8b7cee1725e0c27023503177a2d6348ea6780496",
+      "updated_at": "2026-11-06T17:11:25Z",
+      "merged_at": null,
+      "acceptance_type": "not_accepted",
+      "comments": [],
+      "human_change_request_pending": false
+    },
+    {
+      "url": "https://github.com/tomvd/Hospital/pull/66",
+      "repository": "tomvd/Hospital",
+      "number": 66,
+      "state": "open",
+      "merged": false,
+      "mergeable": true,
+      "head_sha": "d05775c2ec957032420a364cebf281c3c210fb02",
+      "base_sha": "82a15e711129a32e5bfe772663160433ee566316",
+      "updated_at": "2026-11-06T17:49:09Z",
+      "merged_at": null,
+      "acceptance_type": "not_accepted",
+      "comments": [],
+      "human_change_request_pending": false
+    }
+  ],
+  "permission_and_offer_conversations": [
+    {
+      "url": "https://github.com/AobaKuma/MechsuitFramework/issues/34",
+      "repository": "AobaKuma/MechsuitFramework",
+      "number": 34,
+      "type": "issue",
+      "state": "open",
+      "updated_at": "2026-11-06T17:50:28Z",
+      "comments": [
+        {
+          "url": "https://github.com/AobaKuma/MechsuitFramework/issues/34#issuecomment-6691562732",
+          "author": "Antyhc",
+          "is_bot": false,
+          "created_at": null
+        }
+      ],
+      "author_response_status": "no_author_reply_observed"
+    },
+    {
+      "url": "https://github.com/Vanilla-Expanded/VanillaExpandedFramework/issues/195",
+      "repository": "Vanilla-Expanded/VanillaExpandedFramework",
+      "number": 195,
+      "type": "issue",
+      "state": "open",
+      "updated_at": "2026-10-30T09:34:25Z",
+      "comments": [
+        {
+          "url": "https://github.com/Vanilla-Expanded/VanillaExpandedFramework/issues/195#issuecomment-6519584242",
+          "author": "AndroidQuazar",
+          "is_bot": false,
+          "created_at": null
+        }
+      ],
+      "author_response_status": "existing_permission_unchanged"
+    },
+    {
+      "url": "https://github.com/Dubwise56/Dubs-Bad-Hygiene/issues/180",
+      "repository": "Dubwise56/Dubs-Bad-Hygiene",
+      "number": 180,
+      "type": "issue",
+      "state": "open",
+      "updated_at": "2026-11-06T16:54:00Z",
+      "comments": [],
+      "author_response_status": "no_author_reply_observed"
+    },
+    {
+      "url": "https://github.com/fernyrepos/Character-Development/issues/17",
+      "repository": "fernyrepos/Character-Development",
+      "number": 17,
+      "type": "issue",
+      "state": "open",
+      "updated_at": "2026-11-06T16:55:48Z",
+      "comments": [],
+      "author_response_status": "no_author_reply_observed"
+    },
+    {
+      "url": "https://github.com/RedMattis/Better-Gene-Inheritance/issues/1",
+      "repository": "RedMattis/Better-Gene-Inheritance",
+      "number": 1,
+      "type": "issue",
+      "state": "open",
+      "updated_at": "2026-11-06T16:55:38Z",
+      "comments": [],
+      "author_response_status": "no_author_reply_observed"
+    },
+    {
+      "url": "https://github.com/RimDark/Rimdark40kFramework/issues/11",
+      "repository": "RimDark/Rimdark40kFramework",
+      "number": 11,
+      "type": "issue",
+      "state": "open",
+      "updated_at": "2026-11-06T16:55:25Z",
+      "comments": [],
+      "author_response_status": "no_author_reply_observed"
+    },
+    {
+      "url": "https://github.com/juanosarg/AlphaAnimals/issues/44",
+      "repository": "juanosarg/AlphaAnimals",
+      "number": 44,
+      "type": "issue",
+      "state": "open",
+      "updated_at": "2026-11-06T16:55:06Z",
+      "comments": [],
+      "author_response_status": "no_author_reply_observed"
+    },
+    {
+      "url": "https://github.com/Zaljerem/Hospitality/issues/14",
+      "repository": "Zaljerem/Hospitality",
+      "number": 14,
+      "type": "issue",
+      "state": "open",
+      "updated_at": "2026-11-06T17:16:53Z",
+      "comments": [],
+      "author_response_status": "no_author_reply_observed"
+    },
+    {
+      "url": "https://github.com/SmashPhil/Vehicle-Framework/issues/380",
+      "repository": "SmashPhil/Vehicle-Framework",
+      "number": 380,
+      "type": "issue",
+      "state": "open",
+      "updated_at": "2026-11-06T17:14:39Z",
+      "comments": [],
+      "author_response_status": "no_author_reply_observed"
+    },
+    {
+      "url": "https://github.com/DawnsGlow/QualityColours/issues/2",
+      "repository": "DawnsGlow/QualityColours",
+      "number": 2,
+      "type": "issue",
+      "state": "open",
+      "updated_at": "2026-11-06T17:52:00Z",
+      "comments": [],
+      "author_response_status": "no_author_reply_observed"
+    },
+    {
+      "url": "https://github.com/ekremyk2/Mine/issues/4",
+      "repository": "ekremyk2/Mine",
+      "number": 4,
+      "type": "issue",
+      "state": "open",
+      "updated_at": "2026-11-06T17:54:12Z",
+      "comments": [],
+      "author_response_status": "no_author_reply_observed"
+    },
+    {
+      "url": "https://github.com/TheMiggiestMig/MigCorp-Skiptech/pull/1",
+      "repository": "TheMiggiestMig/MigCorp-Skiptech",
+      "number": 1,
+      "type": "offer_in_other_contributor_existing_pr",
+      "state": "open",
+      "updated_at": "2026-11-06T17:55:34Z",
+      "comments": [
+        {
+          "url": "https://github.com/TheMiggiestMig/MigCorp-Skiptech/pull/1#issuecomment-6691665595",
+          "author": "Antyhc",
+          "is_bot": false,
+          "created_at": "2026-11-06T17:55:34Z"
+        }
+      ],
+      "author_response_status": "no_author_reply_observed"
+    }
+  ]
+}

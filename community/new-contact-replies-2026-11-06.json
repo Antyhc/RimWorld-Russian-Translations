@@ -1,0 +1,110 @@
+{
+  "checked_window_utc": "2026-11-06T17:52:28Z–2026-11-06T17:54:58Z",
+  "source": "GitHub connector issue comments; PR discussion, inline comments and reviews.",
+  "scope": "First 17 newly submitted PRs/issues this session. Later individual follow-up contacts are not included in this snapshot.",
+  "no_author_replies_or_review_requests_observed": true,
+  "records": [
+    {
+      "repository": "Dubwise56/Dubs-Bad-Hygiene",
+      "url": "https://github.com/Dubwise56/Dubs-Bad-Hygiene/issues/180",
+      "comments": [],
+      "comment_count": 0
+    },
+    {
+      "repository": "juanosarg/AlphaAnimals",
+      "url": "https://github.com/juanosarg/AlphaAnimals/issues/44",
+      "comments": [],
+      "comment_count": 0
+    },
+    {
+      "repository": "RimDark/Rimdark40kFramework",
+      "url": "https://github.com/RimDark/Rimdark40kFramework/issues/11",
+      "comments": [],
+      "comment_count": 0
+    },
+    {
+      "repository": "RedMattis/Better-Gene-Inheritance",
+      "url": "https://github.com/RedMattis/Better-Gene-Inheritance/issues/1",
+      "comments": [],
+      "comment_count": 0
+    },
+    {
+      "repository": "fernyrepos/Character-Development",
+      "url": "https://github.com/fernyrepos/Character-Development/issues/17",
+      "comments": [],
+      "comment_count": 0
+    },
+    {
+      "repository": "SmashPhil/Vehicle-Framework",
+      "url": "https://github.com/SmashPhil/Vehicle-Framework/issues/380",
+      "comments": [],
+      "comment_count": 0
+    },
+    {
+      "repository": "Zaljerem/Hospitality",
+      "url": "https://github.com/Zaljerem/Hospitality/issues/14",
+      "comments": [],
+      "comment_count": 0
+    },
+    {
+      "repository": "WVCSergkart/MoreMechanoidsWorkModes",
+      "url": "https://github.com/WVCSergkart/MoreMechanoidsWorkModes/pull/8",
+      "comments": [],
+      "comment_count": 0
+    },
+    {
+      "repository": "MemeGoddess/RimWorld-SmartMedicine",
+      "url": "https://github.com/MemeGoddess/RimWorld-SmartMedicine/pull/24",
+      "comments": [],
+      "comment_count": 0
+    },
+    {
+      "repository": "m00nl1ght-dev/MapPreview",
+      "url": "https://github.com/m00nl1ght-dev/MapPreview/pull/23",
+      "comments": [],
+      "comment_count": 0
+    },
+    {
+      "repository": "Ilarion33/BulkLoadForTransporters",
+      "url": "https://github.com/Ilarion33/BulkLoadForTransporters/pull/1",
+      "comments": [],
+      "comment_count": 0
+    },
+    {
+      "repository": "realloon/CustomizeWeapon",
+      "url": "https://github.com/realloon/CustomizeWeapon/pull/10",
+      "comments": [],
+      "comment_count": 0
+    },
+    {
+      "repository": "tomvd/Hospital",
+      "url": "https://github.com/tomvd/Hospital/pull/66",
+      "comments": [],
+      "comment_count": 0
+    },
+    {
+      "repository": "15adhami/XmlExtensions",
+      "url": "https://github.com/15adhami/XmlExtensions/pull/26",
+      "comments": [],
+      "comment_count": 0
+    },
+    {
+      "repository": "tenguin/Rimworld_BloodAnimations",
+      "url": "https://github.com/tenguin/Rimworld_BloodAnimations/pull/3",
+      "comments": [],
+      "comment_count": 0
+    },
+    {
+      "repository": "Zeracronius/DynamicTradeInterface",
+      "url": "https://github.com/Zeracronius/DynamicTradeInterface/pull/79",
+      "comments": [],
+      "comment_count": 0
+    },
+    {
+      "repository": "Mehni/PickUpAndHaul",
+      "url": "https://github.com/Mehni/PickUpAndHaul/pull/72",
+      "comments": [],
+      "comment_count": 0
+    }
+  ]
+}

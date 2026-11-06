@@ -2,24 +2,25 @@
   "date": "2026-11-06",
   "mods_reviewed": 166,
   "counts": {
-    "steam_author_contact_blocked": 53,
-    "author_contacted": 71,
+    "steam_author_contact_blocked": 54,
+    "author_contacted": 74,
     "existing_translation_covers_prepared_scope": 4,
-    "github_contact_pending_platform_cooldown": 4,
     "base_game_russian_already_covers_own_entry": 1,
     "no_independent_translation_to_offer": 3,
     "native_replacement_verified_and_retired": 2,
-    "known_author_policy_no_duplicate_request": 28
+    "known_author_policy_no_duplicate_request": 28,
+    "github_contact_pending_platform_cooldown": 0
   },
-  "verified_new_contacts": 19,
-  "verified_new_conversations": 18,
-  "verified_comments_in_existing_conversations": 1,
-  "verified_new_prs": 10,
-  "verified_new_issue_requests_and_offers": 8,
-  "new_pr_values": 389,
+  "verified_new_contacts": 22,
+  "verified_new_conversations": 20,
+  "verified_comments_in_existing_conversations": 2,
+  "verified_new_prs": 11,
+  "verified_new_issue_requests_and_offers": 9,
+  "verified_non_pr_contacts": 11,
+  "new_pr_values": 392,
   "limits": [
     "Steam-only drafts are not sent.",
-    "GitHub throttled new fork submissions. Carefully spaced existing-PR updates and individual contacts resumed after the cooldown; no route/account switch is used.",
+    "GitHub temporarily throttled fork creation. Reviewed updates, contacts and the final fork/PR succeeded after spaced cooldowns. No account or API route switch was used.",
     "Saved store, draft target and published payload counts overlap and must not be summed as unique translated values.",
     "Historical source and runtime findings keep their own dates."
   ],
@@ -497,14 +498,16 @@
       "translation_rights_status": "confirmed",
       "publication_status": "not_published",
       "publication_url": null,
-      "outreach_disposition": "github_contact_pending_platform_cooldown",
-      "reason": "Remaining source/coverage review or targeted author contact held after GitHub explicitly returned submitted-too-quickly. No new mutation attempted after the restriction. Current downloaded external Russian pack covers 27/28 prepared keys. One unfinished-mine-work description remains in Steam but is absent from current GitHub. Original/replacement metadata supports at most 1.6. A narrow source-location question and translation offer is prepared, not sent.",
-      "contacts": [],
-      "prepared_contact_not_sent": {
-        "target_url": "https://github.com/ekremyk2/Mine/issues",
-        "action": "translation_offer_source_location_question",
-        "state": "prepared_not_sent_platform_rate_limit"
-      }
+      "outreach_disposition": "author_contacted",
+      "reason": "A verified existing conversation covers the named mod. Waiting or contributing in that conversation.",
+      "contacts": [
+        {
+          "url": "https://github.com/ekremyk2/Mine/issues/4",
+          "date": "2026-11-06",
+          "kind": "translation_offer",
+          "status": "sent_verified"
+        }
+      ]
     },
     {
       "package_id": "costel.layeredapparel",
@@ -1508,13 +1511,13 @@
       "translation_rights_status": "unknown",
       "publication_status": "not_published",
       "publication_url": null,
-      "outreach_disposition": "github_contact_pending_platform_cooldown",
-      "reason": "Remaining source/coverage review or targeted author contact held after GitHub explicitly returned submitted-too-quickly. No new mutation attempted after the restriction. Current Workshop points to the ThisIsSP4RTAN continuation. Its GitHub lacks both own ListerHaulables setting keys present in Steam. A source-location question and two-string offer is prepared, not sent.",
+      "outreach_disposition": "steam_author_contact_blocked",
+      "reason": "Current maintainer fork has GitHub Issues disabled, and the two Steam-only source keys are absent from that repository. Steam contact is unavailable this session. Current Workshop points to the ThisIsSP4RTAN continuation. Its GitHub lacks both own ListerHaulables setting keys present in Steam. A source-location question and two-string offer is prepared, not sent; Issues are disabled, and no POST was attempted.",
       "contacts": [],
       "prepared_contact_not_sent": {
-        "target_url": "https://github.com/ThisIsSP4RTAN/RimWorld-LWM.DeepStorage/issues",
+        "target_url": "https://steamcommunity.com/sharedfiles/filedetails/?id=3532608331",
         "action": "translation_offer_source_location_question",
-        "state": "prepared_not_sent_platform_rate_limit"
+        "state": "not_sent_author_repository_issues_disabled"
       }
     },
     {
@@ -1722,14 +1725,16 @@
       "translation_rights_status": "unknown",
       "publication_status": "not_published",
       "publication_url": null,
-      "outreach_disposition": "github_contact_pending_platform_cooldown",
-      "reason": "Remaining source/coverage review or targeted author contact held after GitHub explicitly returned submitted-too-quickly. No new mutation attempted after the restriction. Existing Russian PR #1 by Darwin1546 is open and reported mergeable at the current check. Of 63 own direct fields matching current GitHub English, 37 keys are outside that PR. Six nested fields remain held. An addition offer in that existing thread is prepared, not sent.",
-      "contacts": [],
-      "prepared_contact_not_sent": {
-        "target_url": "https://github.com/TheMiggiestMig/MigCorp-Skiptech/pull/1",
-        "action": "offer_additional_own_keys_in_existing_russian_pr",
-        "state": "prepared_not_sent_platform_rate_limit"
-      }
+      "outreach_disposition": "author_contacted",
+      "reason": "A verified existing conversation covers the named mod. Waiting or contributing in that conversation. Existing Russian PR #1 by Darwin1546 is open and reported mergeable at the current check. Of 63 own direct fields matching current GitHub English, 37 keys are outside that PR. Six nested fields remain held. An addition offer in that existing thread is prepared, not sent.",
+      "contacts": [
+        {
+          "url": "https://github.com/TheMiggiestMig/MigCorp-Skiptech/pull/1#issuecomment-6691665595",
+          "date": "2026-11-06",
+          "kind": "translation_offer",
+          "status": "sent_verified"
+        }
+      ]
     },
     {
       "package_id": "mlie.showmeyourhands",
@@ -1747,17 +1752,28 @@
       "translation_rights_status": "confirmed",
       "publication_status": "not_published",
       "publication_url": null,
-      "outreach_disposition": "github_contact_pending_platform_cooldown",
-      "reason": "Remaining source/coverage review or targeted author contact held after GitHub explicitly returned submitted-too-quickly. No new mutation attempted after the restriction.",
-      "contacts": [],
-      "submission_blocker": {
-        "state": "not_sent",
-        "error": "GitHub HTTP403: was submitted too quickly",
-        "attempts_utc": [
+      "outreach_disposition": "author_contacted",
+      "reason": "A verified existing conversation covers the named mod. Waiting or contributing in that conversation.",
+      "contacts": [
+        {
+          "url": "https://github.com/emipa606/ShowMeYourHands/pull/12",
+          "date": "2026-11-06",
+          "kind": "upstream_translation_pr",
+          "status": "sent_verified"
+        }
+      ],
+      "submission_history": {
+        "state": "submitted_verified_after_cooldown",
+        "historical_error": "GitHub HTTP403: was submitted too quickly",
+        "failed_attempts_utc": [
           "2026-11-06T17:17",
           "2026-11-06T17:27"
         ],
-        "fork_or_pr_created": false
+        "successful_attempt": 3,
+        "pr_url": "https://github.com/emipa606/ShowMeYourHands/pull/12",
+        "head_sha": "45edd53382397aa5cdd02b0ea984911979c21ee9",
+        "entries_submitted": 3,
+        "fresh_game_test_claimed": false
       }
     },
     {
@@ -2741,7 +2757,7 @@
       "historical_possible_gap_count": 6,
       "historical_gap_check_date": "2026-11-03",
       "translation_rights_status": "confirmed",
-      "publication_status": "not_published",
+      "publication_status": "held_existing_current_translation",
       "publication_url": null,
       "outreach_disposition": "known_author_policy_no_duplicate_request",
       "reason": "The existing author conversation directs this work to independent translation packs. Current identity and rights evidence cover this mod; no separate individual outreach is claimed. No repeated permission request is needed.",
@@ -3607,7 +3623,7 @@
       "historical_possible_gap_count": 3,
       "historical_gap_check_date": "2026-11-03",
       "translation_rights_status": "confirmed",
-      "publication_status": "not_published",
+      "publication_status": "held_existing_current_translation",
       "publication_url": null,
       "outreach_disposition": "known_author_policy_no_duplicate_request",
       "reason": "The existing author conversation directs this work to independent translation packs. Current identity and rights evidence cover this mod; no separate individual outreach is claimed. No repeated permission request is needed.",
@@ -4019,6 +4035,5 @@
       "reason": "The verified author channel is Steam. Community HTML returned 429 and browser control was blocked by tool URL policy. Drafts have not been sent.",
       "contacts": []
     }
-  ],
-  "verified_non_pr_contacts": 9
+  ]
 }

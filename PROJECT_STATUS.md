@@ -2,7 +2,7 @@
 
 Generated from `mods/*/manifest.json` by `python scripts/rwtranslations.py registry`.
 
-Last inventory generation (UTC): 2026-11-06T17:53:42+00:00
+Last inventory generation (UTC): 2026-11-06T18:05:38+00:00
 
 The registry tracks **166 mods**: 156 saved-store records and 10 additional draft/review metadata records; 0 records have unverified store scope. Saved stores can also contain unfinished drafts. Original and translation package IDs are separate namespaces. Discovery has no fixed mod limit.
 
@@ -50,6 +50,7 @@ Integration proposals:
 - [Pick Up And Haul](https://github.com/Mehni/PickUpAndHaul/pull/72): open.
 - [Smart Medicine - Continued](https://github.com/MemeGoddess/RimWorld-SmartMedicine/pull/24): open.
 - [Designator Shapes](https://github.com/merthsoft/designator-shapes/pull/15): accepted.
+- [Show Me Your Hands](https://github.com/emipa606/ShowMeYourHands/pull/12): open.
 - [Vanilla Expanded Framework](https://github.com/OneCodeUnit/VanillaRussianExpanded/pull/47): open (community translation repository; original-native acceptance not claimed).
 - [ReGrowth 2](https://github.com/OneCodeUnit/VanillaRussianExpanded/pull/46): accepted_into_community_translation (community translation repository; original-native acceptance not claimed).
 - [Yet Another Research Tree (YART)](https://github.com/csh1668/YetAnotherResearchTree/pull/6): open.
@@ -80,8 +81,8 @@ The 13 source-drift packages were refreshed. Targeted repairs added 20 strings, 
 | github_published | 17 |
 | workshop_submitted | 17 |
 | workshop_published | 11 |
-| pull_requests | 17 |
-| integration_records | 20 |
+| pull_requests | 18 |
+| integration_records | 21 |
 | accepted | 2 |
 | awaiting_rights | 85 |
 | needs_update | 13 |
@@ -90,7 +91,7 @@ The 13 source-drift packages were refreshed. Targeted repairs added 20 strings, 
 | static_inventory_flagged | 20 |
 | static_findings | 49 |
 | repository_monitors | 30 |
-| pull_request_monitors | 17 |
+| pull_request_monitors | 18 |
 | icon_permission_requests | 2 |
 | workshop_public_pages_verified | 11 |
 | workshop_content_check_pending | 0 |

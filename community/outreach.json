@@ -485,6 +485,44 @@
       "fresh_game_test_claimed": false,
       "receipt_evidence": "community/outreach-2026-11-06.json",
       "rights_granted": false
+    },
+    {
+      "package_id": "cain.mineshaft",
+      "related_package_ids": [],
+      "channel": "github_issue",
+      "url": "https://github.com/ekremyk2/Mine/issues/4",
+      "date": "2026-11-06",
+      "status": "awaiting_response",
+      "target_kind": "translation_offer",
+      "ai_disclosed": true,
+      "fresh_game_test_claimed": false,
+      "receipt_evidence": "community/outreach-2026-11-06.json"
+    },
+    {
+      "package_id": "migcorp.skiptech",
+      "related_package_ids": [],
+      "channel": "github_issue",
+      "url": "https://github.com/TheMiggiestMig/MigCorp-Skiptech/pull/1#issuecomment-6691665595",
+      "date": "2026-11-06",
+      "status": "awaiting_response",
+      "target_kind": "translation_offer",
+      "ai_disclosed": true,
+      "fresh_game_test_claimed": false,
+      "receipt_evidence": "community/outreach-2026-11-06.json"
+    },
+    {
+      "package_id": "mlie.showmeyourhands",
+      "related_package_ids": [],
+      "channel": "github_pull_request",
+      "url": "https://github.com/emipa606/ShowMeYourHands/pull/12",
+      "date": "2026-11-06",
+      "status": "awaiting_response",
+      "target_kind": "original_mod",
+      "ai_disclosed": true,
+      "fresh_game_test_claimed": false,
+      "receipt_evidence": "community/outreach-2026-11-06.json",
+      "head_sha": "45edd53382397aa5cdd02b0ea984911979c21ee9",
+      "entries_submitted": 3
     }
   ]
 }

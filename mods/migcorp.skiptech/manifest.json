@@ -35,9 +35,12 @@
     "workshop_status": "not_published"
   },
   "integration": {
-    "status": "not_sent",
+    "status": "translation_offered",
     "pr_url": null,
-    "contact_url": null
+    "contact_url": "https://github.com/TheMiggiestMig/MigCorp-Skiptech/pull/1#issuecomment-6691665595",
+    "contact_status": "awaiting_response",
+    "offered_at": "2026-11-06",
+    "response_evidence": "community/outreach-2026-11-06.json"
   },
   "original": {
     "author": "TheMiggiestMig",

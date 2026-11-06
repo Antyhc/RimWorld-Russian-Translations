@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "generated_at": "2026-11-06T17:53:42+00:00",
+  "generated_at": "2026-11-06T18:05:38+00:00",
   "mods": [
     {
       "schema_version": 1,
@@ -2462,9 +2462,12 @@
         "workshop_status": "not_published"
       },
       "integration": {
-        "status": "not_sent",
+        "status": "translation_offered",
         "pr_url": null,
-        "contact_url": null
+        "contact_url": "https://github.com/ekremyk2/Mine/issues/4",
+        "contact_status": "awaiting_response",
+        "offered_at": "2026-11-06",
+        "response_evidence": "community/outreach-2026-11-06.json"
       },
       "original": {
         "author": "StatistNo1,Rebel_Rabbit,Cain",
@@ -8670,9 +8673,12 @@
         "workshop_status": "not_published"
       },
       "integration": {
-        "status": "not_sent",
+        "status": "translation_offered",
         "pr_url": null,
-        "contact_url": null
+        "contact_url": "https://github.com/TheMiggiestMig/MigCorp-Skiptech/pull/1#issuecomment-6691665595",
+        "contact_status": "awaiting_response",
+        "offered_at": "2026-11-06",
+        "response_evidence": "community/outreach-2026-11-06.json"
       },
       "original": {
         "author": "TheMiggiestMig",
@@ -8755,16 +8761,29 @@
         "workshop_status": "not_published"
       },
       "integration": {
-        "status": "not_sent",
-        "pr_url": null,
+        "status": "open",
+        "pr_url": "https://github.com/emipa606/ShowMeYourHands/pull/12",
         "contact_url": null,
         "pending_correction": {
           "entries": 3,
-          "status": "prepared_not_sent_platform_rate_limit",
+          "status": "submitted_verified",
           "checked_at": "2026-11-06",
-          "attempts": 2,
-          "description": "Correct always-show-hands, off-hand rotation and mouse-wheel rotation help against the current English. XML parsed; fresh game UI not tested."
-        }
+          "attempts": 3,
+          "description": "Correct always-show-hands, off-hand rotation and mouse-wheel rotation help against the current English. XML parsed; fresh game UI not tested.",
+          "pr_url": "https://github.com/emipa606/ShowMeYourHands/pull/12",
+          "head_sha": "45edd53382397aa5cdd02b0ea984911979c21ee9",
+          "submitted_at": "2026-11-06",
+          "failed_attempts_before_success": 2
+        },
+        "target_kind": "original_mod",
+        "head_sha": "45edd53382397aa5cdd02b0ea984911979c21ee9",
+        "submitted_at": "2026-11-06",
+        "native_xml_submitted": true,
+        "original_native_accepted": false,
+        "entries_submitted": 3,
+        "fresh_game_test_claimed": false,
+        "scope": "Three semantic corrections in the existing Russian settings file: always-show-hands, off-hand rotation and mouse-wheel rotation help. Source/XML checked; no fresh game UI test or independent human proofreading claimed. Existing translation attribution and all other values preserved.",
+        "response_evidence": "community/outreach-2026-11-06.json"
       },
       "original": {
         "author": "Mlie",
@@ -19956,8 +19975,8 @@
     "github_published": 17,
     "workshop_submitted": 17,
     "workshop_published": 11,
-    "pull_requests": 17,
-    "integration_records": 20,
+    "pull_requests": 18,
+    "integration_records": 21,
     "accepted": 2,
     "awaiting_rights": 85,
     "needs_update": 13,
@@ -19966,7 +19985,7 @@
     "static_inventory_flagged": 20,
     "static_findings": 49,
     "repository_monitors": 30,
-    "pull_request_monitors": 17,
+    "pull_request_monitors": 18,
     "icon_permission_requests": 2,
     "workshop_public_pages_verified": 11,
     "workshop_content_check_pending": 0,
