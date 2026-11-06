@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "generated_at": "2026-11-06T17:10:33+00:00",
+  "generated_at": "2026-11-06T17:39:30+00:00",
   "mods": [
     {
       "schema_version": 1,
@@ -100,10 +100,18 @@
       ],
       "rights": {
         "translation": {
-          "status": "unknown",
-          "license": null,
-          "evidence": null,
-          "attribution": null
+          "status": "confirmed",
+          "license": "GPL-3.0",
+          "evidence": "https://github.com/tomvd/Hospital/blob/82a15e711129a32e5bfe772663160433ee566316/LICENSE",
+          "attribution": "Original mod: Hospital by Adamas. Original Workshop: https://steamcommunity.com/sharedfiles/filedetails/?id=2992224079. Original source: https://github.com/tomvd/Hospital. Russian additions: Antyhc, 2026; retain the applicable GPL-3.0 terms.",
+          "scope": "Our independently authored Russian adaptation of textual source material in this repository; no third-party Russian files, code, assemblies, or artwork included.",
+          "obligations": [
+            "Distribute derivative translated text under compatible GPL v3 terms and include the full applicable license.",
+            "Provide the editable Russian XML as corresponding source, retain relevant notices, and identify changed files and translator attribution.",
+            "Do not substitute the repository infrastructure MIT license for this translated material's GPL obligations or assume rights to third-party Russian wording."
+          ],
+          "source_permission_review": "community/rights-updates.public.json",
+          "source_permission_checked_date": "2026-11-06"
         },
         "icon": {
           "status": "unknown",
@@ -127,9 +135,17 @@
         "workshop_status": "not_published"
       },
       "integration": {
-        "status": "not_sent",
-        "pr_url": null,
-        "contact_url": null
+        "status": "open",
+        "pr_url": "https://github.com/tomvd/Hospital/pull/66",
+        "contact_url": null,
+        "target_kind": "original_mod",
+        "head_sha": "414330693433378b0bcc74e1f6dded531661542a",
+        "submitted_at": "2026-11-06",
+        "native_xml_submitted": true,
+        "original_native_accepted": false,
+        "entries_submitted": 82,
+        "fresh_game_test_claimed": false,
+        "response_evidence": "community/outreach-2026-11-06.json"
       },
       "original": {
         "author": "Adamas",
@@ -141,12 +157,32 @@
           "1.6",
           "1.7"
         ],
-        "repository_url": null,
+        "repository_url": "https://github.com/tomvd/Hospital",
         "repository_candidates": [
           "https://github.com/pardeike/HarmonyRimWorld"
         ],
-        "repository_verification": "not_remote_checked",
-        "activity": "not_remote_checked"
+        "repository_verification": "current_remote_About_package_id_matches_original",
+        "activity": "not_remote_checked",
+        "verified_source_identity": {
+          "status": "verified_current_remote_about_package_id_matches",
+          "package_id_as_declared": "Adamas.Hospital",
+          "name": "Hospital",
+          "author": "Adamas",
+          "supported_versions": [
+            "1.4",
+            "1.5",
+            "1.6",
+            "1.7"
+          ],
+          "about_url": "https://github.com/tomvd/Hospital/blob/82a15e711129a32e5bfe772663160433ee566316/About/About.xml",
+          "about_blob_sha": "fc922e48e676cacd813cd7c40d606db34b2a0776",
+          "source_commit": "82a15e711129a32e5bfe772663160433ee566316",
+          "repository_url": "https://github.com/tomvd/Hospital",
+          "checked_date": "2026-11-06",
+          "evidence_file": "community/rights-updates.public.json",
+          "metadata_scope": "Remote source identity only. These version declarations do not upgrade the release or installed-mod compatibility claims."
+        },
+        "default_branch": "main"
       },
       "inventory": {
         "saved_records": 83,
@@ -175,6 +211,13 @@
         "saved_translation_store": true
       },
       "work_stage": "installed_local",
+      "monitor": {
+        "github_tree": {
+          "repository": "tomvd/Hospital",
+          "ref": "main",
+          "baseline_file": "source.tree.json"
+        }
+      },
       "manifest": "mods/adamas.hospital/manifest.json"
     },
     {
@@ -2176,10 +2219,17 @@
       ],
       "rights": {
         "translation": {
-          "status": "unknown",
-          "license": null,
-          "evidence": null,
-          "attribution": null
+          "status": "confirmed",
+          "license": "MIT",
+          "evidence": "https://github.com/caesarv6/DamageIndicators/blob/4873726e9ed7d7722099d31758c97417319fd90e/LICENSE",
+          "attribution": "Original mod: Damage Indicators [1.7] by Spdskatr, CaesarV6. Copyright (c) 2017 spdskatr Original Workshop: https://steamcommunity.com/sharedfiles/filedetails/?id=2016331497. Original source: https://github.com/caesarv6/DamageIndicators. Russian additions: Antyhc, 2026; retain the applicable MIT terms.",
+          "scope": "Our independently authored Russian adaptation of textual source material in this repository; no third-party Russian files, code, assemblies, or artwork included.",
+          "obligations": [
+            "Retain the original copyright and permission notice in all copies or substantial portions of the translated material.",
+            "Attribute the original authors and identify Antyhc's Russian additions; do not reuse unrelated third-party Russian wording without its own permission."
+          ],
+          "source_permission_review": "community/rights-updates.public.json",
+          "source_permission_checked_date": "2026-11-06"
         },
         "icon": {
           "status": "unknown",
@@ -2220,12 +2270,35 @@
           "1.6",
           "1.7"
         ],
-        "repository_url": null,
+        "repository_url": "https://github.com/caesarv6/DamageIndicators",
         "repository_candidates": [
           "https://github.com/pardeike/HarmonyRimWorld"
         ],
-        "repository_verification": "not_remote_checked",
-        "activity": "not_remote_checked"
+        "repository_verification": "current_remote_About_package_id_matches_original",
+        "activity": "not_remote_checked",
+        "verified_source_identity": {
+          "status": "verified_current_remote_about_package_id_matches",
+          "package_id_as_declared": "CaesarV6.DamageIndicators",
+          "name": "Damage Indicators [1.7]",
+          "author": "Spdskatr, CaesarV6",
+          "supported_versions": [
+            "1.1",
+            "1.2",
+            "1.3",
+            "1.4",
+            "1.5",
+            "1.6",
+            "1.7"
+          ],
+          "about_url": "https://github.com/caesarv6/DamageIndicators/blob/4873726e9ed7d7722099d31758c97417319fd90e/About/About.xml",
+          "about_blob_sha": "4522a4f3fec55eae8184910bc6855fd4ade86e64",
+          "source_commit": "4873726e9ed7d7722099d31758c97417319fd90e",
+          "repository_url": "https://github.com/caesarv6/DamageIndicators",
+          "checked_date": "2026-11-06",
+          "evidence_file": "community/rights-updates.public.json",
+          "metadata_scope": "Remote source identity only. These version declarations do not upgrade the release or installed-mod compatibility claims."
+        },
+        "default_branch": "master"
       },
       "inventory": {
         "saved_records": 8,
@@ -2251,6 +2324,13 @@
         "saved_translation_store": true
       },
       "work_stage": "installed_local",
+      "monitor": {
+        "github_tree": {
+          "repository": "caesarv6/DamageIndicators",
+          "ref": "master",
+          "baseline_file": "source.tree.json"
+        }
+      },
       "manifest": "mods/caesarv6.damageindicators/manifest.json"
     },
     {
@@ -2263,10 +2343,17 @@
       ],
       "rights": {
         "translation": {
-          "status": "unknown",
-          "license": null,
-          "evidence": null,
-          "attribution": null
+          "status": "confirmed",
+          "license": "MIT",
+          "evidence": "https://github.com/ekremyk2/Mine/blob/06b854ef484b01e19dd7e2b9380b824737db0009/LICENSE",
+          "attribution": "Original mod: Mines 2.0 by StatistNo1,Rebel_Rabbit,Cain. Copyright (c) 2025 ekremyk2 Original Workshop: https://steamcommunity.com/sharedfiles/filedetails/?id=2503894706. Original source: https://github.com/ekremyk2/Mine. Russian additions: Antyhc, 2026; retain the applicable MIT terms.",
+          "scope": "Our independently authored Russian adaptation of textual source material in this repository; no third-party Russian files, code, assemblies, or artwork included.",
+          "obligations": [
+            "Retain the original copyright and permission notice in all copies or substantial portions of the translated material.",
+            "Attribute the original authors and identify Antyhc's Russian additions; do not reuse unrelated third-party Russian wording without its own permission."
+          ],
+          "source_permission_review": "community/rights-updates.public.json",
+          "source_permission_checked_date": "2026-11-06"
         },
         "icon": {
           "status": "unknown",
@@ -2306,10 +2393,31 @@
           "1.6",
           "1.7"
         ],
-        "repository_url": null,
+        "repository_url": "https://github.com/ekremyk2/Mine",
         "repository_candidates": [],
-        "repository_verification": "not_remote_checked",
-        "activity": "not_remote_checked"
+        "repository_verification": "current_remote_About_package_id_matches_original",
+        "activity": "not_remote_checked",
+        "verified_source_identity": {
+          "status": "verified_current_remote_about_package_id_matches",
+          "package_id_as_declared": "Cain.Mineshaft",
+          "name": "Mines 2.0",
+          "author": "StatistNo1,Rebel_Rabbit,Cain",
+          "supported_versions": [
+            "1.2",
+            "1.3",
+            "1.4",
+            "1.5",
+            "1.6"
+          ],
+          "about_url": "https://github.com/ekremyk2/Mine/blob/06b854ef484b01e19dd7e2b9380b824737db0009/About/About.xml",
+          "about_blob_sha": "5cfb41c36ee43100325a414169415ed5830a95f9",
+          "source_commit": "06b854ef484b01e19dd7e2b9380b824737db0009",
+          "repository_url": "https://github.com/ekremyk2/Mine",
+          "checked_date": "2026-11-06",
+          "evidence_file": "community/rights-updates.public.json",
+          "metadata_scope": "Remote source identity only. These version declarations do not upgrade the release or installed-mod compatibility claims."
+        },
+        "default_branch": "main"
       },
       "inventory": {
         "saved_records": 28,
@@ -2335,6 +2443,13 @@
         "saved_translation_store": true
       },
       "work_stage": "installed_local",
+      "monitor": {
+        "github_tree": {
+          "repository": "ekremyk2/Mine",
+          "ref": "main",
+          "baseline_file": "source.tree.json"
+        }
+      },
       "manifest": "mods/cain.mineshaft/manifest.json"
     },
     {
@@ -4761,9 +4876,17 @@
         "anonymous_page_evidence": "community/workshop-public-pages-2026-10-30.json"
       },
       "integration": {
-        "status": "not_sent",
-        "pr_url": null,
-        "contact_url": null
+        "status": "open",
+        "pr_url": "https://github.com/tenguin/Rimworld_BloodAnimations/pull/3",
+        "contact_url": null,
+        "target_kind": "original_mod",
+        "head_sha": "2a3aef9365e8fdc29eae4e7e30f00c1fd523c541",
+        "submitted_at": "2026-11-06",
+        "native_xml_submitted": true,
+        "original_native_accepted": false,
+        "entries_submitted": 2,
+        "fresh_game_test_claimed": false,
+        "response_evidence": "community/outreach-2026-11-06.json"
       },
       "original": {
         "author": "Fuu Chan",
@@ -5733,10 +5856,17 @@
       ],
       "rights": {
         "translation": {
-          "status": "unknown",
-          "license": null,
-          "evidence": null,
-          "attribution": null
+          "status": "confirmed",
+          "license": "MIT",
+          "evidence": "https://github.com/Ilarion33/BulkLoadForTransporters/blob/58b21418054316a28227154b1a3cd9074d06bd37/LICENSE",
+          "attribution": "Original mod: Bulk Load For Transporters by Ilarion. Copyright (c) 2025 Ilarion Original Workshop: https://steamcommunity.com/sharedfiles/filedetails/?id=3559292908. Original source: https://github.com/Ilarion33/BulkLoadForTransporters. Russian additions: Antyhc, 2026; retain the applicable MIT terms.",
+          "scope": "Our independently authored Russian adaptation of textual source material in this repository; no third-party Russian files, code, assemblies, or artwork included.",
+          "obligations": [
+            "Retain the original copyright and permission notice in all copies or substantial portions of the translated material.",
+            "Attribute the original authors and identify Antyhc's Russian additions; do not reuse unrelated third-party Russian wording without its own permission."
+          ],
+          "source_permission_review": "community/rights-updates.public.json",
+          "source_permission_checked_date": "2026-11-06"
         },
         "icon": {
           "status": "unknown",
@@ -5780,12 +5910,29 @@
           "1.6",
           "1.7"
         ],
-        "repository_url": null,
+        "repository_url": "https://github.com/Ilarion33/BulkLoadForTransporters",
         "repository_candidates": [
           "https://github.com/pardeike/Harmony"
         ],
-        "repository_verification": "not_remote_checked",
-        "activity": "not_remote_checked"
+        "repository_verification": "current_remote_About_package_id_matches_original",
+        "activity": "not_remote_checked",
+        "verified_source_identity": {
+          "status": "verified_current_remote_about_package_id_matches",
+          "package_id_as_declared": "Ilarion.BulkLoadForTransporters",
+          "name": "Bulk Load For Transporters",
+          "author": "Ilarion",
+          "supported_versions": [
+            "1.6"
+          ],
+          "about_url": "https://github.com/Ilarion33/BulkLoadForTransporters/blob/58b21418054316a28227154b1a3cd9074d06bd37/About/About.xml",
+          "about_blob_sha": "3e7ba5a9c94e5dddb3a29819b59d4e455706d95b",
+          "source_commit": "58b21418054316a28227154b1a3cd9074d06bd37",
+          "repository_url": "https://github.com/Ilarion33/BulkLoadForTransporters",
+          "checked_date": "2026-11-06",
+          "evidence_file": "community/rights-updates.public.json",
+          "metadata_scope": "Remote source identity only. These version declarations do not upgrade the release or installed-mod compatibility claims."
+        },
+        "default_branch": "main"
       },
       "inventory": {
         "saved_records": 57,
@@ -5813,6 +5960,13 @@
         "saved_translation_store": true
       },
       "work_stage": "installed_local",
+      "monitor": {
+        "github_tree": {
+          "repository": "Ilarion33/BulkLoadForTransporters",
+          "ref": "main",
+          "baseline_file": "source.tree.json"
+        }
+      },
       "manifest": "mods/ilarion.bulkloadfortransporters/manifest.json"
     },
     {
@@ -6070,10 +6224,18 @@
       "supported_versions": [],
       "rights": {
         "translation": {
-          "status": "unknown",
-          "license": null,
-          "evidence": null,
-          "attribution": null
+          "status": "confirmed",
+          "license": "GPL-3.0",
+          "evidence": "https://github.com/15adhami/XmlExtensions/blob/98dda5530448bec78ea623f01896131da5b66761/LICENSE",
+          "attribution": "Original mod: XML Extensions by Imranfish. Original Workshop: https://steamcommunity.com/sharedfiles/filedetails/?id=2574315206. Original source: https://github.com/15adhami/XmlExtensions. Russian additions: Antyhc, 2026; retain the applicable GPL-3.0 terms.",
+          "scope": "Our independently authored Russian adaptation of textual source material in this repository; no third-party Russian files, code, assemblies, or artwork included.",
+          "obligations": [
+            "Distribute derivative translated text under compatible GPL v3 terms and include the full applicable license.",
+            "Provide the editable Russian XML as corresponding source, retain relevant notices, and identify changed files and translator attribution.",
+            "Do not substitute the repository infrastructure MIT license for this translated material's GPL obligations or assume rights to third-party Russian wording."
+          ],
+          "source_permission_review": "community/rights-updates.public.json",
+          "source_permission_checked_date": "2026-11-06"
         },
         "icon": {
           "status": "unknown",
@@ -6094,12 +6256,23 @@
         "github_status": "metadata_only",
         "workshop_url": null,
         "workshop_id": null,
-        "workshop_status": "not_published"
+        "workshop_status": "held_existing_full_target_translation",
+        "release_blockers": [
+          "Existing Star Sky translation 3818474366 contains all 24 current XML target fields; its additional assembly and declared 1.6 support require separate 1.7 runtime compatibility review. Avoid duplicate publication until that question is resolved."
+        ]
       },
       "integration": {
-        "status": "not_sent",
-        "pr_url": null,
-        "contact_url": null
+        "status": "open",
+        "pr_url": "https://github.com/15adhami/XmlExtensions/pull/26",
+        "contact_url": null,
+        "target_kind": "original_mod",
+        "head_sha": "250e6c59793dcc092d31fa4e1271e5ba816681c4",
+        "submitted_at": "2026-11-06",
+        "native_xml_submitted": true,
+        "original_native_accepted": false,
+        "entries_submitted": 24,
+        "fresh_game_test_claimed": false,
+        "response_evidence": "community/outreach-2026-11-06.json"
       },
       "original": {
         "author": "Imranfish",
@@ -6112,12 +6285,34 @@
           "1.5",
           "1.6"
         ],
-        "repository_url": null,
+        "repository_url": "https://github.com/15adhami/XmlExtensions",
         "repository_candidates": [
           "https://github.com/pardeike/HarmonyRimWorld"
         ],
-        "repository_verification": "not_remote_checked",
-        "activity": "not_remote_checked"
+        "repository_verification": "current_remote_About_package_id_matches_original",
+        "activity": "not_remote_checked",
+        "verified_source_identity": {
+          "status": "verified_current_remote_about_package_id_matches",
+          "package_id_as_declared": "imranfish.xmlextensions",
+          "name": "XML Extensions",
+          "author": "Imranfish",
+          "supported_versions": [
+            "1.2",
+            "1.3",
+            "1.4",
+            "1.5",
+            "1.6",
+            "1.7"
+          ],
+          "about_url": "https://github.com/15adhami/XmlExtensions/blob/98dda5530448bec78ea623f01896131da5b66761/About/About.xml",
+          "about_blob_sha": "15d738c57653362d113b72ce1ec8e9fae04ce9ad",
+          "source_commit": "98dda5530448bec78ea623f01896131da5b66761",
+          "repository_url": "https://github.com/15adhami/XmlExtensions",
+          "checked_date": "2026-11-06",
+          "evidence_file": "community/rights-updates.public.json",
+          "metadata_scope": "Remote source identity only. These version declarations do not upgrade the release or installed-mod compatibility claims."
+        },
+        "default_branch": "main"
       },
       "inventory": {
         "saved_records": 28,
@@ -6142,7 +6337,25 @@
         "work_stage": "installed_local",
         "saved_translation_store": true
       },
-      "work_stage": "installed_local",
+      "work_stage": "upstream_integration_preferred_existing_translation",
+      "duplicate_translation": {
+        "status": "current_full_target_equivalent_exists",
+        "checked_at": "2026-11-06T17:27:02.406706+00:00",
+        "evidence": "duplicate-translation-evidence.json",
+        "candidates": [
+          "https://steamcommunity.com/sharedfiles/filedetails/?id=2709181459",
+          "https://steamcommunity.com/sharedfiles/filedetails/?id=2885465596",
+          "https://steamcommunity.com/sharedfiles/filedetails/?id=3818474366"
+        ],
+        "scope": "Do not create another Workshop page solely on the basis of the same complete XML target coverage. Existing Star Sky package declares 1.6 and contains its own assembly; actual 1.7 runtime compatibility was not tested and must not be inferred from XML coverage alone. Original integration PR remains useful because the original has no native Russian."
+      },
+      "monitor": {
+        "github_tree": {
+          "repository": "15adhami/XmlExtensions",
+          "ref": "main",
+          "baseline_file": "source.tree.json"
+        }
+      },
       "manifest": "mods/imranfish.xmlextensions/manifest.json"
     },
     {
@@ -6619,7 +6832,7 @@
       },
       "publication": {
         "github_url": "https://github.com/Antyhc/RimWorld-Russian-Translations/tree/main/mods/leo.cleancommandbar",
-        "github_status": "published",
+        "github_status": "translation_published",
         "workshop_url": "https://steamcommunity.com/sharedfiles/filedetails/?id=3834788420",
         "workshop_id": "3834788420",
         "workshop_status": "published_public_page_verification_pending",
@@ -6677,7 +6890,7 @@
         "work_stage": "installed_local",
         "saved_translation_store": true
       },
-      "work_stage": "published_workshop_installation_check_pending",
+      "work_stage": "published_workshop_verified_website_check_pending",
       "duplicate_translation": {
         "status": "checked_no_current_equivalent",
         "checked_at": "2026-11-06T17:02:56.259645+00:00",
@@ -7285,10 +7498,18 @@
       ],
       "rights": {
         "translation": {
-          "status": "unknown",
-          "license": null,
-          "evidence": null,
-          "attribution": null
+          "status": "confirmed",
+          "license": "CC-BY-NC-SA-4.0",
+          "evidence": "https://github.com/m00nl1ght-dev/MapPreview/blob/8bedaa489a5ea4240749704517df0f0daaa00711/LICENSE",
+          "attribution": "Original mod: Map Preview by m00nl1ght. Copyright (c) 2022 m00nl1ght. Original Workshop: https://steamcommunity.com/sharedfiles/filedetails/?id=2800857642. Original source: https://github.com/m00nl1ght-dev/MapPreview. Russian additions: Antyhc, 2026; retain the applicable CC-BY-NC-SA-4.0 terms.",
+          "scope": "Our independently authored Russian adaptation of textual source material in this repository; no third-party Russian files, code, assemblies, or artwork included.",
+          "obligations": [
+            "Attribute m00nl1ght, retain supplied notices and a CC BY-NC-SA 4.0 license link, and identify translation changes.",
+            "Distribute the adaptation only noncommercially and under CC BY-NC-SA 4.0 or a permitted compatible license; do not add incompatible restrictions.",
+            "Respect any explicitly different licenses on individual files; source evidence does not cover independently authored third-party Russian translations."
+          ],
+          "source_permission_review": "community/rights-updates.public.json",
+          "source_permission_checked_date": "2026-11-06"
         },
         "icon": {
           "status": "unknown",
@@ -7406,7 +7627,27 @@
           "1.5/Languages/Russian/Keyed/Keys.xml",
           "1.6/Languages/Russian/Keyed/Keys.xml",
           "1.7/Languages/Russian/Keyed/Keys.xml"
-        ]
+        ],
+        "verified_source_identity": {
+          "status": "verified_current_remote_about_package_id_matches",
+          "package_id_as_declared": "m00nl1ght.MapPreview",
+          "name": "Map Preview",
+          "author": "m00nl1ght",
+          "supported_versions": [
+            "1.3",
+            "1.4",
+            "1.5",
+            "1.6",
+            "1.7"
+          ],
+          "about_url": "https://github.com/m00nl1ght-dev/MapPreview/blob/8bedaa489a5ea4240749704517df0f0daaa00711/About/About.xml",
+          "about_blob_sha": "25d647222c2dc2600d64241192946a138decb286",
+          "source_commit": "8bedaa489a5ea4240749704517df0f0daaa00711",
+          "repository_url": "https://github.com/m00nl1ght-dev/MapPreview",
+          "checked_date": "2026-11-06",
+          "evidence_file": "community/rights-updates.public.json",
+          "metadata_scope": "Remote source identity only. These version declarations do not upgrade the release or installed-mod compatibility claims."
+        }
       },
       "inventory": {
         "saved_records": 71,
@@ -7499,9 +7740,17 @@
         "workshop_status": "not_published"
       },
       "integration": {
-        "status": "not_sent",
-        "pr_url": null,
-        "contact_url": null
+        "status": "open",
+        "pr_url": "https://github.com/Mehni/PickUpAndHaul/pull/72",
+        "contact_url": null,
+        "target_kind": "original_mod",
+        "head_sha": "674fad7aeed3df99c9312eccd8e32a6a405b8d50",
+        "submitted_at": "2026-11-06",
+        "native_xml_submitted": true,
+        "original_native_accepted": false,
+        "entries_submitted": 8,
+        "fresh_game_test_claimed": false,
+        "response_evidence": "community/outreach-2026-11-06.json"
       },
       "original": {
         "author": "Mehni",
@@ -8417,7 +8666,14 @@
       "integration": {
         "status": "not_sent",
         "pr_url": null,
-        "contact_url": null
+        "contact_url": null,
+        "pending_correction": {
+          "entries": 3,
+          "status": "prepared_not_sent_platform_rate_limit",
+          "checked_at": "2026-11-06",
+          "attempts": 2,
+          "description": "Correct always-show-hands, off-hand rotation and mouse-wheel rotation help against the current English. XML parsed; fresh game UI not tested."
+        }
       },
       "original": {
         "author": "Mlie",
@@ -8507,10 +8763,11 @@
         ]
       },
       "inventory": {
-        "saved_records": 17,
+        "saved_records": 20,
         "historical_approved_records": 17,
         "provenance_counts": {
-          "new_contextual_translation": 17
+          "new_contextual_translation": 17,
+          "contextual_translation_correction": 3
         },
         "attribution_licenses": {},
         "installed_locally": true,
@@ -8964,20 +9221,47 @@
           "1.6",
           "1.7"
         ],
-        "repository_url": null,
+        "repository_url": "https://github.com/Zaljerem/Hospitality",
         "repository_candidates": [
           "https://github.com/OrionFive/Hospitality",
           "https://github.com/pardeike/HarmonyRimWorld"
         ],
-        "repository_verification": "not_remote_checked",
-        "activity": "not_remote_checked"
+        "repository_verification": "current_remote_About_package_id_matches_original",
+        "activity": "not_remote_checked",
+        "verified_source_identity": {
+          "status": "verified_current_remote_about_package_id_matches",
+          "package_id_as_declared": "Orion.Hospitality",
+          "name": "Hospitality (Continued)",
+          "author": "Zaljerem",
+          "supported_versions": [
+            "1.5",
+            "1.6",
+            "1.7"
+          ],
+          "about_url": "https://github.com/Zaljerem/Hospitality/blob/92f5fb6b57b344003c034f5ecaacde2a785e3bb5/About/About.xml",
+          "about_blob_sha": "47845116aaa20bf7d32217319e3189a2ad9a593e",
+          "source_commit": "92f5fb6b57b344003c034f5ecaacde2a785e3bb5",
+          "repository_url": "https://github.com/Zaljerem/Hospitality",
+          "checked_date": "2026-11-06",
+          "evidence_file": "community/rights-updates.public.json",
+          "metadata_scope": "Remote source identity only. These version declarations do not upgrade the release or installed-mod compatibility claims."
+        },
+        "default_branch": "develop"
       },
       "rights": {
         "translation": {
-          "status": "unknown",
-          "license": null,
-          "evidence": null,
-          "attribution": null
+          "status": "confirmed",
+          "license": "GPL-3.0-or-later",
+          "evidence": "https://github.com/Zaljerem/Hospitality/blob/92f5fb6b57b344003c034f5ecaacde2a785e3bb5/LICENSE",
+          "attribution": "Original mod: Hospitality (Continued) by Zaljerem. Copyright (c) 2015 Orion; continued by Zaljerem; acknowledge prior work by Adamas. Original Workshop: https://steamcommunity.com/sharedfiles/filedetails/?id=3509486825. Original source: https://github.com/Zaljerem/Hospitality. Russian additions: Antyhc, 2026; retain the applicable GPL-3.0-or-later terms.",
+          "scope": "Our independently authored Russian adaptation of textual source material in this repository; no third-party Russian files, code, assemblies, or artwork included.",
+          "obligations": [
+            "Distribute derivative translated text under compatible GPL v3 terms and include the full applicable license.",
+            "Provide the editable Russian XML as corresponding source, retain relevant notices, and identify changed files and translator attribution.",
+            "Do not substitute the repository infrastructure MIT license for this translated material's GPL obligations or assume rights to third-party Russian wording."
+          ],
+          "source_permission_review": "community/rights-updates.public.json",
+          "source_permission_checked_date": "2026-11-06"
         },
         "icon": {
           "status": "unknown",
@@ -9001,9 +9285,12 @@
         "workshop_status": "not_published"
       },
       "integration": {
-        "status": "not_sent",
+        "status": "translation_offered",
         "pr_url": null,
-        "contact_url": null
+        "contact_url": "https://github.com/Zaljerem/Hospitality/issues/14",
+        "contact_status": "awaiting_response",
+        "offered_at": "2026-11-06",
+        "response_evidence": "community/outreach-2026-11-06.json"
       },
       "work_stage": "reviewed_uninstalled",
       "inventory": {
@@ -9046,6 +9333,13 @@
           "new_files_outside_saved_source_inventory_checked": false
         },
         "saved_translation_store": false
+      },
+      "monitor": {
+        "github_tree": {
+          "repository": "Zaljerem/Hospitality",
+          "ref": "develop",
+          "baseline_file": "source.tree.json"
+        }
       },
       "manifest": "mods/orion.hospitality/manifest.json"
     },
@@ -9286,10 +9580,13 @@
       "supported_versions": [],
       "rights": {
         "translation": {
-          "status": "unknown",
-          "license": null,
-          "evidence": null,
-          "attribution": null
+          "status": "confirmed",
+          "license": "Explicit author permission for independently authored standalone Russian text supplements; original source license remains unchanged",
+          "evidence": "https://github.com/Vanilla-Expanded/VanillaExpandedFramework/issues/195#issuecomment-6519584242",
+          "attribution": "Original mod Vanilla Vehicles Expanded: Oskar Potocki, xrushha, Smash Phil, Taranchuk, Reann Shepard, Sarg. Independently authored Russian text by Antyhc with disclosed AI assistance. Original: https://steamcommunity.com/sharedfiles/filedetails/?id=3014906877. Not endorsed by or affiliated with Vanilla Expanded. No original artwork or third-party Russian text covered.",
+          "source_permission_review": "community/vanilla-expanded-text-permission-extension-2026-11-06.json",
+          "source_permission_checked_date": "2026-11-06",
+          "scope": "Only independently authored Russian text supplementing this identified original; no third-party Russian wording, original artwork, DLLs or other original assets. Original author credits and links retained; no Vanilla Expanded endorsement. Source license unchanged."
         },
         "icon": {
           "status": "unknown",
@@ -12077,10 +12374,17 @@
       "supported_versions": [],
       "rights": {
         "translation": {
-          "status": "unknown",
-          "license": null,
-          "evidence": null,
-          "attribution": null
+          "status": "confirmed",
+          "license": "MIT",
+          "evidence": "https://github.com/SmashPhil/Vehicle-Framework/blob/b557926d2f7b8d2e363ee468ef1ff196f15e2428/LICENSE",
+          "attribution": "Original mod: Vehicle Framework by Smash Phil. Copyright (c) 2019-2026 SmashPhil Original Workshop: https://steamcommunity.com/sharedfiles/filedetails/?id=3014915404. Original source: https://github.com/SmashPhil/Vehicle-Framework. Russian additions: Antyhc, 2026; retain the applicable MIT terms.",
+          "scope": "Our independently authored Russian adaptation of textual source material in this repository; no third-party Russian files, code, assemblies, or artwork included.",
+          "obligations": [
+            "Retain the original copyright and permission notice in all copies or substantial portions of the translated material.",
+            "Attribute the original authors and identify Antyhc's Russian additions; do not reuse unrelated third-party Russian wording without its own permission."
+          ],
+          "source_permission_review": "community/rights-updates.public.json",
+          "source_permission_checked_date": "2026-11-06"
         },
         "icon": {
           "status": "unknown",
@@ -12104,9 +12408,12 @@
         "workshop_status": "not_published"
       },
       "integration": {
-        "status": "not_sent",
+        "status": "translation_offered",
         "pr_url": null,
-        "contact_url": null
+        "contact_url": "https://github.com/SmashPhil/Vehicle-Framework/issues/380",
+        "contact_status": "awaiting_response",
+        "offered_at": "2026-11-06",
+        "response_evidence": "community/outreach-2026-11-06.json"
       },
       "original": {
         "author": "Smash Phil",
@@ -12186,7 +12493,26 @@
           ],
           "rights_clearance_not_inferred": true
         },
-        "upstream_russian_paths": []
+        "upstream_russian_paths": [],
+        "verified_source_identity": {
+          "status": "verified_current_remote_about_package_id_matches",
+          "package_id_as_declared": "SmashPhil.VehicleFramework",
+          "name": "Vehicle Framework",
+          "author": "Smash Phil",
+          "supported_versions": [
+            "1.4",
+            "1.5",
+            "1.6",
+            "1.7"
+          ],
+          "about_url": "https://github.com/SmashPhil/Vehicle-Framework/blob/b557926d2f7b8d2e363ee468ef1ff196f15e2428/About/About.xml",
+          "about_blob_sha": "f04733293b081316b4685697e5711775cddbf494",
+          "source_commit": "b557926d2f7b8d2e363ee468ef1ff196f15e2428",
+          "repository_url": "https://github.com/SmashPhil/Vehicle-Framework",
+          "checked_date": "2026-11-06",
+          "evidence_file": "community/rights-updates.public.json",
+          "metadata_scope": "Remote source identity only. These version declarations do not upgrade the release or installed-mod compatibility claims."
+        }
       },
       "inventory": {
         "saved_records": 675,
@@ -13236,10 +13562,13 @@
       ],
       "rights": {
         "translation": {
-          "status": "unknown",
-          "license": null,
-          "evidence": null,
-          "attribution": null
+          "status": "confirmed",
+          "license": "Explicit author permission for independently authored standalone Russian text supplements; original source license remains unchanged",
+          "evidence": "https://github.com/Vanilla-Expanded/VanillaExpandedFramework/issues/195#issuecomment-6519584242",
+          "attribution": "Original mod Vanilla Ideology Expanded - Sophian Style: Oskar Potocki, Sarg Bjornson. Independently authored Russian text by Antyhc with disclosed AI assistance. Original: https://steamcommunity.com/sharedfiles/filedetails/?id=3194606539. Not endorsed by or affiliated with Vanilla Expanded. No original artwork or third-party Russian text covered.",
+          "source_permission_review": "community/vanilla-expanded-text-permission-extension-2026-11-06.json",
+          "source_permission_checked_date": "2026-11-06",
+          "scope": "Only independently authored Russian text supplementing this identified original; no third-party Russian wording, original artwork, DLLs or other original assets. Original author credits and links retained; no Vanilla Expanded endorsement. Source license unchanged."
         },
         "icon": {
           "status": "unknown",
@@ -13331,10 +13660,13 @@
       ],
       "rights": {
         "translation": {
-          "status": "unknown",
-          "license": null,
-          "evidence": null,
-          "attribution": null
+          "status": "confirmed",
+          "license": "Explicit author permission for independently authored standalone Russian text supplements; original source license remains unchanged",
+          "evidence": "https://github.com/Vanilla-Expanded/VanillaExpandedFramework/issues/195#issuecomment-6519584242",
+          "attribution": "Original mod Vanilla Outposts Expanded: legodude17, Oskar Potocki. Independently authored Russian text by Antyhc with disclosed AI assistance. Original: https://steamcommunity.com/sharedfiles/filedetails/?id=2688941031. Not endorsed by or affiliated with Vanilla Expanded. No original artwork or third-party Russian text covered.",
+          "source_permission_review": "community/vanilla-expanded-text-permission-extension-2026-11-06.json",
+          "source_permission_checked_date": "2026-11-06",
+          "scope": "Only independently authored Russian text supplementing this identified original; no third-party Russian wording, original artwork, DLLs or other original assets. Original author credits and links retained; no Vanilla Expanded endorsement. Source license unchanged."
         },
         "icon": {
           "status": "unknown",
@@ -13427,10 +13759,13 @@
       ],
       "rights": {
         "translation": {
-          "status": "unknown",
-          "license": null,
-          "evidence": null,
-          "attribution": null
+          "status": "confirmed",
+          "license": "Explicit author permission for independently authored standalone Russian text supplements; original source license remains unchanged",
+          "evidence": "https://github.com/Vanilla-Expanded/VanillaExpandedFramework/issues/195#issuecomment-6519584242",
+          "attribution": "Original mod Vanilla Recycling Expanded: OskarPotocki, Sarg Bjornson, xrushha. Independently authored Russian text by Antyhc with disclosed AI assistance. Original: https://steamcommunity.com/sharedfiles/filedetails/?id=3155781848. Not endorsed by or affiliated with Vanilla Expanded. No original artwork or third-party Russian text covered.",
+          "source_permission_review": "community/vanilla-expanded-text-permission-extension-2026-11-06.json",
+          "source_permission_checked_date": "2026-11-06",
+          "scope": "Only independently authored Russian text supplementing this identified original; no third-party Russian wording, original artwork, DLLs or other original assets. Original author credits and links retained; no Vanilla Expanded endorsement. Source license unchanged."
         },
         "icon": {
           "status": "unknown",
@@ -13619,10 +13954,13 @@
       ],
       "rights": {
         "translation": {
-          "status": "unknown",
-          "license": null,
-          "evidence": null,
-          "attribution": null
+          "status": "confirmed",
+          "license": "Explicit author permission for independently authored standalone Russian text supplements; original source license remains unchanged",
+          "evidence": "https://github.com/Vanilla-Expanded/VanillaExpandedFramework/issues/195#issuecomment-6519584242",
+          "attribution": "Original mod Vanilla Temperature Expanded: Oskar Potocki, xrushha, Arquebus, Taranchuk. Independently authored Russian text by Antyhc with disclosed AI assistance. Original: https://steamcommunity.com/sharedfiles/filedetails/?id=3202046258. Not endorsed by or affiliated with Vanilla Expanded. No original artwork or third-party Russian text covered.",
+          "source_permission_review": "community/vanilla-expanded-text-permission-extension-2026-11-06.json",
+          "source_permission_checked_date": "2026-11-06",
+          "scope": "Only independently authored Russian text supplementing this identified original; no third-party Russian wording, original artwork, DLLs or other original assets. Original author credits and links retained; no Vanilla Expanded endorsement. Source license unchanged."
         },
         "icon": {
           "status": "unknown",
@@ -13856,10 +14194,13 @@
       ],
       "rights": {
         "translation": {
-          "status": "unknown",
-          "license": null,
-          "evidence": null,
-          "attribution": null
+          "status": "confirmed",
+          "license": "Explicit author permission for independently authored standalone Russian text supplements; original source license remains unchanged",
+          "evidence": "https://github.com/Vanilla-Expanded/VanillaExpandedFramework/issues/195#issuecomment-6519584242",
+          "attribution": "Original mod Vanilla Animals Expanded: Sarg Bjornson, Oskar Potocki. Independently authored Russian text by Antyhc with disclosed AI assistance. Original: https://steamcommunity.com/sharedfiles/filedetails/?id=2871933948. Not endorsed by or affiliated with Vanilla Expanded. No original artwork or third-party Russian text covered.",
+          "source_permission_review": "community/vanilla-expanded-text-permission-extension-2026-11-06.json",
+          "source_permission_checked_date": "2026-11-06",
+          "scope": "Only independently authored Russian text supplementing this identified original; no third-party Russian wording, original artwork, DLLs or other original assets. Original author credits and links retained; no Vanilla Expanded endorsement. Source license unchanged."
         },
         "icon": {
           "status": "unknown",
@@ -15182,10 +15523,13 @@
       ],
       "rights": {
         "translation": {
-          "status": "unknown",
-          "license": null,
-          "evidence": null,
-          "attribution": null
+          "status": "confirmed",
+          "license": "Explicit author permission for independently authored standalone Russian text supplements; original source license remains unchanged",
+          "evidence": "https://github.com/Vanilla-Expanded/VanillaExpandedFramework/issues/195#issuecomment-6519584242",
+          "attribution": "Original mod Vanilla Chemfuel Expanded: Oskar Potocki, Kikohi. Independently authored Russian text by Antyhc with disclosed AI assistance. Original: https://steamcommunity.com/sharedfiles/filedetails/?id=2792917473. Not endorsed by or affiliated with Vanilla Expanded. No original artwork or third-party Russian text covered.",
+          "source_permission_review": "community/vanilla-expanded-text-permission-extension-2026-11-06.json",
+          "source_permission_checked_date": "2026-11-06",
+          "scope": "Only independently authored Russian text supplementing this identified original; no third-party Russian wording, original artwork, DLLs or other original assets. Original author credits and links retained; no Vanilla Expanded endorsement. Source license unchanged."
         },
         "icon": {
           "status": "unknown",
@@ -15560,10 +15904,13 @@
       ],
       "rights": {
         "translation": {
-          "status": "unknown",
-          "license": null,
-          "evidence": null,
-          "attribution": null
+          "status": "confirmed",
+          "license": "Explicit author permission for independently authored standalone Russian text supplements; original source license remains unchanged",
+          "evidence": "https://github.com/Vanilla-Expanded/VanillaExpandedFramework/issues/195#issuecomment-6519584242",
+          "attribution": "Original mod Vanilla Cooking Expanded - Stews: Oskar Potocki, Sarg Bjornson, Chowder. Independently authored Russian text by Antyhc with disclosed AI assistance. Original: https://steamcommunity.com/sharedfiles/filedetails/?id=2134312965. Not endorsed by or affiliated with Vanilla Expanded. No original artwork or third-party Russian text covered.",
+          "source_permission_review": "community/vanilla-expanded-text-permission-extension-2026-11-06.json",
+          "source_permission_checked_date": "2026-11-06",
+          "scope": "Only independently authored Russian text supplementing this identified original; no third-party Russian wording, original artwork, DLLs or other original assets. Original author credits and links retained; no Vanilla Expanded endorsement. Source license unchanged."
         },
         "icon": {
           "status": "unknown",
@@ -16014,10 +16361,13 @@
       ],
       "rights": {
         "translation": {
-          "status": "unknown",
-          "license": null,
-          "evidence": null,
-          "attribution": null
+          "status": "confirmed",
+          "license": "Explicit author permission for independently authored standalone Russian text supplements; original source license remains unchanged",
+          "evidence": "https://github.com/Vanilla-Expanded/VanillaExpandedFramework/issues/195#issuecomment-6519584242",
+          "attribution": "Original mod Vanilla Furniture Expanded - Art: Oskar Potocki, Sarg Bjornson. Independently authored Russian text by Antyhc with disclosed AI assistance. Original: https://steamcommunity.com/sharedfiles/filedetails/?id=1968134023. Not endorsed by or affiliated with Vanilla Expanded. No original artwork or third-party Russian text covered.",
+          "source_permission_review": "community/vanilla-expanded-text-permission-extension-2026-11-06.json",
+          "source_permission_checked_date": "2026-11-06",
+          "scope": "Only independently authored Russian text supplementing this identified original; no third-party Russian wording, original artwork, DLLs or other original assets. Original author credits and links retained; no Vanilla Expanded endorsement. Source license unchanged."
         },
         "icon": {
           "status": "unknown",
@@ -16244,10 +16594,13 @@
       ],
       "rights": {
         "translation": {
-          "status": "unknown",
-          "license": null,
-          "evidence": null,
-          "attribution": null
+          "status": "confirmed",
+          "license": "Explicit author permission for independently authored standalone Russian text supplements; original source license remains unchanged",
+          "evidence": "https://github.com/Vanilla-Expanded/VanillaExpandedFramework/issues/195#issuecomment-6519584242",
+          "attribution": "Original mod Vanilla Furniture Expanded - Factory: Oskar Potocki, Sarg Bjornson, Taranchuk. Independently authored Russian text by Antyhc with disclosed AI assistance. Original: https://steamcommunity.com/sharedfiles/filedetails/?id=3686924415. Not endorsed by or affiliated with Vanilla Expanded. No original artwork or third-party Russian text covered.",
+          "source_permission_review": "community/vanilla-expanded-text-permission-extension-2026-11-06.json",
+          "source_permission_checked_date": "2026-11-06",
+          "scope": "Only independently authored Russian text supplementing this identified original; no third-party Russian wording, original artwork, DLLs or other original assets. Original author credits and links retained; no Vanilla Expanded endorsement. Source license unchanged."
         },
         "icon": {
           "status": "unknown",
@@ -16362,10 +16715,13 @@
       ],
       "rights": {
         "translation": {
-          "status": "unknown",
-          "license": null,
-          "evidence": null,
-          "attribution": null
+          "status": "confirmed",
+          "license": "Explicit author permission for independently authored standalone Russian text supplements; original source license remains unchanged",
+          "evidence": "https://github.com/Vanilla-Expanded/VanillaExpandedFramework/issues/195#issuecomment-6519584242",
+          "attribution": "Original mod Vanilla Furniture Expanded - Farming: Oskar Potocki, dninemfive, Kikohi, Sarg. Independently authored Russian text by Antyhc with disclosed AI assistance. Original: https://steamcommunity.com/sharedfiles/filedetails/?id=1957158779. Not endorsed by or affiliated with Vanilla Expanded. No original artwork or third-party Russian text covered.",
+          "source_permission_review": "community/vanilla-expanded-text-permission-extension-2026-11-06.json",
+          "source_permission_checked_date": "2026-11-06",
+          "scope": "Only independently authored Russian text supplementing this identified original; no third-party Russian wording, original artwork, DLLs or other original assets. Original author credits and links retained; no Vanilla Expanded endorsement. Source license unchanged."
         },
         "icon": {
           "status": "unknown",
@@ -16473,10 +16829,13 @@
       ],
       "rights": {
         "translation": {
-          "status": "unknown",
-          "license": null,
-          "evidence": null,
-          "attribution": null
+          "status": "confirmed",
+          "license": "Explicit author permission for independently authored standalone Russian text supplements; original source license remains unchanged",
+          "evidence": "https://github.com/Vanilla-Expanded/VanillaExpandedFramework/issues/195#issuecomment-6519584242",
+          "attribution": "Original mod Vanilla Furniture Expanded - Medical Module: OskarPotocki, Atlas, Kikohi. Independently authored Russian text by Antyhc with disclosed AI assistance. Original: https://steamcommunity.com/sharedfiles/filedetails/?id=1718191613. Not endorsed by or affiliated with Vanilla Expanded. No original artwork or third-party Russian text covered.",
+          "source_permission_review": "community/vanilla-expanded-text-permission-extension-2026-11-06.json",
+          "source_permission_checked_date": "2026-11-06",
+          "scope": "Only independently authored Russian text supplementing this identified original; no third-party Russian wording, original artwork, DLLs or other original assets. Original author credits and links retained; no Vanilla Expanded endorsement. Source license unchanged."
         },
         "icon": {
           "status": "unknown",
@@ -16568,10 +16927,13 @@
       ],
       "rights": {
         "translation": {
-          "status": "unknown",
-          "license": null,
-          "evidence": null,
-          "attribution": null
+          "status": "confirmed",
+          "license": "Explicit author permission for independently authored standalone Russian text supplements; original source license remains unchanged",
+          "evidence": "https://github.com/Vanilla-Expanded/VanillaExpandedFramework/issues/195#issuecomment-6519584242",
+          "attribution": "Original mod Vanilla Furniture Expanded - Power: Oskar Potocki, Sarg Bjornson. Independently authored Russian text by Antyhc with disclosed AI assistance. Original: https://steamcommunity.com/sharedfiles/filedetails/?id=2062943477. Not endorsed by or affiliated with Vanilla Expanded. No original artwork or third-party Russian text covered.",
+          "source_permission_review": "community/vanilla-expanded-text-permission-extension-2026-11-06.json",
+          "source_permission_checked_date": "2026-11-06",
+          "scope": "Only independently authored Russian text supplementing this identified original; no third-party Russian wording, original artwork, DLLs or other original assets. Original author credits and links retained; no Vanilla Expanded endorsement. Source license unchanged."
         },
         "icon": {
           "status": "unknown",
@@ -16679,10 +17041,13 @@
       ],
       "rights": {
         "translation": {
-          "status": "unknown",
-          "license": null,
-          "evidence": null,
-          "attribution": null
+          "status": "confirmed",
+          "license": "Explicit author permission for independently authored standalone Russian text supplements; original source license remains unchanged",
+          "evidence": "https://github.com/Vanilla-Expanded/VanillaExpandedFramework/issues/195#issuecomment-6519584242",
+          "attribution": "Original mod Vanilla Furniture Expanded - Production: Oskar Potocki, Trunken, Sarg. Independently authored Russian text by Antyhc with disclosed AI assistance. Original: https://steamcommunity.com/sharedfiles/filedetails/?id=1880253632. Not endorsed by or affiliated with Vanilla Expanded. No original artwork or third-party Russian text covered.",
+          "source_permission_review": "community/vanilla-expanded-text-permission-extension-2026-11-06.json",
+          "source_permission_checked_date": "2026-11-06",
+          "scope": "Only independently authored Russian text supplementing this identified original; no third-party Russian wording, original artwork, DLLs or other original assets. Original author credits and links retained; no Vanilla Expanded endorsement. Source license unchanged."
         },
         "icon": {
           "status": "unknown",
@@ -16787,10 +17152,13 @@
       ],
       "rights": {
         "translation": {
-          "status": "unknown",
-          "license": null,
-          "evidence": null,
-          "attribution": null
+          "status": "confirmed",
+          "license": "Explicit author permission for independently authored standalone Russian text supplements; original source license remains unchanged",
+          "evidence": "https://github.com/Vanilla-Expanded/VanillaExpandedFramework/issues/195#issuecomment-6519584242",
+          "attribution": "Original mod Vanilla Furniture Expanded - Props and Decor: Oskar Potocki, Sarg Bjornson. Independently authored Russian text by Antyhc with disclosed AI assistance. Original: https://steamcommunity.com/sharedfiles/filedetails/?id=2102143149. Not endorsed by or affiliated with Vanilla Expanded. No original artwork or third-party Russian text covered.",
+          "source_permission_review": "community/vanilla-expanded-text-permission-extension-2026-11-06.json",
+          "source_permission_checked_date": "2026-11-06",
+          "scope": "Only independently authored Russian text supplementing this identified original; no third-party Russian wording, original artwork, DLLs or other original assets. Original author credits and links retained; no Vanilla Expanded endorsement. Source license unchanged."
         },
         "icon": {
           "status": "unknown",
@@ -17017,10 +17385,13 @@
       ],
       "rights": {
         "translation": {
-          "status": "unknown",
-          "license": null,
-          "evidence": null,
-          "attribution": null
+          "status": "confirmed",
+          "license": "Explicit author permission for independently authored standalone Russian text supplements; original source license remains unchanged",
+          "evidence": "https://github.com/Vanilla-Expanded/VanillaExpandedFramework/issues/195#issuecomment-6519584242",
+          "attribution": "Original mod Vanilla Furniture Expanded - Spacer Module: OskarPotocki, Sokyran, Kikohi. Independently authored Russian text by Antyhc with disclosed AI assistance. Original: https://steamcommunity.com/sharedfiles/filedetails/?id=2028381079. Not endorsed by or affiliated with Vanilla Expanded. No original artwork or third-party Russian text covered.",
+          "source_permission_review": "community/vanilla-expanded-text-permission-extension-2026-11-06.json",
+          "source_permission_checked_date": "2026-11-06",
+          "scope": "Only independently authored Russian text supplementing this identified original; no third-party Russian wording, original artwork, DLLs or other original assets. Original author credits and links retained; no Vanilla Expanded endorsement. Source license unchanged."
         },
         "icon": {
           "status": "unknown",
@@ -17234,10 +17605,13 @@
       ],
       "rights": {
         "translation": {
-          "status": "unknown",
-          "license": null,
-          "evidence": null,
-          "attribution": null
+          "status": "confirmed",
+          "license": "Explicit author permission for independently authored standalone Russian text supplements; original source license remains unchanged",
+          "evidence": "https://github.com/Vanilla-Expanded/VanillaExpandedFramework/issues/195#issuecomment-6519584242",
+          "attribution": "Original mod Vanilla Hair Expanded: Oskar Potocki, XeoNovaDan. Independently authored Russian text by Antyhc with disclosed AI assistance. Original: https://steamcommunity.com/sharedfiles/filedetails/?id=1888705256. Not endorsed by or affiliated with Vanilla Expanded. No original artwork or third-party Russian text covered.",
+          "source_permission_review": "community/vanilla-expanded-text-permission-extension-2026-11-06.json",
+          "source_permission_checked_date": "2026-11-06",
+          "scope": "Only independently authored Russian text supplementing this identified original; no third-party Russian wording, original artwork, DLLs or other original assets. Original author credits and links retained; no Vanilla Expanded endorsement. Source license unchanged."
         },
         "icon": {
           "status": "unknown",
@@ -17327,10 +17701,13 @@
       ],
       "rights": {
         "translation": {
-          "status": "unknown",
-          "license": null,
-          "evidence": null,
-          "attribution": null
+          "status": "confirmed",
+          "license": "Explicit author permission for independently authored standalone Russian text supplements; original source license remains unchanged",
+          "evidence": "https://github.com/Vanilla-Expanded/VanillaExpandedFramework/issues/195#issuecomment-6519584242",
+          "attribution": "Original mod Vanilla Ideology Expanded - Memes and Structures: Oskar Potocki, Sarg Bjornson, Chowder. Independently authored Russian text by Antyhc with disclosed AI assistance. Original: https://steamcommunity.com/sharedfiles/filedetails/?id=2636329500. Not endorsed by or affiliated with Vanilla Expanded. No original artwork or third-party Russian text covered.",
+          "source_permission_review": "community/vanilla-expanded-text-permission-extension-2026-11-06.json",
+          "source_permission_checked_date": "2026-11-06",
+          "scope": "Only independently authored Russian text supplementing this identified original; no third-party Russian wording, original artwork, DLLs or other original assets. Original author credits and links retained; no Vanilla Expanded endorsement. Source license unchanged."
         },
         "icon": {
           "status": "unknown",
@@ -17429,10 +17806,13 @@
       ],
       "rights": {
         "translation": {
-          "status": "unknown",
-          "license": null,
-          "evidence": null,
-          "attribution": null
+          "status": "confirmed",
+          "license": "Explicit author permission for independently authored standalone Russian text supplements; original source license remains unchanged",
+          "evidence": "https://github.com/Vanilla-Expanded/VanillaExpandedFramework/issues/195#issuecomment-6519584242",
+          "attribution": "Original mod Vanilla Nutrient Paste Expanded: Oskar Potocki, Kikohi. Independently authored Russian text by Antyhc with disclosed AI assistance. Original: https://steamcommunity.com/sharedfiles/filedetails/?id=2920385763. Not endorsed by or affiliated with Vanilla Expanded. No original artwork or third-party Russian text covered.",
+          "source_permission_review": "community/vanilla-expanded-text-permission-extension-2026-11-06.json",
+          "source_permission_checked_date": "2026-11-06",
+          "scope": "Only independently authored Russian text supplementing this identified original; no third-party Russian wording, original artwork, DLLs or other original assets. Original author credits and links retained; no Vanilla Expanded endorsement. Source license unchanged."
         },
         "icon": {
           "status": "unknown",
@@ -17524,10 +17904,13 @@
       ],
       "rights": {
         "translation": {
-          "status": "unknown",
-          "license": null,
-          "evidence": null,
-          "attribution": null
+          "status": "confirmed",
+          "license": "Explicit author permission for independently authored standalone Russian text supplements; original source license remains unchanged",
+          "evidence": "https://github.com/Vanilla-Expanded/VanillaExpandedFramework/issues/195#issuecomment-6519584242",
+          "attribution": "Original mod Vanilla Plants Expanded: Oskar Potocki, Sarg Bjornson, Chowder. Independently authored Russian text by Antyhc with disclosed AI assistance. Original: https://steamcommunity.com/sharedfiles/filedetails/?id=2134308522. Not endorsed by or affiliated with Vanilla Expanded. No original artwork or third-party Russian text covered.",
+          "source_permission_review": "community/vanilla-expanded-text-permission-extension-2026-11-06.json",
+          "source_permission_checked_date": "2026-11-06",
+          "scope": "Only independently authored Russian text supplementing this identified original; no third-party Russian wording, original artwork, DLLs or other original assets. Original author credits and links retained; no Vanilla Expanded endorsement. Source license unchanged."
         },
         "icon": {
           "status": "unknown",
@@ -17628,10 +18011,13 @@
       ],
       "rights": {
         "translation": {
-          "status": "unknown",
-          "license": null,
-          "evidence": null,
-          "attribution": null
+          "status": "confirmed",
+          "license": "Explicit author permission for independently authored standalone Russian text supplements; original source license remains unchanged",
+          "evidence": "https://github.com/Vanilla-Expanded/VanillaExpandedFramework/issues/195#issuecomment-6519584242",
+          "attribution": "Original mod Vanilla Psycasts Expanded: erdelf, Oskar Potocki, legodude17, Taranchuk, xrushha, Sarg Bjornson, Sir Van, Reann Shepard. Independently authored Russian text by Antyhc with disclosed AI assistance. Original: https://steamcommunity.com/sharedfiles/filedetails/?id=2842502659. Not endorsed by or affiliated with Vanilla Expanded. No original artwork or third-party Russian text covered.",
+          "source_permission_review": "community/vanilla-expanded-text-permission-extension-2026-11-06.json",
+          "source_permission_checked_date": "2026-11-06",
+          "scope": "Only independently authored Russian text supplementing this identified original; no third-party Russian wording, original artwork, DLLs or other original assets. Original author credits and links retained; no Vanilla Expanded endorsement. Source license unchanged."
         },
         "icon": {
           "status": "unknown",
@@ -17734,10 +18120,13 @@
       ],
       "rights": {
         "translation": {
-          "status": "unknown",
-          "license": null,
-          "evidence": null,
-          "attribution": null
+          "status": "confirmed",
+          "license": "Explicit author permission for independently authored standalone Russian text supplements; original source license remains unchanged",
+          "evidence": "https://github.com/Vanilla-Expanded/VanillaExpandedFramework/issues/195#issuecomment-6519584242",
+          "attribution": "Original mod Vanilla Textures Expanded: Oskar Potocki, Helixien, Erin, Luizi, ISOREX, erdelf, Sarg. Independently authored Russian text by Antyhc with disclosed AI assistance. Original: https://steamcommunity.com/sharedfiles/filedetails/?id=2016436324. Not endorsed by or affiliated with Vanilla Expanded. No original artwork or third-party Russian text covered.",
+          "source_permission_review": "community/vanilla-expanded-text-permission-extension-2026-11-06.json",
+          "source_permission_checked_date": "2026-11-06",
+          "scope": "Only independently authored Russian text supplementing this identified original; no third-party Russian wording, original artwork, DLLs or other original assets. Original author credits and links retained; no Vanilla Expanded endorsement. Source license unchanged."
         },
         "icon": {
           "status": "unknown",
@@ -17836,10 +18225,13 @@
       ],
       "rights": {
         "translation": {
-          "status": "unknown",
-          "license": null,
-          "evidence": null,
-          "attribution": null
+          "status": "confirmed",
+          "license": "Explicit author permission for independently authored standalone Russian text supplements; original source license remains unchanged",
+          "evidence": "https://github.com/Vanilla-Expanded/VanillaExpandedFramework/issues/195#issuecomment-6519584242",
+          "attribution": "Original mod Vanilla Weapons Expanded: Oskar Potocki, Sokyran, Taranchuk, Sarg Bjornson. Independently authored Russian text by Antyhc with disclosed AI assistance. Original: https://steamcommunity.com/sharedfiles/filedetails/?id=1814383360. Not endorsed by or affiliated with Vanilla Expanded. No original artwork or third-party Russian text covered.",
+          "source_permission_review": "community/vanilla-expanded-text-permission-extension-2026-11-06.json",
+          "source_permission_checked_date": "2026-11-06",
+          "scope": "Only independently authored Russian text supplementing this identified original; no third-party Russian wording, original artwork, DLLs or other original assets. Original author credits and links retained; no Vanilla Expanded endorsement. Source license unchanged."
         },
         "icon": {
           "status": "unknown",
@@ -17940,10 +18332,13 @@
       ],
       "rights": {
         "translation": {
-          "status": "unknown",
-          "license": null,
-          "evidence": null,
-          "attribution": null
+          "status": "confirmed",
+          "license": "Explicit author permission for independently authored standalone Russian text supplements; original source license remains unchanged",
+          "evidence": "https://github.com/Vanilla-Expanded/VanillaExpandedFramework/issues/195#issuecomment-6519584242",
+          "attribution": "Original mod Vanilla Weapons Expanded - Heavy Weapons: Oskar Potocki, Taranchuk. Independently authored Russian text by Antyhc with disclosed AI assistance. Original: https://steamcommunity.com/sharedfiles/filedetails/?id=2329126791. Not endorsed by or affiliated with Vanilla Expanded. No original artwork or third-party Russian text covered.",
+          "source_permission_review": "community/vanilla-expanded-text-permission-extension-2026-11-06.json",
+          "source_permission_checked_date": "2026-11-06",
+          "scope": "Only independently authored Russian text supplementing this identified original; no third-party Russian wording, original artwork, DLLs or other original assets. Original author credits and links retained; no Vanilla Expanded endorsement. Source license unchanged."
         },
         "icon": {
           "status": "unknown",
@@ -18032,10 +18427,13 @@
       ],
       "rights": {
         "translation": {
-          "status": "unknown",
-          "license": null,
-          "evidence": null,
-          "attribution": null
+          "status": "confirmed",
+          "license": "Explicit author permission for independently authored standalone Russian text supplements; original source license remains unchanged",
+          "evidence": "https://github.com/Vanilla-Expanded/VanillaExpandedFramework/issues/195#issuecomment-6519584242",
+          "attribution": "Original mod Vanilla Weapons Expanded - Laser: Oskar Potocki. Independently authored Russian text by Antyhc with disclosed AI assistance. Original: https://steamcommunity.com/sharedfiles/filedetails/?id=1989352844. Not endorsed by or affiliated with Vanilla Expanded. No original artwork or third-party Russian text covered.",
+          "source_permission_review": "community/vanilla-expanded-text-permission-extension-2026-11-06.json",
+          "source_permission_checked_date": "2026-11-06",
+          "scope": "Only independently authored Russian text supplementing this identified original; no third-party Russian wording, original artwork, DLLs or other original assets. Original author credits and links retained; no Vanilla Expanded endorsement. Source license unchanged."
         },
         "icon": {
           "status": "unknown",
@@ -18136,10 +18534,13 @@
       ],
       "rights": {
         "translation": {
-          "status": "unknown",
-          "license": null,
-          "evidence": null,
-          "attribution": null
+          "status": "confirmed",
+          "license": "Explicit author permission for independently authored standalone Russian text supplements; original source license remains unchanged",
+          "evidence": "https://github.com/Vanilla-Expanded/VanillaExpandedFramework/issues/195#issuecomment-6519584242",
+          "attribution": "Original mod Vanilla Weapons Expanded - Non-Lethal: Oskar Potocki. Independently authored Russian text by Antyhc with disclosed AI assistance. Original: https://steamcommunity.com/sharedfiles/filedetails/?id=2454918354. Not endorsed by or affiliated with Vanilla Expanded. No original artwork or third-party Russian text covered.",
+          "source_permission_review": "community/vanilla-expanded-text-permission-extension-2026-11-06.json",
+          "source_permission_checked_date": "2026-11-06",
+          "scope": "Only independently authored Russian text supplementing this identified original; no third-party Russian wording, original artwork, DLLs or other original assets. Original author credits and links retained; no Vanilla Expanded endorsement. Source license unchanged."
         },
         "icon": {
           "status": "unknown",
@@ -18476,10 +18877,13 @@
       ],
       "rights": {
         "translation": {
-          "status": "unknown",
-          "license": null,
-          "evidence": null,
-          "attribution": null
+          "status": "confirmed",
+          "license": "Explicit author permission for independently authored standalone Russian text supplements; original source license remains unchanged",
+          "evidence": "https://github.com/Vanilla-Expanded/VanillaExpandedFramework/issues/195#issuecomment-6519584242",
+          "attribution": "Original mod Vanilla Races Expanded - Sanguophage: Oskar Potocki, Sarg Bjornson, Erin. Independently authored Russian text by Antyhc with disclosed AI assistance. Original: https://steamcommunity.com/sharedfiles/filedetails/?id=2963116383. Not endorsed by or affiliated with Vanilla Expanded. No original artwork or third-party Russian text covered.",
+          "source_permission_review": "community/vanilla-expanded-text-permission-extension-2026-11-06.json",
+          "source_permission_checked_date": "2026-11-06",
+          "scope": "Only independently authored Russian text supplementing this identified original; no third-party Russian wording, original artwork, DLLs or other original assets. Original author credits and links retained; no Vanilla Expanded endorsement. Source license unchanged."
         },
         "icon": {
           "status": "unknown",
@@ -18778,31 +19182,76 @@
       ],
       "rights": {
         "translation": {
-          "status": "unknown",
-          "license": null,
-          "evidence": null,
-          "attribution": null
+          "status": "confirmed",
+          "license": "MIT",
+          "evidence": "https://github.com/realloon/CustomizeWeapon/blob/d5e41881b0b79c7ae74ee7361e3e6fa462323562/LICENSE",
+          "attribution": "Original mod: Customize Weapon by Vortex.\nOriginal Workshop: https://steamcommunity.com/sharedfiles/filedetails/?id=3550585103\nOriginal repository: https://github.com/realloon/CustomizeWeapon\nOriginal license: MIT, Copyright (c) 2026 Vortex.\nRussian additions: Antyhc, 2026, MIT, AI-assisted authoring and review with OpenAI Codex.\nOwn typographic cover. Existing original Russian is provided by the original mod.\n",
+          "license_evidence_file": "rights-evidence.json",
+          "required_notice_files": {
+            "About/License.txt": "deb6a149028b58c009caafe4dd2de2c45df78b28fcfb73c66c06a0ea7fc78ee7",
+            "About/Credits.txt": "086ca71f147b4a6fc994fea79885f24b92def833a5952087d531434ec96a517e",
+            "LICENSE": "b6f08b15485a8eb256efd49ec31282f6c14c279012e5a7d38b2ccf9ce74ee26a"
+          },
+          "scope": "Our independently authored Russian adaptation of textual source material in this repository; no third-party Russian files, code, assemblies, or artwork included.",
+          "obligations": [
+            "Retain the original copyright and permission notice in all copies or substantial portions of the translated material.",
+            "Attribute the original authors and identify Antyhc's Russian additions; do not reuse unrelated third-party Russian wording without its own permission."
+          ],
+          "source_permission_review": "community/rights-updates.public.json",
+          "source_permission_checked_date": "2026-11-06"
         },
         "icon": {
-          "status": "unknown",
-          "license": null,
-          "evidence": null,
-          "attribution": null
+          "status": "confirmed",
+          "kind": "original_typographic_fallback",
+          "license": "MIT",
+          "evidence": "scripts/make_original_cover.py; own typographic design",
+          "attribution": "Original typographic cover by Antyhc",
+          "source_sha256": "b71a2b54aeab924cfc50a69cfa496fea3f6b7cc45dffd653d220d78230055efc",
+          "preview_sha256": "b71a2b54aeab924cfc50a69cfa496fea3f6b7cc45dffd653d220d78230055efc",
+          "original_mod_art_used": false
         }
       },
       "qa": {
-        "technical": "pending",
-        "linguistic": "pending",
-        "source_current": false,
-        "in_game": "not_tested",
-        "checked_at": "2026-10-28T09:15:27.268425+00:00"
+        "technical": "passed",
+        "linguistic": "ai_reviewed",
+        "source_current": true,
+        "in_game": "passed",
+        "checked_at": "2026-11-06T17:11:35.716255+00:00",
+        "source_checked_at": "2026-11-06T17:11:35.716255+00:00",
+        "payload_sha256": "2ded739f2b102b9ca929b872a3f08b73c8d8222bc65106b2d894f591a90b37c4",
+        "source_snapshot_sha256": "3e94ea4836f4a774731a0be6918a05696cf8568d81c1a55f70360f0318556906",
+        "evidence": "qa-evidence.json",
+        "coverage": "23 missing physical fields, including four nested charge nouns verified in the actual game. Existing 207 native Russian keys preserved without overlap.",
+        "standalone_minimal_game_test": "passed_actual_control_and_candidate",
+        "game_evidence": "game-test-evidence.json",
+        "game_version": "1.7.5000 rev1275",
+        "game_test_scope": "Actual isolated startup and physical language-value readback, exact active dependencies/DLC and source/payload/probe hashes; no save, extended gameplay or independent human proofreading claim.",
+        "game_test_evidence_sha256": "4e26ebd23e7d635ba1308457aad43a539bb333f787fb9a45a20d4bfa71745032",
+        "ui_inspected": true,
+        "ui_scope": "Engine-generated screenshot confirms Russian main menu on the tested candidate startup. Weapon dialogs and colony gameplay were not inspected.",
+        "workshop_installation": "passed_exact_subscribed_bytes",
+        "workshop_game_load": "passed_actual_subscribed_Workshop_root",
+        "workshop_game_evidence": "workshop-game-test-evidence.json",
+        "workshop_game_evidence_sha256": "c4a33bfc7fddd160c597184443a246a91c58c2837ad992475990d336f0fd3342",
+        "workshop_game_test_scope": "Fresh actual load of the subscribed byte-exact Workshop item. Earlier actual English control reused only after exact original source/context, game, selected values and unchanged read-only probe verification. Exact full localization-error multiset compared. The earlier local proof remains historical; no new English-control boot, save or extended gameplay/human proof claimed."
       },
       "publication": {
         "github_url": "https://github.com/Antyhc/RimWorld-Russian-Translations/tree/main/mods/vortex.customizeweapon",
-        "github_status": "metadata_only",
-        "workshop_url": null,
-        "workshop_id": null,
-        "workshop_status": "not_published"
+        "github_status": "translation_published",
+        "workshop_url": "https://steamcommunity.com/sharedfiles/filedetails/?id=3834796180",
+        "workshop_id": "3834796180",
+        "workshop_status": "published_public_page_verification_pending",
+        "release_blockers": [],
+        "workshop_title": "Customize Weapon — Russian Translation",
+        "workshop_visibility": "public",
+        "workshop_submitted_at": "2026-11-06T17:17:42.484781+00:00",
+        "steam_sdk_verified_at": "2026-11-06T17:17:57.772951+00:00",
+        "anonymous_page_verified": false,
+        "website_verification_blocker": "Steam Community website returned HTTP 429 during this session.",
+        "collection_id": "3830036321",
+        "collection_member_verified": true,
+        "installation_tested": true,
+        "installation_scope": "Official Steam subscription/download verified all ten payload files byte-exact, followed by actual isolated Workshop-root game load."
       },
       "integration": {
         "status": "open",
@@ -18815,7 +19264,8 @@
         "original_native_accepted": false,
         "entries_submitted": 19,
         "fresh_game_test_claimed": false,
-        "response_evidence": "community/outreach-2026-11-06.json"
+        "response_evidence": "community/outreach-2026-11-06.json",
+        "scope": "19 direct fields submitted. Four additional charge nouns were verified in isolated game checks and published in the 23-entry Workshop pack. Updating this PR to include them is prepared but not sent because GitHub throttled submissions."
       },
       "original": {
         "author": "Vortex",
@@ -18897,7 +19347,24 @@
           "Languages/Russian/DefInjected/ThingDef/Workbench.xml",
           "Languages/Russian/DefInjected/WeaponTraitDef/Traits.xml",
           "Languages/Russian/Keyed/Keyed.xml"
-        ]
+        ],
+        "verified_source_identity": {
+          "status": "verified_current_remote_about_package_id_matches",
+          "package_id_as_declared": "Vortex.CustomizeWeapon",
+          "name": "Customize Weapon",
+          "author": "Vortex",
+          "supported_versions": [
+            "1.6",
+            "1.7"
+          ],
+          "about_url": "https://github.com/realloon/CustomizeWeapon/blob/d5e41881b0b79c7ae74ee7361e3e6fa462323562/About/About.xml",
+          "about_blob_sha": "e0c81944af55b54886d798f1523241d6d56df714",
+          "source_commit": "d5e41881b0b79c7ae74ee7361e3e6fa462323562",
+          "repository_url": "https://github.com/realloon/CustomizeWeapon",
+          "checked_date": "2026-11-06",
+          "evidence_file": "community/rights-updates.public.json",
+          "metadata_scope": "Remote source identity only. These version declarations do not upgrade the release or installed-mod compatibility claims."
+        }
       },
       "inventory": {
         "saved_records": 24,
@@ -18940,7 +19407,16 @@
           "baseline_file": "source.tree.json"
         }
       },
-      "work_stage": "installed_local",
+      "work_stage": "published_workshop_verified_website_check_pending",
+      "duplicate_translation": {
+        "status": "checked_no_current_equivalent",
+        "checked_at": "2026-11-06T17:11:35.716255+00:00",
+        "candidates": [
+          "https://steamcommunity.com/sharedfiles/filedetails/?id=3551718118"
+        ],
+        "scope": "Existing built-in Russian retained. Current external Customize Weapon RUS declares only 1.6 and covers 9 of these 23 additions. The 14 other fields are absent from that downloaded package. This supplement uses independently authored wording and should be enabled alongside the original's native Russian, with the older external RUS disabled.",
+        "evidence": "duplicate-translation-evidence.json"
+      },
       "manifest": "mods/vortex.customizeweapon/manifest.json"
     },
     {
@@ -19228,9 +19704,17 @@
         "workshop_status": "not_published"
       },
       "integration": {
-        "status": "not_sent",
-        "pr_url": null,
-        "contact_url": null
+        "status": "open",
+        "pr_url": "https://github.com/Zeracronius/DynamicTradeInterface/pull/79",
+        "contact_url": null,
+        "target_kind": "original_mod",
+        "head_sha": "1be2bab4e573295a4830ee7f296046c2e9263ae7",
+        "submitted_at": "2026-11-06",
+        "native_xml_submitted": true,
+        "original_native_accepted": false,
+        "entries_submitted": 98,
+        "fresh_game_test_claimed": false,
+        "response_evidence": "community/outreach-2026-11-06.json"
       },
       "original": {
         "author": "Zeracronius",
@@ -19364,23 +19848,23 @@
     "model_held_tasks": 10,
     "private_model_test_values": 473,
     "store_scope_unverified": 0,
-    "technically_checked": 15,
-    "game_tested": 15,
+    "technically_checked": 16,
+    "game_tested": 16,
     "github_metadata_records": 166,
-    "github_published": 15,
-    "workshop_submitted": 15,
+    "github_published": 16,
+    "workshop_submitted": 16,
     "workshop_published": 11,
-    "pull_requests": 12,
-    "integration_records": 15,
+    "pull_requests": 17,
+    "integration_records": 20,
     "accepted": 2,
-    "awaiting_rights": 121,
+    "awaiting_rights": 85,
     "needs_update": 13,
-    "freshness_unverified": 151,
+    "freshness_unverified": 150,
     "static_inventory_pass": 129,
     "static_inventory_flagged": 20,
     "static_findings": 49,
-    "repository_monitors": 24,
-    "pull_request_monitors": 12,
+    "repository_monitors": 30,
+    "pull_request_monitors": 17,
     "icon_permission_requests": 2,
     "workshop_public_pages_verified": 11,
     "workshop_content_check_pending": 0,

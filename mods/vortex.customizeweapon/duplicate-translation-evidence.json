@@ -1,0 +1,1051 @@
+{
+  "checked_at": "2026-11-06T17:11:35.716255+00:00",
+  "original_workshop_id": "3550585103",
+  "original_russian_entries": {
+    "DefInjected|ColorDef|CWF_Color_Red.label": {
+      "value_sha256": "21b4d916f3267b6c83bf86c8c0492a5db804edbffea53c47f0ac735b6b406516",
+      "source_relative_path": "Languages/Russian/DefInjected/ColorDef/Colors.xml",
+      "shape": "scalar"
+    },
+    "DefInjected|ColorDef|CWF_Color_Purple.label": {
+      "value_sha256": "4aed2cd288de18101c74ad8d5c014f60150c4824c4ec848d4295f90dd3258f5d",
+      "source_relative_path": "Languages/Russian/DefInjected/ColorDef/Colors.xml",
+      "shape": "scalar"
+    },
+    "DefInjected|ColorDef|CWF_Color_Green.label": {
+      "value_sha256": "a4bb19e1436fd3fc4245f0534f319b362fe2c2866c076b1ab4f14031c9e01746",
+      "source_relative_path": "Languages/Russian/DefInjected/ColorDef/Colors.xml",
+      "shape": "scalar"
+    },
+    "DefInjected|ColorDef|CWF_Color_Blue.label": {
+      "value_sha256": "66d12fb99282a24a97b06d889a9e747fdb54cf310a4c3917de31b565895c392e",
+      "source_relative_path": "Languages/Russian/DefInjected/ColorDef/Colors.xml",
+      "shape": "scalar"
+    },
+    "DefInjected|ColorDef|CWF_Color_White.label": {
+      "value_sha256": "a024a93d4e0cad31a99cef61f3070f2ce9eb1b36834b494f854150c50ec5b236",
+      "source_relative_path": "Languages/Russian/DefInjected/ColorDef/Colors.xml",
+      "shape": "scalar"
+    },
+    "DefInjected|ColorDef|CWF_Color_Gray.label": {
+      "value_sha256": "ea1ae91dfebc91aacc2ba19eb16743b6428127feea1fae54d5c7009aa815646a",
+      "source_relative_path": "Languages/Russian/DefInjected/ColorDef/Colors.xml",
+      "shape": "scalar"
+    },
+    "DefInjected|CWF.PartDef|Receiver.label": {
+      "value_sha256": "508d55b8e13487ecdb34583bdacf187618bfdfaa0c0bfaa82641b69c612d04b6",
+      "source_relative_path": "Languages/Russian/DefInjected/CWF.PartDef/Parts.xml",
+      "shape": "scalar"
+    },
+    "DefInjected|CWF.PartDef|Sight.label": {
+      "value_sha256": "122f5c495d79044c37d56d23807969b90431f7732a57934eef962e0d89e6710d",
+      "source_relative_path": "Languages/Russian/DefInjected/CWF.PartDef/Parts.xml",
+      "shape": "scalar"
+    },
+    "DefInjected|CWF.PartDef|Barrel.label": {
+      "value_sha256": "45305b7cc0d3dde4b636f60533e5777f5aca6f54e8debac3418c616fd6ca08ad",
+      "source_relative_path": "Languages/Russian/DefInjected/CWF.PartDef/Parts.xml",
+      "shape": "scalar"
+    },
+    "DefInjected|CWF.PartDef|Stock.label": {
+      "value_sha256": "a28a0221bd6f00b8c084c1455a0e043a6c79aa1c13a7d54bf7700e8038cfd344",
+      "source_relative_path": "Languages/Russian/DefInjected/CWF.PartDef/Parts.xml",
+      "shape": "scalar"
+    },
+    "DefInjected|CWF.PartDef|Muzzle.label": {
+      "value_sha256": "3da513cfdc87d58583eed373af89c1ecba2bd833494eb7087c1315bda4d5732c",
+      "source_relative_path": "Languages/Russian/DefInjected/CWF.PartDef/Parts.xml",
+      "shape": "scalar"
+    },
+    "DefInjected|CWF.PartDef|Ammo.label": {
+      "value_sha256": "7931dface8e9f8dc0447219c6a1c047865c5914af2b89a26537b289eb6d7ce31",
+      "source_relative_path": "Languages/Russian/DefInjected/CWF.PartDef/Parts.xml",
+      "shape": "scalar"
+    },
+    "DefInjected|CWF.PartDef|Grip.label": {
+      "value_sha256": "0cedab3b100de49b730e7bd08365aef4315f8fb85c6c143b7bf6e725508201a8",
+      "source_relative_path": "Languages/Russian/DefInjected/CWF.PartDef/Parts.xml",
+      "shape": "scalar"
+    },
+    "DefInjected|CWF.PartDef|Trigger.label": {
+      "value_sha256": "cc16778a89f04ecb7ff5a91485e725cce89e9fc9be2f93edb0d409404bdd644e",
+      "source_relative_path": "Languages/Russian/DefInjected/CWF.PartDef/Parts.xml",
+      "shape": "scalar"
+    },
+    "DefInjected|CWF.PartDef|Magazine.label": {
+      "value_sha256": "8a1e748399c1e5857d21c0e2805f695734eeee548bf380b8d75923944265bef3",
+      "source_relative_path": "Languages/Russian/DefInjected/CWF.PartDef/Parts.xml",
+      "shape": "scalar"
+    },
+    "DefInjected|CWF.PartDef|Underbarrel.label": {
+      "value_sha256": "f49ff23f77b1c468cc8e556d5efda681f56a8b0c1754c15841c1968c7c7aba95",
+      "source_relative_path": "Languages/Russian/DefInjected/CWF.PartDef/Parts.xml",
+      "shape": "scalar"
+    },
+    "DefInjected|StatCategoryDef|CWF_WeaponModule.label": {
+      "value_sha256": "ff5d458ee2dd1f60ecc22f540a5a242d6e090bf1d0de8221ed3363beddd96799",
+      "source_relative_path": "Languages/Russian/DefInjected/StatCategoryDef/StatCategories.xml",
+      "shape": "scalar"
+    },
+    "DefInjected|ThingCategoryDef|CWF_TraitModules.label": {
+      "value_sha256": "a1e0465a72aca9072e9bf52908151039545528b51726699cda03ce8e658d7b80",
+      "source_relative_path": "Languages/Russian/DefInjected/ThingCategoryDef/Categories.xml",
+      "shape": "scalar"
+    },
+    "DefInjected|ThingDef|CWF_Module_Suppressor.label": {
+      "value_sha256": "bc18186ca21e4eacd9129f9936effa13dbaed70d62781e8f26f2863a2853d1a6",
+      "source_relative_path": "Languages/Russian/DefInjected/ThingDef/Modules.xml",
+      "shape": "scalar"
+    },
+    "DefInjected|ThingDef|CWF_Module_ExtendedBarrel.label": {
+      "value_sha256": "95f327031d71e5c57672c88591e8e8f75606f08eab1cc0ab0a823417975a4dca",
+      "source_relative_path": "Languages/Russian/DefInjected/ThingDef/Modules.xml",
+      "shape": "scalar"
+    },
+    "DefInjected|ThingDef|CWF_Module_ShortenedBarrel.label": {
+      "value_sha256": "37368dc171e743880b0dced8800cacc08ba270bf7bb05c0d55d7cdf43d1662a5",
+      "source_relative_path": "Languages/Russian/DefInjected/ThingDef/Modules.xml",
+      "shape": "scalar"
+    },
+    "DefInjected|ThingDef|CWF_Module_TacticalBarrel.label": {
+      "value_sha256": "54cafa66bb307a12ce18ae802d8a978456723a61bbf61b9bfbb411502564bcb5",
+      "source_relative_path": "Languages/Russian/DefInjected/ThingDef/Modules.xml",
+      "shape": "scalar"
+    },
+    "DefInjected|ThingDef|CWF_Module_RapidReceiver.label": {
+      "value_sha256": "867b7e95c28f09d3dd7f7bd988798732470b2d6bc019e72e12a2d0f1e90756e7",
+      "source_relative_path": "Languages/Russian/DefInjected/ThingDef/Modules.xml",
+      "shape": "scalar"
+    },
+    "DefInjected|ThingDef|CWF_Module_RapidTrigger.label": {
+      "value_sha256": "06cf6d4968d1de294c09be3fa034b550092670c1a72df8f0f64967be062e0951",
+      "source_relative_path": "Languages/Russian/DefInjected/ThingDef/Modules.xml",
+      "shape": "scalar"
+    },
+    "DefInjected|ThingDef|CWF_Module_TelescopicStock.label": {
+      "value_sha256": "c26444e561fedf5ed6b9eda2d48998392f0719acafc22c034c2a8d3d626be978",
+      "source_relative_path": "Languages/Russian/DefInjected/ThingDef/Modules.xml",
+      "shape": "scalar"
+    },
+    "DefInjected|ThingDef|CWF_Module_FoldStock.label": {
+      "value_sha256": "618cfcf9490fd104c38e210aa6fde7e43883aaddb6af3e82a62de80ee45b9b99",
+      "source_relative_path": "Languages/Russian/DefInjected/ThingDef/Modules.xml",
+      "shape": "scalar"
+    },
+    "DefInjected|ThingDef|CWF_Module_ShortenedStock.label": {
+      "value_sha256": "8ab4f9a019855cea9059b60aec8bdbd2a6acd315dfaf44529a405daa9ccd1293",
+      "source_relative_path": "Languages/Russian/DefInjected/ThingDef/Modules.xml",
+      "shape": "scalar"
+    },
+    "DefInjected|ThingDef|CWF_Module_StabilizerBrace.label": {
+      "value_sha256": "1bc8769e9d65a5e801e91827d7e84a43b6d6f231a852ffaf9685eca9034ec7a2",
+      "source_relative_path": "Languages/Russian/DefInjected/ThingDef/Modules.xml",
+      "shape": "scalar"
+    },
+    "DefInjected|ThingDef|CWF_Module_CustomGrip.label": {
+      "value_sha256": "3b2fb4b22a9deb1144d50801737b154c734b6ca6434c01b49be7a2855f403831",
+      "source_relative_path": "Languages/Russian/DefInjected/ThingDef/Modules.xml",
+      "shape": "scalar"
+    },
+    "DefInjected|ThingDef|CWF_Module_Holoscope.label": {
+      "value_sha256": "8f33428133134997053ae4d1d9b7b812a21018a6728593fab90bcf97dceec188",
+      "source_relative_path": "Languages/Russian/DefInjected/ThingDef/Modules.xml",
+      "shape": "scalar"
+    },
+    "DefInjected|ThingDef|CWF_Module_RedDotScope.label": {
+      "value_sha256": "aac0f48bf8c204be3008d867753e8d5f1425715312aa9f1508d505e6ea089242",
+      "source_relative_path": "Languages/Russian/DefInjected/ThingDef/Modules.xml",
+      "shape": "scalar"
+    },
+    "DefInjected|ThingDef|CWF_Module_2xScope.label": {
+      "value_sha256": "1b4edee3e1e4a26b30500cfbb0dd349b2a9dc3eb35237d073397e647ad433732",
+      "source_relative_path": "Languages/Russian/DefInjected/ThingDef/Modules.xml",
+      "shape": "scalar"
+    },
+    "DefInjected|ThingDef|CWF_Module_4xScope.label": {
+      "value_sha256": "b83f61a7c67b02f3c9311be8d62d8c4e7f55312ee9350ac3d5c9ac9e0879b630",
+      "source_relative_path": "Languages/Russian/DefInjected/ThingDef/Modules.xml",
+      "shape": "scalar"
+    },
+    "DefInjected|ThingDef|CWF_Module_8xScope.label": {
+      "value_sha256": "fc539e5a486f3904e8f38f63e5d62944f2df3e81b23fba695a8672416185e9a1",
+      "source_relative_path": "Languages/Russian/DefInjected/ThingDef/Modules.xml",
+      "shape": "scalar"
+    },
+    "DefInjected|ThingDef|CWF_Module_QuickMagazine.label": {
+      "value_sha256": "b1a35dd654c219a99185a49e206f38e1c870173209a0d3b82f22ee35abc4a2c8",
+      "source_relative_path": "Languages/Russian/DefInjected/ThingDef/Modules.xml",
+      "shape": "scalar"
+    },
+    "DefInjected|ThingDef|CWF_Module_ExtendedMagazine.label": {
+      "value_sha256": "710fbecfcde647903dedea128aa949db7f390c178fd5a3ac84641e3fe2aaf3f2",
+      "source_relative_path": "Languages/Russian/DefInjected/ThingDef/Modules.xml",
+      "shape": "scalar"
+    },
+    "DefInjected|ThingDef|CWF_Module_BeltMagazine.label": {
+      "value_sha256": "47da60c0f719399e9e2bd35cb22bdb9aaf9d5d27cfa34c46fc3d092e59fb7853",
+      "source_relative_path": "Languages/Russian/DefInjected/ThingDef/Modules.xml",
+      "shape": "scalar"
+    },
+    "DefInjected|ThingDef|CWF_Module_DrumMagazine.label": {
+      "value_sha256": "143b75339bce6b0a6071d25296634a4fc843e35aa6eefeeb68d170735bad2fe6",
+      "source_relative_path": "Languages/Russian/DefInjected/ThingDef/Modules.xml",
+      "shape": "scalar"
+    },
+    "DefInjected|ThingDef|CWF_Module_VerticalGrip.label": {
+      "value_sha256": "6087930476b33abde3d8d3f8d8ff4eafb54f664fb0a2d5f483bc3d4de16e3c30",
+      "source_relative_path": "Languages/Russian/DefInjected/ThingDef/Modules.xml",
+      "shape": "scalar"
+    },
+    "DefInjected|ThingDef|CWF_Module_TriangularGrip.label": {
+      "value_sha256": "bbef755f3faf23af44d8558c09a90e8d22108eef3f971a0c791ac25f80174b66",
+      "source_relative_path": "Languages/Russian/DefInjected/ThingDef/Modules.xml",
+      "shape": "scalar"
+    },
+    "DefInjected|ThingDef|CWF_Module_LaserSight.label": {
+      "value_sha256": "c0c34867a0089f3dec714c0547cfaacac4d344469ebee0d7c92577f0483c3016",
+      "source_relative_path": "Languages/Russian/DefInjected/ThingDef/Modules.xml",
+      "shape": "scalar"
+    },
+    "DefInjected|ThingDef|CWF_Module_GrenadeLauncher.label": {
+      "value_sha256": "f5ed3b04b2c5bbc3ba716eec75b1a2051b9c4865c42ef4464b092f4b86c8016c",
+      "source_relative_path": "Languages/Russian/DefInjected/ThingDef/Modules.xml",
+      "shape": "scalar"
+    },
+    "DefInjected|ThingDef|CWF_Module_EMPLauncher.label": {
+      "value_sha256": "dd4272e47671b6df93c154bcd6138cf41925322ba1f3cb83a2240365a05180b9",
+      "source_relative_path": "Languages/Russian/DefInjected/ThingDef/Modules.xml",
+      "shape": "scalar"
+    },
+    "DefInjected|ThingDef|CWF_Module_SmokeLauncher.label": {
+      "value_sha256": "1283283d194e2a903ff24ea8748b6e0537fa2ef9adcd0644fff2358f8a3cf102",
+      "source_relative_path": "Languages/Russian/DefInjected/ThingDef/Modules.xml",
+      "shape": "scalar"
+    },
+    "DefInjected|ThingDef|CWF_Module_IncendiaryLauncher.label": {
+      "value_sha256": "6cdef375d4a884da151924539e7bfa3f156db16864ef1937ec84b4104de443e4",
+      "source_relative_path": "Languages/Russian/DefInjected/ThingDef/Modules.xml",
+      "shape": "scalar"
+    },
+    "DefInjected|ThingDef|CWF_Module_HeavyRounds.label": {
+      "value_sha256": "5a07b27c1779501e6a3e60fb24fdd163413440c0a0b14b38503866da0ee905bf",
+      "source_relative_path": "Languages/Russian/DefInjected/ThingDef/Modules.xml",
+      "shape": "scalar"
+    },
+    "DefInjected|ThingDef|CWF_Module_HollowPointRounds.label": {
+      "value_sha256": "f4706e6316010b4df24bd7f0dd3c42b30db298973a822577188a2e58c8011992",
+      "source_relative_path": "Languages/Russian/DefInjected/ThingDef/Modules.xml",
+      "shape": "scalar"
+    },
+    "DefInjected|ThingDef|CWF_Module_ToxRounds.label": {
+      "value_sha256": "0d87efe34fab7abaeaed6fa297bebe7bbeef75a775cf35898ac430eb05b651a1",
+      "source_relative_path": "Languages/Russian/DefInjected/ThingDef/Modules.xml",
+      "shape": "scalar"
+    },
+    "DefInjected|ThingDef|CWF_Module_PiercingRounds.label": {
+      "value_sha256": "b7ac9569efad430032310f6160db7c1c7a34dd544f6af4d70d9b68c1b3eb7a64",
+      "source_relative_path": "Languages/Russian/DefInjected/ThingDef/Modules.xml",
+      "shape": "scalar"
+    },
+    "DefInjected|ThingDef|CWF_Module_IncendiaryRounds.label": {
+      "value_sha256": "af241cf5e90e17ef070b5d9fa48591fd6c26c81931e0d49b5cdc70c2f909e52e",
+      "source_relative_path": "Languages/Russian/DefInjected/ThingDef/Modules.xml",
+      "shape": "scalar"
+    },
+    "DefInjected|ThingDef|CWF_Module_EMPRounds.label": {
+      "value_sha256": "a32e6af0dba62b4a9545a296f4c6a7ce423bea186694ef7f655d01ca01a7eb96",
+      "source_relative_path": "Languages/Russian/DefInjected/ThingDef/Modules.xml",
+      "shape": "scalar"
+    },
+    "DefInjected|ThingDef|CWF_Module_PulseChargeRounds.label": {
+      "value_sha256": "6668db7b8e7f92c608df0ab73ade694fe7e82560b557cab45178d99f63eb4ff2",
+      "source_relative_path": "Languages/Russian/DefInjected/ThingDef/Modules.xml",
+      "shape": "scalar"
+    },
+    "DefInjected|ThingDef|CWF_Module_HighPowerRounds.label": {
+      "value_sha256": "9080291d847ec81ed9980660a6006a2ebde1e2ae034d2ebdd8f235e0bf0665a7",
+      "source_relative_path": "Languages/Russian/DefInjected/ThingDef/Modules.xml",
+      "shape": "scalar"
+    },
+    "DefInjected|ThingDef|CWF_Module_IncendiaryPellets.label": {
+      "value_sha256": "3748483b461d6d4823ead6b8707575fa4e20fe470aed291ee89767c0a2af7be7",
+      "source_relative_path": "Languages/Russian/DefInjected/ThingDef/Modules.xml",
+      "shape": "scalar"
+    },
+    "DefInjected|ThingDef|CWF_Module_ToxPellets.label": {
+      "value_sha256": "9ea680b312df5984a5e6cc1d241db89e05b6019bd6fcab3bd89508c5e7c73135",
+      "source_relative_path": "Languages/Russian/DefInjected/ThingDef/Modules.xml",
+      "shape": "scalar"
+    },
+    "DefInjected|ThingDef|CWF_Module_BirdshotPellets.label": {
+      "value_sha256": "38316a1b7d9dcaf7525dbfa1e455521fb8cc119901d036549ea47691f602bffe",
+      "source_relative_path": "Languages/Russian/DefInjected/ThingDef/Modules.xml",
+      "shape": "scalar"
+    },
+    "DefInjected|ThingDef|CWF_Workbench.label": {
+      "value_sha256": "06a1f57cc32566f059b1dffd893bc8b0fba04b51a5eeace90cbeece8ea6df017",
+      "source_relative_path": "Languages/Russian/DefInjected/ThingDef/Workbench.xml",
+      "shape": "scalar"
+    },
+    "DefInjected|ThingDef|CWF_Workbench.description": {
+      "value_sha256": "b23057e9ca53604cbceaf3c155de1a96946a3dee8ddb5c2f8ddb4e60f2211a47",
+      "source_relative_path": "Languages/Russian/DefInjected/ThingDef/Workbench.xml",
+      "shape": "scalar"
+    },
+    "DefInjected|WeaponTraitDef|CWF_Trait_Suppressor.label": {
+      "value_sha256": "bc18186ca21e4eacd9129f9936effa13dbaed70d62781e8f26f2863a2853d1a6",
+      "source_relative_path": "Languages/Russian/DefInjected/WeaponTraitDef/Traits.xml",
+      "shape": "scalar"
+    },
+    "DefInjected|WeaponTraitDef|CWF_Trait_Suppressor.description": {
+      "value_sha256": "4927f87609b6895211d1de3ad2fbf5c19b85d2922abfb30cdc62cfb6f48e98c9",
+      "source_relative_path": "Languages/Russian/DefInjected/WeaponTraitDef/Traits.xml",
+      "shape": "scalar"
+    },
+    "DefInjected|WeaponTraitDef|CWF_Trait_ExtendedBarrel.label": {
+      "value_sha256": "95f327031d71e5c57672c88591e8e8f75606f08eab1cc0ab0a823417975a4dca",
+      "source_relative_path": "Languages/Russian/DefInjected/WeaponTraitDef/Traits.xml",
+      "shape": "scalar"
+    },
+    "DefInjected|WeaponTraitDef|CWF_Trait_ExtendedBarrel.description": {
+      "value_sha256": "7a3e7f419f0e157aaba0fd227e349a7085e8e729d4822a26f2e5560dd4625bff",
+      "source_relative_path": "Languages/Russian/DefInjected/WeaponTraitDef/Traits.xml",
+      "shape": "scalar"
+    },
+    "DefInjected|WeaponTraitDef|CWF_Trait_ShortenedBarrel.label": {
+      "value_sha256": "37368dc171e743880b0dced8800cacc08ba270bf7bb05c0d55d7cdf43d1662a5",
+      "source_relative_path": "Languages/Russian/DefInjected/WeaponTraitDef/Traits.xml",
+      "shape": "scalar"
+    },
+    "DefInjected|WeaponTraitDef|CWF_Trait_ShortenedBarrel.description": {
+      "value_sha256": "8942e967d86dceba16d75b2b65afbeb7f77b8015d4eb4b0e9646dd0126d619ad",
+      "source_relative_path": "Languages/Russian/DefInjected/WeaponTraitDef/Traits.xml",
+      "shape": "scalar"
+    },
+    "DefInjected|WeaponTraitDef|CWF_Trait_TacticalBarrel.label": {
+      "value_sha256": "54cafa66bb307a12ce18ae802d8a978456723a61bbf61b9bfbb411502564bcb5",
+      "source_relative_path": "Languages/Russian/DefInjected/WeaponTraitDef/Traits.xml",
+      "shape": "scalar"
+    },
+    "DefInjected|WeaponTraitDef|CWF_Trait_TacticalBarrel.description": {
+      "value_sha256": "c718d1e0f222ef251200cc65ce315733bba40d0b9fa4a17ddc682b735cb7becc",
+      "source_relative_path": "Languages/Russian/DefInjected/WeaponTraitDef/Traits.xml",
+      "shape": "scalar"
+    },
+    "DefInjected|WeaponTraitDef|CWF_Trait_RapidReceiver.label": {
+      "value_sha256": "867b7e95c28f09d3dd7f7bd988798732470b2d6bc019e72e12a2d0f1e90756e7",
+      "source_relative_path": "Languages/Russian/DefInjected/WeaponTraitDef/Traits.xml",
+      "shape": "scalar"
+    },
+    "DefInjected|WeaponTraitDef|CWF_Trait_RapidReceiver.description": {
+      "value_sha256": "61c5b5c75c806bd6da266e36354041b4eb63b480ef9b655e327dbfc2b633aa5f",
+      "source_relative_path": "Languages/Russian/DefInjected/WeaponTraitDef/Traits.xml",
+      "shape": "scalar"
+    },
+    "DefInjected|WeaponTraitDef|CWF_Trait_RapidTrigger.label": {
+      "value_sha256": "06cf6d4968d1de294c09be3fa034b550092670c1a72df8f0f64967be062e0951",
+      "source_relative_path": "Languages/Russian/DefInjected/WeaponTraitDef/Traits.xml",
+      "shape": "scalar"
+    },
+    "DefInjected|WeaponTraitDef|CWF_Trait_RapidTrigger.description": {
+      "value_sha256": "69bed529a50f3572b04e42c110ac56d73b9a84905c39334f9f212968ce20018c",
+      "source_relative_path": "Languages/Russian/DefInjected/WeaponTraitDef/Traits.xml",
+      "shape": "scalar"
+    },
+    "DefInjected|WeaponTraitDef|CWF_Trait_ShortenedStock.label": {
+      "value_sha256": "8ab4f9a019855cea9059b60aec8bdbd2a6acd315dfaf44529a405daa9ccd1293",
+      "source_relative_path": "Languages/Russian/DefInjected/WeaponTraitDef/Traits.xml",
+      "shape": "scalar"
+    },
+    "DefInjected|WeaponTraitDef|CWF_Trait_ShortenedStock.description": {
+      "value_sha256": "cc100e6703b69d8a594c073fa3be6380a2bdb0c7fb4bdc0713d530ce11814311",
+      "source_relative_path": "Languages/Russian/DefInjected/WeaponTraitDef/Traits.xml",
+      "shape": "scalar"
+    },
+    "DefInjected|WeaponTraitDef|CWF_Trait_TelescopicStock.label": {
+      "value_sha256": "c26444e561fedf5ed6b9eda2d48998392f0719acafc22c034c2a8d3d626be978",
+      "source_relative_path": "Languages/Russian/DefInjected/WeaponTraitDef/Traits.xml",
+      "shape": "scalar"
+    },
+    "DefInjected|WeaponTraitDef|CWF_Trait_TelescopicStock.description": {
+      "value_sha256": "e88c9bbd2df2bf028f50f934d23abc321303890a75b18a4a70cbde56a7dcd984",
+      "source_relative_path": "Languages/Russian/DefInjected/WeaponTraitDef/Traits.xml",
+      "shape": "scalar"
+    },
+    "DefInjected|WeaponTraitDef|CWF_Trait_FoldStock.label": {
+      "value_sha256": "618cfcf9490fd104c38e210aa6fde7e43883aaddb6af3e82a62de80ee45b9b99",
+      "source_relative_path": "Languages/Russian/DefInjected/WeaponTraitDef/Traits.xml",
+      "shape": "scalar"
+    },
+    "DefInjected|WeaponTraitDef|CWF_Trait_FoldStock.description": {
+      "value_sha256": "d49058a928ea83ca3b7e6eadd8ab3f3ca8bde0f5b745bae613c5a7002f505dfb",
+      "source_relative_path": "Languages/Russian/DefInjected/WeaponTraitDef/Traits.xml",
+      "shape": "scalar"
+    },
+    "DefInjected|WeaponTraitDef|CWF_Trait_StabilizerBrace.label": {
+      "value_sha256": "1bc8769e9d65a5e801e91827d7e84a43b6d6f231a852ffaf9685eca9034ec7a2",
+      "source_relative_path": "Languages/Russian/DefInjected/WeaponTraitDef/Traits.xml",
+      "shape": "scalar"
+    },
+    "DefInjected|WeaponTraitDef|CWF_Trait_StabilizerBrace.description": {
+      "value_sha256": "0a1c28545db17e09de94b36870a4535f8ffdff1db907a9d6ee55c954e85db04e",
+      "source_relative_path": "Languages/Russian/DefInjected/WeaponTraitDef/Traits.xml",
+      "shape": "scalar"
+    },
+    "DefInjected|WeaponTraitDef|CWF_Trait_CustomGrip.label": {
+      "value_sha256": "3b2fb4b22a9deb1144d50801737b154c734b6ca6434c01b49be7a2855f403831",
+      "source_relative_path": "Languages/Russian/DefInjected/WeaponTraitDef/Traits.xml",
+      "shape": "scalar"
+    },
+    "DefInjected|WeaponTraitDef|CWF_Trait_CustomGrip.description": {
+      "value_sha256": "63dd61cad05897bf515c5bce7f3d2db9e0d9ea3fe7c653011b27b12430e01317",
+      "source_relative_path": "Languages/Russian/DefInjected/WeaponTraitDef/Traits.xml",
+      "shape": "scalar"
+    },
+    "DefInjected|WeaponTraitDef|CWF_Trait_Holoscope.label": {
+      "value_sha256": "8f33428133134997053ae4d1d9b7b812a21018a6728593fab90bcf97dceec188",
+      "source_relative_path": "Languages/Russian/DefInjected/WeaponTraitDef/Traits.xml",
+      "shape": "scalar"
+    },
+    "DefInjected|WeaponTraitDef|CWF_Trait_Holoscope.description": {
+      "value_sha256": "ccdc3bb9a11486b4d7efbf1667cd01ccc6dd5145a3f68ba3ee002ae9faa65c68",
+      "source_relative_path": "Languages/Russian/DefInjected/WeaponTraitDef/Traits.xml",
+      "shape": "scalar"
+    },
+    "DefInjected|WeaponTraitDef|CWF_Trait_RedDotScope.label": {
+      "value_sha256": "aac0f48bf8c204be3008d867753e8d5f1425715312aa9f1508d505e6ea089242",
+      "source_relative_path": "Languages/Russian/DefInjected/WeaponTraitDef/Traits.xml",
+      "shape": "scalar"
+    },
+    "DefInjected|WeaponTraitDef|CWF_Trait_RedDotScope.description": {
+      "value_sha256": "31889e574b4a6a1032afbfd28b6c6fe4bd9f1d77e8dbdcf612a0de1b9bdc9597",
+      "source_relative_path": "Languages/Russian/DefInjected/WeaponTraitDef/Traits.xml",
+      "shape": "scalar"
+    },
+    "DefInjected|WeaponTraitDef|CWF_Trait_2xScope.label": {
+      "value_sha256": "1b4edee3e1e4a26b30500cfbb0dd349b2a9dc3eb35237d073397e647ad433732",
+      "source_relative_path": "Languages/Russian/DefInjected/WeaponTraitDef/Traits.xml",
+      "shape": "scalar"
+    },
+    "DefInjected|WeaponTraitDef|CWF_Trait_2xScope.description": {
+      "value_sha256": "6d691e07fa0f76a73cbcdc2f33071e6708080040ecfb9f77450326bea6ae208e",
+      "source_relative_path": "Languages/Russian/DefInjected/WeaponTraitDef/Traits.xml",
+      "shape": "scalar"
+    },
+    "DefInjected|WeaponTraitDef|CWF_Trait_4xScope.label": {
+      "value_sha256": "b83f61a7c67b02f3c9311be8d62d8c4e7f55312ee9350ac3d5c9ac9e0879b630",
+      "source_relative_path": "Languages/Russian/DefInjected/WeaponTraitDef/Traits.xml",
+      "shape": "scalar"
+    },
+    "DefInjected|WeaponTraitDef|CWF_Trait_4xScope.description": {
+      "value_sha256": "41355b8e5cd0f556432cdb6af9f9ca76d5601844db0a32193f2693b8bd6c52bf",
+      "source_relative_path": "Languages/Russian/DefInjected/WeaponTraitDef/Traits.xml",
+      "shape": "scalar"
+    },
+    "DefInjected|WeaponTraitDef|CWF_Trait_8xScope.label": {
+      "value_sha256": "fc539e5a486f3904e8f38f63e5d62944f2df3e81b23fba695a8672416185e9a1",
+      "source_relative_path": "Languages/Russian/DefInjected/WeaponTraitDef/Traits.xml",
+      "shape": "scalar"
+    },
+    "DefInjected|WeaponTraitDef|CWF_Trait_8xScope.description": {
+      "value_sha256": "d10c15450246e3218561a40fac83780146fe3e6c5c63bf10552fa0c118b91bd2",
+      "source_relative_path": "Languages/Russian/DefInjected/WeaponTraitDef/Traits.xml",
+      "shape": "scalar"
+    },
+    "DefInjected|WeaponTraitDef|CWF_Trait_QuickMagazine.label": {
+      "value_sha256": "b1a35dd654c219a99185a49e206f38e1c870173209a0d3b82f22ee35abc4a2c8",
+      "source_relative_path": "Languages/Russian/DefInjected/WeaponTraitDef/Traits.xml",
+      "shape": "scalar"
+    },
+    "DefInjected|WeaponTraitDef|CWF_Trait_QuickMagazine.description": {
+      "value_sha256": "f4a3c27290da94d3dc4126cbabacc244c4e7fd469b3a3e34a2b57e723a1cc12c",
+      "source_relative_path": "Languages/Russian/DefInjected/WeaponTraitDef/Traits.xml",
+      "shape": "scalar"
+    },
+    "DefInjected|WeaponTraitDef|CWF_Trait_ExtendedMagazine.label": {
+      "value_sha256": "710fbecfcde647903dedea128aa949db7f390c178fd5a3ac84641e3fe2aaf3f2",
+      "source_relative_path": "Languages/Russian/DefInjected/WeaponTraitDef/Traits.xml",
+      "shape": "scalar"
+    },
+    "DefInjected|WeaponTraitDef|CWF_Trait_ExtendedMagazine.description": {
+      "value_sha256": "658b8ece202740ca6e6d191dbf91e525bb0c0bc304c08c438a2c6a586f91e82a",
+      "source_relative_path": "Languages/Russian/DefInjected/WeaponTraitDef/Traits.xml",
+      "shape": "scalar"
+    },
+    "DefInjected|WeaponTraitDef|CWF_Trait_BeltMagazine.label": {
+      "value_sha256": "47da60c0f719399e9e2bd35cb22bdb9aaf9d5d27cfa34c46fc3d092e59fb7853",
+      "source_relative_path": "Languages/Russian/DefInjected/WeaponTraitDef/Traits.xml",
+      "shape": "scalar"
+    },
+    "DefInjected|WeaponTraitDef|CWF_Trait_BeltMagazine.description": {
+      "value_sha256": "af45f4fc09328ecb8a4b7dbfe789e1cdfa3ddffe4fd2809edacd082963f38c90",
+      "source_relative_path": "Languages/Russian/DefInjected/WeaponTraitDef/Traits.xml",
+      "shape": "scalar"
+    },
+    "DefInjected|WeaponTraitDef|CWF_Trait_DrumMagazine.label": {
+      "value_sha256": "143b75339bce6b0a6071d25296634a4fc843e35aa6eefeeb68d170735bad2fe6",
+      "source_relative_path": "Languages/Russian/DefInjected/WeaponTraitDef/Traits.xml",
+      "shape": "scalar"
+    },
+    "DefInjected|WeaponTraitDef|CWF_Trait_DrumMagazine.description": {
+      "value_sha256": "3af35dd4475014658cac424dd5a83185aa482594ad8fd385ef4027c9a3183a90",
+      "source_relative_path": "Languages/Russian/DefInjected/WeaponTraitDef/Traits.xml",
+      "shape": "scalar"
+    },
+    "DefInjected|WeaponTraitDef|CWF_Trait_VerticalGrip.label": {
+      "value_sha256": "6087930476b33abde3d8d3f8d8ff4eafb54f664fb0a2d5f483bc3d4de16e3c30",
+      "source_relative_path": "Languages/Russian/DefInjected/WeaponTraitDef/Traits.xml",
+      "shape": "scalar"
+    },
+    "DefInjected|WeaponTraitDef|CWF_Trait_VerticalGrip.description": {
+      "value_sha256": "78f5ce216927d4487c6389138ed91ac9943699c0dcc294c9c281bc5effc446b3",
+      "source_relative_path": "Languages/Russian/DefInjected/WeaponTraitDef/Traits.xml",
+      "shape": "scalar"
+    },
+    "DefInjected|WeaponTraitDef|CWF_Trait_TriangularGrip.label": {
+      "value_sha256": "bbef755f3faf23af44d8558c09a90e8d22108eef3f971a0c791ac25f80174b66",
+      "source_relative_path": "Languages/Russian/DefInjected/WeaponTraitDef/Traits.xml",
+      "shape": "scalar"
+    },
+    "DefInjected|WeaponTraitDef|CWF_Trait_TriangularGrip.description": {
+      "value_sha256": "9aaf9dad9ccfcd44e3620737bdcc18ebc0a5c2f549bbf1a49857d79f54c5e8dd",
+      "source_relative_path": "Languages/Russian/DefInjected/WeaponTraitDef/Traits.xml",
+      "shape": "scalar"
+    },
+    "DefInjected|WeaponTraitDef|CWF_Trait_LaserSight.label": {
+      "value_sha256": "c0c34867a0089f3dec714c0547cfaacac4d344469ebee0d7c92577f0483c3016",
+      "source_relative_path": "Languages/Russian/DefInjected/WeaponTraitDef/Traits.xml",
+      "shape": "scalar"
+    },
+    "DefInjected|WeaponTraitDef|CWF_Trait_LaserSight.description": {
+      "value_sha256": "87377973833429d82e91315a83cb0015c1c7d9e1a40f133df6d016d549c6fa59",
+      "source_relative_path": "Languages/Russian/DefInjected/WeaponTraitDef/Traits.xml",
+      "shape": "scalar"
+    },
+    "DefInjected|WeaponTraitDef|CWF_Trait_GrenadeLauncher.label": {
+      "value_sha256": "f5ed3b04b2c5bbc3ba716eec75b1a2051b9c4865c42ef4464b092f4b86c8016c",
+      "source_relative_path": "Languages/Russian/DefInjected/WeaponTraitDef/Traits.xml",
+      "shape": "scalar"
+    },
+    "DefInjected|WeaponTraitDef|CWF_Trait_GrenadeLauncher.description": {
+      "value_sha256": "3f1e5c62b0693a78d69a33bbd0675db2e82bb45834837ec9a50e414d1d4db2b6",
+      "source_relative_path": "Languages/Russian/DefInjected/WeaponTraitDef/Traits.xml",
+      "shape": "scalar"
+    },
+    "DefInjected|WeaponTraitDef|CWF_Trait_EMPLauncher.label": {
+      "value_sha256": "dd4272e47671b6df93c154bcd6138cf41925322ba1f3cb83a2240365a05180b9",
+      "source_relative_path": "Languages/Russian/DefInjected/WeaponTraitDef/Traits.xml",
+      "shape": "scalar"
+    },
+    "DefInjected|WeaponTraitDef|CWF_Trait_EMPLauncher.description": {
+      "value_sha256": "c17c4ff9a308d377ca5f8c1c817b67dcdf64640631492fb1d485fff0c0a3692e",
+      "source_relative_path": "Languages/Russian/DefInjected/WeaponTraitDef/Traits.xml",
+      "shape": "scalar"
+    },
+    "DefInjected|WeaponTraitDef|CWF_Trait_SmokeLauncher.label": {
+      "value_sha256": "1283283d194e2a903ff24ea8748b6e0537fa2ef9adcd0644fff2358f8a3cf102",
+      "source_relative_path": "Languages/Russian/DefInjected/WeaponTraitDef/Traits.xml",
+      "shape": "scalar"
+    },
+    "DefInjected|WeaponTraitDef|CWF_Trait_SmokeLauncher.description": {
+      "value_sha256": "acccdd3c7968a0603cb56cfe0ca81890f5a96824d51bbbcf30b7860051a3a91f",
+      "source_relative_path": "Languages/Russian/DefInjected/WeaponTraitDef/Traits.xml",
+      "shape": "scalar"
+    },
+    "DefInjected|WeaponTraitDef|CWF_Trait_IncendiaryLauncher.label": {
+      "value_sha256": "6cdef375d4a884da151924539e7bfa3f156db16864ef1937ec84b4104de443e4",
+      "source_relative_path": "Languages/Russian/DefInjected/WeaponTraitDef/Traits.xml",
+      "shape": "scalar"
+    },
+    "DefInjected|WeaponTraitDef|CWF_Trait_IncendiaryLauncher.description": {
+      "value_sha256": "ba7c5ddc9c8c74caa14b857a4280d4c247849ecb8f55a6b6ad8236a82a444ee3",
+      "source_relative_path": "Languages/Russian/DefInjected/WeaponTraitDef/Traits.xml",
+      "shape": "scalar"
+    },
+    "DefInjected|WeaponTraitDef|CWF_Trait_HeavyRounds.label": {
+      "value_sha256": "5a07b27c1779501e6a3e60fb24fdd163413440c0a0b14b38503866da0ee905bf",
+      "source_relative_path": "Languages/Russian/DefInjected/WeaponTraitDef/Traits.xml",
+      "shape": "scalar"
+    },
+    "DefInjected|WeaponTraitDef|CWF_Trait_HeavyRounds.description": {
+      "value_sha256": "108951c03103b9169fbb40f15e77f929c8cf759b905b1ad0b3a805589ebf2a8e",
+      "source_relative_path": "Languages/Russian/DefInjected/WeaponTraitDef/Traits.xml",
+      "shape": "scalar"
+    },
+    "DefInjected|WeaponTraitDef|CWF_Trait_HollowPointRounds.label": {
+      "value_sha256": "f4706e6316010b4df24bd7f0dd3c42b30db298973a822577188a2e58c8011992",
+      "source_relative_path": "Languages/Russian/DefInjected/WeaponTraitDef/Traits.xml",
+      "shape": "scalar"
+    },
+    "DefInjected|WeaponTraitDef|CWF_Trait_HollowPointRounds.description": {
+      "value_sha256": "167833c282e47a24862a8c84f3aa219848556d12674b04fcc8793c27717e723c",
+      "source_relative_path": "Languages/Russian/DefInjected/WeaponTraitDef/Traits.xml",
+      "shape": "scalar"
+    },
+    "DefInjected|WeaponTraitDef|CWF_Trait_ToxRounds.label": {
+      "value_sha256": "0d87efe34fab7abaeaed6fa297bebe7bbeef75a775cf35898ac430eb05b651a1",
+      "source_relative_path": "Languages/Russian/DefInjected/WeaponTraitDef/Traits.xml",
+      "shape": "scalar"
+    },
+    "DefInjected|WeaponTraitDef|CWF_Trait_ToxRounds.description": {
+      "value_sha256": "80e63d4fabe1e36aa0678c14b1ba53e24662d12a1f3d1995c19b4b86c32ce459",
+      "source_relative_path": "Languages/Russian/DefInjected/WeaponTraitDef/Traits.xml",
+      "shape": "scalar"
+    },
+    "DefInjected|WeaponTraitDef|CWF_Trait_PiercingRounds.label": {
+      "value_sha256": "b7ac9569efad430032310f6160db7c1c7a34dd544f6af4d70d9b68c1b3eb7a64",
+      "source_relative_path": "Languages/Russian/DefInjected/WeaponTraitDef/Traits.xml",
+      "shape": "scalar"
+    },
+    "DefInjected|WeaponTraitDef|CWF_Trait_PiercingRounds.description": {
+      "value_sha256": "3645c17d5492b931b264ac6cc2a827e270a6cbe034662738e78de600f9f4748e",
+      "source_relative_path": "Languages/Russian/DefInjected/WeaponTraitDef/Traits.xml",
+      "shape": "scalar"
+    },
+    "DefInjected|WeaponTraitDef|CWF_Trait_IncendiaryRounds.label": {
+      "value_sha256": "af241cf5e90e17ef070b5d9fa48591fd6c26c81931e0d49b5cdc70c2f909e52e",
+      "source_relative_path": "Languages/Russian/DefInjected/WeaponTraitDef/Traits.xml",
+      "shape": "scalar"
+    },
+    "DefInjected|WeaponTraitDef|CWF_Trait_IncendiaryRounds.description": {
+      "value_sha256": "2d12b4b47cd21d68354ea518f79b15ea0e611ff1f036902613d7b1311a6c9b6a",
+      "source_relative_path": "Languages/Russian/DefInjected/WeaponTraitDef/Traits.xml",
+      "shape": "scalar"
+    },
+    "DefInjected|WeaponTraitDef|CWF_Trait_EMPRounds.label": {
+      "value_sha256": "a32e6af0dba62b4a9545a296f4c6a7ce423bea186694ef7f655d01ca01a7eb96",
+      "source_relative_path": "Languages/Russian/DefInjected/WeaponTraitDef/Traits.xml",
+      "shape": "scalar"
+    },
+    "DefInjected|WeaponTraitDef|CWF_Trait_EMPRounds.description": {
+      "value_sha256": "0f9c5e8d4499926d4a2dc2abd8c8f48835e84c8214332bc8acacf0aacd6a948d",
+      "source_relative_path": "Languages/Russian/DefInjected/WeaponTraitDef/Traits.xml",
+      "shape": "scalar"
+    },
+    "DefInjected|WeaponTraitDef|CWF_Trait_HighPowerRounds.label": {
+      "value_sha256": "9080291d847ec81ed9980660a6006a2ebde1e2ae034d2ebdd8f235e0bf0665a7",
+      "source_relative_path": "Languages/Russian/DefInjected/WeaponTraitDef/Traits.xml",
+      "shape": "scalar"
+    },
+    "DefInjected|WeaponTraitDef|CWF_Trait_HighPowerRounds.description": {
+      "value_sha256": "5c699dec6ba9fcf20af0bcac85e1a314d627b568df8aea33ea554a609f849a5a",
+      "source_relative_path": "Languages/Russian/DefInjected/WeaponTraitDef/Traits.xml",
+      "shape": "scalar"
+    },
+    "DefInjected|WeaponTraitDef|CWF_Trait_PulseChargeRounds.label": {
+      "value_sha256": "6668db7b8e7f92c608df0ab73ade694fe7e82560b557cab45178d99f63eb4ff2",
+      "source_relative_path": "Languages/Russian/DefInjected/WeaponTraitDef/Traits.xml",
+      "shape": "scalar"
+    },
+    "DefInjected|WeaponTraitDef|CWF_Trait_PulseChargeRounds.description": {
+      "value_sha256": "130b050fb9afcde08f2e907f65691d1e346940d2083de46b3947836a37df6652",
+      "source_relative_path": "Languages/Russian/DefInjected/WeaponTraitDef/Traits.xml",
+      "shape": "scalar"
+    },
+    "DefInjected|WeaponTraitDef|CWF_Trait_IncendiaryPellets.label": {
+      "value_sha256": "3748483b461d6d4823ead6b8707575fa4e20fe470aed291ee89767c0a2af7be7",
+      "source_relative_path": "Languages/Russian/DefInjected/WeaponTraitDef/Traits.xml",
+      "shape": "scalar"
+    },
+    "DefInjected|WeaponTraitDef|CWF_Trait_IncendiaryPellets.description": {
+      "value_sha256": "840b94fd3fa07a03bb56b6277c22ecce594f56e1815bb13b402fdc609a842baa",
+      "source_relative_path": "Languages/Russian/DefInjected/WeaponTraitDef/Traits.xml",
+      "shape": "scalar"
+    },
+    "DefInjected|WeaponTraitDef|CWF_Trait_ToxPellets.label": {
+      "value_sha256": "9ea680b312df5984a5e6cc1d241db89e05b6019bd6fcab3bd89508c5e7c73135",
+      "source_relative_path": "Languages/Russian/DefInjected/WeaponTraitDef/Traits.xml",
+      "shape": "scalar"
+    },
+    "DefInjected|WeaponTraitDef|CWF_Trait_ToxPellets.description": {
+      "value_sha256": "d6de3bb5e23f1b9c215a7a0cd4ffabc6fae952fdf54cf6e003a0a4925455b06f",
+      "source_relative_path": "Languages/Russian/DefInjected/WeaponTraitDef/Traits.xml",
+      "shape": "scalar"
+    },
+    "DefInjected|WeaponTraitDef|CWF_Trait_BirdshotPellets.label": {
+      "value_sha256": "38316a1b7d9dcaf7525dbfa1e455521fb8cc119901d036549ea47691f602bffe",
+      "source_relative_path": "Languages/Russian/DefInjected/WeaponTraitDef/Traits.xml",
+      "shape": "scalar"
+    },
+    "DefInjected|WeaponTraitDef|CWF_Trait_BirdshotPellets.description": {
+      "value_sha256": "0376d3138e814276993c31e455b35f621b99b70aff7b7f5e5b4e194ace3d5817",
+      "source_relative_path": "Languages/Russian/DefInjected/WeaponTraitDef/Traits.xml",
+      "shape": "scalar"
+    },
+    "Keyed|CWF_RangeDPS": {
+      "value_sha256": "caece7f58fce2c0d73a12af487b289e60a5ea4d682f6b0b160a3969fb7d9dad0",
+      "source_relative_path": "Languages/Russian/Keyed/Keyed.xml",
+      "shape": "scalar"
+    },
+    "Keyed|CWF_RangeBurstCount": {
+      "value_sha256": "a19c94630d4f472d2c32ec9eddcdbaad896936c725b1f8f0556110bdaa3f0242",
+      "source_relative_path": "Languages/Russian/Keyed/Keyed.xml",
+      "shape": "scalar"
+    },
+    "Keyed|CWF_RangeCooldown": {
+      "value_sha256": "b051f39468122abdf5a558e18baa96e042bc54511df55ee2670c6c7f6adbb856",
+      "source_relative_path": "Languages/Russian/Keyed/Keyed.xml",
+      "shape": "scalar"
+    },
+    "Keyed|CWF_Projectile": {
+      "value_sha256": "a102e15f1a240ad2bed844f53c6f697cfeb9c2e7e4e603a2a6754dc57f4dcdbe",
+      "source_relative_path": "Languages/Russian/Keyed/Keyed.xml",
+      "shape": "scalar"
+    },
+    "Keyed|CWF_Accuracy": {
+      "value_sha256": "2f73b5866186dabb82b90a6b3ba38d1af9e06be67a5afaf774df85a2fb9d2a9a",
+      "source_relative_path": "Languages/Russian/Keyed/Keyed.xml",
+      "shape": "scalar"
+    },
+    "Keyed|CWF_Touch": {
+      "value_sha256": "148f03448d07d5b485d4fb74117888850ae43a5056eef3d8c5966716838bd0d5",
+      "source_relative_path": "Languages/Russian/Keyed/Keyed.xml",
+      "shape": "scalar"
+    },
+    "Keyed|CWF_Short": {
+      "value_sha256": "57da4cd12adaa15de916689ff20ac636e5d71eaf7c87271c18befdc734fb2911",
+      "source_relative_path": "Languages/Russian/Keyed/Keyed.xml",
+      "shape": "scalar"
+    },
+    "Keyed|CWF_Medium": {
+      "value_sha256": "709ce533ba0a8d6fd76bb51dfc4cf5f3fce021e8b5a18868883d516086357ae3",
+      "source_relative_path": "Languages/Russian/Keyed/Keyed.xml",
+      "shape": "scalar"
+    },
+    "Keyed|CWF_Long": {
+      "value_sha256": "670df8934d0aaa64d7976d9246f4190b62e5a677013bdff59ffaf2f7fd0437d1",
+      "source_relative_path": "Languages/Russian/Keyed/Keyed.xml",
+      "shape": "scalar"
+    },
+    "Keyed|CWF_BurstShotCountMultiplier": {
+      "value_sha256": "21da3e8353d1e7f4f6606b094ed18cc127a2c55ea57e93424ec505588073ebe1",
+      "source_relative_path": "Languages/Russian/Keyed/Keyed.xml",
+      "shape": "scalar"
+    },
+    "Keyed|CWF_BurstShotSpeedMultiplier": {
+      "value_sha256": "bf7592a9c2cdf5e5cb57535faf0cdd32b0230bb562093b7bf87ba4836316708e",
+      "source_relative_path": "Languages/Russian/Keyed/Keyed.xml",
+      "shape": "scalar"
+    },
+    "Keyed|CWF_AdditionalStoppingPower": {
+      "value_sha256": "5f309404fbb9a7f6fb5024c3da1d45c0756613e09fcfd0698ffe4cb0a1b03645",
+      "source_relative_path": "Languages/Russian/Keyed/Keyed.xml",
+      "shape": "scalar"
+    },
+    "Keyed|CWF_WeaponColor": {
+      "value_sha256": "f5c7e374962c12ea20efdfeab2aa166a186a6a1efe9f61d1c85632ffb9de652a",
+      "source_relative_path": "Languages/Russian/Keyed/Keyed.xml",
+      "shape": "scalar"
+    },
+    "Keyed|CWF_WeaponColorUnavailable": {
+      "value_sha256": "464615e4c3f8fa92a9d39e8c44cff9944196a5eb7e29a1af2831cdcb435b5c53",
+      "source_relative_path": "Languages/Russian/Keyed/Keyed.xml",
+      "shape": "scalar"
+    },
+    "Keyed|CWF_WeaponPanel": {
+      "value_sha256": "3637a815978a792fa9b48c64c4c76403675b13f68d5b8f3a9d03e7c0cd229d92",
+      "source_relative_path": "Languages/Russian/Keyed/Keyed.xml",
+      "shape": "scalar"
+    },
+    "Keyed|CWF_WeaponPanelDesc": {
+      "value_sha256": "9851bb0aad5da13e4f12b66f9e56f2d7c6db7eb34170b9a0dee0149c7e04460e",
+      "source_relative_path": "Languages/Russian/Keyed/Keyed.xml",
+      "shape": "scalar"
+    },
+    "Keyed|CWF_PickUp": {
+      "value_sha256": "afb4a57ee383d13e4e007a26401c7f6772e3f77ea566447467be2d1ee083a143",
+      "source_relative_path": "Languages/Russian/Keyed/Keyed.xml",
+      "shape": "scalar"
+    },
+    "Keyed|CWF_NoColonistToModifyWeapon": {
+      "value_sha256": "bbb502f0fd47063c571ef0beeb772bd177ccabfc7880b59e1ca22d00799dfd28",
+      "source_relative_path": "Languages/Russian/Keyed/Keyed.xml",
+      "shape": "scalar"
+    },
+    "Keyed|CWF_CannotFindModuleForModification": {
+      "value_sha256": "4f69cbc0f597b63412af0097994f8b7c35dc9a7cca08411b57cec8b6e2991dfa",
+      "source_relative_path": "Languages/Russian/Keyed/Keyed.xml",
+      "shape": "scalar"
+    },
+    "Keyed|CWF_ModificationJobDispatched": {
+      "value_sha256": "8d61411944eabf3927a3656a71f9516577e04bb7bdce84151a85af11d269beb9",
+      "source_relative_path": "Languages/Russian/Keyed/Keyed.xml",
+      "shape": "scalar"
+    },
+    "Keyed|CWF_ModificationComplete": {
+      "value_sha256": "2465aa9a47ada37b7b12cabaa139fc0c0971acc973ec54487548db5a3d275174",
+      "source_relative_path": "Languages/Russian/Keyed/Keyed.xml",
+      "shape": "scalar"
+    },
+    "Keyed|CWF_NoWorkbenchToCraftModule": {
+      "value_sha256": "6a553fb04047ba4a708480fc2a8b72893252653d5e3630eb03eb79836cbe70af",
+      "source_relative_path": "Languages/Russian/Keyed/Keyed.xml",
+      "shape": "scalar"
+    },
+    "Keyed|CWF_BillAdded": {
+      "value_sha256": "dde9e6c338934a4a1b0b06af4ae6bfb680f11bda6897ee9bc4901a5b58c47b05",
+      "source_relative_path": "Languages/Russian/Keyed/Keyed.xml",
+      "shape": "scalar"
+    },
+    "Keyed|CWF_SettingsCategory": {
+      "value_sha256": "ac8ce2af4df7a98c3b097c8e4a9493509865f734ec709956c2cd85c04eb740cf",
+      "source_relative_path": "Languages/Russian/Keyed/Keyed.xml",
+      "shape": "scalar"
+    },
+    "Keyed|CWF_Parts": {
+      "value_sha256": "1320097f702c76c6743626f4da13612d01b33fffdddb88a39102513e1c8804ac",
+      "source_relative_path": "Languages/Russian/Keyed/Keyed.xml",
+      "shape": "scalar"
+    },
+    "Keyed|CWF_CompatibleModules": {
+      "value_sha256": "c3b476d9258b0e1ef8300f2449a881df0354e423b133dcbe8324e25ec1a7516b",
+      "source_relative_path": "Languages/Russian/Keyed/Keyed.xml",
+      "shape": "scalar"
+    },
+    "Keyed|CWF_BrowseCompatibleModules": {
+      "value_sha256": "35263a3d3e6df14c393239e23632a82acff4e4e67dd1a4c22d52aa9e5bfe076e",
+      "source_relative_path": "Languages/Russian/Keyed/Keyed.xml",
+      "shape": "scalar"
+    },
+    "Keyed|CWF_PartOf": {
+      "value_sha256": "cf298a8ea81c7b91c790824e73925e3ab2955d85a58843a9da8abb0de1fcbaf2",
+      "source_relative_path": "Languages/Russian/Keyed/Keyed.xml",
+      "shape": "scalar"
+    },
+    "Keyed|CWF_Uninstall": {
+      "value_sha256": "d4b51f7a04de69d1da364a445975f17d846533f49d7bcbdb4a0d7736620c32e9",
+      "source_relative_path": "Languages/Russian/Keyed/Keyed.xml",
+      "shape": "scalar"
+    },
+    "Keyed|CWF_NoCompatibleModules": {
+      "value_sha256": "cca20c573b23bf5c36c734a591a6d7e4c8fc17e9bff6610d4196250cae86dbbc",
+      "source_relative_path": "Languages/Russian/Keyed/Keyed.xml",
+      "shape": "scalar"
+    },
+    "Keyed|CWF_NoCompatibleModulesInInventory": {
+      "value_sha256": "3f83c63cccdd3f120285b8c29360722b626988b76e4407f31c9d9cad8dd9222b",
+      "source_relative_path": "Languages/Russian/Keyed/Keyed.xml",
+      "shape": "scalar"
+    },
+    "Keyed|CWF_NoCompatibleModulesOnMap": {
+      "value_sha256": "0e912ef04c7a774f1c97a430077bfbe70bc95dc7493ba449948567b7f7bbe805",
+      "source_relative_path": "Languages/Russian/Keyed/Keyed.xml",
+      "shape": "scalar"
+    },
+    "Keyed|CWF_WeaponModules": {
+      "value_sha256": "d027161cc7f3da6a95586f9d3ee876e793f873b83bed9f00fbcd074d23977cd9",
+      "source_relative_path": "Languages/Russian/Keyed/Keyed.xml",
+      "shape": "scalar"
+    },
+    "Keyed|CWF_WeaponModules_Desc": {
+      "value_sha256": "d3293f2b02092a5ea787c832777e726bc71e97af76588e24af488d0b88e5d3f3",
+      "source_relative_path": "Languages/Russian/Keyed/Keyed.xml",
+      "shape": "scalar"
+    },
+    "Keyed|CWF_ModuleEffects": {
+      "value_sha256": "f89247eab2a9f8974d29b5527f3880c03ebb20da7ef46b60c59a40f2ea71c178",
+      "source_relative_path": "Languages/Russian/Keyed/Keyed.xml",
+      "shape": "scalar"
+    },
+    "Keyed|CWF_ModuleEffectsDesc": {
+      "value_sha256": "ab0b123a9025d1268fba15c5e54631674f50ede3d843b85f31979fd02766219e",
+      "source_relative_path": "Languages/Russian/Keyed/Keyed.xml",
+      "shape": "scalar"
+    },
+    "Keyed|CWF_Rarity": {
+      "value_sha256": "65356643164ea54b07aa95d87c1efdecceac5007672bc17e65ed2bf362ac6761",
+      "source_relative_path": "Languages/Russian/Keyed/Keyed.xml",
+      "shape": "scalar"
+    },
+    "Keyed|CWF_RarityDesc": {
+      "value_sha256": "89c3fc5fd856358664beb91f4eb933e252a7ada362178dd2bb4cc9b9069ce22c",
+      "source_relative_path": "Languages/Russian/Keyed/Keyed.xml",
+      "shape": "scalar"
+    },
+    "Keyed|CWF_Rarity_Standard": {
+      "value_sha256": "59e953a0abd9d601cafa6e56e062790a8bb9806a034d6407eaa76d7bb48bf898",
+      "source_relative_path": "Languages/Russian/Keyed/Keyed.xml",
+      "shape": "scalar"
+    },
+    "Keyed|CWF_Rarity_Rare": {
+      "value_sha256": "35f4a959aedd9fae7a9f22789241407ec1b3a88efa2e5bfa2ebeae6eb8be7fb9",
+      "source_relative_path": "Languages/Russian/Keyed/Keyed.xml",
+      "shape": "scalar"
+    },
+    "Keyed|CWF_Rarity_Legendary": {
+      "value_sha256": "1f25ff41e4876e3bf8df40da870b7983d4cf2406aec042e94d84f95ffff55227",
+      "source_relative_path": "Languages/Russian/Keyed/Keyed.xml",
+      "shape": "scalar"
+    },
+    "Keyed|CWF_InputTitle": {
+      "value_sha256": "2641301ae19af73184024732af9d88f84745c5afa0ff17f233d1b3811a549b77",
+      "source_relative_path": "Languages/Russian/Keyed/Keyed.xml",
+      "shape": "scalar"
+    },
+    "Keyed|CWF_ConfirmInstallTitle": {
+      "value_sha256": "2096399c1e02601af1016fa3aa886ddbb4f29c824fe763b43cd0ef8fc801ea15",
+      "source_relative_path": "Languages/Russian/Keyed/Keyed.xml",
+      "shape": "scalar"
+    },
+    "Keyed|CWF_ConfirmInstallBody": {
+      "value_sha256": "d68bb0d4a09fcf7019bd07481bea78e0f8cd1096d2e0ad44608fee8c2735f533",
+      "source_relative_path": "Languages/Russian/Keyed/Keyed.xml",
+      "shape": "scalar"
+    },
+    "Keyed|CWF_ConfirmUninstallTitle": {
+      "value_sha256": "4e55d2f9db198c1279ba4fde1c5ef0c8f2eb7281decaad72eba607223984e9e2",
+      "source_relative_path": "Languages/Russian/Keyed/Keyed.xml",
+      "shape": "scalar"
+    },
+    "Keyed|CWF_ConfirmUninstallBody": {
+      "value_sha256": "355ad17fba3a6f6a9c99548677d1d731e7f8b395db4868aed8b53049233f2948",
+      "source_relative_path": "Languages/Russian/Keyed/Keyed.xml",
+      "shape": "scalar"
+    },
+    "Keyed|CWF_FromEquipped": {
+      "value_sha256": "ab716425ad8ec1c8728e927639b3f211d8852bcf45ab37af51a2e7e8261621ed",
+      "source_relative_path": "Languages/Russian/Keyed/Keyed.xml",
+      "shape": "scalar"
+    },
+    "Keyed|CWF_RandomModuleGeneration": {
+      "value_sha256": "983980fd820d719396450f483c0bb80c06cf5e24fea7d5cbc87915a8bfafd3da",
+      "source_relative_path": "Languages/Russian/Keyed/Keyed.xml",
+      "shape": "scalar"
+    },
+    "Keyed|CWF_RandomModuleGenerationDesc": {
+      "value_sha256": "d763a6335f41c3ca41c1410fb6dd451d266f0055271c975bc93d409205d4606f",
+      "source_relative_path": "Languages/Russian/Keyed/Keyed.xml",
+      "shape": "scalar"
+    },
+    "Keyed|CWF_RandomModuleLimit": {
+      "value_sha256": "88d93b6ebff577c45f86ed723461d391a9f96ab1b9fb2f6c5bf8c3c3dd232e8c",
+      "source_relative_path": "Languages/Russian/Keyed/Keyed.xml",
+      "shape": "scalar"
+    },
+    "Keyed|CWF_RarityWeights": {
+      "value_sha256": "9f5442808196929de905e68c71a73e62a9e7a07ff6dce73b5ca4d85a42c01246",
+      "source_relative_path": "Languages/Russian/Keyed/Keyed.xml",
+      "shape": "scalar"
+    },
+    "Keyed|CWF_RarityWeightsDesc": {
+      "value_sha256": "3ba4bd66bd05d60571e8929662cd2e761548f2fb7432c3be5c18f203097de74c",
+      "source_relative_path": "Languages/Russian/Keyed/Keyed.xml",
+      "shape": "scalar"
+    },
+    "Keyed|CWF_RarityWeight_Standard": {
+      "value_sha256": "59e953a0abd9d601cafa6e56e062790a8bb9806a034d6407eaa76d7bb48bf898",
+      "source_relative_path": "Languages/Russian/Keyed/Keyed.xml",
+      "shape": "scalar"
+    },
+    "Keyed|CWF_RarityWeight_Rare": {
+      "value_sha256": "35f4a959aedd9fae7a9f22789241407ec1b3a88efa2e5bfa2ebeae6eb8be7fb9",
+      "source_relative_path": "Languages/Russian/Keyed/Keyed.xml",
+      "shape": "scalar"
+    },
+    "Keyed|CWF_RarityWeight_Legendary": {
+      "value_sha256": "1f25ff41e4876e3bf8df40da870b7983d4cf2406aec042e94d84f95ffff55227",
+      "source_relative_path": "Languages/Russian/Keyed/Keyed.xml",
+      "shape": "scalar"
+    },
+    "Keyed|CWF_All": {
+      "value_sha256": "215816bf42103f1f2b24c168779f1fb0ea3afcb7a2c627e42e0bcd7fe07eb70a",
+      "source_relative_path": "Languages/Russian/Keyed/Keyed.xml",
+      "shape": "scalar"
+    },
+    "Keyed|CWF_Craft": {
+      "value_sha256": "e2be34974ae4f61013d853f8da72deb68e9f6ef8491b57f3044461af2b8855ca",
+      "source_relative_path": "Languages/Russian/Keyed/Keyed.xml",
+      "shape": "scalar"
+    },
+    "Keyed|CWF_CannotCraft": {
+      "value_sha256": "4eab89b339f3d433464ef0b07d218fbc4d3d439a7500efabaee86e699bc570b0",
+      "source_relative_path": "Languages/Russian/Keyed/Keyed.xml",
+      "shape": "scalar"
+    },
+    "Keyed|CWF_ClearAllModules": {
+      "value_sha256": "2bee2f8c1795cc806d4b5ea35df3a4b5a4cb09d7c8f8aeb2a9ba1732eb3403d1",
+      "source_relative_path": "Languages/Russian/Keyed/Keyed.xml",
+      "shape": "scalar"
+    },
+    "Keyed|CWF_SaveCurrentPreset": {
+      "value_sha256": "07fb8ec824f44f77865303a859702c21695080acb4c42cfb136bb5aa53a8abcc",
+      "source_relative_path": "Languages/Russian/Keyed/Keyed.xml",
+      "shape": "scalar"
+    },
+    "Keyed|CWF_SaveCurrentPresetTitle": {
+      "value_sha256": "0849ebdcca3f1eed979ffefcd364ebfd0fe2cf364fa787d155c1b94e516c1974",
+      "source_relative_path": "Languages/Russian/Keyed/Keyed.xml",
+      "shape": "scalar"
+    },
+    "Keyed|CWF_ApplyPreset": {
+      "value_sha256": "91450d2ef8bf59ba1c44d80bcbeafc820cdaf92dd346f5be50d8bce74c306b82",
+      "source_relative_path": "Languages/Russian/Keyed/Keyed.xml",
+      "shape": "scalar"
+    },
+    "Keyed|CWF_DeletePreset": {
+      "value_sha256": "9bf0c18057b6e9fc89a8621398bc3994db7c499940597aed7e63081290326b82",
+      "source_relative_path": "Languages/Russian/Keyed/Keyed.xml",
+      "shape": "scalar"
+    },
+    "Keyed|CWF_PresetNameEmpty": {
+      "value_sha256": "4fc5fd777984e1332d2ca7281e1d8313bb1574fedf7ecfbcb176ee9ebd38d24f",
+      "source_relative_path": "Languages/Russian/Keyed/Keyed.xml",
+      "shape": "scalar"
+    },
+    "Keyed|CWF_PresetManagerUnavailable": {
+      "value_sha256": "65b8edff61ff301612d08e38cac02590509c1a714f266a6762c66c826c9c40ee",
+      "source_relative_path": "Languages/Russian/Keyed/Keyed.xml",
+      "shape": "scalar"
+    },
+    "Keyed|CWF_PresetSaved": {
+      "value_sha256": "be09459ddcd75f98969adb92ae69b897d4204d8823016b49f491ee82e2f8a2ae",
+      "source_relative_path": "Languages/Russian/Keyed/Keyed.xml",
+      "shape": "scalar"
+    },
+    "Keyed|CWF_PresetDeleted": {
+      "value_sha256": "235812c52f18a4393ed98846f18d8af1f74718b25c10e6f65b93c6be9d3f13dd",
+      "source_relative_path": "Languages/Russian/Keyed/Keyed.xml",
+      "shape": "scalar"
+    },
+    "Keyed|CWF_PresetDeleteFailed": {
+      "value_sha256": "84be0923b405caec5b17ae8f20d0318220a87dcc0a23e30a62993341b401fb65",
+      "source_relative_path": "Languages/Russian/Keyed/Keyed.xml",
+      "shape": "scalar"
+    },
+    "Keyed|CWF_PresetApplied": {
+      "value_sha256": "439b3f732f760d9b6bc9bc7041382c9f60f62c84d53b1969ace0505a8fec1c80",
+      "source_relative_path": "Languages/Russian/Keyed/Keyed.xml",
+      "shape": "scalar"
+    },
+    "Keyed|CWF_PresetAppliedWithSkipped": {
+      "value_sha256": "348b2cbcac6d9072efa8f3ecaf59b17f0756d9a97fbda989c9f04d3bfedb4ff9",
+      "source_relative_path": "Languages/Russian/Keyed/Keyed.xml",
+      "shape": "scalar"
+    },
+    "Keyed|CWF_WeaponStyle": {
+      "value_sha256": "be33a2316ee6ce95c471eaad604e3efc4239a90b25abc9a6d8ea0751a19c5773",
+      "source_relative_path": "Languages/Russian/Keyed/Keyed.xml",
+      "shape": "scalar"
+    },
+    "Keyed|CWF_AppearanceOriginal": {
+      "value_sha256": "44a2b1f65ae741e1a7f0f551a4e077d8c8a1a34105d0b01cc1635b35586980e2",
+      "source_relative_path": "Languages/Russian/Keyed/Keyed.xml",
+      "shape": "scalar"
+    },
+    "Keyed|CWF_AppearanceDynamic": {
+      "value_sha256": "35c16b6856c89c38e2277b3a97ef412b0314ab9eded5df687cd3af1efd7d445b",
+      "source_relative_path": "Languages/Russian/Keyed/Keyed.xml",
+      "shape": "scalar"
+    }
+  },
+  "retained_native_key": "CWF_RangeDPS",
+  "external_workshop_id": "3551718118",
+  "external_supported_versions": [
+    "1.6"
+  ],
+  "external_current_rows_overlapping_additions": 9,
+  "additional_fields_missing_from_both": 14,
+  "external_original_about_sha256": "bd8d39aa42d0e7446c062fd444541f69bdc5e478a48e3e88e2caf5569a683505",
+  "external_text_copied": false,
+  "export_scope": "Original Russian key IDs, value hashes and mod-relative source paths only; original text and local machine paths are not exported."
+}

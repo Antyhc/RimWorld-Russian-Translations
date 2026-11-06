@@ -1,0 +1,6 @@
+Original mod: Customize Weapon by Vortex.
+Original Workshop: https://steamcommunity.com/sharedfiles/filedetails/?id=3550585103
+Original repository: https://github.com/realloon/CustomizeWeapon
+Original license: MIT, Copyright (c) 2026 Vortex.
+Russian additions: Antyhc, 2026, MIT, AI-assisted authoring and review with OpenAI Codex.
+Own typographic cover. Existing original Russian is provided by the original mod.

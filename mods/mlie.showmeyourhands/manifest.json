@@ -38,7 +38,14 @@
   "integration": {
     "status": "not_sent",
     "pr_url": null,
-    "contact_url": null
+    "contact_url": null,
+    "pending_correction": {
+      "entries": 3,
+      "status": "prepared_not_sent_platform_rate_limit",
+      "checked_at": "2026-11-06",
+      "attempts": 2,
+      "description": "Correct always-show-hands, off-hand rotation and mouse-wheel rotation help against the current English. XML parsed; fresh game UI not tested."
+    }
   },
   "original": {
     "author": "Mlie",
@@ -128,10 +135,11 @@
     ]
   },
   "inventory": {
-    "saved_records": 17,
+    "saved_records": 20,
     "historical_approved_records": 17,
     "provenance_counts": {
-      "new_contextual_translation": 17
+      "new_contextual_translation": 17,
+      "contextual_translation_correction": 3
     },
     "attribution_licenses": {},
     "installed_locally": true,

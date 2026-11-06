@@ -1,0 +1,170 @@
+{
+  "schema_version": 1,
+  "generated_at": "2026-11-06T17:11:35.716255+00:00",
+  "scope": "23 independently authored missing fields. Existing native Russian and DPS abbreviation retained.",
+  "strings": {
+    "DefInjected|AbilityDef|CWF_Ability_LaunchEMPShell.description": "45e22b69d05a2d8c80afabe2e0480acee86abda0adcfd9c95e6a2c23f99c1db8",
+    "DefInjected|AbilityDef|CWF_Ability_LaunchEMPShell.label": "06b0da7a5c7d1b86e061aff8f41b064afd9195366e1e73bafee412371cf646f4",
+    "DefInjected|AbilityDef|CWF_Ability_LaunchFragGrenade.description": "1cae1a86e9bf1244518ab1adc72e4bd736efd8a893eb6743cb5a14ab91d68544",
+    "DefInjected|AbilityDef|CWF_Ability_LaunchFragGrenade.label": "6ddc4d2c269fbc6b5934d5ebaf5e5054b90fd3339396fbcdd9d425501fbeba15",
+    "DefInjected|AbilityDef|CWF_Ability_LaunchIncendiaryShell.description": "ee03195573c93d78127e649953ee1556715a95380ed4930158802a87e1914342",
+    "DefInjected|AbilityDef|CWF_Ability_LaunchIncendiaryShell.label": "da023494c89c786a17e989e33f2f0618027a6bb0b8ae117d42b3b09cadd25a5d",
+    "DefInjected|AbilityDef|CWF_Ability_LaunchSmokeShell.description": "45060a913c6371f1a2baaa51c8a2726a13badc7ac588ab694fa7c8c29bb5de16",
+    "DefInjected|AbilityDef|CWF_Ability_LaunchSmokeShell.label": "16b8d12b891e52b2e95555dcf13fa8da1226b0d1ea692bbc718954fa702c500e",
+    "DefInjected|DamageDef|CWF_Bullet_TraitIncendiary.label": "ed12eb20000f3e53945efeb9eca0c664f0ac3382cdf93a8d46b808a990f69a79",
+    "DefInjected|DamageDef|CWF_Bullet_TraitTox.label": "ed12eb20000f3e53945efeb9eca0c664f0ac3382cdf93a8d46b808a990f69a79",
+    "DefInjected|JobDef|CWF_ModifyWeaponHaul.description": "3e6d42a9518fc98358900462534f27d272de2b5daa92dc668e87f1fed05448ed",
+    "DefInjected|JobDef|CWF_ModifyWeaponHaul.reportString": "2f9f985fb547373c7a1b15c894c1cce78e61f98a979cd5d745b4462f860159f6",
+    "DefInjected|JobDef|CWF_ModifyWeaponSelf.description": "3e6d42a9518fc98358900462534f27d272de2b5daa92dc668e87f1fed05448ed",
+    "DefInjected|JobDef|CWF_ModifyWeaponSelf.reportString": "2f9f985fb547373c7a1b15c894c1cce78e61f98a979cd5d745b4462f860159f6",
+    "DefInjected|JobDef|CWF_ReloadAbility.description": "1ee3adf20f1d0996fb98ee5b118f21d9150630dd11a57aec3f2e7537ecbc4597",
+    "DefInjected|JobDef|CWF_ReloadAbility.reportString": "2a69a18832f5d6d3419f18cbba82b39316f9f97e92113629b4d4077b1e320e9b",
+    "DefInjected|WeaponTraitDef|CWF_Trait_EMPLauncher.abilityProps.chargeNoun": "ce635c4eabff5e4f56dba8fb1e39ca235530aa2b6b18533eef1af3862016c577",
+    "DefInjected|WeaponTraitDef|CWF_Trait_GrenadeLauncher.abilityProps.chargeNoun": "94916c541b4a20def56433ed855a38c04cbc4e93ac2ae46e47cf7d61a9132351",
+    "DefInjected|WeaponTraitDef|CWF_Trait_IncendiaryLauncher.abilityProps.chargeNoun": "ce635c4eabff5e4f56dba8fb1e39ca235530aa2b6b18533eef1af3862016c577",
+    "DefInjected|WeaponTraitDef|CWF_Trait_SmokeLauncher.abilityProps.chargeNoun": "ce635c4eabff5e4f56dba8fb1e39ca235530aa2b6b18533eef1af3862016c577",
+    "DefInjected|WorkGiverDef|CWF_DoBillsWeaponModules.gerund": "83c102140a0dfe9cc7f30ccdfa1ffe8cd64fab81cbcb35857c971751fc1026e6",
+    "DefInjected|WorkGiverDef|CWF_DoBillsWeaponModules.label": "debc509429d018e4032d98a82dfcdb67e6e75be49180bdc584062edee85843ce",
+    "DefInjected|WorkGiverDef|CWF_DoBillsWeaponModules.verb": "83c102140a0dfe9cc7f30ccdfa1ffe8cd64fab81cbcb35857c971751fc1026e6"
+  },
+  "signatures": {
+    "DefInjected|AbilityDef|CWF_Ability_LaunchEMPShell.description": {
+      "source_hash": "45e22b69d05a2d8c80afabe2e0480acee86abda0adcfd9c95e6a2c23f99c1db8",
+      "tokens": [],
+      "tags": [],
+      "source_empty": false
+    },
+    "DefInjected|AbilityDef|CWF_Ability_LaunchEMPShell.label": {
+      "source_hash": "06b0da7a5c7d1b86e061aff8f41b064afd9195366e1e73bafee412371cf646f4",
+      "tokens": [],
+      "tags": [],
+      "source_empty": false
+    },
+    "DefInjected|AbilityDef|CWF_Ability_LaunchFragGrenade.description": {
+      "source_hash": "1cae1a86e9bf1244518ab1adc72e4bd736efd8a893eb6743cb5a14ab91d68544",
+      "tokens": [],
+      "tags": [],
+      "source_empty": false
+    },
+    "DefInjected|AbilityDef|CWF_Ability_LaunchFragGrenade.label": {
+      "source_hash": "6ddc4d2c269fbc6b5934d5ebaf5e5054b90fd3339396fbcdd9d425501fbeba15",
+      "tokens": [],
+      "tags": [],
+      "source_empty": false
+    },
+    "DefInjected|AbilityDef|CWF_Ability_LaunchIncendiaryShell.description": {
+      "source_hash": "ee03195573c93d78127e649953ee1556715a95380ed4930158802a87e1914342",
+      "tokens": [],
+      "tags": [],
+      "source_empty": false
+    },
+    "DefInjected|AbilityDef|CWF_Ability_LaunchIncendiaryShell.label": {
+      "source_hash": "da023494c89c786a17e989e33f2f0618027a6bb0b8ae117d42b3b09cadd25a5d",
+      "tokens": [],
+      "tags": [],
+      "source_empty": false
+    },
+    "DefInjected|AbilityDef|CWF_Ability_LaunchSmokeShell.description": {
+      "source_hash": "45060a913c6371f1a2baaa51c8a2726a13badc7ac588ab694fa7c8c29bb5de16",
+      "tokens": [],
+      "tags": [],
+      "source_empty": false
+    },
+    "DefInjected|AbilityDef|CWF_Ability_LaunchSmokeShell.label": {
+      "source_hash": "16b8d12b891e52b2e95555dcf13fa8da1226b0d1ea692bbc718954fa702c500e",
+      "tokens": [],
+      "tags": [],
+      "source_empty": false
+    },
+    "DefInjected|DamageDef|CWF_Bullet_TraitIncendiary.label": {
+      "source_hash": "ed12eb20000f3e53945efeb9eca0c664f0ac3382cdf93a8d46b808a990f69a79",
+      "tokens": [],
+      "tags": [],
+      "source_empty": false
+    },
+    "DefInjected|DamageDef|CWF_Bullet_TraitTox.label": {
+      "source_hash": "ed12eb20000f3e53945efeb9eca0c664f0ac3382cdf93a8d46b808a990f69a79",
+      "tokens": [],
+      "tags": [],
+      "source_empty": false
+    },
+    "DefInjected|JobDef|CWF_ModifyWeaponHaul.description": {
+      "source_hash": "3e6d42a9518fc98358900462534f27d272de2b5daa92dc668e87f1fed05448ed",
+      "tokens": [],
+      "tags": [],
+      "source_empty": false
+    },
+    "DefInjected|JobDef|CWF_ModifyWeaponHaul.reportString": {
+      "source_hash": "2f9f985fb547373c7a1b15c894c1cce78e61f98a979cd5d745b4462f860159f6",
+      "tokens": [],
+      "tags": [],
+      "source_empty": false
+    },
+    "DefInjected|JobDef|CWF_ModifyWeaponSelf.description": {
+      "source_hash": "3e6d42a9518fc98358900462534f27d272de2b5daa92dc668e87f1fed05448ed",
+      "tokens": [],
+      "tags": [],
+      "source_empty": false
+    },
+    "DefInjected|JobDef|CWF_ModifyWeaponSelf.reportString": {
+      "source_hash": "2f9f985fb547373c7a1b15c894c1cce78e61f98a979cd5d745b4462f860159f6",
+      "tokens": [],
+      "tags": [],
+      "source_empty": false
+    },
+    "DefInjected|JobDef|CWF_ReloadAbility.description": {
+      "source_hash": "1ee3adf20f1d0996fb98ee5b118f21d9150630dd11a57aec3f2e7537ecbc4597",
+      "tokens": [],
+      "tags": [],
+      "source_empty": false
+    },
+    "DefInjected|JobDef|CWF_ReloadAbility.reportString": {
+      "source_hash": "2a69a18832f5d6d3419f18cbba82b39316f9f97e92113629b4d4077b1e320e9b",
+      "tokens": [],
+      "tags": [],
+      "source_empty": false
+    },
+    "DefInjected|WeaponTraitDef|CWF_Trait_EMPLauncher.abilityProps.chargeNoun": {
+      "source_hash": "ce635c4eabff5e4f56dba8fb1e39ca235530aa2b6b18533eef1af3862016c577",
+      "tokens": [],
+      "tags": [],
+      "source_empty": false
+    },
+    "DefInjected|WeaponTraitDef|CWF_Trait_GrenadeLauncher.abilityProps.chargeNoun": {
+      "source_hash": "94916c541b4a20def56433ed855a38c04cbc4e93ac2ae46e47cf7d61a9132351",
+      "tokens": [],
+      "tags": [],
+      "source_empty": false
+    },
+    "DefInjected|WeaponTraitDef|CWF_Trait_IncendiaryLauncher.abilityProps.chargeNoun": {
+      "source_hash": "ce635c4eabff5e4f56dba8fb1e39ca235530aa2b6b18533eef1af3862016c577",
+      "tokens": [],
+      "tags": [],
+      "source_empty": false
+    },
+    "DefInjected|WeaponTraitDef|CWF_Trait_SmokeLauncher.abilityProps.chargeNoun": {
+      "source_hash": "ce635c4eabff5e4f56dba8fb1e39ca235530aa2b6b18533eef1af3862016c577",
+      "tokens": [],
+      "tags": [],
+      "source_empty": false
+    },
+    "DefInjected|WorkGiverDef|CWF_DoBillsWeaponModules.gerund": {
+      "source_hash": "83c102140a0dfe9cc7f30ccdfa1ffe8cd64fab81cbcb35857c971751fc1026e6",
+      "tokens": [],
+      "tags": [],
+      "source_empty": false
+    },
+    "DefInjected|WorkGiverDef|CWF_DoBillsWeaponModules.label": {
+      "source_hash": "debc509429d018e4032d98a82dfcdb67e6e75be49180bdc584062edee85843ce",
+      "tokens": [],
+      "tags": [],
+      "source_empty": false
+    },
+    "DefInjected|WorkGiverDef|CWF_DoBillsWeaponModules.verb": {
+      "source_hash": "83c102140a0dfe9cc7f30ccdfa1ffe8cd64fab81cbcb35857c971751fc1026e6",
+      "tokens": [],
+      "tags": [],
+      "source_empty": false
+    }
+  }
+}

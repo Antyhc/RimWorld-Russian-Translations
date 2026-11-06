@@ -1,0 +1,459 @@
+{
+  "schema_version": 1,
+  "checked_at": "2026-11-06T17:28:10.485768+00:00",
+  "status": "applied_to_identified_existing_manifests",
+  "permission_url": "https://github.com/Vanilla-Expanded/VanillaExpandedFramework/issues/195#issuecomment-6519584242",
+  "request_url": "https://github.com/Vanilla-Expanded/VanillaExpandedFramework/issues/195",
+  "respondent": {
+    "login": "AndroidQuazar",
+    "profile_url": "https://github.com/AndroidQuazar",
+    "comment_id": 6519584242,
+    "author_association": "CONTRIBUTOR",
+    "created_at": "2026-10-30T09:34:25Z",
+    "updated_at": "2026-10-30T09:34:25Z"
+  },
+  "source_review": {
+    "full_comment_read": true,
+    "comment_count": 1,
+    "exact_scope_sentence": "You can upload your translations for any mods you want.",
+    "exact_endorsement_sentence": "Not endorsed and not related to Vanilla Expanded in any way.",
+    "summary": "The reply says independent translations are the translator's own submissions, leaves the disclosed use of AI to the translator, and explicitly permits uploads beyond the originally named list. It does not endorse the submitted translations."
+  },
+  "application_interpretation": "The broader sentence supports additional independently authored text-only supplements for original Vanilla Expanded works that credit Oskar and share the verified publisher of the explicitly covered Vanilla Expanded Framework. This is a deliberately narrower application than the literal phrase 'any mods'; it does not grant permissions on behalf of unrelated original authors or community translators.",
+  "original_request_scope_retained": [
+    "Free standalone Russian language patches requiring the original mod.",
+    "Original author and source links retained.",
+    "Own typographic covers; no original images, DLLs, textures or unrelated original assets distributed.",
+    "No third-party Russian wording included under this permission.",
+    "AI assistance disclosed; no Vanilla Expanded endorsement or independent human-review claim.",
+    "Source, duplicate-translation and game QA remain separate release requirements."
+  ],
+  "previous_confirmed_scope_file": "vanilla-expanded-text-permission-2026-10-30.json",
+  "identity_evidence_file": "ve-scope-identities.public.json",
+  "anchor_original_workshop_id": "2023507013",
+  "proposed_additional_count": 27,
+  "proposed_additional_mods": [
+    {
+      "package_id": "oskarpotocki.vanillavehiclesexpanded",
+      "workshop_id": "3014906877",
+      "original_mod_url": "https://steamcommunity.com/sharedfiles/filedetails/?id=3014906877",
+      "name": "Vanilla Vehicles Expanded",
+      "original_authors": "Oskar Potocki, xrushha, Smash Phil, Taranchuk, Reann Shepard, Sarg",
+      "about_sha256": "53f97862719662845dba0985903d8f4ed8c597a5bbf44f2ee782ab6995e212b7",
+      "publisher_matches_explicitly_covered_original": true,
+      "proposed_translation_rights": {
+        "status": "confirmed",
+        "license": "Explicit author permission for independently authored standalone Russian text supplements; original source license remains unchanged",
+        "evidence": "https://github.com/Vanilla-Expanded/VanillaExpandedFramework/issues/195#issuecomment-6519584242",
+        "attribution": "Original mod Vanilla Vehicles Expanded: Oskar Potocki, xrushha, Smash Phil, Taranchuk, Reann Shepard, Sarg. Independently authored Russian text by Antyhc with disclosed AI assistance. Original: https://steamcommunity.com/sharedfiles/filedetails/?id=3014906877. Not endorsed by or affiliated with Vanilla Expanded. No original artwork or third-party Russian text covered."
+      }
+    },
+    {
+      "package_id": "vanillaexpanded.ideo.sophianstyle",
+      "workshop_id": "3194606539",
+      "original_mod_url": "https://steamcommunity.com/sharedfiles/filedetails/?id=3194606539",
+      "name": "Vanilla Ideology Expanded - Sophian Style",
+      "original_authors": "Oskar Potocki, Sarg Bjornson",
+      "about_sha256": "82a45c7257ed7f2b4fe906785783611b902623e37bfd9e2163f215a2db05c1c0",
+      "publisher_matches_explicitly_covered_original": true,
+      "proposed_translation_rights": {
+        "status": "confirmed",
+        "license": "Explicit author permission for independently authored standalone Russian text supplements; original source license remains unchanged",
+        "evidence": "https://github.com/Vanilla-Expanded/VanillaExpandedFramework/issues/195#issuecomment-6519584242",
+        "attribution": "Original mod Vanilla Ideology Expanded - Sophian Style: Oskar Potocki, Sarg Bjornson. Independently authored Russian text by Antyhc with disclosed AI assistance. Original: https://steamcommunity.com/sharedfiles/filedetails/?id=3194606539. Not endorsed by or affiliated with Vanilla Expanded. No original artwork or third-party Russian text covered."
+      }
+    },
+    {
+      "package_id": "vanillaexpanded.outposts",
+      "workshop_id": "2688941031",
+      "original_mod_url": "https://steamcommunity.com/sharedfiles/filedetails/?id=2688941031",
+      "name": "Vanilla Outposts Expanded",
+      "original_authors": "legodude17, Oskar Potocki",
+      "about_sha256": "80b352cbb791e70f00c008604b9c580773b08b4cecd5f3cf6cda60fc1d22e447",
+      "publisher_matches_explicitly_covered_original": true,
+      "proposed_translation_rights": {
+        "status": "confirmed",
+        "license": "Explicit author permission for independently authored standalone Russian text supplements; original source license remains unchanged",
+        "evidence": "https://github.com/Vanilla-Expanded/VanillaExpandedFramework/issues/195#issuecomment-6519584242",
+        "attribution": "Original mod Vanilla Outposts Expanded: legodude17, Oskar Potocki. Independently authored Russian text by Antyhc with disclosed AI assistance. Original: https://steamcommunity.com/sharedfiles/filedetails/?id=2688941031. Not endorsed by or affiliated with Vanilla Expanded. No original artwork or third-party Russian text covered."
+      }
+    },
+    {
+      "package_id": "vanillaexpanded.recycling",
+      "workshop_id": "3155781848",
+      "original_mod_url": "https://steamcommunity.com/sharedfiles/filedetails/?id=3155781848",
+      "name": "Vanilla Recycling Expanded",
+      "original_authors": "OskarPotocki, Sarg Bjornson, xrushha",
+      "about_sha256": "281b1f225a0ab9d3aa530725f9a6bb201c17051351f03daf590e24013a6c2741",
+      "publisher_matches_explicitly_covered_original": true,
+      "proposed_translation_rights": {
+        "status": "confirmed",
+        "license": "Explicit author permission for independently authored standalone Russian text supplements; original source license remains unchanged",
+        "evidence": "https://github.com/Vanilla-Expanded/VanillaExpandedFramework/issues/195#issuecomment-6519584242",
+        "attribution": "Original mod Vanilla Recycling Expanded: OskarPotocki, Sarg Bjornson, xrushha. Independently authored Russian text by Antyhc with disclosed AI assistance. Original: https://steamcommunity.com/sharedfiles/filedetails/?id=3155781848. Not endorsed by or affiliated with Vanilla Expanded. No original artwork or third-party Russian text covered."
+      }
+    },
+    {
+      "package_id": "vanillaexpanded.temperature",
+      "workshop_id": "3202046258",
+      "original_mod_url": "https://steamcommunity.com/sharedfiles/filedetails/?id=3202046258",
+      "name": "Vanilla Temperature Expanded",
+      "original_authors": "Oskar Potocki, xrushha, Arquebus, Taranchuk",
+      "about_sha256": "b7051a4ff48a3c806787f98d7f82fac95e26bdd9f9b6525cebfcdeebf7b04640",
+      "publisher_matches_explicitly_covered_original": true,
+      "proposed_translation_rights": {
+        "status": "confirmed",
+        "license": "Explicit author permission for independently authored standalone Russian text supplements; original source license remains unchanged",
+        "evidence": "https://github.com/Vanilla-Expanded/VanillaExpandedFramework/issues/195#issuecomment-6519584242",
+        "attribution": "Original mod Vanilla Temperature Expanded: Oskar Potocki, xrushha, Arquebus, Taranchuk. Independently authored Russian text by Antyhc with disclosed AI assistance. Original: https://steamcommunity.com/sharedfiles/filedetails/?id=3202046258. Not endorsed by or affiliated with Vanilla Expanded. No original artwork or third-party Russian text covered."
+      }
+    },
+    {
+      "package_id": "vanillaexpanded.vanillaanimalsexpanded",
+      "workshop_id": "2871933948",
+      "original_mod_url": "https://steamcommunity.com/sharedfiles/filedetails/?id=2871933948",
+      "name": "Vanilla Animals Expanded",
+      "original_authors": "Sarg Bjornson, Oskar Potocki",
+      "about_sha256": "3316062d3e29d64ef3e2080ce37e6f6ec0af81fa3f09bbb7ddee71631badeda4",
+      "publisher_matches_explicitly_covered_original": true,
+      "proposed_translation_rights": {
+        "status": "confirmed",
+        "license": "Explicit author permission for independently authored standalone Russian text supplements; original source license remains unchanged",
+        "evidence": "https://github.com/Vanilla-Expanded/VanillaExpandedFramework/issues/195#issuecomment-6519584242",
+        "attribution": "Original mod Vanilla Animals Expanded: Sarg Bjornson, Oskar Potocki. Independently authored Russian text by Antyhc with disclosed AI assistance. Original: https://steamcommunity.com/sharedfiles/filedetails/?id=2871933948. Not endorsed by or affiliated with Vanilla Expanded. No original artwork or third-party Russian text covered."
+      }
+    },
+    {
+      "package_id": "vanillaexpanded.vchemfuele",
+      "workshop_id": "2792917473",
+      "original_mod_url": "https://steamcommunity.com/sharedfiles/filedetails/?id=2792917473",
+      "name": "Vanilla Chemfuel Expanded",
+      "original_authors": "Oskar Potocki, Kikohi",
+      "about_sha256": "79d703f73f1817f39b2e572b75634f7efd880e589f5b76cd75fcc1cd4d48ddb5",
+      "publisher_matches_explicitly_covered_original": true,
+      "proposed_translation_rights": {
+        "status": "confirmed",
+        "license": "Explicit author permission for independently authored standalone Russian text supplements; original source license remains unchanged",
+        "evidence": "https://github.com/Vanilla-Expanded/VanillaExpandedFramework/issues/195#issuecomment-6519584242",
+        "attribution": "Original mod Vanilla Chemfuel Expanded: Oskar Potocki, Kikohi. Independently authored Russian text by Antyhc with disclosed AI assistance. Original: https://steamcommunity.com/sharedfiles/filedetails/?id=2792917473. Not endorsed by or affiliated with Vanilla Expanded. No original artwork or third-party Russian text covered."
+      }
+    },
+    {
+      "package_id": "vanillaexpanded.vcookestews",
+      "workshop_id": "2134312965",
+      "original_mod_url": "https://steamcommunity.com/sharedfiles/filedetails/?id=2134312965",
+      "name": "Vanilla Cooking Expanded - Stews",
+      "original_authors": "Oskar Potocki, Sarg Bjornson, Chowder",
+      "about_sha256": "5a82b5c609f19d31c8aaa627be155b57d84c569289daa44a8bf1715dbf3d0d28",
+      "publisher_matches_explicitly_covered_original": true,
+      "proposed_translation_rights": {
+        "status": "confirmed",
+        "license": "Explicit author permission for independently authored standalone Russian text supplements; original source license remains unchanged",
+        "evidence": "https://github.com/Vanilla-Expanded/VanillaExpandedFramework/issues/195#issuecomment-6519584242",
+        "attribution": "Original mod Vanilla Cooking Expanded - Stews: Oskar Potocki, Sarg Bjornson, Chowder. Independently authored Russian text by Antyhc with disclosed AI assistance. Original: https://steamcommunity.com/sharedfiles/filedetails/?id=2134312965. Not endorsed by or affiliated with Vanilla Expanded. No original artwork or third-party Russian text covered."
+      }
+    },
+    {
+      "package_id": "vanillaexpanded.vfeart",
+      "workshop_id": "1968134023",
+      "original_mod_url": "https://steamcommunity.com/sharedfiles/filedetails/?id=1968134023",
+      "name": "Vanilla Furniture Expanded - Art",
+      "original_authors": "Oskar Potocki, Sarg Bjornson",
+      "about_sha256": "6a48d4bd835000a1c68c4e8c3d4278ae16526c4ae2a210a0f5bee0d70bb5773b",
+      "publisher_matches_explicitly_covered_original": true,
+      "proposed_translation_rights": {
+        "status": "confirmed",
+        "license": "Explicit author permission for independently authored standalone Russian text supplements; original source license remains unchanged",
+        "evidence": "https://github.com/Vanilla-Expanded/VanillaExpandedFramework/issues/195#issuecomment-6519584242",
+        "attribution": "Original mod Vanilla Furniture Expanded - Art: Oskar Potocki, Sarg Bjornson. Independently authored Russian text by Antyhc with disclosed AI assistance. Original: https://steamcommunity.com/sharedfiles/filedetails/?id=1968134023. Not endorsed by or affiliated with Vanilla Expanded. No original artwork or third-party Russian text covered."
+      }
+    },
+    {
+      "package_id": "vanillaexpanded.vfefactory",
+      "workshop_id": "3686924415",
+      "original_mod_url": "https://steamcommunity.com/sharedfiles/filedetails/?id=3686924415",
+      "name": "Vanilla Furniture Expanded - Factory",
+      "original_authors": "Oskar Potocki, Sarg Bjornson, Taranchuk",
+      "about_sha256": "1643249d3a46c2bb64408f5c1912a6d0d15d8c1c98eafdf9400978199f87a30b",
+      "publisher_matches_explicitly_covered_original": true,
+      "proposed_translation_rights": {
+        "status": "confirmed",
+        "license": "Explicit author permission for independently authored standalone Russian text supplements; original source license remains unchanged",
+        "evidence": "https://github.com/Vanilla-Expanded/VanillaExpandedFramework/issues/195#issuecomment-6519584242",
+        "attribution": "Original mod Vanilla Furniture Expanded - Factory: Oskar Potocki, Sarg Bjornson, Taranchuk. Independently authored Russian text by Antyhc with disclosed AI assistance. Original: https://steamcommunity.com/sharedfiles/filedetails/?id=3686924415. Not endorsed by or affiliated with Vanilla Expanded. No original artwork or third-party Russian text covered."
+      }
+    },
+    {
+      "package_id": "vanillaexpanded.vfefarming",
+      "workshop_id": "1957158779",
+      "original_mod_url": "https://steamcommunity.com/sharedfiles/filedetails/?id=1957158779",
+      "name": "Vanilla Furniture Expanded - Farming",
+      "original_authors": "Oskar Potocki, dninemfive, Kikohi, Sarg",
+      "about_sha256": "2eef13bf9625294d4eb40792be41550b1b4f985bfce2e9a819e08649e8daf4dd",
+      "publisher_matches_explicitly_covered_original": true,
+      "proposed_translation_rights": {
+        "status": "confirmed",
+        "license": "Explicit author permission for independently authored standalone Russian text supplements; original source license remains unchanged",
+        "evidence": "https://github.com/Vanilla-Expanded/VanillaExpandedFramework/issues/195#issuecomment-6519584242",
+        "attribution": "Original mod Vanilla Furniture Expanded - Farming: Oskar Potocki, dninemfive, Kikohi, Sarg. Independently authored Russian text by Antyhc with disclosed AI assistance. Original: https://steamcommunity.com/sharedfiles/filedetails/?id=1957158779. Not endorsed by or affiliated with Vanilla Expanded. No original artwork or third-party Russian text covered."
+      }
+    },
+    {
+      "package_id": "vanillaexpanded.vfemedical",
+      "workshop_id": "1718191613",
+      "original_mod_url": "https://steamcommunity.com/sharedfiles/filedetails/?id=1718191613",
+      "name": "Vanilla Furniture Expanded - Medical Module",
+      "original_authors": "OskarPotocki, Atlas, Kikohi",
+      "about_sha256": "8faac765586acabe099baf361092b9c6f9c273f76caafa17697c0e02a301bf94",
+      "publisher_matches_explicitly_covered_original": true,
+      "proposed_translation_rights": {
+        "status": "confirmed",
+        "license": "Explicit author permission for independently authored standalone Russian text supplements; original source license remains unchanged",
+        "evidence": "https://github.com/Vanilla-Expanded/VanillaExpandedFramework/issues/195#issuecomment-6519584242",
+        "attribution": "Original mod Vanilla Furniture Expanded - Medical Module: OskarPotocki, Atlas, Kikohi. Independently authored Russian text by Antyhc with disclosed AI assistance. Original: https://steamcommunity.com/sharedfiles/filedetails/?id=1718191613. Not endorsed by or affiliated with Vanilla Expanded. No original artwork or third-party Russian text covered."
+      }
+    },
+    {
+      "package_id": "vanillaexpanded.vfepower",
+      "workshop_id": "2062943477",
+      "original_mod_url": "https://steamcommunity.com/sharedfiles/filedetails/?id=2062943477",
+      "name": "Vanilla Furniture Expanded - Power",
+      "original_authors": "Oskar Potocki, Sarg Bjornson",
+      "about_sha256": "70873b8c10ac7ef7982ac39ab20b8e1b1359d2617825c4300724e29753bc2812",
+      "publisher_matches_explicitly_covered_original": true,
+      "proposed_translation_rights": {
+        "status": "confirmed",
+        "license": "Explicit author permission for independently authored standalone Russian text supplements; original source license remains unchanged",
+        "evidence": "https://github.com/Vanilla-Expanded/VanillaExpandedFramework/issues/195#issuecomment-6519584242",
+        "attribution": "Original mod Vanilla Furniture Expanded - Power: Oskar Potocki, Sarg Bjornson. Independently authored Russian text by Antyhc with disclosed AI assistance. Original: https://steamcommunity.com/sharedfiles/filedetails/?id=2062943477. Not endorsed by or affiliated with Vanilla Expanded. No original artwork or third-party Russian text covered."
+      }
+    },
+    {
+      "package_id": "vanillaexpanded.vfeproduction",
+      "workshop_id": "1880253632",
+      "original_mod_url": "https://steamcommunity.com/sharedfiles/filedetails/?id=1880253632",
+      "name": "Vanilla Furniture Expanded - Production",
+      "original_authors": "Oskar Potocki, Trunken, Sarg",
+      "about_sha256": "546cf6b079dcbde2c80e0265ea2f46dff7b5a5b16c14a81e087b59f344f5f820",
+      "publisher_matches_explicitly_covered_original": true,
+      "proposed_translation_rights": {
+        "status": "confirmed",
+        "license": "Explicit author permission for independently authored standalone Russian text supplements; original source license remains unchanged",
+        "evidence": "https://github.com/Vanilla-Expanded/VanillaExpandedFramework/issues/195#issuecomment-6519584242",
+        "attribution": "Original mod Vanilla Furniture Expanded - Production: Oskar Potocki, Trunken, Sarg. Independently authored Russian text by Antyhc with disclosed AI assistance. Original: https://steamcommunity.com/sharedfiles/filedetails/?id=1880253632. Not endorsed by or affiliated with Vanilla Expanded. No original artwork or third-party Russian text covered."
+      }
+    },
+    {
+      "package_id": "vanillaexpanded.vfepropsanddecor",
+      "workshop_id": "2102143149",
+      "original_mod_url": "https://steamcommunity.com/sharedfiles/filedetails/?id=2102143149",
+      "name": "Vanilla Furniture Expanded - Props and Decor",
+      "original_authors": "Oskar Potocki, Sarg Bjornson",
+      "about_sha256": "fa2dc6718f849c30d5f23e17c5f7c61e7d83daa99a1a143f4251dbd8802fa6a7",
+      "publisher_matches_explicitly_covered_original": true,
+      "proposed_translation_rights": {
+        "status": "confirmed",
+        "license": "Explicit author permission for independently authored standalone Russian text supplements; original source license remains unchanged",
+        "evidence": "https://github.com/Vanilla-Expanded/VanillaExpandedFramework/issues/195#issuecomment-6519584242",
+        "attribution": "Original mod Vanilla Furniture Expanded - Props and Decor: Oskar Potocki, Sarg Bjornson. Independently authored Russian text by Antyhc with disclosed AI assistance. Original: https://steamcommunity.com/sharedfiles/filedetails/?id=2102143149. Not endorsed by or affiliated with Vanilla Expanded. No original artwork or third-party Russian text covered."
+      }
+    },
+    {
+      "package_id": "vanillaexpanded.vfespacer",
+      "workshop_id": "2028381079",
+      "original_mod_url": "https://steamcommunity.com/sharedfiles/filedetails/?id=2028381079",
+      "name": "Vanilla Furniture Expanded - Spacer Module",
+      "original_authors": "OskarPotocki, Sokyran, Kikohi",
+      "about_sha256": "ce15edce6832157d0b983b6016114199328b1fa18c588aec3ba78897b0372c27",
+      "publisher_matches_explicitly_covered_original": true,
+      "proposed_translation_rights": {
+        "status": "confirmed",
+        "license": "Explicit author permission for independently authored standalone Russian text supplements; original source license remains unchanged",
+        "evidence": "https://github.com/Vanilla-Expanded/VanillaExpandedFramework/issues/195#issuecomment-6519584242",
+        "attribution": "Original mod Vanilla Furniture Expanded - Spacer Module: OskarPotocki, Sokyran, Kikohi. Independently authored Russian text by Antyhc with disclosed AI assistance. Original: https://steamcommunity.com/sharedfiles/filedetails/?id=2028381079. Not endorsed by or affiliated with Vanilla Expanded. No original artwork or third-party Russian text covered."
+      }
+    },
+    {
+      "package_id": "vanillaexpanded.vhe",
+      "workshop_id": "1888705256",
+      "original_mod_url": "https://steamcommunity.com/sharedfiles/filedetails/?id=1888705256",
+      "name": "Vanilla Hair Expanded",
+      "original_authors": "Oskar Potocki, XeoNovaDan",
+      "about_sha256": "953d6889483921c2a2e9951b2a7687f61c8d0ff6cb5b99a68b40e8652ced1635",
+      "publisher_matches_explicitly_covered_original": true,
+      "proposed_translation_rights": {
+        "status": "confirmed",
+        "license": "Explicit author permission for independently authored standalone Russian text supplements; original source license remains unchanged",
+        "evidence": "https://github.com/Vanilla-Expanded/VanillaExpandedFramework/issues/195#issuecomment-6519584242",
+        "attribution": "Original mod Vanilla Hair Expanded: Oskar Potocki, XeoNovaDan. Independently authored Russian text by Antyhc with disclosed AI assistance. Original: https://steamcommunity.com/sharedfiles/filedetails/?id=1888705256. Not endorsed by or affiliated with Vanilla Expanded. No original artwork or third-party Russian text covered."
+      }
+    },
+    {
+      "package_id": "vanillaexpanded.vmemese",
+      "workshop_id": "2636329500",
+      "original_mod_url": "https://steamcommunity.com/sharedfiles/filedetails/?id=2636329500",
+      "name": "Vanilla Ideology Expanded - Memes and Structures",
+      "original_authors": "Oskar Potocki, Sarg Bjornson, Chowder",
+      "about_sha256": "06af8b16a9f423cf2aeb64365a50f4060329c217df4643f74cd6c4b8e4bbe099",
+      "publisher_matches_explicitly_covered_original": true,
+      "proposed_translation_rights": {
+        "status": "confirmed",
+        "license": "Explicit author permission for independently authored standalone Russian text supplements; original source license remains unchanged",
+        "evidence": "https://github.com/Vanilla-Expanded/VanillaExpandedFramework/issues/195#issuecomment-6519584242",
+        "attribution": "Original mod Vanilla Ideology Expanded - Memes and Structures: Oskar Potocki, Sarg Bjornson, Chowder. Independently authored Russian text by Antyhc with disclosed AI assistance. Original: https://steamcommunity.com/sharedfiles/filedetails/?id=2636329500. Not endorsed by or affiliated with Vanilla Expanded. No original artwork or third-party Russian text covered."
+      }
+    },
+    {
+      "package_id": "vanillaexpanded.vnutriente",
+      "workshop_id": "2920385763",
+      "original_mod_url": "https://steamcommunity.com/sharedfiles/filedetails/?id=2920385763",
+      "name": "Vanilla Nutrient Paste Expanded",
+      "original_authors": "Oskar Potocki, Kikohi",
+      "about_sha256": "5e1bbed87692b8d19050297c85c2044450fe6cf0560370228a6eff10be3cefad",
+      "publisher_matches_explicitly_covered_original": true,
+      "proposed_translation_rights": {
+        "status": "confirmed",
+        "license": "Explicit author permission for independently authored standalone Russian text supplements; original source license remains unchanged",
+        "evidence": "https://github.com/Vanilla-Expanded/VanillaExpandedFramework/issues/195#issuecomment-6519584242",
+        "attribution": "Original mod Vanilla Nutrient Paste Expanded: Oskar Potocki, Kikohi. Independently authored Russian text by Antyhc with disclosed AI assistance. Original: https://steamcommunity.com/sharedfiles/filedetails/?id=2920385763. Not endorsed by or affiliated with Vanilla Expanded. No original artwork or third-party Russian text covered."
+      }
+    },
+    {
+      "package_id": "vanillaexpanded.vplantse",
+      "workshop_id": "2134308522",
+      "original_mod_url": "https://steamcommunity.com/sharedfiles/filedetails/?id=2134308522",
+      "name": "Vanilla Plants Expanded",
+      "original_authors": "Oskar Potocki, Sarg Bjornson, Chowder",
+      "about_sha256": "e68519eb248030f0636752a00d2b2de38e6c4bf22d948a7d8417deafc4fc2f7c",
+      "publisher_matches_explicitly_covered_original": true,
+      "proposed_translation_rights": {
+        "status": "confirmed",
+        "license": "Explicit author permission for independently authored standalone Russian text supplements; original source license remains unchanged",
+        "evidence": "https://github.com/Vanilla-Expanded/VanillaExpandedFramework/issues/195#issuecomment-6519584242",
+        "attribution": "Original mod Vanilla Plants Expanded: Oskar Potocki, Sarg Bjornson, Chowder. Independently authored Russian text by Antyhc with disclosed AI assistance. Original: https://steamcommunity.com/sharedfiles/filedetails/?id=2134308522. Not endorsed by or affiliated with Vanilla Expanded. No original artwork or third-party Russian text covered."
+      }
+    },
+    {
+      "package_id": "vanillaexpanded.vpsycastse",
+      "workshop_id": "2842502659",
+      "original_mod_url": "https://steamcommunity.com/sharedfiles/filedetails/?id=2842502659",
+      "name": "Vanilla Psycasts Expanded",
+      "original_authors": "erdelf, Oskar Potocki, legodude17, Taranchuk, xrushha, Sarg Bjornson, Sir Van, Reann Shepard",
+      "about_sha256": "6cce56d7e600844cab1998af3c170f682447c2789d3088b805a0cf6b00ac6d00",
+      "publisher_matches_explicitly_covered_original": true,
+      "proposed_translation_rights": {
+        "status": "confirmed",
+        "license": "Explicit author permission for independently authored standalone Russian text supplements; original source license remains unchanged",
+        "evidence": "https://github.com/Vanilla-Expanded/VanillaExpandedFramework/issues/195#issuecomment-6519584242",
+        "attribution": "Original mod Vanilla Psycasts Expanded: erdelf, Oskar Potocki, legodude17, Taranchuk, xrushha, Sarg Bjornson, Sir Van, Reann Shepard. Independently authored Russian text by Antyhc with disclosed AI assistance. Original: https://steamcommunity.com/sharedfiles/filedetails/?id=2842502659. Not endorsed by or affiliated with Vanilla Expanded. No original artwork or third-party Russian text covered."
+      }
+    },
+    {
+      "package_id": "vanillaexpanded.vtexe",
+      "workshop_id": "2016436324",
+      "original_mod_url": "https://steamcommunity.com/sharedfiles/filedetails/?id=2016436324",
+      "name": "Vanilla Textures Expanded",
+      "original_authors": "Oskar Potocki, Helixien, Erin, Luizi, ISOREX, erdelf, Sarg",
+      "about_sha256": "c40be693ed35a8d20e32e60ff09566291b9df2ccc13a836724eb8fa6c9e6771e",
+      "publisher_matches_explicitly_covered_original": true,
+      "proposed_translation_rights": {
+        "status": "confirmed",
+        "license": "Explicit author permission for independently authored standalone Russian text supplements; original source license remains unchanged",
+        "evidence": "https://github.com/Vanilla-Expanded/VanillaExpandedFramework/issues/195#issuecomment-6519584242",
+        "attribution": "Original mod Vanilla Textures Expanded: Oskar Potocki, Helixien, Erin, Luizi, ISOREX, erdelf, Sarg. Independently authored Russian text by Antyhc with disclosed AI assistance. Original: https://steamcommunity.com/sharedfiles/filedetails/?id=2016436324. Not endorsed by or affiliated with Vanilla Expanded. No original artwork or third-party Russian text covered."
+      }
+    },
+    {
+      "package_id": "vanillaexpanded.vwe",
+      "workshop_id": "1814383360",
+      "original_mod_url": "https://steamcommunity.com/sharedfiles/filedetails/?id=1814383360",
+      "name": "Vanilla Weapons Expanded",
+      "original_authors": "Oskar Potocki, Sokyran, Taranchuk, Sarg Bjornson",
+      "about_sha256": "eab53ea349ceebb740c331ea50663489dcec14112f576c8b5918ac9ddc3c4629",
+      "publisher_matches_explicitly_covered_original": true,
+      "proposed_translation_rights": {
+        "status": "confirmed",
+        "license": "Explicit author permission for independently authored standalone Russian text supplements; original source license remains unchanged",
+        "evidence": "https://github.com/Vanilla-Expanded/VanillaExpandedFramework/issues/195#issuecomment-6519584242",
+        "attribution": "Original mod Vanilla Weapons Expanded: Oskar Potocki, Sokyran, Taranchuk, Sarg Bjornson. Independently authored Russian text by Antyhc with disclosed AI assistance. Original: https://steamcommunity.com/sharedfiles/filedetails/?id=1814383360. Not endorsed by or affiliated with Vanilla Expanded. No original artwork or third-party Russian text covered."
+      }
+    },
+    {
+      "package_id": "vanillaexpanded.vwehw",
+      "workshop_id": "2329126791",
+      "original_mod_url": "https://steamcommunity.com/sharedfiles/filedetails/?id=2329126791",
+      "name": "Vanilla Weapons Expanded - Heavy Weapons",
+      "original_authors": "Oskar Potocki, Taranchuk",
+      "about_sha256": "4954aa383d0d1b730f7e3d8e228676e54d7f9d971ce0d30db44d23f73e1fb450",
+      "publisher_matches_explicitly_covered_original": true,
+      "proposed_translation_rights": {
+        "status": "confirmed",
+        "license": "Explicit author permission for independently authored standalone Russian text supplements; original source license remains unchanged",
+        "evidence": "https://github.com/Vanilla-Expanded/VanillaExpandedFramework/issues/195#issuecomment-6519584242",
+        "attribution": "Original mod Vanilla Weapons Expanded - Heavy Weapons: Oskar Potocki, Taranchuk. Independently authored Russian text by Antyhc with disclosed AI assistance. Original: https://steamcommunity.com/sharedfiles/filedetails/?id=2329126791. Not endorsed by or affiliated with Vanilla Expanded. No original artwork or third-party Russian text covered."
+      }
+    },
+    {
+      "package_id": "vanillaexpanded.vwel",
+      "workshop_id": "1989352844",
+      "original_mod_url": "https://steamcommunity.com/sharedfiles/filedetails/?id=1989352844",
+      "name": "Vanilla Weapons Expanded - Laser",
+      "original_authors": "Oskar Potocki",
+      "about_sha256": "b258ba9c94b33b99ff7d8420cc0ed5c2952d17d44ba40086da1cace0860935c9",
+      "publisher_matches_explicitly_covered_original": true,
+      "proposed_translation_rights": {
+        "status": "confirmed",
+        "license": "Explicit author permission for independently authored standalone Russian text supplements; original source license remains unchanged",
+        "evidence": "https://github.com/Vanilla-Expanded/VanillaExpandedFramework/issues/195#issuecomment-6519584242",
+        "attribution": "Original mod Vanilla Weapons Expanded - Laser: Oskar Potocki. Independently authored Russian text by Antyhc with disclosed AI assistance. Original: https://steamcommunity.com/sharedfiles/filedetails/?id=1989352844. Not endorsed by or affiliated with Vanilla Expanded. No original artwork or third-party Russian text covered."
+      }
+    },
+    {
+      "package_id": "vanillaexpanded.vwenl",
+      "workshop_id": "2454918354",
+      "original_mod_url": "https://steamcommunity.com/sharedfiles/filedetails/?id=2454918354",
+      "name": "Vanilla Weapons Expanded - Non-Lethal",
+      "original_authors": "Oskar Potocki",
+      "about_sha256": "c538e2d5d02525cff7addced48da5958507e887918414e906a0a3a51ff1bec88",
+      "publisher_matches_explicitly_covered_original": true,
+      "proposed_translation_rights": {
+        "status": "confirmed",
+        "license": "Explicit author permission for independently authored standalone Russian text supplements; original source license remains unchanged",
+        "evidence": "https://github.com/Vanilla-Expanded/VanillaExpandedFramework/issues/195#issuecomment-6519584242",
+        "attribution": "Original mod Vanilla Weapons Expanded - Non-Lethal: Oskar Potocki. Independently authored Russian text by Antyhc with disclosed AI assistance. Original: https://steamcommunity.com/sharedfiles/filedetails/?id=2454918354. Not endorsed by or affiliated with Vanilla Expanded. No original artwork or third-party Russian text covered."
+      }
+    },
+    {
+      "package_id": "vanillaracesexpanded.sanguophage",
+      "workshop_id": "2963116383",
+      "original_mod_url": "https://steamcommunity.com/sharedfiles/filedetails/?id=2963116383",
+      "name": "Vanilla Races Expanded - Sanguophage",
+      "original_authors": "Oskar Potocki, Sarg Bjornson, Erin",
+      "about_sha256": "fc9cce7083b0ebb3292c8ab6deb17ce775b4b9e548d3e468b40d6b60a4e55aa7",
+      "publisher_matches_explicitly_covered_original": true,
+      "proposed_translation_rights": {
+        "status": "confirmed",
+        "license": "Explicit author permission for independently authored standalone Russian text supplements; original source license remains unchanged",
+        "evidence": "https://github.com/Vanilla-Expanded/VanillaExpandedFramework/issues/195#issuecomment-6519584242",
+        "attribution": "Original mod Vanilla Races Expanded - Sanguophage: Oskar Potocki, Sarg Bjornson, Erin. Independently authored Russian text by Antyhc with disclosed AI assistance. Original: https://steamcommunity.com/sharedfiles/filedetails/?id=2963116383. Not endorsed by or affiliated with Vanilla Expanded. No original artwork or third-party Russian text covered."
+      }
+    }
+  ],
+  "held_mods": [
+    {
+      "package_id": "vanillaexpanded.vcef",
+      "workshop_id": "1914064942",
+      "reason": "Original Workshop publisher differs from the explicitly covered VEF anchor; this automated extension does not assume authority over that separate publication.",
+      "original_authors": "Oskar Potocki, Sarg Bjornson"
+    },
+    {
+      "package_id": "vanillaexpanded.vgeneticse",
+      "workshop_id": "2801160906",
+      "reason": "Original Workshop publisher differs from the explicitly covered VEF anchor; this automated extension does not assume authority over that separate publication.",
+      "original_authors": "Sarg, erdelf, Oskar Potocki, Luizi, Reann Shepard"
+    }
+  ],
+  "explicitly_excluded": "Other authors' mods, forks, independent community Russian text, and exact artwork files remain outside this proposed extension even when a name contains Vanilla Expanded.",
+  "applied_additional_count": 27,
+  "individual_contact_count_created_by_extension": 0
+}

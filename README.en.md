@@ -6,9 +6,12 @@ Russian localization maintenance for RimWorld mods: missing text, upstream
 contributions and standalone packs with confirmed distribution rights.
 A registry record alone is not an installable release.
 
-As of 3 November 2026, **13 of 14** previously published RimWorld 1.7 packs are available on Steam. [Steam catalogue check](community/release-status-2026-11-03.json)
+<!-- verified-release-summary -->
+On 6 November 2026, **2 new packs** were submitted successfully, listed below. Steam confirmed public visibility and required dependencies; exact downloaded Workshop copies passed isolated game checks. Anonymous access to the new web pages remains unverified because Steam returned HTTP 429. [Current Steam evidence](community/release-status-2026-11-06.json).
 
-Six of the 42 mods tested in the private profile on 28 October received standalone releases. Five of those six are currently available. Four pull requests offered Russian files to original projects, and two offered files to community translators. A separate pull request asks the Loading Progress author to list the published pack in the README. [Outreach log](community/outreach.json) · [Loading Progress #13](https://github.com/ilyvion/loading-progress/pull/13)
+The standalone No Burn Metal and Designator Shapes translations were deleted because their originals now contain all corresponding Russian entries. Use the original mods. The old Cooking item is unavailable for an unknown reason; no replacement item was created.
+
+Registry entries include releases, independently authored drafts and work awaiting review. Loading Progress accepted the translation link into its README; it did not integrate the language files. [All contacts](community/outreach.json) · [New PRs and requests](community/outreach-2026-11-06.json) · [All-mod review](community/all-mods-outreach-ledger-2026-11-06.json).
 
 | Mod | Package entries | Steam Workshop |
 |---|---:|---|
@@ -17,15 +20,17 @@ Six of the 42 mods tested in the private profile on 28 October received standalo
 | [Mechanoid Upgrades](https://steamcommunity.com/sharedfiles/filedetails/?id=3828883103) | 108 | Public |
 | [Vanilla Factions Expanded - Empire](https://steamcommunity.com/sharedfiles/filedetails/?id=3830050048) | 12 | Public |
 | [Smart Medicine - Continued](https://steamcommunity.com/sharedfiles/filedetails/?id=3828790822) | 7 | Public |
-| [Designator Shapes](https://steamcommunity.com/sharedfiles/filedetails/?id=3828790605) | 208 | Public. The original includes all 208 entries |
+| [Designator Shapes](https://steamcommunity.com/sharedfiles/filedetails/?id=1235181370) | — | Included upstream; standalone pack deleted |
 | [Reel's Expanded Storage](https://steamcommunity.com/sharedfiles/filedetails/?id=3830014953) | 2 | Public |
 | [Reel's Turret Pipeline](https://steamcommunity.com/sharedfiles/filedetails/?id=3830009448) | 21 | Public |
 | [Yet Another Research Tree (YART)](https://steamcommunity.com/sharedfiles/filedetails/?id=3828790757) | 30 | Public |
-| [No Burn Metal](https://steamcommunity.com/sharedfiles/filedetails/?id=3828790442) | 19 | Public; now included upstream, standalone pack unnecessary for new installs |
+| [No Burn Metal](https://steamcommunity.com/sharedfiles/filedetails/?id=1923990111) | — | Included upstream; standalone pack deleted |
 | [Vanilla Achievements Expanded](https://steamcommunity.com/sharedfiles/filedetails/?id=3830022947) | 1 | Public |
 | [Vanilla Traits Expanded](https://steamcommunity.com/sharedfiles/filedetails/?id=3830032379) | 2 | Public |
 | [WVC - Work Modes](https://steamcommunity.com/sharedfiles/filedetails/?id=3830010549) | 23 | Public |
 | [Vanilla Cooking Expanded](https://steamcommunity.com/sharedfiles/filedetails/?id=3830078437) | 24 | Previously published, currently unavailable on Steam. [Translation files](mods/vanillaexpanded.vcooke/payload/) |
+| [Clean Command Bar](https://steamcommunity.com/sharedfiles/filedetails/?id=3834788420) | 3 | Submission and installation verified; web access pending |
+| [Customize Weapon](https://steamcommunity.com/sharedfiles/filedetails/?id=3834796180) | 23 | Submission and installation verified; web access pending |
 
 Nine new releases on 30 October: Blood Animations, Turret Pipeline, WVC Work Modes,
 REEL Storage, Achievements, Traits, Loading Progress, Empire and Cooking. All 487 unique values passed actual isolated English
@@ -78,8 +83,7 @@ Disable old ilyvion.loadingprogress.ru 3585898788 if installed; the new pack doe
 not disable other mods automatically.
 
 No Burn Metal Russian was accepted into the original; all 19 entries are already
-present in its current Workshop distribution. The old separate page remains with
-guidance. ReGrowth was accepted into [community translation PR46](https://github.com/OneCodeUnit/VanillaRussianExpanded/pull/46)
+present in its current Workshop distribution. The standalone item was deleted on 6 November after rechecking the original. ReGrowth was accepted into [community translation PR46](https://github.com/OneCodeUnit/VanillaRussianExpanded/pull/46)
 and the accepted variant is in its Workshop copy. On 2 November merthsoft merged the Designator Shapes translation and released the update on Steam. All 208 entries match the Russian text in the current original. New installations only need the original mod. [Merged PR](https://github.com/merthsoft/designator-shapes/pull/15) · [Original on Steam](https://steamcommunity.com/sharedfiles/filedetails/?id=1235181370)
 YART remains open with no change requests from the author. [YART #6](https://github.com/csh1668/YetAnotherResearchTree/pull/6)
 Sixteen strings for VEF, Gravship Chapter 1, Events and Landmarks were offered to existing community translations in
@@ -113,13 +117,14 @@ For manual installation, copy only `mods/<packageId>/payload/` into a separate
 including disclosed AI assistance. No Vanilla Expanded endorsement or association
 is claimed. Original artwork and third-party translations are outside this grant.
 Our covers are original typographic designs with RUSSIAN lettering.
+On 6 November, the full author permission was also matched to 27 additional mods from the same verified publisher. [Exact scope and exclusions](community/vanilla-expanded-text-permission-extension-2026-11-06.json).
 [AOBA permission request](https://github.com/AobaKuma/MechsuitFramework/issues/34)
 remains unanswered; unconfirmed-rights material is held. Credits, changes and
 licenses are recorded per pack; CC BY-NC-SA adaptations retain those terms.
 
 The registry dynamically discovers `mods/*/manifest.json`: 166 records from 156 saved
 translation stores and 10 additional batch/draft records, with no fixed size limit.
-Monitoring covers 166 original Workshop IDs, 24 GitHub repositories and recorded PRs.
+Monitoring covers 166 original Workshop IDs, 30 GitHub repositories and recorded PRs.
 Source changes enter review; monitoring is not an autonomous translator/publisher.
 Collection membership updates through the official Steam API are implemented and verified;
 website publication is a separate check. [Maintenance](docs/MAINTENANCE.md).

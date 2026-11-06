@@ -15,20 +15,47 @@
       "1.6",
       "1.7"
     ],
-    "repository_url": null,
+    "repository_url": "https://github.com/Zaljerem/Hospitality",
     "repository_candidates": [
       "https://github.com/OrionFive/Hospitality",
       "https://github.com/pardeike/HarmonyRimWorld"
     ],
-    "repository_verification": "not_remote_checked",
-    "activity": "not_remote_checked"
+    "repository_verification": "current_remote_About_package_id_matches_original",
+    "activity": "not_remote_checked",
+    "verified_source_identity": {
+      "status": "verified_current_remote_about_package_id_matches",
+      "package_id_as_declared": "Orion.Hospitality",
+      "name": "Hospitality (Continued)",
+      "author": "Zaljerem",
+      "supported_versions": [
+        "1.5",
+        "1.6",
+        "1.7"
+      ],
+      "about_url": "https://github.com/Zaljerem/Hospitality/blob/92f5fb6b57b344003c034f5ecaacde2a785e3bb5/About/About.xml",
+      "about_blob_sha": "47845116aaa20bf7d32217319e3189a2ad9a593e",
+      "source_commit": "92f5fb6b57b344003c034f5ecaacde2a785e3bb5",
+      "repository_url": "https://github.com/Zaljerem/Hospitality",
+      "checked_date": "2026-11-06",
+      "evidence_file": "community/rights-updates.public.json",
+      "metadata_scope": "Remote source identity only. These version declarations do not upgrade the release or installed-mod compatibility claims."
+    },
+    "default_branch": "develop"
   },
   "rights": {
     "translation": {
-      "status": "unknown",
-      "license": null,
-      "evidence": null,
-      "attribution": null
+      "status": "confirmed",
+      "license": "GPL-3.0-or-later",
+      "evidence": "https://github.com/Zaljerem/Hospitality/blob/92f5fb6b57b344003c034f5ecaacde2a785e3bb5/LICENSE",
+      "attribution": "Original mod: Hospitality (Continued) by Zaljerem. Copyright (c) 2015 Orion; continued by Zaljerem; acknowledge prior work by Adamas. Original Workshop: https://steamcommunity.com/sharedfiles/filedetails/?id=3509486825. Original source: https://github.com/Zaljerem/Hospitality. Russian additions: Antyhc, 2026; retain the applicable GPL-3.0-or-later terms.",
+      "scope": "Our independently authored Russian adaptation of textual source material in this repository; no third-party Russian files, code, assemblies, or artwork included.",
+      "obligations": [
+        "Distribute derivative translated text under compatible GPL v3 terms and include the full applicable license.",
+        "Provide the editable Russian XML as corresponding source, retain relevant notices, and identify changed files and translator attribution.",
+        "Do not substitute the repository infrastructure MIT license for this translated material's GPL obligations or assume rights to third-party Russian wording."
+      ],
+      "source_permission_review": "community/rights-updates.public.json",
+      "source_permission_checked_date": "2026-11-06"
     },
     "icon": {
       "status": "unknown",
@@ -52,9 +79,12 @@
     "workshop_status": "not_published"
   },
   "integration": {
-    "status": "not_sent",
+    "status": "translation_offered",
     "pr_url": null,
-    "contact_url": null
+    "contact_url": "https://github.com/Zaljerem/Hospitality/issues/14",
+    "contact_status": "awaiting_response",
+    "offered_at": "2026-11-06",
+    "response_evidence": "community/outreach-2026-11-06.json"
   },
   "work_stage": "reviewed_uninstalled",
   "inventory": {
@@ -97,5 +127,12 @@
       "new_files_outside_saved_source_inventory_checked": false
     },
     "saved_translation_store": false
+  },
+  "monitor": {
+    "github_tree": {
+      "repository": "Zaljerem/Hospitality",
+      "ref": "develop",
+      "baseline_file": "source.tree.json"
+    }
   }
 }

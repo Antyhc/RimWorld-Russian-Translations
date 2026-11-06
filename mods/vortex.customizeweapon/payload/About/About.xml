@@ -1,0 +1,27 @@
+<?xml version='1.0' encoding='utf-8'?>
+<ModMetaData>
+  <name>Customize Weapon — Russian supplement</name>
+  <author>Antyhc (AI-assisted with OpenAI Codex)</author>
+  <packageId>antyhc.russian.vortex.customizeweapon</packageId>
+  <url>https://github.com/Antyhc/RimWorld-Russian-Translations</url>
+  <description>Дополнение к встроенному русскому переводу Customize Weapon для RimWorld 1.7. Переведены 23 отсутствующих поля способностей, типов урона, заданий, работы с модулями и названий зарядов. Требуются оригинальный Customize Weapon от Vortex и Harmony. Загружать после оригинала. Перевод подготовлен и отредактирован с помощью OpenAI Codex.
+
+Supplement to Customize Weapon's built-in Russian localization for RimWorld 1.7. Adds 23 missing ability, damage, job, work-giver and charge-name fields. Requires the original Customize Weapon by Vortex and Harmony. Load after the original. AI-assisted translation and editing with OpenAI Codex.</description>
+  <supportedVersions>
+    <li>1.7</li>
+  </supportedVersions>
+  <modDependencies>
+    <li>
+      <packageId>vortex.customizeweapon</packageId>
+      <displayName>Customize Weapon</displayName>
+      <steamWorkshopUrl>https://steamcommunity.com/sharedfiles/filedetails/?id=3550585103</steamWorkshopUrl>
+    </li>
+  </modDependencies>
+  <loadAfter>
+    <li>brrainz.harmony</li>
+    <li>vortex.customizeweapon</li>
+  </loadAfter>
+  <incompatibleWith>
+    <li>whymemuted.vortex.customizeweapon.rus</li>
+  </incompatibleWith>
+</ModMetaData>

@@ -1,0 +1,539 @@
+{
+  "schema_version": 1,
+  "checked_date": "2026-11-06",
+  "purpose": "Verified source rights updates for existing registry entries; preserve independent publication, game-test and icon states.",
+  "application_rule": "Apply only rights_translation_update and verified original identity fields after merging with newer records. Confirmed source rights do not change release readiness. Preserve exact existing payload notices and current publication receipts.",
+  "scope_notes": [
+    "Nine existing project packages; no new project, public manifest, game settings, publication or subscription was changed by this export.",
+    "GitHub About/About.xml was fetched at each exact recorded commit. License text and blobs were inspected from the same session's source preflights.",
+    "Do not export private paths or third-party reference translation files with this artifact."
+  ],
+  "count": 9,
+  "updates": [
+    {
+      "package_id": "caesarv6.damageindicators",
+      "original_workshop_id": "2016331497",
+      "original_repository_url": "https://github.com/caesarv6/DamageIndicators",
+      "original_identity": {
+        "status": "verified_current_remote_about_package_id_matches",
+        "package_id_as_declared": "CaesarV6.DamageIndicators",
+        "name": "Damage Indicators [1.7]",
+        "author": "Spdskatr, CaesarV6",
+        "supported_versions": [
+          "1.1",
+          "1.2",
+          "1.3",
+          "1.4",
+          "1.5",
+          "1.6",
+          "1.7"
+        ],
+        "about_url": "https://github.com/caesarv6/DamageIndicators/blob/4873726e9ed7d7722099d31758c97417319fd90e/About/About.xml",
+        "about_blob_sha": "4522a4f3fec55eae8184910bc6855fd4ade86e64",
+        "source_commit": "4873726e9ed7d7722099d31758c97417319fd90e"
+      },
+      "rights_translation_update": {
+        "status": "confirmed",
+        "license": "MIT",
+        "evidence": "https://github.com/caesarv6/DamageIndicators/blob/4873726e9ed7d7722099d31758c97417319fd90e/LICENSE",
+        "attribution": "Original mod: Damage Indicators [1.7] by Spdskatr, CaesarV6. Copyright (c) 2017 spdskatr Original Workshop: https://steamcommunity.com/sharedfiles/filedetails/?id=2016331497. Original source: https://github.com/caesarv6/DamageIndicators. Russian additions: Antyhc, 2026; retain the applicable MIT terms.",
+        "scope": "Our independently authored Russian adaptation of textual source material in this repository; no third-party Russian files, code, assemblies, or artwork included.",
+        "obligations": [
+          "Retain the original copyright and permission notice in all copies or substantial portions of the translated material.",
+          "Attribute the original authors and identify Antyhc's Russian additions; do not reuse unrelated third-party Russian wording without its own permission."
+        ]
+      },
+      "source_evidence": {
+        "checked_date": "2026-11-06",
+        "license_blob_sha": "5ab49bf62158c5562568a8aed87f53883e9d39c8",
+        "license_text_utf8_sha256": "820b935b27ce18d13ddda5120674a446de93b3f031956e48c0a50db4c89dcb7f",
+        "original_copyright_notices": [
+          "Copyright (c) 2017 spdskatr"
+        ],
+        "license_note": "MIT source license; preserve the exact upstream notice."
+      },
+      "artwork": {
+        "update_icon_rights": false,
+        "original_art_permission_inferred": false,
+        "release_cover_policy": "Use a separately prepared own typographic cover unless the exact source cover's attribution and applicable image license are independently verified."
+      },
+      "release_state": {
+        "rights_are_not_release_qa": true,
+        "qa": "not_tested_in_this_session",
+        "duplicate": {
+          "status": "current_equivalent_exists",
+          "workshop_url": "https://steamcommunity.com/sharedfiles/filedetails/?id=3290096587",
+          "covered_keys": 8,
+          "own_current_keys": 8
+        },
+        "remaining_blockers": [
+          "Current third-party translation 3290096587 covers all 8 current keys and declares RimWorld 1.7; do not create an equivalent duplicate.",
+          "No fresh standalone game QA for our saved package."
+        ]
+      }
+    },
+    {
+      "package_id": "cain.mineshaft",
+      "original_workshop_id": "2503894706",
+      "original_repository_url": "https://github.com/ekremyk2/Mine",
+      "original_identity": {
+        "status": "verified_current_remote_about_package_id_matches",
+        "package_id_as_declared": "Cain.Mineshaft",
+        "name": "Mines 2.0",
+        "author": "StatistNo1,Rebel_Rabbit,Cain",
+        "supported_versions": [
+          "1.2",
+          "1.3",
+          "1.4",
+          "1.5",
+          "1.6"
+        ],
+        "about_url": "https://github.com/ekremyk2/Mine/blob/06b854ef484b01e19dd7e2b9380b824737db0009/About/About.xml",
+        "about_blob_sha": "5cfb41c36ee43100325a414169415ed5830a95f9",
+        "source_commit": "06b854ef484b01e19dd7e2b9380b824737db0009"
+      },
+      "rights_translation_update": {
+        "status": "confirmed",
+        "license": "MIT",
+        "evidence": "https://github.com/ekremyk2/Mine/blob/06b854ef484b01e19dd7e2b9380b824737db0009/LICENSE",
+        "attribution": "Original mod: Mines 2.0 by StatistNo1,Rebel_Rabbit,Cain. Copyright (c) 2025 ekremyk2 Original Workshop: https://steamcommunity.com/sharedfiles/filedetails/?id=2503894706. Original source: https://github.com/ekremyk2/Mine. Russian additions: Antyhc, 2026; retain the applicable MIT terms.",
+        "scope": "Our independently authored Russian adaptation of textual source material in this repository; no third-party Russian files, code, assemblies, or artwork included.",
+        "obligations": [
+          "Retain the original copyright and permission notice in all copies or substantial portions of the translated material.",
+          "Attribute the original authors and identify Antyhc's Russian additions; do not reuse unrelated third-party Russian wording without its own permission."
+        ]
+      },
+      "source_evidence": {
+        "checked_date": "2026-11-06",
+        "license_blob_sha": "8067e58f07d888a14e6ac1109f26584da2164825",
+        "license_text_utf8_sha256": "eca6639dbc74c4dfe7c43ad11957327a071ba25839ee0037b2ccdc4d8d947b62",
+        "original_copyright_notices": [
+          "Copyright (c) 2025 ekremyk2"
+        ],
+        "license_note": "MIT source license; preserve the exact upstream notice."
+      },
+      "artwork": {
+        "update_icon_rights": false,
+        "original_art_permission_inferred": false,
+        "release_cover_policy": "Use a separately prepared own typographic cover unless the exact source cover's attribution and applicable image license are independently verified."
+      },
+      "release_state": {
+        "rights_are_not_release_qa": true,
+        "qa": "not_tested_in_this_session",
+        "duplicate": {
+          "status": "partial_equivalent_exists",
+          "workshop_url": "https://steamcommunity.com/sharedfiles/filedetails/?id=3592039727",
+          "covered_keys": 27,
+          "own_current_keys": 28
+        },
+        "remaining_blockers": [
+          "Current repository About.xml declares support only through 1.6 although installed Workshop metadata declares 1.7. Resolve source/distribution version difference before claiming 1.7 compatibility.",
+          "Third-party 3592039727 covers 27 of 28 own current keys and declares support through 1.6; one missing description is not sufficient evidence for a ready independent full package.",
+          "Fresh standalone runtime and linguistic QA remain pending."
+        ]
+      }
+    },
+    {
+      "package_id": "ilarion.bulkloadfortransporters",
+      "original_workshop_id": "3559292908",
+      "original_repository_url": "https://github.com/Ilarion33/BulkLoadForTransporters",
+      "original_identity": {
+        "status": "verified_current_remote_about_package_id_matches",
+        "package_id_as_declared": "Ilarion.BulkLoadForTransporters",
+        "name": "Bulk Load For Transporters",
+        "author": "Ilarion",
+        "supported_versions": [
+          "1.6"
+        ],
+        "about_url": "https://github.com/Ilarion33/BulkLoadForTransporters/blob/58b21418054316a28227154b1a3cd9074d06bd37/About/About.xml",
+        "about_blob_sha": "3e7ba5a9c94e5dddb3a29819b59d4e455706d95b",
+        "source_commit": "58b21418054316a28227154b1a3cd9074d06bd37"
+      },
+      "rights_translation_update": {
+        "status": "confirmed",
+        "license": "MIT",
+        "evidence": "https://github.com/Ilarion33/BulkLoadForTransporters/blob/58b21418054316a28227154b1a3cd9074d06bd37/LICENSE",
+        "attribution": "Original mod: Bulk Load For Transporters by Ilarion. Copyright (c) 2025 Ilarion Original Workshop: https://steamcommunity.com/sharedfiles/filedetails/?id=3559292908. Original source: https://github.com/Ilarion33/BulkLoadForTransporters. Russian additions: Antyhc, 2026; retain the applicable MIT terms.",
+        "scope": "Our independently authored Russian adaptation of textual source material in this repository; no third-party Russian files, code, assemblies, or artwork included.",
+        "obligations": [
+          "Retain the original copyright and permission notice in all copies or substantial portions of the translated material.",
+          "Attribute the original authors and identify Antyhc's Russian additions; do not reuse unrelated third-party Russian wording without its own permission."
+        ]
+      },
+      "source_evidence": {
+        "checked_date": "2026-11-06",
+        "license_blob_sha": "044a9eead9d00bd056d3ba7a99694c4ec16fa419",
+        "license_text_utf8_sha256": "bfc5e9c46f59239d77819774c09609ed8fcbd993d062cf249841a1c73f44b8bb",
+        "original_copyright_notices": [
+          "Copyright (c) 2025 Ilarion"
+        ],
+        "license_note": "MIT source license; preserve the exact upstream notice."
+      },
+      "artwork": {
+        "update_icon_rights": false,
+        "original_art_permission_inferred": false,
+        "release_cover_policy": "Use a separately prepared own typographic cover unless the exact source cover's attribution and applicable image license are independently verified."
+      },
+      "release_state": {
+        "rights_are_not_release_qa": true,
+        "qa": "not_tested_in_this_session",
+        "duplicate": {
+          "status": "no_match_in_targeted_current_search",
+          "query": "\"Bulk Load For Transporters\"",
+          "scope": "Official Steam UGC search; not an exhaustive guarantee."
+        },
+        "remaining_blockers": [
+          "Repository About.xml declares 1.6, installed Workshop About.xml includes 1.7. Verify the tested distribution rather than copying repository metadata blindly.",
+          "The installed required Pick Up And Haul dependency declares support through 1.6. Resolve a compatible dependency set before a 1.7 release.",
+          "57 current saved keys include 52 sent upstream; preserve source-aware review of the five excluded neutral fields. Fresh standalone game QA is pending."
+        ]
+      }
+    },
+    {
+      "package_id": "vortex.customizeweapon",
+      "original_workshop_id": "3550585103",
+      "original_repository_url": "https://github.com/realloon/CustomizeWeapon",
+      "original_identity": {
+        "status": "verified_current_remote_about_package_id_matches",
+        "package_id_as_declared": "Vortex.CustomizeWeapon",
+        "name": "Customize Weapon",
+        "author": "Vortex",
+        "supported_versions": [
+          "1.6",
+          "1.7"
+        ],
+        "about_url": "https://github.com/realloon/CustomizeWeapon/blob/d5e41881b0b79c7ae74ee7361e3e6fa462323562/About/About.xml",
+        "about_blob_sha": "e0c81944af55b54886d798f1523241d6d56df714",
+        "source_commit": "d5e41881b0b79c7ae74ee7361e3e6fa462323562"
+      },
+      "rights_translation_update": {
+        "status": "confirmed",
+        "license": "MIT",
+        "evidence": "https://github.com/realloon/CustomizeWeapon/blob/d5e41881b0b79c7ae74ee7361e3e6fa462323562/LICENSE",
+        "attribution": "Original mod: Customize Weapon by Vortex. Copyright (c) 2026 Vortex Original Workshop: https://steamcommunity.com/sharedfiles/filedetails/?id=3550585103. Original source: https://github.com/realloon/CustomizeWeapon. Russian additions: Antyhc, 2026; retain the applicable MIT terms.",
+        "scope": "Our independently authored Russian adaptation of textual source material in this repository; no third-party Russian files, code, assemblies, or artwork included.",
+        "obligations": [
+          "Retain the original copyright and permission notice in all copies or substantial portions of the translated material.",
+          "Attribute the original authors and identify Antyhc's Russian additions; do not reuse unrelated third-party Russian wording without its own permission."
+        ]
+      },
+      "source_evidence": {
+        "checked_date": "2026-11-06",
+        "license_blob_sha": "934f208813e8bf3a69cdf86ff4e46ecf7aa66f9a",
+        "license_text_utf8_sha256": "deb6a149028b58c009caafe4dd2de2c45df78b28fcfb73c66c06a0ea7fc78ee7",
+        "original_copyright_notices": [
+          "Copyright (c) 2026 Vortex"
+        ],
+        "license_note": "MIT source license; preserve the exact upstream notice."
+      },
+      "artwork": {
+        "update_icon_rights": false,
+        "original_art_permission_inferred": false,
+        "release_cover_policy": "Use a separately prepared own typographic cover unless the exact source cover's attribution and applicable image license are independently verified."
+      },
+      "release_state": {
+        "rights_are_not_release_qa": true,
+        "qa": "passed_actual_isolated_control_and_candidate_23_of_23",
+        "duplicate": {
+          "status": "checked_no_current_equivalent",
+          "partial_workshop_url": "https://steamcommunity.com/sharedfiles/filedetails/?id=3551718118",
+          "partial_covered_keys": 9,
+          "own_current_keys": 23,
+          "native_keys_preserved": 207
+        },
+        "remaining_blockers": []
+      },
+      "preserve_existing": "Do not replace this package's already confirmed rights, packaged notices, current publication receipts, or game evidence with a smaller generic record."
+    },
+    {
+      "package_id": "adamas.hospital",
+      "original_workshop_id": "2992224079",
+      "original_repository_url": "https://github.com/tomvd/Hospital",
+      "original_identity": {
+        "status": "verified_current_remote_about_package_id_matches",
+        "package_id_as_declared": "Adamas.Hospital",
+        "name": "Hospital",
+        "author": "Adamas",
+        "supported_versions": [
+          "1.4",
+          "1.5",
+          "1.6",
+          "1.7"
+        ],
+        "about_url": "https://github.com/tomvd/Hospital/blob/82a15e711129a32e5bfe772663160433ee566316/About/About.xml",
+        "about_blob_sha": "fc922e48e676cacd813cd7c40d606db34b2a0776",
+        "source_commit": "82a15e711129a32e5bfe772663160433ee566316"
+      },
+      "rights_translation_update": {
+        "status": "confirmed",
+        "license": "GPL-3.0",
+        "evidence": "https://github.com/tomvd/Hospital/blob/82a15e711129a32e5bfe772663160433ee566316/LICENSE",
+        "attribution": "Original mod: Hospital by Adamas. Original Workshop: https://steamcommunity.com/sharedfiles/filedetails/?id=2992224079. Original source: https://github.com/tomvd/Hospital. Russian additions: Antyhc, 2026; retain the applicable GPL-3.0 terms.",
+        "scope": "Our independently authored Russian adaptation of textual source material in this repository; no third-party Russian files, code, assemblies, or artwork included.",
+        "obligations": [
+          "Distribute derivative translated text under compatible GPL v3 terms and include the full applicable license.",
+          "Provide the editable Russian XML as corresponding source, retain relevant notices, and identify changed files and translator attribution.",
+          "Do not substitute the repository infrastructure MIT license for this translated material's GPL obligations or assume rights to third-party Russian wording."
+        ]
+      },
+      "source_evidence": {
+        "checked_date": "2026-11-06",
+        "license_blob_sha": "9cecc1d4669ee8af2ca727a5d8cde10cd8b2d7cc",
+        "license_text_utf8_sha256": "589ed823e9a84c56feb95ac58e7cf384626b9cbf4fda2a907bc36e103de1bad2",
+        "original_copyright_notices": [],
+        "license_note": "The observed project LICENSE is GNU GPL version 3. No later-version grant is inferred from the license's example boilerplate."
+      },
+      "artwork": {
+        "update_icon_rights": false,
+        "original_art_permission_inferred": false,
+        "release_cover_policy": "Use a separately prepared own typographic cover unless the exact source cover's attribution and applicable image license are independently verified."
+      },
+      "release_state": {
+        "rights_are_not_release_qa": true,
+        "qa": "not_tested_in_this_session",
+        "duplicate": {
+          "status": "current_release_scope_not_fully_checked"
+        },
+        "remaining_blockers": [
+          "82 source-matched rows submitted in PR 66. PatientLandingSpot.label was excluded because source identity changed or could not be resolved; reconcile before treating the complete saved store as current.",
+          "No fresh standalone game QA. Review current third-party coverage and package a source-only GPL-compatible translation with complete notices."
+        ]
+      }
+    },
+    {
+      "package_id": "imranfish.xmlextensions",
+      "original_workshop_id": "2574315206",
+      "original_repository_url": "https://github.com/15adhami/XmlExtensions",
+      "original_identity": {
+        "status": "verified_current_remote_about_package_id_matches",
+        "package_id_as_declared": "imranfish.xmlextensions",
+        "name": "XML Extensions",
+        "author": "Imranfish",
+        "supported_versions": [
+          "1.2",
+          "1.3",
+          "1.4",
+          "1.5",
+          "1.6",
+          "1.7"
+        ],
+        "about_url": "https://github.com/15adhami/XmlExtensions/blob/98dda5530448bec78ea623f01896131da5b66761/About/About.xml",
+        "about_blob_sha": "15d738c57653362d113b72ce1ec8e9fae04ce9ad",
+        "source_commit": "98dda5530448bec78ea623f01896131da5b66761"
+      },
+      "rights_translation_update": {
+        "status": "confirmed",
+        "license": "GPL-3.0",
+        "evidence": "https://github.com/15adhami/XmlExtensions/blob/98dda5530448bec78ea623f01896131da5b66761/LICENSE",
+        "attribution": "Original mod: XML Extensions by Imranfish. Original Workshop: https://steamcommunity.com/sharedfiles/filedetails/?id=2574315206. Original source: https://github.com/15adhami/XmlExtensions. Russian additions: Antyhc, 2026; retain the applicable GPL-3.0 terms.",
+        "scope": "Our independently authored Russian adaptation of textual source material in this repository; no third-party Russian files, code, assemblies, or artwork included.",
+        "obligations": [
+          "Distribute derivative translated text under compatible GPL v3 terms and include the full applicable license.",
+          "Provide the editable Russian XML as corresponding source, retain relevant notices, and identify changed files and translator attribution.",
+          "Do not substitute the repository infrastructure MIT license for this translated material's GPL obligations or assume rights to third-party Russian wording."
+        ]
+      },
+      "source_evidence": {
+        "checked_date": "2026-11-06",
+        "license_blob_sha": "f288702d2fa16d3cdf0035b15a9fcbc552cd88e7",
+        "license_text_utf8_sha256": "3972dc9744f6499f0f9b2dbf76696f2ae7ad8af9b23dde66d6af86c9dfb36986",
+        "original_copyright_notices": [],
+        "license_note": "The observed project LICENSE is GNU GPL version 3. No later-version grant is inferred from the license's example boilerplate."
+      },
+      "artwork": {
+        "update_icon_rights": false,
+        "original_art_permission_inferred": false,
+        "release_cover_policy": "Use a separately prepared own typographic cover unless the exact source cover's attribution and applicable image license are independently verified."
+      },
+      "release_state": {
+        "rights_are_not_release_qa": true,
+        "qa": "not_tested_in_this_session",
+        "duplicate": {
+          "status": "current_release_scope_not_fully_checked"
+        },
+        "remaining_blockers": [
+          "PR 26 contains 24 reviewed Russian values; four neutral RGB/name values were deliberately excluded.",
+          "Fresh remote About.xml now declares 1.7, correcting the older registry metadata. Verify installed dependency/source correspondence and actual standalone loading before claiming game QA.",
+          "Current third-party completeness still needs a release-specific check; package GPL-compatible XML and full notices."
+        ]
+      }
+    },
+    {
+      "package_id": "orion.hospitality",
+      "original_workshop_id": "3509486825",
+      "original_repository_url": "https://github.com/Zaljerem/Hospitality",
+      "original_identity": {
+        "status": "verified_current_remote_about_package_id_matches",
+        "package_id_as_declared": "Orion.Hospitality",
+        "name": "Hospitality (Continued)",
+        "author": "Zaljerem",
+        "supported_versions": [
+          "1.5",
+          "1.6",
+          "1.7"
+        ],
+        "about_url": "https://github.com/Zaljerem/Hospitality/blob/92f5fb6b57b344003c034f5ecaacde2a785e3bb5/About/About.xml",
+        "about_blob_sha": "47845116aaa20bf7d32217319e3189a2ad9a593e",
+        "source_commit": "92f5fb6b57b344003c034f5ecaacde2a785e3bb5"
+      },
+      "rights_translation_update": {
+        "status": "confirmed",
+        "license": "GPL-3.0-or-later",
+        "evidence": "https://github.com/Zaljerem/Hospitality/blob/92f5fb6b57b344003c034f5ecaacde2a785e3bb5/LICENSE",
+        "attribution": "Original mod: Hospitality (Continued) by Zaljerem. Copyright (c) 2015 Orion; continued by Zaljerem; acknowledge prior work by Adamas. Original Workshop: https://steamcommunity.com/sharedfiles/filedetails/?id=3509486825. Original source: https://github.com/Zaljerem/Hospitality. Russian additions: Antyhc, 2026; retain the applicable GPL-3.0-or-later terms.",
+        "scope": "Our independently authored Russian adaptation of textual source material in this repository; no third-party Russian files, code, assemblies, or artwork included.",
+        "obligations": [
+          "Distribute derivative translated text under compatible GPL v3 terms and include the full applicable license.",
+          "Provide the editable Russian XML as corresponding source, retain relevant notices, and identify changed files and translator attribution.",
+          "Do not substitute the repository infrastructure MIT license for this translated material's GPL obligations or assume rights to third-party Russian wording."
+        ]
+      },
+      "source_evidence": {
+        "checked_date": "2026-11-06",
+        "license_blob_sha": "9cecc1d4669ee8af2ca727a5d8cde10cd8b2d7cc",
+        "license_text_utf8_sha256": "589ed823e9a84c56feb95ac58e7cf384626b9cbf4fda2a907bc36e103de1bad2",
+        "original_copyright_notices": [],
+        "license_note": "README expressly grants GPL version 3 or any later version for non-artwork content. Original artwork has a separate CC-BY-SA-4.0 statement; attribution of any particular current cover still needs verification.",
+        "license_application": {
+          "url": "https://github.com/Zaljerem/Hospitality/blob/92f5fb6b57b344003c034f5ecaacde2a785e3bb5/README.md",
+          "blob_sha": "4b5d45d92c3fcf229b40a54a35f2f2ebd49b4f13"
+        }
+      },
+      "artwork": {
+        "update_icon_rights": false,
+        "original_art_permission_inferred": false,
+        "release_cover_policy": "Use a separately prepared own typographic cover unless the exact source cover's attribution and applicable image license are independently verified."
+      },
+      "release_state": {
+        "rights_are_not_release_qa": true,
+        "qa": "not_tested_in_this_session",
+        "duplicate": {
+          "status": "current_release_scope_not_fully_checked"
+        },
+        "remaining_blockers": [
+          "31 draft targets have not become a freshly compiled and tested standalone payload. Revalidate current nested ThoughtDef injections and conditional content before release.",
+          "Native Russian already exists in the original. Add only actual remaining gaps and independently check other Russian translations.",
+          "Upstream CONTRIBUTING uses CC0 as its default contribution policy; that is distinct from the GPL license on the original textual work."
+        ]
+      }
+    },
+    {
+      "package_id": "smashphil.vehicleframework",
+      "original_workshop_id": "3014915404",
+      "original_repository_url": "https://github.com/SmashPhil/Vehicle-Framework",
+      "original_identity": {
+        "status": "verified_current_remote_about_package_id_matches",
+        "package_id_as_declared": "SmashPhil.VehicleFramework",
+        "name": "Vehicle Framework",
+        "author": "Smash Phil",
+        "supported_versions": [
+          "1.4",
+          "1.5",
+          "1.6",
+          "1.7"
+        ],
+        "about_url": "https://github.com/SmashPhil/Vehicle-Framework/blob/b557926d2f7b8d2e363ee468ef1ff196f15e2428/About/About.xml",
+        "about_blob_sha": "f04733293b081316b4685697e5711775cddbf494",
+        "source_commit": "b557926d2f7b8d2e363ee468ef1ff196f15e2428"
+      },
+      "rights_translation_update": {
+        "status": "confirmed",
+        "license": "MIT",
+        "evidence": "https://github.com/SmashPhil/Vehicle-Framework/blob/b557926d2f7b8d2e363ee468ef1ff196f15e2428/LICENSE",
+        "attribution": "Original mod: Vehicle Framework by Smash Phil. Copyright (c) 2019-2026 SmashPhil Original Workshop: https://steamcommunity.com/sharedfiles/filedetails/?id=3014915404. Original source: https://github.com/SmashPhil/Vehicle-Framework. Russian additions: Antyhc, 2026; retain the applicable MIT terms.",
+        "scope": "Our independently authored Russian adaptation of textual source material in this repository; no third-party Russian files, code, assemblies, or artwork included.",
+        "obligations": [
+          "Retain the original copyright and permission notice in all copies or substantial portions of the translated material.",
+          "Attribute the original authors and identify Antyhc's Russian additions; do not reuse unrelated third-party Russian wording without its own permission."
+        ]
+      },
+      "source_evidence": {
+        "checked_date": "2026-11-06",
+        "license_blob_sha": "a853963c6f4c0221db08f65727c13a976d8ffaf7",
+        "license_text_utf8_sha256": "35099a033cb1ebfd6200c455464aabe6efdc056893e637895463e3cdade63d65",
+        "original_copyright_notices": [
+          "Copyright (c) 2019-2026 SmashPhil"
+        ],
+        "license_note": "MIT source license; preserve the exact upstream notice."
+      },
+      "artwork": {
+        "update_icon_rights": false,
+        "original_art_permission_inferred": false,
+        "release_cover_policy": "Use a separately prepared own typographic cover unless the exact source cover's attribution and applicable image license are independently verified."
+      },
+      "release_state": {
+        "rights_are_not_release_qa": true,
+        "qa": "not_tested_in_this_session",
+        "duplicate": {
+          "status": "current_release_scope_not_fully_checked"
+        },
+        "remaining_blockers": [
+          "Resolve the conflicting effective English values for VF_JobLimitations ('Vehicle Jobs' / 'Max Workers per Job') before producing a blindly merged translation.",
+          "Review conditional-mod boundaries and ownership of Russian wording: the earlier audit excluded 515 third-party saved rows; the original MIT license does not grant rights to independently authored third-party Russian translations.",
+          "No fresh standalone game QA or full current duplicate check for the final selected payload."
+        ]
+      }
+    },
+    {
+      "package_id": "m00nl1ght.mappreview",
+      "original_workshop_id": "2800857642",
+      "original_repository_url": "https://github.com/m00nl1ght-dev/MapPreview",
+      "original_identity": {
+        "status": "verified_current_remote_about_package_id_matches",
+        "package_id_as_declared": "m00nl1ght.MapPreview",
+        "name": "Map Preview",
+        "author": "m00nl1ght",
+        "supported_versions": [
+          "1.3",
+          "1.4",
+          "1.5",
+          "1.6",
+          "1.7"
+        ],
+        "about_url": "https://github.com/m00nl1ght-dev/MapPreview/blob/8bedaa489a5ea4240749704517df0f0daaa00711/About/About.xml",
+        "about_blob_sha": "25d647222c2dc2600d64241192946a138decb286",
+        "source_commit": "8bedaa489a5ea4240749704517df0f0daaa00711"
+      },
+      "rights_translation_update": {
+        "status": "confirmed",
+        "license": "CC-BY-NC-SA-4.0",
+        "evidence": "https://github.com/m00nl1ght-dev/MapPreview/blob/8bedaa489a5ea4240749704517df0f0daaa00711/LICENSE",
+        "attribution": "Original mod: Map Preview by m00nl1ght. Copyright (c) 2022 m00nl1ght. Original Workshop: https://steamcommunity.com/sharedfiles/filedetails/?id=2800857642. Original source: https://github.com/m00nl1ght-dev/MapPreview. Russian additions: Antyhc, 2026; retain the applicable CC-BY-NC-SA-4.0 terms.",
+        "scope": "Our independently authored Russian adaptation of textual source material in this repository; no third-party Russian files, code, assemblies, or artwork included.",
+        "obligations": [
+          "Attribute m00nl1ght, retain supplied notices and a CC BY-NC-SA 4.0 license link, and identify translation changes.",
+          "Distribute the adaptation only noncommercially and under CC BY-NC-SA 4.0 or a permitted compatible license; do not add incompatible restrictions.",
+          "Respect any explicitly different licenses on individual files; source evidence does not cover independently authored third-party Russian translations."
+        ]
+      },
+      "source_evidence": {
+        "checked_date": "2026-11-06",
+        "license_blob_sha": "14b0e059f54066ac051c7dbe2aef06a21bfa422f",
+        "license_text_utf8_sha256": "27513b53e6d3d05429ed948ee461777fd2d097cf340bead3a18f417e7c87955d",
+        "original_copyright_notices": [],
+        "license_note": "README applies CC BY-NC-SA 4.0 to all contents except files with their own different license. GitHub's NOASSERTION metadata is not evidence of missing permission.",
+        "license_application": {
+          "url": "https://github.com/m00nl1ght-dev/MapPreview/blob/8bedaa489a5ea4240749704517df0f0daaa00711/README.md",
+          "blob_sha": "ca6e0c7121e4e104a153e7d8d2bf981eeb00ab17"
+        }
+      },
+      "artwork": {
+        "update_icon_rights": false,
+        "original_art_permission_inferred": false,
+        "release_cover_policy": "Use a separately prepared own typographic cover unless the exact source cover's attribution and applicable image license are independently verified."
+      },
+      "release_state": {
+        "rights_are_not_release_qa": true,
+        "qa": "not_tested_in_this_session",
+        "duplicate": {
+          "status": "current_release_scope_not_fully_checked"
+        },
+        "remaining_blockers": [
+          "71 current source-matched additions submitted in PR 23; preserve the original's 8 existing Russian keys.",
+          "Custom UI and other-mod combinations require fresh standalone game QA and a release-specific duplicate check.",
+          "Package only a free, noncommercial compatible adaptation with attribution, retained notices, a license link and clear change attribution; do not relabel the text as MIT."
+        ]
+      }
+    }
+  ]
+}

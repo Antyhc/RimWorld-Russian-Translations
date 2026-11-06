@@ -1,0 +1,178 @@
+{
+  "checked_at": "2026-11-06T17:32:25+00:00",
+  "scope": "Existing monitor exercised against nine verified repositories; six newly connected. File-level changes do not establish changed translation keys or release readiness.",
+  "results": [
+    {
+      "package_id": "caesarv6.damageindicators",
+      "repository": "caesarv6/DamageIndicators",
+      "ref": "master",
+      "status": "unchanged",
+      "delta": {
+        "added": [],
+        "changed": [],
+        "removed": []
+      },
+      "tree_sha": "4873726e9ed7d7722099d31758c97417319fd90e",
+      "scope": "File-level repository change detection; does not imply changed translation keys or broken Russian text."
+    },
+    {
+      "package_id": "cain.mineshaft",
+      "repository": "ekremyk2/Mine",
+      "ref": "main",
+      "status": "unchanged",
+      "delta": {
+        "added": [],
+        "changed": [],
+        "removed": []
+      },
+      "tree_sha": "06b854ef484b01e19dd7e2b9380b824737db0009",
+      "scope": "File-level repository change detection; does not imply changed translation keys or broken Russian text."
+    },
+    {
+      "package_id": "ilarion.bulkloadfortransporters",
+      "repository": "Ilarion33/BulkLoadForTransporters",
+      "ref": "main",
+      "status": "unchanged",
+      "delta": {
+        "added": [],
+        "changed": [],
+        "removed": []
+      },
+      "tree_sha": "58b21418054316a28227154b1a3cd9074d06bd37",
+      "scope": "File-level repository change detection; does not imply changed translation keys or broken Russian text."
+    },
+    {
+      "package_id": "vortex.customizeweapon",
+      "repository": "realloon/CustomizeWeapon",
+      "ref": "main",
+      "status": "unchanged",
+      "delta": {
+        "added": [],
+        "changed": [],
+        "removed": []
+      },
+      "tree_sha": "d5e41881b0b79c7ae74ee7361e3e6fa462323562",
+      "scope": "File-level repository change detection; does not imply changed translation keys or broken Russian text."
+    },
+    {
+      "package_id": "adamas.hospital",
+      "repository": "tomvd/Hospital",
+      "ref": "main",
+      "status": "unchanged",
+      "delta": {
+        "added": [],
+        "changed": [],
+        "removed": []
+      },
+      "tree_sha": "82a15e711129a32e5bfe772663160433ee566316",
+      "scope": "File-level repository change detection; does not imply changed translation keys or broken Russian text."
+    },
+    {
+      "package_id": "imranfish.xmlextensions",
+      "repository": "15adhami/XmlExtensions",
+      "ref": "main",
+      "status": "unchanged",
+      "delta": {
+        "added": [],
+        "changed": [],
+        "removed": []
+      },
+      "tree_sha": "98dda5530448bec78ea623f01896131da5b66761",
+      "scope": "File-level repository change detection; does not imply changed translation keys or broken Russian text."
+    },
+    {
+      "package_id": "orion.hospitality",
+      "repository": "Zaljerem/Hospitality",
+      "ref": "develop",
+      "status": "unchanged",
+      "delta": {
+        "added": [],
+        "changed": [],
+        "removed": []
+      },
+      "tree_sha": "92f5fb6b57b344003c034f5ecaacde2a785e3bb5",
+      "scope": "File-level repository change detection; does not imply changed translation keys or broken Russian text."
+    },
+    {
+      "package_id": "smashphil.vehicleframework",
+      "repository": "SmashPhil/Vehicle-Framework",
+      "ref": "develop",
+      "status": "changed_files",
+      "delta": {
+        "added": [
+          "Source/Vehicles/ExternalAnnotations/UnityStubs.xml"
+        ],
+        "changed": [
+          ".github/workflows/main.yml",
+          ".runsettings",
+          "DevTools",
+          "Directory.Build.props",
+          "ExportSettings.ini",
+          "Source/Core/CoreLib.csproj",
+          "Source/Core/Jobs/IJobDispatcher.cs",
+          "Source/Core/Jobs/JobDispatchManager.cs",
+          "Source/Core/Performance/UnityThread.cs",
+          "Source/SmashTools.PathFinder/PathFinding/PathFinder.cs",
+          "Source/SmashTools.Rendering/SmashTools.Rendering.csproj",
+          "Source/SmashTools/Algorithms/Dijkstra.cs",
+          "Source/SmashTools/Attributes/StaticConstructorOnGameInitAttribute.cs",
+          "Source/SmashTools/Collections/SimpleDictionary.cs",
+          "Source/SmashTools/DataTypes/Rot8.cs",
+          "Source/SmashTools/Debugging/StartupAction/StartupTest.cs",
+          "Source/SmashTools/Jobs/JobDispatch.cs",
+          "Source/SmashTools/Logging/SmashLog.cs",
+          "Source/SmashTools/Patching/Harmony/HarmonyPatcher.cs",
+          "Source/SmashTools/ProjectSetup.cs",
+          "Source/SmashTools/Utility/Extensions/System/Ext_String.cs",
+          "Source/Test_CoreLib/Tests/Test_Debouncer.cs",
+          "Source/Test_CoreLib/Tests/Test_UnityThread.cs",
+          "Source/Test_SmashTools.PathFinder/Test_JobDispatchManager.cs",
+          "Source/Test_SmashTools.PathFinder/Test_PathFinder.cs",
+          "Source/Test_Vehicles/StartupActions/UITesting.cs",
+          "Source/Test_Vehicles/StartupActions/WorldTesting.cs",
+          "Source/Test_Vehicles/Tests/Test_VehiclePawn_Comfort.cs",
+          "Source/Test_Vehicles/Tests/Utils/VehicleGroup.cs",
+          "Source/Vehicles/AI/SharedJobTracker.cs",
+          "Source/Vehicles/Components/Vehicles/Health/VehicleStatHandler.cs",
+          "Source/Vehicles/Comps/Flyer/CompVehicleLauncher.cs",
+          "Source/Vehicles/CustomFeatures/Buildings/AirDefenses/TurretTop_Recoiled.cs",
+          "Source/Vehicles/CustomFeatures/Buildings/AirDefenses/Verb_ShootRealistic.cs",
+          "Source/Vehicles/CustomFeatures/Buildings/AirDefenses/Verb_ShootRecoiled.cs",
+          "Source/Vehicles/CustomFeatures/Reservation/VehicleJobLimitations.cs",
+          "Source/Vehicles/ExternalAnnotations/Assembly-CSharp.xml",
+          "Source/Vehicles/Gizmo/AltitudeMeter.cs",
+          "Source/Vehicles/Graphics/AssetBundle/AssetBundleDatabase.cs",
+          "Source/Vehicles/Graphics/GraphicClasses/Vehicle/Graphic_Rgb.cs",
+          "Source/Vehicles/Graphics/Patterns/PatternDef.cs",
+          "Source/Vehicles/Graphics/Textures/VehicleTex.cs",
+          "Source/Vehicles/Misc/ModSettings/SettingsCustomizableFields.cs",
+          "Source/Vehicles/Pathing/Map/PathFinderManager.cs",
+          "Source/Vehicles/Pathing/RegionGrid/VehicleRegionMaker.cs",
+          "Source/Vehicles/Turrets/Turret/VehicleTurret.cs",
+          "Source/Vehicles/Turrets/Turret/VehicleTurret_Rendering.cs",
+          "Source/Vehicles/Utility/Helpers/Rendering/VehicleGraphics.cs",
+          "Source/Vehicles/Vehicles.sln"
+        ],
+        "removed": [
+          "Source/Core/Utils/ShuntingYard.cs",
+          "Source/Test_CoreLib/Tests/Test_ShuntingYard.cs"
+        ]
+      },
+      "tree_sha": "b557926d2f7b8d2e363ee468ef1ff196f15e2428",
+      "scope": "File-level repository change detection; does not imply changed translation keys or broken Russian text."
+    },
+    {
+      "package_id": "m00nl1ght.mappreview",
+      "repository": "m00nl1ght-dev/MapPreview",
+      "ref": "main",
+      "status": "unchanged",
+      "delta": {
+        "added": [],
+        "changed": [],
+        "removed": []
+      },
+      "tree_sha": "8bedaa489a5ea4240749704517df0f0daaa00711",
+      "scope": "File-level repository change detection; does not imply changed translation keys or broken Russian text."
+    }
+  ]
+}

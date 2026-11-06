@@ -3,6 +3,30 @@
   "verified_receipts": [
     {
       "date": "2026-11-06",
+      "url": "https://github.com/tomvd/Hospital/pull/66",
+      "repository": "tomvd/Hospital",
+      "number": 66,
+      "state": "open",
+      "head_sha": "414330693433378b0bcc74e1f6dded531661542a",
+      "base_sha": "82a15e711129a32e5bfe772663160433ee566316",
+      "package_ids": [
+        "adamas.hospital"
+      ],
+      "key_count": 82,
+      "files": [
+        "1.7/Languages/Russian/DefInjected/IncidentDef/CommunityRussianAdditions.xml",
+        "1.7/Languages/Russian/DefInjected/MainButtonDef/CommunityRussianAdditions.xml",
+        "1.7/Languages/Russian/DefInjected/PawnColumnDef/CommunityRussianAdditions.xml",
+        "1.7/Languages/Russian/DefInjected/ThingDef/CommunityRussianAdditions.xml",
+        "1.7/Languages/Russian/Keyed/CommunityRussianAdditions.xml"
+      ],
+      "body_readback_equal": true,
+      "kind": "upstream_translation_pr",
+      "fresh_game_test_claimed": false,
+      "ai_disclosed": true
+    },
+    {
+      "date": "2026-11-06",
       "repository": "Dubwise56/Dubs-Bad-Hygiene",
       "url": "https://github.com/Dubwise56/Dubs-Bad-Hygiene/issues/180",
       "number": 180,
@@ -42,6 +66,40 @@
     },
     {
       "date": "2026-11-06",
+      "url": "https://github.com/tenguin/Rimworld_BloodAnimations/pull/3",
+      "repository": "tenguin/Rimworld_BloodAnimations",
+      "number": 3,
+      "state": "open",
+      "head_sha": "2a3aef9365e8fdc29eae4e7e30f00c1fd523c541",
+      "base_sha": "8b7cee1725e0c27023503177a2d6348ea6780496",
+      "package_ids": [
+        "fuu.bloodanimations"
+      ],
+      "key_count": 2,
+      "files": [
+        "Common/Languages/Russian/Keyed/AdditionalRussian.xml"
+      ],
+      "body_readback_equal": true,
+      "kind": "upstream_translation_pr",
+      "fresh_game_test_claimed": false,
+      "ai_disclosed": true
+    },
+    {
+      "date": "2026-11-06",
+      "repository": "Zaljerem/Hospitality",
+      "url": "https://github.com/Zaljerem/Hospitality/issues/14",
+      "number": 14,
+      "state": "open",
+      "package_ids": [
+        "orion.hospitality"
+      ],
+      "title": "Offer of Russian additions for Hospitality Continued",
+      "body_readback_equal": true,
+      "kind": "translation_offer",
+      "rights_granted": false
+    },
+    {
+      "date": "2026-11-06",
       "url": "https://github.com/Ilarion33/BulkLoadForTransporters/pull/1",
       "repository": "Ilarion33/BulkLoadForTransporters",
       "number": 1,
@@ -62,6 +120,27 @@
     },
     {
       "date": "2026-11-06",
+      "url": "https://github.com/15adhami/XmlExtensions/pull/26",
+      "repository": "15adhami/XmlExtensions",
+      "number": 26,
+      "state": "open",
+      "head_sha": "250e6c59793dcc092d31fa4e1271e5ba816681c4",
+      "base_sha": "98dda5530448bec78ea623f01896131da5b66761",
+      "package_ids": [
+        "imranfish.xmlextensions"
+      ],
+      "key_count": 24,
+      "files": [
+        "1.7/Languages/Russian/DefInjected/MainButtonDef/CommunityRussianAdditions.xml",
+        "1.7/Languages/Russian/Keyed/CommunityRussianAdditions.xml"
+      ],
+      "body_readback_equal": true,
+      "kind": "upstream_translation_pr",
+      "fresh_game_test_claimed": false,
+      "ai_disclosed": true
+    },
+    {
+      "date": "2026-11-06",
       "url": "https://github.com/m00nl1ght-dev/MapPreview/pull/23",
       "repository": "m00nl1ght-dev/MapPreview",
       "number": 23,
@@ -74,6 +153,26 @@
       "key_count": 71,
       "files": [
         "1.7/Languages/Russian/Keyed/CommunityRussianAdditions.xml"
+      ],
+      "body_readback_equal": true,
+      "kind": "upstream_translation_pr",
+      "fresh_game_test_claimed": false,
+      "ai_disclosed": true
+    },
+    {
+      "date": "2026-11-06",
+      "url": "https://github.com/Mehni/PickUpAndHaul/pull/72",
+      "repository": "Mehni/PickUpAndHaul",
+      "number": 72,
+      "state": "open",
+      "head_sha": "674fad7aeed3df99c9312eccd8e32a6a405b8d50",
+      "base_sha": "09f1fac96e70cc2a93d647615a5abd37734a3eba",
+      "package_ids": [
+        "mehni.pickupandhaul"
+      ],
+      "key_count": 8,
+      "files": [
+        "Languages/Russian/Keyed/CommunityRussianAdditions.xml"
       ],
       "body_readback_equal": true,
       "kind": "upstream_translation_pr",
@@ -148,6 +247,20 @@
     },
     {
       "date": "2026-11-06",
+      "repository": "SmashPhil/Vehicle-Framework",
+      "url": "https://github.com/SmashPhil/Vehicle-Framework/issues/380",
+      "number": 380,
+      "state": "open",
+      "package_ids": [
+        "smashphil.vehicleframework"
+      ],
+      "title": "Russian localization additions for the current 1.7 interface",
+      "body_readback_equal": true,
+      "kind": "translation_offer",
+      "rights_granted": false
+    },
+    {
+      "date": "2026-11-06",
       "url": "https://github.com/realloon/CustomizeWeapon/pull/10",
       "repository": "realloon/CustomizeWeapon",
       "number": 10,
@@ -185,6 +298,27 @@
         "1.7/Languages/Russian/DefInjected/ConceptDef/AdditionalRussian.xml",
         "1.7/Languages/Russian/DefInjected/RoomRoleDef/AdditionalRussian.xml",
         "1.7/Languages/Russian/Keyed/AdditionalRussian.xml"
+      ],
+      "body_readback_equal": true,
+      "kind": "upstream_translation_pr",
+      "fresh_game_test_claimed": false,
+      "ai_disclosed": true
+    },
+    {
+      "date": "2026-11-06",
+      "url": "https://github.com/Zeracronius/DynamicTradeInterface/pull/79",
+      "repository": "Zeracronius/DynamicTradeInterface",
+      "number": 79,
+      "state": "open",
+      "head_sha": "1be2bab4e573295a4830ee7f296046c2e9263ae7",
+      "base_sha": "da1b0f67db567fd2d1dcb23511980a906943fc1a",
+      "package_ids": [
+        "zeracronius.dynamictradeinterface"
+      ],
+      "key_count": 98,
+      "files": [
+        "Languages/Russian/DefInjected/DynamicTradeInterface.Defs.TradeColumnDef/CommunityRussianAdditions.xml",
+        "Languages/Russian/Keyed/CommunityRussianAdditions.xml"
       ],
       "body_readback_equal": true,
       "kind": "upstream_translation_pr",

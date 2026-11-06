@@ -1,0 +1,11 @@
+{
+  "schema": 1,
+  "package_id": "vortex.customizeweapon",
+  "checked_at": "2026-11-06T17:11:35.716255+00:00",
+  "license": "MIT",
+  "public_evidence_url": "https://github.com/realloon/CustomizeWeapon/blob/d5e41881b0b79c7ae74ee7361e3e6fa462323562/LICENSE",
+  "original_author": "Vortex",
+  "license_file_sha256": "deb6a149028b58c009caafe4dd2de2c45df78b28fcfb73c66c06a0ea7fc78ee7",
+  "license_blob_sha": "934f208813e8bf3a69cdf86ff4e46ecf7aa66f9a",
+  "original_mod_art_used": false
+}

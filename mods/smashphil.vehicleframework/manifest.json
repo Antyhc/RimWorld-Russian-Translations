@@ -6,10 +6,17 @@
   "supported_versions": [],
   "rights": {
     "translation": {
-      "status": "unknown",
-      "license": null,
-      "evidence": null,
-      "attribution": null
+      "status": "confirmed",
+      "license": "MIT",
+      "evidence": "https://github.com/SmashPhil/Vehicle-Framework/blob/b557926d2f7b8d2e363ee468ef1ff196f15e2428/LICENSE",
+      "attribution": "Original mod: Vehicle Framework by Smash Phil. Copyright (c) 2019-2026 SmashPhil Original Workshop: https://steamcommunity.com/sharedfiles/filedetails/?id=3014915404. Original source: https://github.com/SmashPhil/Vehicle-Framework. Russian additions: Antyhc, 2026; retain the applicable MIT terms.",
+      "scope": "Our independently authored Russian adaptation of textual source material in this repository; no third-party Russian files, code, assemblies, or artwork included.",
+      "obligations": [
+        "Retain the original copyright and permission notice in all copies or substantial portions of the translated material.",
+        "Attribute the original authors and identify Antyhc's Russian additions; do not reuse unrelated third-party Russian wording without its own permission."
+      ],
+      "source_permission_review": "community/rights-updates.public.json",
+      "source_permission_checked_date": "2026-11-06"
     },
     "icon": {
       "status": "unknown",
@@ -33,9 +40,12 @@
     "workshop_status": "not_published"
   },
   "integration": {
-    "status": "not_sent",
+    "status": "translation_offered",
     "pr_url": null,
-    "contact_url": null
+    "contact_url": "https://github.com/SmashPhil/Vehicle-Framework/issues/380",
+    "contact_status": "awaiting_response",
+    "offered_at": "2026-11-06",
+    "response_evidence": "community/outreach-2026-11-06.json"
   },
   "original": {
     "author": "Smash Phil",
@@ -115,7 +125,26 @@
       ],
       "rights_clearance_not_inferred": true
     },
-    "upstream_russian_paths": []
+    "upstream_russian_paths": [],
+    "verified_source_identity": {
+      "status": "verified_current_remote_about_package_id_matches",
+      "package_id_as_declared": "SmashPhil.VehicleFramework",
+      "name": "Vehicle Framework",
+      "author": "Smash Phil",
+      "supported_versions": [
+        "1.4",
+        "1.5",
+        "1.6",
+        "1.7"
+      ],
+      "about_url": "https://github.com/SmashPhil/Vehicle-Framework/blob/b557926d2f7b8d2e363ee468ef1ff196f15e2428/About/About.xml",
+      "about_blob_sha": "f04733293b081316b4685697e5711775cddbf494",
+      "source_commit": "b557926d2f7b8d2e363ee468ef1ff196f15e2428",
+      "repository_url": "https://github.com/SmashPhil/Vehicle-Framework",
+      "checked_date": "2026-11-06",
+      "evidence_file": "community/rights-updates.public.json",
+      "metadata_scope": "Remote source identity only. These version declarations do not upgrade the release or installed-mod compatibility claims."
+    }
   },
   "inventory": {
     "saved_records": 675,

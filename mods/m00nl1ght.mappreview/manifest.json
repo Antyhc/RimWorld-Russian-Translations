@@ -8,10 +8,18 @@
   ],
   "rights": {
     "translation": {
-      "status": "unknown",
-      "license": null,
-      "evidence": null,
-      "attribution": null
+      "status": "confirmed",
+      "license": "CC-BY-NC-SA-4.0",
+      "evidence": "https://github.com/m00nl1ght-dev/MapPreview/blob/8bedaa489a5ea4240749704517df0f0daaa00711/LICENSE",
+      "attribution": "Original mod: Map Preview by m00nl1ght. Copyright (c) 2022 m00nl1ght. Original Workshop: https://steamcommunity.com/sharedfiles/filedetails/?id=2800857642. Original source: https://github.com/m00nl1ght-dev/MapPreview. Russian additions: Antyhc, 2026; retain the applicable CC-BY-NC-SA-4.0 terms.",
+      "scope": "Our independently authored Russian adaptation of textual source material in this repository; no third-party Russian files, code, assemblies, or artwork included.",
+      "obligations": [
+        "Attribute m00nl1ght, retain supplied notices and a CC BY-NC-SA 4.0 license link, and identify translation changes.",
+        "Distribute the adaptation only noncommercially and under CC BY-NC-SA 4.0 or a permitted compatible license; do not add incompatible restrictions.",
+        "Respect any explicitly different licenses on individual files; source evidence does not cover independently authored third-party Russian translations."
+      ],
+      "source_permission_review": "community/rights-updates.public.json",
+      "source_permission_checked_date": "2026-11-06"
     },
     "icon": {
       "status": "unknown",
@@ -129,7 +137,27 @@
       "1.5/Languages/Russian/Keyed/Keys.xml",
       "1.6/Languages/Russian/Keyed/Keys.xml",
       "1.7/Languages/Russian/Keyed/Keys.xml"
-    ]
+    ],
+    "verified_source_identity": {
+      "status": "verified_current_remote_about_package_id_matches",
+      "package_id_as_declared": "m00nl1ght.MapPreview",
+      "name": "Map Preview",
+      "author": "m00nl1ght",
+      "supported_versions": [
+        "1.3",
+        "1.4",
+        "1.5",
+        "1.6",
+        "1.7"
+      ],
+      "about_url": "https://github.com/m00nl1ght-dev/MapPreview/blob/8bedaa489a5ea4240749704517df0f0daaa00711/About/About.xml",
+      "about_blob_sha": "25d647222c2dc2600d64241192946a138decb286",
+      "source_commit": "8bedaa489a5ea4240749704517df0f0daaa00711",
+      "repository_url": "https://github.com/m00nl1ght-dev/MapPreview",
+      "checked_date": "2026-11-06",
+      "evidence_file": "community/rights-updates.public.json",
+      "metadata_scope": "Remote source identity only. These version declarations do not upgrade the release or installed-mod compatibility claims."
+    }
   },
   "inventory": {
     "saved_records": 71,

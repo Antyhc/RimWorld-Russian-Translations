@@ -8,10 +8,17 @@
   ],
   "rights": {
     "translation": {
-      "status": "unknown",
-      "license": null,
-      "evidence": null,
-      "attribution": null
+      "status": "confirmed",
+      "license": "MIT",
+      "evidence": "https://github.com/Ilarion33/BulkLoadForTransporters/blob/58b21418054316a28227154b1a3cd9074d06bd37/LICENSE",
+      "attribution": "Original mod: Bulk Load For Transporters by Ilarion. Copyright (c) 2025 Ilarion Original Workshop: https://steamcommunity.com/sharedfiles/filedetails/?id=3559292908. Original source: https://github.com/Ilarion33/BulkLoadForTransporters. Russian additions: Antyhc, 2026; retain the applicable MIT terms.",
+      "scope": "Our independently authored Russian adaptation of textual source material in this repository; no third-party Russian files, code, assemblies, or artwork included.",
+      "obligations": [
+        "Retain the original copyright and permission notice in all copies or substantial portions of the translated material.",
+        "Attribute the original authors and identify Antyhc's Russian additions; do not reuse unrelated third-party Russian wording without its own permission."
+      ],
+      "source_permission_review": "community/rights-updates.public.json",
+      "source_permission_checked_date": "2026-11-06"
     },
     "icon": {
       "status": "unknown",
@@ -55,12 +62,29 @@
       "1.6",
       "1.7"
     ],
-    "repository_url": null,
+    "repository_url": "https://github.com/Ilarion33/BulkLoadForTransporters",
     "repository_candidates": [
       "https://github.com/pardeike/Harmony"
     ],
-    "repository_verification": "not_remote_checked",
-    "activity": "not_remote_checked"
+    "repository_verification": "current_remote_About_package_id_matches_original",
+    "activity": "not_remote_checked",
+    "verified_source_identity": {
+      "status": "verified_current_remote_about_package_id_matches",
+      "package_id_as_declared": "Ilarion.BulkLoadForTransporters",
+      "name": "Bulk Load For Transporters",
+      "author": "Ilarion",
+      "supported_versions": [
+        "1.6"
+      ],
+      "about_url": "https://github.com/Ilarion33/BulkLoadForTransporters/blob/58b21418054316a28227154b1a3cd9074d06bd37/About/About.xml",
+      "about_blob_sha": "3e7ba5a9c94e5dddb3a29819b59d4e455706d95b",
+      "source_commit": "58b21418054316a28227154b1a3cd9074d06bd37",
+      "repository_url": "https://github.com/Ilarion33/BulkLoadForTransporters",
+      "checked_date": "2026-11-06",
+      "evidence_file": "community/rights-updates.public.json",
+      "metadata_scope": "Remote source identity only. These version declarations do not upgrade the release or installed-mod compatibility claims."
+    },
+    "default_branch": "main"
   },
   "inventory": {
     "saved_records": 57,
@@ -87,5 +111,12 @@
     "work_stage": "installed_local",
     "saved_translation_store": true
   },
-  "work_stage": "installed_local"
+  "work_stage": "installed_local",
+  "monitor": {
+    "github_tree": {
+      "repository": "Ilarion33/BulkLoadForTransporters",
+      "ref": "main",
+      "baseline_file": "source.tree.json"
+    }
+  }
 }

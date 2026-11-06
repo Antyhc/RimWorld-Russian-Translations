@@ -8,31 +8,76 @@
   ],
   "rights": {
     "translation": {
-      "status": "unknown",
-      "license": null,
-      "evidence": null,
-      "attribution": null
+      "status": "confirmed",
+      "license": "MIT",
+      "evidence": "https://github.com/realloon/CustomizeWeapon/blob/d5e41881b0b79c7ae74ee7361e3e6fa462323562/LICENSE",
+      "attribution": "Original mod: Customize Weapon by Vortex.\nOriginal Workshop: https://steamcommunity.com/sharedfiles/filedetails/?id=3550585103\nOriginal repository: https://github.com/realloon/CustomizeWeapon\nOriginal license: MIT, Copyright (c) 2026 Vortex.\nRussian additions: Antyhc, 2026, MIT, AI-assisted authoring and review with OpenAI Codex.\nOwn typographic cover. Existing original Russian is provided by the original mod.\n",
+      "license_evidence_file": "rights-evidence.json",
+      "required_notice_files": {
+        "About/License.txt": "deb6a149028b58c009caafe4dd2de2c45df78b28fcfb73c66c06a0ea7fc78ee7",
+        "About/Credits.txt": "086ca71f147b4a6fc994fea79885f24b92def833a5952087d531434ec96a517e",
+        "LICENSE": "b6f08b15485a8eb256efd49ec31282f6c14c279012e5a7d38b2ccf9ce74ee26a"
+      },
+      "scope": "Our independently authored Russian adaptation of textual source material in this repository; no third-party Russian files, code, assemblies, or artwork included.",
+      "obligations": [
+        "Retain the original copyright and permission notice in all copies or substantial portions of the translated material.",
+        "Attribute the original authors and identify Antyhc's Russian additions; do not reuse unrelated third-party Russian wording without its own permission."
+      ],
+      "source_permission_review": "community/rights-updates.public.json",
+      "source_permission_checked_date": "2026-11-06"
     },
     "icon": {
-      "status": "unknown",
-      "license": null,
-      "evidence": null,
-      "attribution": null
+      "status": "confirmed",
+      "kind": "original_typographic_fallback",
+      "license": "MIT",
+      "evidence": "scripts/make_original_cover.py; own typographic design",
+      "attribution": "Original typographic cover by Antyhc",
+      "source_sha256": "b71a2b54aeab924cfc50a69cfa496fea3f6b7cc45dffd653d220d78230055efc",
+      "preview_sha256": "b71a2b54aeab924cfc50a69cfa496fea3f6b7cc45dffd653d220d78230055efc",
+      "original_mod_art_used": false
     }
   },
   "qa": {
-    "technical": "pending",
-    "linguistic": "pending",
-    "source_current": false,
-    "in_game": "not_tested",
-    "checked_at": "2026-10-28T09:15:27.268425+00:00"
+    "technical": "passed",
+    "linguistic": "ai_reviewed",
+    "source_current": true,
+    "in_game": "passed",
+    "checked_at": "2026-11-06T17:11:35.716255+00:00",
+    "source_checked_at": "2026-11-06T17:11:35.716255+00:00",
+    "payload_sha256": "2ded739f2b102b9ca929b872a3f08b73c8d8222bc65106b2d894f591a90b37c4",
+    "source_snapshot_sha256": "3e94ea4836f4a774731a0be6918a05696cf8568d81c1a55f70360f0318556906",
+    "evidence": "qa-evidence.json",
+    "coverage": "23 missing physical fields, including four nested charge nouns verified in the actual game. Existing 207 native Russian keys preserved without overlap.",
+    "standalone_minimal_game_test": "passed_actual_control_and_candidate",
+    "game_evidence": "game-test-evidence.json",
+    "game_version": "1.7.5000 rev1275",
+    "game_test_scope": "Actual isolated startup and physical language-value readback, exact active dependencies/DLC and source/payload/probe hashes; no save, extended gameplay or independent human proofreading claim.",
+    "game_test_evidence_sha256": "4e26ebd23e7d635ba1308457aad43a539bb333f787fb9a45a20d4bfa71745032",
+    "ui_inspected": true,
+    "ui_scope": "Engine-generated screenshot confirms Russian main menu on the tested candidate startup. Weapon dialogs and colony gameplay were not inspected.",
+    "workshop_installation": "passed_exact_subscribed_bytes",
+    "workshop_game_load": "passed_actual_subscribed_Workshop_root",
+    "workshop_game_evidence": "workshop-game-test-evidence.json",
+    "workshop_game_evidence_sha256": "c4a33bfc7fddd160c597184443a246a91c58c2837ad992475990d336f0fd3342",
+    "workshop_game_test_scope": "Fresh actual load of the subscribed byte-exact Workshop item. Earlier actual English control reused only after exact original source/context, game, selected values and unchanged read-only probe verification. Exact full localization-error multiset compared. The earlier local proof remains historical; no new English-control boot, save or extended gameplay/human proof claimed."
   },
   "publication": {
     "github_url": "https://github.com/Antyhc/RimWorld-Russian-Translations/tree/main/mods/vortex.customizeweapon",
-    "github_status": "metadata_only",
-    "workshop_url": null,
-    "workshop_id": null,
-    "workshop_status": "not_published"
+    "github_status": "translation_published",
+    "workshop_url": "https://steamcommunity.com/sharedfiles/filedetails/?id=3834796180",
+    "workshop_id": "3834796180",
+    "workshop_status": "published_public_page_verification_pending",
+    "release_blockers": [],
+    "workshop_title": "Customize Weapon — Russian Translation",
+    "workshop_visibility": "public",
+    "workshop_submitted_at": "2026-11-06T17:17:42.484781+00:00",
+    "steam_sdk_verified_at": "2026-11-06T17:17:57.772951+00:00",
+    "anonymous_page_verified": false,
+    "website_verification_blocker": "Steam Community website returned HTTP 429 during this session.",
+    "collection_id": "3830036321",
+    "collection_member_verified": true,
+    "installation_tested": true,
+    "installation_scope": "Official Steam subscription/download verified all ten payload files byte-exact, followed by actual isolated Workshop-root game load."
   },
   "integration": {
     "status": "open",
@@ -45,7 +90,8 @@
     "original_native_accepted": false,
     "entries_submitted": 19,
     "fresh_game_test_claimed": false,
-    "response_evidence": "community/outreach-2026-11-06.json"
+    "response_evidence": "community/outreach-2026-11-06.json",
+    "scope": "19 direct fields submitted. Four additional charge nouns were verified in isolated game checks and published in the 23-entry Workshop pack. Updating this PR to include them is prepared but not sent because GitHub throttled submissions."
   },
   "original": {
     "author": "Vortex",
@@ -127,7 +173,24 @@
       "Languages/Russian/DefInjected/ThingDef/Workbench.xml",
       "Languages/Russian/DefInjected/WeaponTraitDef/Traits.xml",
       "Languages/Russian/Keyed/Keyed.xml"
-    ]
+    ],
+    "verified_source_identity": {
+      "status": "verified_current_remote_about_package_id_matches",
+      "package_id_as_declared": "Vortex.CustomizeWeapon",
+      "name": "Customize Weapon",
+      "author": "Vortex",
+      "supported_versions": [
+        "1.6",
+        "1.7"
+      ],
+      "about_url": "https://github.com/realloon/CustomizeWeapon/blob/d5e41881b0b79c7ae74ee7361e3e6fa462323562/About/About.xml",
+      "about_blob_sha": "e0c81944af55b54886d798f1523241d6d56df714",
+      "source_commit": "d5e41881b0b79c7ae74ee7361e3e6fa462323562",
+      "repository_url": "https://github.com/realloon/CustomizeWeapon",
+      "checked_date": "2026-11-06",
+      "evidence_file": "community/rights-updates.public.json",
+      "metadata_scope": "Remote source identity only. These version declarations do not upgrade the release or installed-mod compatibility claims."
+    }
   },
   "inventory": {
     "saved_records": 24,
@@ -170,5 +233,14 @@
       "baseline_file": "source.tree.json"
     }
   },
-  "work_stage": "installed_local"
+  "work_stage": "published_workshop_verified_website_check_pending",
+  "duplicate_translation": {
+    "status": "checked_no_current_equivalent",
+    "checked_at": "2026-11-06T17:11:35.716255+00:00",
+    "candidates": [
+      "https://steamcommunity.com/sharedfiles/filedetails/?id=3551718118"
+    ],
+    "scope": "Existing built-in Russian retained. Current external Customize Weapon RUS declares only 1.6 and covers 9 of these 23 additions. The 14 other fields are absent from that downloaded package. This supplement uses independently authored wording and should be enabled alongside the original's native Russian, with the older external RUS disabled.",
+    "evidence": "duplicate-translation-evidence.json"
+  }
 }

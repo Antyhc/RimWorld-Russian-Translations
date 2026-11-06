@@ -1,0 +1,45 @@
+{
+  "schema": 1,
+  "checked_at": "2026-11-06T17:11:35.716255+00:00",
+  "translation_rows": 23,
+  "game_tested": true,
+  "independent_human_review": false,
+  "semantic_review": "Reviewed all 23 current English/Russian pairs. Work-giver verb and gerund agree with action labels and progress reports. All current placeholders retained. Native DPS entry preserved without an override.",
+  "payload_sha256": "2ded739f2b102b9ca929b872a3f08b73c8d8222bc65106b2d894f591a90b37c4",
+  "payload_file_hashes": {
+    "About/About.xml": "c546c811da4bb9359eb1c6221e4ccb7e972fe736d4c3f668a413074f504de3ee",
+    "About/Credits.txt": "086ca71f147b4a6fc994fea79885f24b92def833a5952087d531434ec96a517e",
+    "About/License.txt": "deb6a149028b58c009caafe4dd2de2c45df78b28fcfb73c66c06a0ea7fc78ee7",
+    "About/Preview.png": "b71a2b54aeab924cfc50a69cfa496fea3f6b7cc45dffd653d220d78230055efc",
+    "Languages/Russian/DefInjected/AbilityDef/CustomizeWeaponRussianAdditions.xml": "2f0f5e4344c4be461424927449e24c605a3bcb881a070f61d26e5a1df98b56ad",
+    "Languages/Russian/DefInjected/DamageDef/CustomizeWeaponRussianAdditions.xml": "0f21017db66344093178a244275f4ab5850076b92107c8d1864ac317e52059e5",
+    "Languages/Russian/DefInjected/JobDef/CustomizeWeaponRussianAdditions.xml": "545b20e62849cc142dacb5f22c5a9e9dfbae48cb8b7e601076f1c3ae1704cbd9",
+    "Languages/Russian/DefInjected/WeaponTraitDef/CustomizeWeaponRussianAdditions.xml": "5c57678fcf2a8f1142e224b172e432acd8fce9c5d5f684d517e12f38749019ed",
+    "Languages/Russian/DefInjected/WorkGiverDef/CustomizeWeaponRussianAdditions.xml": "8c96b815370d928cbf04a11e0545ccf9d6ad5347c1e08d6f26e4a8415a012bc9",
+    "LICENSE": "b6f08b15485a8eb256efd49ec31282f6c14c279012e5a7d38b2ccf9ce74ee26a"
+  },
+  "current_source_input_hashes": {
+    "1.7\\Assemblies\\CWF.dll": "a7c4886dc75c4e946d020f436de32dde0045768b66042bc9bd45ed21b28ecbf4",
+    "About\\About.xml": "0aabdb8946eac60bb78ceb5acc77bb151a437417f4f80eefe82586bf9f1a3c93",
+    "Defs\\bundle.xml": "a3e8e19a2e55c5becdd53746c21594d70d79d562b60c12f62ee0c0023288b684",
+    "Languages\\English\\Keyed\\Keyed.xml": "98c113d91eda0f38f714a9b915143c4e4ec3583982efef8a4624871c04cec3bb",
+    "Languages\\Russian\\DefInjected\\ColorDef\\Colors.xml": "e61fecee0369dc9c7956d1e4561f88a5bcbc80befd4d09fe1ccdbc10ffafb14e",
+    "Languages\\Russian\\DefInjected\\CWF.PartDef\\Parts.xml": "6bed85c27a933a89c3b8e0faad2618f1e0658d7eb5159c4713895b8489870e9a",
+    "Languages\\Russian\\DefInjected\\StatCategoryDef\\StatCategories.xml": "859d1a85748855ab951d5ce57c3d2aab2b86af3a7eb78da1e011367538b43d1b",
+    "Languages\\Russian\\DefInjected\\ThingCategoryDef\\Categories.xml": "30f77db9297f5c92e381894a5cf83567a72ebc08eec115391c7bc28feb708497",
+    "Languages\\Russian\\DefInjected\\ThingDef\\Modules.xml": "fc6f98df4f212bbcac30f02d54c53372f301dbe1104fa40a784f7d875337faeb",
+    "Languages\\Russian\\DefInjected\\ThingDef\\Workbench.xml": "c676c3a2d35dfc61e65e446c20a293c52a53e366e8401a771bf730abd46eb87e",
+    "Languages\\Russian\\DefInjected\\WeaponTraitDef\\Traits.xml": "1ff6385271368817f307d35512ce2c1b7de21e14491361d5e997d49e90738d9e",
+    "Languages\\Russian\\Keyed\\Keyed.xml": "b178ebdd96796bd55f85ac9939118517c9339674da86807fff20c4de9992966f"
+  },
+  "native_russian_preserved": true,
+  "third_party_russian_copied": false,
+  "game_evidence": "game-test-evidence.json",
+  "game_evidence_sha256": "4e26ebd23e7d635ba1308457aad43a539bb333f787fb9a45a20d4bfa71745032",
+  "nested_charge_nouns_actual_runtime_verified": 4,
+  "native_russian_keys_preserved_without_overlap": 207,
+  "known_limitations": [
+    "Weapon dialog layout and colony gameplay were not tested.",
+    "Native 207 values were preserved by source-file hashes and target disjointness, without individual in-game readback."
+  ]
+}

@@ -8,10 +8,18 @@
   ],
   "rights": {
     "translation": {
-      "status": "unknown",
-      "license": null,
-      "evidence": null,
-      "attribution": null
+      "status": "confirmed",
+      "license": "GPL-3.0",
+      "evidence": "https://github.com/tomvd/Hospital/blob/82a15e711129a32e5bfe772663160433ee566316/LICENSE",
+      "attribution": "Original mod: Hospital by Adamas. Original Workshop: https://steamcommunity.com/sharedfiles/filedetails/?id=2992224079. Original source: https://github.com/tomvd/Hospital. Russian additions: Antyhc, 2026; retain the applicable GPL-3.0 terms.",
+      "scope": "Our independently authored Russian adaptation of textual source material in this repository; no third-party Russian files, code, assemblies, or artwork included.",
+      "obligations": [
+        "Distribute derivative translated text under compatible GPL v3 terms and include the full applicable license.",
+        "Provide the editable Russian XML as corresponding source, retain relevant notices, and identify changed files and translator attribution.",
+        "Do not substitute the repository infrastructure MIT license for this translated material's GPL obligations or assume rights to third-party Russian wording."
+      ],
+      "source_permission_review": "community/rights-updates.public.json",
+      "source_permission_checked_date": "2026-11-06"
     },
     "icon": {
       "status": "unknown",
@@ -35,9 +43,17 @@
     "workshop_status": "not_published"
   },
   "integration": {
-    "status": "not_sent",
-    "pr_url": null,
-    "contact_url": null
+    "status": "open",
+    "pr_url": "https://github.com/tomvd/Hospital/pull/66",
+    "contact_url": null,
+    "target_kind": "original_mod",
+    "head_sha": "414330693433378b0bcc74e1f6dded531661542a",
+    "submitted_at": "2026-11-06",
+    "native_xml_submitted": true,
+    "original_native_accepted": false,
+    "entries_submitted": 82,
+    "fresh_game_test_claimed": false,
+    "response_evidence": "community/outreach-2026-11-06.json"
   },
   "original": {
     "author": "Adamas",
@@ -49,12 +65,32 @@
       "1.6",
       "1.7"
     ],
-    "repository_url": null,
+    "repository_url": "https://github.com/tomvd/Hospital",
     "repository_candidates": [
       "https://github.com/pardeike/HarmonyRimWorld"
     ],
-    "repository_verification": "not_remote_checked",
-    "activity": "not_remote_checked"
+    "repository_verification": "current_remote_About_package_id_matches_original",
+    "activity": "not_remote_checked",
+    "verified_source_identity": {
+      "status": "verified_current_remote_about_package_id_matches",
+      "package_id_as_declared": "Adamas.Hospital",
+      "name": "Hospital",
+      "author": "Adamas",
+      "supported_versions": [
+        "1.4",
+        "1.5",
+        "1.6",
+        "1.7"
+      ],
+      "about_url": "https://github.com/tomvd/Hospital/blob/82a15e711129a32e5bfe772663160433ee566316/About/About.xml",
+      "about_blob_sha": "fc922e48e676cacd813cd7c40d606db34b2a0776",
+      "source_commit": "82a15e711129a32e5bfe772663160433ee566316",
+      "repository_url": "https://github.com/tomvd/Hospital",
+      "checked_date": "2026-11-06",
+      "evidence_file": "community/rights-updates.public.json",
+      "metadata_scope": "Remote source identity only. These version declarations do not upgrade the release or installed-mod compatibility claims."
+    },
+    "default_branch": "main"
   },
   "inventory": {
     "saved_records": 83,
@@ -82,5 +118,12 @@
     "work_stage": "installed_local",
     "saved_translation_store": true
   },
-  "work_stage": "installed_local"
+  "work_stage": "installed_local",
+  "monitor": {
+    "github_tree": {
+      "repository": "tomvd/Hospital",
+      "ref": "main",
+      "baseline_file": "source.tree.json"
+    }
+  }
 }

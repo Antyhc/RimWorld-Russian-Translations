@@ -8,10 +8,13 @@
   ],
   "rights": {
     "translation": {
-      "status": "unknown",
-      "license": null,
-      "evidence": null,
-      "attribution": null
+      "status": "confirmed",
+      "license": "Explicit author permission for independently authored standalone Russian text supplements; original source license remains unchanged",
+      "evidence": "https://github.com/Vanilla-Expanded/VanillaExpandedFramework/issues/195#issuecomment-6519584242",
+      "attribution": "Original mod Vanilla Ideology Expanded - Sophian Style: Oskar Potocki, Sarg Bjornson. Independently authored Russian text by Antyhc with disclosed AI assistance. Original: https://steamcommunity.com/sharedfiles/filedetails/?id=3194606539. Not endorsed by or affiliated with Vanilla Expanded. No original artwork or third-party Russian text covered.",
+      "source_permission_review": "community/vanilla-expanded-text-permission-extension-2026-11-06.json",
+      "source_permission_checked_date": "2026-11-06",
+      "scope": "Only independently authored Russian text supplementing this identified original; no third-party Russian wording, original artwork, DLLs or other original assets. Original author credits and links retained; no Vanilla Expanded endorsement. Source license unchanged."
     },
     "icon": {
       "status": "unknown",

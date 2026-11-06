@@ -6,9 +6,12 @@
 предложение переводов авторам и отдельные пакеты с подтверждёнными правами.
 Запись в реестре сама по себе не является готовым русификатором.
 
-На 3 ноября 2026 года в Steam доступны **13 из 14** ранее опубликованных пакетов для RimWorld 1.7. [Проверка каталога Steam](community/release-status-2026-11-03.json)
+<!-- verified-release-summary -->
+6 ноября 2026 года опубликованы **2 новых пакета**, перечисленных ниже. Steam подтвердил загрузку, публичную видимость и зависимости; точные скачанные Workshop-копии прошли отдельные игровые проверки. Проверка доступа к новым веб-страницам пока задержана ответом Steam HTTP 429. [Фактическое состояние Steam](community/release-status-2026-11-06.json).
 
-Из 42 модов, переводы для которых проверяли в отдельном профиле 28 октября, шесть получили самостоятельные публикации. Сейчас доступны пять из этих шести. Для включения русских файлов отправлено четыре PR в оригинальные проекты и два в репозиторий переводчиков. Ещё один PR предлагает автору Loading Progress добавить ссылку на отдельный пакет в список переводов. [Журнал обращений](community/outreach.json) · [Loading Progress #13](https://github.com/ilyvion/loading-progress/pull/13)
+Отдельные No Burn Metal и Designator Shapes удалены: оригиналы уже включают весь соответствующий русский перевод. Используйте оригинальные моды. Cooking по прежнему ID недоступен; причина не установлена, повторная публикация не создавалась.
+
+Записи реестра включают готовые пакеты, собственные черновики и материалы на проверке. Loading Progress принял ссылку на русификатор в README; это не включение языковых файлов в оригинал. [Все обращения](community/outreach.json) · [Новые PR и запросы](community/outreach-2026-11-06.json) · [Проверка всех модов](community/all-mods-outreach-ledger-2026-11-06.json).
 
 | Модификация | Строк в пакете | Steam Workshop |
 |---|---:|---|
@@ -17,15 +20,17 @@
 | [Mechanoid Upgrades](https://steamcommunity.com/sharedfiles/filedetails/?id=3828883103) | 108 | Публичен |
 | [Vanilla Factions Expanded - Empire](https://steamcommunity.com/sharedfiles/filedetails/?id=3830050048) | 12 | Публичен |
 | [Smart Medicine - Continued](https://steamcommunity.com/sharedfiles/filedetails/?id=3828790822) | 7 | Публичен |
-| [Designator Shapes](https://steamcommunity.com/sharedfiles/filedetails/?id=3828790605) | 208 | Публичен. Все 208 строк уже входят в оригинал |
+| [Designator Shapes](https://steamcommunity.com/sharedfiles/filedetails/?id=1235181370) | — | Перевод включён в оригинал; отдельный пакет удалён |
 | [Reel's Expanded Storage](https://steamcommunity.com/sharedfiles/filedetails/?id=3830014953) | 2 | Публичен |
 | [Reel's Turret Pipeline](https://steamcommunity.com/sharedfiles/filedetails/?id=3830009448) | 21 | Публичен |
 | [Yet Another Research Tree (YART)](https://steamcommunity.com/sharedfiles/filedetails/?id=3828790757) | 30 | Публичен |
-| [No Burn Metal](https://steamcommunity.com/sharedfiles/filedetails/?id=3828790442) | 19 | Публичен; уже в оригинале, отдельный пакет не нужен новым установкам |
+| [No Burn Metal](https://steamcommunity.com/sharedfiles/filedetails/?id=1923990111) | — | Перевод включён в оригинал; отдельный пакет удалён |
 | [Vanilla Achievements Expanded](https://steamcommunity.com/sharedfiles/filedetails/?id=3830022947) | 1 | Публичен |
 | [Vanilla Traits Expanded](https://steamcommunity.com/sharedfiles/filedetails/?id=3830032379) | 2 | Публичен |
 | [WVC - Work Modes](https://steamcommunity.com/sharedfiles/filedetails/?id=3830010549) | 23 | Публичен |
 | [Vanilla Cooking Expanded](https://steamcommunity.com/sharedfiles/filedetails/?id=3830078437) | 24 | Ранее опубликован. Сейчас недоступен в Steam. [Файлы перевода](mods/vanillaexpanded.vcooke/payload/) |
+| [Clean Command Bar](https://steamcommunity.com/sharedfiles/filedetails/?id=3834788420) | 3 | Публикация и установка подтверждены; веб-доступ проверяется |
+| [Customize Weapon](https://steamcommunity.com/sharedfiles/filedetails/?id=3834796180) | 23 | Публикация и установка подтверждены; веб-доступ проверяется |
 
 Девять новых выпусков 30 октября: Blood Animations, Turret Pipeline, WVC Work Modes,
 REEL Storage, Achievements, Traits, Loading Progress, Empire и Cooking. В отдельных запусках
@@ -79,7 +84,7 @@ Loading Progress содержит полный собственный перев
 3585898788, если он установлен; новый пакет не отключает другие моды сам.
 
 No Burn Metal принят в оригинал: все 19 строк уже поставляются в его текущем
-Workshop-пакете. Старая отдельная страница сохранена с пояснением.
+Workshop-пакете. 6 ноября отдельная страница удалена после повторной проверки оригинала.
 ReGrowth принят в [Vanilla Russian Expanded#46](https://github.com/OneCodeUnit/VanillaRussianExpanded/pull/46),
 и согласованный вариант уже найден в Workshop-переводе сообщества.
 2 ноября merthsoft принял перевод Designator Shapes и опубликовал обновление в Steam. Все 208 строк совпали с русскими строками в текущем оригинале. Для новой установки достаточно самого мода. [Принятый PR](https://github.com/merthsoft/designator-shapes/pull/15) · [Оригинал в Steam](https://steamcommunity.com/sharedfiles/filedetails/?id=1235181370)
@@ -119,13 +124,14 @@ Alpha Animals и Genetics для Cooking остаются необязатель
 включая раскрытое использование ИИ. Одобрение пакетов со стороны Vanilla Expanded
 не заявляется. Разрешение не распространяется на исходные обложки и чужие
 переводы. Используются собственные типографические обложки с надписью RUSSIAN.
+6 ноября полное авторское разрешение дополнительно сопоставлено с 27 модами того же подтверждённого издателя. [Точный охват и ограничения](community/vanilla-expanded-text-permission-extension-2026-11-06.json).
 [Запрос AOBA](https://github.com/AobaKuma/MechsuitFramework/issues/34) ещё без ответа;
 пакеты с неподтверждёнными правами не публикуются. Лицензии, авторы и изменения
 указаны отдельно для каждого выпуска; CC BY-NC-SA-тексты сохраняют свои условия.
 
 Все 166 записей находятся по `mods/*/manifest.json` без ограничения размера реестра:
 156 хранилищ переводов и 10 дополнительных записей о партиях и черновиках.
-Мониторинг охватывает 166 исходных Workshop ID, 24 GitHub-репозитория и зарегистрированные PR.
+Мониторинг охватывает 166 исходных Workshop ID, 30 GitHub-репозиториев и зарегистрированные PR.
 Изменения источников поступают на проверку; монитор не объявляется автономным
 переводчиком или публикатором. Добавление опубликованных пакетов в коллекцию
 через официальный Steam API реализовано и проверено; доступность её веб-страницы

@@ -1,0 +1,8 @@
+Supplement to Customize Weapon's built-in Russian localization for RimWorld 1.7. Adds 23 missing ability, damage, job, work-giver and charge-name fields. Requires the original Customize Weapon by Vortex and Harmony. Load after the original. AI-assisted translation and editing with OpenAI Codex.
+
+https://steamcommunity.com/sharedfiles/filedetails/?id=3550585103
+
+Separate original/candidate startups on RimWorld 1.7.5000 rev1275 verified all 23 physical values, including four nested charge nouns. Localization errors and logs matched the control run, with no additional errors. All 207 built-in Russian keys were preserved. Weapon dialog layout, colony gameplay and independent human proofreading were not tested.
+
+Original mod licensed under MIT. Vortex copyright and permission notice included. Own typographic cover.
+Files and evidence — https://github.com/Antyhc/RimWorld-Russian-Translations/tree/main/mods/vortex.customizeweapon

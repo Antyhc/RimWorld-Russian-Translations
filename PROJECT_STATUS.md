@@ -2,11 +2,11 @@
 
 Generated from `mods/*/manifest.json` by `python scripts/rwtranslations.py registry`.
 
-Last inventory generation (UTC): 2026-11-06T17:10:33+00:00
+Last inventory generation (UTC): 2026-11-06T17:39:30+00:00
 
 The registry tracks **166 mods**: 156 saved-store records and 10 additional draft/review metadata records; 0 records have unverified store scope. Saved stores can also contain unfinished drafts. Original and translation package IDs are separate namespaces. Discovery has no fixed mod limit.
 
-Steam has confirmed 15 item submissions: **11 pages verified anonymously**, 0 awaiting automatic content inspection. A submitted item ID or public API visibility flag alone does not prove public page access.
+Steam has confirmed 16 item submissions: **11 pages verified anonymously**, 0 awaiting automatic content inspection. A submitted item ID or public API visibility flag alone does not prove public page access.
 
 | Workshop translation | Website state | Game QA evidence |
 |---|---|---|
@@ -24,9 +24,10 @@ Steam has confirmed 15 item submissions: **11 pages verified anonymously**, 0 aw
 | [Vanilla Achievements Expanded](https://steamcommunity.com/sharedfiles/filedetails/?id=3830022947) | public; anonymous page verified | [passed](mods/vanillaexpanded.achievements/game-test-evidence.json) |
 | [Vanilla Traits Expanded](https://steamcommunity.com/sharedfiles/filedetails/?id=3830032379) | public; anonymous page verified | [passed](mods/vanillaexpanded.vanillatraitsexpanded/game-test-evidence.json) |
 | [Vanilla Cooking Expanded](https://steamcommunity.com/sharedfiles/filedetails/?id=3830078437) | previously_published_currently_unavailable | [passed](mods/vanillaexpanded.vcooke/game-test-evidence.json) |
+| [Customize Weapon](https://steamcommunity.com/sharedfiles/filedetails/?id=3834796180) | published_public_page_verification_pending | [passed](mods/vortex.customizeweapon/game-test-evidence.json) |
 | [WVC - Work Modes](https://steamcommunity.com/sharedfiles/filedetails/?id=3830010549) | public; anonymous page verified | [passed](mods/wvc.sergkart.biotech.moremechanoidsworkmodes/game-test-evidence.json) |
 
-Game QA: 862 expected Russian values loaded across the recorded isolated RimWorld 1.7.4990 rev1069, 1.7.5000 rev1275 checks. Each linked evidence file records its own baseline errors, Workshop-copy verification and UI inspection scope. Personal configuration hashes were unchanged. This is load/readback testing, **not a colony playthrough or extended gameplay test**. No independent human proofreading is claimed.
+Game QA: 885 expected Russian values loaded across the recorded isolated RimWorld 1.7.4990 rev1069, 1.7.5000 rev1275 checks. Each linked evidence file records its own baseline errors, Workshop-copy verification and UI inspection scope. Personal configuration hashes were unchanged. This is load/readback testing, **not a colony playthrough or extended gameplay test**. No independent human proofreading is claimed.
 
 Private reviewed batches: **42 managed packages / 3474 values tested**; 616 local-model tasks processed. The private model candidate has **473 values verified across 8 providers**; 3947 combined values matched. This is isolated load/readback testing, with no colony playthrough or main-profile installation approval. Translation rights and public release QA are separate. [Counts and evidence hashes](reports/reviewed-batches-2026-10-28.json).
 
@@ -38,10 +39,14 @@ Owner SDK confirmed private visibility (2) on 6 November. Browser management is 
 
 Integration proposals:
 
+- [Hospital](https://github.com/tomvd/Hospital/pull/66): open.
 - [Adaptive Storage Framework](https://github.com/bbradson/Adaptive-Storage-Framework/pull/41): open.
+- [Blood Animations](https://github.com/tenguin/Rimworld_BloodAnimations/pull/3): open.
 - [Bulk Load For Transporters](https://github.com/Ilarion33/BulkLoadForTransporters/pull/1): open.
 - [Loading Progress](https://github.com/ilyvion/loading-progress/pull/13): accepted_translation_listing (README link to an independently published translation).
+- [XML Extensions](https://github.com/15adhami/XmlExtensions/pull/26): open.
 - [Map Preview](https://github.com/m00nl1ght-dev/MapPreview/pull/23): open.
+- [Pick Up And Haul](https://github.com/Mehni/PickUpAndHaul/pull/72): open.
 - [Smart Medicine - Continued](https://github.com/MemeGoddess/RimWorld-SmartMedicine/pull/24): open.
 - [Designator Shapes](https://github.com/merthsoft/designator-shapes/pull/15): accepted.
 - [Vanilla Expanded Framework](https://github.com/OneCodeUnit/VanillaRussianExpanded/pull/47): open (community translation repository; original-native acceptance not claimed).
@@ -53,6 +58,7 @@ Integration proposals:
 - [Vanilla Landmarks Expanded](https://github.com/OneCodeUnit/VanillaRussianExpanded/pull/47): open (community translation repository; original-native acceptance not claimed).
 - [Customize Weapon](https://github.com/realloon/CustomizeWeapon/pull/10): open.
 - [WVC - Work Modes](https://github.com/WVCSergkart/MoreMechanoidsWorkModes/pull/8): open.
+- [Dynamic Trade Interface](https://github.com/Zeracronius/DynamicTradeInterface/pull/79): open.
 
 Current pilot covers are original typographic fallback designs. Original-art permission requests remain separate and do not block these covers. Other records with unconfirmed translation rights are held from distribution.
 
@@ -67,23 +73,23 @@ The 13 source-drift packages were refreshed. Targeted repairs added 20 strings, 
 | model_held_tasks | 10 |
 | private_model_test_values | 473 |
 | store_scope_unverified | 0 |
-| technically_checked | 15 |
-| game_tested | 15 |
+| technically_checked | 16 |
+| game_tested | 16 |
 | github_metadata_records | 166 |
-| github_published | 15 |
-| workshop_submitted | 15 |
+| github_published | 16 |
+| workshop_submitted | 16 |
 | workshop_published | 11 |
-| pull_requests | 12 |
-| integration_records | 15 |
+| pull_requests | 17 |
+| integration_records | 20 |
 | accepted | 2 |
-| awaiting_rights | 121 |
+| awaiting_rights | 85 |
 | needs_update | 13 |
-| freshness_unverified | 151 |
+| freshness_unverified | 150 |
 | static_inventory_pass | 129 |
 | static_inventory_flagged | 20 |
 | static_findings | 49 |
-| repository_monitors | 24 |
-| pull_request_monitors | 12 |
+| repository_monitors | 30 |
+| pull_request_monitors | 17 |
 | icon_permission_requests | 2 |
 | workshop_public_pages_verified | 11 |
 | workshop_content_check_pending | 0 |

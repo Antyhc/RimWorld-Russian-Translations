@@ -1,0 +1,581 @@
+{
+  "checked_at": "2026-11-06T17:14:45.142655+00:00",
+  "scope": "Official client item state of each original used in complete installed-own translation audit. No subscription/download mutations.",
+  "records": [
+    {
+      "package_id": "6224y.onewithdeath",
+      "workshop_id": "3448902635",
+      "state": 5
+    },
+    {
+      "package_id": "adamas.hospital",
+      "workshop_id": "2992224079",
+      "state": 5
+    },
+    {
+      "package_id": "adaptive.storage.framework",
+      "workshop_id": "3033901359",
+      "state": 5
+    },
+    {
+      "package_id": "andromeda.usefulmarks",
+      "workshop_id": "3506573327",
+      "state": 5
+    },
+    {
+      "package_id": "aoba.deadmanswitch.ancientcorps",
+      "workshop_id": "3469398006",
+      "state": 5
+    },
+    {
+      "package_id": "aoba.framework",
+      "workshop_id": "3498575851",
+      "state": 5
+    },
+    {
+      "package_id": "aoba.tent",
+      "workshop_id": "2407128339",
+      "state": 5
+    },
+    {
+      "package_id": "aoba.usac.core",
+      "workshop_id": "3678583415",
+      "state": 5
+    },
+    {
+      "package_id": "arkymn.slowerpawntickrate",
+      "workshop_id": "3524116050",
+      "state": 5
+    },
+    {
+      "package_id": "caesarv6.damageindicators",
+      "workshop_id": "2016331497",
+      "state": 5
+    },
+    {
+      "package_id": "cain.mineshaft",
+      "workshop_id": "2503894706",
+      "state": 5
+    },
+    {
+      "package_id": "costel.layeredapparel",
+      "workshop_id": "3632480044",
+      "state": 5
+    },
+    {
+      "package_id": "dawnsglow.qualcolor",
+      "workshop_id": "3513846773",
+      "state": 5
+    },
+    {
+      "package_id": "dimonsever000.factionlanguages",
+      "workshop_id": "3450332059",
+      "state": 5
+    },
+    {
+      "package_id": "dubwise.dubscentralheating",
+      "workshop_id": "2619214952",
+      "state": 5
+    },
+    {
+      "package_id": "dubwise.dubsmintmenus",
+      "workshop_id": "1446523594",
+      "state": 5
+    },
+    {
+      "package_id": "dubwise.dubsmintminimap",
+      "workshop_id": "1662119905",
+      "state": 5
+    },
+    {
+      "package_id": "dubwise.dubsperformanceanalyzer.steam",
+      "workshop_id": "2038874626",
+      "state": 5
+    },
+    {
+      "package_id": "dubwise.rimefeller",
+      "workshop_id": "1321849735",
+      "state": 5
+    },
+    {
+      "package_id": "ferny.betterarchitect",
+      "workshop_id": "3563882422",
+      "state": 5
+    },
+    {
+      "package_id": "ferny.characterdevelopment",
+      "workshop_id": "3770112044",
+      "state": 5
+    },
+    {
+      "package_id": "ferny.perspectiveshift",
+      "workshop_id": "3686618980",
+      "state": 5
+    },
+    {
+      "package_id": "ferny.progressioneducation",
+      "workshop_id": "3590863552",
+      "state": 5
+    },
+    {
+      "package_id": "ferny.resourcedeliveryhelper",
+      "workshop_id": "3696859196",
+      "state": 5
+    },
+    {
+      "package_id": "ferny.worldbuilder",
+      "workshop_id": "3522102833",
+      "state": 5
+    },
+    {
+      "package_id": "forti.rimmarket",
+      "workshop_id": "3817820660",
+      "state": 5
+    },
+    {
+      "package_id": "fuu.bloodanimations",
+      "workshop_id": "3228047321",
+      "state": 5
+    },
+    {
+      "package_id": "gabrieel1482.workersassistant",
+      "workshop_id": "3823809866",
+      "state": 5
+    },
+    {
+      "package_id": "gm.hotspring",
+      "workshop_id": "3717051546",
+      "state": 5
+    },
+    {
+      "package_id": "hailuan.cathiss",
+      "workshop_id": "3523843973",
+      "state": 5
+    },
+    {
+      "package_id": "hailuan.iwbb",
+      "workshop_id": "3400259397",
+      "state": 5
+    },
+    {
+      "package_id": "haplo.miscellaneous.training",
+      "workshop_id": "717575199",
+      "state": 5
+    },
+    {
+      "package_id": "har.mugirlrace",
+      "workshop_id": "3578882219",
+      "state": 5
+    },
+    {
+      "package_id": "ilarion.bulkloadfortransporters",
+      "workshop_id": "3559292908",
+      "state": 5
+    },
+    {
+      "package_id": "imranfish.xmlextensions",
+      "workshop_id": "2574315206",
+      "state": 5
+    },
+    {
+      "package_id": "jaeger972.factionterritories2",
+      "workshop_id": "3825320105",
+      "state": 5
+    },
+    {
+      "package_id": "juanlopez2008.lightsout",
+      "workshop_id": "2584269293",
+      "state": 5
+    },
+    {
+      "package_id": "kattalisk.allproductionxp",
+      "workshop_id": "3539744423",
+      "state": 5
+    },
+    {
+      "package_id": "keno.tuckedfurniture",
+      "workshop_id": "3808739466",
+      "state": 5
+    },
+    {
+      "package_id": "leo.cleancommandbar",
+      "workshop_id": "3688400757",
+      "state": 5
+    },
+    {
+      "package_id": "linnun.keepconverting",
+      "workshop_id": "3461478214",
+      "state": 5
+    },
+    {
+      "package_id": "local.washingmachine",
+      "workshop_id": "3820234705",
+      "state": 5
+    },
+    {
+      "package_id": "lotusland.weaponupgrade",
+      "workshop_id": "3395769930",
+      "state": 5
+    },
+    {
+      "package_id": "lts.i",
+      "workshop_id": "3223443793",
+      "state": 5
+    },
+    {
+      "package_id": "lwm.deepstorage",
+      "workshop_id": "3532608331",
+      "state": 5
+    },
+    {
+      "package_id": "m00nl1ght.mappreview",
+      "workshop_id": "2800857642",
+      "state": 5
+    },
+    {
+      "package_id": "mehni.pickupandhaul",
+      "workshop_id": "1279012058",
+      "state": 5
+    },
+    {
+      "package_id": "memegoddess.giddyup",
+      "workshop_id": "3674332861",
+      "state": 5
+    },
+    {
+      "package_id": "memegoddess.replacestuff",
+      "workshop_id": "3526354009",
+      "state": 5
+    },
+    {
+      "package_id": "memegoddess.runandgun",
+      "workshop_id": "3562365100",
+      "state": 5
+    },
+    {
+      "package_id": "memegoddess.smartmedicine",
+      "workshop_id": "3526251680",
+      "state": 5
+    },
+    {
+      "package_id": "migcorp.skiptech",
+      "workshop_id": "3626074566",
+      "state": 5
+    },
+    {
+      "package_id": "mlie.showmeyourhands",
+      "workshop_id": "2475965842",
+      "state": 5
+    },
+    {
+      "package_id": "mrk.architectmenuoptimizer",
+      "workshop_id": "3697920753",
+      "state": 5
+    },
+    {
+      "package_id": "nals.facialanimation",
+      "workshop_id": "1635901197",
+      "state": 5
+    },
+    {
+      "package_id": "ninagoblin.nooneleftbehind",
+      "workshop_id": "3536586707",
+      "state": 5
+    },
+    {
+      "package_id": "oskarpotocki.vanillavehiclesexpanded",
+      "workshop_id": "3014906877",
+      "state": 5
+    },
+    {
+      "package_id": "rabiosus.minesight",
+      "workshop_id": "3769804600",
+      "state": 5
+    },
+    {
+      "package_id": "ray1203.simplecamerasetting",
+      "workshop_id": "3232415388",
+      "state": 5
+    },
+    {
+      "package_id": "rebuild.cotr.doorsandcorners",
+      "workshop_id": "3262718980",
+      "state": 5
+    },
+    {
+      "package_id": "redmattis.bettergeneinheritance",
+      "workshop_id": "3046776238",
+      "state": 5
+    },
+    {
+      "package_id": "reel.turretpipeline",
+      "workshop_id": "3424132769",
+      "state": 5
+    },
+    {
+      "package_id": "salvador143.shuttledock",
+      "workshop_id": "3648642429",
+      "state": 5
+    },
+    {
+      "package_id": "sarg.alphaanimals",
+      "workshop_id": "1541721856",
+      "state": 5
+    },
+    {
+      "package_id": "sarg.alphagenes",
+      "workshop_id": "2891845502",
+      "state": 5
+    },
+    {
+      "package_id": "sarg.smartodyssey",
+      "workshop_id": "3522762411",
+      "state": 5
+    },
+    {
+      "package_id": "sarg.smartspeed",
+      "workshop_id": "1504723424",
+      "state": 5
+    },
+    {
+      "package_id": "sbz.gravshipstorage",
+      "workshop_id": "3537905298",
+      "state": 5
+    },
+    {
+      "package_id": "sbz.neatstorage",
+      "workshop_id": "3416243474",
+      "state": 5
+    },
+    {
+      "package_id": "sbz.neatstoragefridge",
+      "workshop_id": "3486264784",
+      "state": 5
+    },
+    {
+      "package_id": "sbz.neatstorageworkbenchshelf",
+      "workshop_id": "3484671309",
+      "state": 5
+    },
+    {
+      "package_id": "seohyeon.yart",
+      "workshop_id": "3745434121",
+      "state": 5
+    },
+    {
+      "package_id": "shunter.bettertradersguild",
+      "workshop_id": "3684587591",
+      "state": 5
+    },
+    {
+      "package_id": "smashphil.vehicleframework",
+      "workshop_id": "3014915404",
+      "state": 5
+    },
+    {
+      "package_id": "stm.shellabackgrounds",
+      "workshop_id": "2853407446",
+      "state": 5
+    },
+    {
+      "package_id": "tsa.worlddomination",
+      "workshop_id": "3646291383",
+      "state": 5
+    },
+    {
+      "package_id": "vanillaexpanded.ideo.sophianstyle",
+      "workshop_id": "3194606539",
+      "state": 5
+    },
+    {
+      "package_id": "vanillaexpanded.outposts",
+      "workshop_id": "2688941031",
+      "state": 5
+    },
+    {
+      "package_id": "vanillaexpanded.recycling",
+      "workshop_id": "3155781848",
+      "state": 5
+    },
+    {
+      "package_id": "vanillaexpanded.skills",
+      "workshop_id": "3400246558",
+      "state": 5
+    },
+    {
+      "package_id": "vanillaexpanded.temperature",
+      "workshop_id": "3202046258",
+      "state": 5
+    },
+    {
+      "package_id": "vanillaexpanded.vanillaanimalsexpanded",
+      "workshop_id": "2871933948",
+      "state": 5
+    },
+    {
+      "package_id": "vanillaexpanded.vanillafoodvarietyexpanded",
+      "workshop_id": "3334272487",
+      "state": 5
+    },
+    {
+      "package_id": "vanillaexpanded.vanillatraitsexpanded",
+      "workshop_id": "2296404655",
+      "state": 5
+    },
+    {
+      "package_id": "vanillaexpanded.vcef",
+      "workshop_id": "1914064942",
+      "state": 5
+    },
+    {
+      "package_id": "vanillaexpanded.vchemfuele",
+      "workshop_id": "2792917473",
+      "state": 5
+    },
+    {
+      "package_id": "vanillaexpanded.vcookestews",
+      "workshop_id": "2134312965",
+      "state": 5
+    },
+    {
+      "package_id": "vanillaexpanded.vfearchitect",
+      "workshop_id": "2608762624",
+      "state": 5
+    },
+    {
+      "package_id": "vanillaexpanded.vfeart",
+      "workshop_id": "1968134023",
+      "state": 5
+    },
+    {
+      "package_id": "vanillaexpanded.vfefactory",
+      "workshop_id": "3686924415",
+      "state": 5
+    },
+    {
+      "package_id": "vanillaexpanded.vfefarming",
+      "workshop_id": "1957158779",
+      "state": 5
+    },
+    {
+      "package_id": "vanillaexpanded.vfemedical",
+      "workshop_id": "1718191613",
+      "state": 5
+    },
+    {
+      "package_id": "vanillaexpanded.vfepower",
+      "workshop_id": "2062943477",
+      "state": 5
+    },
+    {
+      "package_id": "vanillaexpanded.vfeproduction",
+      "workshop_id": "1880253632",
+      "state": 5
+    },
+    {
+      "package_id": "vanillaexpanded.vfepropsanddecor",
+      "workshop_id": "2102143149",
+      "state": 5
+    },
+    {
+      "package_id": "vanillaexpanded.vfespacer",
+      "workshop_id": "2028381079",
+      "state": 5
+    },
+    {
+      "package_id": "vanillaexpanded.vgeneticse",
+      "workshop_id": "2801160906",
+      "state": 5
+    },
+    {
+      "package_id": "vanillaexpanded.vhe",
+      "workshop_id": "1888705256",
+      "state": 5
+    },
+    {
+      "package_id": "vanillaexpanded.vmemese",
+      "workshop_id": "2636329500",
+      "state": 5
+    },
+    {
+      "package_id": "vanillaexpanded.vnutriente",
+      "workshop_id": "2920385763",
+      "state": 5
+    },
+    {
+      "package_id": "vanillaexpanded.vplantse",
+      "workshop_id": "2134308522",
+      "state": 5
+    },
+    {
+      "package_id": "vanillaexpanded.vpsycastse",
+      "workshop_id": "2842502659",
+      "state": 5
+    },
+    {
+      "package_id": "vanillaexpanded.vtexe",
+      "workshop_id": "2016436324",
+      "state": 5
+    },
+    {
+      "package_id": "vanillaexpanded.vwe",
+      "workshop_id": "1814383360",
+      "state": 5
+    },
+    {
+      "package_id": "vanillaexpanded.vwehw",
+      "workshop_id": "2329126791",
+      "state": 5
+    },
+    {
+      "package_id": "vanillaexpanded.vwel",
+      "workshop_id": "1989352844",
+      "state": 5
+    },
+    {
+      "package_id": "vanillaexpanded.vwenl",
+      "workshop_id": "2454918354",
+      "state": 5
+    },
+    {
+      "package_id": "vanillaracesexpanded.sanguophage",
+      "workshop_id": "2963116383",
+      "state": 5
+    },
+    {
+      "package_id": "void.charactereditor",
+      "workshop_id": "1874644848",
+      "state": 5
+    },
+    {
+      "package_id": "vortex.customizeweapon",
+      "workshop_id": "3550585103",
+      "state": 5
+    },
+    {
+      "package_id": "zeracronius.dynamictradeinterface",
+      "workshop_id": "3020706506",
+      "state": 5
+    },
+    {
+      "package_id": "zhuma.xenotypesummary",
+      "workshop_id": "3710012135",
+      "state": 5
+    },
+    {
+      "package_id": "vortex.customizeweapon",
+      "workshop_id": "3550585103",
+      "state": 5
+    },
+    {
+      "package_id": "gogatio.mechanoidupgrades",
+      "workshop_id": "3365118555",
+      "state": 5
+    },
+    {
+      "package_id": "ilyvion.loadingprogress",
+      "workshop_id": "3535481557",
+      "state": 5
+    }
+  ]
+}

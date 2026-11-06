@@ -55,7 +55,7 @@
   },
   "publication": {
     "github_url": "https://github.com/Antyhc/RimWorld-Russian-Translations/tree/main/mods/leo.cleancommandbar",
-    "github_status": "published",
+    "github_status": "translation_published",
     "workshop_url": "https://steamcommunity.com/sharedfiles/filedetails/?id=3834788420",
     "workshop_id": "3834788420",
     "workshop_status": "published_public_page_verification_pending",
@@ -113,7 +113,7 @@
     "work_stage": "installed_local",
     "saved_translation_store": true
   },
-  "work_stage": "published_workshop_installation_check_pending",
+  "work_stage": "published_workshop_verified_website_check_pending",
   "duplicate_translation": {
     "status": "checked_no_current_equivalent",
     "checked_at": "2026-11-06T17:02:56.259645+00:00",

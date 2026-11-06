@@ -1,0 +1,23 @@
+{
+  "schema_version": 1,
+  "generated_at": "2026-11-06",
+  "repository": "caesarv6/DamageIndicators",
+  "ref": "master",
+  "tree_sha": "4873726e9ed7d7722099d31758c97417319fd90e",
+  "scope": "Whole repository: Git blob/gitlink object IDs only; no original file content.",
+  "files": {
+    ".gitignore": "d73d92724b93efea8a83063fb992ecace5737d0b",
+    "1.1/Assemblies/DamageMotes.dll": "f8a8ef5e4222311a719ef1742690ecaab8c3bd4c",
+    "1.4/Assemblies/DamageMotes.dll": "7ca2f39a6926771994e2f50f8357d038d692eeef",
+    "About/About.xml": "4522a4f3fec55eae8184910bc6855fd4ade86e64",
+    "About/preview.png": "a83e87920b847a240f6f5d88decf9622efababa1",
+    "About/PublishedFileId.txt": "de9379a4280fbd3efcee5523e3094a407434bfe3",
+    "Languages/English/Keyed/AllKeyed.xml": "a9ec51112eeb76a9098636f9b32fe4665a5c8d0f",
+    "LICENSE": "5ab49bf62158c5562568a8aed87f53883e9d39c8",
+    "Source/DamageMotes/DamageMotes.csproj": "b7fd2989d874bef2018a050610d9f73a07d99615",
+    "Source/DamageMotes/ModSettings.cs": "fa1d8d5f24beb82e1072f3344b24d411d3d57b2e",
+    "Source/DamageMotes/Patch.cs": "29578abb970afe5ebcb3ddf24643f94d7cad8c64",
+    "Source/DamageMotes/Properties/AssemblyInfo.cs": "4b380dbd71499b9b0d7c06e20fedf24f80d97cd1",
+    "Source/Source.sln": "3356b070a7f96036ff1acac14370a24580923b9d"
+  }
+}

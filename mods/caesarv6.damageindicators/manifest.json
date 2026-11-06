@@ -8,10 +8,17 @@
   ],
   "rights": {
     "translation": {
-      "status": "unknown",
-      "license": null,
-      "evidence": null,
-      "attribution": null
+      "status": "confirmed",
+      "license": "MIT",
+      "evidence": "https://github.com/caesarv6/DamageIndicators/blob/4873726e9ed7d7722099d31758c97417319fd90e/LICENSE",
+      "attribution": "Original mod: Damage Indicators [1.7] by Spdskatr, CaesarV6. Copyright (c) 2017 spdskatr Original Workshop: https://steamcommunity.com/sharedfiles/filedetails/?id=2016331497. Original source: https://github.com/caesarv6/DamageIndicators. Russian additions: Antyhc, 2026; retain the applicable MIT terms.",
+      "scope": "Our independently authored Russian adaptation of textual source material in this repository; no third-party Russian files, code, assemblies, or artwork included.",
+      "obligations": [
+        "Retain the original copyright and permission notice in all copies or substantial portions of the translated material.",
+        "Attribute the original authors and identify Antyhc's Russian additions; do not reuse unrelated third-party Russian wording without its own permission."
+      ],
+      "source_permission_review": "community/rights-updates.public.json",
+      "source_permission_checked_date": "2026-11-06"
     },
     "icon": {
       "status": "unknown",
@@ -52,12 +59,35 @@
       "1.6",
       "1.7"
     ],
-    "repository_url": null,
+    "repository_url": "https://github.com/caesarv6/DamageIndicators",
     "repository_candidates": [
       "https://github.com/pardeike/HarmonyRimWorld"
     ],
-    "repository_verification": "not_remote_checked",
-    "activity": "not_remote_checked"
+    "repository_verification": "current_remote_About_package_id_matches_original",
+    "activity": "not_remote_checked",
+    "verified_source_identity": {
+      "status": "verified_current_remote_about_package_id_matches",
+      "package_id_as_declared": "CaesarV6.DamageIndicators",
+      "name": "Damage Indicators [1.7]",
+      "author": "Spdskatr, CaesarV6",
+      "supported_versions": [
+        "1.1",
+        "1.2",
+        "1.3",
+        "1.4",
+        "1.5",
+        "1.6",
+        "1.7"
+      ],
+      "about_url": "https://github.com/caesarv6/DamageIndicators/blob/4873726e9ed7d7722099d31758c97417319fd90e/About/About.xml",
+      "about_blob_sha": "4522a4f3fec55eae8184910bc6855fd4ade86e64",
+      "source_commit": "4873726e9ed7d7722099d31758c97417319fd90e",
+      "repository_url": "https://github.com/caesarv6/DamageIndicators",
+      "checked_date": "2026-11-06",
+      "evidence_file": "community/rights-updates.public.json",
+      "metadata_scope": "Remote source identity only. These version declarations do not upgrade the release or installed-mod compatibility claims."
+    },
+    "default_branch": "master"
   },
   "inventory": {
     "saved_records": 8,
@@ -82,5 +112,12 @@
     "work_stage": "installed_local",
     "saved_translation_store": true
   },
-  "work_stage": "installed_local"
+  "work_stage": "installed_local",
+  "monitor": {
+    "github_tree": {
+      "repository": "caesarv6/DamageIndicators",
+      "ref": "master",
+      "baseline_file": "source.tree.json"
+    }
+  }
 }

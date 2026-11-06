@@ -1,0 +1,95 @@
+{
+  "schema_version": 1,
+  "checked_at": "2026-11-06T17:27:02.406706+00:00",
+  "package_id": "imranfish.xmlextensions",
+  "scope": "Current source-matched 24 own target fields compared with complete independently downloaded Steam reference payloads. No third-party Russian wording copied. No game test of those reference packages.",
+  "current_equivalent_workshop_id": "3818474366",
+  "original_native_russian_present": false,
+  "records": [
+    {
+      "workshop_id": "2709181459",
+      "url": "https://steamcommunity.com/sharedfiles/filedetails/?id=2709181459",
+      "package_id": "ru.pashka.imranfish.xmlextensions",
+      "supported_versions": [
+        "1.2",
+        "1.3",
+        "1.4",
+        "1.5",
+        "1.6"
+      ],
+      "covered_target_count": 23,
+      "missing_ids": [
+        "Keyed|XmlExtensions_SearchResults"
+      ],
+      "files_sha256": {
+        "About/About.xml": "44393ff29a42378c9255992bf965747dd02b893d5103e8afa2719b2e97f4ef30",
+        "About/Manifest.xml": "fc94e700985829741410628f45e35ac28feccb994b82fd8ec204b0c586c554ab",
+        "About/ModIcon.png": "48a35a7758e62740dc88ad0c946eabc832befbd6917df82ac51d270f2ef6edb1",
+        "About/preview.png": "52851dce87eae9240a09c0329e0953131b89f7f071431e20e89843bb10e35a0d",
+        "About/PublishedFileId.txt": "1e7c7628ca20a3db736e7f798228b9c2a371181dc0bfe8bdf57184c0eb930728",
+        "Languages/Russian/DefInjected/MainButtonDef/MainButtonDefs_MainButtonDef.xml": "ce356adffec3668d10229810d96059e03b5456d0755de4c23972e046c58b2759",
+        "Languages/Russian/Keyed/XMLExtensions_Keyed_EN.xml": "d2811acef77e6265384abe3ce64b7bb6daf469b26cec949be50747419b168612"
+      },
+      "translation_rows": 24
+    },
+    {
+      "workshop_id": "2885465596",
+      "url": "https://steamcommunity.com/sharedfiles/filedetails/?id=2885465596",
+      "package_id": "am.rus.xmlextensions",
+      "supported_versions": [
+        "1.2",
+        "1.3",
+        "1.4",
+        "1.5"
+      ],
+      "covered_target_count": 21,
+      "missing_ids": [
+        "Keyed|XmlExtensions_SearchResults",
+        "Keyed|XmlExtensions_ShowSettingsButton",
+        "Keyed|XmlExtensions_ShowSettingsButtonTip"
+      ],
+      "files_sha256": {
+        "About/About.xml": "70f918cda691a16d7de8ee04d0a9b4cedaaea2215792724df18d9d6b1e682b3a",
+        "About/Preview.png": "223b4ed0ba231b4669f3b08fcf1ce26a5caf141e6c977360c0be5a547368ecc9",
+        "About/PublishedFileId.txt": "a9d0701fe392e6794eeddb2bbcb1884314a0a40274129173cf9cfa2d44c45313",
+        "Languages/Russian/DefInjected/MainButtonDef/MainButtonDefs.xml": "2c660269cd0d80307254c233d836a61d736d19723d6a6b127016a9a4b401c09a",
+        "Languages/Russian/Keyed/XMLExtensions_Keyed_EN.xml": "f3e769fea12a08bae22315ab69cecb9a06c37d4fd6b144453e1332d38ab96814"
+      },
+      "translation_rows": 47
+    },
+    {
+      "workshop_id": "3818474366",
+      "url": "https://steamcommunity.com/sharedfiles/filedetails/?id=3818474366",
+      "package_id": "starsky.rimworld.ru.2574315206",
+      "supported_versions": [
+        "1.6"
+      ],
+      "covered_target_count": 24,
+      "missing_ids": [],
+      "files_sha256": {
+        "About/About.xml": "203a524b5b4502a4674fd2e8a5702c75d179d0b7dd19ec8f3ed66929c2027cef",
+        "About/Preview.png": "13dd5e404bc1795ddb907ac57eb8a44aed342c6ac9988ce01d80d8f658cbe567",
+        "Assemblies/RU2574315206.dll": "215cac379d656d08daafcada59e29a5e43fe5d99b086b58b0f901aaba8ffc2d4",
+        "CHANGELOG.md": "9b6556c70d7db9aeb24c092c1f7212e6e9af87f126ff38b0e060952917b2d386",
+        "Languages/Russian/DefInjected/MainButtonDef/Translations.xml": "a0ab8f4b043c56d8b770681fa0189825b544714355fdf627bb6f41d401d0d326",
+        "Languages/Russian/Keyed/Translations.xml": "faa9cd243b050d757b47cf96a5dec8733d42a67403c3b35bb123d7cd67733cbf",
+        "LICENSE": "605e9047a563c5c8396ffb18232aa4304ec56586aee537c45064c6fb425e44ad",
+        "Licenses/CC-BY-SA-4.0.txt": "cde7883b9050a1104f4ac19a1572aafd6e5d7323b68351aaf51fbf4beba54966",
+        "Licenses/MIT.txt": "8a32425e028111706b44ae429746c725582435de638e3306dd98a4fa8861bff8",
+        "NOTICES.md": "5fd8c71c0c0e9220e75f8a08acc982a8b10b39f818f34e0027fada0a8756f540",
+        "OverrideSources.xml": "6912f0fe793e4649b85f372f695abf5d8aaa4aafac58d7a843d4ec9a5840eeae",
+        "README.md": "04ad4865412754a65a8a356e38807b0a5f2bcc97f270143f6334f2506df41a1c",
+        "WORKSHOP_DESCRIPTION.bbcode": "c44706fc005807fc498242201e91d7643a59022eb780a99992b3835542bfdcba"
+      },
+      "translation_rows": 28
+    }
+  ],
+  "decision": "Do not create another Workshop page solely on the basis of the same complete XML target coverage. Existing Star Sky package declares 1.6 and contains its own assembly; actual 1.7 runtime compatibility was not tested and must not be inferred from XML coverage alone. Original integration PR remains useful because the original has no native Russian.",
+  "primary_configuration_unchanged": true,
+  "temporary_downloads_archived": false,
+  "subscriptions_changed": false,
+  "private_reference_copies_verified": true,
+  "live_reference_caches_retained_for_steam_chunk_reuse": true,
+  "reference_code_not_executed": true,
+  "existing_equivalent_package_contains_assembly": true
+}
