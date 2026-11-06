@@ -17,7 +17,8 @@
     "3830050048",
     "3830078437",
     "3834788420",
-    "3834796180"
+    "3834796180",
+    "3834810607"
   ],
   "membership_automation": "Official SteamUGC AddDependency and RemoveDependency with fresh membership readback.",
   "website_publication_verified": false,
@@ -35,7 +36,7 @@
     "retained_without_deletion": true,
     "superseded_reason": "Native-created draft had incorrect web-collection creation context and failed owner web save; replaced through the official web wizard. No duplicate public collection or translation items created."
   },
-  "membership_checked_at": "2026-11-06T17:25:08.077681+00:00",
+  "membership_checked_at": "2026-11-06T17:49:16.282946+00:00",
   "membership_evidence": "community/release-status-2026-11-06.json",
   "currently_unavailable_member_ids": [
     "3830078437"

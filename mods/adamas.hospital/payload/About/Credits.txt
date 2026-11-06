@@ -1,0 +1,7 @@
+Original mod: Hospital by Adamas.
+Original Workshop: https://steamcommunity.com/sharedfiles/filedetails/?id=2992224079
+Original source: https://github.com/tomvd/Hospital
+Original license: GNU GPL version 3; exact copy retained in About/License.txt.
+Russian XML additions: Antyhc, 2026, GNU GPL version 3, AI-assisted authoring and review with OpenAI Codex. Editable corresponding source is included in Languages/Russian.
+This package changes only language text and metadata; it contains no original DLLs or textures and copies no third-party Russian wording.
+Preview.png: original typographic artwork by Antyhc, 2026, MIT; no original mod artwork used.

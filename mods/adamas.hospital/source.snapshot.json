@@ -1,0 +1,630 @@
+{
+  "schema_version": 1,
+  "generated_at": "2026-11-06T17:39:57.705753+00:00",
+  "scope": "83 independently authored current Hospital entries; preserved old private source context, with fresh physical landing-spot label verification.",
+  "strings": {
+    "DefInjected|IncidentDef|MassCasualtyEvent.label": "1606ea4e0549b46fefa4b09335e22628721bbc0bde28a32074272571cae999bb",
+    "DefInjected|IncidentDef|MassCasualtyEvent.letterLabel": "cfdde968b06d4a6f8c9b85f164c407bf90a611f1d682d6bed8ed34bbeb8d1912",
+    "DefInjected|IncidentDef|MassCasualtyEvent.letterText": "6b4e08f42bf530e573af322531a3bf3e46cf7459c6123a3656e14f0df24898ae",
+    "DefInjected|IncidentDef|PatientArrives.label": "d96ba20424956aed9cfabea2585318f9877ef8096248dc491009f394512f819b",
+    "DefInjected|IncidentDef|PatientArrives.letterLabel": "97ec597eb45bc9c51ce35553362317a397d59b3d2d4e313b78e226ac0f1606c3",
+    "DefInjected|IncidentDef|PatientArrives.letterText": "8e8ae4c3ee49a0ef5c325b4d08388a6188b76513f8c3ee3884074f1093cfcd0c",
+    "DefInjected|MainButtonDef|Patients.description": "f4c14beade6d1c2295531b920a93271234a9f15941516a70608fa04446dbbe92",
+    "DefInjected|MainButtonDef|Patients.label": "9f9c7cfdeee2409d9d6770d7be17c722d0e974b4f34240bc5616b57d3ae33e5d",
+    "DefInjected|PawnColumnDef|PatientBill.headerTip": "9eca6260e711cccfe39836ad54974f005582202c956f085537832765acd3af5e",
+    "DefInjected|PawnColumnDef|PatientBill.label": "623210167553939c87ed8c5f2bfe0b3e0684e12c3a3dd2513613c4e67263b5a1",
+    "DefInjected|PawnColumnDef|PatientCure.headerTip": "f749832a59d702a41a12deebf717a36b3dd27b5bc9306c0f6b1b4dd2ee80fe95",
+    "DefInjected|PawnColumnDef|PatientCure.label": "60c411b2baec2ab58d4494dd7a1efcec94ed33e8737a24a920ab58a59284208d",
+    "DefInjected|PawnColumnDef|PatientDiagnosis.headerTip": "7bdbac43ad31afc0ecf484e3af3538fb24133ea4f67967f71661017ea6a667e0",
+    "DefInjected|PawnColumnDef|PatientDiagnosis.label": "b54e2b152c2135f45dfca42c67ec11c8a8d6076f1796f3deaa64a752c1d4efa8",
+    "DefInjected|PawnColumnDef|PatientRating.headerTip": "902ee0fe187b5a492988f2b10911c39eabf4293100dbe3682e781c9f098aa590",
+    "DefInjected|PawnColumnDef|PatientRating.label": "112895d7af6c125315cd807a911473c05eb9779bf7cd459c5e29db919ccbf408",
+    "DefInjected|PawnColumnDef|PatientTimeSpent.headerTip": "bb8d59c955e038b6d936bd7e6c7f75d56b23d358b32d1acb238899c4664317a2",
+    "DefInjected|PawnColumnDef|PatientTimeSpent.label": "37972dc717163a07c883c88c1751f668c8bde441dbbbcdb9499eabd5fc880c13",
+    "DefInjected|ThingDef|PatientLandingSpot.description": "a3eb3274a315fc9f678484cb4108e5e3dd43f8b94f3456fffdb85f203413a633",
+    "DefInjected|ThingDef|PatientLandingSpot.label": "a9e4454bf81aa0bc05827c42de22c0829d4a4964d21c218eaa468ff8a6b35605",
+    "Keyed|AcceptDanger": "d74baa48284a3aa0c00e9b843474a827f371ee887a8e33d163ef5ea1cabb7064",
+    "Keyed|AcceptDangerTooltip": "038fbf17279c27fb5a653a3267c07f25d757c86ff002ec3b487ba780762e7bb4",
+    "Keyed|AcceptPatients": "e0e219d662d5dc3a958d0cc5a1a10d92f958e90e0ad90a178a860fb9550d92fb",
+    "Keyed|AcceptPatientsTooltip": "1a4445efb5f97efb091aa68476afba920ce4019a866babd5692f2a5eaf2c1461",
+    "Keyed|AcceptSurgery": "f883fe50f5006dc2ab03680fbc47631ca340c56c4fda8f685b58241d0d34cafd",
+    "Keyed|AcceptSurgeryTooltip": "f8808d576ced1aa93908456d21dfff8cbb921a076c33d50c77c854c0cf51516f",
+    "Keyed|BedsFilled": "7d6fb04a0f534a7ce5a4c2c35234bb87e2ef9848d6558e5b8dbe6aeddae81020",
+    "Keyed|BedsReserved": "db75fef9f7e90f9fd75155cd4f60082cd9eb0264b7e07671b1c435b0e166dfd2",
+    "Keyed|BedsReservedTooltip": "bb0aa141c7c18dc232344c0d3035b3d93a0cc84d898c3f8858ea7acd6cdcc6be",
+    "Keyed|BlacklistDiseases": "b93646ea1de81c5e6ad345ad40327bd00c85023675a25ebf82ecbe13f778bfdb",
+    "Keyed|BlacklistDiseasesTitle": "1f2e86a660dad2ed22d47ce2e6f43070e0b0f9097b76fc14885618eba8af90f9",
+    "Keyed|BlacklistFactions": "b0c23f0037c2e1fb88371432fe681e66c92deec842f3f93b8708cfcc418d92c5",
+    "Keyed|BlacklistFactionsTitle": "940f9a63e9e5d28948bc30474b2f705709eed6ae42bb17181c0a761f64707083",
+    "Keyed|BlacklistHint": "649669079760d2e93768e1b39307497af2f57f205f3bb0e21b25f935f2d030e7",
+    "Keyed|BlacklistSurgeries": "b78e575b5e6dbe864feeedb63b2e8493072bfa9e4cae822db37e3eaf578934be",
+    "Keyed|BlacklistSurgeriesTitle": "51123af8f3e51599a0d9d53baafaeb93f5cd6f66613012253865179aaf78d10f",
+    "Keyed|Blacklists": "144a17bc4fce4338681b5502a6359b7924906eb3be6030fa11fa8443c005dac2",
+    "Keyed|CommandBedSetAsHospitalDesc": "e9a4c4cc20ba2e5228f20e403daf7d173caa8bedfdf4babf765b69d7233be146",
+    "Keyed|CommandBedSetAsHospitalLabel": "e7c9c30721885e02b76c4ad150149431773eac2971ed600bb54b2505a413e063",
+    "Keyed|CommandBedSetAsSurgeryDesc": "8d825cabda54ccaaa7c2c767cf72c88321196a5411114884f694ffb02d4f9e31",
+    "Keyed|CommandBedSetAsSurgeryLabel": "e619593e37884ad7de9ab8cbf1e07cec548d7b7b2d33febd284a0e62c465c52f",
+    "Keyed|CureDisease": "8b8824fe6ecfe482cb2f53a225c7dbdfd2d7a088b5c9674e35c03c48ca446617",
+    "Keyed|CureWounds": "47172fb4f7c0a0c4da1e02e2f85675e65f668fb43655e639b8d6b861c77ddefd",
+    "Keyed|DeathGoodwillPenalty": "89c61b9ae9a9c5f04c9dd4ef00644712c975b0928ebebc25531b897eecda038a",
+    "Keyed|DeathGoodwillPenaltyTooltip": "809cfcee8019e689204a89be93e2f866cb74aa201d831dbe0ebc7d37cb22b0fd",
+    "Keyed|DiagnosisArtificialBodyPart": "cf1f6f1ad7f9a8bdab4049ad3b21d0f16420592825b54661cf6262c59a74fbc7",
+    "Keyed|DiagnosisSurgeryNoPart": "f898da66655409aecc6c232451326ad8c0dc4a5a77334b9c0e89664d10d6d5b7",
+    "Keyed|DiagnosisSurgeryOnPart": "74d456749c1a2f734ffc84551c22abc0411c96f3b3e2ce1f2a9b033d3aaf2544",
+    "Keyed|DiagnosisWounds": "b4e20a1ea41ffba5e893081f298444d7548748c8d398fbe7be834696f1c4af68",
+    "Keyed|DifficultySettings": "be44133ed57f9e44f829282224b15981f033e9b0acc5458070e10104509eb398",
+    "Keyed|Disallow": "1c1579736e9bee88ab4749696edc7b53c527ec1ad6733039e47112230e174119",
+    "Keyed|DiseaseSeverityMultiplier": "09f1d96859290fa2666bb0561023b54f8864f2229d86d08959cd0f7f56748a2c",
+    "Keyed|DiseaseSeverityMultiplierTooltip": "04de1e83818177f562d2e37c69d8666e021bb042a1d8e63c324a9aace673f4b5",
+    "Keyed|Dismiss": "48845bff334a50a59aaecf499f28a7a24c3b4b891b8b18a9f1169ad8e8a6b261",
+    "Keyed|GoodwillGainMultiplier": "494fecc649c2dc45700ff5932d4d5bf4c49cfc4ab1f3df015de86ceb97b2dc87",
+    "Keyed|GoodwillGainMultiplierTooltip": "403726a9f69331412398ee84a3b20071bc8fde027488865894886e1a88a3eaa8",
+    "Keyed|HospitalBlacklisted": "6da24d2a58a132adb6a7af67f1ed6601493ce9510b82a86c69b3cca532bc1631",
+    "Keyed|HospitalMapSettings": "e363dad956cfd5cff694cf41fc9a0d94f3bc644a66ec8aa5928679a13d1b207e",
+    "Keyed|HospitalPatientDied": "1d3fc7a32ec0135a3d4f4f7f6aca3771e8497e53bd8639e8847ae5a235250b50",
+    "Keyed|HospitalPatientDismissed": "69f0d5161999d8c180dade40f2c1ed51017e158c9bbdc032cf35fab55c4a22c7",
+    "Keyed|HospitalPatientLeaves": "c0d3d621e5c8f1134ace5b315ab8dfee8f759ea98a99b649c816e781e880d0b3",
+    "Keyed|HospitalPatientLeavesNoFaction": "3ac5e2ec3e587ac1991128ea87126cb057853ce6502dcd53bb98f112dffdd845",
+    "Keyed|HospitalSettings": "a9c94013e5a6bc52659f8b1ab7e6221b39eaa6816611e6a1b8f0d4bc5a7ec401",
+    "Keyed|HospitalSurgeryFailed": "103c83d2b4952add29740b30adc080146d001fd41573abb32555be3f0d59664e",
+    "Keyed|MCE_Crash": "182a8009e9a02c8e34982c1ee8c9f83457718a55b308638bf56dac945e9d403c",
+    "Keyed|MCE_Fire": "6aaa80fdce3ba2dada2ee362e3c124a9c396ad016973a5da20e566c19d2a0a83",
+    "Keyed|MCE_Pandemic": "77ff379203469594dbf5b6cdc0b17a6f2474ecd813597bcd3e37b8b26be4d109",
+    "Keyed|MCE_Raid": "725672e796a9400eb97c0b18e3ca7d004adc69a3996d07924af411411fc31625",
+    "Keyed|MassCasualties": "a9a109a001047c2c661cf23f07457f79f94d25625a3716ddb1911c8e94b88f6c",
+    "Keyed|MassCasualtiesTooltip": "71c60c12d2beb97eed0db010e2f5f070cc1f1ef0ca6b707095c9b44846fe4eff",
+    "Keyed|PatientsTab": "bdfd3f2381fce726a1745cab951a1fb49baf01b3e9ea901d4c058a5891d517e6",
+    "Keyed|PreventIncapacitatedArrivals": "8bf5d41495119c92b9456103fa863d9b81819c95143d41b85d3f004a3e6b4f3c",
+    "Keyed|PreventIncapacitatedArrivalsTooltip": "ba64391f7f40b296980fd478b3410a39b0164b9b1b1c2dc7dd18d0bddb1ae7f5",
+    "Keyed|RefusedOperations": "96cc04d3f6777083482175f3f6f1a067dbf86659dc964dfdcf920e652d93d6b9",
+    "Keyed|ResetToDefaults": "e240e635ff6dce4ff2ac0b90a84889cff420f2c9a56014543e78f366681820db",
+    "Keyed|ShowMessageAtArrival": "e528553c390931d62dd069bb3522969b91a6f979243e67f26e225af9910cbd8a",
+    "Keyed|ShowMessageAtArrivalTooltip": "1a9a6f059663cba9a2cd939e70e9fd6dbe9afd07ff43c1e5114657a903200c18",
+    "Keyed|SilverMultiplier": "c96e6b79e3b5385644238839f08aba2e8d6d32c70b5b0968d149f0d4001a4d92",
+    "Keyed|SilverMultiplierTooltip": "51300615803a6d56b397ac69d79c7ad46021f70d9b746eb98f230c085c1fac63",
+    "Keyed|SurgeryFailGoodwillPenalty": "e2f9c7ed792bcb6bedf7f7179e0d5571206d722c70e27e7e4312ef426cdbbeee",
+    "Keyed|SurgeryFailGoodwillPenaltyTooltip": "50fe75d3b5223469e48def1612d9c8ffe0696ba1e73ae5f6d1a83da7c8203cae",
+    "Keyed|WoundSeverityMultiplier": "e2a16fe2d34657dc7a1b51decb747d4de76d527fc2b5ba0253d0a550aef49b64",
+    "Keyed|WoundSeverityMultiplierTooltip": "d04564c2e15e3ab045a98d7451a9fe5e54c5f94f24dd450e1f9022518fa15455"
+  },
+  "signatures": {
+    "DefInjected|IncidentDef|MassCasualtyEvent.label": {
+      "source_hash": "1606ea4e0549b46fefa4b09335e22628721bbc0bde28a32074272571cae999bb",
+      "tokens": [],
+      "tags": [],
+      "source_empty": false
+    },
+    "DefInjected|IncidentDef|MassCasualtyEvent.letterLabel": {
+      "source_hash": "cfdde968b06d4a6f8c9b85f164c407bf90a611f1d682d6bed8ed34bbeb8d1912",
+      "tokens": [],
+      "tags": [],
+      "source_empty": false
+    },
+    "DefInjected|IncidentDef|MassCasualtyEvent.letterText": {
+      "source_hash": "6b4e08f42bf530e573af322531a3bf3e46cf7459c6123a3656e14f0df24898ae",
+      "tokens": [
+        "{0}",
+        "{1}"
+      ],
+      "tags": [],
+      "source_empty": false
+    },
+    "DefInjected|IncidentDef|PatientArrives.label": {
+      "source_hash": "d96ba20424956aed9cfabea2585318f9877ef8096248dc491009f394512f819b",
+      "tokens": [],
+      "tags": [],
+      "source_empty": false
+    },
+    "DefInjected|IncidentDef|PatientArrives.letterLabel": {
+      "source_hash": "97ec597eb45bc9c51ce35553362317a397d59b3d2d4e313b78e226ac0f1606c3",
+      "tokens": [],
+      "tags": [],
+      "source_empty": false
+    },
+    "DefInjected|IncidentDef|PatientArrives.letterText": {
+      "source_hash": "8e8ae4c3ee49a0ef5c325b4d08388a6188b76513f8c3ee3884074f1093cfcd0c",
+      "tokens": [
+        "{0}",
+        "{1}",
+        "{PAWN_possessive}"
+      ],
+      "tags": [],
+      "source_empty": false
+    },
+    "DefInjected|MainButtonDef|Patients.description": {
+      "source_hash": "f4c14beade6d1c2295531b920a93271234a9f15941516a70608fa04446dbbe92",
+      "tokens": [],
+      "tags": [],
+      "source_empty": false
+    },
+    "DefInjected|MainButtonDef|Patients.label": {
+      "source_hash": "9f9c7cfdeee2409d9d6770d7be17c722d0e974b4f34240bc5616b57d3ae33e5d",
+      "tokens": [],
+      "tags": [],
+      "source_empty": false
+    },
+    "DefInjected|PawnColumnDef|PatientBill.headerTip": {
+      "source_hash": "9eca6260e711cccfe39836ad54974f005582202c956f085537832765acd3af5e",
+      "tokens": [],
+      "tags": [],
+      "source_empty": false
+    },
+    "DefInjected|PawnColumnDef|PatientBill.label": {
+      "source_hash": "623210167553939c87ed8c5f2bfe0b3e0684e12c3a3dd2513613c4e67263b5a1",
+      "tokens": [],
+      "tags": [],
+      "source_empty": false
+    },
+    "DefInjected|PawnColumnDef|PatientCure.headerTip": {
+      "source_hash": "f749832a59d702a41a12deebf717a36b3dd27b5bc9306c0f6b1b4dd2ee80fe95",
+      "tokens": [],
+      "tags": [],
+      "source_empty": false
+    },
+    "DefInjected|PawnColumnDef|PatientCure.label": {
+      "source_hash": "60c411b2baec2ab58d4494dd7a1efcec94ed33e8737a24a920ab58a59284208d",
+      "tokens": [],
+      "tags": [],
+      "source_empty": false
+    },
+    "DefInjected|PawnColumnDef|PatientDiagnosis.headerTip": {
+      "source_hash": "7bdbac43ad31afc0ecf484e3af3538fb24133ea4f67967f71661017ea6a667e0",
+      "tokens": [],
+      "tags": [],
+      "source_empty": false
+    },
+    "DefInjected|PawnColumnDef|PatientDiagnosis.label": {
+      "source_hash": "b54e2b152c2135f45dfca42c67ec11c8a8d6076f1796f3deaa64a752c1d4efa8",
+      "tokens": [],
+      "tags": [],
+      "source_empty": false
+    },
+    "DefInjected|PawnColumnDef|PatientRating.headerTip": {
+      "source_hash": "902ee0fe187b5a492988f2b10911c39eabf4293100dbe3682e781c9f098aa590",
+      "tokens": [],
+      "tags": [],
+      "source_empty": false
+    },
+    "DefInjected|PawnColumnDef|PatientRating.label": {
+      "source_hash": "112895d7af6c125315cd807a911473c05eb9779bf7cd459c5e29db919ccbf408",
+      "tokens": [],
+      "tags": [],
+      "source_empty": false
+    },
+    "DefInjected|PawnColumnDef|PatientTimeSpent.headerTip": {
+      "source_hash": "bb8d59c955e038b6d936bd7e6c7f75d56b23d358b32d1acb238899c4664317a2",
+      "tokens": [],
+      "tags": [],
+      "source_empty": false
+    },
+    "DefInjected|PawnColumnDef|PatientTimeSpent.label": {
+      "source_hash": "37972dc717163a07c883c88c1751f668c8bde441dbbbcdb9499eabd5fc880c13",
+      "tokens": [],
+      "tags": [],
+      "source_empty": false
+    },
+    "DefInjected|ThingDef|PatientLandingSpot.description": {
+      "source_hash": "a3eb3274a315fc9f678484cb4108e5e3dd43f8b94f3456fffdb85f203413a633",
+      "tokens": [],
+      "tags": [],
+      "source_empty": false
+    },
+    "DefInjected|ThingDef|PatientLandingSpot.label": {
+      "source_hash": "a9e4454bf81aa0bc05827c42de22c0829d4a4964d21c218eaa468ff8a6b35605",
+      "tokens": [],
+      "tags": [],
+      "source_empty": false
+    },
+    "Keyed|AcceptDanger": {
+      "source_hash": "d74baa48284a3aa0c00e9b843474a827f371ee887a8e33d163ef5ea1cabb7064",
+      "tokens": [],
+      "tags": [],
+      "source_empty": false
+    },
+    "Keyed|AcceptDangerTooltip": {
+      "source_hash": "038fbf17279c27fb5a653a3267c07f25d757c86ff002ec3b487ba780762e7bb4",
+      "tokens": [],
+      "tags": [],
+      "source_empty": false
+    },
+    "Keyed|AcceptPatients": {
+      "source_hash": "e0e219d662d5dc3a958d0cc5a1a10d92f958e90e0ad90a178a860fb9550d92fb",
+      "tokens": [],
+      "tags": [],
+      "source_empty": false
+    },
+    "Keyed|AcceptPatientsTooltip": {
+      "source_hash": "1a4445efb5f97efb091aa68476afba920ce4019a866babd5692f2a5eaf2c1461",
+      "tokens": [],
+      "tags": [],
+      "source_empty": false
+    },
+    "Keyed|AcceptSurgery": {
+      "source_hash": "f883fe50f5006dc2ab03680fbc47631ca340c56c4fda8f685b58241d0d34cafd",
+      "tokens": [],
+      "tags": [],
+      "source_empty": false
+    },
+    "Keyed|AcceptSurgeryTooltip": {
+      "source_hash": "f8808d576ced1aa93908456d21dfff8cbb921a076c33d50c77c854c0cf51516f",
+      "tokens": [],
+      "tags": [],
+      "source_empty": false
+    },
+    "Keyed|BedsFilled": {
+      "source_hash": "7d6fb04a0f534a7ce5a4c2c35234bb87e2ef9848d6558e5b8dbe6aeddae81020",
+      "tokens": [
+        "{0}",
+        "{1}"
+      ],
+      "tags": [],
+      "source_empty": false
+    },
+    "Keyed|BedsReserved": {
+      "source_hash": "db75fef9f7e90f9fd75155cd4f60082cd9eb0264b7e07671b1c435b0e166dfd2",
+      "tokens": [],
+      "tags": [],
+      "source_empty": false
+    },
+    "Keyed|BedsReservedTooltip": {
+      "source_hash": "bb0aa141c7c18dc232344c0d3035b3d93a0cc84d898c3f8858ea7acd6cdcc6be",
+      "tokens": [],
+      "tags": [],
+      "source_empty": false
+    },
+    "Keyed|BlacklistDiseases": {
+      "source_hash": "b93646ea1de81c5e6ad345ad40327bd00c85023675a25ebf82ecbe13f778bfdb",
+      "tokens": [
+        "{0}"
+      ],
+      "tags": [],
+      "source_empty": false
+    },
+    "Keyed|BlacklistDiseasesTitle": {
+      "source_hash": "1f2e86a660dad2ed22d47ce2e6f43070e0b0f9097b76fc14885618eba8af90f9",
+      "tokens": [],
+      "tags": [],
+      "source_empty": false
+    },
+    "Keyed|BlacklistFactions": {
+      "source_hash": "b0c23f0037c2e1fb88371432fe681e66c92deec842f3f93b8708cfcc418d92c5",
+      "tokens": [
+        "{0}"
+      ],
+      "tags": [],
+      "source_empty": false
+    },
+    "Keyed|BlacklistFactionsTitle": {
+      "source_hash": "940f9a63e9e5d28948bc30474b2f705709eed6ae42bb17181c0a761f64707083",
+      "tokens": [],
+      "tags": [],
+      "source_empty": false
+    },
+    "Keyed|BlacklistHint": {
+      "source_hash": "649669079760d2e93768e1b39307497af2f57f205f3bb0e21b25f935f2d030e7",
+      "tokens": [],
+      "tags": [],
+      "source_empty": false
+    },
+    "Keyed|BlacklistSurgeries": {
+      "source_hash": "b78e575b5e6dbe864feeedb63b2e8493072bfa9e4cae822db37e3eaf578934be",
+      "tokens": [
+        "{0}"
+      ],
+      "tags": [],
+      "source_empty": false
+    },
+    "Keyed|BlacklistSurgeriesTitle": {
+      "source_hash": "51123af8f3e51599a0d9d53baafaeb93f5cd6f66613012253865179aaf78d10f",
+      "tokens": [],
+      "tags": [],
+      "source_empty": false
+    },
+    "Keyed|Blacklists": {
+      "source_hash": "144a17bc4fce4338681b5502a6359b7924906eb3be6030fa11fa8443c005dac2",
+      "tokens": [],
+      "tags": [],
+      "source_empty": false
+    },
+    "Keyed|CommandBedSetAsHospitalDesc": {
+      "source_hash": "e9a4c4cc20ba2e5228f20e403daf7d173caa8bedfdf4babf765b69d7233be146",
+      "tokens": [],
+      "tags": [],
+      "source_empty": false
+    },
+    "Keyed|CommandBedSetAsHospitalLabel": {
+      "source_hash": "e7c9c30721885e02b76c4ad150149431773eac2971ed600bb54b2505a413e063",
+      "tokens": [],
+      "tags": [],
+      "source_empty": false
+    },
+    "Keyed|CommandBedSetAsSurgeryDesc": {
+      "source_hash": "8d825cabda54ccaaa7c2c767cf72c88321196a5411114884f694ffb02d4f9e31",
+      "tokens": [],
+      "tags": [],
+      "source_empty": false
+    },
+    "Keyed|CommandBedSetAsSurgeryLabel": {
+      "source_hash": "e619593e37884ad7de9ab8cbf1e07cec548d7b7b2d33febd284a0e62c465c52f",
+      "tokens": [],
+      "tags": [],
+      "source_empty": false
+    },
+    "Keyed|CureDisease": {
+      "source_hash": "8b8824fe6ecfe482cb2f53a225c7dbdfd2d7a088b5c9674e35c03c48ca446617",
+      "tokens": [],
+      "tags": [],
+      "source_empty": false
+    },
+    "Keyed|CureWounds": {
+      "source_hash": "47172fb4f7c0a0c4da1e02e2f85675e65f668fb43655e639b8d6b861c77ddefd",
+      "tokens": [],
+      "tags": [],
+      "source_empty": false
+    },
+    "Keyed|DeathGoodwillPenalty": {
+      "source_hash": "89c61b9ae9a9c5f04c9dd4ef00644712c975b0928ebebc25531b897eecda038a",
+      "tokens": [],
+      "tags": [],
+      "source_empty": false
+    },
+    "Keyed|DeathGoodwillPenaltyTooltip": {
+      "source_hash": "809cfcee8019e689204a89be93e2f866cb74aa201d831dbe0ebc7d37cb22b0fd",
+      "tokens": [],
+      "tags": [],
+      "source_empty": false
+    },
+    "Keyed|DiagnosisArtificialBodyPart": {
+      "source_hash": "cf1f6f1ad7f9a8bdab4049ad3b21d0f16420592825b54661cf6262c59a74fbc7",
+      "tokens": [
+        "{0}"
+      ],
+      "tags": [],
+      "source_empty": false
+    },
+    "Keyed|DiagnosisSurgeryNoPart": {
+      "source_hash": "f898da66655409aecc6c232451326ad8c0dc4a5a77334b9c0e89664d10d6d5b7",
+      "tokens": [],
+      "tags": [],
+      "source_empty": false
+    },
+    "Keyed|DiagnosisSurgeryOnPart": {
+      "source_hash": "74d456749c1a2f734ffc84551c22abc0411c96f3b3e2ce1f2a9b033d3aaf2544",
+      "tokens": [
+        "{0}"
+      ],
+      "tags": [],
+      "source_empty": false
+    },
+    "Keyed|DiagnosisWounds": {
+      "source_hash": "b4e20a1ea41ffba5e893081f298444d7548748c8d398fbe7be834696f1c4af68",
+      "tokens": [],
+      "tags": [],
+      "source_empty": false
+    },
+    "Keyed|DifficultySettings": {
+      "source_hash": "be44133ed57f9e44f829282224b15981f033e9b0acc5458070e10104509eb398",
+      "tokens": [],
+      "tags": [],
+      "source_empty": false
+    },
+    "Keyed|Disallow": {
+      "source_hash": "1c1579736e9bee88ab4749696edc7b53c527ec1ad6733039e47112230e174119",
+      "tokens": [],
+      "tags": [],
+      "source_empty": false
+    },
+    "Keyed|DiseaseSeverityMultiplier": {
+      "source_hash": "09f1d96859290fa2666bb0561023b54f8864f2229d86d08959cd0f7f56748a2c",
+      "tokens": [],
+      "tags": [],
+      "source_empty": false
+    },
+    "Keyed|DiseaseSeverityMultiplierTooltip": {
+      "source_hash": "04de1e83818177f562d2e37c69d8666e021bb042a1d8e63c324a9aace673f4b5",
+      "tokens": [],
+      "tags": [],
+      "source_empty": false
+    },
+    "Keyed|Dismiss": {
+      "source_hash": "48845bff334a50a59aaecf499f28a7a24c3b4b891b8b18a9f1169ad8e8a6b261",
+      "tokens": [],
+      "tags": [],
+      "source_empty": false
+    },
+    "Keyed|GoodwillGainMultiplier": {
+      "source_hash": "494fecc649c2dc45700ff5932d4d5bf4c49cfc4ab1f3df015de86ceb97b2dc87",
+      "tokens": [],
+      "tags": [],
+      "source_empty": false
+    },
+    "Keyed|GoodwillGainMultiplierTooltip": {
+      "source_hash": "403726a9f69331412398ee84a3b20071bc8fde027488865894886e1a88a3eaa8",
+      "tokens": [],
+      "tags": [],
+      "source_empty": false
+    },
+    "Keyed|HospitalBlacklisted": {
+      "source_hash": "6da24d2a58a132adb6a7af67f1ed6601493ce9510b82a86c69b3cca532bc1631",
+      "tokens": [
+        "{0}"
+      ],
+      "tags": [],
+      "source_empty": false
+    },
+    "Keyed|HospitalMapSettings": {
+      "source_hash": "e363dad956cfd5cff694cf41fc9a0d94f3bc644a66ec8aa5928679a13d1b207e",
+      "tokens": [],
+      "tags": [],
+      "source_empty": false
+    },
+    "Keyed|HospitalPatientDied": {
+      "source_hash": "1d3fc7a32ec0135a3d4f4f7f6aca3771e8497e53bd8639e8847ae5a235250b50",
+      "tokens": [
+        "{0}",
+        "{1}",
+        "{2}"
+      ],
+      "tags": [],
+      "source_empty": false
+    },
+    "Keyed|HospitalPatientDismissed": {
+      "source_hash": "69f0d5161999d8c180dade40f2c1ed51017e158c9bbdc032cf35fab55c4a22c7",
+      "tokens": [
+        "{0}"
+      ],
+      "tags": [],
+      "source_empty": false
+    },
+    "Keyed|HospitalPatientLeaves": {
+      "source_hash": "c0d3d621e5c8f1134ace5b315ab8dfee8f759ea98a99b649c816e781e880d0b3",
+      "tokens": [
+        "{0}",
+        "{1}",
+        "{2}",
+        "{3}"
+      ],
+      "tags": [],
+      "source_empty": false
+    },
+    "Keyed|HospitalPatientLeavesNoFaction": {
+      "source_hash": "3ac5e2ec3e587ac1991128ea87126cb057853ce6502dcd53bb98f112dffdd845",
+      "tokens": [
+        "{0}",
+        "{1}"
+      ],
+      "tags": [],
+      "source_empty": false
+    },
+    "Keyed|HospitalSettings": {
+      "source_hash": "a9c94013e5a6bc52659f8b1ab7e6221b39eaa6816611e6a1b8f0d4bc5a7ec401",
+      "tokens": [],
+      "tags": [],
+      "source_empty": false
+    },
+    "Keyed|HospitalSurgeryFailed": {
+      "source_hash": "103c83d2b4952add29740b30adc080146d001fd41573abb32555be3f0d59664e",
+      "tokens": [
+        "{0}",
+        "{1}",
+        "{2}"
+      ],
+      "tags": [],
+      "source_empty": false
+    },
+    "Keyed|MCE_Crash": {
+      "source_hash": "182a8009e9a02c8e34982c1ee8c9f83457718a55b308638bf56dac945e9d403c",
+      "tokens": [],
+      "tags": [],
+      "source_empty": false
+    },
+    "Keyed|MCE_Fire": {
+      "source_hash": "6aaa80fdce3ba2dada2ee362e3c124a9c396ad016973a5da20e566c19d2a0a83",
+      "tokens": [],
+      "tags": [],
+      "source_empty": false
+    },
+    "Keyed|MCE_Pandemic": {
+      "source_hash": "77ff379203469594dbf5b6cdc0b17a6f2474ecd813597bcd3e37b8b26be4d109",
+      "tokens": [],
+      "tags": [],
+      "source_empty": false
+    },
+    "Keyed|MCE_Raid": {
+      "source_hash": "725672e796a9400eb97c0b18e3ca7d004adc69a3996d07924af411411fc31625",
+      "tokens": [],
+      "tags": [],
+      "source_empty": false
+    },
+    "Keyed|MassCasualties": {
+      "source_hash": "a9a109a001047c2c661cf23f07457f79f94d25625a3716ddb1911c8e94b88f6c",
+      "tokens": [],
+      "tags": [],
+      "source_empty": false
+    },
+    "Keyed|MassCasualtiesTooltip": {
+      "source_hash": "71c60c12d2beb97eed0db010e2f5f070cc1f1ef0ca6b707095c9b44846fe4eff",
+      "tokens": [],
+      "tags": [],
+      "source_empty": false
+    },
+    "Keyed|PatientsTab": {
+      "source_hash": "bdfd3f2381fce726a1745cab951a1fb49baf01b3e9ea901d4c058a5891d517e6",
+      "tokens": [],
+      "tags": [],
+      "source_empty": false
+    },
+    "Keyed|PreventIncapacitatedArrivals": {
+      "source_hash": "8bf5d41495119c92b9456103fa863d9b81819c95143d41b85d3f004a3e6b4f3c",
+      "tokens": [],
+      "tags": [],
+      "source_empty": false
+    },
+    "Keyed|PreventIncapacitatedArrivalsTooltip": {
+      "source_hash": "ba64391f7f40b296980fd478b3410a39b0164b9b1b1c2dc7dd18d0bddb1ae7f5",
+      "tokens": [],
+      "tags": [],
+      "source_empty": false
+    },
+    "Keyed|RefusedOperations": {
+      "source_hash": "96cc04d3f6777083482175f3f6f1a067dbf86659dc964dfdcf920e652d93d6b9",
+      "tokens": [],
+      "tags": [],
+      "source_empty": false
+    },
+    "Keyed|ResetToDefaults": {
+      "source_hash": "e240e635ff6dce4ff2ac0b90a84889cff420f2c9a56014543e78f366681820db",
+      "tokens": [],
+      "tags": [],
+      "source_empty": false
+    },
+    "Keyed|ShowMessageAtArrival": {
+      "source_hash": "e528553c390931d62dd069bb3522969b91a6f979243e67f26e225af9910cbd8a",
+      "tokens": [],
+      "tags": [],
+      "source_empty": false
+    },
+    "Keyed|ShowMessageAtArrivalTooltip": {
+      "source_hash": "1a9a6f059663cba9a2cd939e70e9fd6dbe9afd07ff43c1e5114657a903200c18",
+      "tokens": [],
+      "tags": [],
+      "source_empty": false
+    },
+    "Keyed|SilverMultiplier": {
+      "source_hash": "c96e6b79e3b5385644238839f08aba2e8d6d32c70b5b0968d149f0d4001a4d92",
+      "tokens": [],
+      "tags": [],
+      "source_empty": false
+    },
+    "Keyed|SilverMultiplierTooltip": {
+      "source_hash": "51300615803a6d56b397ac69d79c7ad46021f70d9b746eb98f230c085c1fac63",
+      "tokens": [],
+      "tags": [],
+      "source_empty": false
+    },
+    "Keyed|SurgeryFailGoodwillPenalty": {
+      "source_hash": "e2f9c7ed792bcb6bedf7f7179e0d5571206d722c70e27e7e4312ef426cdbbeee",
+      "tokens": [],
+      "tags": [],
+      "source_empty": false
+    },
+    "Keyed|SurgeryFailGoodwillPenaltyTooltip": {
+      "source_hash": "50fe75d3b5223469e48def1612d9c8ffe0696ba1e73ae5f6d1a83da7c8203cae",
+      "tokens": [],
+      "tags": [],
+      "source_empty": false
+    },
+    "Keyed|WoundSeverityMultiplier": {
+      "source_hash": "e2a16fe2d34657dc7a1b51decb747d4de76d527fc2b5ba0253d0a550aef49b64",
+      "tokens": [],
+      "tags": [],
+      "source_empty": false
+    },
+    "Keyed|WoundSeverityMultiplierTooltip": {
+      "source_hash": "d04564c2e15e3ab045a98d7451a9fe5e54c5f94f24dd450e1f9022518fa15455",
+      "tokens": [],
+      "tags": [],
+      "source_empty": false
+    }
+  }
+}

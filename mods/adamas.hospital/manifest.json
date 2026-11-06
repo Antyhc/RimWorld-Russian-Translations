@@ -11,7 +11,7 @@
       "status": "confirmed",
       "license": "GPL-3.0",
       "evidence": "https://github.com/tomvd/Hospital/blob/82a15e711129a32e5bfe772663160433ee566316/LICENSE",
-      "attribution": "Original mod: Hospital by Adamas. Original Workshop: https://steamcommunity.com/sharedfiles/filedetails/?id=2992224079. Original source: https://github.com/tomvd/Hospital. Russian additions: Antyhc, 2026; retain the applicable GPL-3.0 terms.",
+      "attribution": "Original mod: Hospital by Adamas.\nOriginal Workshop: https://steamcommunity.com/sharedfiles/filedetails/?id=2992224079\nOriginal source: https://github.com/tomvd/Hospital\nOriginal license: GNU GPL version 3; exact copy retained in About/License.txt.\nRussian XML additions: Antyhc, 2026, GNU GPL version 3, AI-assisted authoring and review with OpenAI Codex. Editable corresponding source is included in Languages/Russian.\nThis package changes only language text and metadata; it contains no original DLLs or textures and copies no third-party Russian wording.\nPreview.png: original typographic artwork by Antyhc, 2026, MIT; no original mod artwork used.\n",
       "scope": "Our independently authored Russian adaptation of textual source material in this repository; no third-party Russian files, code, assemblies, or artwork included.",
       "obligations": [
         "Distribute derivative translated text under compatible GPL v3 terms and include the full applicable license.",
@@ -19,41 +19,90 @@
         "Do not substitute the repository infrastructure MIT license for this translated material's GPL obligations or assume rights to third-party Russian wording."
       ],
       "source_permission_review": "community/rights-updates.public.json",
-      "source_permission_checked_date": "2026-11-06"
+      "source_permission_checked_date": "2026-11-06",
+      "license_evidence_file": "rights-evidence.json",
+      "required_notice_files": {
+        "About/License.txt": "53927bd0b739d38c87a0a82236fd9b070c2dfff11c0c119be50372005d5047ad",
+        "LICENSE": "9a512589b304a23f1ffe6fa11f30adc90fdd4890f244e2ff5f2ec796012631f5",
+        "About/Credits.txt": "55da6953b4b0c6272abdaa599a7a87a97b92383dd37941adf52d1d8331067e0d"
+      }
     },
     "icon": {
-      "status": "unknown",
-      "license": null,
-      "evidence": null,
-      "attribution": null
+      "status": "confirmed",
+      "kind": "original_typographic_fallback",
+      "license": "MIT",
+      "evidence": "scripts/make_original_cover.py; own typographic design",
+      "attribution": "Original typographic cover by Antyhc",
+      "source_sha256": "4549856f9623777b5489d6fdac61034e37e7fc295906abc0105b87947021576d",
+      "preview_sha256": "4549856f9623777b5489d6fdac61034e37e7fc295906abc0105b87947021576d",
+      "original_mod_art_used": false
     }
   },
   "qa": {
-    "technical": "pending",
-    "linguistic": "pending",
-    "source_current": false,
-    "in_game": "not_tested",
-    "checked_at": "2026-10-28T09:15:27.268425+00:00"
+    "technical": "passed",
+    "linguistic": "ai_reviewed",
+    "source_current": true,
+    "in_game": "passed",
+    "checked_at": "2026-11-06T17:39:57.705753+00:00",
+    "source_checked_at": "2026-11-06T17:39:57.705753+00:00",
+    "payload_sha256": "46b6648bbe295f30f937ce5804e3edea2f7d2b642bdf9dedcf3949f3730da417",
+    "source_snapshot_sha256": "caf2edebc717ae34dc345f6eca8177bc7f1517fe8dd2c1085eb24b47358f0c82",
+    "evidence": "qa-evidence.json",
+    "coverage": "83 current own entries verified against English control and actual Russian game readback, with unchanged full localization-error multiset.",
+    "standalone_minimal_game_test": "passed_actual_control_and_candidate",
+    "game_evidence": "game-test-evidence.json",
+    "game_version": "1.7.5000 rev1275",
+    "game_test_scope": "Actual isolated startup and physical language-value readback, exact active dependencies/DLC and source/payload/probe hashes; no save, extended gameplay or independent human proofreading claim.",
+    "game_test_evidence_sha256": "08e772f27fc5cd1580758d336a317f04914125c3e2d81595410ccb68ff16dd8e",
+    "ui_inspected": true,
+    "ui_scope": "Engine-generated screenshot confirms Russian main menu on this startup. Hospital settings/patient dialogs and colony gameplay were not inspected.",
+    "workshop_installation": "passed_exact_subscribed_bytes",
+    "workshop_game_load": "passed_actual_subscribed_Workshop_root",
+    "workshop_game_evidence": "workshop-game-test-evidence.json",
+    "workshop_game_evidence_sha256": "d14f54553ee8470dbcfea66cdfb3327b044fe0c7ea23dd11eac3c54a02ea5646",
+    "workshop_game_test_scope": "Fresh actual load of the subscribed byte-exact Workshop item. Earlier actual English control reused only after exact original source/context, game, selected values and unchanged read-only probe verification. Exact full localization-error multiset compared. The earlier local proof remains historical; no new English-control boot, save or extended gameplay/human proof claimed."
   },
   "publication": {
     "github_url": "https://github.com/Antyhc/RimWorld-Russian-Translations/tree/main/mods/adamas.hospital",
-    "github_status": "metadata_only",
-    "workshop_url": null,
-    "workshop_id": null,
-    "workshop_status": "not_published"
+    "github_status": "translation_published",
+    "workshop_url": "https://steamcommunity.com/sharedfiles/filedetails/?id=3834810607",
+    "workshop_id": "3834810607",
+    "workshop_status": "published_public_page_verification_pending",
+    "release_blockers": [],
+    "workshop_title": "Hospital — Russian Translation",
+    "workshop_visibility": "public",
+    "workshop_submitted_at": "2026-11-06T17:43:50.460715+00:00",
+    "steam_sdk_verified_at": "2026-11-06T17:44:02.100754+00:00",
+    "anonymous_page_verified": false,
+    "website_verification_blocker": "Steam Community website returned HTTP 429 during this session.",
+    "collection_id": "3830036321",
+    "collection_member_verified": true,
+    "installation_tested": true,
+    "installation_scope": "Official Steam subscription/download verified all 10 payload files byte-exact, followed by actual isolated Workshop-root game load."
   },
   "integration": {
     "status": "open",
     "pr_url": "https://github.com/tomvd/Hospital/pull/66",
     "contact_url": null,
     "target_kind": "original_mod",
-    "head_sha": "414330693433378b0bcc74e1f6dded531661542a",
+    "head_sha": "d05775c2ec957032420a364cebf281c3c210fb02",
     "submitted_at": "2026-11-06",
     "native_xml_submitted": true,
     "original_native_accepted": false,
-    "entries_submitted": 82,
-    "fresh_game_test_claimed": false,
-    "response_evidence": "community/outreach-2026-11-06.json"
+    "entries_submitted": 83,
+    "fresh_game_test_claimed": true,
+    "response_evidence": "community/outreach-2026-11-06.json",
+    "game_test": {
+      "version": "1.7.5000 rev1275",
+      "matched_entries": 83,
+      "english_control_entries": 83,
+      "additional_localization_errors": 0,
+      "baseline_localization_errors": 38,
+      "proof_sha256": "08e772f27fc5cd1580758d336a317f04914125c3e2d81595410ccb68ff16dd8e",
+      "scope": "Actual isolated startup and physical value readback. No patient-dialog layout, colony gameplay or independent human proofreading claim.",
+      "gameplay_tested": false
+    },
+    "scope": "83 fields submitted, including the current minimal PatientLandingSpot label and a corrected bill-percentage tooltip. All 83 match the isolated 1.7.5000 control/candidate check with no new errors. Patient-dialog layout and colony gameplay were not inspected. Existing PR updated and read back at d05775c2ec957032420a364cebf281c3c210fb02."
   },
   "original": {
     "author": "Adamas",
@@ -118,12 +167,24 @@
     "work_stage": "installed_local",
     "saved_translation_store": true
   },
-  "work_stage": "installed_local",
+  "work_stage": "published_workshop_verified_website_check_pending",
   "monitor": {
     "github_tree": {
       "repository": "tomvd/Hospital",
       "ref": "main",
       "baseline_file": "source.tree.json"
     }
+  },
+  "duplicate_translation": {
+    "status": "checked_no_current_equivalent",
+    "checked_at": "2026-11-06T17:39:57.705753+00:00",
+    "candidates": [
+      "https://steamcommunity.com/sharedfiles/filedetails/?id=2995064273",
+      "https://steamcommunity.com/sharedfiles/filedetails/?id=2994637110",
+      "https://steamcommunity.com/sharedfiles/filedetails/?id=3578511237",
+      "https://steamcommunity.com/sharedfiles/filedetails/?id=3234499629"
+    ],
+    "scope": "Four current alternatives inspected: all miss the same 29 of 82 PR fields. This independent alternative uses 83 own current values including the separately revalidated landing-spot label. Only one translator should be enabled; no other Russian text copied.",
+    "evidence": "duplicate-translation-evidence.json"
   }
 }

@@ -1,0 +1,32 @@
+{
+  "schema_version": 1,
+  "checked_at": "2026-11-06T17:47:26.581929+00:00",
+  "scope": "Owned account subscription, Steam installation and exact recursive payload byte comparison; no active mods/settings changed; anonymous visibility and game loading require separate checks",
+  "sources": [
+    "https://partner.steamgames.com/doc/api/ISteamUGC#SubscribeItem",
+    "https://partner.steamgames.com/doc/api/ISteamUGC#DownloadItem",
+    "https://partner.steamgames.com/doc/api/ISteamUGC#GetItemInstallInfo",
+    "https://raw.githubusercontent.com/rlabrecque/SteamworksSDK/master/public/steam/isteamremotestorage.h"
+  ],
+  "items": [
+    {
+      "package_id": "adamas.hospital",
+      "url": "https://steamcommunity.com/sharedfiles/filedetails/?id=3834810607",
+      "subscription_verified": true,
+      "subscription_modified": true,
+      "file_count": 10,
+      "exact_payload_bytes": true,
+      "status": "installed_exact_match",
+      "missing": [],
+      "extra": [],
+      "changed": [],
+      "verified_at": "2026-11-06T17:47:26.565474+00:00",
+      "download_completion_evidence": "New item-specific Steam workshop_log Download item result OK record after subscription + GetItemState Installed/current; wrapper callback absent",
+      "expected_files_fingerprint": "46b6648bbe295f30f937ce5804e3edea2f7d2b642bdf9dedcf3949f3730da417",
+      "downloaded_files_fingerprint": "46b6648bbe295f30f937ce5804e3edea2f7d2b642bdf9dedcf3949f3730da417"
+    }
+  ],
+  "exact_matches": 1,
+  "selected_package": "adamas.hospital",
+  "all_selected_installed_exact": true
+}

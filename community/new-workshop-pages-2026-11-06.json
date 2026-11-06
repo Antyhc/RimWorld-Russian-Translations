@@ -1,0 +1,13 @@
+{
+  "scope": "Anonymous website check. A 429 stops this batch; unrequested pages remain unverified.",
+  "results": [
+    {
+      "package_id": "adamas.hospital",
+      "url": "https://steamcommunity.com/sharedfiles/filedetails/?id=3834810607",
+      "checked_at": "2026-11-06T17:46:27.788738+00:00",
+      "http_status": 429,
+      "retry_after": null,
+      "anonymous_page_verified": false
+    }
+  ]
+}

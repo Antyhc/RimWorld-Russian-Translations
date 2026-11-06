@@ -1,0 +1,5 @@
+Independent Russian localization for Hospital by Adamas, targeting RimWorld 1.7: 83 interface, event and setting entries, including current gaps in the checked alternatives. Requires the original Hospital and Harmony; load after the original. Enable only one Hospital Russian translation. AI-assisted authoring and review with OpenAI Codex; no independent human proofreading is claimed.
+
+https://steamcommunity.com/sharedfiles/filedetails/?id=2992224079
+
+Separate original/translation startups on RimWorld 1.7.5000 rev1275 verified all 83 physical values, including the current original patient landing spot label. Localization errors and logs matched the control run, with no additional errors. Hospital dialog layout, colony gameplay and independent human proofreading were not tested.

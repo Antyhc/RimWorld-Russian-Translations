@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-06T17:39:30+00:00",
+  "generated_at": "2026-11-06T17:53:42+00:00",
   "scope": "Static files only; no RimWorld game test is performed.",
   "release_gates": false,
   "mods": [
@@ -15,10 +15,8 @@
     {
       "package_id": "adamas.hospital",
       "errors": [],
-      "warnings": [
-        "payload_missing"
-      ],
-      "language_entries": 0,
+      "warnings": [],
+      "language_entries": 83,
       "release_eligible": false
     },
     {

@@ -3,21 +3,23 @@
   "mods_reviewed": 166,
   "counts": {
     "steam_author_contact_blocked": 53,
-    "author_contacted": 66,
-    "github_contact_pending_platform_cooldown": 9,
+    "author_contacted": 71,
     "existing_translation_covers_prepared_scope": 4,
+    "github_contact_pending_platform_cooldown": 4,
     "base_game_russian_already_covers_own_entry": 1,
     "no_independent_translation_to_offer": 3,
     "native_replacement_verified_and_retired": 2,
     "known_author_policy_no_duplicate_request": 28
   },
-  "verified_new_conversations": 17,
+  "verified_new_contacts": 19,
+  "verified_new_conversations": 18,
+  "verified_comments_in_existing_conversations": 1,
   "verified_new_prs": 10,
-  "verified_new_issue_requests_and_offers": 7,
-  "new_pr_values": 384,
+  "verified_new_issue_requests_and_offers": 8,
+  "new_pr_values": 389,
   "limits": [
     "Steam-only drafts are not sent.",
-    "GitHub throttled new submissions. No route/account switch is used.",
+    "GitHub throttled new fork submissions. Carefully spaced existing-PR updates and individual contacts resumed after the cooldown; no route/account switch is used.",
     "Saved store, draft target and published payload counts overlap and must not be summed as unique translated values.",
     "Historical source and runtime findings keep their own dates."
   ],
@@ -49,15 +51,15 @@
       "original_url": "https://steamcommunity.com/sharedfiles/filedetails/?id=2992224079",
       "repository_url": "https://github.com/tomvd/Hospital",
       "own_saved_store_keys": 83,
-      "published_payload_values": 0,
+      "published_payload_values": 83,
       "earlier_codex_draft_targets": 0,
       "earlier_local_model_tasks": 0,
       "third_party_saved_keys_excluded": 0,
       "historical_possible_gap_count": 82,
       "historical_gap_check_date": "2026-11-03",
       "translation_rights_status": "confirmed",
-      "publication_status": "not_published",
-      "publication_url": null,
+      "publication_status": "published_public_page_verification_pending",
+      "publication_url": "https://steamcommunity.com/sharedfiles/filedetails/?id=3834810607",
       "outreach_disposition": "author_contacted",
       "reason": "A verified existing conversation covers the named mod. Waiting or contributing in that conversation.",
       "contacts": [
@@ -169,17 +171,19 @@
       "third_party_saved_keys_excluded": 277,
       "historical_possible_gap_count": 120,
       "historical_gap_check_date": "2026-11-03",
-      "translation_rights_status": "unknown",
+      "translation_rights_status": "permission_requested",
       "publication_status": "not_published",
       "publication_url": null,
-      "outreach_disposition": "github_contact_pending_platform_cooldown",
-      "reason": "Remaining source/coverage review or targeted author contact held after GitHub explicitly returned submitted-too-quickly. No new mutation attempted after the restriction.",
-      "contacts": [],
-      "prepared_contact_not_sent": {
-        "target_url": "https://github.com/AobaKuma/MechsuitFramework/issues/34",
-        "action": "comment_in_existing_permission_thread",
-        "state": "prepared_not_sent_platform_rate_limit"
-      }
+      "outreach_disposition": "author_contacted",
+      "reason": "A verified existing conversation covers the named mod. Waiting or contributing in that conversation.",
+      "contacts": [
+        {
+          "url": "https://github.com/AobaKuma/MechsuitFramework/issues/34#issuecomment-6691562732",
+          "date": "2026-11-06",
+          "kind": "translation_offer_and_permission_request",
+          "status": "sent_verified"
+        }
+      ]
     },
     {
       "package_id": "aoba.deadmanswitch.core",
@@ -329,17 +333,19 @@
       "third_party_saved_keys_excluded": 691,
       "historical_possible_gap_count": 51,
       "historical_gap_check_date": "2026-11-03",
-      "translation_rights_status": "unknown",
+      "translation_rights_status": "permission_requested",
       "publication_status": "not_published",
       "publication_url": null,
-      "outreach_disposition": "github_contact_pending_platform_cooldown",
-      "reason": "Remaining source/coverage review or targeted author contact held after GitHub explicitly returned submitted-too-quickly. No new mutation attempted after the restriction.",
-      "contacts": [],
-      "prepared_contact_not_sent": {
-        "target_url": "https://github.com/AobaKuma/MechsuitFramework/issues/34",
-        "action": "comment_in_existing_permission_thread",
-        "state": "prepared_not_sent_platform_rate_limit"
-      }
+      "outreach_disposition": "author_contacted",
+      "reason": "A verified existing conversation covers the named mod. Waiting or contributing in that conversation.",
+      "contacts": [
+        {
+          "url": "https://github.com/AobaKuma/MechsuitFramework/issues/34#issuecomment-6691562732",
+          "date": "2026-11-06",
+          "kind": "translation_offer_and_permission_request",
+          "status": "sent_verified"
+        }
+      ]
     },
     {
       "package_id": "aoba.tent",
@@ -354,17 +360,19 @@
       "third_party_saved_keys_excluded": 0,
       "historical_possible_gap_count": 16,
       "historical_gap_check_date": "2026-11-03",
-      "translation_rights_status": "unknown",
+      "translation_rights_status": "permission_requested",
       "publication_status": "not_published",
       "publication_url": null,
-      "outreach_disposition": "github_contact_pending_platform_cooldown",
-      "reason": "Remaining source/coverage review or targeted author contact held after GitHub explicitly returned submitted-too-quickly. No new mutation attempted after the restriction.",
-      "contacts": [],
-      "prepared_contact_not_sent": {
-        "target_url": "https://github.com/AobaKuma/MechsuitFramework/issues/34",
-        "action": "comment_in_existing_permission_thread",
-        "state": "prepared_not_sent_platform_rate_limit"
-      }
+      "outreach_disposition": "author_contacted",
+      "reason": "A verified existing conversation covers the named mod. Waiting or contributing in that conversation.",
+      "contacts": [
+        {
+          "url": "https://github.com/AobaKuma/MechsuitFramework/issues/34#issuecomment-6691562732",
+          "date": "2026-11-06",
+          "kind": "translation_offer_and_permission_request",
+          "status": "sent_verified"
+        }
+      ]
     },
     {
       "package_id": "aoba.usac.core",
@@ -379,17 +387,19 @@
       "third_party_saved_keys_excluded": 891,
       "historical_possible_gap_count": 371,
       "historical_gap_check_date": "2026-11-03",
-      "translation_rights_status": "unknown",
+      "translation_rights_status": "permission_requested",
       "publication_status": "not_published",
       "publication_url": null,
-      "outreach_disposition": "github_contact_pending_platform_cooldown",
-      "reason": "Remaining source/coverage review or targeted author contact held after GitHub explicitly returned submitted-too-quickly. No new mutation attempted after the restriction.",
-      "contacts": [],
-      "prepared_contact_not_sent": {
-        "target_url": "https://github.com/AobaKuma/MechsuitFramework/issues/34",
-        "action": "comment_in_existing_permission_thread",
-        "state": "prepared_not_sent_platform_rate_limit"
-      }
+      "outreach_disposition": "author_contacted",
+      "reason": "A verified existing conversation covers the named mod. Waiting or contributing in that conversation.",
+      "contacts": [
+        {
+          "url": "https://github.com/AobaKuma/MechsuitFramework/issues/34#issuecomment-6691562732",
+          "date": "2026-11-06",
+          "kind": "translation_offer_and_permission_request",
+          "status": "sent_verified"
+        }
+      ]
     },
     {
       "package_id": "arkymn.slowerpawntickrate",
@@ -529,17 +539,19 @@
       "third_party_saved_keys_excluded": 0,
       "historical_possible_gap_count": 18,
       "historical_gap_check_date": "2026-11-03",
-      "translation_rights_status": "unknown",
+      "translation_rights_status": "permission_requested",
       "publication_status": "not_published",
       "publication_url": null,
-      "outreach_disposition": "github_contact_pending_platform_cooldown",
-      "reason": "Remaining source/coverage review or targeted author contact held after GitHub explicitly returned submitted-too-quickly. No new mutation attempted after the restriction. Canonical current repository is DawnsGlow/QualityColours; About identity matches Steam. Sixteen of eighteen own entries match GitHub; two newer Workshop settings are absent. No repository license was found. Rights request is prepared, not sent.",
-      "contacts": [],
-      "prepared_contact_not_sent": {
-        "target_url": "https://github.com/DawnsGlow/QualityColours/issues",
-        "action": "translation_offer_and_permission_request",
-        "state": "prepared_not_sent_platform_rate_limit"
-      }
+      "outreach_disposition": "author_contacted",
+      "reason": "A verified existing conversation covers the named mod. Waiting or contributing in that conversation. Canonical current repository is DawnsGlow/QualityColours; About identity matches Steam. Sixteen of eighteen own entries match GitHub; two newer Workshop settings are absent. No repository license was found. Rights request is prepared, not sent.",
+      "contacts": [
+        {
+          "url": "https://github.com/DawnsGlow/QualityColours/issues/2",
+          "date": "2026-11-06",
+          "kind": "translation_offer_and_permission_request",
+          "status": "sent_verified"
+        }
+      ]
     },
     {
       "package_id": "dimonsever000.factionlanguages",
@@ -1519,7 +1531,7 @@
       "historical_possible_gap_count": 71,
       "historical_gap_check_date": "2026-11-03",
       "translation_rights_status": "confirmed",
-      "publication_status": "not_published",
+      "publication_status": "held_existing_full_target_translation",
       "publication_url": null,
       "outreach_disposition": "author_contacted",
       "reason": "A verified existing conversation covers the named mod. Waiting or contributing in that conversation.",
@@ -4007,5 +4019,6 @@
       "reason": "The verified author channel is Steam. Community HTML returned 429 and browser control was blocked by tool URL policy. Drafts have not been sent.",
       "contacts": []
     }
-  ]
+  ],
+  "verified_non_pr_contacts": 9
 }

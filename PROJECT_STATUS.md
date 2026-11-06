@@ -2,14 +2,15 @@
 
 Generated from `mods/*/manifest.json` by `python scripts/rwtranslations.py registry`.
 
-Last inventory generation (UTC): 2026-11-06T17:39:30+00:00
+Last inventory generation (UTC): 2026-11-06T17:53:42+00:00
 
 The registry tracks **166 mods**: 156 saved-store records and 10 additional draft/review metadata records; 0 records have unverified store scope. Saved stores can also contain unfinished drafts. Original and translation package IDs are separate namespaces. Discovery has no fixed mod limit.
 
-Steam has confirmed 16 item submissions: **11 pages verified anonymously**, 0 awaiting automatic content inspection. A submitted item ID or public API visibility flag alone does not prove public page access.
+Steam has confirmed 17 item submissions: **11 pages verified anonymously**, 0 awaiting automatic content inspection. A submitted item ID or public API visibility flag alone does not prove public page access.
 
 | Workshop translation | Website state | Game QA evidence |
 |---|---|---|
+| [Hospital](https://steamcommunity.com/sharedfiles/filedetails/?id=3834810607) | published_public_page_verification_pending | [passed](mods/adamas.hospital/game-test-evidence.json) |
 | [Blood Animations](https://steamcommunity.com/sharedfiles/filedetails/?id=3830000511) | public; anonymous page verified | [passed](mods/fuu.bloodanimations/game-test-evidence.json) |
 | [Mechanoid Upgrades](https://steamcommunity.com/sharedfiles/filedetails/?id=3828883103) | public; anonymous page verified | [passed](mods/gogatio.mechanoidupgrades/game-test-evidence.json) |
 | [Loading Progress](https://steamcommunity.com/sharedfiles/filedetails/?id=3830035919) | public; anonymous page verified | [passed](mods/ilyvion.loadingprogress/game-test-evidence.json) |
@@ -27,7 +28,7 @@ Steam has confirmed 16 item submissions: **11 pages verified anonymously**, 0 aw
 | [Customize Weapon](https://steamcommunity.com/sharedfiles/filedetails/?id=3834796180) | published_public_page_verification_pending | [passed](mods/vortex.customizeweapon/game-test-evidence.json) |
 | [WVC - Work Modes](https://steamcommunity.com/sharedfiles/filedetails/?id=3830010549) | public; anonymous page verified | [passed](mods/wvc.sergkart.biotech.moremechanoidsworkmodes/game-test-evidence.json) |
 
-Game QA: 885 expected Russian values loaded across the recorded isolated RimWorld 1.7.4990 rev1069, 1.7.5000 rev1275 checks. Each linked evidence file records its own baseline errors, Workshop-copy verification and UI inspection scope. Personal configuration hashes were unchanged. This is load/readback testing, **not a colony playthrough or extended gameplay test**. No independent human proofreading is claimed.
+Game QA: 968 expected Russian values loaded across the recorded isolated RimWorld 1.7.4990 rev1069, 1.7.5000 rev1275 checks. Each linked evidence file records its own baseline errors, Workshop-copy verification and UI inspection scope. Personal configuration hashes were unchanged. This is load/readback testing, **not a colony playthrough or extended gameplay test**. No independent human proofreading is claimed.
 
 Private reviewed batches: **42 managed packages / 3474 values tested**; 616 local-model tasks processed. The private model candidate has **473 values verified across 8 providers**; 3947 combined values matched. This is isolated load/readback testing, with no colony playthrough or main-profile installation approval. Translation rights and public release QA are separate. [Counts and evidence hashes](reports/reviewed-batches-2026-10-28.json).
 
@@ -73,18 +74,18 @@ The 13 source-drift packages were refreshed. Targeted repairs added 20 strings, 
 | model_held_tasks | 10 |
 | private_model_test_values | 473 |
 | store_scope_unverified | 0 |
-| technically_checked | 16 |
-| game_tested | 16 |
+| technically_checked | 17 |
+| game_tested | 17 |
 | github_metadata_records | 166 |
-| github_published | 16 |
-| workshop_submitted | 16 |
+| github_published | 17 |
+| workshop_submitted | 17 |
 | workshop_published | 11 |
 | pull_requests | 17 |
 | integration_records | 20 |
 | accepted | 2 |
 | awaiting_rights | 85 |
 | needs_update | 13 |
-| freshness_unverified | 150 |
+| freshness_unverified | 149 |
 | static_inventory_pass | 129 |
 | static_inventory_flagged | 20 |
 | static_findings | 49 |

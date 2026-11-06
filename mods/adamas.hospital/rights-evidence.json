@@ -1,0 +1,14 @@
+{
+  "schema": 1,
+  "package_id": "adamas.hospital",
+  "checked_at": "2026-11-06T17:39:57.705753+00:00",
+  "license": "GPL-3.0",
+  "public_evidence_url": "https://github.com/tomvd/Hospital/blob/82a15e711129a32e5bfe772663160433ee566316/LICENSE",
+  "original_author": "Adamas",
+  "source_commit": "82a15e711129a32e5bfe772663160433ee566316",
+  "license_file_sha256": "53927bd0b739d38c87a0a82236fd9b070c2dfff11c0c119be50372005d5047ad",
+  "license_blob_sha": "9cecc1d4669ee8af2ca727a5d8cde10cd8b2d7cc",
+  "original_mod_art_used": false,
+  "corresponding_source": "payload/Languages/Russian",
+  "source_notice_scope": "GNU GPL v3. No later-version permission inferred from template boilerplate."
+}

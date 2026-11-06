@@ -7,12 +7,12 @@
       "repository": "tomvd/Hospital",
       "number": 66,
       "state": "open",
-      "head_sha": "414330693433378b0bcc74e1f6dded531661542a",
+      "head_sha": "d05775c2ec957032420a364cebf281c3c210fb02",
       "base_sha": "82a15e711129a32e5bfe772663160433ee566316",
       "package_ids": [
         "adamas.hospital"
       ],
-      "key_count": 82,
+      "key_count": 83,
       "files": [
         "1.7/Languages/Russian/DefInjected/IncidentDef/CommunityRussianAdditions.xml",
         "1.7/Languages/Russian/DefInjected/MainButtonDef/CommunityRussianAdditions.xml",
@@ -22,8 +22,19 @@
       ],
       "body_readback_equal": true,
       "kind": "upstream_translation_pr",
-      "fresh_game_test_claimed": false,
-      "ai_disclosed": true
+      "fresh_game_test_claimed": true,
+      "ai_disclosed": true,
+      "previous_head_sha": "414330693433378b0bcc74e1f6dded531661542a",
+      "game_test": {
+        "version": "1.7.5000 rev1275",
+        "matched_entries": 83,
+        "english_control_entries": 83,
+        "additional_localization_errors": 0,
+        "baseline_localization_errors": 38,
+        "proof_sha256": "08e772f27fc5cd1580758d336a317f04914125c3e2d81595410ccb68ff16dd8e",
+        "scope": "Actual isolated startup and physical value readback. No patient-dialog layout, colony gameplay or independent human proofreading claim.",
+        "gameplay_tested": false
+      }
     },
     {
       "date": "2026-11-06",
@@ -216,6 +227,44 @@
     },
     {
       "date": "2026-11-06",
+      "repository": "AobaKuma/MechsuitFramework",
+      "url": "https://github.com/AobaKuma/MechsuitFramework/issues/34#issuecomment-6691562732",
+      "number": 34,
+      "state": "open",
+      "package_ids": [
+        "aoba.framework",
+        "aoba.deadmanswitch.ancientcorps",
+        "aoba.tent",
+        "aoba.usac.core"
+      ],
+      "body_readback_equal": true,
+      "kind": "translation_offer_and_permission_request",
+      "ai_disclosed": true,
+      "created_at": "2026-11-06T17:50:28Z",
+      "contact_body_sha256": "2c1491dda6dd570b59d6a890391bb0496a8126e348a5f2222f80c9c81d5b2f56",
+      "action": "comment_in_existing_permission_thread",
+      "comment_id": 6691562732,
+      "rights_granted": false
+    },
+    {
+      "date": "2026-11-06",
+      "repository": "DawnsGlow/QualityColours",
+      "url": "https://github.com/DawnsGlow/QualityColours/issues/2",
+      "number": 2,
+      "state": "open",
+      "package_ids": [
+        "dawnsglow.qualcolor"
+      ],
+      "body_readback_equal": true,
+      "kind": "translation_offer_and_permission_request",
+      "ai_disclosed": true,
+      "created_at": "2026-11-06T17:52:00Z",
+      "contact_body_sha256": "14f268607aba98cdd7aeeee2a756dec420c76b7547b52402435177b9c37a3193",
+      "action": "translation_offer_and_permission_request",
+      "rights_granted": false
+    },
+    {
+      "date": "2026-11-06",
       "repository": "RimDark/Rimdark40kFramework",
       "url": "https://github.com/RimDark/Rimdark40kFramework/issues/11",
       "number": 11,
@@ -265,22 +314,35 @@
       "repository": "realloon/CustomizeWeapon",
       "number": 10,
       "state": "open",
-      "head_sha": "9990fc7687874da78ba8a2ea50794acdb46f2056",
+      "head_sha": "dec6b152d7974d554ad29a4490c940827106adce",
       "base_sha": "d5e41881b0b79c7ae74ee7361e3e6fa462323562",
       "package_ids": [
         "vortex.customizeweapon"
       ],
-      "key_count": 19,
+      "key_count": 23,
       "files": [
         "Languages/Russian/DefInjected/AbilityDef/CommunityRussianAdditions.xml",
         "Languages/Russian/DefInjected/DamageDef/CommunityRussianAdditions.xml",
         "Languages/Russian/DefInjected/JobDef/CommunityRussianAdditions.xml",
-        "Languages/Russian/DefInjected/WorkGiverDef/CommunityRussianAdditions.xml"
+        "Languages/Russian/DefInjected/WorkGiverDef/CommunityRussianAdditions.xml",
+        "Languages/Russian/DefInjected/WeaponTraitDef/CommunityRussianAdditions.xml"
       ],
       "body_readback_equal": true,
       "kind": "upstream_translation_pr",
-      "fresh_game_test_claimed": false,
-      "ai_disclosed": true
+      "fresh_game_test_claimed": true,
+      "ai_disclosed": true,
+      "previous_head_sha": "9990fc7687874da78ba8a2ea50794acdb46f2056",
+      "game_test": {
+        "version": "1.7.5000 rev1275",
+        "matched_entries": 23,
+        "english_control_entries": 23,
+        "additional_localization_errors": 0,
+        "baseline_localization_errors": 38,
+        "scope": "Isolated control/candidate startup and physical value readback with source and payload hashes frozen. No extended gameplay or independent human proofreading claim.",
+        "gameplay_tested": false,
+        "independent_human_proofreading": false,
+        "evidence_url": "https://github.com/Antyhc/RimWorld-Russian-Translations/blob/main/mods/vortex.customizeweapon/game-test-evidence.json"
+      }
     },
     {
       "date": "2026-11-06",

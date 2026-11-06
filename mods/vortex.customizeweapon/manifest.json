@@ -84,14 +84,25 @@
     "pr_url": "https://github.com/realloon/CustomizeWeapon/pull/10",
     "contact_url": null,
     "target_kind": "original_mod",
-    "head_sha": "9990fc7687874da78ba8a2ea50794acdb46f2056",
+    "head_sha": "dec6b152d7974d554ad29a4490c940827106adce",
     "submitted_at": "2026-11-06",
     "native_xml_submitted": true,
     "original_native_accepted": false,
-    "entries_submitted": 19,
-    "fresh_game_test_claimed": false,
+    "entries_submitted": 23,
+    "fresh_game_test_claimed": true,
     "response_evidence": "community/outreach-2026-11-06.json",
-    "scope": "19 direct fields submitted. Four additional charge nouns were verified in isolated game checks and published in the 23-entry Workshop pack. Updating this PR to include them is prepared but not sent because GitHub throttled submissions."
+    "scope": "23 fields submitted, including four runtime-verified charge nouns. All 23 match the isolated 1.7.5000 control/candidate check with no new errors. Existing PR updated and read back at dec6b152d7974d554ad29a4490c940827106adce.",
+    "game_test": {
+      "version": "1.7.5000 rev1275",
+      "matched_entries": 23,
+      "english_control_entries": 23,
+      "additional_localization_errors": 0,
+      "baseline_localization_errors": 38,
+      "scope": "Isolated control/candidate startup and physical value readback with source and payload hashes frozen. No extended gameplay or independent human proofreading claim.",
+      "gameplay_tested": false,
+      "independent_human_proofreading": false,
+      "evidence_url": "https://github.com/Antyhc/RimWorld-Russian-Translations/blob/main/mods/vortex.customizeweapon/game-test-evidence.json"
+    }
   },
   "original": {
     "author": "Vortex",

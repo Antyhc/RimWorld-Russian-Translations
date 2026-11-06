@@ -1,0 +1,35 @@
+<?xml version='1.0' encoding='utf-8'?>
+<ModMetaData>
+  <name>Hospital — Russian translation</name>
+  <author>Antyhc (AI-assisted with OpenAI Codex)</author>
+  <packageId>antyhc.russian.adamas.hospital</packageId>
+  <url>https://github.com/Antyhc/RimWorld-Russian-Translations</url>
+  <description>Самостоятельный русский перевод Hospital от Adamas для RimWorld 1.7: 83 строки интерфейса, событий и настроек, включая отсутствующие в проверенных альтернативных переводах. Требуются оригинальный Hospital и Harmony. Загружать после оригинала. Включайте только один русский перевод Hospital. Подготовлено и отредактировано с помощью OpenAI Codex; независимая вычитка человеком не заявляется.
+
+Independent Russian localization for Hospital by Adamas, targeting RimWorld 1.7: 83 interface, event and setting entries, including current gaps in the checked alternatives. Requires the original Hospital and Harmony; load after the original. Enable only one Hospital Russian translation. AI-assisted authoring and review with OpenAI Codex; no independent human proofreading is claimed.</description>
+  <supportedVersions>
+    <li>1.7</li>
+  </supportedVersions>
+  <modDependencies>
+    <li>
+      <packageId>brrainz.harmony</packageId>
+      <displayName>Harmony</displayName>
+      <steamWorkshopUrl>https://steamcommunity.com/sharedfiles/filedetails/?id=2009463077</steamWorkshopUrl>
+    </li>
+    <li>
+      <packageId>adamas.hospital</packageId>
+      <displayName>Hospital</displayName>
+      <steamWorkshopUrl>https://steamcommunity.com/sharedfiles/filedetails/?id=2992224079</steamWorkshopUrl>
+    </li>
+  </modDependencies>
+  <loadAfter>
+    <li>brrainz.harmony</li>
+    <li>adamas.hospital</li>
+  </loadAfter>
+  <incompatibleWith>
+    <li>nevelian.adamas.hospital</li>
+    <li>jicenok.adamas.hospital</li>
+    <li>vi.rus.hospital</li>
+    <li>el.hospital.ru</li>
+  </incompatibleWith>
+</ModMetaData>

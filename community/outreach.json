@@ -322,10 +322,21 @@
       "status": "awaiting_response",
       "target_kind": "original_mod",
       "ai_disclosed": true,
-      "fresh_game_test_claimed": false,
+      "fresh_game_test_claimed": true,
       "receipt_evidence": "community/outreach-2026-11-06.json",
-      "head_sha": "9990fc7687874da78ba8a2ea50794acdb46f2056",
-      "entries_submitted": 19
+      "head_sha": "dec6b152d7974d554ad29a4490c940827106adce",
+      "entries_submitted": 23,
+      "game_test": {
+        "version": "1.7.5000 rev1275",
+        "matched_entries": 23,
+        "english_control_entries": 23,
+        "additional_localization_errors": 0,
+        "baseline_localization_errors": 38,
+        "scope": "Isolated control/candidate startup and physical value readback with source and payload hashes frozen. No extended gameplay or independent human proofreading claim.",
+        "gameplay_tested": false,
+        "independent_human_proofreading": false,
+        "evidence_url": "https://github.com/Antyhc/RimWorld-Russian-Translations/blob/main/mods/vortex.customizeweapon/game-test-evidence.json"
+      }
     },
     {
       "package_id": "wvc.sergkart.biotech.moremechanoidsworkmodes",
@@ -350,10 +361,20 @@
       "status": "awaiting_response",
       "target_kind": "original_mod",
       "ai_disclosed": true,
-      "fresh_game_test_claimed": false,
+      "fresh_game_test_claimed": true,
       "receipt_evidence": "community/outreach-2026-11-06.json",
-      "head_sha": "414330693433378b0bcc74e1f6dded531661542a",
-      "entries_submitted": 82
+      "head_sha": "d05775c2ec957032420a364cebf281c3c210fb02",
+      "entries_submitted": 83,
+      "game_test": {
+        "version": "1.7.5000 rev1275",
+        "matched_entries": 83,
+        "english_control_entries": 83,
+        "additional_localization_errors": 0,
+        "baseline_localization_errors": 38,
+        "proof_sha256": "08e772f27fc5cd1580758d336a317f04914125c3e2d81595410ccb68ff16dd8e",
+        "scope": "Actual isolated startup and physical value readback. No patient-dialog layout, colony gameplay or independent human proofreading claim.",
+        "gameplay_tested": false
+      }
     },
     {
       "package_id": "fuu.bloodanimations",
@@ -434,6 +455,36 @@
       "receipt_evidence": "community/outreach-2026-11-06.json",
       "head_sha": "1be2bab4e573295a4830ee7f296046c2e9263ae7",
       "entries_submitted": 98
+    },
+    {
+      "package_id": "aoba.framework",
+      "related_package_ids": [
+        "aoba.deadmanswitch.ancientcorps",
+        "aoba.tent",
+        "aoba.usac.core"
+      ],
+      "channel": "github_issue",
+      "url": "https://github.com/AobaKuma/MechsuitFramework/issues/34#issuecomment-6691562732",
+      "date": "2026-11-06",
+      "status": "awaiting_response",
+      "target_kind": "translation_distribution_permission",
+      "ai_disclosed": true,
+      "fresh_game_test_claimed": false,
+      "receipt_evidence": "community/outreach-2026-11-06.json",
+      "rights_granted": false
+    },
+    {
+      "package_id": "dawnsglow.qualcolor",
+      "related_package_ids": [],
+      "channel": "github_issue",
+      "url": "https://github.com/DawnsGlow/QualityColours/issues/2",
+      "date": "2026-11-06",
+      "status": "awaiting_response",
+      "target_kind": "translation_distribution_permission",
+      "ai_disclosed": true,
+      "fresh_game_test_claimed": false,
+      "receipt_evidence": "community/outreach-2026-11-06.json",
+      "rights_granted": false
     }
   ]
 }

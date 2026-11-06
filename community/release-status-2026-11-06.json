@@ -1,6 +1,15 @@
 {
-  "checked_at": "2026-11-06T17:25:08.077681+00:00",
+  "checked_at": "2026-11-06T17:49:16.282946+00:00",
   "anonymous_api": [
+    {
+      "publishedfileid": "3834810607",
+      "result": 1,
+      "title": "Hospital — Russian Translation",
+      "visibility": 0,
+      "banned": 0,
+      "time_updated": 1793987044,
+      "file_size": "110682"
+    },
     {
       "publishedfileid": "3830000511",
       "result": 1,
@@ -133,6 +142,30 @@
   ],
   "new_public_submissions": [
     {
+      "id": "3834810607",
+      "title": "Hospital — Russian Translation",
+      "file_type": 0,
+      "owned_by_current_user": true,
+      "visibility": 0,
+      "banned": false,
+      "children": [
+        "2009463077",
+        "2992224079"
+      ],
+      "result": 1,
+      "creator_app": 294100,
+      "consumer_app": 294100,
+      "created_unix": 1793987044,
+      "updated_unix": 1793987044,
+      "accepted_for_use": false,
+      "tags": "Translation,1.7",
+      "preview_handle": "14643177725396591935",
+      "preview_size": 25903,
+      "content_size": 110682,
+      "total_content_size": 110682,
+      "description_present": true
+    },
+    {
       "id": "3834788420",
       "title": "Clean Command Bar — Russian Translation",
       "file_type": 0,
@@ -200,13 +233,14 @@
       "3830050048",
       "3830078437",
       "3834788420",
-      "3834796180"
+      "3834796180",
+      "3834810607"
     ],
     "result": 1,
     "creator_app": 766,
     "consumer_app": 294100,
     "created_unix": 1793354061,
-    "updated_unix": 1793985486,
+    "updated_unix": 1793987050,
     "accepted_for_use": false,
     "tags": "Translation,1.7",
     "preview_handle": "10407216077500798127",

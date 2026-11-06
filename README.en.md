@@ -7,7 +7,7 @@ contributions and standalone packs with confirmed distribution rights.
 A registry record alone is not an installable release.
 
 <!-- verified-release-summary -->
-On 6 November 2026, **2 new packs** were submitted successfully, listed below. Steam confirmed public visibility and required dependencies; exact downloaded Workshop copies passed isolated game checks. Anonymous access to the new web pages remains unverified because Steam returned HTTP 429. [Current Steam evidence](community/release-status-2026-11-06.json).
+On 6 November 2026, **3 new packs** were submitted successfully, listed below. Steam confirmed public visibility and required dependencies; exact downloaded Workshop copies passed isolated game checks. Anonymous access to the new web pages remains unverified because Steam returned HTTP 429. [Current Steam evidence](community/release-status-2026-11-06.json).
 
 The standalone No Burn Metal and Designator Shapes translations were deleted because their originals now contain all corresponding Russian entries. Use the original mods. The old Cooking item is unavailable for an unknown reason; no replacement item was created.
 
@@ -31,6 +31,7 @@ Registry entries include releases, independently authored drafts and work awaiti
 | [Vanilla Cooking Expanded](https://steamcommunity.com/sharedfiles/filedetails/?id=3830078437) | 24 | Previously published, currently unavailable on Steam. [Translation files](mods/vanillaexpanded.vcooke/payload/) |
 | [Clean Command Bar](https://steamcommunity.com/sharedfiles/filedetails/?id=3834788420) | 3 | Submission and installation verified; web access pending |
 | [Customize Weapon](https://steamcommunity.com/sharedfiles/filedetails/?id=3834796180) | 23 | Submission and installation verified; web access pending |
+| [Hospital](https://steamcommunity.com/sharedfiles/filedetails/?id=3834810607) | 83 | Submission and installation verified; web access pending |
 
 Nine new releases on 30 October: Blood Animations, Turret Pipeline, WVC Work Modes,
 REEL Storage, Achievements, Traits, Loading Progress, Empire and Cooking. All 487 unique values passed actual isolated English
@@ -96,7 +97,7 @@ compatibility certification is claimed.
 
 [Collection 3830036321](https://steamcommunity.com/sharedfiles/filedetails/?id=3830036321)
 was created through the official web wizard with our cover, bilingual description
-and 14 member IDs verified through the Steam API, including the unavailable Cooking item. It remains private: the Publish button does not complete,
+and 15 member IDs verified through the Steam API, including the unavailable Cooking item. It remains private: the Publish button does not complete,
 and native visibility-only submission returns 15 AccessDenied. Public availability
 is not claimed; use direct item links above. Earlier failed native draft 3828791160
 is retained and superseded.

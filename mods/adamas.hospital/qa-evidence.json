@@ -1,0 +1,43 @@
+{
+  "schema": 1,
+  "checked_at": "2026-11-06T17:39:57.705753+00:00",
+  "translation_rows": 83,
+  "game_tested": true,
+  "independent_human_review": false,
+  "semantic_review": "82 source-matched PR values reviewed; SilverMultiplierTooltip corrected to percent of baseline rather than increase-by, verified against CalculateSilverToReceive IL. Current physical PatientLandingSpot.label is patients land here; translated as место высадки пациентов without overwriting the old private patch-context hash.",
+  "payload_sha256": "46b6648bbe295f30f937ce5804e3edea2f7d2b642bdf9dedcf3949f3730da417",
+  "payload_file_hashes": {
+    "About/About.xml": "a79e3b0ae5a2fd87e746d924104c26da521199e06fbc7c959402cea5ac0244a8",
+    "About/Credits.txt": "55da6953b4b0c6272abdaa599a7a87a97b92383dd37941adf52d1d8331067e0d",
+    "About/License.txt": "53927bd0b739d38c87a0a82236fd9b070c2dfff11c0c119be50372005d5047ad",
+    "About/Preview.png": "4549856f9623777b5489d6fdac61034e37e7fc295906abc0105b87947021576d",
+    "Languages/Russian/DefInjected/IncidentDef/HospitalRussian.xml": "6b266ae91100ab6eee51ac1328809ac01fba1655ea23670d3f6feb1521127a63",
+    "Languages/Russian/DefInjected/MainButtonDef/HospitalRussian.xml": "b928ff8589eb21d6681394cc70b27fb8c6ab4bb0473e00bed25536e9dd9f6b16",
+    "Languages/Russian/DefInjected/PawnColumnDef/HospitalRussian.xml": "9b3e53eb8de5295da49ec52f77fdf296cad1e3adfd50b0acaa3df3d34632acb9",
+    "Languages/Russian/DefInjected/ThingDef/HospitalRussian.xml": "f717bc5d1826a5315091c2235ecece6fb5d2a2d221e375dce10ae349ca4af668",
+    "Languages/Russian/Keyed/HospitalRussian.xml": "cd14e849cbd6ec64fdac1bd409781b5a0f8666887519c6c52141eabf7d90ceb0",
+    "LICENSE": "9a512589b304a23f1ffe6fa11f30adc90fdd4890f244e2ff5f2ec796012631f5"
+  },
+  "current_source_input_hashes": {
+    "1.7\\Assemblies\\0MultiplayerAPI.dll": "863766df5fd24a31eda1e59947f026abd5b8dc99cb0d7bca6a8a3d356b65ad8d",
+    "1.7\\Assemblies\\Hospital.dll": "8dcc54470ac0a1bebcf79a0e5a877d47f64f536c36faac893dbde6a0ac6fe40a",
+    "1.7\\Defs\\Duties\\Duties_Hospital.xml": "a22574746cb3ceaf5d76a1350131a333d7dd824e161c7164ba4c9e05f08c27a7",
+    "1.7\\Defs\\MainTab\\MainButtons.xml": "eedaf696ea94e1b7e9342514fc0481f7c73c6d57c5750e30587926774a0092ba",
+    "1.7\\Defs\\MainTab\\PawnColumns.xml": "c6392fd9cdd98238fcca93a331eed1f95f0dc9b38a09c2fe77ab1e659f06d146",
+    "1.7\\Defs\\MainTab\\PawnTables.xml": "a5a9d89cc63c192f5af8b0325304fcf0bb947759aa01e2760b2fae54ae23d14e",
+    "1.7\\Defs\\Storyteller\\Incidents_Map_Special.xml": "624a466c12bdf3375b5e23f9cc613f30201338d689238c01b33fc7dea103dc32",
+    "1.7\\Defs\\ThingDefs_Buildings\\Buildings_Misc_Landing.xml": "4e87fbf0c053fce3a523a74b3f435aa97a83e8ebc7bb23146504b0440b004c97",
+    "1.7\\Languages\\English\\Keyed\\Hospital.xml": "fd9fbe8c6bc928aeb62d2a28a29170b33332b524802c152ad01f54a5124c1623",
+    "About\\About.xml": "e709156a7654022a5eec42426f73080ffaadf85afeb59c27ed88e4039f787ee9",
+    "Patches\\MedPod.xml": "1d3321c70f0f48954dafd2718a0474618b55032c16ae088731f4023f8e496558"
+  },
+  "native_russian_preserved": true,
+  "third_party_russian_copied": false,
+  "game_evidence": "game-test-evidence.json",
+  "game_evidence_sha256": "08e772f27fc5cd1580758d336a317f04914125c3e2d81595410ccb68ff16dd8e",
+  "current_minimal_landing_spot_label_verified": true,
+  "known_limitations": [
+    "Hospital settings/patient dialog layout and colony gameplay were not tested.",
+    "No independent human proofreading was performed."
+  ]
+}
