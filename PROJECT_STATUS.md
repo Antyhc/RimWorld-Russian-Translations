@@ -2,7 +2,7 @@
 
 Generated from `mods/*/manifest.json` by `python scripts/rwtranslations.py registry`.
 
-Last inventory generation (UTC): 2026-11-06T17:05:58+00:00
+Last inventory generation (UTC): 2026-11-06T17:10:33+00:00
 
 The registry tracks **166 mods**: 156 saved-store records and 10 additional draft/review metadata records; 0 records have unverified store scope. Saved stores can also contain unfinished drafts. Original and translation package IDs are separate namespaces. Discovery has no fixed mod limit.
 
@@ -39,7 +39,10 @@ Owner SDK confirmed private visibility (2) on 6 November. Browser management is 
 Integration proposals:
 
 - [Adaptive Storage Framework](https://github.com/bbradson/Adaptive-Storage-Framework/pull/41): open.
+- [Bulk Load For Transporters](https://github.com/Ilarion33/BulkLoadForTransporters/pull/1): open.
 - [Loading Progress](https://github.com/ilyvion/loading-progress/pull/13): accepted_translation_listing (README link to an independently published translation).
+- [Map Preview](https://github.com/m00nl1ght-dev/MapPreview/pull/23): open.
+- [Smart Medicine - Continued](https://github.com/MemeGoddess/RimWorld-SmartMedicine/pull/24): open.
 - [Designator Shapes](https://github.com/merthsoft/designator-shapes/pull/15): accepted.
 - [Vanilla Expanded Framework](https://github.com/OneCodeUnit/VanillaRussianExpanded/pull/47): open (community translation repository; original-native acceptance not claimed).
 - [ReGrowth 2](https://github.com/OneCodeUnit/VanillaRussianExpanded/pull/46): accepted_into_community_translation (community translation repository; original-native acceptance not claimed).
@@ -48,6 +51,8 @@ Integration proposals:
 - [Vanilla Gravship Expanded - Chapter 1](https://github.com/OneCodeUnit/VanillaRussianExpanded/pull/47): open (community translation repository; original-native acceptance not claimed).
 - [Vanilla Events Expanded](https://github.com/OneCodeUnit/VanillaRussianExpanded/pull/47): open (community translation repository; original-native acceptance not claimed).
 - [Vanilla Landmarks Expanded](https://github.com/OneCodeUnit/VanillaRussianExpanded/pull/47): open (community translation repository; original-native acceptance not claimed).
+- [Customize Weapon](https://github.com/realloon/CustomizeWeapon/pull/10): open.
+- [WVC - Work Modes](https://github.com/WVCSergkart/MoreMechanoidsWorkModes/pull/8): open.
 
 Current pilot covers are original typographic fallback designs. Original-art permission requests remain separate and do not block these covers. Other records with unconfirmed translation rights are held from distribution.
 
@@ -68,8 +73,8 @@ The 13 source-drift packages were refreshed. Targeted repairs added 20 strings, 
 | github_published | 15 |
 | workshop_submitted | 15 |
 | workshop_published | 11 |
-| pull_requests | 7 |
-| integration_records | 10 |
+| pull_requests | 12 |
+| integration_records | 15 |
 | accepted | 2 |
 | awaiting_rights | 121 |
 | needs_update | 13 |
@@ -78,7 +83,7 @@ The 13 source-drift packages were refreshed. Targeted repairs added 20 strings, 
 | static_inventory_flagged | 20 |
 | static_findings | 49 |
 | repository_monitors | 24 |
-| pull_request_monitors | 7 |
+| pull_request_monitors | 12 |
 | icon_permission_requests | 2 |
 | workshop_public_pages_verified | 11 |
 | workshop_content_check_pending | 0 |

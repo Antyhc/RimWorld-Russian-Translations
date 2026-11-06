@@ -46,7 +46,12 @@
     "game_test_scope": "Actual isolated startup and physical language-value readback, exact active dependencies/DLC and source/payload/probe hashes; no save, extended gameplay or independent human proofreading claim.",
     "game_test_evidence_sha256": "175b9fd5d440deb93f34f7454544ba726d3e45d346cdce7a4587bc11e3274f68",
     "ui_inspected": true,
-    "ui_scope": "Engine-generated screenshot confirms Russian main menu on the tested candidate startup. Group ability menu was not opened and colony gameplay was not tested."
+    "ui_scope": "Engine-generated screenshot confirms Russian main menu on the tested candidate startup. Group ability menu was not opened and colony gameplay was not tested.",
+    "workshop_installation": "passed_exact_subscribed_bytes",
+    "workshop_game_load": "passed_actual_subscribed_Workshop_root",
+    "workshop_game_evidence": "workshop-game-test-evidence.json",
+    "workshop_game_evidence_sha256": "2424904155a9059be713566c2f36115bfc98f4713395c3e7f7972675ab9f9f15",
+    "workshop_game_test_scope": "Fresh actual load of the subscribed byte-exact Workshop item. Earlier actual English control reused only after exact original source/context, game, selected values and unchanged read-only probe verification. Exact full localization-error multiset compared. The earlier local proof remains historical; no new English-control boot, save or extended gameplay/human proof claimed."
   },
   "publication": {
     "github_url": "https://github.com/Antyhc/RimWorld-Russian-Translations/tree/main/mods/leo.cleancommandbar",
@@ -63,7 +68,9 @@
     "website_verification_blocker": "Steam Community website returned HTTP 429 during this session.",
     "collection_id": "3830036321",
     "collection_member_verified": true,
-    "github_publication_date": "2026-11-06"
+    "github_publication_date": "2026-11-06",
+    "installation_tested": true,
+    "installation_scope": "Official Steam subscription/download verified all five payload files byte-exact, followed by actual isolated Workshop-root game load."
   },
   "integration": {
     "status": "not_sent",

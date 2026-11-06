@@ -35,9 +35,17 @@
     "workshop_status": "not_published"
   },
   "integration": {
-    "status": "not_sent",
-    "pr_url": null,
-    "contact_url": null
+    "status": "open",
+    "pr_url": "https://github.com/Ilarion33/BulkLoadForTransporters/pull/1",
+    "contact_url": null,
+    "target_kind": "original_mod",
+    "head_sha": "1ae9fd59ff1f3d705f12a83cd827cd7a65970f8e",
+    "submitted_at": "2026-11-06",
+    "native_xml_submitted": true,
+    "original_native_accepted": false,
+    "entries_submitted": 52,
+    "fresh_game_test_claimed": false,
+    "response_evidence": "community/outreach-2026-11-06.json"
   },
   "original": {
     "author": "Ilarion",

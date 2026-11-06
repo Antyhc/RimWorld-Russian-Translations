@@ -1,0 +1,32 @@
+{
+  "schema_version": 1,
+  "checked_at": "2026-11-06T17:05:18.199168+00:00",
+  "scope": "Owned account subscription, Steam installation and exact recursive payload byte comparison; no active mods/settings changed; anonymous visibility and game loading require separate checks",
+  "sources": [
+    "https://partner.steamgames.com/doc/api/ISteamUGC#SubscribeItem",
+    "https://partner.steamgames.com/doc/api/ISteamUGC#DownloadItem",
+    "https://partner.steamgames.com/doc/api/ISteamUGC#GetItemInstallInfo",
+    "https://raw.githubusercontent.com/rlabrecque/SteamworksSDK/master/public/steam/isteamremotestorage.h"
+  ],
+  "items": [
+    {
+      "package_id": "leo.cleancommandbar",
+      "url": "https://steamcommunity.com/sharedfiles/filedetails/?id=3834788420",
+      "subscription_verified": true,
+      "subscription_modified": true,
+      "file_count": 5,
+      "exact_payload_bytes": true,
+      "status": "installed_exact_match",
+      "missing": [],
+      "extra": [],
+      "changed": [],
+      "verified_at": "2026-11-06T17:05:18.188698+00:00",
+      "download_completion_evidence": "New item-specific Steam workshop_log Download item result OK record after subscription + GetItemState Installed/current; wrapper callback absent",
+      "expected_files_fingerprint": "ba51fa27a18074f5a30afc09374acb54bfbe19384a2400ffeed3b85e9c947ab2",
+      "downloaded_files_fingerprint": "ba51fa27a18074f5a30afc09374acb54bfbe19384a2400ffeed3b85e9c947ab2"
+    }
+  ],
+  "exact_matches": 1,
+  "selected_package": "leo.cleancommandbar",
+  "all_selected_installed_exact": true
+}

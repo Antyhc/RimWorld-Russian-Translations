@@ -8,10 +8,13 @@
   ],
   "rights": {
     "translation": {
-      "status": "unknown",
+      "status": "permission_requested",
       "license": null,
       "evidence": null,
-      "attribution": null
+      "attribution": null,
+      "request_url": "https://github.com/RimDark/Rimdark40kFramework/issues/11",
+      "requested_at": "2026-11-06",
+      "permission_received": false
     },
     "icon": {
       "status": "unknown",
@@ -35,9 +38,12 @@
     "workshop_status": "not_published"
   },
   "integration": {
-    "status": "not_sent",
+    "status": "translation_offered_permission_requested",
     "pr_url": null,
-    "contact_url": null
+    "contact_url": "https://github.com/RimDark/Rimdark40kFramework/issues/11",
+    "contact_status": "awaiting_response",
+    "offered_at": "2026-11-06",
+    "response_evidence": "community/outreach-2026-11-06.json"
   },
   "original": {
     "author": "Phonicmas",

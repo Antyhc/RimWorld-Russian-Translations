@@ -187,6 +187,159 @@
       "scope": "Link to the existing 399-entry Russian Workshop pack in the author's README list of standalone translations.",
       "merged_at": "2026-11-05T06:39:55Z",
       "merge_commit": "7232b7fa83e42fd891a106ff001a3015aad1a545"
+    },
+    {
+      "package_id": "dubwise.dubsbadhygiene",
+      "related_package_ids": [
+        "dubwise.dubscentralheating",
+        "dubwise.dubsmintmenus",
+        "dubwise.dubsmintminimap",
+        "dubwise.dubsperformanceanalyzer.steam",
+        "dubwise.rimatomics",
+        "dubwise.rimefeller"
+      ],
+      "channel": "github_issue",
+      "url": "https://github.com/Dubwise56/Dubs-Bad-Hygiene/issues/180",
+      "date": "2026-11-06",
+      "status": "awaiting_response",
+      "target_kind": "translation_distribution_permission",
+      "ai_disclosed": true,
+      "fresh_game_test_claimed": false,
+      "receipt_evidence": "community/outreach-2026-11-06.json",
+      "rights_granted": false
+    },
+    {
+      "package_id": "ferny.characterdevelopment",
+      "related_package_ids": [
+        "ferny.perspectiveshift",
+        "ferny.betterarchitect",
+        "ferny.progressioneducation",
+        "ferny.resourcedeliveryhelper",
+        "ferny.worldbuilder"
+      ],
+      "channel": "github_issue",
+      "url": "https://github.com/fernyrepos/Character-Development/issues/17",
+      "date": "2026-11-06",
+      "status": "awaiting_response",
+      "target_kind": "translation_distribution_permission",
+      "ai_disclosed": true,
+      "fresh_game_test_claimed": false,
+      "receipt_evidence": "community/outreach-2026-11-06.json",
+      "rights_granted": false
+    },
+    {
+      "package_id": "ilarion.bulkloadfortransporters",
+      "related_package_ids": [],
+      "channel": "github_pull_request",
+      "url": "https://github.com/Ilarion33/BulkLoadForTransporters/pull/1",
+      "date": "2026-11-06",
+      "status": "awaiting_response",
+      "target_kind": "original_mod",
+      "ai_disclosed": true,
+      "fresh_game_test_claimed": false,
+      "receipt_evidence": "community/outreach-2026-11-06.json",
+      "head_sha": "1ae9fd59ff1f3d705f12a83cd827cd7a65970f8e",
+      "entries_submitted": 52
+    },
+    {
+      "package_id": "m00nl1ght.mappreview",
+      "related_package_ids": [],
+      "channel": "github_pull_request",
+      "url": "https://github.com/m00nl1ght-dev/MapPreview/pull/23",
+      "date": "2026-11-06",
+      "status": "awaiting_response",
+      "target_kind": "original_mod",
+      "ai_disclosed": true,
+      "fresh_game_test_claimed": false,
+      "receipt_evidence": "community/outreach-2026-11-06.json",
+      "head_sha": "1049cd4ea02546a7af3eab3e13ee8784a8af20ed",
+      "entries_submitted": 71
+    },
+    {
+      "package_id": "memegoddess.smartmedicine",
+      "related_package_ids": [],
+      "channel": "github_pull_request",
+      "url": "https://github.com/MemeGoddess/RimWorld-SmartMedicine/pull/24",
+      "date": "2026-11-06",
+      "status": "awaiting_response",
+      "target_kind": "original_mod",
+      "ai_disclosed": true,
+      "fresh_game_test_claimed": false,
+      "receipt_evidence": "community/outreach-2026-11-06.json",
+      "head_sha": "6cefa204c32dfc7e6b5c53bdc5ead93b1c238f8c",
+      "entries_submitted": 7
+    },
+    {
+      "package_id": "redmattis.bettergeneinheritance",
+      "related_package_ids": [],
+      "channel": "github_issue",
+      "url": "https://github.com/RedMattis/Better-Gene-Inheritance/issues/1",
+      "date": "2026-11-06",
+      "status": "awaiting_response",
+      "target_kind": "translation_distribution_permission",
+      "ai_disclosed": true,
+      "fresh_game_test_claimed": false,
+      "receipt_evidence": "community/outreach-2026-11-06.json",
+      "rights_granted": false
+    },
+    {
+      "package_id": "phonicmas.rimdark.frameworkcore",
+      "related_package_ids": [
+        "phonicmas.rimdark.mankindsfinest"
+      ],
+      "channel": "github_issue",
+      "url": "https://github.com/RimDark/Rimdark40kFramework/issues/11",
+      "date": "2026-11-06",
+      "status": "awaiting_response",
+      "target_kind": "translation_distribution_permission",
+      "ai_disclosed": true,
+      "fresh_game_test_claimed": false,
+      "receipt_evidence": "community/outreach-2026-11-06.json",
+      "rights_granted": false
+    },
+    {
+      "package_id": "sarg.alphaanimals",
+      "related_package_ids": [
+        "sarg.alphagenes",
+        "sarg.smartodyssey"
+      ],
+      "channel": "github_issue",
+      "url": "https://github.com/juanosarg/AlphaAnimals/issues/44",
+      "date": "2026-11-06",
+      "status": "awaiting_response",
+      "target_kind": "translation_distribution_permission",
+      "ai_disclosed": true,
+      "fresh_game_test_claimed": false,
+      "receipt_evidence": "community/outreach-2026-11-06.json",
+      "rights_granted": false
+    },
+    {
+      "package_id": "vortex.customizeweapon",
+      "related_package_ids": [],
+      "channel": "github_pull_request",
+      "url": "https://github.com/realloon/CustomizeWeapon/pull/10",
+      "date": "2026-11-06",
+      "status": "awaiting_response",
+      "target_kind": "original_mod",
+      "ai_disclosed": true,
+      "fresh_game_test_claimed": false,
+      "receipt_evidence": "community/outreach-2026-11-06.json",
+      "head_sha": "9990fc7687874da78ba8a2ea50794acdb46f2056",
+      "entries_submitted": 19
+    },
+    {
+      "package_id": "wvc.sergkart.biotech.moremechanoidsworkmodes",
+      "related_package_ids": [],
+      "channel": "github_pull_request",
+      "url": "https://github.com/WVCSergkart/MoreMechanoidsWorkModes/pull/8",
+      "date": "2026-11-06",
+      "status": "awaiting_response",
+      "target_kind": "original_mod",
+      "ai_disclosed": true,
+      "fresh_game_test_claimed": false,
+      "receipt_evidence": "community/outreach-2026-11-06.json",
+      "head_sha": "dd820d445b9beb2307555bd9628f6b19bc1d26ab",
+      "entries_submitted": 21
     }
   ]
 }

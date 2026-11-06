@@ -1,0 +1,195 @@
+{
+  "date": "2026-11-06",
+  "verified_receipts": [
+    {
+      "date": "2026-11-06",
+      "repository": "Dubwise56/Dubs-Bad-Hygiene",
+      "url": "https://github.com/Dubwise56/Dubs-Bad-Hygiene/issues/180",
+      "number": 180,
+      "state": "open",
+      "package_ids": [
+        "dubwise.dubsbadhygiene",
+        "dubwise.dubscentralheating",
+        "dubwise.dubsmintmenus",
+        "dubwise.dubsmintminimap",
+        "dubwise.dubsperformanceanalyzer.steam",
+        "dubwise.rimatomics",
+        "dubwise.rimefeller"
+      ],
+      "title": "Russian localization additions and permission for separate language packs",
+      "body_readback_equal": true,
+      "kind": "translation_offer_and_permission_request",
+      "rights_granted": false
+    },
+    {
+      "date": "2026-11-06",
+      "repository": "fernyrepos/Character-Development",
+      "url": "https://github.com/fernyrepos/Character-Development/issues/17",
+      "number": 17,
+      "state": "open",
+      "package_ids": [
+        "ferny.characterdevelopment",
+        "ferny.perspectiveshift",
+        "ferny.betterarchitect",
+        "ferny.progressioneducation",
+        "ferny.resourcedeliveryhelper",
+        "ferny.worldbuilder"
+      ],
+      "title": "Russian localization offer and distribution permission for six Ferny mods",
+      "body_readback_equal": true,
+      "kind": "translation_offer_and_permission_request",
+      "rights_granted": false
+    },
+    {
+      "date": "2026-11-06",
+      "url": "https://github.com/Ilarion33/BulkLoadForTransporters/pull/1",
+      "repository": "Ilarion33/BulkLoadForTransporters",
+      "number": 1,
+      "state": "open",
+      "head_sha": "1ae9fd59ff1f3d705f12a83cd827cd7a65970f8e",
+      "base_sha": "58b21418054316a28227154b1a3cd9074d06bd37",
+      "package_ids": [
+        "ilarion.bulkloadfortransporters"
+      ],
+      "key_count": 52,
+      "files": [
+        "Languages/Russian/Keyed/CommunityRussianAdditions.xml"
+      ],
+      "body_readback_equal": true,
+      "kind": "upstream_translation_pr",
+      "fresh_game_test_claimed": false,
+      "ai_disclosed": true
+    },
+    {
+      "date": "2026-11-06",
+      "url": "https://github.com/m00nl1ght-dev/MapPreview/pull/23",
+      "repository": "m00nl1ght-dev/MapPreview",
+      "number": 23,
+      "state": "open",
+      "head_sha": "1049cd4ea02546a7af3eab3e13ee8784a8af20ed",
+      "base_sha": "8bedaa489a5ea4240749704517df0f0daaa00711",
+      "package_ids": [
+        "m00nl1ght.mappreview"
+      ],
+      "key_count": 71,
+      "files": [
+        "1.7/Languages/Russian/Keyed/CommunityRussianAdditions.xml"
+      ],
+      "body_readback_equal": true,
+      "kind": "upstream_translation_pr",
+      "fresh_game_test_claimed": false,
+      "ai_disclosed": true
+    },
+    {
+      "date": "2026-11-06",
+      "url": "https://github.com/MemeGoddess/RimWorld-SmartMedicine/pull/24",
+      "repository": "MemeGoddess/RimWorld-SmartMedicine",
+      "number": 24,
+      "state": "open",
+      "head_sha": "6cefa204c32dfc7e6b5c53bdc5ead93b1c238f8c",
+      "base_sha": "0410071ef1ddc23bea7115da9787b7e817fe18b0",
+      "package_ids": [
+        "memegoddess.smartmedicine"
+      ],
+      "key_count": 7,
+      "files": [
+        "Languages/Russian/DefInjected/WorkGiverDef/AdditionalRussian.xml",
+        "Languages/Russian/Keyed/AdditionalRussian.xml"
+      ],
+      "body_readback_equal": true,
+      "kind": "upstream_translation_pr",
+      "fresh_game_test_claimed": false,
+      "ai_disclosed": true
+    },
+    {
+      "date": "2026-11-06",
+      "repository": "RedMattis/Better-Gene-Inheritance",
+      "url": "https://github.com/RedMattis/Better-Gene-Inheritance/issues/1",
+      "number": 1,
+      "state": "open",
+      "package_ids": [
+        "redmattis.bettergeneinheritance"
+      ],
+      "title": "Offer of Russian settings translations and permission for a language supplement",
+      "body_readback_equal": true,
+      "kind": "translation_offer_and_permission_request",
+      "rights_granted": false
+    },
+    {
+      "date": "2026-11-06",
+      "repository": "RimDark/Rimdark40kFramework",
+      "url": "https://github.com/RimDark/Rimdark40kFramework/issues/11",
+      "number": 11,
+      "state": "open",
+      "package_ids": [
+        "phonicmas.rimdark.frameworkcore",
+        "phonicmas.rimdark.mankindsfinest"
+      ],
+      "title": "Russian localization offer and text-only distribution permission for Framework and Mankind’s Finest",
+      "body_readback_equal": true,
+      "kind": "translation_offer_and_permission_request",
+      "rights_granted": false
+    },
+    {
+      "date": "2026-11-06",
+      "repository": "juanosarg/AlphaAnimals",
+      "url": "https://github.com/juanosarg/AlphaAnimals/issues/44",
+      "number": 44,
+      "state": "open",
+      "package_ids": [
+        "sarg.alphaanimals",
+        "sarg.alphagenes",
+        "sarg.smartodyssey"
+      ],
+      "title": "Russian text additions for Alpha Animals, Alpha Genes and Smart Odyssey",
+      "body_readback_equal": true,
+      "kind": "translation_offer_and_permission_request",
+      "rights_granted": false
+    },
+    {
+      "date": "2026-11-06",
+      "url": "https://github.com/realloon/CustomizeWeapon/pull/10",
+      "repository": "realloon/CustomizeWeapon",
+      "number": 10,
+      "state": "open",
+      "head_sha": "9990fc7687874da78ba8a2ea50794acdb46f2056",
+      "base_sha": "d5e41881b0b79c7ae74ee7361e3e6fa462323562",
+      "package_ids": [
+        "vortex.customizeweapon"
+      ],
+      "key_count": 19,
+      "files": [
+        "Languages/Russian/DefInjected/AbilityDef/CommunityRussianAdditions.xml",
+        "Languages/Russian/DefInjected/DamageDef/CommunityRussianAdditions.xml",
+        "Languages/Russian/DefInjected/JobDef/CommunityRussianAdditions.xml",
+        "Languages/Russian/DefInjected/WorkGiverDef/CommunityRussianAdditions.xml"
+      ],
+      "body_readback_equal": true,
+      "kind": "upstream_translation_pr",
+      "fresh_game_test_claimed": false,
+      "ai_disclosed": true
+    },
+    {
+      "date": "2026-11-06",
+      "url": "https://github.com/WVCSergkart/MoreMechanoidsWorkModes/pull/8",
+      "repository": "WVCSergkart/MoreMechanoidsWorkModes",
+      "number": 8,
+      "state": "open",
+      "head_sha": "dd820d445b9beb2307555bd9628f6b19bc1d26ab",
+      "base_sha": "029318e3992206749d878c3020ccaf0418442b0e",
+      "package_ids": [
+        "wvc.sergkart.biotech.moremechanoidsworkmodes"
+      ],
+      "key_count": 21,
+      "files": [
+        "1.7/Languages/Russian/DefInjected/ConceptDef/AdditionalRussian.xml",
+        "1.7/Languages/Russian/DefInjected/RoomRoleDef/AdditionalRussian.xml",
+        "1.7/Languages/Russian/Keyed/AdditionalRussian.xml"
+      ],
+      "body_readback_equal": true,
+      "kind": "upstream_translation_pr",
+      "fresh_game_test_claimed": false,
+      "ai_disclosed": true
+    }
+  ]
+}

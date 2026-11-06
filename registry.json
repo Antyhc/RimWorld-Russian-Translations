@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "generated_at": "2026-11-06T17:05:58+00:00",
+  "generated_at": "2026-11-06T17:10:33+00:00",
   "mods": [
     {
       "schema_version": 1,
@@ -2615,10 +2615,13 @@
       ],
       "rights": {
         "translation": {
-          "status": "unknown",
+          "status": "permission_requested",
           "license": null,
           "evidence": null,
-          "attribution": null
+          "attribution": null,
+          "request_url": "https://github.com/Dubwise56/Dubs-Bad-Hygiene/issues/180",
+          "requested_at": "2026-11-06",
+          "permission_received": false
         },
         "icon": {
           "status": "unknown",
@@ -2642,9 +2645,12 @@
         "workshop_status": "not_published"
       },
       "integration": {
-        "status": "not_sent",
+        "status": "translation_offered_permission_requested",
         "pr_url": null,
-        "contact_url": null
+        "contact_url": "https://github.com/Dubwise56/Dubs-Bad-Hygiene/issues/180",
+        "contact_status": "awaiting_response",
+        "offered_at": "2026-11-06",
+        "response_evidence": "community/outreach-2026-11-06.json"
       },
       "original": {
         "author": "Dubwise",
@@ -2981,10 +2987,13 @@
       ],
       "rights": {
         "translation": {
-          "status": "unknown",
+          "status": "permission_requested",
           "license": null,
           "evidence": null,
-          "attribution": null
+          "attribution": null,
+          "request_url": "https://github.com/Dubwise56/Dubs-Bad-Hygiene/issues/180",
+          "requested_at": "2026-11-06",
+          "permission_received": false
         },
         "icon": {
           "status": "unknown",
@@ -3008,9 +3017,12 @@
         "workshop_status": "not_published"
       },
       "integration": {
-        "status": "not_sent",
+        "status": "translation_offered_permission_requested",
         "pr_url": null,
-        "contact_url": null
+        "contact_url": "https://github.com/Dubwise56/Dubs-Bad-Hygiene/issues/180",
+        "contact_status": "awaiting_response",
+        "offered_at": "2026-11-06",
+        "response_evidence": "community/outreach-2026-11-06.json"
       },
       "original": {
         "author": "Dubwise",
@@ -3066,10 +3078,13 @@
       ],
       "rights": {
         "translation": {
-          "status": "unknown",
+          "status": "permission_requested",
           "license": null,
           "evidence": null,
-          "attribution": null
+          "attribution": null,
+          "request_url": "https://github.com/Dubwise56/Dubs-Bad-Hygiene/issues/180",
+          "requested_at": "2026-11-06",
+          "permission_received": false
         },
         "icon": {
           "status": "unknown",
@@ -3093,9 +3108,12 @@
         "workshop_status": "not_published"
       },
       "integration": {
-        "status": "not_sent",
+        "status": "translation_offered_permission_requested",
         "pr_url": null,
-        "contact_url": null
+        "contact_url": "https://github.com/Dubwise56/Dubs-Bad-Hygiene/issues/180",
+        "contact_status": "awaiting_response",
+        "offered_at": "2026-11-06",
+        "response_evidence": "community/outreach-2026-11-06.json"
       },
       "original": {
         "author": "Dubwise",
@@ -3207,10 +3225,13 @@
       ],
       "rights": {
         "translation": {
-          "status": "unknown",
+          "status": "permission_requested",
           "license": null,
           "evidence": null,
-          "attribution": null
+          "attribution": null,
+          "request_url": "https://github.com/Dubwise56/Dubs-Bad-Hygiene/issues/180",
+          "requested_at": "2026-11-06",
+          "permission_received": false
         },
         "icon": {
           "status": "unknown",
@@ -3234,9 +3255,12 @@
         "workshop_status": "not_published"
       },
       "integration": {
-        "status": "not_sent",
+        "status": "translation_offered_permission_requested",
         "pr_url": null,
-        "contact_url": null
+        "contact_url": "https://github.com/Dubwise56/Dubs-Bad-Hygiene/issues/180",
+        "contact_status": "awaiting_response",
+        "offered_at": "2026-11-06",
+        "response_evidence": "community/outreach-2026-11-06.json"
       },
       "original": {
         "author": "Dubwise",
@@ -3348,10 +3372,13 @@
       ],
       "rights": {
         "translation": {
-          "status": "unknown",
+          "status": "permission_requested",
           "license": null,
           "evidence": null,
-          "attribution": null
+          "attribution": null,
+          "request_url": "https://github.com/Dubwise56/Dubs-Bad-Hygiene/issues/180",
+          "requested_at": "2026-11-06",
+          "permission_received": false
         },
         "icon": {
           "status": "unknown",
@@ -3375,9 +3402,12 @@
         "workshop_status": "not_published"
       },
       "integration": {
-        "status": "not_sent",
+        "status": "translation_offered_permission_requested",
         "pr_url": null,
-        "contact_url": null
+        "contact_url": "https://github.com/Dubwise56/Dubs-Bad-Hygiene/issues/180",
+        "contact_status": "awaiting_response",
+        "offered_at": "2026-11-06",
+        "response_evidence": "community/outreach-2026-11-06.json"
       },
       "original": {
         "author": "Dubwise",
@@ -3434,10 +3464,13 @@
       ],
       "rights": {
         "translation": {
-          "status": "unknown",
+          "status": "permission_requested",
           "license": null,
           "evidence": null,
-          "attribution": null
+          "attribution": null,
+          "request_url": "https://github.com/Dubwise56/Dubs-Bad-Hygiene/issues/180",
+          "requested_at": "2026-11-06",
+          "permission_received": false
         },
         "icon": {
           "status": "unknown",
@@ -3461,9 +3494,12 @@
         "workshop_status": "not_published"
       },
       "integration": {
-        "status": "not_sent",
+        "status": "translation_offered_permission_requested",
         "pr_url": null,
-        "contact_url": null
+        "contact_url": "https://github.com/Dubwise56/Dubs-Bad-Hygiene/issues/180",
+        "contact_status": "awaiting_response",
+        "offered_at": "2026-11-06",
+        "response_evidence": "community/outreach-2026-11-06.json"
       },
       "original": {
         "author": "Dubwise",
@@ -3632,10 +3668,13 @@
       ],
       "rights": {
         "translation": {
-          "status": "unknown",
+          "status": "permission_requested",
           "license": null,
           "evidence": null,
-          "attribution": null
+          "attribution": null,
+          "request_url": "https://github.com/Dubwise56/Dubs-Bad-Hygiene/issues/180",
+          "requested_at": "2026-11-06",
+          "permission_received": false
         },
         "icon": {
           "status": "unknown",
@@ -3659,9 +3698,12 @@
         "workshop_status": "not_published"
       },
       "integration": {
-        "status": "not_sent",
+        "status": "translation_offered_permission_requested",
         "pr_url": null,
-        "contact_url": null
+        "contact_url": "https://github.com/Dubwise56/Dubs-Bad-Hygiene/issues/180",
+        "contact_status": "awaiting_response",
+        "offered_at": "2026-11-06",
+        "response_evidence": "community/outreach-2026-11-06.json"
       },
       "original": {
         "author": "Dubwise",
@@ -4014,10 +4056,13 @@
       ],
       "rights": {
         "translation": {
-          "status": "unknown",
+          "status": "permission_requested",
           "license": null,
           "evidence": null,
-          "attribution": null
+          "attribution": null,
+          "request_url": "https://github.com/fernyrepos/Character-Development/issues/17",
+          "requested_at": "2026-11-06",
+          "permission_received": false
         },
         "icon": {
           "status": "unknown",
@@ -4041,9 +4086,12 @@
         "workshop_status": "not_published"
       },
       "integration": {
-        "status": "not_sent",
+        "status": "translation_offered_permission_requested",
         "pr_url": null,
-        "contact_url": null
+        "contact_url": "https://github.com/fernyrepos/Character-Development/issues/17",
+        "contact_status": "awaiting_response",
+        "offered_at": "2026-11-06",
+        "response_evidence": "community/outreach-2026-11-06.json"
       },
       "original": {
         "author": "ferny",
@@ -4107,10 +4155,13 @@
       ],
       "rights": {
         "translation": {
-          "status": "unknown",
+          "status": "permission_requested",
           "license": null,
           "evidence": null,
-          "attribution": null
+          "attribution": null,
+          "request_url": "https://github.com/fernyrepos/Character-Development/issues/17",
+          "requested_at": "2026-11-06",
+          "permission_received": false
         },
         "icon": {
           "status": "unknown",
@@ -4134,9 +4185,12 @@
         "workshop_status": "not_published"
       },
       "integration": {
-        "status": "not_sent",
+        "status": "translation_offered_permission_requested",
         "pr_url": null,
-        "contact_url": null
+        "contact_url": "https://github.com/fernyrepos/Character-Development/issues/17",
+        "contact_status": "awaiting_response",
+        "offered_at": "2026-11-06",
+        "response_evidence": "community/outreach-2026-11-06.json"
       },
       "original": {
         "author": "ferny",
@@ -4193,10 +4247,13 @@
       ],
       "rights": {
         "translation": {
-          "status": "unknown",
+          "status": "permission_requested",
           "license": null,
           "evidence": null,
-          "attribution": null
+          "attribution": null,
+          "request_url": "https://github.com/fernyrepos/Character-Development/issues/17",
+          "requested_at": "2026-11-06",
+          "permission_received": false
         },
         "icon": {
           "status": "unknown",
@@ -4220,9 +4277,12 @@
         "workshop_status": "not_published"
       },
       "integration": {
-        "status": "not_sent",
+        "status": "translation_offered_permission_requested",
         "pr_url": null,
-        "contact_url": null
+        "contact_url": "https://github.com/fernyrepos/Character-Development/issues/17",
+        "contact_status": "awaiting_response",
+        "offered_at": "2026-11-06",
+        "response_evidence": "community/outreach-2026-11-06.json"
       },
       "original": {
         "author": "ferny",
@@ -4278,10 +4338,13 @@
       ],
       "rights": {
         "translation": {
-          "status": "unknown",
+          "status": "permission_requested",
           "license": null,
           "evidence": null,
-          "attribution": null
+          "attribution": null,
+          "request_url": "https://github.com/fernyrepos/Character-Development/issues/17",
+          "requested_at": "2026-11-06",
+          "permission_received": false
         },
         "icon": {
           "status": "unknown",
@@ -4305,9 +4368,12 @@
         "workshop_status": "not_published"
       },
       "integration": {
-        "status": "not_sent",
+        "status": "translation_offered_permission_requested",
         "pr_url": null,
-        "contact_url": null
+        "contact_url": "https://github.com/fernyrepos/Character-Development/issues/17",
+        "contact_status": "awaiting_response",
+        "offered_at": "2026-11-06",
+        "response_evidence": "community/outreach-2026-11-06.json"
       },
       "original": {
         "author": "ferny",
@@ -4365,10 +4431,13 @@
       ],
       "rights": {
         "translation": {
-          "status": "unknown",
+          "status": "permission_requested",
           "license": null,
           "evidence": null,
-          "attribution": null
+          "attribution": null,
+          "request_url": "https://github.com/fernyrepos/Character-Development/issues/17",
+          "requested_at": "2026-11-06",
+          "permission_received": false
         },
         "icon": {
           "status": "unknown",
@@ -4392,9 +4461,12 @@
         "workshop_status": "not_published"
       },
       "integration": {
-        "status": "not_sent",
+        "status": "translation_offered_permission_requested",
         "pr_url": null,
-        "contact_url": null
+        "contact_url": "https://github.com/fernyrepos/Character-Development/issues/17",
+        "contact_status": "awaiting_response",
+        "offered_at": "2026-11-06",
+        "response_evidence": "community/outreach-2026-11-06.json"
       },
       "original": {
         "author": "ferny",
@@ -4447,10 +4519,13 @@
       ],
       "rights": {
         "translation": {
-          "status": "unknown",
+          "status": "permission_requested",
           "license": null,
           "evidence": null,
-          "attribution": null
+          "attribution": null,
+          "request_url": "https://github.com/fernyrepos/Character-Development/issues/17",
+          "requested_at": "2026-11-06",
+          "permission_received": false
         },
         "icon": {
           "status": "unknown",
@@ -4474,9 +4549,12 @@
         "workshop_status": "not_published"
       },
       "integration": {
-        "status": "not_sent",
+        "status": "translation_offered_permission_requested",
         "pr_url": null,
-        "contact_url": null
+        "contact_url": "https://github.com/fernyrepos/Character-Development/issues/17",
+        "contact_status": "awaiting_response",
+        "offered_at": "2026-11-06",
+        "response_evidence": "community/outreach-2026-11-06.json"
       },
       "original": {
         "author": "ferny",
@@ -5682,9 +5760,17 @@
         "workshop_status": "not_published"
       },
       "integration": {
-        "status": "not_sent",
-        "pr_url": null,
-        "contact_url": null
+        "status": "open",
+        "pr_url": "https://github.com/Ilarion33/BulkLoadForTransporters/pull/1",
+        "contact_url": null,
+        "target_kind": "original_mod",
+        "head_sha": "1ae9fd59ff1f3d705f12a83cd827cd7a65970f8e",
+        "submitted_at": "2026-11-06",
+        "native_xml_submitted": true,
+        "original_native_accepted": false,
+        "entries_submitted": 52,
+        "fresh_game_test_claimed": false,
+        "response_evidence": "community/outreach-2026-11-06.json"
       },
       "original": {
         "author": "Ilarion",
@@ -6524,7 +6610,12 @@
         "game_test_scope": "Actual isolated startup and physical language-value readback, exact active dependencies/DLC and source/payload/probe hashes; no save, extended gameplay or independent human proofreading claim.",
         "game_test_evidence_sha256": "175b9fd5d440deb93f34f7454544ba726d3e45d346cdce7a4587bc11e3274f68",
         "ui_inspected": true,
-        "ui_scope": "Engine-generated screenshot confirms Russian main menu on the tested candidate startup. Group ability menu was not opened and colony gameplay was not tested."
+        "ui_scope": "Engine-generated screenshot confirms Russian main menu on the tested candidate startup. Group ability menu was not opened and colony gameplay was not tested.",
+        "workshop_installation": "passed_exact_subscribed_bytes",
+        "workshop_game_load": "passed_actual_subscribed_Workshop_root",
+        "workshop_game_evidence": "workshop-game-test-evidence.json",
+        "workshop_game_evidence_sha256": "2424904155a9059be713566c2f36115bfc98f4713395c3e7f7972675ab9f9f15",
+        "workshop_game_test_scope": "Fresh actual load of the subscribed byte-exact Workshop item. Earlier actual English control reused only after exact original source/context, game, selected values and unchanged read-only probe verification. Exact full localization-error multiset compared. The earlier local proof remains historical; no new English-control boot, save or extended gameplay/human proof claimed."
       },
       "publication": {
         "github_url": "https://github.com/Antyhc/RimWorld-Russian-Translations/tree/main/mods/leo.cleancommandbar",
@@ -6541,7 +6632,9 @@
         "website_verification_blocker": "Steam Community website returned HTTP 429 during this session.",
         "collection_id": "3830036321",
         "collection_member_verified": true,
-        "github_publication_date": "2026-11-06"
+        "github_publication_date": "2026-11-06",
+        "installation_tested": true,
+        "installation_scope": "Official Steam subscription/download verified all five payload files byte-exact, followed by actual isolated Workshop-root game load."
       },
       "integration": {
         "status": "not_sent",
@@ -7219,9 +7312,17 @@
         "workshop_status": "not_published"
       },
       "integration": {
-        "status": "not_sent",
-        "pr_url": null,
-        "contact_url": null
+        "status": "open",
+        "pr_url": "https://github.com/m00nl1ght-dev/MapPreview/pull/23",
+        "contact_url": null,
+        "target_kind": "original_mod",
+        "head_sha": "1049cd4ea02546a7af3eab3e13ee8784a8af20ed",
+        "submitted_at": "2026-11-06",
+        "native_xml_submitted": true,
+        "original_native_accepted": false,
+        "entries_submitted": 71,
+        "fresh_game_test_claimed": false,
+        "response_evidence": "community/outreach-2026-11-06.json"
       },
       "original": {
         "author": "m00nl1ght",
@@ -7929,9 +8030,17 @@
         "anonymous_page_evidence": "community/workshop-public-pages-2026-10-30.json"
       },
       "integration": {
-        "status": "not_sent",
-        "pr_url": null,
-        "contact_url": null
+        "status": "open",
+        "pr_url": "https://github.com/MemeGoddess/RimWorld-SmartMedicine/pull/24",
+        "contact_url": null,
+        "target_kind": "original_mod",
+        "head_sha": "6cefa204c32dfc7e6b5c53bdc5ead93b1c238f8c",
+        "submitted_at": "2026-11-06",
+        "native_xml_submitted": true,
+        "original_native_accepted": false,
+        "entries_submitted": 7,
+        "fresh_game_test_claimed": false,
+        "response_evidence": "community/outreach-2026-11-06.json"
       },
       "original": {
         "author": "Uuugggg",
@@ -9936,10 +10045,13 @@
       ],
       "rights": {
         "translation": {
-          "status": "unknown",
+          "status": "permission_requested",
           "license": null,
           "evidence": null,
-          "attribution": null
+          "attribution": null,
+          "request_url": "https://github.com/RimDark/Rimdark40kFramework/issues/11",
+          "requested_at": "2026-11-06",
+          "permission_received": false
         },
         "icon": {
           "status": "unknown",
@@ -9963,9 +10075,12 @@
         "workshop_status": "not_published"
       },
       "integration": {
-        "status": "not_sent",
+        "status": "translation_offered_permission_requested",
         "pr_url": null,
-        "contact_url": null
+        "contact_url": "https://github.com/RimDark/Rimdark40kFramework/issues/11",
+        "contact_status": "awaiting_response",
+        "offered_at": "2026-11-06",
+        "response_evidence": "community/outreach-2026-11-06.json"
       },
       "original": {
         "author": "Phonicmas",
@@ -10033,10 +10148,13 @@
       ],
       "rights": {
         "translation": {
-          "status": "unknown",
+          "status": "permission_requested",
           "license": null,
           "evidence": null,
-          "attribution": null
+          "attribution": null,
+          "request_url": "https://github.com/RimDark/Rimdark40kFramework/issues/11",
+          "requested_at": "2026-11-06",
+          "permission_received": false
         },
         "icon": {
           "status": "unknown",
@@ -10060,9 +10178,12 @@
         "workshop_status": "not_published"
       },
       "integration": {
-        "status": "not_sent",
+        "status": "translation_offered_permission_requested",
         "pr_url": null,
-        "contact_url": null
+        "contact_url": "https://github.com/RimDark/Rimdark40kFramework/issues/11",
+        "contact_status": "awaiting_response",
+        "offered_at": "2026-11-06",
+        "response_evidence": "community/outreach-2026-11-06.json"
       },
       "original": {
         "author": "Phonicmas, Mewn Goddess, Grim Cheese and UnfortunateДруг",
@@ -10388,10 +10509,13 @@
       ],
       "rights": {
         "translation": {
-          "status": "unknown",
+          "status": "permission_requested",
           "license": null,
           "evidence": null,
-          "attribution": null
+          "attribution": null,
+          "request_url": "https://github.com/RedMattis/Better-Gene-Inheritance/issues/1",
+          "requested_at": "2026-11-06",
+          "permission_received": false
         },
         "icon": {
           "status": "unknown",
@@ -10415,9 +10539,12 @@
         "workshop_status": "not_published"
       },
       "integration": {
-        "status": "not_sent",
+        "status": "translation_offered_permission_requested",
         "pr_url": null,
-        "contact_url": null
+        "contact_url": "https://github.com/RedMattis/Better-Gene-Inheritance/issues/1",
+        "contact_status": "awaiting_response",
+        "offered_at": "2026-11-06",
+        "response_evidence": "community/outreach-2026-11-06.json"
       },
       "original": {
         "author": "RedMattis",
@@ -10955,10 +11082,13 @@
       ],
       "rights": {
         "translation": {
-          "status": "unknown",
+          "status": "permission_requested",
           "license": null,
           "evidence": null,
-          "attribution": null
+          "attribution": null,
+          "request_url": "https://github.com/juanosarg/AlphaAnimals/issues/44",
+          "requested_at": "2026-11-06",
+          "permission_received": false
         },
         "icon": {
           "status": "unknown",
@@ -10982,9 +11112,12 @@
         "workshop_status": "not_published"
       },
       "integration": {
-        "status": "not_sent",
+        "status": "translation_offered_permission_requested",
         "pr_url": null,
-        "contact_url": null
+        "contact_url": "https://github.com/juanosarg/AlphaAnimals/issues/44",
+        "contact_status": "awaiting_response",
+        "offered_at": "2026-11-06",
+        "response_evidence": "community/outreach-2026-11-06.json"
       },
       "original": {
         "author": "Sarg Bjornson, AFriend",
@@ -11051,10 +11184,13 @@
       ],
       "rights": {
         "translation": {
-          "status": "unknown",
+          "status": "permission_requested",
           "license": null,
           "evidence": null,
-          "attribution": null
+          "attribution": null,
+          "request_url": "https://github.com/juanosarg/AlphaAnimals/issues/44",
+          "requested_at": "2026-11-06",
+          "permission_received": false
         },
         "icon": {
           "status": "unknown",
@@ -11078,9 +11214,12 @@
         "workshop_status": "not_published"
       },
       "integration": {
-        "status": "not_sent",
+        "status": "translation_offered_permission_requested",
         "pr_url": null,
-        "contact_url": null
+        "contact_url": "https://github.com/juanosarg/AlphaAnimals/issues/44",
+        "contact_status": "awaiting_response",
+        "offered_at": "2026-11-06",
+        "response_evidence": "community/outreach-2026-11-06.json"
       },
       "original": {
         "author": "Allie, Erin, Major Quadrangle, Matsay, Sarg",
@@ -11141,10 +11280,13 @@
       ],
       "rights": {
         "translation": {
-          "status": "unknown",
+          "status": "permission_requested",
           "license": null,
           "evidence": null,
-          "attribution": null
+          "attribution": null,
+          "request_url": "https://github.com/juanosarg/AlphaAnimals/issues/44",
+          "requested_at": "2026-11-06",
+          "permission_received": false
         },
         "icon": {
           "status": "unknown",
@@ -11168,9 +11310,12 @@
         "workshop_status": "not_published"
       },
       "integration": {
-        "status": "not_sent",
+        "status": "translation_offered_permission_requested",
         "pr_url": null,
-        "contact_url": null
+        "contact_url": "https://github.com/juanosarg/AlphaAnimals/issues/44",
+        "contact_status": "awaiting_response",
+        "offered_at": "2026-11-06",
+        "response_evidence": "community/outreach-2026-11-06.json"
       },
       "original": {
         "author": "Sarg Bjornson",
@@ -18660,9 +18805,17 @@
         "workshop_status": "not_published"
       },
       "integration": {
-        "status": "not_sent",
-        "pr_url": null,
-        "contact_url": null
+        "status": "open",
+        "pr_url": "https://github.com/realloon/CustomizeWeapon/pull/10",
+        "contact_url": null,
+        "target_kind": "original_mod",
+        "head_sha": "9990fc7687874da78ba8a2ea50794acdb46f2056",
+        "submitted_at": "2026-11-06",
+        "native_xml_submitted": true,
+        "original_native_accepted": false,
+        "entries_submitted": 19,
+        "fresh_game_test_claimed": false,
+        "response_evidence": "community/outreach-2026-11-06.json"
       },
       "original": {
         "author": "Vortex",
@@ -18881,9 +19034,17 @@
         "anonymous_page_evidence": "community/workshop-public-pages-2026-10-30.json"
       },
       "integration": {
-        "status": "not_sent",
-        "pr_url": null,
-        "contact_url": null
+        "status": "open",
+        "pr_url": "https://github.com/WVCSergkart/MoreMechanoidsWorkModes/pull/8",
+        "contact_url": null,
+        "target_kind": "original_mod",
+        "head_sha": "dd820d445b9beb2307555bd9628f6b19bc1d26ab",
+        "submitted_at": "2026-11-06",
+        "native_xml_submitted": true,
+        "original_native_accepted": false,
+        "entries_submitted": 21,
+        "fresh_game_test_claimed": false,
+        "response_evidence": "community/outreach-2026-11-06.json"
       },
       "work_stage": "ready_for_publication",
       "inventory": {
@@ -19209,8 +19370,8 @@
     "github_published": 15,
     "workshop_submitted": 15,
     "workshop_published": 11,
-    "pull_requests": 7,
-    "integration_records": 10,
+    "pull_requests": 12,
+    "integration_records": 15,
     "accepted": 2,
     "awaiting_rights": 121,
     "needs_update": 13,
@@ -19219,7 +19380,7 @@
     "static_inventory_flagged": 20,
     "static_findings": 49,
     "repository_monitors": 24,
-    "pull_request_monitors": 7,
+    "pull_request_monitors": 12,
     "icon_permission_requests": 2,
     "workshop_public_pages_verified": 11,
     "workshop_content_check_pending": 0,
