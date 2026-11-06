@@ -82,16 +82,21 @@
     "github_publication_date": "2026-10-30"
   },
   "integration": {
-    "status": "open",
+    "status": "accepted_translation_listing",
     "pr_url": "https://github.com/ilyvion/loading-progress/pull/13",
     "contact_url": null,
     "target_kind": "translation_listing",
     "head_sha": "d439056c9528cf014553b7b423e00aa01d11d17a",
     "submitted_at": "2026-11-03",
-    "last_checked_at": "2026-11-03T17:29:58.128030+00:00",
+    "last_checked_at": "2026-11-06T16:51:15.769Z",
     "scope": "Link to the existing 399-entry Russian Workshop pack in the author's README list of standalone translations.",
     "native_xml_submitted": false,
-    "original_native_accepted": false
+    "original_native_accepted": false,
+    "merged": true,
+    "merged_at": "2026-11-05T06:39:55Z",
+    "merge_commit": "7232b7fa83e42fd891a106ff001a3015aad1a545",
+    "merge_conflicts": null,
+    "response_evidence": "community/integration-status-2026-11-06.json"
   },
   "original": {
     "author": "ilyvion",

@@ -1,25 +1,23 @@
 {
   "name": "RimWorld — Russian Translations Collection",
-  "status": "official_web_created_14_members_private_publication_blocked",
+  "status": "existing_collection_membership_verified_website_private",
   "workshop_id": "3830036321",
   "url": "https://steamcommunity.com/sharedfiles/filedetails/?id=3830036321",
   "published_translation_ids": [
-    "3828790442",
-    "3828790605",
-    "3828790757",
-    "3828790822",
-    "3828883103",
     "3830000511",
-    "3830009448",
-    "3830010549",
+    "3828883103",
+    "3830035919",
+    "3828790822",
     "3830014953",
+    "3830009448",
+    "3828790757",
     "3830022947",
     "3830032379",
-    "3830035919",
+    "3830010549",
     "3830050048",
     "3830078437"
   ],
-  "membership_automation": "SteamUGC AddDependency added the recorded releases. A 3 November owner SDK readback confirmed all 14 member IDs. The Cooking item is currently unavailable.",
+  "membership_automation": "Official SteamUGC AddDependency and RemoveDependency with fresh membership readback.",
   "website_publication_verified": false,
   "cover": {
     "kind": "original_typographic_fallback",
@@ -27,7 +25,7 @@
     "original_art_used": false,
     "sha256": "1e0d06c154f626c71899277e16cd6c50ccdfb8b5eae7c5a901c72b4fb2ba665b"
   },
-  "website_blocker": "Steam returned AccessDenied on the 30 October visibility update. On 3 November the owner SDK still reported private visibility (2).",
+  "website_blocker": "Owner SDK confirmed private visibility (2) on 6 November. Browser management is unavailable in this session and public website requests returned HTTP 429.",
   "website_checked_at": "2026-10-30T10:04:54.337145+00:00",
   "legacy_unpublished_native_draft": {
     "workshop_id": "3828791160",
@@ -35,8 +33,8 @@
     "retained_without_deletion": true,
     "superseded_reason": "Native-created draft had incorrect web-collection creation context and failed owner web save; replaced through the official web wizard. No duplicate public collection or translation items created."
   },
-  "membership_checked_at": "2026-11-03T17:29:24+00:00",
-  "membership_evidence": "community/release-status-2026-11-03.json",
+  "membership_checked_at": "2026-11-06T16:59:21.103464+00:00",
+  "membership_evidence": "community/retirements-2026-11-06.json",
   "currently_unavailable_member_ids": [
     "3830078437"
   ]

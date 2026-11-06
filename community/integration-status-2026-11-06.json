@@ -1,0 +1,68 @@
+{
+  "checked_at": "2026-11-06T16:51:15.769Z",
+  "pull_requests": [
+    {
+      "url": "https://github.com/Nonunon/NoBurnMetal/pull/1",
+      "state": "closed",
+      "merged": true,
+      "merged_at": "2026-10-29T19:36:32Z",
+      "merge_commit_sha": "0f1423173edfa007c0f85a03336b7e628f48c391",
+      "mergeable": false,
+      "head_sha": "032a0aa1dd34477f1bd49ce7c964aaf2cc2dccb3"
+    },
+    {
+      "url": "https://github.com/merthsoft/designator-shapes/pull/15",
+      "state": "closed",
+      "merged": true,
+      "merged_at": "2026-11-02T09:12:06Z",
+      "merge_commit_sha": "89f28937cec032270459cdf75737e633e664aaf6",
+      "mergeable": false,
+      "head_sha": "cf5d3cc0f4f958c1558101d0be8ee0e3edd0c1b1"
+    },
+    {
+      "url": "https://github.com/csh1668/YetAnotherResearchTree/pull/6",
+      "state": "open",
+      "merged": false,
+      "merged_at": null,
+      "merge_commit_sha": "ffe94b5da233b7dcdbd433bbd9b8e9cf417a7143",
+      "mergeable": true,
+      "head_sha": "79d41e0f5f1356d122141050bed1d90035ab90e7"
+    },
+    {
+      "url": "https://github.com/bbradson/Adaptive-Storage-Framework/pull/41",
+      "state": "open",
+      "merged": false,
+      "merged_at": null,
+      "merge_commit_sha": "629fd433d79ec22b45900a1028138b540986f0c4",
+      "mergeable": true,
+      "head_sha": "4d8c34b6362f3a436c73ac942d985195b5435fa5"
+    },
+    {
+      "url": "https://github.com/OneCodeUnit/VanillaRussianExpanded/pull/46",
+      "state": "closed",
+      "merged": true,
+      "merged_at": "2026-10-28T15:26:12Z",
+      "merge_commit_sha": "00d88eb3815e3a2c001f9b8fea698fbfc1ab61b5",
+      "mergeable": false,
+      "head_sha": "95a43b772322e8e1410014a6503a86d657088a3d"
+    },
+    {
+      "url": "https://github.com/OneCodeUnit/VanillaRussianExpanded/pull/47",
+      "state": "open",
+      "merged": false,
+      "merged_at": null,
+      "merge_commit_sha": "651687220e067906975ad07d105e89b1e1a00aac",
+      "mergeable": true,
+      "head_sha": "c2a348f7e7cbf66c09f677469738e6e3349721e0"
+    },
+    {
+      "url": "https://github.com/ilyvion/loading-progress/pull/13",
+      "state": "closed",
+      "merged": true,
+      "merged_at": "2026-11-05T06:39:55Z",
+      "merge_commit_sha": "7232b7fa83e42fd891a106ff001a3015aad1a545",
+      "mergeable": false,
+      "head_sha": "d439056c9528cf014553b7b423e00aa01d11d17a"
+    }
+  ]
+}

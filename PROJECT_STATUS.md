@@ -2,11 +2,11 @@
 
 Generated from `mods/*/manifest.json` by `python scripts/rwtranslations.py registry`.
 
-Last inventory generation (UTC): 2026-11-03T17:31:56+00:00
+Last inventory generation (UTC): 2026-11-06T17:02:13+00:00
 
 The registry tracks **166 mods**: 156 saved-store records and 10 additional draft/review metadata records; 0 records have unverified store scope. Saved stores can also contain unfinished drafts. Original and translation package IDs are separate namespaces. Discovery has no fixed mod limit.
 
-Steam has confirmed 14 item submissions: **13 pages verified anonymously**, 0 awaiting automatic content inspection. A submitted item ID or public API visibility flag alone does not prove public page access.
+Steam has confirmed 14 item submissions: **11 pages verified anonymously**, 0 awaiting automatic content inspection. A submitted item ID or public API visibility flag alone does not prove public page access.
 
 | Workshop translation | Website state | Game QA evidence |
 |---|---|---|
@@ -14,12 +14,12 @@ Steam has confirmed 14 item submissions: **13 pages verified anonymously**, 0 aw
 | [Mechanoid Upgrades](https://steamcommunity.com/sharedfiles/filedetails/?id=3828883103) | public; anonymous page verified | [passed](mods/gogatio.mechanoidupgrades/game-test-evidence.json) |
 | [Loading Progress](https://steamcommunity.com/sharedfiles/filedetails/?id=3830035919) | public; anonymous page verified | [passed](mods/ilyvion.loadingprogress/game-test-evidence.json) |
 | [Smart Medicine - Continued](https://steamcommunity.com/sharedfiles/filedetails/?id=3828790822) | public; anonymous page verified | [passed](mods/memegoddess.smartmedicine/game-test-evidence.json) |
-| [Designator Shapes](https://steamcommunity.com/sharedfiles/filedetails/?id=3828790605) | public; anonymous page verified | [passed](mods/merthsoft.designatorshapes/game-test-evidence.json) |
+| [Designator Shapes](https://steamcommunity.com/sharedfiles/filedetails/?id=3828790605) | retired_native_integration | [passed](mods/merthsoft.designatorshapes/game-test-evidence.json) |
 | [Vanilla Factions Expanded - Empire](https://steamcommunity.com/sharedfiles/filedetails/?id=3830050048) | public; anonymous page verified | [passed](mods/oskarpotocki.vfe.empire/game-test-evidence.json) |
 | [Reel's Expanded Storage](https://steamcommunity.com/sharedfiles/filedetails/?id=3830014953) | public; anonymous page verified | [passed](mods/reel.expanded.storage/game-test-evidence.json) |
 | [Reel's Turret Pipeline](https://steamcommunity.com/sharedfiles/filedetails/?id=3830009448) | public; anonymous page verified | [passed](mods/reel.turretpipeline/game-test-evidence.json) |
 | [Yet Another Research Tree (YART)](https://steamcommunity.com/sharedfiles/filedetails/?id=3828790757) | public; anonymous page verified | [passed](mods/seohyeon.yart/game-test-evidence.json) |
-| [No Burn Metal](https://steamcommunity.com/sharedfiles/filedetails/?id=3828790442) | public; anonymous page verified | [passed](mods/unon.noburnmetal/game-test-evidence.json) |
+| [No Burn Metal](https://steamcommunity.com/sharedfiles/filedetails/?id=3828790442) | retired_native_integration | [passed](mods/unon.noburnmetal/game-test-evidence.json) |
 | [Vanilla Achievements Expanded](https://steamcommunity.com/sharedfiles/filedetails/?id=3830022947) | public; anonymous page verified | [passed](mods/vanillaexpanded.achievements/game-test-evidence.json) |
 | [Vanilla Traits Expanded](https://steamcommunity.com/sharedfiles/filedetails/?id=3830032379) | public; anonymous page verified | [passed](mods/vanillaexpanded.vanillatraitsexpanded/game-test-evidence.json) |
 | [Vanilla Cooking Expanded](https://steamcommunity.com/sharedfiles/filedetails/?id=3830078437) | previously_published_currently_unavailable | [passed](mods/vanillaexpanded.vcooke/game-test-evidence.json) |
@@ -33,12 +33,12 @@ The private batch results above are historical. Current source-context validatio
 
 [Workshop collection](https://steamcommunity.com/sharedfiles/filedetails/?id=3830036321): **native item and membership created; website publication pending**. Membership uses native SteamUGC AddDependency with postcondition verification; website publication is a separate step.
 
-Steam returned AccessDenied on the 30 October visibility update. On 3 November the owner SDK still reported private visibility (2).
+Owner SDK confirmed private visibility (2) on 6 November. Browser management is unavailable in this session and public website requests returned HTTP 429.
 
 Integration proposals:
 
 - [Adaptive Storage Framework](https://github.com/bbradson/Adaptive-Storage-Framework/pull/41): open.
-- [Loading Progress](https://github.com/ilyvion/loading-progress/pull/13): open (README link to an independently published translation).
+- [Loading Progress](https://github.com/ilyvion/loading-progress/pull/13): accepted_translation_listing (README link to an independently published translation).
 - [Designator Shapes](https://github.com/merthsoft/designator-shapes/pull/15): accepted.
 - [Vanilla Expanded Framework](https://github.com/OneCodeUnit/VanillaRussianExpanded/pull/47): open (community translation repository; original-native acceptance not claimed).
 - [ReGrowth 2](https://github.com/OneCodeUnit/VanillaRussianExpanded/pull/46): accepted_into_community_translation (community translation repository; original-native acceptance not claimed).
@@ -66,7 +66,7 @@ The 13 source-drift packages were refreshed. Targeted repairs added 20 strings, 
 | github_metadata_records | 166 |
 | github_published | 14 |
 | workshop_submitted | 14 |
-| workshop_published | 13 |
+| workshop_published | 11 |
 | pull_requests | 7 |
 | integration_records | 10 |
 | accepted | 2 |
@@ -79,7 +79,7 @@ The 13 source-drift packages were refreshed. Targeted repairs added 20 strings, 
 | repository_monitors | 24 |
 | pull_request_monitors | 7 |
 | icon_permission_requests | 2 |
-| workshop_public_pages_verified | 13 |
+| workshop_public_pages_verified | 11 |
 | workshop_content_check_pending | 0 |
 | workshop_source_monitors | 166 |
 

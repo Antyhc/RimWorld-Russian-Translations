@@ -49,12 +49,12 @@
     "github_status": "published",
     "workshop_url": "https://steamcommunity.com/sharedfiles/filedetails/?id=3828790605",
     "workshop_id": "3828790605",
-    "workshop_status": "published",
+    "workshop_status": "retired_native_integration",
     "dependency_verified": true,
-    "anonymous_page_verified": true,
+    "anonymous_page_verified": false,
     "published_at": "2026-10-28T10:41:57.571700+00:00",
     "collection_id": "3830036321",
-    "collection_member_verified": true,
+    "collection_member_verified": false,
     "installation_tested": true,
     "anonymous_page_checked_at": "2026-10-30T10:06:36.342Z",
     "anonymous_page_evidence": "community/workshop-public-pages-2026-10-30.json",
@@ -62,7 +62,11 @@
     "standalone_needed": false,
     "deprecation_guidance_pending": false,
     "deprecation_guidance_verified": true,
-    "deprecation_guidance_checked_at": "2026-11-03T17:31:43.215055+00:00"
+    "deprecation_guidance_checked_at": "2026-11-03T17:31:43.215055+00:00",
+    "retired_at": "2026-11-06T16:59:21.103464+00:00",
+    "retirement_evidence": "community/retirements-2026-11-06.json",
+    "retirement_reason": "All contributed Russian values are included in the current original Steam mod.",
+    "replacement_url": "https://steamcommunity.com/sharedfiles/filedetails/?id=1235181370"
   },
   "integration": {
     "status": "accepted",
@@ -70,7 +74,7 @@
     "contact_url": null,
     "submitted_at": "2026-10-28",
     "head_sha": "cf5d3cc0f4f958c1558101d0be8ee0e3edd0c1b1",
-    "last_checked_at": "2026-11-03T17:29:24+00:00",
+    "last_checked_at": "2026-11-06T16:51:15.769Z",
     "merged": true,
     "merged_at": "2026-11-02T09:12:06Z",
     "merge_commit": "89f28937cec032270459cdf75737e633e664aaf6",
@@ -78,7 +82,7 @@
     "community_translation_accepted": false,
     "review_changes_requested": false,
     "merge_conflicts": null,
-    "response_evidence": "community/release-status-2026-11-03.json"
+    "response_evidence": "community/integration-status-2026-11-06.json"
   },
   "original": {
     "author": "merthsoft",
@@ -141,8 +145,8 @@
   "duplicate_translation": {
     "status": "now_covered_by_original",
     "scope": "The original Steam distribution includes all 208 contributed Russian keys and values.",
-    "checked_at": "2026-11-03T17:29:24+00:00",
-    "evidence": "community/release-status-2026-11-03.json"
+    "checked_at": "2026-11-06T16:59:21.103464+00:00",
+    "evidence": "community/retirements-2026-11-06.json"
   },
   "monitor": {
     "github_tree": {

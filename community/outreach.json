@@ -179,12 +179,14 @@
       "target_kind": "translation_listing",
       "url": "https://github.com/ilyvion/loading-progress/pull/13",
       "date": "2026-11-03",
-      "status": "awaiting_response",
+      "status": "accepted_translation_listing",
       "ai_disclosed": true,
       "fresh_game_test_claimed": false,
       "native_xml_submitted": false,
       "head_sha": "d439056c9528cf014553b7b423e00aa01d11d17a",
-      "scope": "Link to the existing 399-entry Russian Workshop pack in the author's README list of standalone translations."
+      "scope": "Link to the existing 399-entry Russian Workshop pack in the author's README list of standalone translations.",
+      "merged_at": "2026-11-05T06:39:55Z",
+      "merge_commit": "7232b7fa83e42fd891a106ff001a3015aad1a545"
     }
   ]
 }

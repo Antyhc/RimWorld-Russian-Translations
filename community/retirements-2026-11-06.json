@@ -1,0 +1,78 @@
+{
+  "checked_at": "2026-11-06T16:59:21.103464+00:00",
+  "authorization": "User explicitly requested retirement of redundant standalone translations on 2026-11-06.",
+  "original_sources_unchanged": true,
+  "unrelated_subscriptions_unchanged": true,
+  "active_entries_before": 363,
+  "active_entries_after": 362,
+  "collections": {
+    "3830036321": {
+      "id": "3830036321",
+      "result": 1,
+      "visibility": 2,
+      "children": [
+        "3830000511",
+        "3828883103",
+        "3830035919",
+        "3828790822",
+        "3830014953",
+        "3830009448",
+        "3828790757",
+        "3830022947",
+        "3830032379",
+        "3830010549",
+        "3830050048",
+        "3830078437"
+      ]
+    },
+    "3828791160": {
+      "id": "3828791160",
+      "result": 1,
+      "visibility": 0,
+      "children": [
+        "3828790757",
+        "3828790822",
+        "3828883103",
+        "3830000511",
+        "3830009448",
+        "3830010549",
+        "3830014953",
+        "3830022947",
+        "3830032379",
+        "3830035919"
+      ]
+    }
+  },
+  "items": [
+    {
+      "package_id": "merthsoft.designatorshapes",
+      "name": "Designator Shapes",
+      "retired_workshop_id": "3828790605",
+      "steam_deletion_verified": true,
+      "installed_translation_removed": true,
+      "original_workshop_id": "1235181370",
+      "native_exact_release_rows": 208,
+      "original_russian_files_sha256": {
+        "Languages\\Russian\\DefInjected\\DrawStyleDef\\DrawStyles.xml": "00a393ea5c3ab02e70180ef1b468f2c2d52fac21604b32c84411cb131dc1ee18",
+        "Languages\\Russian\\DefInjected\\Merthsoft.DesignatorShapes.Defs.DesignatorShapeDef\\DesignatorShapes.xml": "40b3585c836512f779e3e082a92f5439d77cdc94e74b1de8dfba68fab7329936",
+        "Languages\\Russian\\DefInjected\\Merthsoft.DesignatorShapes.Defs.OverlayGroupDef\\OverlayGroups.xml": "c5137b112bcce3a345002c5a50871ab4a3f8546729c9ab6b65db59ec47ff3279",
+        "Languages\\Russian\\Keyed\\DesignatorShapes_Keys.xml": "4efca4820621c2592b8360e8bf60f89856a9f5eab0ae25fd58c90f13c5fd76cd",
+        "Languages\\Russian\\Keyed\\PaletteSettings.xml": "4cc0afc0e62123a69a32f9bef29c9d165195e34b9f9f143ebf20cda89053068c"
+      },
+      "development_files_retained": true
+    },
+    {
+      "package_id": "unon.noburnmetal",
+      "name": "No Burn Metal",
+      "retired_workshop_id": "3828790442",
+      "steam_deletion_verified": true,
+      "installed_translation_removed": true,
+      "original_workshop_id": "1923990111",
+      "native_exact_release_rows": 19,
+      "original_russian_files_sha256": {
+        "Common\\Languages\\Russian\\Keyed\\NBM_Keys.xml": "f31c8c60c3bfdb7c2aea19e96734585bb957730f3502e2b604c35e3078a23d7e"
+      },
+      "development_files_retained": true
+    }
+  ]
+}

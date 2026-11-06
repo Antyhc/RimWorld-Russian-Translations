@@ -43,13 +43,17 @@
     "target_repository_url": "https://github.com/bbradson/Adaptive-Storage-Framework",
     "head_sha": "4d8c34b6362f3a436c73ac942d985195b5435fa5",
     "submitted_at": "2026-10-30",
-    "last_checked_at": "2026-10-30T11:46:14.225864+00:00",
+    "last_checked_at": "2026-11-06T16:51:15.769Z",
     "original_native_accepted": false,
     "ai_disclosed": true,
     "fresh_game_test_claimed": false,
     "merge_conflicts": false,
     "scope": "42current nativeXMLentries:41Russianwordings+retainedVanillamode name,2XML. Exactremote bytes verified. Static current-source/semantic/token QA only; no freshgame or1.7support or independenthuman proofreading claim.",
-    "evidence": "integration-proposal-evidence.json"
+    "evidence": "integration-proposal-evidence.json",
+    "merged": false,
+    "merged_at": null,
+    "merge_commit": null,
+    "response_evidence": "community/integration-status-2026-11-06.json"
   },
   "original": {
     "author": "Soul, Phaneron, Bradson",

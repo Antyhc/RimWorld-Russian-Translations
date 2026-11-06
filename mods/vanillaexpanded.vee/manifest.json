@@ -56,7 +56,12 @@
     "ai_disclosed": true,
     "fresh_game_test_claimed": false,
     "merge_conflicts": false,
-    "scope": "2own current missing strings in the shared16-string/7XML community contribution. Static source/XML/semantic checks only; no new game or independent human proofreading claim."
+    "scope": "2own current missing strings in the shared16-string/7XML community contribution. Static source/XML/semantic checks only; no new game or independent human proofreading claim.",
+    "last_checked_at": "2026-11-06T16:51:15.769Z",
+    "merged": false,
+    "merged_at": null,
+    "merge_commit": null,
+    "response_evidence": "community/integration-status-2026-11-06.json"
   },
   "original": {
     "author": "Oskar Potocki, Kikohi, Helixien, Sarg",

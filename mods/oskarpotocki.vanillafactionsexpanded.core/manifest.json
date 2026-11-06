@@ -51,13 +51,17 @@
     "target_repository_url": "https://github.com/OneCodeUnit/VanillaRussianExpanded",
     "head_sha": "c2a348f7e7cbf66c09f677469738e6e3349721e0",
     "submitted_at": "2026-10-30",
-    "last_checked_at": "2026-10-30T10:07:33.421025+00:00",
+    "last_checked_at": "2026-11-06T16:51:15.769Z",
     "original_native_accepted": false,
     "community_translation_accepted": false,
     "ai_disclosed": true,
     "fresh_game_test_claimed": false,
     "merge_conflicts": false,
-    "scope": "9own current missing strings in the shared16-string/7XML community contribution. Static source/XML/semantic checks only; no new game or independent human proofreading claim."
+    "scope": "9own current missing strings in the shared16-string/7XML community contribution. Static source/XML/semantic checks only; no new game or independent human proofreading claim.",
+    "merged": false,
+    "merged_at": null,
+    "merge_commit": null,
+    "response_evidence": "community/integration-status-2026-11-06.json"
   },
   "original": {
     "author": "Oskar Potocki, XeoNovaDan, Orion, Kikohi, Taranchuk, Sarg Bjornson, Erdelf",

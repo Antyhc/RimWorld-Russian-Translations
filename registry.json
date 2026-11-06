@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "generated_at": "2026-11-03T17:31:56+00:00",
+  "generated_at": "2026-11-06T17:02:13+00:00",
   "mods": [
     {
       "schema_version": 1,
@@ -222,13 +222,17 @@
         "target_repository_url": "https://github.com/bbradson/Adaptive-Storage-Framework",
         "head_sha": "4d8c34b6362f3a436c73ac942d985195b5435fa5",
         "submitted_at": "2026-10-30",
-        "last_checked_at": "2026-10-30T11:46:14.225864+00:00",
+        "last_checked_at": "2026-11-06T16:51:15.769Z",
         "original_native_accepted": false,
         "ai_disclosed": true,
         "fresh_game_test_claimed": false,
         "merge_conflicts": false,
         "scope": "42current nativeXMLentries:41Russianwordings+retainedVanillamode name,2XML. Exactremote bytes verified. Static current-source/semantic/token QA only; no freshgame or1.7support or independenthuman proofreading claim.",
-        "evidence": "integration-proposal-evidence.json"
+        "evidence": "integration-proposal-evidence.json",
+        "merged": false,
+        "merged_at": null,
+        "merge_commit": null,
+        "response_evidence": "community/integration-status-2026-11-06.json"
       },
       "original": {
         "author": "Soul, Phaneron, Bradson",
@@ -5809,16 +5813,21 @@
         "github_publication_date": "2026-10-30"
       },
       "integration": {
-        "status": "open",
+        "status": "accepted_translation_listing",
         "pr_url": "https://github.com/ilyvion/loading-progress/pull/13",
         "contact_url": null,
         "target_kind": "translation_listing",
         "head_sha": "d439056c9528cf014553b7b423e00aa01d11d17a",
         "submitted_at": "2026-11-03",
-        "last_checked_at": "2026-11-03T17:29:58.128030+00:00",
+        "last_checked_at": "2026-11-06T16:51:15.769Z",
         "scope": "Link to the existing 399-entry Russian Workshop pack in the author's README list of standalone translations.",
         "native_xml_submitted": false,
-        "original_native_accepted": false
+        "original_native_accepted": false,
+        "merged": true,
+        "merged_at": "2026-11-05T06:39:55Z",
+        "merge_commit": "7232b7fa83e42fd891a106ff001a3015aad1a545",
+        "merge_conflicts": null,
+        "response_evidence": "community/integration-status-2026-11-06.json"
       },
       "original": {
         "author": "ilyvion",
@@ -8013,12 +8022,12 @@
         "github_status": "published",
         "workshop_url": "https://steamcommunity.com/sharedfiles/filedetails/?id=3828790605",
         "workshop_id": "3828790605",
-        "workshop_status": "published",
+        "workshop_status": "retired_native_integration",
         "dependency_verified": true,
-        "anonymous_page_verified": true,
+        "anonymous_page_verified": false,
         "published_at": "2026-10-28T10:41:57.571700+00:00",
         "collection_id": "3830036321",
-        "collection_member_verified": true,
+        "collection_member_verified": false,
         "installation_tested": true,
         "anonymous_page_checked_at": "2026-10-30T10:06:36.342Z",
         "anonymous_page_evidence": "community/workshop-public-pages-2026-10-30.json",
@@ -8026,7 +8035,11 @@
         "standalone_needed": false,
         "deprecation_guidance_pending": false,
         "deprecation_guidance_verified": true,
-        "deprecation_guidance_checked_at": "2026-11-03T17:31:43.215055+00:00"
+        "deprecation_guidance_checked_at": "2026-11-03T17:31:43.215055+00:00",
+        "retired_at": "2026-11-06T16:59:21.103464+00:00",
+        "retirement_evidence": "community/retirements-2026-11-06.json",
+        "retirement_reason": "All contributed Russian values are included in the current original Steam mod.",
+        "replacement_url": "https://steamcommunity.com/sharedfiles/filedetails/?id=1235181370"
       },
       "integration": {
         "status": "accepted",
@@ -8034,7 +8047,7 @@
         "contact_url": null,
         "submitted_at": "2026-10-28",
         "head_sha": "cf5d3cc0f4f958c1558101d0be8ee0e3edd0c1b1",
-        "last_checked_at": "2026-11-03T17:29:24+00:00",
+        "last_checked_at": "2026-11-06T16:51:15.769Z",
         "merged": true,
         "merged_at": "2026-11-02T09:12:06Z",
         "merge_commit": "89f28937cec032270459cdf75737e633e664aaf6",
@@ -8042,7 +8055,7 @@
         "community_translation_accepted": false,
         "review_changes_requested": false,
         "merge_conflicts": null,
-        "response_evidence": "community/release-status-2026-11-03.json"
+        "response_evidence": "community/integration-status-2026-11-06.json"
       },
       "original": {
         "author": "merthsoft",
@@ -8105,8 +8118,8 @@
       "duplicate_translation": {
         "status": "now_covered_by_original",
         "scope": "The original Steam distribution includes all 208 contributed Russian keys and values.",
-        "checked_at": "2026-11-03T17:29:24+00:00",
-        "evidence": "community/release-status-2026-11-03.json"
+        "checked_at": "2026-11-06T16:59:21.103464+00:00",
+        "evidence": "community/retirements-2026-11-06.json"
       },
       "monitor": {
         "github_tree": {
@@ -8940,13 +8953,17 @@
         "target_repository_url": "https://github.com/OneCodeUnit/VanillaRussianExpanded",
         "head_sha": "c2a348f7e7cbf66c09f677469738e6e3349721e0",
         "submitted_at": "2026-10-30",
-        "last_checked_at": "2026-10-30T10:07:33.421025+00:00",
+        "last_checked_at": "2026-11-06T16:51:15.769Z",
         "original_native_accepted": false,
         "community_translation_accepted": false,
         "ai_disclosed": true,
         "fresh_game_test_claimed": false,
         "merge_conflicts": false,
-        "scope": "9own current missing strings in the shared16-string/7XML community contribution. Static source/XML/semantic checks only; no new game or independent human proofreading claim."
+        "scope": "9own current missing strings in the shared16-string/7XML community contribution. Static source/XML/semantic checks only; no new game or independent human proofreading claim.",
+        "merged": false,
+        "merged_at": null,
+        "merge_commit": null,
+        "response_evidence": "community/integration-status-2026-11-06.json"
       },
       "original": {
         "author": "Oskar Potocki, XeoNovaDan, Orion, Kikohi, Taranchuk, Sarg Bjornson, Erdelf",
@@ -10717,14 +10734,14 @@
         "head_sha": "95a43b772322e8e1410014a6503a86d657088a3d",
         "submitted_at": "2026-10-28T13:16:47Z",
         "original_native_accepted": false,
-        "last_checked_at": "2026-10-30T07:40:27.821011+00:00",
+        "last_checked_at": "2026-11-06T16:51:15.769Z",
         "merged": true,
         "merged_at": "2026-10-28T15:26:12Z",
         "merge_commit": "00d88eb3815e3a2c001f9b8fea698fbfc1ab61b5",
         "community_translation_accepted": true,
         "review_changes_requested": false,
         "merge_conflicts": null,
-        "response_evidence": "community/author-responses-2026-10-30.json",
+        "response_evidence": "community/integration-status-2026-11-06.json",
         "accepted_terminology": "Maintainer revised the description to use светолес; accepted variant retained in provenance."
       },
       "original": {
@@ -11651,7 +11668,7 @@
         "contact_url": null,
         "submitted_at": "2026-10-28T11:07:17.827154+00:00",
         "head_sha": "79d41e0f5f1356d122141050bed1d90035ab90e7",
-        "last_checked_at": "2026-10-30T07:40:27.821011+00:00",
+        "last_checked_at": "2026-11-06T16:51:15.769Z",
         "merged": false,
         "merged_at": null,
         "merge_commit": null,
@@ -11659,7 +11676,7 @@
         "community_translation_accepted": false,
         "review_changes_requested": false,
         "merge_conflicts": false,
-        "response_evidence": "community/author-responses-2026-10-30.json"
+        "response_evidence": "community/integration-status-2026-11-06.json"
       },
       "original": {
         "author": "SeoHyeon",
@@ -12322,12 +12339,12 @@
         "github_status": "published",
         "workshop_url": "https://steamcommunity.com/sharedfiles/filedetails/?id=3828790442",
         "workshop_id": "3828790442",
-        "workshop_status": "published",
+        "workshop_status": "retired_native_integration",
         "dependency_verified": true,
-        "anonymous_page_verified": true,
+        "anonymous_page_verified": false,
         "published_at": "2026-10-28T10:41:35.907741+00:00",
         "collection_id": "3830036321",
-        "collection_member_verified": true,
+        "collection_member_verified": false,
         "installation_tested": true,
         "standalone_needed": false,
         "upstream_integration_confirmed": true,
@@ -12335,7 +12352,11 @@
         "deprecation_guidance_verified": true,
         "deprecation_guidance_checked_at": "2026-10-30T08:37:15.638595+00:00",
         "anonymous_page_checked_at": "2026-10-30T10:06:35.955Z",
-        "anonymous_page_evidence": "community/workshop-public-pages-2026-10-30.json"
+        "anonymous_page_evidence": "community/workshop-public-pages-2026-10-30.json",
+        "retired_at": "2026-11-06T16:59:21.103464+00:00",
+        "retirement_evidence": "community/retirements-2026-11-06.json",
+        "retirement_reason": "All contributed Russian values are included in the current original Steam mod.",
+        "replacement_url": "https://steamcommunity.com/sharedfiles/filedetails/?id=1923990111"
       },
       "integration": {
         "status": "accepted",
@@ -12345,7 +12366,7 @@
         "head_sha": "032a0aa1dd34477f1bd49ce7c964aaf2cc2dccb3",
         "last_update": "2026-10-28",
         "update_reason": "Actual1.7UIbuttonfitfix",
-        "last_checked_at": "2026-10-30T07:40:27.821011+00:00",
+        "last_checked_at": "2026-11-06T16:51:15.769Z",
         "merged": true,
         "merged_at": "2026-10-29T19:36:32Z",
         "merge_commit": "0f1423173edfa007c0f85a03336b7e628f48c391",
@@ -12353,7 +12374,7 @@
         "community_translation_accepted": false,
         "review_changes_requested": false,
         "merge_conflicts": null,
-        "response_evidence": "community/author-responses-2026-10-30.json"
+        "response_evidence": "community/integration-status-2026-11-06.json"
       },
       "original": {
         "author": "Unon",
@@ -12411,7 +12432,8 @@
       "duplicate_translation": {
         "status": "now_covered_by_original",
         "scope": "All19 own Russian keys/values are now identical in the merged official GitHub and current installed original Workshop1923990111. Existing own page retained; no duplicate created.",
-        "checked_at": "2026-10-28T10:33:04.486040+00:00"
+        "checked_at": "2026-11-06T16:59:21.103464+00:00",
+        "evidence": "community/retirements-2026-11-06.json"
       },
       "monitor": {
         "github_tree": {
@@ -12763,7 +12785,12 @@
         "ai_disclosed": true,
         "fresh_game_test_claimed": false,
         "merge_conflicts": false,
-        "scope": "3own current missing strings in the shared16-string/7XML community contribution. Static source/XML/semantic checks only; no new game or independent human proofreading claim."
+        "scope": "3own current missing strings in the shared16-string/7XML community contribution. Static source/XML/semantic checks only; no new game or independent human proofreading claim.",
+        "last_checked_at": "2026-11-06T16:51:15.769Z",
+        "merged": false,
+        "merged_at": null,
+        "merge_commit": null,
+        "response_evidence": "community/integration-status-2026-11-06.json"
       },
       "original": {
         "author": "Oskar Potocki, Sarg Bjornson, Sokyran, Taranchuk, Erdelf",
@@ -15492,7 +15519,12 @@
         "ai_disclosed": true,
         "fresh_game_test_claimed": false,
         "merge_conflicts": false,
-        "scope": "2own current missing strings in the shared16-string/7XML community contribution. Static source/XML/semantic checks only; no new game or independent human proofreading claim."
+        "scope": "2own current missing strings in the shared16-string/7XML community contribution. Static source/XML/semantic checks only; no new game or independent human proofreading claim.",
+        "last_checked_at": "2026-11-06T16:51:15.769Z",
+        "merged": false,
+        "merged_at": null,
+        "merge_commit": null,
+        "response_evidence": "community/integration-status-2026-11-06.json"
       },
       "original": {
         "author": "Oskar Potocki, Kikohi, Helixien, Sarg",
@@ -15620,7 +15652,12 @@
         "ai_disclosed": true,
         "fresh_game_test_claimed": false,
         "merge_conflicts": false,
-        "scope": "2own current missing strings in the shared16-string/7XML community contribution. Static source/XML/semantic checks only; no new game or independent human proofreading claim."
+        "scope": "2own current missing strings in the shared16-string/7XML community contribution. Static source/XML/semantic checks only; no new game or independent human proofreading claim.",
+        "last_checked_at": "2026-11-06T16:51:15.769Z",
+        "merged": false,
+        "merged_at": null,
+        "merge_commit": null,
+        "response_evidence": "community/integration-status-2026-11-06.json"
       },
       "original": {
         "author": "Oskar Potocki, Sarg Bjornson",
@@ -19131,7 +19168,7 @@
     "github_metadata_records": 166,
     "github_published": 14,
     "workshop_submitted": 14,
-    "workshop_published": 13,
+    "workshop_published": 11,
     "pull_requests": 7,
     "integration_records": 10,
     "accepted": 2,
@@ -19144,7 +19181,7 @@
     "repository_monitors": 24,
     "pull_request_monitors": 7,
     "icon_permission_requests": 2,
-    "workshop_public_pages_verified": 13,
+    "workshop_public_pages_verified": 11,
     "workshop_content_check_pending": 0,
     "workshop_source_monitors": 166
   }
