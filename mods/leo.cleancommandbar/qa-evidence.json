@@ -1,0 +1,31 @@
+{
+  "schema": 1,
+  "checked_at": "2026-11-06T16:54:37.175759+00:00",
+  "translation_rows": 3,
+  "game_tested": true,
+  "independent_human_review": false,
+  "semantic_review": "Reviewed all three source/Russian pairs and original command IL. CastAll activates all available casters, so changed Применить всем to Применить всеми. Other two reviewed texts preserved.",
+  "payload_sha256": "ba51fa27a18074f5a30afc09374acb54bfbe19384a2400ffeed3b85e9c947ab2",
+  "payload_file_hashes": {
+    "About/About.xml": "62949030a55adedfd076b940f8a81eed4171ac5248f5e65814efd9163e8544c2",
+    "About/Credits.txt": "2696cb006f2b52058fc78e781139a881d3c9996e12db78ff785d58743da2f527",
+    "About/License.txt": "162cccd70543203e64787641cca6785aba0062c5683c94c0f6c231c1b2e16c48",
+    "About/Preview.png": "9948a3564a12a9fa1f37151fd81fa780ca139b213565fab7cf01bdca89487d66",
+    "Languages/Russian/Keyed/CleanCommandBar.xml": "c2991114b5f242ede571085b1fa1f2602f87607cdf58fe5839fdc212f315fa16"
+  },
+  "current_source_input_hashes": {
+    "1.7\\Assemblies\\Leo.CleanCommandBar.dll": "bc6e628d839a33186a9ab32f3ee39d99747f258f47a0ef05543c30866dfe2917",
+    "About\\About.xml": "1b3e0131ad19ad3800bed6cfd5cbff6a2595d2cd3b40f71e9787dca4af4715d9",
+    "Languages\\English\\Keyed\\Keyed.xml": "17d218262d12bd82aa83126979952b190cb26d8a4308eabdae119831374e5ec0",
+    "LoadFolders.xml": "ac94aa32e19e6be661c48869aef5a41f254406bb3519a0c6652a6ca9bb44e645"
+  },
+  "native_russian_preserved": true,
+  "third_party_russian_copied": false,
+  "current_original_assembly_sha256": "bc6e628d839a33186a9ab32f3ee39d99747f258f47a0ef05543c30866dfe2917",
+  "known_limitations": [
+    "Group command menu layout and colony gameplay were not tested.",
+    "Optional Vanilla Psycasts Expanded compatibility assembly was not active in the minimal test."
+  ],
+  "game_evidence": "game-test-evidence.json",
+  "game_evidence_sha256": "175b9fd5d440deb93f34f7454544ba726d3e45d346cdce7a4587bc11e3274f68"
+}

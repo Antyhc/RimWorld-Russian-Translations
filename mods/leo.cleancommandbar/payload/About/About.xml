@@ -1,0 +1,24 @@
+<?xml version='1.0' encoding='utf-8'?>
+<ModMetaData>
+  <name>Clean Command Bar — Russian translation</name>
+  <author>Antyhc (AI-assisted with OpenAI Codex)</author>
+  <packageId>antyhc.russian.leo.cleancommandbar</packageId>
+  <url>https://github.com/Antyhc/RimWorld-Russian-Translations</url>
+  <description>Русский перевод трёх подписей Clean Command Bar. Требуются оригинальный мод Leo39994 и Harmony. Загружать после оригинала. Перевод подготовлен и отредактирован с помощью OpenAI Codex.
+
+Russian translation of all three Clean Command Bar localization entries. Requires the original mod by Leo39994 and Harmony. Load after the original. AI-assisted translation and editing by OpenAI Codex.</description>
+  <supportedVersions>
+    <li>1.7</li>
+  </supportedVersions>
+  <modDependencies>
+    <li>
+      <packageId>leo.cleancommandbar</packageId>
+      <displayName>Clean Command Bar</displayName>
+      <steamWorkshopUrl>https://steamcommunity.com/sharedfiles/filedetails/?id=3688400757</steamWorkshopUrl>
+    </li>
+  </modDependencies>
+  <loadAfter>
+    <li>brrainz.harmony</li>
+    <li>leo.cleancommandbar</li>
+  </loadAfter>
+</ModMetaData>

@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "generated_at": "2026-11-06T17:02:13+00:00",
+  "generated_at": "2026-11-06T17:05:58+00:00",
   "mods": [
     {
       "schema_version": 1,
@@ -6486,31 +6486,62 @@
       ],
       "rights": {
         "translation": {
-          "status": "unknown",
-          "license": null,
-          "evidence": null,
-          "attribution": null
+          "status": "confirmed",
+          "license": "Author permission for independent translation submods",
+          "evidence": "https://steamcommunity.com/sharedfiles/filedetails/?id=3688400757",
+          "attribution": "Original mod: Clean Command Bar by Leo39994.\nOriginal Workshop: https://steamcommunity.com/sharedfiles/filedetails/?id=3688400757\nAuthor permits translation submods in the original Workshop description.\nRussian text: Antyhc, 2026, AI-assisted authoring and editing with OpenAI Codex, MIT.\nOwn typographic cover. This package contains only Russian localization and its metadata.\n",
+          "license_evidence_file": "rights-evidence.json",
+          "required_notice_files": {
+            "About/License.txt": "162cccd70543203e64787641cca6785aba0062c5683c94c0f6c231c1b2e16c48",
+            "About/Credits.txt": "2696cb006f2b52058fc78e781139a881d3c9996e12db78ff785d58743da2f527"
+          }
         },
         "icon": {
-          "status": "unknown",
-          "license": null,
-          "evidence": null,
-          "attribution": null
+          "status": "confirmed",
+          "kind": "original_typographic_fallback",
+          "license": "MIT",
+          "evidence": "scripts/make_original_cover.py; own typographic design",
+          "attribution": "Original typographic cover by Antyhc",
+          "source_sha256": "9948a3564a12a9fa1f37151fd81fa780ca139b213565fab7cf01bdca89487d66",
+          "preview_sha256": "9948a3564a12a9fa1f37151fd81fa780ca139b213565fab7cf01bdca89487d66",
+          "original_mod_art_used": false
         }
       },
       "qa": {
-        "technical": "pending",
-        "linguistic": "pending",
-        "source_current": false,
-        "in_game": "not_tested",
-        "checked_at": "2026-10-28T09:15:27.268425+00:00"
+        "technical": "passed",
+        "linguistic": "ai_reviewed",
+        "source_current": true,
+        "in_game": "passed",
+        "checked_at": "2026-11-06T16:54:37.175759+00:00",
+        "source_checked_at": "2026-11-06T16:54:37.175759+00:00",
+        "payload_sha256": "ba51fa27a18074f5a30afc09374acb54bfbe19384a2400ffeed3b85e9c947ab2",
+        "source_snapshot_sha256": "3d14a1dad68f5b9384457e9de7dcda382d28a96759aa3efe0558150387b5883b",
+        "evidence": "qa-evidence.json",
+        "coverage": "All three original Keyed localization entries. Group casting text reviewed against original command implementation.",
+        "standalone_minimal_game_test": "passed_actual_control_and_candidate",
+        "game_evidence": "game-test-evidence.json",
+        "game_version": "1.7.5000 rev1275",
+        "game_test_scope": "Actual isolated startup and physical language-value readback, exact active dependencies/DLC and source/payload/probe hashes; no save, extended gameplay or independent human proofreading claim.",
+        "game_test_evidence_sha256": "175b9fd5d440deb93f34f7454544ba726d3e45d346cdce7a4587bc11e3274f68",
+        "ui_inspected": true,
+        "ui_scope": "Engine-generated screenshot confirms Russian main menu on the tested candidate startup. Group ability menu was not opened and colony gameplay was not tested."
       },
       "publication": {
         "github_url": "https://github.com/Antyhc/RimWorld-Russian-Translations/tree/main/mods/leo.cleancommandbar",
-        "github_status": "metadata_only",
-        "workshop_url": null,
-        "workshop_id": null,
-        "workshop_status": "not_published"
+        "github_status": "published",
+        "workshop_url": "https://steamcommunity.com/sharedfiles/filedetails/?id=3834788420",
+        "workshop_id": "3834788420",
+        "workshop_status": "published_public_page_verification_pending",
+        "release_blockers": [],
+        "workshop_title": "Clean Command Bar — Russian Translation",
+        "workshop_visibility": "public",
+        "workshop_submitted_at": "2026-11-06T17:03:42.936287+00:00",
+        "steam_sdk_verified_at": "2026-11-06T17:03:53.693810+00:00",
+        "anonymous_page_verified": false,
+        "website_verification_blocker": "Steam Community website returned HTTP 429 during this session.",
+        "collection_id": "3830036321",
+        "collection_member_verified": true,
+        "github_publication_date": "2026-11-06"
       },
       "integration": {
         "status": "not_sent",
@@ -6553,7 +6584,16 @@
         "work_stage": "installed_local",
         "saved_translation_store": true
       },
-      "work_stage": "installed_local",
+      "work_stage": "published_workshop_installation_check_pending",
+      "duplicate_translation": {
+        "status": "checked_no_current_equivalent",
+        "checked_at": "2026-11-06T17:02:56.259645+00:00",
+        "candidates": [
+          "https://steamcommunity.com/sharedfiles/filedetails/?id=3820648266",
+          "https://steamcommunity.com/sharedfiles/filedetails/?id=3733768356"
+        ],
+        "scope": "Fresh official Steam SDK search completed across all 3586 results and full owner catalogue on 2026-11-06. Exact-title hits are original English mod and Chinese translation. Historical Russian item is unavailable. Current original has no Russian keys. No current equivalent found."
+      },
       "manifest": "mods/leo.cleancommandbar/manifest.json"
     },
     {
@@ -19163,18 +19203,18 @@
     "model_held_tasks": 10,
     "private_model_test_values": 473,
     "store_scope_unverified": 0,
-    "technically_checked": 14,
-    "game_tested": 14,
+    "technically_checked": 15,
+    "game_tested": 15,
     "github_metadata_records": 166,
-    "github_published": 14,
-    "workshop_submitted": 14,
+    "github_published": 15,
+    "workshop_submitted": 15,
     "workshop_published": 11,
     "pull_requests": 7,
     "integration_records": 10,
     "accepted": 2,
-    "awaiting_rights": 122,
+    "awaiting_rights": 121,
     "needs_update": 13,
-    "freshness_unverified": 152,
+    "freshness_unverified": 151,
     "static_inventory_pass": 129,
     "static_inventory_flagged": 20,
     "static_findings": 49,

@@ -1,0 +1,6 @@
+<?xml version='1.0' encoding='utf-8'?>
+<LanguageData>
+  <CleanCommandBar.CastAll>Применить всеми</CleanCommandBar.CastAll>
+  <CleanCommandBar.CastableCount>Могут применить</CleanCommandBar.CastableCount>
+  <CleanCommandBar.NoAvailableCaster>Никто не может применить способность.</CleanCommandBar.NoAvailableCaster>
+</LanguageData>

@@ -1,0 +1,5 @@
+Original mod: Clean Command Bar by Leo39994.
+Original Workshop: https://steamcommunity.com/sharedfiles/filedetails/?id=3688400757
+Author permits translation submods in the original Workshop description.
+Russian text: Antyhc, 2026, AI-assisted authoring and editing with OpenAI Codex, MIT.
+Own typographic cover. This package contains only Russian localization and its metadata.

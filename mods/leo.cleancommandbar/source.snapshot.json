@@ -1,0 +1,30 @@
+{
+  "schema_version": 1,
+  "generated_at": "2026-11-06T16:54:37.175759+00:00",
+  "scope": "All three original Keyed localization entries.",
+  "strings": {
+    "Keyed|CleanCommandBar.CastAll": "c5a735771ef329bc66011848b8c4becbe2f9c951f6780377064196cd1a963a16",
+    "Keyed|CleanCommandBar.CastableCount": "70a8d681b923201a1d0223b8b5673b5098a73b7040933312cef2c89e3934ecbd",
+    "Keyed|CleanCommandBar.NoAvailableCaster": "dd3ffefd7426155587f925e6d08523c3a67574842dd2c8108be9d4e17d114cfe"
+  },
+  "signatures": {
+    "Keyed|CleanCommandBar.CastAll": {
+      "source_hash": "c5a735771ef329bc66011848b8c4becbe2f9c951f6780377064196cd1a963a16",
+      "tokens": [],
+      "tags": [],
+      "source_empty": false
+    },
+    "Keyed|CleanCommandBar.CastableCount": {
+      "source_hash": "70a8d681b923201a1d0223b8b5673b5098a73b7040933312cef2c89e3934ecbd",
+      "tokens": [],
+      "tags": [],
+      "source_empty": false
+    },
+    "Keyed|CleanCommandBar.NoAvailableCaster": {
+      "source_hash": "dd3ffefd7426155587f925e6d08523c3a67574842dd2c8108be9d4e17d114cfe",
+      "tokens": [],
+      "tags": [],
+      "source_empty": false
+    }
+  }
+}

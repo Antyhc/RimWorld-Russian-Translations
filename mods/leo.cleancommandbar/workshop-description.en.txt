@@ -1,0 +1,10 @@
+Russian localization for Clean Command Bar, RimWorld 1.7.
+
+Covers all three original localization entries. Original mod by Leo39994.
+Original — https://steamcommunity.com/sharedfiles/filedetails/?id=3688400757
+Requires Clean Command Bar and its Harmony dependency. Load this translation after the original.
+
+Separate original/candidate startups on RimWorld 1.7.5000 rev1275 verified all three Russian values and unchanged error logs. Colony gameplay, group ability menu layout and optional Vanilla Psycasts Expanded integration were not tested.
+
+AI-assisted translation and editing with OpenAI Codex. No independent human proofreading. The author permits translation submods in the original Workshop description. Own typographic cover.
+Files and test evidence — https://github.com/Antyhc/RimWorld-Russian-Translations/tree/main/mods/leo.cleancommandbar
