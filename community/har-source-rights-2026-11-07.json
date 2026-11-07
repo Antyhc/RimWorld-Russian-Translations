@@ -1,0 +1,75 @@
+{
+  "schema_version": 1,
+  "checked_date": "2026-11-07",
+  "updates": [
+    {
+      "package_id": "erdelf.humanoidalienraces",
+      "original_workshop_id": "839005762",
+      "original_repository_url": "https://github.com/erdelf/AlienRaces",
+      "original_identity": {
+        "status": "verified_current_remote_about_package_id_and_published_id_match",
+        "package_id_as_declared": "erdelf.HumanoidAlienRaces",
+        "name": "Humanoid Alien Races",
+        "author": "erdelf",
+        "supported_versions": [
+          "0.19",
+          "1.0",
+          "1.1",
+          "1.2",
+          "1.3",
+          "1.4",
+          "1.5",
+          "1.6",
+          "1.7"
+        ],
+        "about_url": "https://github.com/erdelf/AlienRaces/blob/b715c63ea7179bd2f9b9cedcdb39233c2bb36ef0/About/About.xml",
+        "about_blob_sha": "d33c748f798335d4a19cf94554b18c1e790c6947",
+        "published_id_url": "https://github.com/erdelf/AlienRaces/blob/b715c63ea7179bd2f9b9cedcdb39233c2bb36ef0/About/PublishedFileId.txt",
+        "published_id_blob_sha": "b25160b834d68b5efef7c6031c236c53894391cf",
+        "source_commit": "b715c63ea7179bd2f9b9cedcdb39233c2bb36ef0"
+      },
+      "rights_translation_update": {
+        "status": "confirmed",
+        "license": "MIT",
+        "evidence": "https://github.com/erdelf/AlienRaces/blob/b715c63ea7179bd2f9b9cedcdb39233c2bb36ef0/license.md",
+        "attribution": "Original mod Humanoid Alien Races by erdelf; Copyright (c) 2018 Simon Latusek. Independently authored Russian additions by Antyhc with disclosed AI assistance. Original Workshop https://steamcommunity.com/sharedfiles/filedetails/?id=839005762.",
+        "scope": "Independently authored Russian text adaptation of the licensed source. Does not grant third-party Russian wording or infer original-art permission.",
+        "obligations": [
+          "Retain the exact MIT copyright and permission notice in distributed copies or substantial portions.",
+          "Credit the original author and distinguish translator modifications; use an independently designed cover unless exact image permission is separately verified."
+        ]
+      },
+      "source_evidence": {
+        "license_blob_sha": "b9cdbdc17a84077647f74f320678c2e5a0434c43",
+        "contribution_policy_files_found": [],
+        "current_remote_russian_files": 0,
+        "repository_archived": false,
+        "issues_enabled": true,
+        "pushed_at": "2026-10-20T17:26:19Z"
+      },
+      "historical_prepared_work": {
+        "codex_draft_tasks": 151,
+        "target_fields": 199,
+        "isolated_load_verified_fields": 199,
+        "test_date": "2026-10-28",
+        "scope": "Exact final-copy QA trees loaded to main menu; no save opened or personal installation.",
+        "private_proof_sha256": "764629bb8eb6dcad0229e19aa3e0804a6a82d234e693b31f80b724d54e93d944",
+        "fresh_current_game_qa": false
+      },
+      "artwork": {
+        "update_icon_rights": false,
+        "original_art_permission_inferred": false
+      },
+      "owner_response": {
+        "url": "https://github.com/erdelf/AlienRaces/issues/126#issuecomment-6710979837",
+        "author": "erdelf",
+        "author_association": "OWNER",
+        "created_at": "2026-11-07T17:56:20Z",
+        "issue_state": "closed",
+        "scope": "Author declines native integration because he cannot read Russian; explicitly allows an independent translation mod.",
+        "translation_rights_already_confirmed_under_MIT": true,
+        "original_art_permission_inferred": false
+      }
+    }
+  ]
+}

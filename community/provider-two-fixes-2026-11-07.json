@@ -1,0 +1,67 @@
+{
+  "checked_date": "2026-11-07",
+  "repository": "OneCodeUnit/VanillaRussianExpanded",
+  "source_license_readme": "https://github.com/OneCodeUnit/VanillaRussianExpanded/blob/main/README.md",
+  "license": "CC-BY-NC-SA-4.0",
+  "provider_ids_verified_from_repository": {
+    "memes": "2569397678",
+    "psycasts": "2843348217"
+  },
+  "changed_values": 2,
+  "all_other_russian_preserved": true,
+  "proposed_existing_pr": "https://github.com/OneCodeUnit/VanillaRussianExpanded/pull/47",
+  "status": "submitted_verified",
+  "files": [
+    {
+      "path": "Vanilla Ideology Expanded Russian Language Pack/1.6/Memes/Languages/Russian/DefInjected/MemeDef/Memes_Misc.xml",
+      "previous_blob_sha": "6e80e1a620c42988c498ec5dd45e5a473be941a2",
+      "changed_values": 1,
+      "all_other_russian_preserved": true
+    },
+    {
+      "path": "Vanilla Psycasts Expanded Russian Language Pack/1.6/Main/Languages/Russian/DefInjected/HediffDef/Hediffs.xml",
+      "previous_blob_sha": "0a498a1f802a82ed02b9d51be6813c3c0b984a83",
+      "changed_values": 1,
+      "all_other_russian_preserved": true
+    }
+  ],
+  "memes": {
+    "original_rules": 22,
+    "current_provider_rules": 21,
+    "missing_semantic_rule": "memeConcept",
+    "whole_list_replacement_requires_upstream_append_not_standalone_index": true
+  },
+  "psycasts": {
+    "core_label_still_english": true,
+    "current_engine_label_path": "Verse.Hediff.LabelBase uses def.label when no stage override",
+    "current_stage_default_visible": true,
+    "actual_mod_usage": "Ability_Resurrect.Cast makes and adds VPE_Sacrificed",
+    "remaining_two_expiry_strings": "Existing named WorldObjectTimeout/Letter paths include slateRef; no own update proposed.",
+    "conditional14": "All14 VPEP keys present and Cyrillic when vanillaexpanded.vpe.puppeteer activates the1.6/Puppeteer root; no new runtime coverage claimed.",
+    "conditional14_token_differences": [
+      {
+        "target_id": "Keyed|VPEP.MindJumpText",
+        "token_differences": [
+          "placeholder_mismatch"
+        ]
+      }
+    ],
+    "conditional14_quality_scope": "Text presence and conditional selection verified. Exact runtime use, duration-unit wording and omitted repeated pronoun tokens are not certified as fresh UI quality."
+  },
+  "game_tested": false,
+  "independent_human_proofreading": false,
+  "source_freshness": {
+    "vanillaexpanded.vpsycastse": {
+      "source_input_changes_since_nov6": 0,
+      "changed_relative_files": []
+    },
+    "vanillaexpanded.vmemese": {
+      "source_input_changes_since_nov6": 0,
+      "changed_relative_files": []
+    }
+  },
+  "current_game_assembly_sha256": "d55aa8e47fa3c5463ca85b0eccd51f195b4bbcd04f56da3af21c2f6688a81254",
+  "current_psycasts_assembly_sha256": "e3e43899c4dd3ef20e065e2334ce919c27665e087462a4fc456eb17eeac021bc",
+  "pr_url": "https://github.com/OneCodeUnit/VanillaRussianExpanded/pull/47",
+  "head_sha": "01f1afdcaecca69812fedb8911df6d9392b5fb5d"
+}

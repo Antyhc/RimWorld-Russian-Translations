@@ -1,0 +1,20 @@
+{
+  "date": "2026-11-07",
+  "package_id": "m00nl1ght.mappreview",
+  "local_translation_archived": true,
+  "native_keys_exact": 71,
+  "original_workshop_url": "https://steamcommunity.com/sharedfiles/filedetails/?id=2800857642",
+  "acceptance_evidence": "community/native-acceptance-2026-11-07.json",
+  "native_files_sha256": {
+    "1.7/Languages/Russian/Keyed/HugsLogPublisher.xml": "f924b9d3901c28cc5191420cd418ef341bfdd7fdb2126f3272cc72426a3ad63d",
+    "1.7/Languages/Russian/Keyed/Keys.xml": "58db2b70b7eed84d1e150ce244a77ba903d2e318401064aa15e218cba7c896ad",
+    "About/About.xml": "1d42eedfadb04c233051db36d08b273d8e2dd4948cfd9682d9827e2aee498747",
+    "LoadFolders.xml": "5f696c1bc748ca33066736e4d4d75f6cf28ded6f06d2f380de0e30b70eefc87c"
+  },
+  "active_entries_removed": [
+    "local.russian.project.m00nl1ght.mappreview"
+  ],
+  "other_configuration_and_logs_unchanged": true,
+  "workshop_translation_deleted": false,
+  "reason": "No standalone Workshop item existed for this package."
+}

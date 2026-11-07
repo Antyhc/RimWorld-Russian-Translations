@@ -102,7 +102,11 @@
       "gameplay_tested": false,
       "independent_human_proofreading": false,
       "evidence_url": "https://github.com/Antyhc/RimWorld-Russian-Translations/blob/main/mods/vortex.customizeweapon/game-test-evidence.json"
-    }
+    },
+    "checked_at": "2026-11-07 16:53:25 UTC",
+    "mergeable": true,
+    "human_change_request_pending": false,
+    "latest_status_evidence": "community/author-status-2026-11-07.json"
   },
   "original": {
     "author": "Vortex",

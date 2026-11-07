@@ -58,7 +58,11 @@
     "entries_submitted": 3,
     "fresh_game_test_claimed": false,
     "scope": "Three semantic corrections in the existing Russian settings file: always-show-hands, off-hand rotation and mouse-wheel rotation help. Source/XML checked; no fresh game UI test or independent human proofreading claimed. Existing translation attribution and all other values preserved.",
-    "response_evidence": "community/outreach-2026-11-06.json"
+    "response_evidence": "community/outreach-2026-11-06.json",
+    "checked_at": "2026-11-07 16:53:25 UTC",
+    "mergeable": true,
+    "human_change_request_pending": false,
+    "latest_status_evidence": "community/author-status-2026-11-07.json"
   },
   "original": {
     "author": "Mlie",

@@ -43,9 +43,12 @@
     "status": "translation_offered",
     "pr_url": null,
     "contact_url": "https://github.com/SmashPhil/Vehicle-Framework/issues/380",
-    "contact_status": "awaiting_response",
+    "contact_status": "author_question_resolved",
     "offered_at": "2026-11-06",
-    "response_evidence": "community/outreach-2026-11-06.json"
+    "response_evidence": "community/author-actions-2026-11-07.json",
+    "response_url": "https://github.com/SmashPhil/Vehicle-Framework/issues/380#issuecomment-6698493289",
+    "reply_url": "https://github.com/SmashPhil/Vehicle-Framework/issues/380#issuecomment-6710399810",
+    "current_candidate_decision": "VF_JobLimitations held: original author confirms it is largely unused."
   },
   "original": {
     "author": "Smash Phil",

@@ -4,13 +4,18 @@
   <author>Antyhc (AI-assisted with OpenAI Codex)</author>
   <packageId>antyhc.russian.wvc.sergkart.biotech.moremechanoidsworkmodes</packageId>
   <url>https://github.com/Antyhc/RimWorld-Russian-Translations</url>
-  <description>Дополнение русского перевода WVC — Work Modes от Sergkart: 23 отсутствующие строки вкладки работ, ангара механоидов, зарядки, отключения, авторемонта и справки о поведении. Требуется оригинальный WVC — Work Modes и DLC Biotech; загружать после оригинала. Рекомендуется использовать вместе с существующим русификатором: его 100 совпадающих ключей не копируются и не заменяются. Только собственные новые переводы; подготовка и смысловая вычитка — OpenAI Codex. Независимая вычитка человеком и длительное прохождение не заявляются.
+  <description>Дополнение русского перевода WVC — Work Modes от Sergkart для RimWorld 1.7: название вкладки работы механоидов и её подсказка. Остальные 21 строка прежнего выпуска уже приняты автором и включены в оригинальный мод. Требуются оригинальный WVC — Work Modes, Harmony и Biotech. Загружать после оригинала. Перевод подготовлен и отредактирован с помощью OpenAI Codex; независимая вычитка человеком не заявляется.
 
-Russian completion for WVC — Work Modes by Sergkart: 23 missing entries for the work tab, mechanoid hangar, charging, shutdown, auto-repair and behavior guide. Requires original WVC — Work Modes and Biotech DLC; load after the original. Recommended alongside the existing Russian pack; its 100 covered selected keys are neither copied nor replaced. Contains only newly authored Russian; AI-assisted authoring and semantic review by OpenAI Codex. No independent human proofreading or extended gameplay test claimed.</description>
+Russian completion for WVC — Work Modes by Sergkart for RimWorld 1.7: the mechanoid work-tab label and tooltip. The other 21 entries from the previous release were accepted by the author and are now included in the original. Requires WVC — Work Modes, Harmony and Biotech; load after the original. AI-assisted authoring and review with OpenAI Codex; no independent human proofreading is claimed.</description>
   <supportedVersions>
     <li>1.7</li>
   </supportedVersions>
   <modDependencies>
+    <li>
+      <packageId>brrainz.harmony</packageId>
+      <displayName>Harmony</displayName>
+      <steamWorkshopUrl>https://steamcommunity.com/sharedfiles/filedetails/?id=2009463077</steamWorkshopUrl>
+    </li>
     <li>
       <packageId>wvc.sergkart.biotech.moremechanoidsworkmodes</packageId>
       <displayName>WVC - Work Modes</displayName>
@@ -22,6 +27,7 @@ Russian completion for WVC — Work Modes by Sergkart: 23 missing entries for th
     </li>
   </modDependencies>
   <loadAfter>
+    <li>brrainz.harmony</li>
     <li>wvc.sergkart.biotech.moremechanoidsworkmodes</li>
     <li>wvc.workmodes.russian</li>
   </loadAfter>

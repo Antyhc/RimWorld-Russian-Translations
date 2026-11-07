@@ -102,7 +102,11 @@
       "scope": "Actual isolated startup and physical value readback. No patient-dialog layout, colony gameplay or independent human proofreading claim.",
       "gameplay_tested": false
     },
-    "scope": "83 fields submitted, including the current minimal PatientLandingSpot label and a corrected bill-percentage tooltip. All 83 match the isolated 1.7.5000 control/candidate check with no new errors. Patient-dialog layout and colony gameplay were not inspected. Existing PR updated and read back at d05775c2ec957032420a364cebf281c3c210fb02."
+    "scope": "83 fields submitted, including the current minimal PatientLandingSpot label and a corrected bill-percentage tooltip. All 83 match the isolated 1.7.5000 control/candidate check with no new errors. Patient-dialog layout and colony gameplay were not inspected. Existing PR updated and read back at d05775c2ec957032420a364cebf281c3c210fb02.",
+    "checked_at": "2026-11-07 16:53:25 UTC",
+    "mergeable": true,
+    "human_change_request_pending": false,
+    "latest_status_evidence": "community/author-status-2026-11-07.json"
   },
   "original": {
     "author": "Adamas",

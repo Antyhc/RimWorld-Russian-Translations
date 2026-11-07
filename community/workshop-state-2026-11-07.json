@@ -1,0 +1,215 @@
+{
+  "checked_at": "2026-11-07T17:21:43.207482+00:00",
+  "anonymous_api": [
+    {
+      "publishedfileid": "3834810607",
+      "result": 1,
+      "title": "Hospital — Russian Translation",
+      "visibility": 0,
+      "banned": 0,
+      "time_updated": 1793987044,
+      "file_size": "110682"
+    },
+    {
+      "publishedfileid": "3830000511",
+      "result": 1,
+      "title": "Blood Animations — Russian Translation",
+      "visibility": 0,
+      "banned": 0,
+      "time_updated": 1793347278,
+      "file_size": "37450"
+    },
+    {
+      "publishedfileid": "3828883103",
+      "result": 1,
+      "title": "Mechanoid Upgrades — Russian Translation",
+      "visibility": 0,
+      "banned": 0,
+      "time_updated": 1793196694,
+      "file_size": "63987"
+    },
+    {
+      "publishedfileid": "3830035919",
+      "result": 1,
+      "title": "Loading Progress — Russian (399 strings)",
+      "visibility": 0,
+      "banned": 0,
+      "time_updated": 1793354014,
+      "file_size": "116597"
+    },
+    {
+      "publishedfileid": "3834788420",
+      "result": 1,
+      "title": "Clean Command Bar — Russian Translation",
+      "visibility": 0,
+      "banned": 0,
+      "time_updated": 1793984637,
+      "file_size": "36604"
+    },
+    {
+      "publishedfileid": "3828790822",
+      "result": 1,
+      "title": "Smart Medicine - Continued — Russian Translation",
+      "visibility": 0,
+      "banned": 0,
+      "time_updated": 1793184154,
+      "file_size": "35944"
+    },
+    {
+      "publishedfileid": "3828790605",
+      "result": 9
+    },
+    {
+      "publishedfileid": "3830050048",
+      "result": 1,
+      "title": "Vanilla Factions Expanded - Empire — Russian supplement (12 strings)",
+      "visibility": 0,
+      "banned": 0,
+      "time_updated": 1793356333,
+      "file_size": "32978"
+    },
+    {
+      "publishedfileid": "3830014953",
+      "result": 1,
+      "title": "Reel's Expanded Storage — Russian Translation",
+      "visibility": 0,
+      "banned": 0,
+      "time_updated": 1793350144,
+      "file_size": "45068"
+    },
+    {
+      "publishedfileid": "3830009448",
+      "result": 1,
+      "title": "Reel's Turret Pipeline — Russian Translation",
+      "visibility": 0,
+      "banned": 0,
+      "time_updated": 1793349017,
+      "file_size": "40723"
+    },
+    {
+      "publishedfileid": "3828790757",
+      "result": 1,
+      "title": "Yet Another Research Tree (YART) — Russian Translation",
+      "visibility": 0,
+      "banned": 0,
+      "time_updated": 1793184144,
+      "file_size": "31132"
+    },
+    {
+      "publishedfileid": "3828790442",
+      "result": 9
+    },
+    {
+      "publishedfileid": "3830022947",
+      "result": 1,
+      "title": "Vanilla Achievements Expanded — Russian Translation",
+      "visibility": 0,
+      "banned": 0,
+      "time_updated": 1793358860,
+      "file_size": "39565"
+    },
+    {
+      "publishedfileid": "3830032379",
+      "result": 1,
+      "title": "Vanilla Traits Expanded — Russian completion (2 captions)",
+      "visibility": 0,
+      "banned": 0,
+      "time_updated": 1793353378,
+      "file_size": "39598"
+    },
+    {
+      "publishedfileid": "3830078437",
+      "result": 9
+    },
+    {
+      "publishedfileid": "3834796180",
+      "result": 1,
+      "title": "Customize Weapon — Russian Translation",
+      "visibility": 0,
+      "banned": 0,
+      "time_updated": 1793985476,
+      "file_size": "46744"
+    },
+    {
+      "publishedfileid": "3830010549",
+      "result": 1,
+      "title": "WVC - Work Modes — Russian Translation",
+      "visibility": 0,
+      "banned": 0,
+      "time_updated": 1794071529,
+      "file_size": "41033"
+    }
+  ],
+  "wvc_existing_update": {
+    "id": "3830010549",
+    "title": "WVC - Work Modes — Russian Translation",
+    "file_type": 0,
+    "owned_by_current_user": true,
+    "visibility": 0,
+    "banned": false,
+    "children": [
+      "2888380373",
+      "2009463077"
+    ],
+    "result": 1,
+    "creator_app": 294100,
+    "consumer_app": 294100,
+    "created_unix": 1793349250,
+    "updated_unix": 1794071529,
+    "accepted_for_use": false,
+    "tags": "Translation,1.7",
+    "preview_handle": "14614540936470310530",
+    "preview_size": 36552,
+    "content_size": 41033,
+    "total_content_size": 41033,
+    "description_present": true
+  },
+  "wvc_required_apps": {
+    "item": "3830010549",
+    "apps": [
+      1826140
+    ],
+    "result": 1,
+    "complete": true,
+    "kind": "required_app_metadata"
+  },
+  "collection": {
+    "id": "3830036321",
+    "title": "RimWorld — Russian Translations Collection",
+    "file_type": 2,
+    "owned_by_current_user": true,
+    "visibility": 2,
+    "banned": false,
+    "children": [
+      "3830000511",
+      "3828883103",
+      "3830035919",
+      "3828790822",
+      "3830014953",
+      "3830009448",
+      "3828790757",
+      "3830022947",
+      "3830032379",
+      "3830010549",
+      "3830050048",
+      "3830078437",
+      "3834788420",
+      "3834796180",
+      "3834810607"
+    ],
+    "result": 1,
+    "creator_app": 766,
+    "consumer_app": 294100,
+    "created_unix": 1793354061,
+    "updated_unix": 1793987050,
+    "accepted_for_use": false,
+    "tags": "Translation,1.7",
+    "preview_handle": "10407216077500798127",
+    "preview_size": 41960,
+    "content_size": 41960,
+    "total_content_size": 41960,
+    "description_present": true
+  },
+  "website_access_verified_this_session": false,
+  "website_blocker": "Browser tool stopped because URL policy enforcement is unsupported for the current Windows browser; anonymous web tool could not open the page."
+}

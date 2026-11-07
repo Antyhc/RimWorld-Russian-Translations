@@ -28,14 +28,24 @@
     "linguistic": "pending",
     "source_current": false,
     "in_game": "not_tested",
-    "checked_at": "2026-10-28T09:15:27.268425+00:00"
+    "checked_at": "2026-10-28T09:15:27.268425+00:00",
+    "existing_translation_runtime_check": {
+      "status": "prepared_scope_already_russian",
+      "values_observed": 4,
+      "game_version": "1.7.5000 rev1275",
+      "evidence": "existing-translation-game-evidence.json",
+      "our_candidate_tested": false
+    }
   },
   "publication": {
     "github_url": "https://github.com/Antyhc/RimWorld-Russian-Translations/tree/main/mods/vanillaexpanded.vwenl",
     "github_status": "metadata_only",
     "workshop_url": null,
     "workshop_id": null,
-    "workshop_status": "not_published"
+    "workshop_status": "not_needed_current_equivalent",
+    "release_blockers": [
+      "Current Russian2126925929 already supplies all 4 prepared residual fields; do not publish a redundant supplement."
+    ]
   },
   "integration": {
     "status": "not_sent",
@@ -102,5 +112,14 @@
     "work_stage": "installed_local",
     "saved_translation_store": true
   },
-  "work_stage": "installed_local"
+  "work_stage": "held_existing_translation_covers_prepared_scope",
+  "duplicate_translation": {
+    "status": "current_equivalent_exists",
+    "checked_at": "2026-11-07T17:01:38.895282+00:00",
+    "candidates": [
+      "https://steamcommunity.com/sharedfiles/filedetails/?id=2126925929"
+    ],
+    "scope": "All 4 prepared residual fields already resolve to the existing current Russian text in actual game. Named/list/base-definition aliases produced the static apparent gaps. No separate supplement is needed for this scope.",
+    "evidence": "existing-translation-game-evidence.json"
+  }
 }

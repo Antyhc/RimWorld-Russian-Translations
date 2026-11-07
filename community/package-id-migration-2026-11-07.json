@@ -1,0 +1,12 @@
+{
+  "date": "2026-11-07",
+  "old_package_id": "md.prioritizeresearch",
+  "current_package_id": "kt.prioritizeresearch",
+  "same_original_workshop_id": "3523205869",
+  "source_about_sha256": "3fea9e10af70710bd1097d5883b87f6ff647f063dee60362ffbb5eb6b4d39d44",
+  "active_count_unchanged": 360,
+  "other_settings_and_logs_unchanged": true,
+  "version_declarations_modified": false,
+  "historical_identity_evidence": "reviews/20261030-diagnostics/deepstorage-order-fix.plan.json",
+  "completed": true
+}

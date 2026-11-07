@@ -1,0 +1,353 @@
+{
+  "schema": 1,
+  "checked_at": "2026-10-30T07:56:12.536423+00:00",
+  "translation_rows": 23,
+  "semantic_review": "All23EN/RUpairs reread with settings/mechanoid work-mode contexts; full explanations preserve smart charging maximum-minus5, 60ticks=1second, zone/shutdown/escort behavior and source description/helpText distinctions. Correct existing reviewed text retained.",
+  "independent_human_review": false,
+  "game_tested": true,
+  "third_party_russian_copied": false,
+  "current_source_inputs_hash_verified": true,
+  "entries": [
+    {
+      "target_id": "Keyed|WVC_ToolTip_enableMechsWorkTab",
+      "source_id": "Keyed|WVC_ToolTip_enableMechsWorkTab",
+      "source_sha256": "c40123d6714781c007668b2eedea62b6f4c2b4297c7ed6e5ed7588c993fdae85",
+      "text_sha256": "f0dc040d9550c33cbc843fe71e87344efab54d93a5620dd01db8a95cff9a3b90",
+      "source_origin": "1.7/Languages/English/Keyed/Settings.xml",
+      "gate": "base",
+      "minimal_static_present": true,
+      "task_id": "1175cb3b61cbdaab601f55618930c64ed99567b398512bcaacf00063868a3013",
+      "origin": {
+        "kind": "new_codex_translation"
+      },
+      "target_reviewer": "Codex independent reviewer: reviews\\20261027\\linguistic-b.review.v3.json"
+    },
+    {
+      "target_id": "Keyed|WVC_ToolTip_hideMechsWorkTab",
+      "source_id": "Keyed|WVC_ToolTip_hideMechsWorkTab",
+      "source_sha256": "3f8a2df0da148fd262b115e64c3382323495a6eda48818e68e8981922118a022",
+      "text_sha256": "0117d1e85f870681d4fd89e26a784641aad0d4d56d3310e0060ef5dd165222ce",
+      "source_origin": "1.7/Languages/English/Keyed/Settings.xml",
+      "gate": "base",
+      "minimal_static_present": true,
+      "task_id": "3596f1c96acf863b0971d90159734223d32f059ad0ac1b1496246fa4ddfc9690",
+      "origin": {
+        "kind": "new_codex_translation"
+      },
+      "target_reviewer": "Codex independent reviewer: reviews\\20261027\\linguistic-b.review.v3.json"
+    },
+    {
+      "target_id": "Keyed|WVC_ToolTip_enableOpportunisticChargers",
+      "source_id": "Keyed|WVC_ToolTip_enableOpportunisticChargers",
+      "source_sha256": "4129496ba1ac37d4caea47879fd061b85ff04ed9b1dc241bce0ea56af3455a0c",
+      "text_sha256": "dffc443f3d15eb293545c12436bb032067f2d9890597a1ad0c05a62b9cf683ac",
+      "source_origin": "1.7/Languages/English/Keyed/Settings.xml",
+      "gate": "base",
+      "minimal_static_present": true,
+      "task_id": "3df4381c5187dcc4b218a9b60451f11c56214403b979d319faa59cd9de1eb91a",
+      "origin": {
+        "kind": "new_codex_translation"
+      },
+      "target_reviewer": "Codex independent reviewer: reviews\\20261027\\linguistic-b.review.v3.json"
+    },
+    {
+      "target_id": "DefInjected|ConceptDef|WVC_MMWM_BehaviorsGuide.description",
+      "source_id": "DefInjected|ConceptDef|WVC_MMWM_BehaviorsGuide.description",
+      "source_sha256": "a6be4f8f6c20207fd9df8893c07d717fa80bfa3d0ae47ad287809ecfdf1228db",
+      "text_sha256": "8709a59536ede09461c28aea82ca46929f8aac04f220e36f17935aa80db41474",
+      "source_origin": "1.7/Defs/ConceptDefs.xml",
+      "gate": "base",
+      "minimal_static_present": true,
+      "task_id": "456b20046f33f0ede582f02ef7dc9ce031e1d36575a7170cd79e00831363554c",
+      "origin": {
+        "kind": "new_codex_translation"
+      },
+      "target_reviewer": "Codex independent reviewer: reviews\\20261027\\linguistic-root-tail.review.json"
+    },
+    {
+      "target_id": "Keyed|WVC_WorkModes_AllowShutdownLabel",
+      "source_id": "Keyed|WVC_WorkModes_AllowShutdownLabel",
+      "source_sha256": "fccb7e789e85a573ff12bfcb8f98a05247d9e4e47d7da6853b1cb4fbdeac2799",
+      "text_sha256": "9e73ae2a84c1e72c0192bf1a8ca2912697b446e20386be887da28c3bf7e0e38b",
+      "source_origin": "1.7/Languages/English/Keyed/Misc_Gameplay.xml",
+      "gate": "base",
+      "minimal_static_present": true,
+      "task_id": "52f026a31764ce4a6e93f917b4cf71a951155b9c26d2cae642bfd50e6d5ca814",
+      "origin": {
+        "kind": "new_codex_translation"
+      },
+      "target_reviewer": "Codex independent reviewer: reviews\\20261027\\linguistic-root-tail.review.json"
+    },
+    {
+      "target_id": "Keyed|WVC_Label_enableOpportunisticChargers",
+      "source_id": "Keyed|WVC_Label_enableOpportunisticChargers",
+      "source_sha256": "37c013f0f614da098f258cbc3c36058927ce8aadca81be284c8cc5864fde3247",
+      "text_sha256": "6618a4ad35a3fe4f472027d99da8053572e419cc7914c4603561c10bfd7e2430",
+      "source_origin": "1.7/Languages/English/Keyed/Settings.xml",
+      "gate": "base",
+      "minimal_static_present": true,
+      "task_id": "5a475788e5d29dd34a18c9180bc3125b43570dd54086b39203ef08f1b725b0f6",
+      "origin": {
+        "kind": "new_codex_translation"
+      },
+      "target_reviewer": "Codex independent reviewer: reviews\\20261027\\linguistic-root-tail.review.json"
+    },
+    {
+      "target_id": "DefInjected|ConceptDef|WVC_MMWM_BehaviorsGuide.helpText",
+      "source_id": "DefInjected|ConceptDef|WVC_MMWM_BehaviorsGuide.helpText",
+      "source_sha256": "35070caad878473702dc74602cdd50baa15f8938986e9ad117c6093c20c42b6f",
+      "text_sha256": "4dae3582ba266485f522cf7f462276a7eb209cac87d2eaa829972fe6d4856609",
+      "source_origin": "1.7/Defs/ConceptDefs.xml",
+      "gate": "base",
+      "minimal_static_present": true,
+      "task_id": "604839d2d773d46ac8f9cd8d8108acaaddae2e16da1be9b1a7850cdd6894bdb0",
+      "origin": {
+        "kind": "new_codex_translation"
+      },
+      "target_reviewer": "Codex independent reviewer: reviews\\20261027\\linguistic-root-tail.review.json"
+    },
+    {
+      "target_id": "Keyed|WVC_WorkModes_GroupIsChosen",
+      "source_id": "Keyed|WVC_WorkModes_GroupIsChosen",
+      "source_sha256": "940fe569d9edf565e05120f9686e87a2b83ae174d6254f175e0256f8d30ba6b2",
+      "text_sha256": "29c1e2f796733dc44ef0aaddb98ed11278f640be34703432d5a9ff2dbe72c2fb",
+      "source_origin": "1.7/Languages/English/Keyed/Misc_Gameplay.xml",
+      "gate": "base",
+      "minimal_static_present": true,
+      "task_id": "64e49c4b78fb20884ae462ffe86f9ac3c0c3604ac618de2a38f86b7330d5fa7a",
+      "origin": {
+        "kind": "new_codex_translation"
+      },
+      "target_reviewer": "Codex independent reviewer: reviews\\20261027\\linguistic-root-tail.review.json"
+    },
+    {
+      "target_id": "Keyed|WVC_ToolTip_enable_GoToShutdownRoomJob",
+      "source_id": "Keyed|WVC_ToolTip_enable_GoToShutdownRoomJob",
+      "source_sha256": "804ef57745ef7c3c38b6ed01bcd2ac01ccf78ae703af7f90805b60d78bc90f16",
+      "text_sha256": "11b6f610667296f68fdfe0d6459737079878225aa71b26dc1b23fc3261b2943a",
+      "source_origin": "1.7/Languages/English/Keyed/Settings.xml",
+      "gate": "base",
+      "minimal_static_present": true,
+      "task_id": "6b207804fb60c65ece618e7879cc9d801cad764439f88f59241ebda36f929f4c",
+      "origin": {
+        "kind": "new_codex_translation"
+      },
+      "target_reviewer": "Codex independent reviewer: reviews\\20261027\\linguistic-root-tail.review.json"
+    },
+    {
+      "target_id": "DefInjected|MainButtonDef|WVC_MechsWork.label",
+      "source_id": "DefInjected|MainButtonDef|WVC_MechsWork.label",
+      "source_sha256": "9544a1322579cf196c9f8a61a4470a13acd626e15be4a11922ffb657a42eb6da",
+      "text_sha256": "6cd5a82ef2d99d9a41c21eb49892623c480a0b69698895efdd6369be6357757a",
+      "source_origin": "1.7/Odyssey/Defs/MainButtons.xml",
+      "gate": "base",
+      "minimal_static_present": true,
+      "task_id": "76247b3a90f4e3bdd3fcf4176692f43546982112e6f9b6d46fad01db6a51efb5",
+      "origin": {
+        "kind": "new_codex_translation"
+      },
+      "target_reviewer": "Codex independent reviewer: reviews\\20261027\\linguistic-root-tail.review.json"
+    },
+    {
+      "target_id": "Keyed|WVC_WorkModes_AllowShutdownDesc",
+      "source_id": "Keyed|WVC_WorkModes_AllowShutdownDesc",
+      "source_sha256": "4953f10f9e46a6ac35b211a6d41db2620702ed4dac7ba510f79527dd5bc90c85",
+      "text_sha256": "7049bd398ba52a3cdf303e7b6a3eee31ab61d0eb15257c2c4a6ad277f031f8c1",
+      "source_origin": "1.7/Languages/English/Keyed/Misc_Gameplay.xml",
+      "gate": "base",
+      "minimal_static_present": true,
+      "task_id": "78dace09b9f116bba566d4abc5ebd26e0f5fd6000f91a739af7862589cbbef94",
+      "origin": {
+        "kind": "new_codex_translation"
+      },
+      "target_reviewer": "Codex independent reviewer: reviews\\20261027\\linguistic-root-tail.review.json"
+    },
+    {
+      "target_id": "Keyed|WVC_Label_hideMechsWorkTab",
+      "source_id": "Keyed|WVC_Label_hideMechsWorkTab",
+      "source_sha256": "9b3acc27a117c0dbdd0b08216a723f36b8eb8812cdb0fc1aba54e466186203aa",
+      "text_sha256": "e358c5db42eb16e1354a30988e9e6a82bd626c88ae6635138fd946b171c11eff",
+      "source_origin": "1.7/Languages/English/Keyed/Settings.xml",
+      "gate": "base",
+      "minimal_static_present": true,
+      "task_id": "78fbaf07da5751e15a91364ef3d1dfe8adb81ce9316458a1df9467bf1cf58859",
+      "origin": {
+        "kind": "new_codex_translation"
+      },
+      "target_reviewer": "Codex independent reviewer: reviews\\20261027\\linguistic-root-tail.review.json"
+    },
+    {
+      "target_id": "Keyed|WVC_Label_RechargeAndShutdown",
+      "source_id": "Keyed|WVC_Label_RechargeAndShutdown",
+      "source_sha256": "b906f2714554116a2c3537c6206979b74615bdad47a52ae423412028d97791f8",
+      "text_sha256": "06e769abe12539bfdd7d8cf8639da2ca9763266970b70b2445215450e049ba00",
+      "source_origin": "1.7/Languages/English/Keyed/Settings.xml",
+      "gate": "base",
+      "minimal_static_present": true,
+      "task_id": "7a3734e7dafd06cca1880108e40ebc6889f3305d187a14ea473ebd9a5a641ac9",
+      "origin": {
+        "kind": "new_codex_translation"
+      },
+      "target_reviewer": "Codex independent reviewer: reviews\\20261027\\linguistic-root-tail.review.json"
+    },
+    {
+      "target_id": "Keyed|WVC_Label_enableMechsWorkTab",
+      "source_id": "Keyed|WVC_Label_enableMechsWorkTab",
+      "source_sha256": "b52ab0249f8d9d70431425f5c49e2c4f837fa7f6586338fca266a554179be63d",
+      "text_sha256": "f7ad36bcb5206f3f7505522c156ac331a67ed9f7af6c739992d6b5a6ee97dcf1",
+      "source_origin": "1.7/Languages/English/Keyed/Settings.xml",
+      "gate": "base",
+      "minimal_static_present": true,
+      "task_id": "7ce840c38614d89bd3595f5d7ec3d7efbec9baae66b37d1deb815e27b2f24b0e",
+      "origin": {
+        "kind": "new_codex_translation"
+      },
+      "target_reviewer": "Codex independent reviewer: reviews\\20261027\\linguistic-root-tail.review.json"
+    },
+    {
+      "target_id": "Keyed|WVC_WorkModes_EnemyCheckDelayDesc",
+      "source_id": "Keyed|WVC_WorkModes_EnemyCheckDelayDesc",
+      "source_sha256": "d3a62cc11098a7e81043d1e85c602618db1b6c2214074e97f5e5822283292f44",
+      "text_sha256": "9261d03eed8ed991b2e4de03d62d94e61d4687d378ff38c5b5dcb7b58b7bf528",
+      "source_origin": "1.7/Languages/English/Keyed/Settings.xml",
+      "gate": "base",
+      "minimal_static_present": true,
+      "task_id": "7eca75971e6d1883ad8fd532fa622b42f18075823d80a506af90d552f11065c0",
+      "origin": {
+        "kind": "new_codex_translation"
+      },
+      "target_reviewer": "Codex independent reviewer: reviews\\20261027\\linguistic-root-tail.review.json"
+    },
+    {
+      "target_id": "DefInjected|MainButtonDef|WVC_MechsWork.description",
+      "source_id": "DefInjected|MainButtonDef|WVC_MechsWork.description",
+      "source_sha256": "39193b43cc18dd838d6ceb079613231e8e29c94bd5ad3f51b17eec352dcf95b0",
+      "text_sha256": "0f1c12675d54f4ae46b73b873c5d73ceea98166535b787a33259b452fb2f2071",
+      "source_origin": "1.7/Odyssey/Defs/MainButtons.xml",
+      "gate": "base",
+      "minimal_static_present": true,
+      "task_id": "896db8d788d43d48eff33b34f42acaf846b4fde22166c974dd4c0732814faf64",
+      "origin": {
+        "kind": "new_codex_translation"
+      },
+      "target_reviewer": "Codex independent reviewer: reviews\\20261027\\linguistic-b.review.v3.json"
+    },
+    {
+      "target_id": "Keyed|WVC_WM_Label_enableAutoRepairByDefault",
+      "source_id": "Keyed|WVC_WM_Label_enableAutoRepairByDefault",
+      "source_sha256": "995e571f949bb99ef7a564c0268959ddf64b1572f84688dd95dc68b12d338acf",
+      "text_sha256": "776ed1fa44417fabea790158f2259ae9387c705f384591dd12aabe346756e496",
+      "source_origin": "1.7/Languages/English/Keyed/Settings.xml",
+      "gate": "base",
+      "minimal_static_present": true,
+      "task_id": "912ef9a9080d059fbbb1bb4a801bd454d88c05c0411764b9bc4c1808cc9de2b9",
+      "origin": {
+        "kind": "new_codex_translation"
+      },
+      "target_reviewer": "Codex independent reviewer: reviews\\20261027\\linguistic-b.review.v3.json"
+    },
+    {
+      "target_id": "Keyed|WVC_WorkModes_EnemyCheckDelay",
+      "source_id": "Keyed|WVC_WorkModes_EnemyCheckDelay",
+      "source_sha256": "232a119ecccac1863d01654eac9472258d52da57c0f714f837a3ff7372754912",
+      "text_sha256": "5e06716bc66f84046db26e635045f4593602e290403af03bc58d1e5f9962ea33",
+      "source_origin": "1.7/Languages/English/Keyed/Settings.xml",
+      "gate": "base",
+      "minimal_static_present": true,
+      "task_id": "b6f6f58e5a4889f224145330900dd0e5ec566b1d1da7cfb1042c398116b3e1b6",
+      "origin": {
+        "kind": "new_codex_translation"
+      },
+      "target_reviewer": "Codex independent reviewer: reviews\\20261027\\linguistic-b.review.v3.json"
+    },
+    {
+      "target_id": "Keyed|WVC_Label_enable_GoToShutdownRoomJob",
+      "source_id": "Keyed|WVC_Label_enable_GoToShutdownRoomJob",
+      "source_sha256": "f9ec75da9aec420795f1d301e41c59e66602d99fdbf7bcad7c3745df3b97341c",
+      "text_sha256": "674ebbc3c7caddaac1819ae61bb512c756f863080fe0ca550b92c329b57c1d67",
+      "source_origin": "1.7/Languages/English/Keyed/Settings.xml",
+      "gate": "base",
+      "minimal_static_present": true,
+      "task_id": "b71f13d674d6bca2b46c6768203ab41b39df07475c4dffbe2bbbf40e98142312",
+      "origin": {
+        "kind": "new_codex_translation"
+      },
+      "target_reviewer": "Codex independent reviewer: reviews\\20261027\\linguistic-b.review.v3.json"
+    },
+    {
+      "target_id": "DefInjected|RoomRoleDef|WVC_MechHangar.label",
+      "source_id": "DefInjected|RoomRoleDef|WVC_MechHangar.label",
+      "source_sha256": "4fbe822878dc55a904bf702af9e20667eb9b091fb8e20cc8c96b6264221d6fe4",
+      "text_sha256": "d1e4cec1d526bcdcb2ad867bb1bdcfd1f8429881a44ab8ff1f57f111f332a819",
+      "source_origin": "1.7/Defs/RoomRoleDefs.xml",
+      "gate": "base",
+      "minimal_static_present": true,
+      "task_id": "d73946006ec2118a91abe1746e8318ae732eede58ec6b09579a29ca1a38cb529",
+      "origin": {
+        "kind": "new_codex_translation"
+      },
+      "target_reviewer": "Codex independent reviewer: reviews\\20261027\\linguistic-b.review.v3.json"
+    },
+    {
+      "target_id": "Keyed|WVC_WM_ShutdownGroup",
+      "source_id": "Keyed|WVC_WM_ShutdownGroup",
+      "source_sha256": "08434ba9cdf55a02284e2913400586cd289878e0f055f7bb0b07ce392caeb989",
+      "text_sha256": "e7b0f672bd89804f485b89f813edac6ea16b7f20159be9effe8edfab112b2a33",
+      "source_origin": "1.7/Languages/English/Keyed/Misc_Gameplay.xml",
+      "gate": "base",
+      "minimal_static_present": true,
+      "task_id": "e55edc998a158e6e4bb00df39adb5459754a7d9cc8ebeb15de67517d90503d2e",
+      "origin": {
+        "kind": "new_codex_translation"
+      },
+      "target_reviewer": "Codex independent reviewer: reviews\\20261027\\linguistic-b.review.v3.json"
+    },
+    {
+      "target_id": "DefInjected|ConceptDef|WVC_MMWM_BehaviorsGuide.label",
+      "source_id": "DefInjected|ConceptDef|WVC_MMWM_BehaviorsGuide.label",
+      "source_sha256": "edb0196265fd4cf7c58e0f08e6d5c75682b5f879212697763a78992a17a0ed9f",
+      "text_sha256": "35d472f13ca6293a77beef19b236a483b44a8704bdba119a82ba785e958c1584",
+      "source_origin": "1.7/Defs/ConceptDefs.xml",
+      "gate": "base",
+      "minimal_static_present": true,
+      "task_id": "ef720b87d02d0672d5f951878fbe9c49ed5b79d180b445579253a258d4ace614",
+      "origin": {
+        "kind": "new_codex_translation"
+      },
+      "target_reviewer": "Codex independent reviewer: reviews\\20261027\\linguistic-b.review.v3.json"
+    },
+    {
+      "target_id": "Keyed|WVC_WM_ToolTip_enableAutoRepairByDefault",
+      "source_id": "Keyed|WVC_WM_ToolTip_enableAutoRepairByDefault",
+      "source_sha256": "159753f1f58a20ccef7e3417799a6f96ad1b7bb1d30b1a9a26f85900473fd31d",
+      "text_sha256": "00171211950f4f3ad097b3ac4ae4e8b96d28d8b9bbab113953e85692ec5d77df",
+      "source_origin": "1.7/Languages/English/Keyed/Settings.xml",
+      "gate": "base",
+      "minimal_static_present": true,
+      "task_id": "ef8b88185043c9ca257230d5822c5d6714a45764dec40b5e7f3caf0cbe73ea34",
+      "origin": {
+        "kind": "new_codex_translation"
+      },
+      "target_reviewer": "Codex independent reviewer: reviews\\20261027\\linguistic-root-tail.review.json"
+    }
+  ],
+  "payload_sha256": "1d9229cf7a94745aa2e288c18b280265f1a76983cf3a2ea8e0bdec2d44c7046b",
+  "payload_file_hashes": {
+    "About/About.xml": "e438372985bcc0717faf859f95f2b6c8aad5dbd5b0012c5968e3fe65034d1933",
+    "About/Credits.txt": "f6199396c062d519536174fa78cc7d0cefe9105318ebb0fc2c66ea9edc4b3101",
+    "About/License.txt": "502a81324413850bbda333f818fa0b4e4a2cb0db4e8f25037b21fea941cdae64",
+    "About/Preview.png": "068c0f95c0d0719ae3a52609fbc5315a92befe45cbc23027e94601a7ecac9af9",
+    "Languages/Russian/DefInjected/ConceptDef/AdditionalRussian.xml": "389e67da4339422a356af5221823e259307ac73a82fdd5efcc94fd2e5e9f874a",
+    "Languages/Russian/DefInjected/MainButtonDef/AdditionalRussian.xml": "e53832898ca5ec4f09214dd0eee377a5fd016deb604153639344b4fd9586f726",
+    "Languages/Russian/DefInjected/RoomRoleDef/AdditionalRussian.xml": "bb0d2dbde95e9567ffeee965ce6fbb90f07ed31c9677e5c4721a96844f423ffb",
+    "Languages/Russian/Keyed/AdditionalRussian.xml": "7079641f6fb926ebc1400e11b1f15d01ee14d5e68c859bddbbe62eebdd132c1f"
+  },
+  "game_test_evidence": "game-test-evidence.json",
+  "game_test_evidence_sha256": "89ec4280c8de86075455e729c1bfe877123fdf7244d6c824e87a21248e8c7622",
+  "game_test_scope": "Actual isolated startup and physical language-value readback, exact active dependencies/DLC and source/payload/probe hashes; no save, extended gameplay or independent human proofreading claim.",
+  "duplicate_gap_classification": {
+    "absent_keys": 22,
+    "existing_English_message_localized": 1,
+    "selected_existing_Russian_keys_preserved": 100
+  }
+}

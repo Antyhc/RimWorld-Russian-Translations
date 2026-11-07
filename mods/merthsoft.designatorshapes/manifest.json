@@ -82,7 +82,11 @@
     "community_translation_accepted": false,
     "review_changes_requested": false,
     "merge_conflicts": null,
-    "response_evidence": "community/integration-status-2026-11-06.json"
+    "response_evidence": "community/integration-status-2026-11-06.json",
+    "checked_at": "2026-11-07 16:53:25 UTC",
+    "mergeable": null,
+    "human_change_request_pending": false,
+    "latest_status_evidence": "community/author-status-2026-11-07.json"
   },
   "original": {
     "author": "merthsoft",

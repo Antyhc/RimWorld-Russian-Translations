@@ -54,7 +54,11 @@
     "original_native_accepted": false,
     "entries_submitted": 24,
     "fresh_game_test_claimed": false,
-    "response_evidence": "community/outreach-2026-11-06.json"
+    "response_evidence": "community/outreach-2026-11-06.json",
+    "checked_at": "2026-11-07 16:53:25 UTC",
+    "mergeable": true,
+    "human_change_request_pending": false,
+    "latest_status_evidence": "community/author-status-2026-11-07.json"
   },
   "original": {
     "author": "Imranfish",
@@ -121,7 +125,7 @@
   },
   "work_stage": "upstream_integration_preferred_existing_translation",
   "duplicate_translation": {
-    "status": "current_full_target_equivalent_exists",
+    "status": "full_target_equivalent_runtime_unresolved",
     "checked_at": "2026-11-06T17:27:02.406706+00:00",
     "evidence": "duplicate-translation-evidence.json",
     "candidates": [

@@ -1,0 +1,437 @@
+{
+  "checked_date": "2026-11-07",
+  "source": "Official anonymous GetPublishedFileDetails in batches of at most50. Full descriptions, creator IDs and contact details are not retained.",
+  "mods_reviewed": 53,
+  "records": [
+    {
+      "package_id": "6224y.onewithdeath",
+      "original_workshop_id": "3448902635",
+      "result": 1,
+      "title": "One with Death",
+      "repository_candidates": [],
+      "description_examined": true
+    },
+    {
+      "package_id": "als.gravtech",
+      "original_workshop_id": "3545374124",
+      "result": 1,
+      "title": "GravTech",
+      "repository_candidates": [],
+      "description_examined": true
+    },
+    {
+      "package_id": "andromeda.nicehealthtab",
+      "original_workshop_id": "3328729902",
+      "result": 1,
+      "title": "Nice Health Tab",
+      "repository_candidates": [],
+      "description_examined": true
+    },
+    {
+      "package_id": "andromeda.usefulmarks",
+      "original_workshop_id": "3506573327",
+      "result": 1,
+      "title": "Useful Marks",
+      "repository_candidates": [],
+      "description_examined": true
+    },
+    {
+      "package_id": "arkymn.slowerpawntickrate",
+      "original_workshop_id": "3524116050",
+      "result": 1,
+      "title": "Performance - Slower Pawn Tick Rate",
+      "repository_candidates": [],
+      "description_examined": true
+    },
+    {
+      "package_id": "atlas.simplefx.vapor.revaporized",
+      "original_workshop_id": "3238776309",
+      "result": 1,
+      "title": "Simple FX: Vapor...Revaporized",
+      "repository_candidates": [],
+      "description_examined": true
+    },
+    {
+      "package_id": "breadmo.cinders",
+      "original_workshop_id": "3421959154",
+      "result": 1,
+      "title": "Cinders of the Embergarden",
+      "repository_candidates": [],
+      "description_examined": true
+    },
+    {
+      "package_id": "costel.layeredapparel",
+      "original_workshop_id": "3632480044",
+      "result": 1,
+      "title": "Layered Apparel 2.0",
+      "repository_candidates": [],
+      "description_examined": true
+    },
+    {
+      "package_id": "dimonsever000.factionlanguages",
+      "original_workshop_id": "3450332059",
+      "result": 1,
+      "title": "Cybranian - Rim Languages",
+      "repository_candidates": [],
+      "description_examined": true
+    },
+    {
+      "package_id": "forti.rimmarket",
+      "original_workshop_id": "3817820660",
+      "result": 1,
+      "title": "RimMarket",
+      "repository_candidates": [],
+      "description_examined": true
+    },
+    {
+      "package_id": "gabrieel1482.workersassistant",
+      "original_workshop_id": "3823809866",
+      "result": 1,
+      "title": "Worker's Assistant",
+      "repository_candidates": [],
+      "description_examined": true
+    },
+    {
+      "package_id": "gm.hotspring",
+      "original_workshop_id": "3717051546",
+      "result": 1,
+      "title": "Gerrymon's Hotspring Expanded",
+      "repository_candidates": [],
+      "description_examined": true
+    },
+    {
+      "package_id": "gogatio.mechanoidupgrades",
+      "original_workshop_id": "3365118555",
+      "result": 1,
+      "title": "Mechanoid Upgrades",
+      "repository_candidates": [],
+      "description_examined": true
+    },
+    {
+      "package_id": "hailuan.cathiss",
+      "original_workshop_id": "3523843973",
+      "result": 1,
+      "title": "Cat Hiss",
+      "repository_candidates": [],
+      "description_examined": true
+    },
+    {
+      "package_id": "hailuan.iwbb",
+      "original_workshop_id": "3400259397",
+      "result": 1,
+      "title": "I will be back",
+      "repository_candidates": [],
+      "description_examined": true
+    },
+    {
+      "package_id": "haplo.miscellaneous.training",
+      "original_workshop_id": "717575199",
+      "result": 1,
+      "title": "Misc. Training",
+      "repository_candidates": [],
+      "description_examined": true
+    },
+    {
+      "package_id": "har.mugirlrace",
+      "original_workshop_id": "3578882219",
+      "result": 1,
+      "title": "Mugirl Race",
+      "repository_candidates": [],
+      "description_examined": true
+    },
+    {
+      "package_id": "ht.lunartika",
+      "original_workshop_id": "3556798940",
+      "result": 1,
+      "title": "Heavy Truck",
+      "repository_candidates": [],
+      "description_examined": true
+    },
+    {
+      "package_id": "icc.fov.elves",
+      "original_workshop_id": "3726293423",
+      "result": 1,
+      "title": "Faction - Elves",
+      "repository_candidates": [],
+      "description_examined": true
+    },
+    {
+      "package_id": "jaeger972.factionterritories2",
+      "original_workshop_id": "3825320105",
+      "result": 1,
+      "title": "Hegemony - Faction Territories and Vassalage 2",
+      "repository_candidates": [],
+      "description_examined": true
+    },
+    {
+      "package_id": "juanlopez2008.lightsout",
+      "original_workshop_id": "2584269293",
+      "result": 1,
+      "title": "LightsOut",
+      "repository_candidates": [],
+      "description_examined": true
+    },
+    {
+      "package_id": "kattalisk.allproductionxp",
+      "original_workshop_id": "3539744423",
+      "result": 1,
+      "title": "All Production Gives XP",
+      "repository_candidates": [],
+      "description_examined": true
+    },
+    {
+      "package_id": "keno.tuckedfurniture",
+      "original_workshop_id": "3808739466",
+      "result": 1,
+      "title": "Tucked Furniture",
+      "repository_candidates": [],
+      "description_examined": true
+    },
+    {
+      "package_id": "leo.cleancommandbar",
+      "original_workshop_id": "3688400757",
+      "result": 1,
+      "title": "Clean Command Bar",
+      "repository_candidates": [],
+      "description_examined": true
+    },
+    {
+      "package_id": "lingluo.giantcrop",
+      "original_workshop_id": "3488540512",
+      "result": 1,
+      "title": "Giant crop",
+      "repository_candidates": [],
+      "description_examined": true
+    },
+    {
+      "package_id": "linnun.keepconverting",
+      "original_workshop_id": "3461478214",
+      "result": 1,
+      "title": "Keep Converting",
+      "repository_candidates": [],
+      "description_examined": true
+    },
+    {
+      "package_id": "local.washingmachine",
+      "original_workshop_id": "3820234705",
+      "result": 1,
+      "title": "[DG]Simple Washing Machine",
+      "repository_candidates": [],
+      "description_examined": true
+    },
+    {
+      "package_id": "lotusland.weaponupgrade",
+      "original_workshop_id": "3395769930",
+      "result": 1,
+      "title": "Weapon Upgrade",
+      "repository_candidates": [],
+      "description_examined": true
+    },
+    {
+      "package_id": "lts.i",
+      "original_workshop_id": "3223443793",
+      "result": 1,
+      "title": "Integrated Implants",
+      "repository_candidates": [],
+      "description_examined": true
+    },
+    {
+      "package_id": "lwm.deepstorage",
+      "original_workshop_id": "3532608331",
+      "result": 1,
+      "title": "LWM's Deep Storage",
+      "repository_candidates": [
+        "lilwhitemouse/RimWorld-LWM.DeepStorage"
+      ],
+      "description_examined": true
+    },
+    {
+      "package_id": "mrk.architectmenuoptimizer",
+      "original_workshop_id": "3697920753",
+      "result": 1,
+      "title": "Architect Menu Optimizer",
+      "repository_candidates": [],
+      "description_examined": true
+    },
+    {
+      "package_id": "nals.facialanimation",
+      "original_workshop_id": "1635901197",
+      "result": 1,
+      "title": "[NL] Facial Animation - WIP",
+      "repository_candidates": [],
+      "description_examined": true
+    },
+    {
+      "package_id": "ninagoblin.nooneleftbehind",
+      "original_workshop_id": "3536586707",
+      "result": 1,
+      "title": "No One Left Behind",
+      "repository_candidates": [
+        "CaptainMuscles/CM_No_Pawn_Left_Behind"
+      ],
+      "description_examined": true
+    },
+    {
+      "package_id": "rabiosus.minesight",
+      "original_workshop_id": "3769804600",
+      "result": 1,
+      "title": "Mine Sight",
+      "repository_candidates": [],
+      "description_examined": true
+    },
+    {
+      "package_id": "ray1203.simplecamerasetting",
+      "original_workshop_id": "3232415388",
+      "result": 1,
+      "title": "SimpleCameraSetting",
+      "repository_candidates": [],
+      "description_examined": true
+    },
+    {
+      "package_id": "rebuild.cotr.doorsandcorners",
+      "original_workshop_id": "3262718980",
+      "result": 1,
+      "title": "ReBuild: Doors and Corners",
+      "repository_candidates": [],
+      "description_examined": true
+    },
+    {
+      "package_id": "reel.expanded.storage",
+      "original_workshop_id": "3237638097",
+      "result": 1,
+      "title": "Reel's Expanded Storage",
+      "repository_candidates": [],
+      "description_examined": true
+    },
+    {
+      "package_id": "reel.turretpipeline",
+      "original_workshop_id": "3424132769",
+      "result": 1,
+      "title": "Reel's Turret Pipeline",
+      "repository_candidates": [],
+      "description_examined": true
+    },
+    {
+      "package_id": "salvador143.shuttledock",
+      "original_workshop_id": "3648642429",
+      "result": 1,
+      "title": "Shuttle Dock",
+      "repository_candidates": [],
+      "description_examined": true
+    },
+    {
+      "package_id": "sbz.gravshipstorage",
+      "original_workshop_id": "3537905298",
+      "result": 1,
+      "title": "[sbz] Gravship Storage",
+      "repository_candidates": [],
+      "description_examined": true
+    },
+    {
+      "package_id": "sbz.neatstorage",
+      "original_workshop_id": "3416243474",
+      "result": 1,
+      "title": "[sbz] Neat Storage",
+      "repository_candidates": [],
+      "description_examined": true
+    },
+    {
+      "package_id": "sbz.neatstoragefridge",
+      "original_workshop_id": "3486264784",
+      "result": 1,
+      "title": "[sbz] Fridge",
+      "repository_candidates": [],
+      "description_examined": true
+    },
+    {
+      "package_id": "sbz.neatstorageworkbenchshelf",
+      "original_workshop_id": "3484671309",
+      "result": 1,
+      "title": "[sbz] Workbench Shelf",
+      "repository_candidates": [],
+      "description_examined": true
+    },
+    {
+      "package_id": "shunter.bettertradersguild",
+      "original_workshop_id": "3684587591",
+      "result": 1,
+      "title": "Better Traders Guild",
+      "repository_candidates": [
+        "sam-hunt/BetterTradersGuild"
+      ],
+      "description_examined": true
+    },
+    {
+      "package_id": "stm.shellabackgrounds",
+      "original_workshop_id": "2853407446",
+      "result": 1,
+      "title": "Shella Backgrounds",
+      "repository_candidates": [],
+      "description_examined": true
+    },
+    {
+      "package_id": "vanillaexpanded.skills",
+      "original_workshop_id": "3400246558",
+      "result": 1,
+      "title": "Vanilla Skills Expanded",
+      "repository_candidates": [],
+      "description_examined": true
+    },
+    {
+      "package_id": "vanillaexpanded.vanillatraitsexpanded",
+      "original_workshop_id": "2296404655",
+      "result": 1,
+      "title": "Vanilla Traits Expanded",
+      "repository_candidates": [],
+      "description_examined": true
+    },
+    {
+      "package_id": "vanillaexpanded.vcef",
+      "original_workshop_id": "1914064942",
+      "result": 1,
+      "title": "Vanilla Fishing Expanded",
+      "repository_candidates": [],
+      "description_examined": true
+    },
+    {
+      "package_id": "vanillaexpanded.vfearchitect",
+      "original_workshop_id": "2608762624",
+      "result": 1,
+      "title": "Vanilla Furniture Expanded - Architect",
+      "repository_candidates": [],
+      "description_examined": true
+    },
+    {
+      "package_id": "vanillaexpanded.vgeneticse",
+      "original_workshop_id": "2801160906",
+      "result": 1,
+      "title": "Vanilla Genetics Expanded",
+      "repository_candidates": [],
+      "description_examined": true
+    },
+    {
+      "package_id": "void.charactereditor",
+      "original_workshop_id": "1874644848",
+      "result": 1,
+      "title": "Character Editor",
+      "repository_candidates": [],
+      "description_examined": true
+    },
+    {
+      "package_id": "xmb.ancientthreat.mo",
+      "original_workshop_id": "3313313985",
+      "result": 1,
+      "title": "Ancient amorphous threat",
+      "repository_candidates": [],
+      "description_examined": true
+    },
+    {
+      "package_id": "zhuma.xenotypesummary",
+      "original_workshop_id": "3710012135",
+      "result": 1,
+      "title": "Xenotype Summary",
+      "repository_candidates": [],
+      "description_examined": true
+    }
+  ]
+}

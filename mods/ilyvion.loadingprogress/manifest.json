@@ -96,7 +96,11 @@
     "merged_at": "2026-11-05T06:39:55Z",
     "merge_commit": "7232b7fa83e42fd891a106ff001a3015aad1a545",
     "merge_conflicts": null,
-    "response_evidence": "community/integration-status-2026-11-06.json"
+    "response_evidence": "community/integration-status-2026-11-06.json",
+    "checked_at": "2026-11-07 16:53:25 UTC",
+    "mergeable": null,
+    "human_change_request_pending": false,
+    "latest_status_evidence": "community/author-status-2026-11-07.json"
   },
   "original": {
     "author": "ilyvion",

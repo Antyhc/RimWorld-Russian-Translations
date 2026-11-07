@@ -1,0 +1,213 @@
+{
+  "schema": 1,
+  "date": "2026-11-07",
+  "package_id": "shunter.bettertradersguild",
+  "original_workshop_id": "3684587591",
+  "source_url": "https://github.com/sam-hunt/BetterTradersGuild/tree/b60e83da977b813f9509c703ca286182bb29696a",
+  "source_commit": "b60e83da977b813f9509c703ca286182bb29696a",
+  "current_original_supports_1_7": true,
+  "effective_roots_for_observed_profile": [
+    "/",
+    "1.6",
+    "1.6/Mods/Biotech",
+    "1.6/Mods/VanillaGravshipExpanded2"
+  ],
+  "stored_targets": 15,
+  "visible_cyrillic_targets_covered_natively": 13,
+  "neutral_targets_covered_natively": 2,
+  "neutral_rule_resolution": "qualityInfo-> is item2 of the original whole rulesStrings list, not a missing scalar injection.",
+  "coverage": [
+    {
+      "key": "DefInjected|QuestScriptDef|BTG_TradeRequest.questDescriptionRules.rulesStrings.2",
+      "visible_cyrillic_candidate": false,
+      "native_shape": "whole_list_item",
+      "native_relative_file": "1.6/Languages/Russian/DefInjected/QuestScriptDef/QuestScripts.xml",
+      "native_value_sha256": "f20bec15052c79069972936027efc20574b0e0f4f843eff77b24a58189419555"
+    },
+    {
+      "key": "DefInjected|QuestScriptDef|BTG_SmugglersDen.root.nodes.Letter.label.slateRef",
+      "visible_cyrillic_candidate": true,
+      "native_shape": "scalar",
+      "native_relative_file": "1.6/Languages/Russian/DefInjected/QuestScriptDef/QuestScripts.xml",
+      "native_value_sha256": "89712243203f50420d1360e2ba44f8c8fed775d43b58aa8ecdd9e37bdfe9e77d"
+    },
+    {
+      "key": "DefInjected|QuestScriptDef|BTG_SmugglersDen.root.nodes.Letter.text.slateRef",
+      "visible_cyrillic_candidate": true,
+      "native_shape": "scalar",
+      "native_relative_file": "1.6/Languages/Russian/DefInjected/QuestScriptDef/QuestScripts.xml",
+      "native_value_sha256": "45b49cca03c0c527fe38b6ddb87d9ac531dab7f2f51a9608c09745d7b4b28fed"
+    },
+    {
+      "key": "DefInjected|QuestScriptDef|BTG_TradeRequest.root.nodes.GiveRewards.nodeIfChosenPawnSignalUsed.label.slateRef",
+      "visible_cyrillic_candidate": false,
+      "native_shape": "scalar",
+      "native_relative_file": "1.6/Languages/Russian/DefInjected/QuestScriptDef/QuestScripts.xml",
+      "native_value_sha256": "64fa63f8a726e644288b889123076b0060ff34d861b479bab05c756c7d9f1b9e"
+    },
+    {
+      "key": "DefInjected|QuestScriptDef|BTG_TradeRequest.root.nodes.GiveRewards.nodeIfChosenPawnSignalUsed.text.slateRef",
+      "visible_cyrillic_candidate": true,
+      "native_shape": "scalar",
+      "native_relative_file": "1.6/Languages/Russian/DefInjected/QuestScriptDef/QuestScripts.xml",
+      "native_value_sha256": "e119ec1a4b33dca59f26271f3e8c21cf10d2b8ae5a4af4bc63dbdc88240a8262"
+    },
+    {
+      "key": "DefInjected|QuestScriptDef|BTG_TradeRequest.root.nodes.Letter.label.slateRef",
+      "visible_cyrillic_candidate": true,
+      "native_shape": "scalar",
+      "native_relative_file": "1.6/Languages/Russian/DefInjected/QuestScriptDef/QuestScripts.xml",
+      "native_value_sha256": "89712243203f50420d1360e2ba44f8c8fed775d43b58aa8ecdd9e37bdfe9e77d"
+    },
+    {
+      "key": "DefInjected|QuestScriptDef|BTG_TradeRequest.root.nodes.Letter.text.slateRef",
+      "visible_cyrillic_candidate": true,
+      "native_shape": "scalar",
+      "native_relative_file": "1.6/Languages/Russian/DefInjected/QuestScriptDef/QuestScripts.xml",
+      "native_value_sha256": "fcf89d0582f8c0419009b6df05f15b3b049319b64281a775706c81dc007fba2f"
+    },
+    {
+      "key": "DefInjected|ThingDef|BTG_CargoVaultHatch.comps.CompHackable.hackedMessage",
+      "visible_cyrillic_candidate": true,
+      "native_shape": "scalar",
+      "native_relative_file": "1.6/Languages/Russian/DefInjected/ThingDef/CargoVault.xml",
+      "native_value_sha256": "fb75bc5eac189e1f764bd9992d010aa79fcda82756662d407177c359e49f7f43"
+    },
+    {
+      "key": "DefInjected|ThingDef|BTG_CargoVaultHatch.comps.CompHackable.notHackedInspectString",
+      "visible_cyrillic_candidate": true,
+      "native_shape": "scalar",
+      "native_relative_file": "1.6/Languages/Russian/DefInjected/ThingDef/CargoVault.xml",
+      "native_value_sha256": "17d2f0bede58fb2d5492c43e6ccaf6ca8b4dd2b7291290df20e042ec4f5bf862"
+    },
+    {
+      "key": "DefInjected|ThingDef|BTG_GuildShuttle.comps.CompLaunchable.cooldownEndedMessage",
+      "visible_cyrillic_candidate": true,
+      "native_shape": "scalar",
+      "native_relative_file": "1.6/Mods/VanillaGravshipExpanded2/Languages/Russian/DefInjected/ThingDef/GuildShuttle_VanillaGravshipExpanded2.xml",
+      "native_value_sha256": "33c1ba7a7e5ab477766bd360b3d93f749ce57cda4d8feed232e712954419bce0"
+    },
+    {
+      "key": "DefInjected|ThingDef|BTG_GuildShuttle.comps.CompRefuelable.fuelGizmoLabel",
+      "visible_cyrillic_candidate": true,
+      "native_shape": "scalar",
+      "native_relative_file": "1.6/Mods/VanillaGravshipExpanded2/Languages/Russian/DefInjected/ThingDef/GuildShuttle_VanillaGravshipExpanded2.xml",
+      "native_value_sha256": "1e576634ca963fedb4fd9a3ae3d6abc62e0172f48b3284d66731e3a5d7aa2d5e"
+    },
+    {
+      "key": "DefInjected|ThingDef|BTG_GuildShuttle.comps.CompRefuelable.fuelLabel",
+      "visible_cyrillic_candidate": true,
+      "native_shape": "scalar",
+      "native_relative_file": "1.6/Mods/VanillaGravshipExpanded2/Languages/Russian/DefInjected/ThingDef/GuildShuttle_VanillaGravshipExpanded2.xml",
+      "native_value_sha256": "1e576634ca963fedb4fd9a3ae3d6abc62e0172f48b3284d66731e3a5d7aa2d5e"
+    },
+    {
+      "key": "DefInjected|ThingDef|BTG_SalvagerDropship.comps.CompLaunchable.cooldownEndedMessage",
+      "visible_cyrillic_candidate": true,
+      "native_shape": "scalar",
+      "native_relative_file": "1.6/Mods/VanillaGravshipExpanded2/Languages/Russian/DefInjected/ThingDef/SalvagerDropship_VanillaGravshipExpanded2.xml",
+      "native_value_sha256": "33c1ba7a7e5ab477766bd360b3d93f749ce57cda4d8feed232e712954419bce0"
+    },
+    {
+      "key": "DefInjected|ThingDef|BTG_SalvagerDropship.comps.CompRefuelable.fuelGizmoLabel",
+      "visible_cyrillic_candidate": true,
+      "native_shape": "scalar",
+      "native_relative_file": "1.6/Mods/VanillaGravshipExpanded2/Languages/Russian/DefInjected/ThingDef/SalvagerDropship_VanillaGravshipExpanded2.xml",
+      "native_value_sha256": "1e576634ca963fedb4fd9a3ae3d6abc62e0172f48b3284d66731e3a5d7aa2d5e"
+    },
+    {
+      "key": "DefInjected|ThingDef|BTG_SalvagerDropship.comps.CompRefuelable.fuelLabel",
+      "visible_cyrillic_candidate": true,
+      "native_shape": "scalar",
+      "native_relative_file": "1.6/Mods/VanillaGravshipExpanded2/Languages/Russian/DefInjected/ThingDef/SalvagerDropship_VanillaGravshipExpanded2.xml",
+      "native_value_sha256": "1e576634ca963fedb4fd9a3ae3d6abc62e0172f48b3284d66731e3a5d7aa2d5e"
+    }
+  ],
+  "source_files": [
+    {
+      "relative_path": "LoadFolders.xml",
+      "installed_sha256": "fd26a8651eea0a61b99f51d607d019e9ef07f1e7ffccaa138d0714023ff5df7b",
+      "source_git_blob_sha": "423bf5957645c70a64711d1cda29ea95515bbdba",
+      "normalized_content_matches_remote": false,
+      "parsed_xml_content_matches_remote": true
+    },
+    {
+      "relative_path": "1.6/Languages/Russian/DefInjected/QuestScriptDef/QuestScripts.xml",
+      "installed_sha256": "a541938a8a11766d2cfe79302b34e56bf89f289aac8a55a2464ed6c9e3249bb7",
+      "source_git_blob_sha": "d46cba10069644c9f1705a0262eed26412a42d2a",
+      "normalized_content_matches_remote": false,
+      "parsed_xml_content_matches_remote": true
+    },
+    {
+      "relative_path": "1.6/Languages/Russian/DefInjected/ThingDef/CargoVault.xml",
+      "installed_sha256": "f20753a84f681d65278cdc52f38f9a0fd539f8323aef808118be4bcc18cbccb6",
+      "source_git_blob_sha": "e110aa5fb0bcfe0b6f56c898e45c17dc341f5ec4",
+      "normalized_content_matches_remote": false,
+      "parsed_xml_content_matches_remote": true
+    },
+    {
+      "relative_path": "1.6/Mods/VanillaGravshipExpanded2/Languages/Russian/DefInjected/ThingDef/GuildShuttle_VanillaGravshipExpanded2.xml",
+      "installed_sha256": "324aecd2cfdbf084e6a3b39e696f251bdad216c1cd129425e29e1016f22b2b37",
+      "source_git_blob_sha": "34da6598143f58b0685b9d7750ccb892751df63e",
+      "normalized_content_matches_remote": false,
+      "parsed_xml_content_matches_remote": true
+    },
+    {
+      "relative_path": "1.6/Mods/VanillaGravshipExpanded2/Languages/Russian/DefInjected/ThingDef/SalvagerDropship_VanillaGravshipExpanded2.xml",
+      "installed_sha256": "74b6b7688a26f705e36e76976b13feb5d666e7a86ffe0af627325aba868256b5",
+      "source_git_blob_sha": "da773e28cdccf146fb40ae93eb88f8535e8fd4cd",
+      "normalized_content_matches_remote": false,
+      "parsed_xml_content_matches_remote": true
+    }
+  ],
+  "owned_wrapper": {
+    "alias": "local.russian.project.shunter.bettertradersguild",
+    "files_sha256": {
+      "CREDITS.txt": "3694cba1b30c5ad837520b4a3a0e9f2db71ea66b07a351c500d60c0408c2ca60",
+      "localization-project-manifest.json": "492850c0933edfb526fa8804b8245a03274067657818199d4e1ef5c8128ba5db",
+      "About/About.xml": "4ebcfeddaa5812fbc81acacf63619abd081ddd53c5fbcebfe87606ad948dded1"
+    },
+    "generated_rows": 0,
+    "language_files": 0,
+    "assembly_files": 0,
+    "patch_files": 0,
+    "about_references_from_other_installed_mods": []
+  },
+  "shared_runtime": {
+    "package_id": "local.russian.runtime.qa4990d28",
+    "method_entries": 98,
+    "btg_or_alias_entries": 0,
+    "dll_sha256": "a3abc65f3227e5b403a0d09137b089b439c7cb2de9d6a4954653325b26591050",
+    "dll_matches_historical_frozen_backend": true,
+    "absent_literal_probes": [
+      "local.russian.project.",
+      "localization-project-manifest.json",
+      "shunter.bettertradersguild",
+      "LocalRussian.shunter.bettertradersguild"
+    ],
+    "reviewed_source_files": [
+      "architecture/RuntimeLocalizer.cs",
+      "architecture/RuntimeLocalizerNext4.cs"
+    ],
+    "reviewed_next4_source_sha256": "8bde4e3857c0a7466d7d1b5d1c736fe6d68bf33889fb2bb2defb318f0d8a736e",
+    "source_hash_matches_historical_input_record": true,
+    "source_input_record": "architecture/next5-input-hashes.json",
+    "backend_unchanged_across_historical_freezes": [
+      "runtime-next4-freeze.json",
+      "runtime-next5-freeze.json",
+      "runtime-next6-freeze.json",
+      "runtime-next7-freeze.json",
+      "runtime-next8-freeze.json",
+      "runtime-next9-freeze.json",
+      "runtime-next10-freeze.json"
+    ],
+    "source_behavior": "Startup line14 reads only its own RuntimeTranslations.xml. FindAssembly lines44-46 resolves declared original package assemblies. InstallTo lines51-61 iterates only Method entries and explicit assembly dependencies. It does not read localization-project-manifest.json or wrapper rows. Runtime report output is the only directory operation in that source.",
+    "compiled_il_control_flow_verified": false,
+    "inspection_limit": "Read-only metadata inspector timed out after45seconds; no compiled-IL or game result is claimed. Source/input/frozen-backend correspondence is recorded, not an independent reproducible-build attestation."
+  },
+  "assessment": "The owned wrapper contributes zero payload and is not an observed metadata/runtime dependency. Root may archive only this empty wrapper and remove only its alias after backing up the current profile. Original mod and shared runtime remain outside that scope.",
+  "original_native_authorship_claimed": false,
+  "new_author_contact_sent": false,
+  "game_test_performed_this_check": false,
+  "profile_or_installed_files_modified": false
+}

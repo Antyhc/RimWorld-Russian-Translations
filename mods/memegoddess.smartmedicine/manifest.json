@@ -72,7 +72,11 @@
     "original_native_accepted": false,
     "entries_submitted": 7,
     "fresh_game_test_claimed": false,
-    "response_evidence": "community/outreach-2026-11-06.json"
+    "response_evidence": "community/outreach-2026-11-06.json",
+    "checked_at": "2026-11-07 16:53:25 UTC",
+    "mergeable": true,
+    "human_change_request_pending": false,
+    "latest_status_evidence": "community/author-status-2026-11-07.json"
   },
   "original": {
     "author": "Uuugggg",

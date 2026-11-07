@@ -28,7 +28,7 @@
     "original_art_used": false,
     "sha256": "1e0d06c154f626c71899277e16cd6c50ccdfb8b5eae7c5a901c72b4fb2ba665b"
   },
-  "website_blocker": "Owner SDK confirmed private visibility (2) on 6 November. Browser management is unavailable in this session and public website requests returned HTTP 429.",
+  "website_blocker": "Owner SDK confirms private visibility2 on7November; browser management is unavailable because the Windows browser URL policy is unsupported.",
   "website_checked_at": "2026-10-30T10:04:54.337145+00:00",
   "legacy_unpublished_native_draft": {
     "workshop_id": "3828791160",
@@ -36,8 +36,8 @@
     "retained_without_deletion": true,
     "superseded_reason": "Native-created draft had incorrect web-collection creation context and failed owner web save; replaced through the official web wizard. No duplicate public collection or translation items created."
   },
-  "membership_checked_at": "2026-11-06T17:49:16.282946+00:00",
-  "membership_evidence": "community/release-status-2026-11-06.json",
+  "membership_checked_at": "2026-11-07T17:21:43.207482+00:00",
+  "membership_evidence": "community/workshop-state-2026-11-07.json",
   "currently_unavailable_member_ids": [
     "3830078437"
   ]

@@ -1,0 +1,24 @@
+{
+  "checked_date": "2026-11-07",
+  "workshop_id": "3226197754",
+  "supported_versions": [
+    "1.4",
+    "1.5"
+  ],
+  "contains_dll": false,
+  "wvc_mechswork_fields_present": false,
+  "language_key_count": 119,
+  "all_files_sha256": {
+    "About/About.xml": "e47c5f696bbf33697ebdfb143bdfee064dbf0e71f2e79247f5dd64f5145f7b72",
+    "About/ModIcon.png": "0e1eb903a98ebd9379aaee60b8373ba3bdc339c48009e66e7c4a39a46a271b4e",
+    "About/preview.png": "37cb6fa35d919f64846886d6563cc0a667a179eb19ad9fcff5dec7e646b3ab11",
+    "About/PublishedFileId.txt": "7fdc542dbe430a409632b21da2f796bd2bf5fdf46214f6aa5db093d782a3450e",
+    "Languages/Russian/Keyed/Misc_Gameplay.xml": "7c0401ea5b794378c9b99b19c1a56158d42da55786a3061a78767afeabfae3c7",
+    "Languages/Russian/Keyed/Settings.xml": "1dc74384b31f7548ba0468f87e2b25e7cb340bfa5653639c53332c4cb8415eef",
+    "Languages/Russian/DefInjected/ConceptDef/ConceptDefs.xml": "449972551ee1ae0287725ad6b4e2bebc4b30900f405dfb984d0fcbe372426376",
+    "Languages/Russian/DefInjected/MechWorkModeDef/MechWorkModeDefs.xml": "ab094e1d2a1faed2204166efd13a38f0cf32d36fa49688a9f11768b45ada23ed",
+    "Languages/Russian/DefInjected/ResearchProjectDef/ResearchProjectDefs_WorkModes.xml": "1a3ad8a71b7e30e8c14cbf60e069146a069a614eae44a35534378be3e5c7cba8",
+    "Languages/Russian/DefInjected/ResearchTabDef/BasicWVC_ResearchTabs.xml": "e1f80ad4fa238b8141b84ffd09ef18ce3ea5c9b117ac9475b4249adebf3c1f07"
+  },
+  "scope": "Complete inspected XML/no DLL: no MainButtonDef language keys or XML patch for either selected WVC_MechsWork field. Not loaded into1.7 candidate test and no compatibility claim."
+}

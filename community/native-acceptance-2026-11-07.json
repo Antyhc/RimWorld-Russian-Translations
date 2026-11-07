@@ -1,0 +1,811 @@
+{
+  "schema": 1,
+  "checked_date": "2026-11-07",
+  "records": [
+    {
+      "package_id": "wvc.sergkart.biotech.moremechanoidsworkmodes",
+      "original_workshop_id": "2888380373",
+      "repository": "WVCSergkart/MoreMechanoidsWorkModes",
+      "source_commit": "3111581a6d12930d4066013f7a7fa7961ced7b2c",
+      "proposed_entries": 21,
+      "remote_matched": 21,
+      "installed_matched": 21,
+      "remote_russian_blobs": [
+        {
+          "path": "1.7/Languages/Russian/Keyed/AdditionalRussian.xml",
+          "sha": "7e8eb453aae2853e5b15c4fe90ee98c5ae62aa95"
+        },
+        {
+          "path": "1.7/Languages/Russian/DefInjected/ConceptDef/AdditionalRussian.xml",
+          "sha": "fabad621e9a9fbb4ef0584d1a483faa53dea4f46"
+        },
+        {
+          "path": "1.7/Languages/Russian/DefInjected/RoomRoleDef/AdditionalRussian.xml",
+          "sha": "e7ba69ca4927159ba77637d3d382cf4d2f4b4e6f"
+        }
+      ],
+      "installed_russian_file_hashes": {
+        "1.7/Languages/Russian/Keyed/AdditionalRussian.xml": "c3b2aff10606f73517daabd1d238d286b79a309f96b26ddc6f5f7cf33775bc88",
+        "1.7/Languages/Russian/DefInjected/ConceptDef/AdditionalRussian.xml": "5d568a48626670ce3a8ac927ed80a75494a2f05379f73cbe46af3815a8c767b1",
+        "1.7/Languages/Russian/DefInjected/RoomRoleDef/AdditionalRussian.xml": "b71643f25c09cd3c9286b4caf94716aa5e080b703e2c8b4b97daa475f5a9d2d7"
+      },
+      "entries": [
+        {
+          "key": "DefInjected|ConceptDef|WVC_MMWM_BehaviorsGuide.description",
+          "remote_present": true,
+          "remote_matches_proposed_text": true,
+          "installed_present": true,
+          "installed_matches_proposed_text": true,
+          "proposed_value_sha256": "8709a59536ede09461c28aea82ca46929f8aac04f220e36f17935aa80db41474"
+        },
+        {
+          "key": "DefInjected|ConceptDef|WVC_MMWM_BehaviorsGuide.helpText",
+          "remote_present": true,
+          "remote_matches_proposed_text": true,
+          "installed_present": true,
+          "installed_matches_proposed_text": true,
+          "proposed_value_sha256": "4dae3582ba266485f522cf7f462276a7eb209cac87d2eaa829972fe6d4856609"
+        },
+        {
+          "key": "DefInjected|ConceptDef|WVC_MMWM_BehaviorsGuide.label",
+          "remote_present": true,
+          "remote_matches_proposed_text": true,
+          "installed_present": true,
+          "installed_matches_proposed_text": true,
+          "proposed_value_sha256": "35d472f13ca6293a77beef19b236a483b44a8704bdba119a82ba785e958c1584"
+        },
+        {
+          "key": "DefInjected|RoomRoleDef|WVC_MechHangar.label",
+          "remote_present": true,
+          "remote_matches_proposed_text": true,
+          "installed_present": true,
+          "installed_matches_proposed_text": true,
+          "proposed_value_sha256": "d1e4cec1d526bcdcb2ad867bb1bdcfd1f8429881a44ab8ff1f57f111f332a819"
+        },
+        {
+          "key": "Keyed|WVC_Label_RechargeAndShutdown",
+          "remote_present": true,
+          "remote_matches_proposed_text": true,
+          "installed_present": true,
+          "installed_matches_proposed_text": true,
+          "proposed_value_sha256": "06e769abe12539bfdd7d8cf8639da2ca9763266970b70b2445215450e049ba00"
+        },
+        {
+          "key": "Keyed|WVC_Label_enableMechsWorkTab",
+          "remote_present": true,
+          "remote_matches_proposed_text": true,
+          "installed_present": true,
+          "installed_matches_proposed_text": true,
+          "proposed_value_sha256": "f7ad36bcb5206f3f7505522c156ac331a67ed9f7af6c739992d6b5a6ee97dcf1"
+        },
+        {
+          "key": "Keyed|WVC_Label_enableOpportunisticChargers",
+          "remote_present": true,
+          "remote_matches_proposed_text": true,
+          "installed_present": true,
+          "installed_matches_proposed_text": true,
+          "proposed_value_sha256": "6618a4ad35a3fe4f472027d99da8053572e419cc7914c4603561c10bfd7e2430"
+        },
+        {
+          "key": "Keyed|WVC_Label_enable_GoToShutdownRoomJob",
+          "remote_present": true,
+          "remote_matches_proposed_text": true,
+          "installed_present": true,
+          "installed_matches_proposed_text": true,
+          "proposed_value_sha256": "674ebbc3c7caddaac1819ae61bb512c756f863080fe0ca550b92c329b57c1d67"
+        },
+        {
+          "key": "Keyed|WVC_Label_hideMechsWorkTab",
+          "remote_present": true,
+          "remote_matches_proposed_text": true,
+          "installed_present": true,
+          "installed_matches_proposed_text": true,
+          "proposed_value_sha256": "e358c5db42eb16e1354a30988e9e6a82bd626c88ae6635138fd946b171c11eff"
+        },
+        {
+          "key": "Keyed|WVC_ToolTip_enableMechsWorkTab",
+          "remote_present": true,
+          "remote_matches_proposed_text": true,
+          "installed_present": true,
+          "installed_matches_proposed_text": true,
+          "proposed_value_sha256": "f0dc040d9550c33cbc843fe71e87344efab54d93a5620dd01db8a95cff9a3b90"
+        },
+        {
+          "key": "Keyed|WVC_ToolTip_enableOpportunisticChargers",
+          "remote_present": true,
+          "remote_matches_proposed_text": true,
+          "installed_present": true,
+          "installed_matches_proposed_text": true,
+          "proposed_value_sha256": "dffc443f3d15eb293545c12436bb032067f2d9890597a1ad0c05a62b9cf683ac"
+        },
+        {
+          "key": "Keyed|WVC_ToolTip_enable_GoToShutdownRoomJob",
+          "remote_present": true,
+          "remote_matches_proposed_text": true,
+          "installed_present": true,
+          "installed_matches_proposed_text": true,
+          "proposed_value_sha256": "11b6f610667296f68fdfe0d6459737079878225aa71b26dc1b23fc3261b2943a"
+        },
+        {
+          "key": "Keyed|WVC_ToolTip_hideMechsWorkTab",
+          "remote_present": true,
+          "remote_matches_proposed_text": true,
+          "installed_present": true,
+          "installed_matches_proposed_text": true,
+          "proposed_value_sha256": "0117d1e85f870681d4fd89e26a784641aad0d4d56d3310e0060ef5dd165222ce"
+        },
+        {
+          "key": "Keyed|WVC_WM_Label_enableAutoRepairByDefault",
+          "remote_present": true,
+          "remote_matches_proposed_text": true,
+          "installed_present": true,
+          "installed_matches_proposed_text": true,
+          "proposed_value_sha256": "776ed1fa44417fabea790158f2259ae9387c705f384591dd12aabe346756e496"
+        },
+        {
+          "key": "Keyed|WVC_WM_ShutdownGroup",
+          "remote_present": true,
+          "remote_matches_proposed_text": true,
+          "installed_present": true,
+          "installed_matches_proposed_text": true,
+          "proposed_value_sha256": "e7b0f672bd89804f485b89f813edac6ea16b7f20159be9effe8edfab112b2a33"
+        },
+        {
+          "key": "Keyed|WVC_WM_ToolTip_enableAutoRepairByDefault",
+          "remote_present": true,
+          "remote_matches_proposed_text": true,
+          "installed_present": true,
+          "installed_matches_proposed_text": true,
+          "proposed_value_sha256": "00171211950f4f3ad097b3ac4ae4e8b96d28d8b9bbab113953e85692ec5d77df"
+        },
+        {
+          "key": "Keyed|WVC_WorkModes_AllowShutdownDesc",
+          "remote_present": true,
+          "remote_matches_proposed_text": true,
+          "installed_present": true,
+          "installed_matches_proposed_text": true,
+          "proposed_value_sha256": "7049bd398ba52a3cdf303e7b6a3eee31ab61d0eb15257c2c4a6ad277f031f8c1"
+        },
+        {
+          "key": "Keyed|WVC_WorkModes_AllowShutdownLabel",
+          "remote_present": true,
+          "remote_matches_proposed_text": true,
+          "installed_present": true,
+          "installed_matches_proposed_text": true,
+          "proposed_value_sha256": "9e73ae2a84c1e72c0192bf1a8ca2912697b446e20386be887da28c3bf7e0e38b"
+        },
+        {
+          "key": "Keyed|WVC_WorkModes_EnemyCheckDelay",
+          "remote_present": true,
+          "remote_matches_proposed_text": true,
+          "installed_present": true,
+          "installed_matches_proposed_text": true,
+          "proposed_value_sha256": "5e06716bc66f84046db26e635045f4593602e290403af03bc58d1e5f9962ea33"
+        },
+        {
+          "key": "Keyed|WVC_WorkModes_EnemyCheckDelayDesc",
+          "remote_present": true,
+          "remote_matches_proposed_text": true,
+          "installed_present": true,
+          "installed_matches_proposed_text": true,
+          "proposed_value_sha256": "9261d03eed8ed991b2e4de03d62d94e61d4687d378ff38c5b5dcb7b58b7bf528"
+        },
+        {
+          "key": "Keyed|WVC_WorkModes_GroupIsChosen",
+          "remote_present": true,
+          "remote_matches_proposed_text": true,
+          "installed_present": true,
+          "installed_matches_proposed_text": true,
+          "proposed_value_sha256": "29c1e2f796733dc44ef0aaddb98ed11278f640be34703432d5a9ff2dbe72c2fb"
+        }
+      ],
+      "scope": "Static current-source comparison only. No new game test, Steam SDK update-state check or full-mod replacement claim.",
+      "published_entries": 23,
+      "published_entries_still_missing_in_original": [
+        "DefInjected|MainButtonDef|WVC_MechsWork.description",
+        "DefInjected|MainButtonDef|WVC_MechsWork.label"
+      ],
+      "complete_replacement": false,
+      "retention_reason": "The two work-tab MainButtonDef fields remain English and unprovided in the original Russian. Its 1.7/Odyssey root loads when Harmony is active; retain the existing standalone release until those are resolved."
+    },
+    {
+      "package_id": "m00nl1ght.mappreview",
+      "original_workshop_id": "2800857642",
+      "repository": "m00nl1ght-dev/MapPreview",
+      "source_commit": "2daa91eab7642382c895cfabae1db57d72ea33e1",
+      "proposed_entries": 71,
+      "remote_matched": 71,
+      "installed_matched": 71,
+      "remote_russian_blobs": [
+        {
+          "path": "1.7/Languages/Russian/Keyed/Keys.xml",
+          "sha": "faffa51eaf303a16f17b553a94fdd1fd69c1305d"
+        },
+        {
+          "path": "1.7/Languages/Russian/Keyed/HugsLogPublisher.xml",
+          "sha": "37d22269f885ebad537d69d97ec1d03e4e4e8411"
+        }
+      ],
+      "installed_russian_file_hashes": {
+        "1.7/Languages/Russian/Keyed/HugsLogPublisher.xml": "f924b9d3901c28cc5191420cd418ef341bfdd7fdb2126f3272cc72426a3ad63d",
+        "1.7/Languages/Russian/Keyed/Keys.xml": "58db2b70b7eed84d1e150ce244a77ba903d2e318401064aa15e218cba7c896ad"
+      },
+      "entries": [
+        {
+          "key": "Keyed|HugsLogPublisher.abortBtn",
+          "remote_present": true,
+          "remote_matches_proposed_text": true,
+          "installed_present": true,
+          "installed_matches_proposed_text": true,
+          "proposed_value_sha256": "0343402ba682c036f287e11de671105e75482aca95c44856a0d620ad89a6ac63"
+        },
+        {
+          "key": "Keyed|HugsLogPublisher.browseBtn",
+          "remote_present": true,
+          "remote_matches_proposed_text": true,
+          "installed_present": true,
+          "installed_matches_proposed_text": true,
+          "proposed_value_sha256": "5a07ca917db2234d62406aacfdf16c0eb2dfe96a456cede2988609dbdcc8486d"
+        },
+        {
+          "key": "Keyed|HugsLogPublisher.copiedToClipboard",
+          "remote_present": true,
+          "remote_matches_proposed_text": true,
+          "installed_present": true,
+          "installed_matches_proposed_text": true,
+          "proposed_value_sha256": "e4309c7b009d5acb9b68574907d2c8299fc4c36c9b4596368a37e126ec1a0495"
+        },
+        {
+          "key": "Keyed|HugsLogPublisher.copy",
+          "remote_present": true,
+          "remote_matches_proposed_text": true,
+          "installed_present": true,
+          "installed_matches_proposed_text": true,
+          "proposed_value_sha256": "1ecddf40bfeb28abd0d0b91781aec11c64a25f66eeeecca9c236530dd2006d4a"
+        },
+        {
+          "key": "Keyed|HugsLogPublisher.filesBtn",
+          "remote_present": true,
+          "remote_matches_proposed_text": true,
+          "installed_present": true,
+          "installed_matches_proposed_text": true,
+          "proposed_value_sha256": "9088ca9c0de94ffd9b2e52326230c834b0baa334dd7ebfbb3ece523ca25ea897"
+        },
+        {
+          "key": "Keyed|HugsLogPublisher.openLogFile",
+          "remote_present": true,
+          "remote_matches_proposed_text": true,
+          "installed_present": true,
+          "installed_matches_proposed_text": true,
+          "proposed_value_sha256": "bd94dca8276665ff5e643fc0b467dcd8dba59a69f16688922bec8416004cb488"
+        },
+        {
+          "key": "Keyed|HugsLogPublisher.openModsDir",
+          "remote_present": true,
+          "remote_matches_proposed_text": true,
+          "installed_present": true,
+          "installed_matches_proposed_text": true,
+          "proposed_value_sha256": "7e16231a83d8b2377f1ae4d9a2f9b8fc8c884e47c5f4aeee800eeef1cd379da2"
+        },
+        {
+          "key": "Keyed|HugsLogPublisher.openSaveDir",
+          "remote_present": true,
+          "remote_matches_proposed_text": true,
+          "installed_present": true,
+          "installed_matches_proposed_text": true,
+          "proposed_value_sha256": "21ba3d5fc5535c0c659f51857020cfaf88736d1da13592787fd0687a8d45a39f"
+        },
+        {
+          "key": "Keyed|HugsLogPublisher.platformInfo",
+          "remote_present": true,
+          "remote_matches_proposed_text": true,
+          "installed_present": true,
+          "installed_matches_proposed_text": true,
+          "proposed_value_sha256": "e4700be745b54c976d589ef64eb0559958bdcfcf287d4c34d9d7ed4d053faca9"
+        },
+        {
+          "key": "Keyed|HugsLogPublisher.platformInfo_tip",
+          "remote_present": true,
+          "remote_matches_proposed_text": true,
+          "installed_present": true,
+          "installed_matches_proposed_text": true,
+          "proposed_value_sha256": "c21f9dffd289a61e192a9582cd85ff630d22bed679b7298684c4d83357e28af5"
+        },
+        {
+          "key": "Keyed|HugsLogPublisher.publisherTitle",
+          "remote_present": true,
+          "remote_matches_proposed_text": true,
+          "installed_present": true,
+          "installed_matches_proposed_text": true,
+          "proposed_value_sha256": "ade81a36167ed6d8d15f2f9d0e3cc7f339ce2be6736613d4400097cbbe7153be"
+        },
+        {
+          "key": "Keyed|HugsLogPublisher.retryBtn",
+          "remote_present": true,
+          "remote_matches_proposed_text": true,
+          "installed_present": true,
+          "installed_matches_proposed_text": true,
+          "proposed_value_sha256": "5189135a6110bd31b69bbcb3487109995252165ac7ee7da59ead9d789f690248"
+        },
+        {
+          "key": "Keyed|HugsLogPublisher.shareBtn",
+          "remote_present": true,
+          "remote_matches_proposed_text": true,
+          "installed_present": true,
+          "installed_matches_proposed_text": true,
+          "proposed_value_sha256": "6db257ad2bf388d911b7490150542af726c0bdb0eecbd8c153955fe2b7aaa3b5"
+        },
+        {
+          "key": "Keyed|HugsLogPublisher.shareConfirmMessage",
+          "remote_present": true,
+          "remote_matches_proposed_text": true,
+          "installed_present": true,
+          "installed_matches_proposed_text": true,
+          "proposed_value_sha256": "80e225893fec56c6b75be10348047b399afc04926ed0caf0d9aee553e09f42dd"
+        },
+        {
+          "key": "Keyed|HugsLogPublisher.shareConfirmTitle",
+          "remote_present": true,
+          "remote_matches_proposed_text": true,
+          "installed_present": true,
+          "installed_matches_proposed_text": true,
+          "proposed_value_sha256": "8fe12b16bfd7e552f5a0783af31b90ccd4fbd6e2ee2df73e1ce2c6a0d0034ee3"
+        },
+        {
+          "key": "Keyed|HugsLogPublisher.shortUrls",
+          "remote_present": true,
+          "remote_matches_proposed_text": true,
+          "installed_present": true,
+          "installed_matches_proposed_text": true,
+          "proposed_value_sha256": "d409452121b743730b4101667d470f2bc8ee69603184ca173e976056d58518dc"
+        },
+        {
+          "key": "Keyed|HugsLogPublisher.shortUrls_tip",
+          "remote_present": true,
+          "remote_matches_proposed_text": true,
+          "installed_present": true,
+          "installed_matches_proposed_text": true,
+          "proposed_value_sha256": "c8edeb28afef00b07be46ad4a94cdb606ecf54627b7e1191c66bfdedd3c6c975"
+        },
+        {
+          "key": "Keyed|HugsLogPublisher.shortening",
+          "remote_present": true,
+          "remote_matches_proposed_text": true,
+          "installed_present": true,
+          "installed_matches_proposed_text": true,
+          "proposed_value_sha256": "6ac503fe25fc0a30a8230e5cc4b00f08a33bac397011f748953982f39b46b67e"
+        },
+        {
+          "key": "Keyed|HugsLogPublisher.toClipboardBtn",
+          "remote_present": true,
+          "remote_matches_proposed_text": true,
+          "installed_present": true,
+          "installed_matches_proposed_text": true,
+          "proposed_value_sha256": "7a4e1f6d5490925a9f16e40679f321c9715cd9d553e48b2dd35750c22351d7ec"
+        },
+        {
+          "key": "Keyed|HugsLogPublisher.unlimitedLogSize",
+          "remote_present": true,
+          "remote_matches_proposed_text": true,
+          "installed_present": true,
+          "installed_matches_proposed_text": true,
+          "proposed_value_sha256": "162f37d58a5f04a89f313632391e200292620b6f0e2ed2efe93870e15014060c"
+        },
+        {
+          "key": "Keyed|HugsLogPublisher.unlimitedLogSize_tip",
+          "remote_present": true,
+          "remote_matches_proposed_text": true,
+          "installed_present": true,
+          "installed_matches_proposed_text": true,
+          "proposed_value_sha256": "8a95ba4c3644500e2c8a102e6bf24d875180c91af67f99e1debdbd006eb9509e"
+        },
+        {
+          "key": "Keyed|HugsLogPublisher.uploadBtn",
+          "remote_present": true,
+          "remote_matches_proposed_text": true,
+          "installed_present": true,
+          "installed_matches_proposed_text": true,
+          "proposed_value_sha256": "9053d64435f1e2f96a965fe1d567cff0592216bd42677419a101f7485e35044c"
+        },
+        {
+          "key": "Keyed|HugsLogPublisher.uploadError",
+          "remote_present": true,
+          "remote_matches_proposed_text": true,
+          "installed_present": true,
+          "installed_matches_proposed_text": true,
+          "proposed_value_sha256": "2620e3276278647b0f98c4fa138df48a2ac642bd0a5b12de845b48180b4e68d8"
+        },
+        {
+          "key": "Keyed|HugsLogPublisher.uploaded",
+          "remote_present": true,
+          "remote_matches_proposed_text": true,
+          "installed_present": true,
+          "installed_matches_proposed_text": true,
+          "proposed_value_sha256": "0cb2a2a2c29f2b603c9a6ff00c563b9902af72c8fe90df6c55d62cb28699bc87"
+        },
+        {
+          "key": "Keyed|HugsLogPublisher.uploading",
+          "remote_present": true,
+          "remote_matches_proposed_text": true,
+          "installed_present": true,
+          "installed_matches_proposed_text": true,
+          "proposed_value_sha256": "147fdcf344b2c6a2caf48e5a8d206cd7fa09f2d560562c813af07eb5d2d0e56f"
+        },
+        {
+          "key": "Keyed|HugsLogPublisher.useRecommendedSettings",
+          "remote_present": true,
+          "remote_matches_proposed_text": true,
+          "installed_present": true,
+          "installed_matches_proposed_text": true,
+          "proposed_value_sha256": "a91cfba52e58205adf23271bc118e5b64a7363cff1c3b4aa9af92828de10f40f"
+        },
+        {
+          "key": "Keyed|MapPreview.Integration.LandformSettings.Enabled",
+          "remote_present": true,
+          "remote_matches_proposed_text": true,
+          "installed_present": true,
+          "installed_matches_proposed_text": true,
+          "proposed_value_sha256": "fd04c8f54230defa10e81c2af09efcafc8e67055489bab8a182828c4106ea97c"
+        },
+        {
+          "key": "Keyed|MapPreview.Integration.LandformSettings.Open",
+          "remote_present": true,
+          "remote_matches_proposed_text": true,
+          "installed_present": true,
+          "installed_matches_proposed_text": true,
+          "proposed_value_sha256": "84157e85babc42304e84c2c10307268446a8209791358786892e1e585b236517"
+        },
+        {
+          "key": "Keyed|MapPreview.Integration.MapDesigner.Enabled",
+          "remote_present": true,
+          "remote_matches_proposed_text": true,
+          "installed_present": true,
+          "installed_matches_proposed_text": true,
+          "proposed_value_sha256": "d7307be9331e0cc9ea5654c83df76173160abf4e3d2ff2a68c7b610f6c36474a"
+        },
+        {
+          "key": "Keyed|MapPreview.Integration.MapDesigner.OpenSettings",
+          "remote_present": true,
+          "remote_matches_proposed_text": true,
+          "installed_present": true,
+          "installed_matches_proposed_text": true,
+          "proposed_value_sha256": "89b545bd1e14d4214f52e651f42e905e195a4c98a252bbc543565be1c59615a7"
+        },
+        {
+          "key": "Keyed|MapPreview.Integration.MapDesigner.UnavailableForTile",
+          "remote_present": true,
+          "remote_matches_proposed_text": true,
+          "installed_present": true,
+          "installed_matches_proposed_text": true,
+          "proposed_value_sha256": "5fe9054437ee276806b977afdc3077d8a5f6e5a2316b85a27b8eccac3992240c"
+        },
+        {
+          "key": "Keyed|MapPreview.Integration.PrepareLanding.Enabled",
+          "remote_present": true,
+          "remote_matches_proposed_text": true,
+          "installed_present": true,
+          "installed_matches_proposed_text": true,
+          "proposed_value_sha256": "3ab9f1f77e536da12ede6cd101e767c536ea0e04e777fe939c5428c981c318aa"
+        },
+        {
+          "key": "Keyed|MapPreview.Integration.PrepareLanding.Open",
+          "remote_present": true,
+          "remote_matches_proposed_text": true,
+          "installed_present": true,
+          "installed_matches_proposed_text": true,
+          "proposed_value_sha256": "af42dcbb66ccf134c7ea6563e83edda38ae41b3eb959382f4154449175ceb6ce"
+        },
+        {
+          "key": "Keyed|MapPreview.Integration.WorldEdit.Enabled",
+          "remote_present": true,
+          "remote_matches_proposed_text": true,
+          "installed_present": true,
+          "installed_matches_proposed_text": true,
+          "proposed_value_sha256": "836713873e1a59e0e5169b51224f5ce46f5ee51fe429b78ad652b7bb8645fa9d"
+        },
+        {
+          "key": "Keyed|MapPreview.Integration.WorldEdit.Open",
+          "remote_present": true,
+          "remote_matches_proposed_text": true,
+          "installed_present": true,
+          "installed_matches_proposed_text": true,
+          "proposed_value_sha256": "71469058305355ed5c2f85c1384064b0abed54b3439bdea82c60e20a542c62be"
+        },
+        {
+          "key": "Keyed|MapPreview.PreviewGenerationFailed",
+          "remote_present": true,
+          "remote_matches_proposed_text": true,
+          "installed_present": true,
+          "installed_matches_proposed_text": true,
+          "proposed_value_sha256": "7fac711fd0bf75b2b2a897026604c614d5eecaedbd8d3c29f0a07cda68b2871b"
+        },
+        {
+          "key": "Keyed|MapPreview.Settings.AutoOpenPreviewOnWorldMap",
+          "remote_present": true,
+          "remote_matches_proposed_text": true,
+          "installed_present": true,
+          "installed_matches_proposed_text": true,
+          "proposed_value_sha256": "b00407fa0db1ce82d210443d7926ccf3b92f3b5322184054298231e723778206"
+        },
+        {
+          "key": "Keyed|MapPreview.Settings.CompatibilityMode",
+          "remote_present": true,
+          "remote_matches_proposed_text": true,
+          "installed_present": true,
+          "installed_matches_proposed_text": true,
+          "proposed_value_sha256": "1208a19045abb18f120bd13f87a218e3a74264136253020b9fcc4ba49d334a88"
+        },
+        {
+          "key": "Keyed|MapPreview.Settings.EnableMapPreviewHeader",
+          "remote_present": true,
+          "remote_matches_proposed_text": true,
+          "installed_present": true,
+          "installed_matches_proposed_text": true,
+          "proposed_value_sha256": "d874615ffc1336bab9488a36626f3df59dbb7bf382132618f02d19b6a186cf62"
+        },
+        {
+          "key": "Keyed|MapPreview.Settings.EnableMapPreviewInEntry",
+          "remote_present": true,
+          "remote_matches_proposed_text": true,
+          "installed_present": true,
+          "installed_matches_proposed_text": true,
+          "proposed_value_sha256": "cc415e07b75d23acf584c361672ecb6871c607753f92300ac37020f12e912bfa"
+        },
+        {
+          "key": "Keyed|MapPreview.Settings.EnableMapPreviewInPlay",
+          "remote_present": true,
+          "remote_matches_proposed_text": true,
+          "installed_present": true,
+          "installed_matches_proposed_text": true,
+          "proposed_value_sha256": "1ade8306b1359f8e36e298a0a28f5fb92636ebb1c114f4b3f7bd43020b4f6216"
+        },
+        {
+          "key": "Keyed|MapPreview.Settings.EnablePreviewAnimations",
+          "remote_present": true,
+          "remote_matches_proposed_text": true,
+          "installed_present": true,
+          "installed_matches_proposed_text": true,
+          "proposed_value_sha256": "537c3549eea7331a1b2de3a7fab4247f08f1cb722fe0c345379d9167ae8005c8"
+        },
+        {
+          "key": "Keyed|MapPreview.Settings.EnableSeedRerollFeature",
+          "remote_present": true,
+          "remote_matches_proposed_text": true,
+          "installed_present": true,
+          "installed_matches_proposed_text": true,
+          "proposed_value_sha256": "d0d5f978bbaab8da8c595a527acb8c2dad7c76c3a801c98cc66a265c5a46c6d7"
+        },
+        {
+          "key": "Keyed|MapPreview.Settings.EnableSeedRerollFeature.MapRerollConflict",
+          "remote_present": true,
+          "remote_matches_proposed_text": true,
+          "installed_present": true,
+          "installed_matches_proposed_text": true,
+          "proposed_value_sha256": "e582a2fc08b497258b9b66082b55a914a1743d7ee92d5eaf2e3b7ac94e1736d4"
+        },
+        {
+          "key": "Keyed|MapPreview.Settings.EnableSeedRerollWindow",
+          "remote_present": true,
+          "remote_matches_proposed_text": true,
+          "installed_present": true,
+          "installed_matches_proposed_text": true,
+          "proposed_value_sha256": "8312dbf4396c4a7da11e7b10d85fc1e36eb8feaba99280b1c9b154b2963276dd"
+        },
+        {
+          "key": "Keyed|MapPreview.Settings.EnableToolbarHeader",
+          "remote_present": true,
+          "remote_matches_proposed_text": true,
+          "installed_present": true,
+          "installed_matches_proposed_text": true,
+          "proposed_value_sha256": "70548ee81ae719d1cd4935087836a2327c2dd1234052ebb65f080d34bc73edb0"
+        },
+        {
+          "key": "Keyed|MapPreview.Settings.EnableToolbarInEntry",
+          "remote_present": true,
+          "remote_matches_proposed_text": true,
+          "installed_present": true,
+          "installed_matches_proposed_text": true,
+          "proposed_value_sha256": "cc415e07b75d23acf584c361672ecb6871c607753f92300ac37020f12e912bfa"
+        },
+        {
+          "key": "Keyed|MapPreview.Settings.EnableToolbarInPlay",
+          "remote_present": true,
+          "remote_matches_proposed_text": true,
+          "installed_present": true,
+          "installed_matches_proposed_text": true,
+          "proposed_value_sha256": "1ade8306b1359f8e36e298a0a28f5fb92636ebb1c114f4b3f7bd43020b4f6216"
+        },
+        {
+          "key": "Keyed|MapPreview.Settings.EnableWorldSeedRerollFeature",
+          "remote_present": true,
+          "remote_matches_proposed_text": true,
+          "installed_present": true,
+          "installed_matches_proposed_text": true,
+          "proposed_value_sha256": "2178688250f48ddf3afd15247b08ebd83f816587421d3a28c497ca3589029893"
+        },
+        {
+          "key": "Keyed|MapPreview.Settings.IncludeCaves",
+          "remote_present": true,
+          "remote_matches_proposed_text": true,
+          "installed_present": true,
+          "installed_matches_proposed_text": true,
+          "proposed_value_sha256": "1590082f54648449a4c6674f4d6864b312ac2b102a56f92b580eea506c52508b"
+        },
+        {
+          "key": "Keyed|MapPreview.Settings.LockWindowPositions",
+          "remote_present": true,
+          "remote_matches_proposed_text": true,
+          "installed_present": true,
+          "installed_matches_proposed_text": true,
+          "proposed_value_sha256": "1e610bd2248dfd6eb83e17135976e639dd59e9aa43b4c4b1694cf63aabd133d7"
+        },
+        {
+          "key": "Keyed|MapPreview.Settings.OpenAdvancedGameConfig",
+          "remote_present": true,
+          "remote_matches_proposed_text": true,
+          "installed_present": true,
+          "installed_matches_proposed_text": true,
+          "proposed_value_sha256": "ecd23a9b0a0cb3f04f2a398cfd2bf710e7623d1b874ad41d130c8f5972183169"
+        },
+        {
+          "key": "Keyed|MapPreview.Settings.RefreshTerrainColors",
+          "remote_present": true,
+          "remote_matches_proposed_text": true,
+          "installed_present": true,
+          "installed_matches_proposed_text": true,
+          "proposed_value_sha256": "2c01cfec0e98f8c618933f031f0dc5338aa5155dd42adcbe1abec4b3b2e84af1"
+        },
+        {
+          "key": "Keyed|MapPreview.Settings.SkipRiverFlowCalc",
+          "remote_present": true,
+          "remote_matches_proposed_text": true,
+          "installed_present": true,
+          "installed_matches_proposed_text": true,
+          "proposed_value_sha256": "4a08a9713c4a1d27b8dac742f72129e6c38668b6de6d064b1e750b7bb2908a5c"
+        },
+        {
+          "key": "Keyed|MapPreview.Settings.Tab.Preview",
+          "remote_present": true,
+          "remote_matches_proposed_text": true,
+          "installed_present": true,
+          "installed_matches_proposed_text": true,
+          "proposed_value_sha256": "32060a34f5be5747afeb4590a85bec4de1cb1d89b7332d20e1b406c5cd3eeee2"
+        },
+        {
+          "key": "Keyed|MapPreview.Settings.Tab.Toolbar",
+          "remote_present": true,
+          "remote_matches_proposed_text": true,
+          "installed_present": true,
+          "installed_matches_proposed_text": true,
+          "proposed_value_sha256": "8e40b04c6be05c0f50d82908ecd234cd34e587867cd471a6216fbefd94376942"
+        },
+        {
+          "key": "Keyed|MapPreview.Settings.TriggerPreviewOnWorldObjects",
+          "remote_present": true,
+          "remote_matches_proposed_text": true,
+          "installed_present": true,
+          "installed_matches_proposed_text": true,
+          "proposed_value_sha256": "65efd4298b7e074a5e538f09d9c7a95a1f088be901417bbb471571beffa1cfc1"
+        },
+        {
+          "key": "Keyed|MapPreview.World.OpenSettings",
+          "remote_present": true,
+          "remote_matches_proposed_text": true,
+          "installed_present": true,
+          "installed_matches_proposed_text": true,
+          "proposed_value_sha256": "da2faad0802c9fc8fa391ce3af83acb7d88779453ee01d5215f6f34cec402c00"
+        },
+        {
+          "key": "Keyed|MapPreview.World.RerollMapSeed",
+          "remote_present": true,
+          "remote_matches_proposed_text": true,
+          "installed_present": true,
+          "installed_matches_proposed_text": true,
+          "proposed_value_sha256": "0dbbffdfbf3ec8d2748e853498a93beb299afacc49689930bec78b1e3ea43abe"
+        },
+        {
+          "key": "Keyed|MapPreview.World.RerollWindow.Apply",
+          "remote_present": true,
+          "remote_matches_proposed_text": true,
+          "installed_present": true,
+          "installed_matches_proposed_text": true,
+          "proposed_value_sha256": "bfe9f3ca0703426fb29603d7e29c8fc564f01741dd8f89a9df0f5c0066d1f6db"
+        },
+        {
+          "key": "Keyed|MapPreview.World.RerollWindow.Close",
+          "remote_present": true,
+          "remote_matches_proposed_text": true,
+          "installed_present": true,
+          "installed_matches_proposed_text": true,
+          "proposed_value_sha256": "a7a4033657e89fc91b2c512f19a15d0f3c11a113b23192193db9063e2283f908"
+        },
+        {
+          "key": "Keyed|MapPreview.World.RerollWindow.GoTo.Invalid",
+          "remote_present": true,
+          "remote_matches_proposed_text": true,
+          "installed_present": true,
+          "installed_matches_proposed_text": true,
+          "proposed_value_sha256": "f8f72aac6c11495bdce7f33c02455d91925f411598d968142e862f7b647360b7"
+        },
+        {
+          "key": "Keyed|MapPreview.World.RerollWindow.GoTo.Label",
+          "remote_present": true,
+          "remote_matches_proposed_text": true,
+          "installed_present": true,
+          "installed_matches_proposed_text": true,
+          "proposed_value_sha256": "515bd3eb8a039534ae420ce71e05f2eabdc8c57e6a1512e9157b3e31c13ff75f"
+        },
+        {
+          "key": "Keyed|MapPreview.World.RerollWindow.Pin",
+          "remote_present": true,
+          "remote_matches_proposed_text": true,
+          "installed_present": true,
+          "installed_matches_proposed_text": true,
+          "proposed_value_sha256": "50d22c9f6df7e42d73dea2434f18790c139f5b62edc8bf938c166811a99a73ef"
+        },
+        {
+          "key": "Keyed|MapPreview.World.RerollWindow.RefreshSeeds",
+          "remote_present": true,
+          "remote_matches_proposed_text": true,
+          "installed_present": true,
+          "installed_matches_proposed_text": true,
+          "proposed_value_sha256": "dc52c8f85d342e9086e3c8e4c731ba17502284916a7acf41f50812a5152c18e2"
+        },
+        {
+          "key": "Keyed|MapPreview.World.RerollWindow.Title",
+          "remote_present": true,
+          "remote_matches_proposed_text": true,
+          "installed_present": true,
+          "installed_matches_proposed_text": true,
+          "proposed_value_sha256": "58b23e8e45aea6750c0214807fc582a2d10894246030497f48fb39e2ca171094"
+        },
+        {
+          "key": "Keyed|MapPreview.World.RerollWindow.Unpin",
+          "remote_present": true,
+          "remote_matches_proposed_text": true,
+          "installed_present": true,
+          "installed_matches_proposed_text": true,
+          "proposed_value_sha256": "bce5d03f2bb5cf0909a851475bfb29213eae9f7e8dbc35a9bb3104cf48beeca0"
+        },
+        {
+          "key": "Keyed|MapPreview.World.RerollWindow.ZoomIn",
+          "remote_present": true,
+          "remote_matches_proposed_text": true,
+          "installed_present": true,
+          "installed_matches_proposed_text": true,
+          "proposed_value_sha256": "bfb85a01780afd3e0d44bfbc885d0d6d67b2842827c1c7674fe33ca3c9e7e4c1"
+        },
+        {
+          "key": "Keyed|MapPreview.World.RerollWindow.ZoomOut",
+          "remote_present": true,
+          "remote_matches_proposed_text": true,
+          "installed_present": true,
+          "installed_matches_proposed_text": true,
+          "proposed_value_sha256": "8e6a41ecd087ebe2d5bde1c8cae5b7bd90dcb5bfadc0c4785a546dc527beccf2"
+        },
+        {
+          "key": "Keyed|MapPreview.World.RerollWorldSeed",
+          "remote_present": true,
+          "remote_matches_proposed_text": true,
+          "installed_present": true,
+          "installed_matches_proposed_text": true,
+          "proposed_value_sha256": "decf2ffc3bf9b4aeb553a1ad2d77b3c5570fc6c0063c9e9458d022cb2cf58fcf"
+        },
+        {
+          "key": "Keyed|MapPreview.World.ResetMapSeed",
+          "remote_present": true,
+          "remote_matches_proposed_text": true,
+          "installed_present": true,
+          "installed_matches_proposed_text": true,
+          "proposed_value_sha256": "10c55582dd7c9cdd37563a6cf573cb024f1716c89bccf0da94a92f21da25090d"
+        }
+      ],
+      "scope": "Static current-source comparison only. No new game test, Steam SDK update-state check or full-mod replacement claim.",
+      "author_reports_inclusion_version": "1.13.2",
+      "author_reply_url": "https://github.com/m00nl1ght-dev/MapPreview/pull/23#issuecomment-6706681340",
+      "accepted_into_remote_source_verified": true,
+      "installed_native_presence_verified": true
+    }
+  ],
+  "privacy": "Only identifiers, immutable URLs and hashes; no original Russian text or machine paths exported."
+}

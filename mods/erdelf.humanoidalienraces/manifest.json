@@ -21,22 +21,51 @@
       "1.6",
       "1.7"
     ],
-    "repository_url": null,
+    "repository_url": "https://github.com/erdelf/AlienRaces",
     "repository_candidates": [
       "https://github.com/erdelf/AlienRaces"
     ],
-    "repository_verification": "not_remote_checked",
-    "activity": "not_remote_checked"
+    "repository_verification": "verified_current_remote_about_package_id_and_published_id_match",
+    "activity": "not_remote_checked",
+    "default_branch": "master",
+    "verified_source_identity": {
+      "status": "verified_current_remote_about_package_id_and_published_id_match",
+      "package_id_as_declared": "erdelf.HumanoidAlienRaces",
+      "name": "Humanoid Alien Races",
+      "author": "erdelf",
+      "supported_versions": [
+        "0.19",
+        "1.0",
+        "1.1",
+        "1.2",
+        "1.3",
+        "1.4",
+        "1.5",
+        "1.6",
+        "1.7"
+      ],
+      "about_url": "https://github.com/erdelf/AlienRaces/blob/b715c63ea7179bd2f9b9cedcdb39233c2bb36ef0/About/About.xml",
+      "about_blob_sha": "d33c748f798335d4a19cf94554b18c1e790c6947",
+      "published_id_url": "https://github.com/erdelf/AlienRaces/blob/b715c63ea7179bd2f9b9cedcdb39233c2bb36ef0/About/PublishedFileId.txt",
+      "published_id_blob_sha": "b25160b834d68b5efef7c6031c236c53894391cf",
+      "source_commit": "b715c63ea7179bd2f9b9cedcdb39233c2bb36ef0"
+    }
   },
   "rights": {
     "translation": {
       "status": "confirmed",
       "license": "MIT",
-      "evidence": "https://github.com/erdelf/AlienRaces/blob/master/license.md",
-      "attribution": "Original: Humanoid Alien Races by erdelf. https://steamcommunity.com/sharedfiles/filedetails/?id=839005762. Conditions: Preserve exact MIT copyright and permission notice; credit original author. Our new translation text may be separately MIT licensed. No original artwork/code/DLLs included. Own fallback cover.",
+      "evidence": "https://github.com/erdelf/AlienRaces/blob/b715c63ea7179bd2f9b9cedcdb39233c2bb36ef0/license.md",
+      "attribution": "Original mod Humanoid Alien Races by erdelf; Copyright (c) 2018 Simon Latusek. Independently authored Russian additions by Antyhc with disclosed AI assistance. Original Workshop https://steamcommunity.com/sharedfiles/filedetails/?id=839005762.",
       "license_evidence_file": "translation-rights-evidence.json",
       "grant_checked_at": "2026-10-30 07:41:02 UTC",
-      "grant_scope": "Text-only own translation subject to the recorded license/conditions; does not grant original artwork or third-party Russian rights."
+      "grant_scope": "Text-only own translation subject to the recorded license/conditions; does not grant original artwork or third-party Russian rights.",
+      "scope": "Independently authored Russian text adaptation of the licensed source. Does not grant third-party Russian wording or infer original-art permission.",
+      "obligations": [
+        "Retain the exact MIT copyright and permission notice in distributed copies or substantial portions.",
+        "Credit the original author and distinguish translator modifications; use an independently designed cover unless exact image permission is separately verified."
+      ],
+      "source_permission_review": "community/har-source-rights-2026-11-07.json"
     },
     "icon": {
       "status": "unknown",
@@ -50,7 +79,19 @@
     "linguistic": "pending",
     "source_current": false,
     "in_game": "not_tested",
-    "checked_at": "2026-10-28T10:30:30.068317+00:00"
+    "checked_at": "2026-10-28T10:30:30.068317+00:00",
+    "existing_provider_runtime_check": {
+      "status": "existing_provider_covers198_of199_one_physical_scenario_label_gap",
+      "checked_at": "2026-11-07T18:23:12.873101+00:00",
+      "game_version": "1.7.5000 rev1275",
+      "observed_primary_values": 199,
+      "already_russian": 198,
+      "genuine_english_physical_gap": 1,
+      "all_five_official_dlc_loaded": true,
+      "evidence": "existing-translation-game-evidence.json",
+      "our_candidate_tested": false,
+      "scope": "Existing provider baseline only; no own199-field package game approval."
+    }
   },
   "publication": {
     "github_url": "https://github.com/Antyhc/RimWorld-Russian-Translations/tree/main/mods/erdelf.humanoidalienraces",
@@ -60,11 +101,19 @@
     "workshop_status": "not_published"
   },
   "integration": {
-    "status": "not_sent",
+    "status": "upstream_declined_prefers_standalone",
     "pr_url": null,
-    "contact_url": null
+    "contact_url": "https://github.com/erdelf/AlienRaces/issues/126",
+    "contact_status": "author_prefers_standalone",
+    "offered_at": "2026-11-07",
+    "fresh_game_test_claimed": false,
+    "response_evidence": "community/author-actions-2026-11-07.json",
+    "response_url": "https://github.com/erdelf/AlienRaces/issues/126#issuecomment-6710979837",
+    "response_checked_at": "2026-11-07T18:26:00Z",
+    "response_summary": "Owner cannot verify Russian and declines native integration; explicitly permits an independent translation mod.",
+    "original_native_accepted": false
   },
-  "work_stage": "reviewed_uninstalled",
+  "work_stage": "held_existing_provider198_of199_scenario_caption_needs_targeted_fix",
   "inventory": {
     "saved_records": 0,
     "historical_approved_records": 0,
@@ -105,5 +154,12 @@
       "new_files_outside_saved_source_inventory_checked": false
     },
     "saved_translation_store": false
+  },
+  "monitor": {
+    "github_tree": {
+      "repository": "erdelf/AlienRaces",
+      "ref": "master",
+      "baseline_file": "source.tree.json"
+    }
   }
 }

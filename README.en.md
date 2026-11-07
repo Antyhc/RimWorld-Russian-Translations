@@ -11,7 +11,14 @@ On 6 November 2026, **3 new packs** were submitted successfully, listed below. S
 
 The standalone No Burn Metal and Designator Shapes translations were deleted because their originals now contain all corresponding Russian entries. Use the original mods. The old Cooking item is unavailable for an unknown reason; no replacement item was created.
 
-Registry entries include releases, independently authored drafts and work awaiting review. Loading Progress accepted the translation link into its README; it did not integrate the language files. [All contacts](community/outreach.json) · [New PRs and requests](community/outreach-2026-11-06.json) · [All-mod review](community/all-mods-outreach-ledger-2026-11-06.json).
+Registry entries include releases, independently authored drafts and work awaiting review. Loading Progress accepted the translation link into its README; it did not integrate the language files. [All contacts](community/outreach.json) · [New PRs and requests](community/outreach-2026-11-06.json) · [All-mod review](community/all-mods-outreach-ledger-2026-11-07.json).
+
+<!-- november7-update -->
+An isolated HAR game check found198of199 prepared fields already translated by the current provider; one scenario caption remains English. No duplicate package was published. [Runtime evidence](mods/erdelf.humanoidalienraces/existing-translation-game-evidence.json).
+
+On 7 November, [WVC Work Modes](https://steamcommunity.com/sharedfiles/filedetails/?id=3830010549) was updated to the two remaining fields; the other21 are now native. The downloaded revision passed an actual23-value game check. [Map Preview included71 entries upstream](community/native-acceptance-2026-11-07.json), and the redundant local copy was archived. Existing translations already cover Sanguophage and51 suspected weapon gaps. [New contributions](community/author-actions-2026-11-07.json) · [Current Steam evidence](community/workshop-state-2026-11-07.json).
+
+The empty Better Traders Guild wrapper was archived, and the stale Prioritize Research ID was replaced with the current ID of the same Workshop item. Main list:360 entries; other settings and logs preserved. [Compatibility audit](community/compatibility-current-2026-11-07.json).
 
 | Mod | Package entries | Steam Workshop |
 |---|---:|---|
@@ -27,7 +34,7 @@ Registry entries include releases, independently authored drafts and work awaiti
 | [No Burn Metal](https://steamcommunity.com/sharedfiles/filedetails/?id=1923990111) | — | Included upstream; standalone pack deleted |
 | [Vanilla Achievements Expanded](https://steamcommunity.com/sharedfiles/filedetails/?id=3830022947) | 1 | Public |
 | [Vanilla Traits Expanded](https://steamcommunity.com/sharedfiles/filedetails/?id=3830032379) | 2 | Public |
-| [WVC - Work Modes](https://steamcommunity.com/sharedfiles/filedetails/?id=3830010549) | 23 | Public |
+| [WVC - Work Modes](https://steamcommunity.com/sharedfiles/filedetails/?id=3830010549) | 2 | Public |
 | [Vanilla Cooking Expanded](https://steamcommunity.com/sharedfiles/filedetails/?id=3830078437) | 24 | Previously published, currently unavailable on Steam. [Translation files](mods/vanillaexpanded.vcooke/payload/) |
 | [Clean Command Bar](https://steamcommunity.com/sharedfiles/filedetails/?id=3834788420) | 3 | Submission and installation verified; web access pending |
 | [Customize Weapon](https://steamcommunity.com/sharedfiles/filedetails/?id=3834796180) | 23 | Submission and installation verified; web access pending |
@@ -125,7 +132,7 @@ licenses are recorded per pack; CC BY-NC-SA adaptations retain those terms.
 
 The registry dynamically discovers `mods/*/manifest.json`: 166 records from 156 saved
 translation stores and 10 additional batch/draft records, with no fixed size limit.
-Monitoring covers 166 original Workshop IDs, 30 GitHub repositories and recorded PRs.
+Monitoring covers 166 original Workshop IDs, 34 GitHub repositories and recorded PRs.
 Source changes enter review; monitoring is not an autonomous translator/publisher.
 Collection membership updates through the official Steam API are implemented and verified;
 website publication is a separate check. [Maintenance](docs/MAINTENANCE.md).

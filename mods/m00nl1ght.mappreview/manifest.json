@@ -40,20 +40,34 @@
     "github_status": "metadata_only",
     "workshop_url": null,
     "workshop_id": null,
-    "workshop_status": "not_published"
+    "workshop_status": "not_needed_native_integration",
+    "release_blockers": []
   },
   "integration": {
-    "status": "open",
+    "status": "accepted_manually",
     "pr_url": "https://github.com/m00nl1ght-dev/MapPreview/pull/23",
     "contact_url": null,
     "target_kind": "original_mod",
     "head_sha": "1049cd4ea02546a7af3eab3e13ee8784a8af20ed",
     "submitted_at": "2026-11-06",
     "native_xml_submitted": true,
-    "original_native_accepted": false,
+    "original_native_accepted": true,
     "entries_submitted": 71,
     "fresh_game_test_claimed": false,
-    "response_evidence": "community/outreach-2026-11-06.json"
+    "response_evidence": "community/outreach-2026-11-06.json",
+    "checked_at": "2026-11-07 16:53:25 UTC",
+    "mergeable": true,
+    "human_change_request_pending": false,
+    "latest_status_evidence": "community/author-status-2026-11-07.json",
+    "accepted_entries": 71,
+    "acceptance_method": "manual_source_inclusion_verified",
+    "manual_acceptance": {
+      "verified": true,
+      "source_commit": "2daa91eab7642382c895cfabae1db57d72ea33e1",
+      "evidence": "community/native-acceptance-2026-11-07.json",
+      "author_reply_url": "https://github.com/m00nl1ght-dev/MapPreview/pull/23#issuecomment-6706681340",
+      "github_pr_merged": false
+    }
   },
   "original": {
     "author": "m00nl1ght",
@@ -166,7 +180,7 @@
       "contextual_russian_translation_review": 71
     },
     "attribution_licenses": {},
-    "installed_locally": true,
+    "installed_locally": false,
     "native_russian_rows_in_snapshot": 4,
     "third_party_candidates": [],
     "coverage_scope": "saved_static_extraction_lower_bound; not complete runtime coverage",
@@ -199,8 +213,9 @@
       "codex_source_targets": 1,
       "semantic_review": null
     },
-    "work_stage": "installed_local",
-    "saved_translation_store": true
+    "work_stage": "native_translation_local_archived",
+    "saved_translation_store": true,
+    "installed_checked_at": "2026-11-07"
   },
   "monitor": {
     "github_tree": {
@@ -209,5 +224,23 @@
       "baseline_file": "source.tree.json"
     }
   },
-  "work_stage": "installed_local"
+  "work_stage": "native_translation_local_archived",
+  "duplicate_translation": {
+    "status": "now_covered_by_original",
+    "checked_at": "2026-11-07",
+    "evidence": "community/native-acceptance-2026-11-07.json",
+    "candidates": [
+      "https://steamcommunity.com/sharedfiles/filedetails/?id=3549431070",
+      "https://steamcommunity.com/sharedfiles/filedetails/?id=2878663815",
+      "https://steamcommunity.com/sharedfiles/filedetails/?id=3807814502"
+    ],
+    "scope": "The current original provides all 71 offered Russian values at 2daa91eab7642382c895cfabae1db57d72ea33e1, verified in current source and installed files. PR23 was closed after manual inclusion. The redundant owned local copy was archived; no separate owned Workshop page existed. Earlier third-party candidate compatibility questions do not block this completed native integration."
+  },
+  "local_retirement": {
+    "status": "completed",
+    "date": "2026-11-07",
+    "keys_verified": 71,
+    "evidence": "community/local-retirement-2026-11-07.json",
+    "original_preserved": true
+  }
 }

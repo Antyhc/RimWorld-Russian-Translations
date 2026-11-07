@@ -11,7 +11,14 @@
 
 Отдельные No Burn Metal и Designator Shapes удалены: оригиналы уже включают весь соответствующий русский перевод. Используйте оригинальные моды. Cooking по прежнему ID недоступен; причина не установлена, повторная публикация не создавалась.
 
-Записи реестра включают готовые пакеты, собственные черновики и материалы на проверке. Loading Progress принял ссылку на русификатор в README; это не включение языковых файлов в оригинал. [Все обращения](community/outreach.json) · [Новые PR и запросы](community/outreach-2026-11-06.json) · [Проверка всех модов](community/all-mods-outreach-ledger-2026-11-06.json).
+Записи реестра включают готовые пакеты, собственные черновики и материалы на проверке. Loading Progress принял ссылку на русификатор в README; это не включение языковых файлов в оригинал. [Все обращения](community/outreach.json) · [Новые PR и запросы](community/outreach-2026-11-06.json) · [Проверка всех модов](community/all-mods-outreach-ledger-2026-11-07.json).
+
+<!-- november7-update -->
+HAR проверен в отдельной игре: существующий русификатор покрывает 198 из 199 подготовленных полей; одна подпись сценария остаётся английской. Дублирующий пакет не опубликован. [Результат проверки](mods/erdelf.humanoidalienraces/existing-translation-game-evidence.json).
+
+7 ноября обновлён [WVC Work Modes](https://steamcommunity.com/sharedfiles/filedetails/?id=3830010549): две недостающие строки, остальные 21 уже в оригинале. Скачанная новая версия проверена в игре по всем 23 значениям. [Map Preview принял 71 строку](community/native-acceptance-2026-11-07.json); лишняя локальная копия архивирована. Sanguophage и 51 спорное оружейное поле уже покрываются существующими переводами. [Новые обращения и исправления](community/author-actions-2026-11-07.json) · [Текущее состояние Steam](community/workshop-state-2026-11-07.json).
+
+Пустая оболочка Better Traders Guild архивирована; ссылка на новый ID Prioritize Research того же Workshop-мода исправлена. Основной список:360записей; остальные настройки и журналы сохранены. [Проверка совместимости](community/compatibility-current-2026-11-07.json).
 
 | Модификация | Строк в пакете | Steam Workshop |
 |---|---:|---|
@@ -27,7 +34,7 @@
 | [No Burn Metal](https://steamcommunity.com/sharedfiles/filedetails/?id=1923990111) | — | Перевод включён в оригинал; отдельный пакет удалён |
 | [Vanilla Achievements Expanded](https://steamcommunity.com/sharedfiles/filedetails/?id=3830022947) | 1 | Публичен |
 | [Vanilla Traits Expanded](https://steamcommunity.com/sharedfiles/filedetails/?id=3830032379) | 2 | Публичен |
-| [WVC - Work Modes](https://steamcommunity.com/sharedfiles/filedetails/?id=3830010549) | 23 | Публичен |
+| [WVC - Work Modes](https://steamcommunity.com/sharedfiles/filedetails/?id=3830010549) | 2 | Публичен |
 | [Vanilla Cooking Expanded](https://steamcommunity.com/sharedfiles/filedetails/?id=3830078437) | 24 | Ранее опубликован. Сейчас недоступен в Steam. [Файлы перевода](mods/vanillaexpanded.vcooke/payload/) |
 | [Clean Command Bar](https://steamcommunity.com/sharedfiles/filedetails/?id=3834788420) | 3 | Публикация и установка подтверждены; веб-доступ проверяется |
 | [Customize Weapon](https://steamcommunity.com/sharedfiles/filedetails/?id=3834796180) | 23 | Публикация и установка подтверждены; веб-доступ проверяется |
@@ -132,7 +139,7 @@ Alpha Animals и Genetics для Cooking остаются необязатель
 
 Все 166 записей находятся по `mods/*/manifest.json` без ограничения размера реестра:
 156 хранилищ переводов и 10 дополнительных записей о партиях и черновиках.
-Мониторинг охватывает 166 исходных Workshop ID, 30 GitHub-репозиториев и зарегистрированные PR.
+Мониторинг охватывает 166 исходных Workshop ID, 34 GitHub-репозитория и зарегистрированные PR.
 Изменения источников поступают на проверку; монитор не объявляется автономным
 переводчиком или публикатором. Добавление опубликованных пакетов в коллекцию
 через официальный Steam API реализовано и проверено; доступность её веб-страницы

@@ -8,10 +8,12 @@
   ],
   "rights": {
     "translation": {
-      "status": "unknown",
+      "status": "permission_requested",
       "license": null,
       "evidence": null,
-      "attribution": null
+      "attribution": null,
+      "request_url": "https://github.com/NathanIkola/LightsOut/pull/9#issuecomment-6710826028",
+      "permission_received": false
     },
     "icon": {
       "status": "unknown",
@@ -35,9 +37,11 @@
     "workshop_status": "not_published"
   },
   "integration": {
-    "status": "not_sent",
+    "status": "translation_coordination_and_permission_requested",
     "pr_url": null,
-    "contact_url": null
+    "contact_url": "https://github.com/NathanIkola/LightsOut/pull/9#issuecomment-6710826028",
+    "contact_status": "awaiting_response",
+    "response_evidence": "community/author-actions-2026-11-07.json"
   },
   "original": {
     "author": "juanlopez2008",
@@ -50,12 +54,13 @@
       "1.6",
       "1.7"
     ],
-    "repository_url": null,
+    "repository_url": "https://github.com/NathanIkola/LightsOut",
     "repository_candidates": [
       "https://github.com/pardeike/HarmonyRimWorld"
     ],
-    "repository_verification": "not_remote_checked",
-    "activity": "not_remote_checked"
+    "repository_verification": "current_remote_About_and_PublishedFileId_match",
+    "activity": "not_remote_checked",
+    "default_branch": "master"
   },
   "inventory": {
     "saved_records": 21,
@@ -80,5 +85,12 @@
     "work_stage": "installed_local",
     "saved_translation_store": true
   },
-  "work_stage": "installed_local"
+  "work_stage": "installed_local",
+  "monitor": {
+    "github_tree": {
+      "repository": "NathanIkola/LightsOut",
+      "ref": "master",
+      "baseline_file": "source.tree.json"
+    }
+  }
 }

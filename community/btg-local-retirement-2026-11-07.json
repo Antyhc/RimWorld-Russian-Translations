@@ -1,0 +1,13 @@
+{
+  "date": "2026-11-07",
+  "package_id": "shunter.bettertradersguild",
+  "empty_owned_wrapper_archived": true,
+  "payload_files": 0,
+  "native_stored_targets_covered": 15,
+  "source_evidence": "community/btg-empty-wrapper-proof-2026-11-07.json",
+  "removed_alias": "local.russian.project.shunter.bettertradersguild",
+  "active_count_before": 361,
+  "active_count_after": 360,
+  "other_settings_logs_original_mod_and_shared_runtime_unchanged": true,
+  "steam_subscriptions_changed": false
+}

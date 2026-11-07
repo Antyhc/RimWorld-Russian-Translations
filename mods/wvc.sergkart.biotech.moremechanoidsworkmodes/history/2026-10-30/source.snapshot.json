@@ -1,0 +1,175 @@
+{
+  "schema_version": 1,
+  "generated_at": "2026-10-30T07:56:12.536423+00:00",
+  "scope": "Only newly authored missing additions; existing native/community Russian remains separate.",
+  "strings": {
+    "DefInjected|ConceptDef|WVC_MMWM_BehaviorsGuide.description": "a6be4f8f6c20207fd9df8893c07d717fa80bfa3d0ae47ad287809ecfdf1228db",
+    "DefInjected|ConceptDef|WVC_MMWM_BehaviorsGuide.helpText": "35070caad878473702dc74602cdd50baa15f8938986e9ad117c6093c20c42b6f",
+    "DefInjected|ConceptDef|WVC_MMWM_BehaviorsGuide.label": "edb0196265fd4cf7c58e0f08e6d5c75682b5f879212697763a78992a17a0ed9f",
+    "DefInjected|MainButtonDef|WVC_MechsWork.description": "39193b43cc18dd838d6ceb079613231e8e29c94bd5ad3f51b17eec352dcf95b0",
+    "DefInjected|MainButtonDef|WVC_MechsWork.label": "9544a1322579cf196c9f8a61a4470a13acd626e15be4a11922ffb657a42eb6da",
+    "DefInjected|RoomRoleDef|WVC_MechHangar.label": "4fbe822878dc55a904bf702af9e20667eb9b091fb8e20cc8c96b6264221d6fe4",
+    "Keyed|WVC_Label_RechargeAndShutdown": "b906f2714554116a2c3537c6206979b74615bdad47a52ae423412028d97791f8",
+    "Keyed|WVC_Label_enableMechsWorkTab": "b52ab0249f8d9d70431425f5c49e2c4f837fa7f6586338fca266a554179be63d",
+    "Keyed|WVC_Label_enableOpportunisticChargers": "37c013f0f614da098f258cbc3c36058927ce8aadca81be284c8cc5864fde3247",
+    "Keyed|WVC_Label_enable_GoToShutdownRoomJob": "f9ec75da9aec420795f1d301e41c59e66602d99fdbf7bcad7c3745df3b97341c",
+    "Keyed|WVC_Label_hideMechsWorkTab": "9b3acc27a117c0dbdd0b08216a723f36b8eb8812cdb0fc1aba54e466186203aa",
+    "Keyed|WVC_ToolTip_enableMechsWorkTab": "c40123d6714781c007668b2eedea62b6f4c2b4297c7ed6e5ed7588c993fdae85",
+    "Keyed|WVC_ToolTip_enableOpportunisticChargers": "4129496ba1ac37d4caea47879fd061b85ff04ed9b1dc241bce0ea56af3455a0c",
+    "Keyed|WVC_ToolTip_enable_GoToShutdownRoomJob": "804ef57745ef7c3c38b6ed01bcd2ac01ccf78ae703af7f90805b60d78bc90f16",
+    "Keyed|WVC_ToolTip_hideMechsWorkTab": "3f8a2df0da148fd262b115e64c3382323495a6eda48818e68e8981922118a022",
+    "Keyed|WVC_WM_Label_enableAutoRepairByDefault": "995e571f949bb99ef7a564c0268959ddf64b1572f84688dd95dc68b12d338acf",
+    "Keyed|WVC_WM_ShutdownGroup": "08434ba9cdf55a02284e2913400586cd289878e0f055f7bb0b07ce392caeb989",
+    "Keyed|WVC_WM_ToolTip_enableAutoRepairByDefault": "159753f1f58a20ccef7e3417799a6f96ad1b7bb1d30b1a9a26f85900473fd31d",
+    "Keyed|WVC_WorkModes_AllowShutdownDesc": "4953f10f9e46a6ac35b211a6d41db2620702ed4dac7ba510f79527dd5bc90c85",
+    "Keyed|WVC_WorkModes_AllowShutdownLabel": "fccb7e789e85a573ff12bfcb8f98a05247d9e4e47d7da6853b1cb4fbdeac2799",
+    "Keyed|WVC_WorkModes_EnemyCheckDelay": "232a119ecccac1863d01654eac9472258d52da57c0f714f837a3ff7372754912",
+    "Keyed|WVC_WorkModes_EnemyCheckDelayDesc": "d3a62cc11098a7e81043d1e85c602618db1b6c2214074e97f5e5822283292f44",
+    "Keyed|WVC_WorkModes_GroupIsChosen": "940fe569d9edf565e05120f9686e87a2b83ae174d6254f175e0256f8d30ba6b2"
+  },
+  "signatures": {
+    "DefInjected|ConceptDef|WVC_MMWM_BehaviorsGuide.description": {
+      "source_hash": "a6be4f8f6c20207fd9df8893c07d717fa80bfa3d0ae47ad287809ecfdf1228db",
+      "tokens": [],
+      "tags": [],
+      "source_empty": false
+    },
+    "DefInjected|ConceptDef|WVC_MMWM_BehaviorsGuide.helpText": {
+      "source_hash": "35070caad878473702dc74602cdd50baa15f8938986e9ad117c6093c20c42b6f",
+      "tokens": [],
+      "tags": [],
+      "source_empty": false
+    },
+    "DefInjected|ConceptDef|WVC_MMWM_BehaviorsGuide.label": {
+      "source_hash": "edb0196265fd4cf7c58e0f08e6d5c75682b5f879212697763a78992a17a0ed9f",
+      "tokens": [],
+      "tags": [],
+      "source_empty": false
+    },
+    "DefInjected|MainButtonDef|WVC_MechsWork.description": {
+      "source_hash": "39193b43cc18dd838d6ceb079613231e8e29c94bd5ad3f51b17eec352dcf95b0",
+      "tokens": [],
+      "tags": [],
+      "source_empty": false
+    },
+    "DefInjected|MainButtonDef|WVC_MechsWork.label": {
+      "source_hash": "9544a1322579cf196c9f8a61a4470a13acd626e15be4a11922ffb657a42eb6da",
+      "tokens": [],
+      "tags": [],
+      "source_empty": false
+    },
+    "DefInjected|RoomRoleDef|WVC_MechHangar.label": {
+      "source_hash": "4fbe822878dc55a904bf702af9e20667eb9b091fb8e20cc8c96b6264221d6fe4",
+      "tokens": [],
+      "tags": [],
+      "source_empty": false
+    },
+    "Keyed|WVC_Label_RechargeAndShutdown": {
+      "source_hash": "b906f2714554116a2c3537c6206979b74615bdad47a52ae423412028d97791f8",
+      "tokens": [],
+      "tags": [],
+      "source_empty": false
+    },
+    "Keyed|WVC_Label_enableMechsWorkTab": {
+      "source_hash": "b52ab0249f8d9d70431425f5c49e2c4f837fa7f6586338fca266a554179be63d",
+      "tokens": [],
+      "tags": [],
+      "source_empty": false
+    },
+    "Keyed|WVC_Label_enableOpportunisticChargers": {
+      "source_hash": "37c013f0f614da098f258cbc3c36058927ce8aadca81be284c8cc5864fde3247",
+      "tokens": [],
+      "tags": [],
+      "source_empty": false
+    },
+    "Keyed|WVC_Label_enable_GoToShutdownRoomJob": {
+      "source_hash": "f9ec75da9aec420795f1d301e41c59e66602d99fdbf7bcad7c3745df3b97341c",
+      "tokens": [],
+      "tags": [],
+      "source_empty": false
+    },
+    "Keyed|WVC_Label_hideMechsWorkTab": {
+      "source_hash": "9b3acc27a117c0dbdd0b08216a723f36b8eb8812cdb0fc1aba54e466186203aa",
+      "tokens": [],
+      "tags": [],
+      "source_empty": false
+    },
+    "Keyed|WVC_ToolTip_enableMechsWorkTab": {
+      "source_hash": "c40123d6714781c007668b2eedea62b6f4c2b4297c7ed6e5ed7588c993fdae85",
+      "tokens": [],
+      "tags": [],
+      "source_empty": false
+    },
+    "Keyed|WVC_ToolTip_enableOpportunisticChargers": {
+      "source_hash": "4129496ba1ac37d4caea47879fd061b85ff04ed9b1dc241bce0ea56af3455a0c",
+      "tokens": [],
+      "tags": [],
+      "source_empty": false
+    },
+    "Keyed|WVC_ToolTip_enable_GoToShutdownRoomJob": {
+      "source_hash": "804ef57745ef7c3c38b6ed01bcd2ac01ccf78ae703af7f90805b60d78bc90f16",
+      "tokens": [],
+      "tags": [],
+      "source_empty": false
+    },
+    "Keyed|WVC_ToolTip_hideMechsWorkTab": {
+      "source_hash": "3f8a2df0da148fd262b115e64c3382323495a6eda48818e68e8981922118a022",
+      "tokens": [],
+      "tags": [],
+      "source_empty": false
+    },
+    "Keyed|WVC_WM_Label_enableAutoRepairByDefault": {
+      "source_hash": "995e571f949bb99ef7a564c0268959ddf64b1572f84688dd95dc68b12d338acf",
+      "tokens": [],
+      "tags": [],
+      "source_empty": false
+    },
+    "Keyed|WVC_WM_ShutdownGroup": {
+      "source_hash": "08434ba9cdf55a02284e2913400586cd289878e0f055f7bb0b07ce392caeb989",
+      "tokens": [],
+      "tags": [],
+      "source_empty": false
+    },
+    "Keyed|WVC_WM_ToolTip_enableAutoRepairByDefault": {
+      "source_hash": "159753f1f58a20ccef7e3417799a6f96ad1b7bb1d30b1a9a26f85900473fd31d",
+      "tokens": [],
+      "tags": [],
+      "source_empty": false
+    },
+    "Keyed|WVC_WorkModes_AllowShutdownDesc": {
+      "source_hash": "4953f10f9e46a6ac35b211a6d41db2620702ed4dac7ba510f79527dd5bc90c85",
+      "tokens": [],
+      "tags": [],
+      "source_empty": false
+    },
+    "Keyed|WVC_WorkModes_AllowShutdownLabel": {
+      "source_hash": "fccb7e789e85a573ff12bfcb8f98a05247d9e4e47d7da6853b1cb4fbdeac2799",
+      "tokens": [],
+      "tags": [],
+      "source_empty": false
+    },
+    "Keyed|WVC_WorkModes_EnemyCheckDelay": {
+      "source_hash": "232a119ecccac1863d01654eac9472258d52da57c0f714f837a3ff7372754912",
+      "tokens": [
+        "{0}"
+      ],
+      "tags": [],
+      "source_empty": false
+    },
+    "Keyed|WVC_WorkModes_EnemyCheckDelayDesc": {
+      "source_hash": "d3a62cc11098a7e81043d1e85c602618db1b6c2214074e97f5e5822283292f44",
+      "tokens": [],
+      "tags": [],
+      "source_empty": false
+    },
+    "Keyed|WVC_WorkModes_GroupIsChosen": {
+      "source_hash": "940fe569d9edf565e05120f9686e87a2b83ae174d6254f175e0256f8d30ba6b2",
+      "tokens": [
+        "{0}",
+        "{1}"
+      ],
+      "tags": [],
+      "source_empty": false
+    }
+  }
+}

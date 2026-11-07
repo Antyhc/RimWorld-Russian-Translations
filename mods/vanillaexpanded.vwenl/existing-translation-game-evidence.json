@@ -1,0 +1,72 @@
+{
+  "schema_version": 1,
+  "checked_at": "2026-11-07T17:01:38.895282+00:00",
+  "package_id": "vanillaexpanded.vwenl",
+  "status": "current_existing_translation_covers_prepared_scope",
+  "existing_translation_url": "https://steamcommunity.com/sharedfiles/filedetails/?id=2126925929",
+  "existing_translation_package_id": "ow.ru.weapons",
+  "game_version": "1.7.5000 rev1275",
+  "physical_values_observed": 4,
+  "existing_russian_values_verified": 4,
+  "records": [
+    {
+      "target_id": "DefInjected|HediffDef|VWE_Dart.comps.2.instantlyPermanentLabel",
+      "raw_source_target_id": "DefInjected|HediffDef|VWE_Dart.comps.2.instantlyPermanentLabel",
+      "existing_reference_key": "DefInjected|HediffDef|VWE_Dart.comps.HediffComp_GetsPermanent.instantlyPermanentLabel",
+      "actual_value_sha256": "77455afc14036cc6e13f9c35b80c05d6dfd40a2b7740a6b97557f74ffd3df1ca",
+      "source_english_sha256": "c0f6c32c90b62f47c3fc277b1dfaec07cfb7db034ead99ca8bc9368fb3c5558c",
+      "contains_russian": true,
+      "matches_existing_reference": true,
+      "physical_owner_and_path_verified": true,
+      "our_translation_loaded": false
+    },
+    {
+      "target_id": "DefInjected|HediffDef|VWE_Dart.comps.2.permanentLabel",
+      "raw_source_target_id": "DefInjected|HediffDef|VWE_Dart.comps.2.permanentLabel",
+      "existing_reference_key": "DefInjected|HediffDef|VWE_Dart.comps.HediffComp_GetsPermanent.permanentLabel",
+      "actual_value_sha256": "ebb0cc6e7b5bee2c1137650de8a26e894b3ba7760e20f50a540ca8b433fe58ea",
+      "source_english_sha256": "da67103a6cbdda088599668320f6c0e7e9ebc0387e9d473f00ca1d3a81998a99",
+      "contains_russian": true,
+      "matches_existing_reference": true,
+      "physical_owner_and_path_verified": true,
+      "our_translation_loaded": false
+    },
+    {
+      "target_id": "DefInjected|ThingDef|VWE_Gun_Taser.verbs.0.label",
+      "raw_source_target_id": "DefInjected|ThingDef|VWE_Gun_Taser.verbs.0.label",
+      "existing_reference_key": "DefInjected|ThingDef|VWE_Gun_Taser.verbs.Standard.label",
+      "actual_value_sha256": "484568c994a2eadb3b4e3cff7a721d0ea3c018894ae9fb19f19da5baa1ce874f",
+      "source_english_sha256": "ef6691545d2c5523efed00424407cb261aeb0037d165ca5792f7f8bac3381362",
+      "contains_russian": true,
+      "matches_existing_reference": true,
+      "physical_owner_and_path_verified": true,
+      "our_translation_loaded": false
+    },
+    {
+      "target_id": "DefInjected|ThingDef|VWE_TearGasGrenade.verbs.0.label",
+      "raw_source_target_id": "DefInjected|ThingDef|VWE_TearGasGrenade.verbs.0.label",
+      "existing_reference_key": "DefInjected|ThingDef|VWE_TearGasGrenade.verbs.throw_smoke_grenade.label",
+      "actual_value_sha256": "e740614b9f31a1da437e8907038425b85a7146547ba3806d3fcfbee9892ffd6f",
+      "source_english_sha256": "2ce04bde0e09e82c1dd9133e777eb4a411758bf43ffad49a9cf40679cbff22e1",
+      "contains_russian": true,
+      "matches_existing_reference": true,
+      "physical_owner_and_path_verified": true,
+      "our_translation_loaded": false
+    }
+  ],
+  "combined_baseline_targets": 51,
+  "combined_targets_matching_reference": 51,
+  "required_package_order_verified": true,
+  "our_candidate_loaded": false,
+  "candidate_created": false,
+  "new_publication_created": false,
+  "capture_sha256": "ad3a819cfedbd15f651d0be151cc457303c32727fd2613a86ef08ecca0f77ca3",
+  "request_sha256": "216b12f7c9922b01e49dceab7a73796b8d66d21cd54e8b93e74a589a0b834569",
+  "probe_dll_sha256": "96f3f99dc9652fed754248bece020489a53276af8db44cd483e6b8b90148faeb",
+  "game_assembly_sha256": "d55aa8e47fa3c5463ca85b0eccd51f195b4bbcd04f56da3af21c2f6688a81254",
+  "baseline_localization_errors": 340,
+  "baseline_stdout_error_fatal_records": 0,
+  "personal_config_and_logs_unchanged": true,
+  "false_gap_cause": "Existing translations address named components, tools and verbs instead of numeric list positions. HeavyFlamer fields use base ThingDef rather than the raw custom definition type. Actual game readback confirms those equivalent paths.",
+  "scope": "One actual isolated Russian baseline with all three weapon originals and current Russian2126925929. Selected physical fields already match the existing Russian reference. No own supplement was added; this does not certify all text, dialog layout, colony gameplay or independent human proofreading."
+}

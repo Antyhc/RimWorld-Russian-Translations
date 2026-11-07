@@ -38,9 +38,25 @@
     "workshop_status": "not_published"
   },
   "integration": {
-    "status": "not_sent",
-    "pr_url": null,
-    "contact_url": null
+    "status": "open",
+    "pr_url": "https://github.com/OneCodeUnit/VanillaRussianExpanded/pull/47",
+    "contact_url": null,
+    "target_kind": "community_translation",
+    "target_repository_url": "https://github.com/OneCodeUnit/VanillaRussianExpanded",
+    "head_sha": "01f1afdcaecca69812fedb8911df6d9392b5fb5d",
+    "entries_submitted": 1,
+    "shared_pr_entries": 18,
+    "shared_pr_mods": 6,
+    "shared_pr_files": 9,
+    "original_native_accepted": false,
+    "community_translation_accepted": false,
+    "ai_disclosed": true,
+    "fresh_game_test_claimed": false,
+    "response_evidence": "community/author-actions-2026-11-07.json",
+    "scope": "1 value(s) in shared18-value/6-mod/9XML community contribution. Static/source review; no proposed-patch game or human proofreading claim.",
+    "checked_at": "2026-11-07T18:26:00Z",
+    "mergeable": true,
+    "latest_status_evidence": "community/final-author-readback-2026-11-07.json"
   },
   "original": {
     "author": "Oskar Potocki, Sarg Bjornson, Chowder",

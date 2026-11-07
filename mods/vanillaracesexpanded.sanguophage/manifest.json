@@ -28,14 +28,24 @@
     "linguistic": "pending",
     "source_current": false,
     "in_game": "not_tested",
-    "checked_at": "2026-10-28T09:15:27.268425+00:00"
+    "checked_at": "2026-10-28T09:15:27.268425+00:00",
+    "existing_translation_runtime_check": {
+      "status": "prepared_scope_already_russian",
+      "values_observed": 3,
+      "game_version": "1.7.5000 rev1275",
+      "evidence": "existing-translation-game-evidence.json",
+      "our_candidate_tested": false
+    }
   },
   "publication": {
     "github_url": "https://github.com/Antyhc/RimWorld-Russian-Translations/tree/main/mods/vanillaracesexpanded.sanguophage",
     "github_status": "metadata_only",
     "workshop_url": null,
     "workshop_id": null,
-    "workshop_status": "not_published"
+    "workshop_status": "not_needed_current_equivalent",
+    "release_blockers": [
+      "All three prepared fields are already supplied by current focused Russian pack2964004159; do not publish a redundant supplement."
+    ]
   },
   "integration": {
     "status": "not_sent",
@@ -96,5 +106,14 @@
     "work_stage": "installed_local",
     "saved_translation_store": true
   },
-  "work_stage": "installed_local"
+  "work_stage": "held_existing_translation_covers_prepared_scope",
+  "duplicate_translation": {
+    "status": "current_equivalent_exists",
+    "checked_at": "2026-11-07T16:57:46.204445+00:00",
+    "candidates": [
+      "https://steamcommunity.com/sharedfiles/filedetails/?id=2964004159"
+    ],
+    "scope": "All three prepared residual physical fields already resolve to Russian in the actual current focused-pack baseline. Named component paths and XML patches caused the apparent static gaps. No separate supplement is needed for this scope.",
+    "evidence": "existing-translation-game-evidence.json"
+  }
 }

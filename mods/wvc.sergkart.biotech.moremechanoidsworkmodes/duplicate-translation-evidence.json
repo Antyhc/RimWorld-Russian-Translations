@@ -1,0 +1,18 @@
+{
+  "checked_at": "2026-11-07T17:08:46.360426+00:00",
+  "native_matched": 21,
+  "native_missing_ids": [
+    "DefInjected|MainButtonDef|WVC_MechsWork.description",
+    "DefInjected|MainButtonDef|WVC_MechsWork.label"
+  ],
+  "external_workshop_id": "3226197754",
+  "current_external_check": "complete_two_fields_absent",
+  "third_party_text_copied": false,
+  "external_supported_versions": [
+    "1.4",
+    "1.5"
+  ],
+  "external_evidence": "external-translation-check.json",
+  "actual_original_native_values_preserved": 21,
+  "actual_missing_original_fields_verified": 2
+}

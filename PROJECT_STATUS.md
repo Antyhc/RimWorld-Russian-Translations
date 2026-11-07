@@ -2,7 +2,7 @@
 
 Generated from `mods/*/manifest.json` by `python scripts/rwtranslations.py registry`.
 
-Last inventory generation (UTC): 2026-11-06T18:05:38+00:00
+Last inventory generation (UTC): 2026-11-07T18:27:55+00:00
 
 The registry tracks **166 mods**: 156 saved-store records and 10 additional draft/review metadata records; 0 records have unverified store scope. Saved stores can also contain unfinished drafts. Original and translation package IDs are separate namespaces. Discovery has no fixed mod limit.
 
@@ -28,7 +28,7 @@ Steam has confirmed 17 item submissions: **11 pages verified anonymously**, 0 aw
 | [Customize Weapon](https://steamcommunity.com/sharedfiles/filedetails/?id=3834796180) | published_public_page_verification_pending | [passed](mods/vortex.customizeweapon/game-test-evidence.json) |
 | [WVC - Work Modes](https://steamcommunity.com/sharedfiles/filedetails/?id=3830010549) | public; anonymous page verified | [passed](mods/wvc.sergkart.biotech.moremechanoidsworkmodes/game-test-evidence.json) |
 
-Game QA: 968 expected Russian values loaded across the recorded isolated RimWorld 1.7.4990 rev1069, 1.7.5000 rev1275 checks. Each linked evidence file records its own baseline errors, Workshop-copy verification and UI inspection scope. Personal configuration hashes were unchanged. This is load/readback testing, **not a colony playthrough or extended gameplay test**. No independent human proofreading is claimed.
+Game QA: 947 expected Russian values loaded across the recorded isolated RimWorld 1.7.4990 rev1069, 1.7.5000 rev1275 checks. Each linked evidence file records its own baseline errors, Workshop-copy verification and UI inspection scope. Personal configuration hashes were unchanged. This is load/readback testing, **not a colony playthrough or extended gameplay test**. No independent human proofreading is claimed.
 
 Private reviewed batches: **42 managed packages / 3474 values tested**; 616 local-model tasks processed. The private model candidate has **473 values verified across 8 providers**; 3947 combined values matched. This is isolated load/readback testing, with no colony playthrough or main-profile installation approval. Translation rights and public release QA are separate. [Counts and evidence hashes](reports/reviewed-batches-2026-10-28.json).
 
@@ -36,7 +36,7 @@ The private batch results above are historical. Current source-context validatio
 
 [Workshop collection](https://steamcommunity.com/sharedfiles/filedetails/?id=3830036321): **native item and membership created; website publication pending**. Membership uses native SteamUGC AddDependency with postcondition verification; website publication is a separate step.
 
-Owner SDK confirmed private visibility (2) on 6 November. Browser management is unavailable in this session and public website requests returned HTTP 429.
+Owner SDK confirms private visibility2 on7November; browser management is unavailable because the Windows browser URL policy is unsupported.
 
 Integration proposals:
 
@@ -46,11 +46,12 @@ Integration proposals:
 - [Bulk Load For Transporters](https://github.com/Ilarion33/BulkLoadForTransporters/pull/1): open.
 - [Loading Progress](https://github.com/ilyvion/loading-progress/pull/13): accepted_translation_listing (README link to an independently published translation).
 - [XML Extensions](https://github.com/15adhami/XmlExtensions/pull/26): open.
-- [Map Preview](https://github.com/m00nl1ght-dev/MapPreview/pull/23): open.
+- [Map Preview](https://github.com/m00nl1ght-dev/MapPreview/pull/23): accepted_manually.
 - [Pick Up And Haul](https://github.com/Mehni/PickUpAndHaul/pull/72): open.
 - [Smart Medicine - Continued](https://github.com/MemeGoddess/RimWorld-SmartMedicine/pull/24): open.
 - [Designator Shapes](https://github.com/merthsoft/designator-shapes/pull/15): accepted.
 - [Show Me Your Hands](https://github.com/emipa606/ShowMeYourHands/pull/12): open.
+- [Hospitality (Continued)](https://github.com/Zaljerem/Hospitality/pull/16): open.
 - [Vanilla Expanded Framework](https://github.com/OneCodeUnit/VanillaRussianExpanded/pull/47): open (community translation repository; original-native acceptance not claimed).
 - [ReGrowth 2](https://github.com/OneCodeUnit/VanillaRussianExpanded/pull/46): accepted_into_community_translation (community translation repository; original-native acceptance not claimed).
 - [Yet Another Research Tree (YART)](https://github.com/csh1668/YetAnotherResearchTree/pull/6): open.
@@ -58,8 +59,11 @@ Integration proposals:
 - [Vanilla Gravship Expanded - Chapter 1](https://github.com/OneCodeUnit/VanillaRussianExpanded/pull/47): open (community translation repository; original-native acceptance not claimed).
 - [Vanilla Events Expanded](https://github.com/OneCodeUnit/VanillaRussianExpanded/pull/47): open (community translation repository; original-native acceptance not claimed).
 - [Vanilla Landmarks Expanded](https://github.com/OneCodeUnit/VanillaRussianExpanded/pull/47): open (community translation repository; original-native acceptance not claimed).
+- [Vanilla Ideology Expanded - Memes and Structures](https://github.com/OneCodeUnit/VanillaRussianExpanded/pull/47): open (community translation repository; original-native acceptance not claimed).
+- [Vanilla Psycasts Expanded](https://github.com/OneCodeUnit/VanillaRussianExpanded/pull/47): open (community translation repository; original-native acceptance not claimed).
 - [Customize Weapon](https://github.com/realloon/CustomizeWeapon/pull/10): open.
-- [WVC - Work Modes](https://github.com/WVCSergkart/MoreMechanoidsWorkModes/pull/8): open.
+- [WVC - Work Modes](https://github.com/WVCSergkart/MoreMechanoidsWorkModes/pull/9): open.
+- [WVC - Work Modes, earlier contribution](https://github.com/WVCSergkart/MoreMechanoidsWorkModes/pull/8): accepted.
 - [Dynamic Trade Interface](https://github.com/Zeracronius/DynamicTradeInterface/pull/79): open.
 
 Current pilot covers are original typographic fallback designs. Original-art permission requests remain separate and do not block these covers. Other records with unconfirmed translation rights are held from distribution.
@@ -81,17 +85,17 @@ The 13 source-drift packages were refreshed. Targeted repairs added 20 strings, 
 | github_published | 17 |
 | workshop_submitted | 17 |
 | workshop_published | 11 |
-| pull_requests | 18 |
-| integration_records | 21 |
-| accepted | 2 |
+| pull_requests | 20 |
+| integration_records | 24 |
+| accepted | 3 |
 | awaiting_rights | 85 |
 | needs_update | 13 |
 | freshness_unverified | 149 |
 | static_inventory_pass | 129 |
 | static_inventory_flagged | 20 |
 | static_findings | 49 |
-| repository_monitors | 30 |
-| pull_request_monitors | 18 |
+| repository_monitors | 34 |
+| pull_request_monitors | 19 |
 | icon_permission_requests | 2 |
 | workshop_public_pages_verified | 11 |
 | workshop_content_check_pending | 0 |

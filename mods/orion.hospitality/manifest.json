@@ -79,12 +79,25 @@
     "workshop_status": "not_published"
   },
   "integration": {
-    "status": "translation_offered",
-    "pr_url": null,
+    "status": "open",
+    "pr_url": "https://github.com/Zaljerem/Hospitality/pull/16",
     "contact_url": "https://github.com/Zaljerem/Hospitality/issues/14",
-    "contact_status": "awaiting_response",
+    "contact_status": "author_welcomes_localizations",
     "offered_at": "2026-11-06",
-    "response_evidence": "community/outreach-2026-11-06.json"
+    "response_evidence": "community/author-actions-2026-11-07.json",
+    "target_kind": "original_mod",
+    "entries_submitted": 2,
+    "head_sha": "417ea7b76e1725d60b7a1ed4d3a8d5d90e37172e",
+    "original_native_accepted": false,
+    "native_xml_submitted": true,
+    "fresh_game_test_claimed": false,
+    "scope": "Two existing thought wordings corrected; all 31 earlier draft targets already have native aliases. Static QA only.",
+    "checked_at": "2026-11-07T18:26:00Z",
+    "mergeable": true,
+    "contact_response_url": "https://github.com/Zaljerem/Hospitality/issues/14#issuecomment-6700087521",
+    "contact_response_created_at": "2026-11-07T01:07:01Z",
+    "contact_response_evidence": "community/author-status-2026-11-07.json",
+    "latest_status_evidence": "community/final-author-readback-2026-11-07.json"
   },
   "work_stage": "reviewed_uninstalled",
   "inventory": {

@@ -497,7 +497,10 @@ def registry(root=ROOT):
         item["manifest"] = path.relative_to(root).as_posix()
         records.append(item)
     static = [m.get("inventory", {}).get("local_static_audit", {}) for m in records]
-    pr_urls = {m["integration"]["pr_url"].rstrip("/") for m in records if m.get("integration", {}).get("pr_url")}
+    monitored_pr_urls = {m["integration"]["pr_url"].rstrip("/") for m in records if m.get("integration", {}).get("pr_url")}
+    pr_urls = monitored_pr_urls | {entry["pr_url"].rstrip("/") for m in records
+                                  for entry in m.get("integration", {}).get("pr_history", [])
+                                  if entry.get("pr_url")}
     return {"schema_version": 1, "generated_at": utcnow(), "mods": records, "counts": {
         "translations": len(records),
         "saved_store_records": sum(m.get("inventory", {}).get("saved_translation_store") is True for m in records),
@@ -514,7 +517,7 @@ def registry(root=ROOT):
         "workshop_published": sum(m.get("publication", {}).get("anonymous_page_verified") is True for m in records),
         "pull_requests": len(pr_urls),
         "integration_records": sum(bool(m.get("integration", {}).get("pr_url")) for m in records),
-        "accepted": sum(m.get("integration", {}).get("status") == "accepted" for m in records),
+        "accepted": sum(m.get("integration", {}).get("status") in ("accepted", "accepted_manually") for m in records),
         "awaiting_rights": sum(not confirmed_rights(m, "translation") for m in records),
         "needs_update": sum(m.get("qa", {}).get("update_required") is True or "source_snapshot_drift" in m.get("inventory", {}).get("local_static_audit", {}).get("issue_kinds", []) for m in records),
         "freshness_unverified": sum(m.get("qa", {}).get("source_current") is not True for m in records),
@@ -522,7 +525,7 @@ def registry(root=ROOT):
         "static_inventory_flagged": sum(bool(x.get("issue_kinds") or x.get("issues")) for x in static),
         "static_findings": sum(x.get("issue_count", sum(i.get("count", 1) for i in x.get("issues", []))) for x in static),
         "repository_monitors": sum(bool(m.get("monitor", {}).get("github_tree")) for m in records),
-        "pull_request_monitors": len(pr_urls),
+        "pull_request_monitors": len(monitored_pr_urls),
         "icon_permission_requests": sum((m.get("rights", {}).get("icon", {}).get("permission_requested") is True) or (m.get("original_art_permission_request") or {}).get("permission_requested") is True for m in records),
         "workshop_public_pages_verified": sum(m.get("publication", {}).get("anonymous_page_verified") is True for m in records),
         "workshop_content_check_pending": sum(m.get("publication", {}).get("workshop_status") == "submitted_public_automatic_content_check" for m in records),
@@ -590,6 +593,9 @@ def status_markdown(reg, root=None):
             if integration.get("target_kind") == "translation_listing":
                 target = " (README link to an independently published translation)"
             lines.append(f"- [{mod.get('name', mod['package_id'])}]({integration['pr_url']}): {integration.get('status', 'unknown')}{target}.")
+        for entry in integration.get("pr_history", []):
+            if entry.get("pr_url"):
+                lines.append(f"- [{mod.get('name', mod['package_id'])}, earlier contribution]({entry['pr_url']}): {entry.get('status', 'unknown')}.")
     lines += ["", "Current pilot covers are original typographic fallback designs. Original-art permission requests remain separate and do not block these covers. Other records with unconfirmed translation rights are held from distribution.", "",
               "The 13 source-drift packages were refreshed. Targeted repairs added 20 strings, updated seven Russian texts and preserved 15 correct translations with new source hashes across five packages. These repairs have no new in-game test. Large outstanding deltas and stale custom-field proofs remain under review; historical static findings are not a count of broken translations.", "", "| Metric | Count |", "|---|---:|"]
     lines.extend(f"| {key} | {value} |" for key, value in counts.items())
@@ -749,7 +755,11 @@ def check_integration(mod, cache=None):
                 "translation_listing": "listed_in_readme",
             }.get(integration.get("target_kind"), "accepted")
         elif pr.get("state") == "closed":
-            status = "closed_unmerged"
+            manual = integration.get("manual_acceptance", {})
+            status = "accepted_manually" if (manual.get("verified") is True
+                and integration.get("original_native_accepted") is True
+                and re.fullmatch(r"[0-9a-f]{40}", str(manual.get("source_commit", "")))
+                and manual.get("evidence")) else "closed_unmerged"
         elif pr.get("state") == "open":
             decisive = {}
             for page in range(1, 11):
@@ -766,8 +776,8 @@ def check_integration(mod, cache=None):
             status = "changes_requested" if "CHANGES_REQUESTED" in decisive.values() else "open"
         else:
             raise ValueError("Unexpected pull request state")
-        action_required = status in ("accepted", "accepted_into_community_translation", "listed_in_readme", "closed_unmerged", "changes_requested") and integration.get("status") != status
-        return {"package_id": mod["package_id"], "pr_url": url, "status": status, "recorded_status": integration.get("status"), "action_required": action_required, "head_sha": pr.get("head", {}).get("sha"), "merged_at": pr.get("merged_at")}
+        action_required = status in ("accepted", "accepted_manually", "accepted_into_community_translation", "listed_in_readme", "closed_unmerged", "changes_requested") and integration.get("status") != status
+        return {"package_id": mod["package_id"], "pr_url": url, "status": status, "recorded_status": integration.get("status"), "action_required": action_required, "head_sha": pr.get("head", {}).get("sha"), "merged_at": pr.get("merged_at"), "github_pr_state": "merged" if pr.get("merged_at") else pr.get("state")}
     except Exception as ex:
         return {"package_id": mod["package_id"], "pr_url": url, "status": "error", "action_required": True, "error": str(ex)}
 

@@ -1,0 +1,259 @@
+{
+  "checked_at": "2026-11-07T17:42:34.798033+00:00",
+  "scope": "Classification of one recorded Royalty-only Psycasts baseline, no new launch, no source/settings changes. Attribution uses the unique matching error key and filename in actual active-package Russian source archives/XML. Runtime capture itself does not expose an error-source package field.",
+  "errors_total": 70,
+  "general_errors": 0,
+  "source_package_counts": {
+    "ludeon.rimworld": 15,
+    "ludeon.rimworld.royalty": 52,
+    "ow.ru.psy": 3
+  },
+  "error_type_counts": {
+    "list_index_out_of_bounds": 10,
+    "field_or_key_missing_at_resolved_path": 34,
+    "named_list_handle_unavailable": 11,
+    "duplicate_alias_to_same_field": 4,
+    "definition_unavailable": 11
+  },
+  "official_russian_archive_sha256": {
+    "ludeon.rimworld": "8b333cdc253c04912ac19f91b78154b8f4fe4dd8022bcc022b78290f67caa9e6",
+    "ludeon.rimworld.royalty": "af146214c27ef2742874262b06a377e44a59790a809d6c3cb59bfa77e8bc7f5c"
+  },
+  "unavailable_definitions_explained_by_inactive_dlc": 10,
+  "unavailable_definition_keys_with_no_static_definition": [
+    "Filth_RevenantBlood.label"
+  ],
+  "duplicate_alias_records_with_equal_value_hashes": 2,
+  "duplicate_alias_records_with_different_value_hashes": 2,
+  "duplicate_alias_pairs_with_same_placeholder_token_sets": 3,
+  "duplicate_alias_pairs_with_different_placeholder_token_sets": 1,
+  "source_package_and_error_type_counts": {
+    "ludeon.rimworld": {
+      "list_index_out_of_bounds": 4,
+      "field_or_key_missing_at_resolved_path": 2,
+      "definition_unavailable": 4,
+      "named_list_handle_unavailable": 5
+    },
+    "ludeon.rimworld.royalty": {
+      "field_or_key_missing_at_resolved_path": 32,
+      "named_list_handle_unavailable": 6,
+      "list_index_out_of_bounds": 6,
+      "duplicate_alias_to_same_field": 4,
+      "definition_unavailable": 4
+    },
+    "ow.ru.psy": {
+      "definition_unavailable": 3
+    }
+  },
+  "alias_collision_source_example": {
+    "package_id": "ludeon.rimworld.royalty",
+    "relative_source": "Defs/QuestScriptDefs/Intro/Script_Intro_Wimp.xml",
+    "source_file_sha256": "d23191ee1fcbfeb14b1983e32a3c3e68c0a0cb0b6a8d271e8dda20eaa7197732",
+    "reused_text_tkey": "LetterTextShuttleDestroyed",
+    "separate_english_nodes_using_same_tkey": 2,
+    "source_nodes_have_different_text": true,
+    "source_node_fail_ending_placeholder_present": [
+      true,
+      false
+    ],
+    "interpretation": "The installed English source reuses one text TKey for destroyed and left-behind shuttle events. The recorded Russian duplicate-alias collision therefore also involves differing English contexts; do not blindly deduplicate or alter placeholders in the Russian archive."
+  },
+  "provider_specific_count": 3,
+  "provider_specific_records": [
+    {
+      "def_type": "Verse.ThingDef",
+      "source_filename": "Mote_Visual_psy.xml",
+      "logical_keys": [
+        "Mote_NoctolEyes.label"
+      ],
+      "kind": "definition_unavailable",
+      "language_source_packages": [
+        "ow.ru.psy"
+      ],
+      "language_sources": [
+        {
+          "package_id": "ow.ru.psy",
+          "relative_source": "1.6/Main/Languages/Russian/DefInjected/ThingDef/Mote_Visual_psy.xml"
+        }
+      ],
+      "installed_definition_sources": [
+        {
+          "package_id": "ludeon.rimworld.anomaly",
+          "relative_source": "Defs/Effects/Mote_Visual.xml",
+          "may_require": null,
+          "may_require_any": null
+        }
+      ]
+    },
+    {
+      "def_type": "Verse.ThingDef",
+      "source_filename": "Mote_Visual_psy.xml",
+      "logical_keys": [
+        "Mote_ObeliskExplosionWarmupArea.label"
+      ],
+      "kind": "definition_unavailable",
+      "language_source_packages": [
+        "ow.ru.psy"
+      ],
+      "language_sources": [
+        {
+          "package_id": "ow.ru.psy",
+          "relative_source": "1.6/Main/Languages/Russian/DefInjected/ThingDef/Mote_Visual_psy.xml"
+        }
+      ],
+      "installed_definition_sources": [
+        {
+          "package_id": "ludeon.rimworld.anomaly",
+          "relative_source": "Defs/Effects/Mote_Visual.xml",
+          "may_require": null,
+          "may_require_any": null
+        }
+      ]
+    },
+    {
+      "def_type": "Verse.ThingDef",
+      "source_filename": "Mote_Visual_psy.xml",
+      "logical_keys": [
+        "Mote_PsychicBanshee.label"
+      ],
+      "kind": "definition_unavailable",
+      "language_source_packages": [
+        "ow.ru.psy"
+      ],
+      "language_sources": [
+        {
+          "package_id": "ow.ru.psy",
+          "relative_source": "1.6/Main/Languages/Russian/DefInjected/ThingDef/Mote_Visual_psy.xml"
+        }
+      ],
+      "installed_definition_sources": [
+        {
+          "package_id": "ludeon.rimworld.anomaly",
+          "relative_source": "Defs/Effects/Mote_Visual.xml",
+          "may_require": null,
+          "may_require_any": null
+        }
+      ]
+    }
+  ],
+  "wrong_placeholder_errors_reported": 0,
+  "unresolved_or_ambiguous_source_count": 0,
+  "examples_by_error_type": {
+    "list_index_out_of_bounds": [
+      {
+        "def_type": "Verse.PawnRenderTreeDef",
+        "logical_keys": [
+          "Humanlike.root.children.0.children.4.debugLabel"
+        ],
+        "language_source_packages": [
+          "ludeon.rimworld"
+        ]
+      },
+      {
+        "def_type": "Verse.PawnRenderTreeDef",
+        "logical_keys": [
+          "Humanlike.root.children.2.children.6.debugLabel"
+        ],
+        "language_source_packages": [
+          "ludeon.rimworld"
+        ]
+      }
+    ],
+    "field_or_key_missing_at_resolved_path": [
+      {
+        "def_type": "RimWorld.QuestScriptDef",
+        "logical_keys": [
+          "ThreatReward_Raid_Joiner.LetterLabelChasing.value.slateRef"
+        ],
+        "language_source_packages": [
+          "ludeon.rimworld"
+        ]
+      },
+      {
+        "def_type": "RimWorld.QuestScriptDef",
+        "logical_keys": [
+          "ThreatReward_Raid_Joiner.LetterTextChasing.value.slateRef"
+        ],
+        "language_source_packages": [
+          "ludeon.rimworld"
+        ]
+      }
+    ],
+    "named_list_handle_unavailable": [
+      {
+        "def_type": "RimWorld.QuestScriptDef",
+        "logical_keys": [
+          "EndGame_RoyalAscent.root.nodes.lodgersXenogermAbsorbed.node.nodes.Letter.label.slateRef"
+        ],
+        "language_source_packages": [
+          "ludeon.rimworld.royalty"
+        ]
+      },
+      {
+        "def_type": "RimWorld.QuestScriptDef",
+        "logical_keys": [
+          "EndGame_RoyalAscent.root.nodes.lodgersXenogermAbsorbed.node.nodes.Letter.text.slateRef"
+        ],
+        "language_source_packages": [
+          "ludeon.rimworld.royalty"
+        ]
+      }
+    ],
+    "duplicate_alias_to_same_field": [
+      {
+        "def_type": "RimWorld.QuestScriptDef",
+        "logical_keys": [
+          "Hospitality_Util_Worker.LetterLabelGuestLost.slateRef",
+          "Hospitality_Util_Worker.root.nodes.lodgersLeftBehind.node.nodes.Letter.label.slateRef"
+        ],
+        "language_source_packages": [
+          "ludeon.rimworld.royalty"
+        ]
+      },
+      {
+        "def_type": "RimWorld.QuestScriptDef",
+        "logical_keys": [
+          "Hospitality_Util_Worker.LetterTextGuestLost.slateRef",
+          "Hospitality_Util_Worker.root.nodes.lodgersLeftBehind.node.nodes.Letter.text.slateRef"
+        ],
+        "language_source_packages": [
+          "ludeon.rimworld.royalty"
+        ]
+      }
+    ],
+    "definition_unavailable": [
+      {
+        "def_type": "RimWorld.StatDef",
+        "logical_keys": [
+          "EMPResistance.label"
+        ],
+        "language_source_packages": [
+          "ludeon.rimworld"
+        ]
+      },
+      {
+        "def_type": "RimWorld.StatDef",
+        "logical_keys": [
+          "EMPResistance.description"
+        ],
+        "language_source_packages": [
+          "ludeon.rimworld"
+        ]
+      }
+    ]
+  },
+  "interpretation": [
+    "No error in this capture reports mismatched translation placeholders. These are injection-path, missing-definition/handle, or duplicate-alias diagnostics; they are not70 demonstrated missing player-facing Russian texts.",
+    "Most entries belong to official Core/Royalty Russian archives. Do not attribute their failures to the Psycasts Russian provider or our package.",
+    "Some missing definitions/handles require expansions that were inactive in this Royalty-only case. Static source gates and changed positional paths must be reviewed before calling entries obsolete or deleting them.",
+    "Named and logical duplicate aliases refer to the same field; duplicates can be low impact when their value hashes match.",
+    "The three provider-specific mote names exist in Anomaly definitions; Anomaly was intentionally inactive. Check conditional provider resources before proposing changes, and preserve translations for users with Anomaly.",
+    "The selected three core Psycasts readbacks are verified separately: one real English label and two already-Russian quest fields. Fourteen optional Puppeteer fields were not tested."
+  ],
+  "future_actions": [
+    "Keep official Core/Royalty archive observations separate from the provider PR; do not alter installed game files.",
+    "Review the three provider-specific Anomaly-dependent mote translations for conditional loading, rather than blanket deletion. No new provider change was applied.",
+    "Review the one verified English Hediff label through the already prepared provider contribution.",
+    "Any repair of positional QuestScript or render-tree paths needs active-context resolution or an independent full-expansion baseline before editing."
+  ]
+}

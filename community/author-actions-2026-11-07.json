@@ -1,0 +1,116 @@
+{
+  "schema": 1,
+  "date": "2026-11-07",
+  "verified_actions": [
+    {
+      "type": "pull_request",
+      "url": "https://github.com/WVCSergkart/MoreMechanoidsWorkModes/pull/9",
+      "repository": "WVCSergkart/MoreMechanoidsWorkModes",
+      "package_ids": [
+        "wvc.sergkart.biotech.moremechanoidsworkmodes"
+      ],
+      "entries_submitted": 2,
+      "head_sha": "772a66e2863430974efbf8b7577f22fa65949569",
+      "body_readback_equal": true,
+      "scope": "Two missing MainButtonDef values under the conditional 1.7/Odyssey language root. Prior merged PR8's 21 values retained.",
+      "ai_disclosed": true,
+      "fresh_game_test_claimed": false
+    },
+    {
+      "type": "pull_request",
+      "url": "https://github.com/Zaljerem/Hospitality/pull/16",
+      "repository": "Zaljerem/Hospitality",
+      "package_ids": [
+        "orion.hospitality"
+      ],
+      "entries_submitted": 2,
+      "head_sha": "417ea7b76e1725d60b7a1ed4d3a8d5d90e37172e",
+      "body_readback_equal": true,
+      "scope": "Two existing Russian thought values corrected; 51 other parsed values unchanged. Old 31 draft targets already correspond to existing native stage aliases.",
+      "contribution_license": "CC0 for independently authored changes; existing material retains its license.",
+      "ai_disclosed": true,
+      "fresh_game_test_claimed": false
+    },
+    {
+      "type": "comment_in_existing_issue",
+      "url": "https://github.com/SmashPhil/Vehicle-Framework/issues/380#issuecomment-6710399810",
+      "repository": "SmashPhil/Vehicle-Framework",
+      "package_ids": [
+        "smashphil.vehicleframework"
+      ],
+      "body_readback_equal": true,
+      "scope": "Acknowledges author clarification and excludes the unused VF_JobLimitations candidate; no replacement translation or native integration claimed."
+    },
+    {
+      "type": "translation_offer_issue",
+      "url": "https://github.com/erdelf/AlienRaces/issues/126",
+      "repository": "erdelf/AlienRaces",
+      "package_ids": [
+        "erdelf.humanoidalienraces"
+      ],
+      "body_readback_equal": true,
+      "ai_disclosed": true,
+      "fresh_game_test_claimed": false,
+      "rights_request_required": false,
+      "scope": "151drafttasks/199targetfields offered, historical28October load/readback stated with current-source/game limitations. Existing MIT source terms retained; no original artwork grant inferred.",
+      "response_url": "https://github.com/erdelf/AlienRaces/issues/126#issuecomment-6710979837",
+      "author_response": "author_prefers_standalone",
+      "issue_state": "closed"
+    },
+    {
+      "type": "coordination_and_permission_request_in_existing_pr",
+      "url": "https://github.com/NathanIkola/LightsOut/pull/9#issuecomment-6710826028",
+      "package_ids": [
+        "juanlopez2008.lightsout"
+      ],
+      "body_readback_equal": true,
+      "ai_disclosed": true,
+      "fresh_game_test_claimed": false,
+      "repository": "NathanIkola/LightsOut",
+      "permission_received": false,
+      "rights_request_required": true,
+      "existing_other_contributor_pr_preserved": true,
+      "files_submitted": 0,
+      "scope": "Acknowledges existing21-key Russian proposal and asks the maintainer for a preferred coordination route and independent original-required free Workshop text-pack permission. No other contributor text copied."
+    },
+    {
+      "type": "pull_request_update",
+      "url": "https://github.com/OneCodeUnit/VanillaRussianExpanded/pull/47",
+      "package_ids": [
+        "oskarpotocki.vanillafactionsexpanded.core",
+        "vanillaexpanded.gravship",
+        "vanillaexpanded.vee",
+        "vanillaexpanded.vexploratione",
+        "vanillaexpanded.vmemese",
+        "vanillaexpanded.vpsycastse"
+      ],
+      "body_readback_equal": true,
+      "ai_disclosed": true,
+      "fresh_game_test_claimed": false,
+      "entries_added": 2,
+      "repository": "OneCodeUnit/VanillaRussianExpanded",
+      "head_sha": "01f1afdcaecca69812fedb8911df6d9392b5fb5d",
+      "entries_submitted_total_in_pr": 18,
+      "entries_added_this_update": 2,
+      "previous_entries_preserved": 16,
+      "changed_xml_files_total": 9,
+      "target_kind": "community_translation",
+      "original_native_accepted": false,
+      "license": "CC-BY-NC-SA-4.0"
+    }
+  ],
+  "summary": {
+    "new_pull_requests": 2,
+    "entries_submitted": 6,
+    "comments_in_existing_issues": 1,
+    "new_translation_offer_issues": 1,
+    "new_pull_request_entries": 4,
+    "existing_pull_requests_updated": 1,
+    "added_values_in_existing_pr": 2,
+    "comments_in_existing_pull_requests": 1
+  },
+  "notes": [
+    "All action URLs, submitted branches and bodies were read back after submission.",
+    "No new game test, independent human proofreading, Steam action, profile modification or rights change is claimed for these actions."
+  ]
+}

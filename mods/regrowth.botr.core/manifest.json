@@ -51,7 +51,11 @@
     "review_changes_requested": false,
     "merge_conflicts": null,
     "response_evidence": "community/integration-status-2026-11-06.json",
-    "accepted_terminology": "Maintainer revised the description to use светолес; accepted variant retained in provenance."
+    "accepted_terminology": "Maintainer revised the description to use светолес; accepted variant retained in provenance.",
+    "checked_at": "2026-11-07 16:53:25 UTC",
+    "mergeable": null,
+    "human_change_request_pending": false,
+    "latest_status_evidence": "community/author-status-2026-11-07.json"
   },
   "original": {
     "author": "Helixien",

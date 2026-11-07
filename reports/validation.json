@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-06T18:05:39+00:00",
+  "generated_at": "2026-11-07T18:27:55+00:00",
   "scope": "Static files only; no RimWorld game test is performed.",
   "release_gates": false,
   "mods": [
@@ -1433,7 +1433,7 @@
       "package_id": "wvc.sergkart.biotech.moremechanoidsworkmodes",
       "errors": [],
       "warnings": [],
-      "language_entries": 23,
+      "language_entries": 2,
       "release_eligible": false
     },
     {

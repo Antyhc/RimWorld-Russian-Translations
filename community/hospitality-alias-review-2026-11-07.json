@@ -1,0 +1,292 @@
+{
+  "schema": 1,
+  "checked_date": "2026-11-07",
+  "package_id": "orion.hospitality",
+  "source_commit": "d465bdc07b88d77eb3d158c215af388dcf771863",
+  "draft_targets_checked": 31,
+  "native_aliases_present": 31,
+  "changed_effective_english_sources": 2,
+  "runtime_alias_resolution_tested": false,
+  "decision": "No missing thought-stage keys confirmed. Existing named/numeric native aliases correspond to all old targets; do not publish duplicate index-based translations. Two focused corrections to existing Russian wording are proposed separately.",
+  "entries": [
+    {
+      "draft_target": "DefInjected|ThoughtDef|EndorsedByRecruiter.stages.0.label",
+      "numeric_alias": "EndorsedByRecruiter.stages.0.label",
+      "named_alias": "EndorsedByRecruiter.stages.endorsed_by_recruiter.label",
+      "native_key": "EndorsedByRecruiter.stages.endorsed_by_recruiter.label",
+      "native_present": true,
+      "native_value_sha256": "87b47641f9dd48ce8bf26fac02460d34419e0a0d6f2806aaf443f70d40df1360",
+      "draft_source_still_matches_effective_english": false
+    },
+    {
+      "draft_target": "DefInjected|ThoughtDef|GuestCantAffordBed.stages.0.description",
+      "numeric_alias": "GuestCantAffordBed.stages.0.description",
+      "named_alias": "GuestCantAffordBed.stages.cant_afford_a_bed.description",
+      "native_key": "GuestCantAffordBed.stages.cant_afford_a_bed.description",
+      "native_present": true,
+      "native_value_sha256": "5cb93ae31633577723a42f1cb7fee1e104bd76fe62fff17cd48beecaeff788b0",
+      "draft_source_still_matches_effective_english": true
+    },
+    {
+      "draft_target": "DefInjected|ThoughtDef|GuestPleasedRelationship.stages.0.labelSocial",
+      "numeric_alias": "GuestPleasedRelationship.stages.0.labelSocial",
+      "named_alias": "GuestPleasedRelationship.stages.charmed_by_colonist.labelSocial",
+      "native_key": "GuestPleasedRelationship.stages.charmed_by_colonist.labelSocial",
+      "native_present": true,
+      "native_value_sha256": "2d9bdac5d4a6aa63ded27fe86844727ba97c4e5e229e58d3af4e707c72d2206a",
+      "draft_source_still_matches_effective_english": true
+    },
+    {
+      "draft_target": "DefInjected|ThoughtDef|EndorsedByRecruiter.stages.0.labelSocial",
+      "numeric_alias": "EndorsedByRecruiter.stages.0.labelSocial",
+      "named_alias": "EndorsedByRecruiter.stages.endorsed_by_recruiter.labelSocial",
+      "native_key": "EndorsedByRecruiter.stages.endorsed_by_recruiter.labelSocial",
+      "native_present": true,
+      "native_value_sha256": "c7652d78c617c49aac54e17f724dc7a54e847419421b025f4fa0144a1bc927b3",
+      "draft_source_still_matches_effective_english": true
+    },
+    {
+      "draft_target": "DefInjected|ThoughtDef|GuestBedCount.stages.0.description",
+      "numeric_alias": "GuestBedCount.stages.0.description",
+      "named_alias": "GuestBedCount.stages.no_guest_beds.description",
+      "native_key": "GuestBedCount.stages.no_guest_beds.description",
+      "native_present": true,
+      "native_value_sha256": "805b2514d9eaa6759bc98443f950cb77c87c407c277db8cd455caffa4ef8a255",
+      "draft_source_still_matches_effective_english": true
+    },
+    {
+      "draft_target": "DefInjected|ThoughtDef|GuestBedCount.stages.1.description",
+      "numeric_alias": "GuestBedCount.stages.1.description",
+      "named_alias": "GuestBedCount.stages.not_enough_guest_beds.description",
+      "native_key": "GuestBedCount.stages.not_enough_guest_beds.description",
+      "native_present": true,
+      "native_value_sha256": "57a8993a91941fa6b1454890da40ccf0d4c7790e5fd2e6e5b9d877b5eb6782b5",
+      "draft_source_still_matches_effective_english": true
+    },
+    {
+      "draft_target": "DefInjected|ThoughtDef|GuestRecruitmentForced.stages.0.description",
+      "numeric_alias": "GuestRecruitmentForced.stages.0.description",
+      "named_alias": "GuestRecruitmentForced.stages.involuntarily_recruited.description",
+      "native_key": "GuestRecruitmentForced.stages.involuntarily_recruited.description",
+      "native_present": true,
+      "native_value_sha256": "e5c9f162078a65bba3bc4cb7ad71546eb292af7a91dd72f1097f161631a45e94",
+      "draft_source_still_matches_effective_english": true
+    },
+    {
+      "draft_target": "DefInjected|ThoughtDef|GuestDismissiveAttitude.stages.0.label",
+      "numeric_alias": "GuestDismissiveAttitude.stages.0.label",
+      "named_alias": "GuestDismissiveAttitude.stages.tired_of_talking.label",
+      "native_key": "GuestDismissiveAttitude.stages.tired_of_talking.label",
+      "native_present": true,
+      "native_value_sha256": "193d4532ff0321745f15979485ab4a71e843effc7ccf04940cff248e15db5457",
+      "draft_source_still_matches_effective_english": true
+    },
+    {
+      "draft_target": "DefInjected|ThoughtDef|GuestBedCount.stages.1.label",
+      "numeric_alias": "GuestBedCount.stages.1.label",
+      "named_alias": "GuestBedCount.stages.not_enough_guest_beds.label",
+      "native_key": "GuestBedCount.stages.not_enough_guest_beds.label",
+      "native_present": true,
+      "native_value_sha256": "ea7c30296e8a777e38cd41334af6b7bbcf32b2c3d7045e1c348abe020e6f64cf",
+      "draft_source_still_matches_effective_english": true
+    },
+    {
+      "draft_target": "DefInjected|ThoughtDef|GuestBedCount.stages.2.label",
+      "numeric_alias": "GuestBedCount.stages.2.label",
+      "named_alias": "GuestBedCount.stages.enough_beds.label",
+      "native_key": "GuestBedCount.stages.enough_beds.label",
+      "native_present": true,
+      "native_value_sha256": "80c020b17c45386c3d4a92757b85fba20d14f971f1c8c18e1b942b097dbf95d2",
+      "draft_source_still_matches_effective_english": true
+    },
+    {
+      "draft_target": "DefInjected|ThoughtDef|GuestExpensiveFood.stages.expensive_food.description",
+      "numeric_alias": "GuestExpensiveFood.stages.0.description",
+      "named_alias": "GuestExpensiveFood.stages.expensive_food.description",
+      "native_key": "GuestExpensiveFood.stages.0.description",
+      "native_present": true,
+      "native_value_sha256": "71ba98f18fe6ab5470387f4564c041d3ad6c20abc57572a43004ffe311a14069",
+      "draft_source_still_matches_effective_english": true
+    },
+    {
+      "draft_target": "DefInjected|ThoughtDef|GuestCheapFood.stages.cheap_food.description",
+      "numeric_alias": "GuestCheapFood.stages.0.description",
+      "named_alias": "GuestCheapFood.stages.cheap_food.description",
+      "native_key": "GuestCheapFood.stages.0.description",
+      "native_present": true,
+      "native_value_sha256": "43045e495346ca65e6fab803b36d7a433af22cedbd1e44a76dbeade86746e26c",
+      "draft_source_still_matches_effective_english": true
+    },
+    {
+      "draft_target": "DefInjected|ThoughtDef|GuestPleasedRelationship.stages.0.description",
+      "numeric_alias": "GuestPleasedRelationship.stages.0.description",
+      "named_alias": "GuestPleasedRelationship.stages.charmed_by_colonist.description",
+      "native_key": "GuestPleasedRelationship.stages.charmed_by_colonist.description",
+      "native_present": true,
+      "native_value_sha256": "2016badc32330869d3e0269d65a9eb0706b6309a99b1468771e9fe7261e31057",
+      "draft_source_still_matches_effective_english": true
+    },
+    {
+      "draft_target": "DefInjected|ThoughtDef|GuestBedCount.stages.0.label",
+      "numeric_alias": "GuestBedCount.stages.0.label",
+      "named_alias": "GuestBedCount.stages.no_guest_beds.label",
+      "native_key": "GuestBedCount.stages.no_guest_beds.label",
+      "native_present": true,
+      "native_value_sha256": "6e24a639600597c0980550f5b44c555785d4e33fe1f9d5132eab46247bbe2bcd",
+      "draft_source_still_matches_effective_english": true
+    },
+    {
+      "draft_target": "DefInjected|ThoughtDef|GuestPleasedRelationship.stages.0.label",
+      "numeric_alias": "GuestPleasedRelationship.stages.0.label",
+      "named_alias": "GuestPleasedRelationship.stages.charmed_by_colonist.label",
+      "native_key": "GuestPleasedRelationship.stages.charmed_by_colonist.label",
+      "native_present": true,
+      "native_value_sha256": "5b125384b917856edebf9db76d41b4794b99272391b3ae6dde61223a250da545",
+      "draft_source_still_matches_effective_english": true
+    },
+    {
+      "draft_target": "DefInjected|ThoughtDef|GuestAngered.stages.0.label",
+      "numeric_alias": "GuestAngered.stages.0.label",
+      "named_alias": "GuestAngered.stages.angered_by_recruitment.label",
+      "native_key": "GuestAngered.stages.angered_by_recruitment.label",
+      "native_present": true,
+      "native_value_sha256": "c91061aea32a7b86fe8780e2c9f9ddf7d2c265964d5f1331e204f8f86e7f41c9",
+      "draft_source_still_matches_effective_english": true
+    },
+    {
+      "draft_target": "DefInjected|ThoughtDef|EndorsedByRecruiter.stages.0.description",
+      "numeric_alias": "EndorsedByRecruiter.stages.0.description",
+      "named_alias": "EndorsedByRecruiter.stages.endorsed_by_recruiter.description",
+      "native_key": "EndorsedByRecruiter.stages.endorsed_by_recruiter.description",
+      "native_present": true,
+      "native_value_sha256": "6e540155def66c15db0a587436ede79e96f0c13d0b740dea3ae1d362f8e5ec5d",
+      "draft_source_still_matches_effective_english": true
+    },
+    {
+      "draft_target": "DefInjected|ThoughtDef|GuestOffendedRelationship.stages.0.label",
+      "numeric_alias": "GuestOffendedRelationship.stages.0.label",
+      "named_alias": "GuestOffendedRelationship.stages.insulted_by_colonist.label",
+      "native_key": "GuestOffendedRelationship.stages.insulted_by_colonist.label",
+      "native_present": true,
+      "native_value_sha256": "471be3cc7515c9db074dd337ea7b0e67940918b9743f3b56779f087dbf848b0d",
+      "draft_source_still_matches_effective_english": true
+    },
+    {
+      "draft_target": "DefInjected|ThoughtDef|GuestCheapFood.stages.cheap_food.label",
+      "numeric_alias": "GuestCheapFood.stages.0.label",
+      "named_alias": "GuestCheapFood.stages.cheap_food.label",
+      "native_key": "GuestCheapFood.stages.0.label",
+      "native_present": true,
+      "native_value_sha256": "a1fcd558cd3cf16cdae862bf01fd050af0ab3772082f365791baef2b5c830f3f",
+      "draft_source_still_matches_effective_english": true
+    },
+    {
+      "draft_target": "DefInjected|ThoughtDef|GuestCantAffordBed.stages.0.label",
+      "numeric_alias": "GuestCantAffordBed.stages.0.label",
+      "named_alias": "GuestCantAffordBed.stages.cant_afford_a_bed.label",
+      "native_key": "GuestCantAffordBed.stages.cant_afford_a_bed.label",
+      "native_present": true,
+      "native_value_sha256": "8d3bf3c3a77d06e52283c6598eb2381a1eb72cb984c064217e7714c71cefa736",
+      "draft_source_still_matches_effective_english": true
+    },
+    {
+      "draft_target": "DefInjected|ThoughtDef|GuestDismissiveAttitude.stages.0.description",
+      "numeric_alias": "GuestDismissiveAttitude.stages.0.description",
+      "named_alias": "GuestDismissiveAttitude.stages.tired_of_talking.description",
+      "native_key": "GuestDismissiveAttitude.stages.tired_of_talking.description",
+      "native_present": true,
+      "native_value_sha256": "624dbd38500de7cabc86eeaa85bcbc011e0b7544b7e07f762ffc4b05ef365296",
+      "draft_source_still_matches_effective_english": true
+    },
+    {
+      "draft_target": "DefInjected|ThoughtDef|GuestHasNoFood.stages.0.description",
+      "numeric_alias": "GuestHasNoFood.stages.0.description",
+      "named_alias": "GuestHasNoFood.stages.no_food.description",
+      "native_key": "GuestHasNoFood.stages.no_food.description",
+      "native_present": true,
+      "native_value_sha256": "95ad32cf791d50a60a37a3f858755ac11a7b54de0c2485707caea21aa5019fec",
+      "draft_source_still_matches_effective_english": true
+    },
+    {
+      "draft_target": "DefInjected|ThoughtDef|GuestOffendedRelationship.stages.0.labelSocial",
+      "numeric_alias": "GuestOffendedRelationship.stages.0.labelSocial",
+      "named_alias": "GuestOffendedRelationship.stages.insulted_by_colonist.labelSocial",
+      "native_key": "GuestOffendedRelationship.stages.insulted_by_colonist.labelSocial",
+      "native_present": true,
+      "native_value_sha256": "111e7eafea92625f48cb1a1ceb72f231069d9522cc16013b48ae5e9cd8f50a2b",
+      "draft_source_still_matches_effective_english": true
+    },
+    {
+      "draft_target": "DefInjected|ThoughtDef|GuestAngered.stages.0.description",
+      "numeric_alias": "GuestAngered.stages.0.description",
+      "named_alias": "GuestAngered.stages.angered_by_recruitment.description",
+      "native_key": "GuestAngered.stages.angered_by_recruitment.description",
+      "native_present": true,
+      "native_value_sha256": "23e2bd079ec71017cac7ee1ebdca1d916454497f85b56000ce410bf770f37958",
+      "draft_source_still_matches_effective_english": true
+    },
+    {
+      "draft_target": "DefInjected|ThoughtDef|GuestBedCount.stages.2.description",
+      "numeric_alias": "GuestBedCount.stages.2.description",
+      "named_alias": "GuestBedCount.stages.enough_beds.description",
+      "native_key": "GuestBedCount.stages.enough_beds.description",
+      "native_present": true,
+      "native_value_sha256": "7d02c2d16a7999f58b38f19664dc1fd9ccae68e32ea05357c9627807cd22fb1b",
+      "draft_source_still_matches_effective_english": false
+    },
+    {
+      "draft_target": "DefInjected|ThoughtDef|GuestExpensiveFood.stages.expensive_food.label",
+      "numeric_alias": "GuestExpensiveFood.stages.0.label",
+      "named_alias": "GuestExpensiveFood.stages.expensive_food.label",
+      "native_key": "GuestExpensiveFood.stages.0.label",
+      "native_present": true,
+      "native_value_sha256": "275436d4f2c95e8213b6282c43bbf306a6977effef81f4073ddd5aee5b1392f4",
+      "draft_source_still_matches_effective_english": true
+    },
+    {
+      "draft_target": "DefInjected|ThoughtDef|GuestBedCount.stages.3.description",
+      "numeric_alias": "GuestBedCount.stages.3.description",
+      "named_alias": "GuestBedCount.stages.lots_of_beds.description",
+      "native_key": "GuestBedCount.stages.lots_of_beds.description",
+      "native_present": true,
+      "native_value_sha256": "8f46bb10410008a7558a4d8e3cea2c5e1eeda7a92fe516eb4e6468b6c549978c",
+      "draft_source_still_matches_effective_english": true
+    },
+    {
+      "draft_target": "DefInjected|ThoughtDef|GuestBedCount.stages.3.label",
+      "numeric_alias": "GuestBedCount.stages.3.label",
+      "named_alias": "GuestBedCount.stages.lots_of_beds.label",
+      "native_key": "GuestBedCount.stages.lots_of_beds.label",
+      "native_present": true,
+      "native_value_sha256": "4926097370d1fee75f7485a36e95ae24e58faa14d4890b41df90bcc7b2909d73",
+      "draft_source_still_matches_effective_english": true
+    },
+    {
+      "draft_target": "DefInjected|ThoughtDef|GuestOffendedRelationship.stages.0.description",
+      "numeric_alias": "GuestOffendedRelationship.stages.0.description",
+      "named_alias": "GuestOffendedRelationship.stages.insulted_by_colonist.description",
+      "native_key": "GuestOffendedRelationship.stages.insulted_by_colonist.description",
+      "native_present": true,
+      "native_value_sha256": "bca0de576bc010d2cffb942a1b9b4ee44044499114c29766227d150f18e43c66",
+      "draft_source_still_matches_effective_english": true
+    },
+    {
+      "draft_target": "DefInjected|ThoughtDef|GuestRecruitmentForced.stages.0.label",
+      "numeric_alias": "GuestRecruitmentForced.stages.0.label",
+      "named_alias": "GuestRecruitmentForced.stages.involuntarily_recruited.label",
+      "native_key": "GuestRecruitmentForced.stages.involuntarily_recruited.label",
+      "native_present": true,
+      "native_value_sha256": "6548b9d704f30c18d6c8d33913e0cf72a1972e9a58ed5059cf5d0dca35abfb33",
+      "draft_source_still_matches_effective_english": true
+    },
+    {
+      "draft_target": "DefInjected|ThoughtDef|GuestHasNoFood.stages.0.label",
+      "numeric_alias": "GuestHasNoFood.stages.0.label",
+      "named_alias": "GuestHasNoFood.stages.no_food.label",
+      "native_key": "GuestHasNoFood.stages.no_food.label",
+      "native_present": true,
+      "native_value_sha256": "209af09691d6fdb13c8728ee235864593501691ce38bf61720b8b329f9d48bd9",
+      "draft_source_still_matches_effective_english": true
+    }
+  ]
+}

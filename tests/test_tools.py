@@ -93,6 +93,17 @@ class ProjectTests(unittest.TestCase):
         self.assertEqual(counts["pull_request_monitors"], 1)
         self.assertEqual(counts["integration_records"], 2)
 
+    def test_followup_pr_preserves_accepted_history_without_monitoring_it_twice(self):
+        self.mod["integration"] = {"status": "open", "pr_url": "https://github.com/author/mod/pull/9",
+            "pr_history": [{"pr_url": "https://github.com/author/mod/pull/8", "status": "accepted"},
+                           {"pr_url": "https://github.com/author/mod/pull/8/", "status": "accepted"}]}
+        self.save()
+        report = rw.registry(self.root)
+        self.assertEqual(report["counts"]["pull_requests"], 2)
+        self.assertEqual(report["counts"]["pull_request_monitors"], 1)
+        self.assertEqual(report["counts"]["integration_records"], 1)
+        self.assertIn("earlier contribution", rw.status_markdown(report, self.root))
+
     def test_shared_pr_fetches_one_consistent_snapshot_for_multiple_mod_records(self):
         self.mod["integration"] = {"status": "open", "pr_url": "https://github.com/community/translations/pull/47", "target_kind": "community_translation"}
         other = dict(self.mod, package_id="author.second")
@@ -523,6 +534,28 @@ class ProjectTests(unittest.TestCase):
         with patch.object(rw, "fetch_bytes", return_value=b'{"state":"closed","merged_at":"2026-10-28T00:00:00Z"}'):
             result = rw.check_integration(self.mod)
         self.assertFalse(result["action_required"])
+
+    def test_verified_manual_source_inclusion_is_not_a_github_merge(self):
+        self.mod["integration"] = {"pr_url": "https://github.com/author/mod/pull/7",
+            "status": "accepted_manually", "original_native_accepted": True,
+            "manual_acceptance": {"verified": True, "source_commit": "a" * 40,
+                                  "evidence": "community/native-acceptance.json"}}
+        self.save()
+        with patch.object(rw, "fetch_bytes", return_value=b'{"state":"closed","merged_at":null}'):
+            result = rw.check_integration(self.mod)
+        self.assertEqual(result["status"], "accepted_manually")
+        self.assertEqual(result["github_pr_state"], "closed")
+        self.assertIsNone(result["merged_at"])
+        self.assertFalse(result["action_required"])
+        self.assertEqual(rw.registry(self.root)["counts"]["accepted"], 1)
+
+    def test_unverified_manual_inclusion_does_not_claim_acceptance(self):
+        self.mod["integration"] = {"pr_url": "https://github.com/author/mod/pull/7",
+            "original_native_accepted": True,
+            "manual_acceptance": {"verified": False, "source_commit": "a" * 40,
+                                  "evidence": "community/native-acceptance.json"}}
+        with patch.object(rw, "fetch_bytes", return_value=b'{"state":"closed","merged_at":null}'):
+            self.assertEqual(rw.check_integration(self.mod)["status"], "closed_unmerged")
 
     def test_community_translation_merge_stays_distinct_and_acknowledged(self):
         self.mod["integration"] = {"pr_url": "https://github.com/author/community/pull/7",

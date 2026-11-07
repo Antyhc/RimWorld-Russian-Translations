@@ -16,23 +16,24 @@
       "1.6",
       "1.7"
     ],
-    "repository_url": null,
+    "repository_url": "https://github.com/WVCSergkart/MoreMechanoidsWorkModes",
     "repository_candidates": [
       "https://github.com/pardeike/HarmonyRimWorld"
     ],
-    "repository_verification": "not_remote_checked",
-    "activity": "not_remote_checked"
+    "repository_verification": "current_remote_About_package_id_and_native_values_verified",
+    "activity": "not_remote_checked",
+    "default_branch": "main"
   },
   "rights": {
     "translation": {
       "status": "confirmed",
       "license": "MIT",
-      "evidence": "https://github.com/WVCSergkart/MoreMechanoidsWorkModes/blob/main/LICENSE",
-      "attribution": "Original mod: WVC — Work Modes by Sergkart (WVCSergkart).\nOriginal Workshop: https://steamcommunity.com/sharedfiles/filedetails/?id=2888380373\nOriginal text: MIT, Copyright (c) 2023 WVCSergkart; complete notice retained in License.txt.\nRussian additions: Antyhc,2026; AI-assisted authoring and semantic review by OpenAI Codex, MIT.\nOnly 23 own missing entries; no original code, assemblies, art, textures, audio or existing/third-party Russian redistributed.\nExisting Russian pack: https://steamcommunity.com/sharedfiles/filedetails/?id=3226197754\nOriginal typographic cover by Antyhc, no original mod artwork.\nNo independent human proofreading or long-gameplay test claimed.\n",
+      "evidence": "https://github.com/WVCSergkart/MoreMechanoidsWorkModes/blob/3111581a6d12930d4066013f7a7fa7961ced7b2c/LICENSE",
+      "attribution": "Original mod: WVC — Work Modes by Sergkart (WVCSergkart).\nOriginal Workshop: https://steamcommunity.com/sharedfiles/filedetails/?id=2888380373\nOriginal text: MIT, Copyright (c) 2023 WVCSergkart; complete notice retained in License.txt.\nRussian additions: Antyhc, 2026, MIT; AI-assisted authoring and semantic review with OpenAI Codex.\nThis update retains only two missing MainButtonDef fields. The 21 entries accepted by the original author in PR8 are provided by the original and are not duplicated.\nAccepted PR: https://github.com/WVCSergkart/MoreMechanoidsWorkModes/pull/8\nOriginal typographic cover by Antyhc; no original mod artwork or third-party Russian copied.\nNo independent human proofreading or extended gameplay test claimed.\n",
       "license_evidence_file": "rights-evidence.json",
       "required_notice_files": {
         "About/License.txt": "502a81324413850bbda333f818fa0b4e4a2cb0db4e8f25037b21fea941cdae64",
-        "About/Credits.txt": "f6199396c062d519536174fa78cc7d0cefe9105318ebb0fc2c66ea9edc4b3101"
+        "About/Credits.txt": "db6ec13d1a2cca633ed7e54d7f73774c72cbf8b621c285599d882a43464976b1"
       }
     },
     "icon": {
@@ -51,22 +52,29 @@
     "linguistic": "ai_reviewed",
     "source_current": true,
     "in_game": "passed",
-    "checked_at": "2026-10-30T07:56:12.536423+00:00",
-    "source_checked_at": "2026-10-30T07:56:12.536423+00:00",
-    "payload_sha256": "1d9229cf7a94745aa2e288c18b280265f1a76983cf3a2ea8e0bdec2d44c7046b",
-    "source_snapshot_sha256": "ad74d0bb4d2554698fd64c029b3102e11f11caa0f3483d7c76778575492ab2dc",
+    "checked_at": "2026-11-07T17:08:46.360426+00:00",
+    "source_checked_at": "2026-11-07T17:08:46.360426+00:00",
+    "payload_sha256": "1b45af0589f192f345cb4b47b676d42e7a163615de494f5310b24390abaa7025",
+    "source_snapshot_sha256": "47bb9005a9f767ce62adeba36be9f990b2192244a3285b23700ff1505c09896c",
     "evidence": "qa-evidence.json",
-    "coverage": "23 own missing entries,17Keyed+6DefInjected; no existing Russian duplicated.",
+    "coverage": "Actual23-field Russian control/candidate check preserved21native values and translated2missing MainButtonDef fields.",
     "standalone_minimal_game_test": "passed_actual_control_and_candidate",
     "game_evidence": "game-test-evidence.json",
-    "game_version": "1.7.4990 rev1069",
-    "game_test_scope": "Actual isolated startup and physical language-value readback, exact active dependencies/DLC and source/payload/probe hashes; no save, extended gameplay or independent human proofreading claim.",
-    "game_test_evidence_sha256": "89ec4280c8de86075455e729c1bfe877123fdf7244d6c824e87a21248e8c7622",
-    "workshop_installation": "passed_exact_subscribed_bytes",
+    "game_version": "1.7.5000 rev1275",
+    "game_test_scope": "Actual isolated Russian original/native baseline and same context with the two-field candidate. All21 previously integrated Russian physical/Keyed values stay exact; two MainButtonDef values change from English to own Russian. Required Harmony/Biotech/original and payload/probe/source hashes, full localization-error multiset and logs verified. No save, tab layout, colony gameplay or independent human proofreading claim.",
+    "game_test_evidence_sha256": "60814b38a9ac761c1c32b446fa1ef0335e08d45b8b53914db84d0920932fa534",
+    "native_russian_preserved": 21,
+    "ui_inspected": false,
+    "previous_release": {
+      "commit": "b335d764fb2dedf0401b9345711dc2de6ebd6ad7",
+      "evidence_directory": "history/2026-10-30",
+      "payload_sha256": "1d9229cf7a94745aa2e288c18b280265f1a76983cf3a2ea8e0bdec2d44c7046b"
+    },
     "workshop_game_load": "passed_actual_subscribed_Workshop_root",
+    "workshop_installation": "passed_exact_subscribed_bytes",
     "workshop_game_evidence": "workshop-game-test-evidence.json",
-    "workshop_game_evidence_sha256": "1bb0923c669bf113d92daa985b1a1bb49387e07ef26d92f9f12beaebbbd015a2",
-    "workshop_game_test_scope": "Fresh actual load of the subscribed byte-exact Workshop item. Earlier actual English control reused only after exact original source/context, game, selected values and unchanged read-only probe verification. Exact full localization-error multiset compared. The earlier local proof remains historical; no new English-control boot, save or extended gameplay/human proof claimed."
+    "workshop_game_evidence_sha256": "4fc9991655bb3c63acefc682d1033b1b21adfa0d229a72806cdd931e285eb851",
+    "workshop_game_test_scope": "Fresh actual isolated game load from the byte-exact subscribed Workshop revision. Reused prior real Russian original control only after exact source/game/context/probe verification. All21 native values remain exact; both own fields resolve to Russian from the downloaded candidate. Full localization-error multiset and logs matched. No new control boot, tab-layout, colony gameplay or human proofreading claim."
   },
   "publication": {
     "github_url": "https://github.com/Antyhc/RimWorld-Russian-Translations/tree/main/mods/wvc.sergkart.biotech.moremechanoidsworkmodes",
@@ -84,24 +92,42 @@
     "dlc_dependency_app_id": "1826140",
     "dlc_dependency_verified": true,
     "installation_tested": true,
-    "installation_scope": "Official Steam subscription/download and exact recursive payload byte comparison; actual Workshop-root game loading is separate.",
+    "installation_scope": "Fresh exact subscribed payload byte verification and actual23-value Workshop-root native-preservation game check.",
     "github_first_public_commit": "a386b9120f422473c895d475aa35e17f4ea78893",
-    "anonymous_page_evidence": "community/workshop-public-pages-2026-10-30.json"
+    "anonymous_page_evidence": "community/workshop-public-pages-2026-10-30.json",
+    "workshop_updated_at": "2026-11-07T17:12:04.152107+00:00",
+    "anonymous_page_verification_scope": "Historical page access; the 7November content update requires separate current-site verification."
   },
   "integration": {
     "status": "open",
-    "pr_url": "https://github.com/WVCSergkart/MoreMechanoidsWorkModes/pull/8",
+    "pr_url": "https://github.com/WVCSergkart/MoreMechanoidsWorkModes/pull/9",
     "contact_url": null,
     "target_kind": "original_mod",
-    "head_sha": "dd820d445b9beb2307555bd9628f6b19bc1d26ab",
-    "submitted_at": "2026-11-06",
+    "head_sha": "772a66e2863430974efbf8b7577f22fa65949569",
+    "submitted_at": "2026-11-07T17:00:31Z",
     "native_xml_submitted": true,
     "original_native_accepted": false,
-    "entries_submitted": 21,
+    "entries_submitted": 2,
     "fresh_game_test_claimed": false,
-    "response_evidence": "community/outreach-2026-11-06.json"
+    "response_evidence": "community/author-actions-2026-11-07.json",
+    "checked_at": "2026-11-07T18:26:00Z",
+    "mergeable": true,
+    "human_change_request_pending": false,
+    "latest_status_evidence": "community/final-author-readback-2026-11-07.json",
+    "pr_history": [
+      {
+        "pr_url": "https://github.com/WVCSergkart/MoreMechanoidsWorkModes/pull/8",
+        "status": "accepted",
+        "entries_submitted": 21,
+        "original_native_accepted": true,
+        "evidence": "community/native-acceptance-2026-11-07.json"
+      }
+    ],
+    "native_entries_accepted": 21,
+    "native_integration_partial": true,
+    "scope": "Two missing MainButtonDef fields proposed; 21 earlier fields already native."
   },
-  "work_stage": "ready_for_publication",
+  "work_stage": "published_workshop_revision_verified",
   "inventory": {
     "saved_records": 0,
     "historical_approved_records": 0,
@@ -145,10 +171,18 @@
   },
   "duplicate_translation": {
     "status": "checked_no_current_equivalent",
-    "checked_at": "2026-10-30T07:56:12.536423+00:00",
-    "scope": "Current official cached Russian3226197754 has118rows, covering100/123 selected own targets. This supplement contains22 absent keys and one existing untranslated English assignment message. No third-party Russian copied; no claim that all23keys were absent.",
+    "checked_at": "2026-11-07T17:08:46.360426+00:00",
     "candidates": [
       "https://steamcommunity.com/sharedfiles/filedetails/?id=3226197754"
-    ]
+    ],
+    "scope": "Original now includes21oldreleasevalues, actuallyverifiedunchanged. The2currentMainButtonDeffieldsremainEnglishwithoutoursandbecomeRussianwithours. FreshcompleteXMLinspectionof3226197754(declares1.4/1.5,noDLL/Patches)foundneitherfield. NoexternalRussianwordingcopied; nooldpackloadedin1.7QA.",
+    "evidence": "duplicate-translation-evidence.json"
+  },
+  "monitor": {
+    "github_tree": {
+      "repository": "WVCSergkart/MoreMechanoidsWorkModes",
+      "ref": "main",
+      "baseline_file": "source.tree.json"
+    }
   }
 }
