@@ -776,7 +776,8 @@ def check_integration(mod, cache=None):
             status = "changes_requested" if "CHANGES_REQUESTED" in decisive.values() else "open"
         else:
             raise ValueError("Unexpected pull request state")
-        action_required = status in ("accepted", "accepted_manually", "accepted_into_community_translation", "listed_in_readme", "closed_unmerged", "changes_requested") and integration.get("status") != status
+        recorded_status = {"accepted_translation_listing": "listed_in_readme"}.get(integration.get("status"), integration.get("status"))
+        action_required = status in ("accepted", "accepted_manually", "accepted_into_community_translation", "listed_in_readme", "closed_unmerged", "changes_requested") and recorded_status != status
         return {"package_id": mod["package_id"], "pr_url": url, "status": status, "recorded_status": integration.get("status"), "action_required": action_required, "head_sha": pr.get("head", {}).get("sha"), "merged_at": pr.get("merged_at"), "github_pr_state": "merged" if pr.get("merged_at") else pr.get("state")}
     except Exception as ex:
         return {"package_id": mod["package_id"], "pr_url": url, "status": "error", "action_required": True, "error": str(ex)}

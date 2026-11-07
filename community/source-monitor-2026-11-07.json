@@ -1,0 +1,160 @@
+{
+  "schema_version": 1,
+  "checked_at": "2026-11-07T18:29:42+00:00",
+  "commit": "4c84a78d594a3009d5753d7eb577e7c5bb1c08d3",
+  "validation_workflow": {
+    "url": "https://github.com/Antyhc/RimWorld-Russian-Translations/actions/runs/42401460152",
+    "conclusion": "success",
+    "tests_passed": 85
+  },
+  "monitor_workflow": {
+    "url": "https://github.com/Antyhc/RimWorld-Russian-Translations/actions/runs/42401504849",
+    "conclusion": "success",
+    "artifact_id": 13585880840
+  },
+  "counts": {
+    "file_monitors": {
+      "unchanged": 22,
+      "changed_files": 12
+    },
+    "integrations": {
+      "open": 19,
+      "listed_in_readme": 1,
+      "accepted_manually": 1,
+      "accepted": 2,
+      "accepted_into_community_translation": 1
+    },
+    "workshop_monitors": {
+      "updated": 45,
+      "unchanged": 121
+    }
+  },
+  "configured_repository_trees": 34,
+  "workshop_records": 166,
+  "primary_unique_pr_urls": 19,
+  "integration_records": 24,
+  "configured_key_snapshot_sources": 0,
+  "changed_repositories": [
+    {
+      "package_id": "aoba.framework",
+      "repository": "AobaKuma/Fortified-Framework",
+      "delta_counts": {
+        "added": 29,
+        "changed": 9,
+        "removed": 0
+      }
+    },
+    {
+      "package_id": "dubwise.dubsmintmenus",
+      "repository": "Dubwise56/Dubs-Mint-Menus",
+      "delta_counts": {
+        "added": 0,
+        "changed": 2,
+        "removed": 0
+      }
+    },
+    {
+      "package_id": "ilyvion.loadingprogress",
+      "repository": "ilyvion/loading-progress",
+      "delta_counts": {
+        "added": 3,
+        "changed": 7,
+        "removed": 0
+      }
+    },
+    {
+      "package_id": "m00nl1ght.mappreview",
+      "repository": "m00nl1ght-dev/MapPreview",
+      "delta_counts": {
+        "added": 4,
+        "changed": 42,
+        "removed": 0
+      }
+    },
+    {
+      "package_id": "memegoddess.giddyup",
+      "repository": "MemeGoddess/GiddyUp2",
+      "delta_counts": {
+        "added": 1,
+        "changed": 4,
+        "removed": 0
+      }
+    },
+    {
+      "package_id": "merthsoft.designatorshapes",
+      "repository": "merthsoft/designator-shapes",
+      "delta_counts": {
+        "added": 5,
+        "changed": 0,
+        "removed": 0
+      }
+    },
+    {
+      "package_id": "orion.hospitality",
+      "repository": "Zaljerem/Hospitality",
+      "delta_counts": {
+        "added": 0,
+        "changed": 1,
+        "removed": 0
+      }
+    },
+    {
+      "package_id": "oskarpotocki.vanillafactionsexpanded.core",
+      "repository": "Vanilla-Expanded/VanillaExpandedFramework",
+      "delta_counts": {
+        "added": 2,
+        "changed": 34,
+        "removed": 0
+      }
+    },
+    {
+      "package_id": "smashphil.vehicleframework",
+      "repository": "SmashPhil/Vehicle-Framework",
+      "delta_counts": {
+        "added": 1,
+        "changed": 49,
+        "removed": 2
+      }
+    },
+    {
+      "package_id": "unon.noburnmetal",
+      "repository": "Nonunon/NoBurnMetal",
+      "delta_counts": {
+        "added": 1,
+        "changed": 5,
+        "removed": 0
+      }
+    },
+    {
+      "package_id": "vanillaexpanded.vcooke",
+      "repository": "Vanilla-Expanded/VanillaCookingExpanded",
+      "delta_counts": {
+        "added": 0,
+        "changed": 1,
+        "removed": 0
+      }
+    },
+    {
+      "package_id": "vortex.customizeweapon",
+      "repository": "realloon/CustomizeWeapon",
+      "delta_counts": {
+        "added": 2,
+        "changed": 2,
+        "removed": 4
+      }
+    }
+  ],
+  "source_checks_had_errors": false,
+  "known_false_positive_fixed": {
+    "package_id": "ilyvion.loadingprogress",
+    "trigger": "A previously acknowledged README listing was compared with an equivalent status name and repeatedly flagged.",
+    "fix": "Normalize accepted_translation_listing to listed_in_readme only for monitor comparison. Native acceptance remains false.",
+    "verification": "Regression test added;86tests passed locally."
+  },
+  "limits": [
+    "File-tree changes and Steam timestamps do not prove changed English keys, errors or translation freshness.",
+    "Zero separate key-snapshot sources are configured; source-key changes still require local extraction/review.",
+    "Changed upstream baselines were preserved until their impact is reviewed.",
+    "The workflow does not author translations, contact authors or upload to Steam."
+  ]
+}

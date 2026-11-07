@@ -585,6 +585,16 @@ class ProjectTests(unittest.TestCase):
         self.save()
         self.assertEqual(rw.registry(self.root)["counts"]["accepted"], 0)
 
+    def test_acknowledged_readme_listing_does_not_repeat_merge_alert(self):
+        self.mod["integration"] = {"pr_url": "https://github.com/author/mod/pull/1",
+                                   "target_kind": "translation_listing", "status": "accepted_translation_listing"}
+        with patch.object(rw, "fetch_bytes", return_value=b'{"state":"closed","merged_at":"2026-11-01T00:00:00Z"}'):
+            result = rw.check_integration(self.mod)
+        self.assertEqual(result["status"], "listed_in_readme")
+        self.assertFalse(result["action_required"])
+        self.save()
+        self.assertEqual(rw.registry(self.root)["counts"]["accepted"], 0)
+
     def test_redirect_never_sends_api_token_to_raw_content(self):
         request = rw.urllib.request.Request("https://api.github.com/repos/author/mod", headers={"Authorization": "Bearer never-write-real-token"})
         redirected = rw.NoUnsafeRedirect().redirect_request(request, None, 302, "Found", {}, "https://raw.githubusercontent.com/author/mod/main/file")
